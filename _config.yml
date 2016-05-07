@@ -63,28 +63,29 @@ google_ad_slot           :
 author:
   name             : "Francis T. O'Donovan"
   avatar           : "bio-photo.jpg"
-  bio              : "Senior Data Scientist at InsightSquared.\nPlanet discoverer, researcher, developer, geek."
+  bio              : "Senior Data Scientist at InsightSquared.
+                      Planet discoverer, researcher, developer, geek."
   location         : "Boston, MA"
   email            : fodonovan@insightsquared.com
   uri              :
-  bitbucket        : https://bitbucket.org/francis_odonovan/
+  bitbucket        : francis_odonovan
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/proinsias
-  google_plus      : https://plus.google.com/105029836005787575560
+  github           : proinsias
+  google_plus      : 105029836005787575560
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/francistodonovan
+  linkedin         : francistodonovan
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : http://stackoverflow.com/users/1257318/proinsias
   steam            :
   tumblr           :
-  twitter          : https://twitter.com/francisodonovan
+  twitter          : francisodonovan
   vine             :
   weibo            :
   xing             :
