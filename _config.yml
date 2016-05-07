@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Per ardua ad astra"
 title_separator          : "-"
 name                     : "Francis T. O'Donovan"
-description              : "An amazing website."
+description              : "My home on the web."
 url                      : "https://proinsias.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  :
+gh_repo                  : proinsias.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -63,28 +63,28 @@ google_ad_slot           :
 author:
   name             : "Francis T. O'Donovan"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Senior Data Scientist at InsightSquared.\nPlanet discoverer, researcher, developer, geek."
   location         : "Boston, MA"
-  email            : 
+  email            : fodonovan@insightsquared.com
   uri              :
-  bitbucket        :
+  bitbucket        : https://bitbucket.org/francis_odonovan/
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  google_plus      :
+  github           : https://github.com/proinsias
+  google_plus      : https://plus.google.com/105029836005787575560
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/francistodonovan
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : https://twitter.com/francisodonovan
   vine             :
   weibo            :
   xing             :
