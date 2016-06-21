@@ -1,0 +1,145 @@
+# Use this file to configure the Overcommit hooks you wish to use. This will
+# extend the default configuration defined in:
+# https://github.com/brigade/overcommit/blob/master/config/default.yml
+#
+# At the topmost level of this YAML file is a key representing type of hook
+# being run (e.g. pre-commit, commit-msg, etc.). Within each type you can
+# customize each hook, such as whether to only run it on certain files (via
+# `include`), whether to only display output if it fails (via `quiet`), etc.
+#
+# For a complete list of hooks, see:
+# https://github.com/brigade/overcommit/tree/master/lib/overcommit/hook
+#
+# For a complete list of options that you can use to customize hooks, see:
+# https://github.com/brigade/overcommit#configuration
+
+PreCommit:
+  BashSyntax:
+    enabled: true
+    quiet: false
+    include: '**/*.sh'
+    required_executable: './scripts/bash_syntax.sh'
+  CopyrightYear:
+    enabled: true
+    quiet: false
+    required_executable: './scripts/copyright_year.sh'
+  CssLint:
+    enabled: true
+  Eslint:
+    enabled: true
+  ExecutePermissions:
+    enabled: true
+    exclude:
+      - 'scripts/bash_syntax.sh'
+      - 'scripts/copyright_year.sh'
+      - 'scripts/freespace.sh'
+  HardTabs:
+    enabled: true
+  HtmlHint:
+    enabled: true
+  ImageOptim:
+    enabled: true
+  JavaCheckstyle:
+    enabled: true
+  Jscs:
+    enabled: true
+  JsHint:
+    enabled: true
+  JsLint:
+    enabled: true
+  JsonSyntax:
+    enabled: true
+  Pep257:
+    enabled: true
+  Pep8:
+    enabled: true
+  Pyflakes:
+    enabled: true
+  Pylint:
+    enabled: true
+  PythonFlake8:
+    enabled: true
+  SemiStandard:
+    enabled: true
+  Standard:
+    enabled: true
+  ShellCheck:
+    enabled: true
+  Sqlint:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true
+  TravisLint:
+    enabled: true
+  W3cCss:
+    enabled: true
+  W3cHtml:
+    enabled: true
+  XmlLint:
+    enabled: true
+  XmlSyntax:
+    enabled: true
+  YamlSyntax:
+    enabled: true
+    include:
+      - '**/*.yaml'
+      - '**/*.yml'
+      - '**/.*.yml' # To parse this!
+
+CommitMsg:
+  HardTabs:
+    enabled: true
+  RussianNovel:
+    enabled: true
+  SpellCheck:
+    enabled: true
+    install_command: 'brew install hunspell'
+  TextWidth:
+    enabled: true
+    max_subject_width: 50
+#  MessageFormat:
+#    enabled: true
+#    pattern: '\[#(\d+)\](.+)'
+#    expected_pattern_message: '[#<Issue Id>] <Commit Message Description>'
+#    sample_message: '[#1234] Refactored Onboarding flow'
+
+PostCheckout:
+  SubmoduleStatus:
+    enabled: true
+    quiet: false
+    recursive: true
+
+PostCommit:
+  GitGuilt:
+    enabled: true
+    requires_files: false
+  SubmoduleStatus:
+    enabled: true
+    quiet: false
+    recursive: true
+
+PostMerge:
+  SubmoduleStatus:
+    enabled: true
+    quiet: false
+    recursive: true
+
+PostRewrite:
+  SubmoduleStatus:
+    enabled: true
+    quiet: false
+    recursive: true
+
+PrePush:
+  ProtectedBranches:
+    enabled: true
+
+PreRebase:
+  MergedCommits:
+    enabled: true
+
+PreReceive:
+  FreeSpace:
+    enabled: true
+    quiet: false
+    required_executable: './scripts/freespace.sh'
