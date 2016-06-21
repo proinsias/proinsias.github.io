@@ -14,7 +14,11 @@ image:
   feature: about-michael-collage-2016.jpg
   teaser: about-teaser.jpg
 
+-->
 
+This is going to be filled with clever wit and inspiring quotes. 
+
+<!--
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/paperfaces/) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
 
 ## Contact
