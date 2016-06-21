@@ -4,14 +4,14 @@ layout: single
 excerpt: "Senior Data Scientist at InsightSquared – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
+date: 2016-06-20
+modified: 2016-06-21
 ---
 
 This is going to be filled with clever wit and inspiring quotes. 
 
 <!--
 ---
-date: 2016-06-21
-modified: 2016-06-21
 ads: false
 share: false
 author: false
