@@ -206,6 +206,7 @@ defaults:
       read_time: true
       comments: true
       author_profile: true
+      share: true
 
 # HTML Compression
 # - http://jch.penibelst.de/
