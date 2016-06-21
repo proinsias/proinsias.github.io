@@ -98,6 +98,7 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - [vendor]
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
