@@ -1,22 +1,26 @@
 ---
-permalink: /about/
 title: "About Francis O'Donovan"
+layout: single
+excerpt: "Senior Data Scientist at InsightSquared – Planet discoverer, researcher, developer, geek."
+sitemap: false
+permalink: /about/
+---
+
+This is going to be filled with clever wit and inspiring quotes. 
+
+<!--
+---
 date: 2016-06-21
 modified: 2016-06-21
-excerpt: "Senior Data Scientist at InsightSquared – Planet discoverer, researcher, developer, geek."
 ads: false
 share: false
 author: false
----
-
-<!--
 image:
   feature: about-michael-collage-2016.jpg
   teaser: about-teaser.jpg
+---
 
 -->
-
-This is going to be filled with clever wit and inspiring quotes. 
 
 <!--
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York. I'm into drawing [portraits of strangers]({{ site.url }}/paperfaces/) on an iPad, eating popcorn and [chicken wings](http://www.duffswings.com "Duff's Famous Wings"), watching dust collect on my [vinyl record collection](http://www.discogs.com/user/mmistakes/collection), and playing the occasional iOS game.
