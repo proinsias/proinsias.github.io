@@ -18,7 +18,7 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "google-plus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
@@ -204,6 +204,7 @@ defaults:
       type: posts
     values:
       read_time: true
+      comments: true
 
 # HTML Compression
 # - http://jch.penibelst.de/
