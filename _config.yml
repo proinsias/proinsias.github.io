@@ -205,10 +205,12 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       read_time: true
       comments: true
       author_profile: true
       share: true
+      related: true
 
 # HTML Compression
 # - http://jch.penibelst.de/
