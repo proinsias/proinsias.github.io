@@ -197,6 +197,13 @@ tags:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
 
 # HTML Compression
 # - http://jch.penibelst.de/
