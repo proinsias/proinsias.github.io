@@ -3,14 +3,13 @@ title: "The Little Telescope that Could"
 layout: single
 excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Could..."
 categories: tres
-tags: [TrES, Sleuth, Palomar, astronomy, Caltech]
-featured: true
 date: 2006-04-01
 modified: 2016-06-30
 ---
 
 <!--
 TODO:
+tags: [TrES, Sleuth, Palomar, astronomy, Caltech]
 Add links below to new site pages - e.g., Sleuth, TrES
 -->
 
@@ -157,6 +156,6 @@ in 2009. [↩](#a3)
 <sup><b id="f4">4</b></sup>
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b),
 [TrES-3](https://en.wikipedia.org/wiki/TrES-3b),
-[TrES-4](https://en.wikipedia.org/wiki/TrES-4b),
+[TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and 
 [TrES-5](http://exoplanet.eu/catalog/tres-5_/), have indeed been
 discovered. [↩](#a4)  
