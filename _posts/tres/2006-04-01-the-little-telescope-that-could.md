@@ -10,7 +10,6 @@ modified: 2016-06-30
 <!--
 TODO:
 tags: [TrES, Sleuth, Palomar, astronomy, Caltech]
-Add links below to new site pages - e.g., Sleuth, TrES
 -->
 
 *This article was originally published in
@@ -24,7 +23,7 @@ would be forgiven for paying scant attention to the small hut-like
 structure shown in [Figure 1](#fig1). A few minutes walk from the gigantic dome of the
 five-meter (200-inch)
 [Hale Telescope](http://www.astro.caltech.edu/palomar/about/telescopes/hale.html),
-the clamshell enclosure houses a small telescope named Sleuth. The
+the clamshell enclosure houses a small telescope named [Sleuth](../sleuth.html). The
 diameter of Sleuth's camera lens is relatively small, only 10 cm. The
 telescope itself would blend in well in a store for the astronomy
 enthusiast. And yet, this inconspicuous telescope is contributing to
@@ -117,7 +116,8 @@ and can observe each night, weather permitting.
 
 Unfortunately, the weather on the mountain does not always cooperate
 with our plans. Fortunately, Sleuth is part of an international
-network of three telescopes, the Transatlantic Exoplanet Survey (TrES,
+network of three telescopes, the Transatlantic Exoplanet Survey
+([TrES](../index.html), 
 the Spanish for “three”). The telescopes are located in California,
 Arizona and Tenerife, Spain. Observation of the same area of the sky
 with each of the telescopes allows for continuous monitoring even if

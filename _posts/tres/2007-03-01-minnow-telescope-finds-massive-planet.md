@@ -11,7 +11,6 @@ modified: 2016-07-06
 
 <!--
 TODO:
-Add links below to new site pages - e.g., Sleuth, TrES
 tags: [TrES, Sleuth, Palomar, astronomy, Caltech]
 -->
 
@@ -52,10 +51,11 @@ the latest and greatest technology. However, one of the most recently
 discovered “exoplanets” was identified using a trio of amateur
 telescopes. The humble telescopes used in the discovery were built
 using off-the-shelf 10-cm camera lenses. The three telescopes shown in
-[Figure 1](#fig1) – Sleuth, the Planet Search Survey Telescope and the STellar
+[Figure 1](#fig1) – [Sleuth](../sleuth.html), the Planet Search Survey Telescope and the STellar
 Astrophysics and Research on Exoplanets
 ([STARE](http://www.hao.ucar.edu/research/stare/stare.html)) telescope
-– form a network called the Trans-atlantic Exoplanet Survey (TrES).
+– form a network called the Trans-atlantic Exoplanet Survey
+([TrES](../index.html)).
 Our TrES team has so far<sup id="a2">[2](#f2)</sup> identified two
 planets, imaginatively called
 [TrES-1](https://en.wikipedia.org/wiki/TrES-1b) and
@@ -184,7 +184,7 @@ observations are transferred over the internet to the observer’s home
 computer.
 
 The three telescopes also act as backups for each other during periods
-of bad weather. For example, the PSST at
+of bad weather. For example, the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) at
 [Lowell Observatory](https://lowell.edu/) in Arizona experiences a
 monsoon every summer, during which very little observing is
 possible. Since the summer nights at
