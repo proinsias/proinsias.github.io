@@ -26,4 +26,4 @@ Data scientists often say that they want access to the 'raw data'
 
 (via [Simply Statistics](http://simplystatistics.org/2016/07/20/relativity-raw-data/))
 
-
+If you're interested in how to maintain this "chain of custody", check out [Recipy](https://github.com/recipy/recipy), an "effortless method to record provenance in Python". You simply add a single line of code to your Python code, and `Recipy` will keep track of how exactly your output files were created. 
