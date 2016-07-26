@@ -53,7 +53,7 @@ See the STARE webpage for a summary of [The Search for Exoplanets](http://www.ha
 
 <h2 id="news">News</h2>
 
-* Number 5 is in the bag..., TrES-5!
+* Number 5 is in the bag..., [TrES-5](tres5.html)!
 
 * We've found the largest known transiting planet, [TrES-4](tres4.html)!
 
