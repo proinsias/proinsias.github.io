@@ -1,0 +1,77 @@
+---
+permalink: /.well-known/keybase.txt
+---
+==================================================================
+https://keybase.io/proinsias
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://proinsias.github.io
+  * I am proinsias (https://keybase.io/proinsias) on keybase.
+  * I have a public key with fingerprint 0719 E1AA B61B CE11 D832  E49B 45C6 D6F2 D2E0 BEAC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101fe6c31fa158a18a32eafb609e1931dc079cba456946810a77144dffe0b26deea0a",
+            "fingerprint": "0719e1aab61bce11d832e49b45c6d6f2d2e0beac",
+            "host": "keybase.io",
+            "key_id": "45c6d6f2d2e0beac",
+            "kid": "0101fe6c31fa158a18a32eafb609e1931dc079cba456946810a77144dffe0b26deea0a",
+            "uid": "d4c17ebadc0db7b8eb5f8f1fe1898919",
+            "username": "proinsias"
+        },
+        "service": {
+            "hostname": "proinsias.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470277595,
+    "expire_in": 157680000,
+    "prev": "310ac8b10a5d6675a39f115299e5907b7870c2f3b08167210271b7c1d8452204",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owGtUm1QVFUYZldoCGNEB5XEGfM2AcEO3XP3fi40gAhtjaMxjgF9CPfjXLgiu+ve
+BUXBdiLpA0M2FWSQYAVSiGLKoURByDQdEcVIZKj4WMAwSs0IoSnoXKo/TT87P86Z
+887zPO/zvOeU+i/y0uuCuDWHuveXxuq6bgteyceOe/ZgglXKw0x7sCy4cMDtElQd
+aVmKhJkwHOBAhrRoBDIPKJYHLG8kIC8LNM5BwBmBJOIMJwo8SdEcSbMA5xkGkKQk
+yxAXCFqCkMd5zIDJiiUD2m12xeLQZBmA6Dwv0EAQIQASi1RJTiApkZZomZAIxIa8
+iIiZVlVjIHMCr8JIxYpq6JK2YO8/8P+z75wFOYkUAQMFHrEkgRFYKFAyK6MOgOVY
+DnAaUIV2C58NEdpmtyoWVeFVrMCAoXKuIkJtslqUf0MiMxRHZo7wVy5UdVhF63YE
+yHQ4bKpJE3Dk2TTGTiik/a2VJigWCc0TMXKhXVWsFswEEFJ0KJo4IBmcYBiKowwY
+3GVT7DBN0RAUQ7M4WlofmIuZ0jEjii2yAtopiaYZijdyMgAUwXGQ4nBGYFgGFwnZ
+KOAsoBkCIFkgMCJ6LpIiCJzEtHg7LFbMhFo5+AxkU1UyLLwjxw6xAr+39Ku9vXR6
+r4d89NpP8/J7OOCf7/dM0ZL5rdnBv9vdvW09huOJFdNPBs+PPvD/vIsSh7hDnasC
+3o5eKR+pmH314HmXS33/hvPittZLX1+anhkwX3+iPDzg5Q+Lx7o/GC8JzNxaMTVk
+C8o7EBnsExWVVFaenG+vSy+HN8RN34yEr+/beKJwotWelbA8NiWhybV4I/9o+IW4
+mbBm5Uic0Zw890q4tX738L36XO+Pr+mV2qdutSUptorARqXIdff8Y6c8z+4K87oZ
+05hS7XeQrTvdO5my8n5R0OB4+uDSqbrvqmqvfbUhQb2wz3fLZ6kNtVPPR569Dodf
+2HTsjY5V/Sf3Vm6+fHY6en1Sf/PoXKx+cebmkZ6f4h9U6x5viV27tGlnn6dnX2dX
+foRMGS+/t6WFeCfU7eyumWPL3eMXQxyfhoyTMhEy+eIdgzHsudn+vrbcFVcaj5Lt
+J/udawY7zbZ3lQ3OlhMZp7uqaDnUOdw8Pvf0rzpnR0QlrPmBjanqqS5cl3r3aEyJ
+m+M9n0yOLmnteTNGhVdGuJCgc95Btxt890bPpk58tD7QnHg/tPeX4oEqi35izPXt
+96/TL820NoR/UX9P3l2bWDJ/5kxBZfZA6OqEEkt8nOuwT8zyFe3rHtkxdvgP/a2b
+PxasrVt2qr3GPdmnyy8tLOvfZvL4RywLVMjinKGfDX5NHsxtdnV86fva1aZFB6KK
+zl39jbhTg5fFj5j/BA==
+=JkiZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/proinsias
+
+==================================================================
