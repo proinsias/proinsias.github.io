@@ -1,14 +1,15 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: "Senior Data Scientist at InsightSquared – Planet discoverer, researcher, developer, geek."
+excerpt: "Senior Data Scientist at OM1 – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
 date: 2016-06-20
-modified: 2016-06-21
+modified: 2017-04-25
 ---
 
-This is going to be filled with clever wit and inspiring quotes. 
+To see the various ways to contact me (including an easy way to encrypt messages via GPG),
+check out my [Keybase](https://keybase.io/proinsias) page.
 
 <!--
 ---
