@@ -12,6 +12,7 @@ title_separator          : "-"
 name                     : "Francis T. O'Donovan"
 description              : "My home on the web."
 url                      : "https://proinsias.github.io"
+repository               : proinsias/proinsias.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : proinsias.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
