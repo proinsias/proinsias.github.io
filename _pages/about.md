@@ -1,7 +1,7 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: "Senior Data Scientist at OM1 – Planet discoverer, researcher, developer, geek."
+excerpt: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
 date: 2016-06-20
