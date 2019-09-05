@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Mac: Emoji"
-date:
-modified:
+date: 2017-07-12 14:16
+modified: 2017-07-12 14:16
 ---
 
 Press the Command-Control-space to launch the characters palette.

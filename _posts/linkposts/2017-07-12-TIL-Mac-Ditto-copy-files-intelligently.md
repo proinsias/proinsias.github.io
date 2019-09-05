@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Mac: Copy files intelligently with ditto"
-date:
-modified:
+date: 2017-07-12 14:07
+modified: 2017-07-12 14:07
 ---
 
 > `ditto` is slightly more advanced but can be advantageous to ‘cp’ for several reasons,

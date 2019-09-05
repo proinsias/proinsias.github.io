@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Mac: Power shortcuts"
-date:
-modified:
+date: 2017-04-05 21:08
+modified: 2017-04-05 21:08
 ---
 
 * `Control-Command-Power/Eject` will reboot the Mac instantly.

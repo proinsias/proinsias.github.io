@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Mac: Sync with time server (Mojave)"
-date:
-modified:
+date: 2018-10-25 12:42
+modified: 2018-10-25 12:42
 ---
 
 To check and update your system time in macos Mojave:
