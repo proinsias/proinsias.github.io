@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Bash: Jump To The Ends Of Your Shell History"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 There are all sorts of ways to do things in your shell environment without

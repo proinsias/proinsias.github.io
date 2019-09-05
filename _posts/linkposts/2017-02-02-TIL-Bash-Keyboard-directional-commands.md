@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Bash: Directional Commands"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 You can move the cursor without arrow keys. Here is the keyboard equivalent for each.

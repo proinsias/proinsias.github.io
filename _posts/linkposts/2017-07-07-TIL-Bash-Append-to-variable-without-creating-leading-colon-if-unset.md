@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Bash: Append to variable without creating leading colon if unset"
-date:
-modified:
+date: 2017-07-07 14:55
+modified: 2017-07-07 14:55
 ---
 
 Say you need to append a directory to `PATH`, but only add a leading `:` if `PATH` is
