@@ -1,0 +1,14 @@
+---
+layout: single
+title: "(TIL) Nix: Force cpus to run at max with stress"
+date:
+modified:
+---
+
+To make your 4 CPUs run flat out for 60 seconds:
+
+```bash
+stress --cpu 4 --timeout 60s
+```
+
+Via [unix.stackexchange.com](https://unix.stackexchange.com/q/432261/198328).

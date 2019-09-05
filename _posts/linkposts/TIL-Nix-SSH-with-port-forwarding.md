@@ -1,0 +1,14 @@
+---
+layout: single
+title: "(TIL) Nix: SSH With Port Forwarding"
+date:
+modified:
+---
+
+Use the `-L` flag with `ssh` to forward a connection to a remote server
+
+```bash
+ssh someserver -L3000:localhost:3000
+```
+
+Via [jbranchaud/til](https://github.com/jbranchaud/til).
