@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Jupyter: Share variables"
-date:
-modified:
+date: 2017-11-14 15:51
+modified: 2017-11-14 15:51
 ---
 
 To pass variables between notebooks, first store the variable using:

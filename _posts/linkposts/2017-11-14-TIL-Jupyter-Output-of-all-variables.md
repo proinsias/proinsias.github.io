@@ -1,10 +1,9 @@
 ---
 layout: single
 title: "(TIL) Jupyter: Output of all variables"
-date:
-modified:
+date: 2017-11-14 15:51
+modified: 2017-11-14 15:51
 ---
-
 
 > If you try to see the output of more variables without explicitly writing `print` in
 front of each, only the last one gets outputted. With this, you get them all:

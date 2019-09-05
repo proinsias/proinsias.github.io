@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Jupyter: Set environment variables"
-date:
-modified:
+date: 2017-11-14 15:51
+modified: 2017-11-14 15:51
 ---
 
 You can set environment variables directly from the notebook without having to restart the kernel:

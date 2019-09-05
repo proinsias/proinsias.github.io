@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Jupyter: Show contents of external script"
-date:
-modified:
+date: 2017-11-14 15:51
+modified: 2017-11-14 15:51
 ---
 
 `%pycat` shows you (in a popup) the syntax highlighted contents of an external file:
