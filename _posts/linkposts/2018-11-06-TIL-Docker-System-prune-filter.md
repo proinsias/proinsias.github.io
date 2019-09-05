@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Docker: Filtered system prune"
-date:
-modified:
+date: 2018-11-06 10:20
+modified: 2018-11-06 10:20
 ---
 
 Every now and then I run:

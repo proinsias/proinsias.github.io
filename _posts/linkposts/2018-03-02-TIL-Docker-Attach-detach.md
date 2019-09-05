@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Docker: Attach/Detach"
-date:
-modified:
+date: 2018-03-02 19:40
+modified: 2018-03-02 19:40
 ---
 
 To detach from a container, you hold `Ctrl` and press `P`, then `Q`.

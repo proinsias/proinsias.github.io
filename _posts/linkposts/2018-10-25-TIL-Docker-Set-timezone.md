@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Docker: Set Timezone"
-date:
-modified:
+date: 2018-10-25 12:38
+modified: 2018-10-25 12:38
 ---
 
 To set which timezone your docker container should use,

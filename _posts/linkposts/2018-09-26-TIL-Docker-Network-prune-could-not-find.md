@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Docker: 'Could not find' with network prune"
-date:
-modified:
+date: 2018-09-26 16:00
+modified: 2018-09-26 16:00
 ---
 
 If you encounter the following error when starting a docker container:

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Docker: Start Container as Root User"
-date:
-modified:
+date: 2018-09-27 10:25
+modified: 2018-09-27 10:25
 ---
 
 When `sudo` is not available in container,
