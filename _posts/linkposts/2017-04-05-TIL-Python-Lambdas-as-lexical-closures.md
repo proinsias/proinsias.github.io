@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Lambdas as lexical closures"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 A 'lexical closure' is a fancy name for a function that remembers the values

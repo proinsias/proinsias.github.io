@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Print without newline"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 To print a string without appending the usual newline, use the `end` parameter of the

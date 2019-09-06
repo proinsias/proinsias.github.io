@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Sort lists naturally not lexicographically with natsort"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 When you try to sort a list of strings that contain numbers, the normal `python` `sort`

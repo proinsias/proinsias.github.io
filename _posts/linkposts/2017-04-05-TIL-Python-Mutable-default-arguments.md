@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Mutable default arguments"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 __NOTE__: Information taken from [python guide](http://docs.python-guide.org/en/latest/writing/gotchas/)

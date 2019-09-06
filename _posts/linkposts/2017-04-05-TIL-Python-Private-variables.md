@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Private variables"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 To make Python treat a variable as pseudo-private, follow the convention of putting two

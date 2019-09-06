@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Collect garbage"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 If you have a variable with a large memory footprint, you can force garbage collection

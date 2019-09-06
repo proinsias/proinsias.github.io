@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Normalize text with unicodedata"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 Using the `unicodedata` Python module it's easy to normalize any unicode data strings

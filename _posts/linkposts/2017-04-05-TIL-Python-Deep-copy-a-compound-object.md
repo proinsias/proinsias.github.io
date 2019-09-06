@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Deep copy a compound object"
-date: 2017-04-05
-modified: 2017-04-05
+date: 2017-04-05 05:23
+modified: 2017-04-05 05:34
 ---
 
 > Assignment statements in Python do not copy objects, they create bindings between a
