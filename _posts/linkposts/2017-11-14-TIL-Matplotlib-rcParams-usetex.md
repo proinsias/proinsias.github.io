@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Matplotlib: Use LaTeX"
-date:
-modified:
+date: 2017-11-14 15:51
+modified: 2017-11-14 15:51
 ---
 
 Use LaTex in your plots:

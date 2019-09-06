@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Matplotlib: Clearing a figure"
-date:
-modified:
+date: 2017-03-10 14:29
+modified: 2017-03-10 14:29
 ---
 
 ```python

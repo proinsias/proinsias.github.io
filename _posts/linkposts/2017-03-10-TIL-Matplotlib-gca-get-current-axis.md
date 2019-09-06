@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Matplotlib: Get current axis"
-date:
-modified:
+date: 2017-03-10 14:17
+modified: 2017-03-10 14:17
 ---
 
 `matplotlib.pyplot.gca(**kwargs)` gets the current `Axes` instance on the current

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Matplotlib: Use logarithmic scale"
-date:
-modified:
+date: 2017-03-10 14:14
+modified: 2017-03-10 14:14
 ---
 
 ```python
