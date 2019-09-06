@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: Word Count for a Column"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 Assuming I have a database with a posts table:

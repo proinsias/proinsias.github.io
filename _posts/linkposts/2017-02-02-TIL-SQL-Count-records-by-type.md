@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: Count Records By Type"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 If you have a table with some sort of type column on it, you can come up

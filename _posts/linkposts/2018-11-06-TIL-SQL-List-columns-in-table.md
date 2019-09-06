@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: List Columns in Table"
-date:
-modified:
+date: 2018-11-06 10:57
+modified: 2018-11-06 10:57
 ---
 
 The `ANSI` standard way of listing all columns in a database table is:

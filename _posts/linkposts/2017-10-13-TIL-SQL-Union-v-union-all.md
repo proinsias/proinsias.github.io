@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: UNION v UNION ALL"
-date:
-modified:
+date: 2017-10-13 13:36
+modified: 2017-10-13 13:36
 ---
 
 `UNION` removes duplicate records, whereas `UNION ALL` does not.

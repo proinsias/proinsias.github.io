@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: Day Of Week By Name For A Date"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 In [Day Of Week For A Date](day-of-week-for-a-date.md), I explained how to

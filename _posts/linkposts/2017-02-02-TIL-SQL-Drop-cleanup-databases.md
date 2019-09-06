@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) SQL: Cleanup Databases"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 ```sql
