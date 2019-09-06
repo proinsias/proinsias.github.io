@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python:  Generate random but reproducible UUID with seed"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 I often generate UUIDs (

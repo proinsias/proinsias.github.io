@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Thousands Separator in Formatted Strings"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 It's very easy to add thousands separators to numbers:

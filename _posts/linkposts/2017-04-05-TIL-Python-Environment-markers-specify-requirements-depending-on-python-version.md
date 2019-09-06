@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Specify requirements depending on python version using environment markers"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 You can use the [environment markers](https://www.python.org/dev/peps/pep-0496/)

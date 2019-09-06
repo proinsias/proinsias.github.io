@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Flushing while printing"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 > Since Python 3.3, you can force the normal `print()` function to flush without the need to use

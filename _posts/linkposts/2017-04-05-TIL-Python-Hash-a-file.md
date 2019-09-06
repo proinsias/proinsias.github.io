@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Hash a file"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 ```python

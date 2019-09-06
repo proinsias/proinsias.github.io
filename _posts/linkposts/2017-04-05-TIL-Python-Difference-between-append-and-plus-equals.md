@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Difference between append and '+='"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 In many applications `+=` and `append` are interchangeable,

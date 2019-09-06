@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Lambdas as function expressions"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 How do you define an function inline and then immediately call it? Like this:

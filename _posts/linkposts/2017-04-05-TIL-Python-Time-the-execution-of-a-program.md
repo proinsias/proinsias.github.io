@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Time the execution of a program"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 ```python

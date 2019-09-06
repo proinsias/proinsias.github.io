@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Invert a mapping"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 Given this dictionary:

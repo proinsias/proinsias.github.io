@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: SpooledTemporaryFile"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 The `tempfile.SpooledTemporaryFile` function operates exactly as `TemporaryFile()` does,

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: An improved tuple"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 A downside of plain `tuple`s is that the data you store in them can only be pulled out by

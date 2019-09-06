@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Find the most common elements in an iterable"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 ```python

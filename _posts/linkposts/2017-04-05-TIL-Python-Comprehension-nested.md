@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Nested Comprehensions"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 You probably know how to rewrite a for loop such as:

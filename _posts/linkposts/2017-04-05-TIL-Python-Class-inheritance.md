@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Class inheritance"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 You can check for class inheritance relationships with the `issubclass()` built-in:

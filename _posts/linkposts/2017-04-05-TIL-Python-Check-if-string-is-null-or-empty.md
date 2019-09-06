@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: Check if string is null or empty"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 ```python

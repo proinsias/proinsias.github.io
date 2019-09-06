@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python: The last value printed"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 In the python REPL, `_` is assigned the last value printed:

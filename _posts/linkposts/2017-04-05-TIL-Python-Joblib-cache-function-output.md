@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Python:  Cache function output"
-date:
-modified:
+date: 2017-04-05
+modified: 2017-04-05
 ---
 
 > Joblib traces parameters passed to a function, and if the function has been called with the
