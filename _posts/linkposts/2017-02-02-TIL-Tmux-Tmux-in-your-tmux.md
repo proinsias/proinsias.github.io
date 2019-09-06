@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: tmux in your tmux"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 If you are running tmux locally and you shell into another machine to

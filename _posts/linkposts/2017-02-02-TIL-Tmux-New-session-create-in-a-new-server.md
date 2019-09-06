@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: Create A New Session In A New Server"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 Any tmux command will, by default, be invoked against the `default`

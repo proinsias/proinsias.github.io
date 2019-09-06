@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: Rename The Current Session"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 If you've created an unnamed tmux session or you no longer like the original

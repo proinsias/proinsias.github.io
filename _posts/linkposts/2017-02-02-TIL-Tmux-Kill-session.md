@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: Kill The Current Session"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 When you are done with the current tmux session and you no longer need it,

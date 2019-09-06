@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: List All Key Bindings"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 There are a couple ways to list all the tmux key bindings. If you are not

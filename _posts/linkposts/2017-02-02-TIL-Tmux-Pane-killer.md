@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: Pane Killer"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 The current pane can be _killed_ (closed) using the following key binding:

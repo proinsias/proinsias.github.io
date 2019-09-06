@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: Paging Up And Down"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 When in _copy mode_ (`<prefix>[`), you can move the cursor around like you

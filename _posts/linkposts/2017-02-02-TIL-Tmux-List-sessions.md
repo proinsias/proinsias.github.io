@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Tmux: List Sessions"
-date:
-modified:
+date: 2017-02-02 20:57
+modified: 2017-02-02 20:57
 ---
 
 Not sure if `tmux` is running or, if it is, which sessions are available?
