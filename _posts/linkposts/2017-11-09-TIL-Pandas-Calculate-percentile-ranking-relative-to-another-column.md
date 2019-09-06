@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Calculate percentile ranking relative to another column"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 Say we have two columns of data representing the same quantity;

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: sort_index"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 Dataframes have a new `sort_index` method to sort a dataframe by index.

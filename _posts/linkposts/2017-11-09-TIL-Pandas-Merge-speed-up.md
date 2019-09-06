@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Speed up merges"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 You can improve the speed of a `merge` by first specifying the key column of the merge

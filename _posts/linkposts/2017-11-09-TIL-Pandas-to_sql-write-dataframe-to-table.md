@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Write DataFrame to table with to_sql"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 You can write DataFrames to a database table via a `sqlalchemy` connection as follows:

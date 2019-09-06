@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Get Memory usage of DataFrame with info"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 The memory usage of a DataFrame (including the index) is shown when accessing the `info`

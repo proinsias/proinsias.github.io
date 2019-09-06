@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: DateOffset as a Frequency Increment"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 `pandas`' `DateOffset` represents a regular frequency increment:

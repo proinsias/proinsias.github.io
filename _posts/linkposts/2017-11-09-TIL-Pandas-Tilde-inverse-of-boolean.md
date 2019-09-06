@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Inverse of boolean"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 In `pandas`, you can use the tilde (`~`) to flip `bool` values:

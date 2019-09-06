@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Count number of non-NaN entries"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 The `count()` method returns the number of non-NaN values in each column.

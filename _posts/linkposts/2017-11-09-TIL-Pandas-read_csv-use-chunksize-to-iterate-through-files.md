@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Use chunksize to iterate through files with read_Csv"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 Suppose you wish to iterate through a (potentially very large) file lazily rather than

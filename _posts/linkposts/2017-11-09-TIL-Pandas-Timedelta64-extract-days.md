@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Extract days from a timedelta64"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 To extract the integer value of days from a `numpy.timedelta64` in `pandas`, use `dt.days`

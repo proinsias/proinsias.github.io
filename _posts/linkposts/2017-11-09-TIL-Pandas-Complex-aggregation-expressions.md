@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Complex aggregation expressions"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 ```python

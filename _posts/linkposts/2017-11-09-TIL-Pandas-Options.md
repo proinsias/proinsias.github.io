@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Pandas: Options"
-date:
-modified:
+date: 2017-11-09 12:35
+modified: 2017-11-09 12:35
 ---
 
 You can use the following functions to interact with the options in `pandas`:
