@@ -32,9 +32,6 @@ Postgres also supports two-dimensional arrays.
 
 ```sql
 select array[[1,2,3],[4,5,6],[7,8,9]] telephone;
-#         telephone
-#---------------------------
-# {{1,2,3},{4,5,6},{7,8,9}}
 ```
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).
