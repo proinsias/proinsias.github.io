@@ -24,9 +24,6 @@ You can also select rectangular slices from two dimensional arrays like so:
 
 ```sql
 > select (array[[1,2,3],[4,5,6],[7,8,9]])[2:3][1:2];
-     array
----------------
- {{4,5},{7,8}}
 ```
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).
