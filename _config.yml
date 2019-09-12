@@ -5,27 +5,76 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "An independent mind..."
 title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Francis T. O'Donovan"
 description              : "My home on the web."
 url                      : "https://proinsias.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : proinsias.github.io
+repository               : proinsias/proinsias.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment by {fields.name}"
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 
 # SEO Related
 google_site_verification :
@@ -50,16 +99,13 @@ social:
     - "https://twitter.com/francisodonovan"
     - "https://www.linkedin.com/in/francistodonovan"
     # - "https://plus.google.com/your_profile"
+
 # Analytics
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-79669521-1
-
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
-
+    anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
@@ -68,30 +114,54 @@ author:
   bio              : "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
   location         : "Boston, MA"
   email            : francis.odonovan@gmail.com
-  uri              : https://proinsias.github.io/
-  bitbucket        : francis_odonovan
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : proinsias
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : francistodonovan
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 1257318/proinsias
-  steam            :
-  tumblr           :
-  twitter          : francisodonovan
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://proinsias.github.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/francisodonovan"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/proinsias"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/francis_odonovan/"
 
+  bitbucket        : francis_odonovan  # FIXME:
+  linkedin         : francistodonovan
+  stackoverflow    : 1257318/proinsias
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/francisodonovan"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/proinsias"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/francis_odonovan/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Reading Files
 include:
@@ -122,6 +192,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -148,6 +220,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink: /:categories/:title/
@@ -156,12 +232,13 @@ paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
+# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -170,8 +247,8 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
-
 
 # Archives
 #  Type
@@ -201,6 +278,15 @@ tags:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
 defaults:
   # _posts
   - scope:
@@ -214,11 +300,3 @@ defaults:
       share: true
       related: true
 
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-remote_theme: "mmistakes/minimal-mistakes"
