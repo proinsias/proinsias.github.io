@@ -52,8 +52,16 @@ $ git stash pop stash@{2}
 
 > If the changes on your branch diverge from the changes in your stash,
 you may run into conflicts when popping or applying your stash.
-Instead, you can use `git stash branch` to create a new branch to apply your stashed changes to.
+Instead, you can use the following to create a new branch to apply your stashed changes to:
 
-> You can delete all of your stashes with: `git stash clear`.
+```bash
+git stash branch
+```
+
+> You can delete all of your stashes with:
+
+```bash
+git stash clear
+```
 
 Via [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/saving-changes/git-stash).
