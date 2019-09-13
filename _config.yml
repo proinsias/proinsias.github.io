@@ -23,12 +23,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 url                      : "https://proinsias.github.io"
 gh_repo                  : proinsias.github.io
+github                   : [metadata]  # https://github.com/github/pages-gem/issues/399
 repository               : proinsias/proinsias.github.io
 email                    : francis.odonovan@gmail.com
-twitter_username: francisodonovan
-github_username: proinsias
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: true
+twitter_username         : francisodonovan
+github_username          : proinsias
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+search                   : true
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 logo                     : # "/assets/images/88x88.png"
 # breadcrumbs            : false # true, false (default)
@@ -191,7 +192,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: #"https://instagram.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/francistodonovan"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
@@ -225,7 +226,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: # "https://instagram.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/francistodonovan"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
@@ -281,27 +282,3 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
-
-# Old format?
-## Social Sharing
-#twitter:
-#  username               : francisodonovan
-#facebook:
-#  username               :
-#  app_id                 :
-#  publisher              :
-#og_image                 : # Open Graph/Twitter default site image
-## For specifying social profiles
-## - https://developers.google.com/structured-data/customize/social-profiles
-#social:
-#  type                   : Person # Person or Organization (defaults to Person)
-#  name                   : # If the user or organization name differs from the site's name
-#  links: # An array of links to social media profiles
-#    - "https://twitter.com/francisodonovan"
-#    - "https://www.linkedin.com/in/francistodonovan"
-#    # - "https://plus.google.com/your_profile"
-#
-#  bitbucket        : francis_odonovan
-#  linkedin         : francistodonovan
-#  stackoverflow    : 1257318/proinsias
