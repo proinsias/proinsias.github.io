@@ -6,5 +6,17 @@ permalink: /tres/tres2.html
 categories: tres
 date: 2016-07-10
 modified: 2016-07-13
+tags:
+  - astronomy
+  - sleuth
+  - tres
 ---
+
+<!--
+TODO:
+
+-->
+
+Placeholder page for now...
+
 

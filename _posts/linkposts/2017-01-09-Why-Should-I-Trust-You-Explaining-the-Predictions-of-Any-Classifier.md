@@ -3,6 +3,9 @@ layout: single
 title: "Why Should I Trust You?: Explaining the Predictions of Any Classifier"
 date: 2017-01-09 13:01
 modified: 2017-01-09 13:01
+tags:
+  - explainability
+  - interpretability
 ---
 
 If you can't understand how a model makes a prediction, how can you trust that prediction?

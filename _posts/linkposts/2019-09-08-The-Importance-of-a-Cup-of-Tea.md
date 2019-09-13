@@ -4,9 +4,9 @@ title: "The Importance of a Cup of Tea"
 date: 2019-09-08 10:14
 modified: 2019-09-08 10:14
 tags:
-- history
-- statistics
-- tests
+  - history
+  - statistics
+  - tests
 excerpt: A discriminating palate leads to novel rigorous statistical methods
 ---
 
