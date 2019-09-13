@@ -12,17 +12,81 @@
 #
 # For a complete list of options that you can use to customize hooks, see:
 # https://github.com/brigade/overcommit#configuration
+#
+# required:     If true, this hook cannot be skipped via the SKIP
+#               environment variable
+# quiet:        If true, this hook does not display any output unless
+#               it warns/fails
+# description:  Message displayed while hook is running.
+#
+# Within a hook category, there is a special type of hook
+# configuration that applies to all hooks in the category. This
+# configuration looks like a normal hook configuration, except it has
+# the name ALL:
+#
+# PreCommit:
+#   ALL:
+#     problem_on_unmodified_line: warn
+#     requires_files: true
+#     required: false
+#     quiet: false
+#
+# SKIP=RuboCop git commit
+# ONLY=RuboCop git commit
+# OVERCOMMIT_DISABLE=1 ./my-custom-script
+
+---
+CommitMsg:
+  HardTabs:
+    enabled: true
+  MessageFormat:
+    enabled: false
+    pattern: '\[#(\d+)\](.+)'
+    expected_pattern_message: '[#<Issue Id>] <Commit Message Description>'
+    sample_message: '[#1234] Refactored Onboarding flow'
+  RussianNovel:
+    enabled: true
+  SpellCheck:
+    enabled: true
+    install_command: 'brew install hunspell'
+  TextWidth:
+    enabled: true
+    max_subject_width: 50
 
 PreCommit:
+  ALL:
+    # report: report errors/warnings as-is regardless of line location (default)
+    # warn: report errors as warnings if they are on lines you didn't modify
+    problem_on_unmodified_line: warn
+  Bandit:
+    enabled: false
+    required_executable: 'bandit'
+    flags: ['--recursive']
+    install_command: 'pip install bandit'
   BashSyntax:
     enabled: true
     quiet: false
     include: '**/*.sh'
-    required_executable: './scripts/bash_syntax.sh'
+    required_executable: 'bash-syntax'
+  BrokenSymlinks:
+    enabled: true
+  BundleAudit:
+    enabled: true
+  BundleCheck:
+    enabled: true
+  BundleOutdated:
+    enabled: true
+  Caniusepython3:
+    enabled: false
+    required_executable: 'caniusepython3'
+    flags: ['--requirements', 'requirements.txt']
+    install_command: 'pip install caniusepython3'
+  CaseConflicts:
+    enabled: true
   CopyrightYear:
     enabled: true
     quiet: false
-    required_executable: './scripts/copyright_year.sh'
+    required_executable: 'copyright-year'
   CssLint:
     enabled: true
   Eslint:
@@ -30,15 +94,36 @@ PreCommit:
   ExecutePermissions:
     enabled: true
     exclude:
-      - 'scripts/bash_syntax.sh'
-      - 'scripts/copyright_year.sh'
-      - 'scripts/freespace.sh'
+      - 'bin/**/*'
+      - 'ci/*.sh'
+  Fasterer:
+    enabled: true
+  FixMe:
+    enabled: true
+    exclude:
+      - 'notebooks/**/*.ipynb'
+  ForbiddenBranches:
+    enabled: false
+  Flay:
+    enabled: true
+  GoLint:
+    enabled: true
+  GoVet:
+    enabled: true
+  Hadolint:
+    enabled: true
+  HamlLint:
+    enabled: true
   HardTabs:
     enabled: true
   HtmlHint:
     enabled: true
+  HtmlTidy:
+    enabled: true
   ImageOptim:
     enabled: true
+    required_executable: 'svgo'
+    install_command: 'brew install svgo'
   JavaCheckstyle:
     enabled: true
   Jscs:
@@ -49,27 +134,105 @@ PreCommit:
     enabled: true
   JsonSyntax:
     enabled: true
-  Pep257:
+  LicenseFinder:
+    enabled: false
+  LicenseHeader:
+    enabled: false
+    license_file: 'LICENSE'
+    include: '**/*.py'
+  # Requires overcommit have access to git version 2.10 or higher.
+  LineEndings:
     enabled: true
-  Pep8:
+  LocalPathsInGemfile:
     enabled: true
+  Markdownlint:
+    enabled: true
+    required_executable: 'markdownlint'
+  Mdl:
+    enabled: true
+  Pycodestyle:
+    on_fail: 'warn'
+    enabled: true
+    flags:
+      # E703 statement ends with a semicolon. Need for matplotlib in Jupyter notebooks.
+      - '--ignore=E211,E231,E703,W291,W293'
+      - '--max-line-length=120'
+      # - '--show-source'  # Don't use!
+    exclude:
+      - 'jupyter/jupyter_notebook_config.py'
+      - 'setup.py'
+  Pydocstyle:
+    enabled: true
+    flags:
+      # - '--explain'  # Don't use!
+      - '--ignore=D100,D103,D203'
+      # - '--source'  # Don't use!
+      # - '--verbose'  # Don't use!
+    exclude:
+      - 'jupyter/jupyter_notebook_config.py'
   Pyflakes:
-    enabled: true
+    enabled: false
   Pylint:
     enabled: true
+    flags:
+      - '--max-line-length=120'
+      - '--msg-template="{path}:{line}:{C}: {msg} ({symbol})"'
+      - '--reports=n'
+      - '--persistent=n'
+    exclude:
+      - 'jupyter/jupyter_notebook_config.py'
+      - 'setup.py'
   PythonFlake8:
     enabled: true
+    flags:
+      - '--doctests'
+      - '--exclude =.git,__pycache__'
+      - '--ignore=F401,F403,F405'
+      - '--max-complexity=10'
+      - '--max-line-length=120'
+      - '--select=E10,E11,E9,F4,F6,F7,F8'
+      - '--show-source'
+    exclude:
+      - 'jupyter/jupyter_notebook_config.py'
+      - 'setup.py'
+  Reek:
+    enabled: true
+  RstLint:
+    enabled: true
+  RuboCop:
+    enabled: true
+  RubyLint:
+    enabled: true
+    exclude: '**/mdl.rb'
+  Safety:
+    enabled: true
+    required_executable: 'safety.sh'
+  Scalariform:
+    enabled: false
+  Scalastyle:
+    enabled: false
+    flags: ['-c', '.idea/scalastyle-config.xml']
   SemiStandard:
     enabled: true
   Standard:
     enabled: true
   ShellCheck:
     enabled: true
+    flags:
+      - '--format=gcc'
+      - '--external-sources'
+      - '--shell=bash'
   Sqlint:
-    enabled: true
+    enabled: false
+  ToDos:
+    enabled: false
+    quiet: false
+    required_executable: 'check-todos'
   TrailingWhitespace:
     enabled: true
   TravisLint:
+    enabled: true
+  Vint:
     enabled: true
   W3cCss:
     enabled: true
@@ -79,60 +242,91 @@ PreCommit:
     enabled: true
   XmlSyntax:
     enabled: true
+  YamlLint:
+    enabled: true
+    flags:
+      - '--config-data "{extends: default, rules: {line-length: {max: 120}}}"'
   YamlSyntax:
     enabled: true
     include:
       - '**/*.yaml'
       - '**/*.yml'
-      - '**/.*.yml' # To parse this!
-
-CommitMsg:
-  HardTabs:
-    enabled: true
-  RussianNovel:
-    enabled: true
-  SpellCheck:
-    enabled: true
-    install_command: 'brew install hunspell'
-  TextWidth:
-    enabled: true
-    max_subject_width: 50
-#  MessageFormat:
-#    enabled: true
-#    pattern: '\[#(\d+)\](.+)'
-#    expected_pattern_message: '[#<Issue Id>] <Commit Message Description>'
-#    sample_message: '[#1234] Refactored Onboarding flow'
+      - '**/.*.yml'  # To parse this!
+  YardCoverage:
+    enabled: false
 
 PostCheckout:
+  BundleInstall:
+    enabled: true
+  # Should no be longer needed with updates to git.
+  GitLfs:
+    enabled: false
+  GitLfs2:
+    enabled: true
+    command: ['git', 'lfs', 'post-checkout']
+  IndexTags:
+    enabled: true
   SubmoduleStatus:
     enabled: true
     quiet: false
     recursive: true
 
 PostCommit:
+  BundleInstall:
+    enabled: true
   GitGuilt:
     enabled: true
     requires_files: false
+  # Should no be longer needed with updates to git.
+  GitLfs:
+    enabled: false
+  GitLfs2:
+    enabled: true
+    command: ['git', 'lfs', 'post-commit']
   SubmoduleStatus:
     enabled: true
     quiet: false
     recursive: true
 
 PostMerge:
+  BundleInstall:
+    enabled: true
+  # Should no be longer needed with updates to git.
+  GitLfs:
+    enabled: false
+  GitLfs2:
+    enabled: true
+    command: ['git', 'lfs', 'post-merge']
+  IndexTags:
+    enabled: true
   SubmoduleStatus:
     enabled: true
     quiet: false
     recursive: true
 
 PostRewrite:
+  BundleInstall:
+    enabled: true
+  IndexTags:
+    enabled: true
   SubmoduleStatus:
     enabled: true
     quiet: false
     recursive: true
 
 PrePush:
+  # Should no be longer needed with updates to git.
+  GitLfs:
+    enabled: false
+  GitLfs2:
+    enabled: true
+    command: ['git', 'lfs', 'pre-push']
   ProtectedBranches:
     enabled: true
+  Pytest:
+    enabled: false
+  PythonNose:
+    enabled: false
 
 PreRebase:
   MergedCommits:
@@ -142,4 +336,4 @@ PreReceive:
   FreeSpace:
     enabled: true
     quiet: false
-    required_executable: './scripts/freespace.sh'
+    required_executable: 'check-freespace'

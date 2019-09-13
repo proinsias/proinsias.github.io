@@ -9,7 +9,7 @@ modified: 2016-07-09
 ---
 
 <!--
-TODO: 
+TODO:
 * Add preprint link for PhD thesis.
 
 -->
@@ -18,7 +18,7 @@ TODO:
 
 <h2 id="intro">Introduction</h2>
 
-| ![Sleuth](../../images/sleuth.jpg) | ![PSST](../../images/psst.jpg) | ![STARE](../../images/stare.jpg) |
+| ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
 TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of [Sleuth](sleuth.html) ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](http://www.iac.es/ot/indice.html), Canary Islands, Spain).
 
@@ -60,7 +60,7 @@ See the STARE webpage for a summary of [The Search for Exoplanets](http://www.ha
 * We've found a transiting planet, [TrES-3](tres3.html), with 1.9 Jupiter masses and
 an orbital period of only 1.3 days!
 
-* [TrES-2](tres2.html), the first known transiting planet in the *Kepler* 
+* [TrES-2](tres2.html), the first known transiting planet in the *Kepler*
 field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
 
 * [First direction detection of light from extrasolar planets!](thermal.html)
@@ -68,11 +68,11 @@ TrES group identifies thermal emission from the hot Jupiter TrES-1.
 
 * TrES group announces the discovery of a new detached M Dwarf Eclipsing Binary!
 
-* Discussion of identifying insidious blend contaminants common in    
+* Discussion of identifying insidious blend contaminants common in
   wide--field transit surveys, such as TrES.
-  
+
 * [TrES Network Success: Transiting Planet Discovered](http://www.hao.ucar.edu/public/research/stare/tres1_2.html)!
-Transits of TrES-1 observered using 10 cm telescope.                 
+Transits of TrES-1 observered using 10 cm telescope.
 
 <h2 id="papers">TrES Publications</h2>
 
@@ -103,7 +103,7 @@ Transits of TrES-1 observered using 10 cm telescope.
 *   [*The Prograde Orbit of Exoplanet TrES-2b*](http://adsabs.harvard.edu/abs/2008ApJ...682.1283W),
     The Astrophysical Journal, Volume 682, p. 1283, August, 2008.
     ([preprint](http://arxiv.org/abs/0804.2259))
-    
+
 *   [*Identification, Classifications, and Absolute Properties of 773 Eclipsing Binaries Found in the Trans-Atlantic Exoplanet Survey*](http://adsabs.harvard.edu/abs/2008AJ....135..850D),
     The Astrophysical Journal, Volume 135, p. 850, March, 2008.
     ([preprint](http://arxiv.org/abs/0712.0839))
@@ -138,7 +138,7 @@ Transits of TrES-1 observered using 10 cm telescope.
 *   [*The Transit Light Curve Project. I. Four Consecutive Transits of the Exoplanet XO-1b*](http://adsabs.harvard.edu/abs/2006ApJ...652.1715H),
     The Astrophysical Journal, Volume 652, p. 1715, December, 2006.
     ([preprint](http://arxiv.org/abs/astro-ph/0607571))
-        
+
 *   [*Outcome of Six Candidate Transiting Planets from a TrES Field in Andromeda*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:astro-ph/0610603),
     The Astrophysical Journal, Volume 662, p. 658, October, 2006.
     ([preprint](https://arxiv.org/abs/astro-ph/0610603))

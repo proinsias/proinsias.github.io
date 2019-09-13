@@ -2,7 +2,7 @@
 title: "Minnow Telescope Finds Massive Planet"
 layout: single
 excerpt: "Since ancient times, mankind has studied the sky and
-wondered what the “wandering stars” (planets) might be. In the last two decades, we have 
+wondered what the “wandering stars” (planets) might be. In the last two decades, we have
 found hundreds of planets outside our solar system."
 categories: tres
 date: 2007-03-01
@@ -32,7 +32,7 @@ have found over two hundred planets<sup id="a1">[1](#f1)</sup> outside
 our solar system, and continue to examine nearby stars for evidence of
 planetary companions.
 
-![TrES-2 by Jeffrey Hall](../../images/tres2jeffhall.png)  
+![TrES-2 by Jeffrey Hall](/assets/images/tres2jeffhall.png)
 <small>
 *<b id="fig1">Figure 1</b>: A computer-generated simulation of TrES-2 crossing
 (transiting) the disk of its host star. TrES-2 transits farther from
@@ -97,7 +97,7 @@ that in neither case do we directly detect the planet, only the effect
 the planet has on the star, either by blocking its light or causing it
 to move in a small circular orbit.
 
-| ![Sleuth](../../images/sleuth.jpg) | ![PSST](../../images/psst.jpg) | ![STARE](../../images/stare.jpg) |
+| ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
 <small>
 *<b id="fig2">Figure 2</b>: The 10-cm telescopes used to identify the transiting planet
@@ -105,7 +105,7 @@ TrES-2. Together these telescopes form the Trans-altlantic Exoplanet
 Survey network, and search the night sky for evidence of planets
 orbiting around distant stars. The PSST is located at Lowell
 Observatory, home to another planet hunter, Clyde Tombaugh, discoverer
-of (the then planet) Pluto in 1930. Credit: The Trans-atlantic Exoplanet Survey (TrES) 
+of (the then planet) Pluto in 1930. Credit: The Trans-atlantic Exoplanet Survey (TrES)
 team.*
 </small>
 
@@ -142,11 +142,11 @@ HAT-P-1b and WASP- 1b are all larger than we would expect.  Now we
 have to go back to the drawing board and try to figure out why these
 planets are so puffed up.
 
-![Sleuth v Keck by Scott Kardel](../../images/sleuth_v_keck.jpg)  
+![Sleuth v Keck by Scott Kardel](/assets/images/sleuth_v_keck.jpg)
 <small>
 *<b id="fig3">Figure 3</b>: An illustration of the different light-collecting areas of the 10-cm
 Sleuth telescope that first identified TrES-2 and the 10-m Keck
-telescope used to measure the Jovian mass of the planet. Credit: 
+telescope used to measure the Jovian mass of the planet. Credit:
 [Scott Kardel](http://www.astro.caltech.edu/~wsk/)
 (California Institute of Technology)*
 </small>
@@ -218,14 +218,14 @@ on X-ray Binaries.
 
 
 <sup><b id="f1">1</b></sup> [3443](http://exoplanet.eu/) exoplanets
-are known as of 2016-06-30. [↩](#a1)  
+are known as of 2016-06-30. [↩](#a1)
 <sup><b id="f2">2</b></sup>
 [TrES-3](https://en.wikipedia.org/wiki/TrES-3b),
 [TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and
 [TrES-5](http://exoplanet.eu/catalog/tres-5_/), have since been
-discovered. [↩](#a2)  
+discovered. [↩](#a2)
 <sup><b id="f3">3</b></sup> [2628](http://exoplanet.eu/) transiting
-exoplanets are known as of 2016-06-30. [↩](#a3)  
+exoplanets are known as of 2016-06-30. [↩](#a3)
 
 
 

@@ -31,7 +31,7 @@ our understanding of planetary systems similar to our solar system,
 and how these systems formed. In the shadow of the "Big Eye", this is
 the Little Telescope That Could.
 
-![20-inch enclosure](../../images/20inchopen.jpg)  
+![20-inch enclosure](/assets/images/20inchopen.jpg)
 <small>
 *<b id="fig1">Figure 1</b>: Sleuth - the smallest telescope at the Palomar Observatory*
 </small>
@@ -72,7 +72,7 @@ Astrophysics & Research on Exoplanets) telescope. Eight other
 transiting exoplanets
 are now known<sup id="a2">[2](#f2)</sup>.
 
-Sleuth (shown in [Figure 2](#fig2)) is a small-aperture telescope, similar to that used 
+Sleuth (shown in [Figure 2](#fig2)) is a small-aperture telescope, similar to that used
 to discover HD 290458 b. Its 10-cm camera lens has a large square field of view on
 the night sky, about six degrees to a side. (The diameter of the moon
 on the sky is about half a degree.) The construction of the telescope
@@ -92,7 +92,7 @@ the wobble of the star is very close to the actual mass, so we can
 confirm the planetary mass of
 the candidate.
 
-![Sleuth](../../images/sleuth.jpg)  
+![Sleuth](/assets/images/sleuth.jpg)
 <small>
 *<b id="fig2">Figure 2</b>*
 </small>
@@ -117,7 +117,7 @@ and can observe each night, weather permitting.
 Unfortunately, the weather on the mountain does not always cooperate
 with our plans. Fortunately, Sleuth is part of an international
 network of three telescopes, the Transatlantic Exoplanet Survey
-([TrES](../index.html), 
+([TrES](../index.html),
 the Spanish for “three”). The telescopes are located in California,
 Arizona and Tenerife, Spain. Observation of the same area of the sky
 with each of the telescopes allows for continuous monitoring even if
@@ -146,16 +146,16 @@ stars for signs of TrES-2, -3 and maybe even -4<sup id="a4">[4](#f4)</sup>, and 
 foundation for the discovery of other Earths.
 
 <sup><b id="f1">1</b></sup> [3443](http://exoplanet.eu/) exoplanets
-are known as of 2016-06-30. [↩](#a1)  
+are known as of 2016-06-30. [↩](#a1)
 <sup><b id="f2">2</b></sup> [2628](http://exoplanet.eu/) transiting
-exoplanets are known as of 2016-06-30. [↩](#a2)  
+exoplanets are known as of 2016-06-30. [↩](#a2)
 <sup><b id="f3">3</b></sup> Sleuth went out of service in 2007, and
 was
 [retired](http://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html)
-in 2009. [↩](#a3)  
+in 2009. [↩](#a3)
 <sup><b id="f4">4</b></sup>
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b),
 [TrES-3](https://en.wikipedia.org/wiki/TrES-3b),
-[TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and 
+[TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and
 [TrES-5](http://exoplanet.eu/catalog/tres-5_/), have indeed been
-discovered. [↩](#a4)  
+discovered. [↩](#a4)

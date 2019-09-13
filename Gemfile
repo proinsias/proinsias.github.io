@@ -11,12 +11,16 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-# To maintain a local Jekyll environment in sync with GitHub Pages, use:
 gem "github-pages", group: :jekyll_plugins
-# Otherwise use:
-#gem "jekyll", "~> 3.5"
-
-gem "minimal-mistakes-jekyll"
+gem "html-proofer"
+gem "image_optim"
+gem "mdl"
+gem "reek"
+gem "rubocop"
+gem "travis"
+gem "tzinfo-data"
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "w3c_validators"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -27,7 +31,6 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
+  gem "jemoji"
+  gem "jekyll-algolia"
 end
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-gem "html-proofer"
