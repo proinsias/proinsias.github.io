@@ -68,10 +68,10 @@ staticman:
 reCaptcha:
   siteKey                :
   secret                 :
-atom_feed:
+atom_feed:  # To link to an externally hosted feed
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : # true, false (default). Setting to true could impact page load performance.
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -269,7 +269,6 @@ sass:
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 # Analytics
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
@@ -277,8 +276,13 @@ analytics:
     tracking_id          : UA-79669521-1
     anonymize_ip         : # true, false (default)
 
-# SEO Related  # FIXME
-google_site_verification :
-bing_site_verification   :
+# SEO Related
+google_site_verification : "wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo"
+bing_site_verification   : "23C03CE052C115F08A5835393718F084"
 alexa_site_verification  :
 yandex_site_verification :
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environmen
