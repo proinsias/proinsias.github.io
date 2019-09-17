@@ -24,7 +24,7 @@ would be forgiven for paying scant attention to the small hut-like
 structure shown in [Figure 1](#fig1). A few minutes walk from the gigantic dome of the
 five-meter (200-inch)
 [Hale Telescope](http://www.astro.caltech.edu/palomar/about/telescopes/hale.html),
-the clamshell enclosure houses a small telescope named [Sleuth](../sleuth.html). The
+the clamshell enclosure houses a small telescope named [Sleuth](/portfolio/tres.html). The
 diameter of Sleuth's camera lens is relatively small, only 10 cm. The
 telescope itself would blend in well in a store for the astronomy
 enthusiast. And yet, this inconspicuous telescope is contributing to

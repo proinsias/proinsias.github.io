@@ -52,7 +52,7 @@ the latest and greatest technology. However, one of the most recently
 discovered “exoplanets” was identified using a trio of amateur
 telescopes. The humble telescopes used in the discovery were built
 using off-the-shelf 10-cm camera lenses. The three telescopes shown in
-[Figure 1](#fig1) – [Sleuth](../sleuth.html), the Planet Search Survey Telescope and the STellar
+[Figure 1](#fig1) – [Sleuth](/portfolio/tres.html), the Planet Search Survey Telescope and the STellar
 Astrophysics and Research on Exoplanets
 ([STARE](http://www.hao.ucar.edu/research/stare/stare.html)) telescope
 – form a network called the Trans-atlantic Exoplanet Survey
