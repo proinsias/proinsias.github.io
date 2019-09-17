@@ -53,7 +53,7 @@ in close orbits. The results of successful radial-velocity planetary
 searches have shown that planetary systems of this type could be quite
 common.
 
-See the STARE webpage for a summary of [The Search for Exoplanets](http://www.hao.ucar.edu/public/research/stare/search.html).
+See the STARE webpage for a summary of [The Search for Exoplanets](http://www.hao.ucar.edu/research/stare/search.html).
 
 <h2 id="news">News</h2>
 
@@ -75,7 +75,7 @@ TrES group identifies thermal emission from the hot Jupiter TrES-1.
 * Discussion of identifying insidious blend contaminants common in
   wide--field transit surveys, such as TrES.
 
-* [TrES Network Success: Transiting Planet Discovered](http://www.hao.ucar.edu/public/research/stare/tres1_2.html)!
+* [TrES Network Success: Transiting Planet Discovered](http://www.hao.ucar.edu/research/stare/tres1_2.html)!
 Transits of TrES-1 observered using 10 cm telescope.
 
 <h2 id="papers">TrES Publications</h2>
