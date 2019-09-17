@@ -19,7 +19,8 @@ cache:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --check-html --url-ignore "#"
+  # Ignore 999 errors associated with LinkedIn urls.
+  - bundle exec htmlproofer ./_site --check-html --http-status-ignore 999 --url-ignore "#"
   # FIXME: --check-favicon - need to add them first!
   # FIXME: - overcommit --sign - need to edit .overcommit.yml first.
   # FIXME: - overcommit --sign pre-commit
