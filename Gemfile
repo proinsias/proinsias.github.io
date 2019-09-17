@@ -12,13 +12,20 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "github-pages", group: :jekyll_plugins
+
+gem 'bundler'
+gem 'bundler-audit'
+# gem 'danger'
+# gem 'fasterer'
 gem "html-proofer"
 gem "image_optim"
 gem "jekyll", ">= 3.6.3"
 gem "mdl"
 gem "nokogiri", ">= 1.10.4"
+gem 'overcommit'
 gem "reek"
 gem "rubocop"
+gem 'ruby-lint'
 gem "travis"
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
