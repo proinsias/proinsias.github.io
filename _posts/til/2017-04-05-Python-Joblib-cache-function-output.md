@@ -26,7 +26,7 @@ def computation(p1, p2):
     pass
 ```
 
-Via [HackerNoon](https://hackernoon.com/10-tips-on-using-jupyter-notebook-abc0ba7028a4).
+Via [Roman Kierzkowski](https://medium.com/@r_kierzkowski/10-tips-on-using-jupyter-notebook-abc0ba7028a4).
 
 To clear the cache, use [`memory.clear()`](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 

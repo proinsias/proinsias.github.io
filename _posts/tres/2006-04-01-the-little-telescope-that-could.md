@@ -158,5 +158,5 @@ in 2009. [↩](#a3)
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b),
 [TrES-3](https://en.wikipedia.org/wiki/TrES-3b),
 [TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and
-[TrES-5](http://exoplanet.eu/catalog/tres-5_/), have indeed been
+[TrES-5](http://exoplanet.eu/catalog/tres-5_b/), have indeed been
 discovered. [↩](#a4)

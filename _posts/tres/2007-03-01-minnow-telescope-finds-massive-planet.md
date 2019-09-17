@@ -67,8 +67,8 @@ small fraction of the starlight, and the star appears to dim. This is
 similar to what we saw during the recent transit of the Sun by the
 planet Mercury. For distant stars, though, we cannot take an image of
 the star’s disk, so instead we measure the amount of light coming from
-it using a digital camera. Although 200<sup id="a1">[1](#f1)</sup>
-exoplanets are known, transiting exoplanets are rarer, with only
+it using a digital camera. Although 200 exoplanets are known,
+transiting exoplanets are rarer, with only
 14<sup id="a3">[3](#f3)</sup> known today. These two planets can also
 be classified as
 “[hot Jupiters](https://en.wikipedia.org/wiki/Hot_Jupiter)”. They are
