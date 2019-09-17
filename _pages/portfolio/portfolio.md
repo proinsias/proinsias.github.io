@@ -11,7 +11,7 @@ tags:
 
 Here's a list of some of the projects I've been involved in over the years:
 
-* [The Transatlantic Exoplanet Survey](tres.md)
+* [The Transatlantic Exoplanet Survey](tres.html)
 
 <!-- FIXME: Ab Initio? -->
 <!-- FIXME: Boston Fusion -->
