@@ -24,4 +24,11 @@ git rm --cached <filename>
 If you do this, you may also consider adding that file to the `.gitignore`
 file.
 
+The same can be done for a directory of files that you don't want tracked.
+Just use the `-r` flag:
+
+```bash
+git rm --cached -r <directory>
+```
+
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

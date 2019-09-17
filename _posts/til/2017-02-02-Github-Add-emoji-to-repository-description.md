@@ -24,11 +24,11 @@ used this syntax in other parts of GitHub such as the issue tracker.
 
 If you add an emoji like this:
 
-![](http://i.imgur.com/Tty7Cl2.png)
+![memo-text](http://i.imgur.com/Tty7Cl2.png)
 
 it will show up like so:
 
-![](http://i.imgur.com/yxRwmkW.png)
+![memo-emoji](http://i.imgur.com/yxRwmkW.png)
 
 Check out this [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/) for
 the names of all recognized emojis.
