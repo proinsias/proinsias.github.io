@@ -1,12 +1,29 @@
+---
 sudo: false  # route your build to the container-based infrastructure for a faster build
+
+addons:
+  apt:
+    packages:
+      - libcurl4-openssl-dev  # required to avoid SSL errors
 
 language: ruby
 rvm:
   - 2.5.1
 
+cache:
+  apt: true
+  bundler: true
+  ccache: true
+  directories:
+    - "${TRAVIS_BUILD_DIR}/tmp/.htmlproofer"
+
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --disable-external --url-ignore "#"
+  - bundle exec htmlproofer ./_site --check-html --url-ignore "#"
+  # FIXME: --check-favicon - need to add them first!
+  # FIXME: - overcommit --sign - need to edit .overcommit.yml first.
+  # FIXME: - overcommit --sign pre-commit
+  # FIXME: - overcommit --run
 
 env:
   global:
@@ -14,4 +31,5 @@ env:
 
 notifications:
   slack:
+    # yamllint disable-line rule:line-length
     secure: FJ5jwhXxqUN01bMu04diNG71oT+7WSEPC7eBohBc/lcG8luSlZjoYzVvmagtPXh2B1i/IpwkzMBDZlE0YPWroUQXIzFF9pr0m6lc85i3Umpp7YQ7mVIiLDb3wJlqPp79ogBt1/yvQOrx5STy9eSatGxXZyyu2kGos1IgrqjOGfvHA4zVI4T6suj7MryCLjw7gtz/7iHuUATzFhtqt/4vrE1twEuUQUbKmOz4jYmbvExmpZyYtH7oSQKfAZVxkbqS766Mmdum4qZ7kgIFdc0C4atFmUSTLs6X5UXQw6hVYrN5e2eHaMcDwFpb+l/cxKKLjh317WlWxNoTKMsqHw2Wdc323eHCN+2sVoUq+Gr//1wqO4K4lw7mmLUtWl2ia4E4IJn+bKDv82rzhFK1JkZoISCWFr2ZBGkQkA3mh1OtspT+Oxi/sfBnncp30ROQoNlt4rs0ncXmn7rrUVvoM7LNXqQzL3f7tVb+kExCgFR9bk/xooShmyLVlEz74x6qJkMkiW8FSXvk/DLNCuiIGoyXNUDCjB8G+rYDibsO4ZGYopoJakMJOTWnY7BBCdpQrJrZ11Wp5a1VpQ//K6Erfp760an8G+ejldPiI4RQHDg+HrYV8Bxa8crUSWsQ/E7BpEG14viBUlL5sv6L7XnnGXHC5mbHnScczoTwiPD4HpZ+BJw=
