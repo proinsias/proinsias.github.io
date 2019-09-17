@@ -24,7 +24,7 @@ TODO:
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
-TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of [Sleuth](sleuth.html) ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](http://www.iac.es/ot/indice.html), Canary Islands, Spain).
+TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of Sleuth ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](http://www.iac.es/ot/indice.html), Canary Islands, Spain).
 
 Our method of detection relies on the edge-on alignment of the
 extrasolar system. If a planetary system is oriented so that Earth
@@ -57,18 +57,18 @@ See the STARE webpage for a summary of [The Search for Exoplanets](http://www.ha
 
 <h2 id="news">News</h2>
 
-* Number 5 is in the bag..., [TrES-5](tres5.html)!
+* Number 5 is in the bag..., [TrES-5](http://arxiv.org/abs/1108.3572)!
 
-* We've found the largest known transiting planet, [TrES-4](tres4.html)!
+* We've found the largest known transiting planet, [TrES-4](https://arxiv.org/abs/0708.0834)!
 
-* We've found a transiting planet, [TrES-3](tres3.html), with 1.9 Jupiter masses and
+* We've found a transiting planet, [TrES-3](http://arxiv.org/abs/0705.2004), with 1.9 Jupiter masses and
 an orbital period of only 1.3 days!
 
-* [TrES-2](tres2.html), the first known transiting planet in the *Kepler*
+* [TrES-2](http://arxiv.org/abs/astro-ph/0609335), the first known transiting planet in the *Kepler*
 field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
 
-* [First direction detection of light from extrasolar planets!](thermal.html)
-TrES group identifies thermal emission from the hot Jupiter TrES-1.
+* First direction detection of light from extrasolar planets!
+  TrES group identifies thermal emission from the hot Jupiter TrES-1.
 
 * TrES group announces the discovery of a new detached M Dwarf Eclipsing Binary!
 

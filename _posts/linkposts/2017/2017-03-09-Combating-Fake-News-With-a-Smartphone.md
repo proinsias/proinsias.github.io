@@ -3,6 +3,7 @@ layout: single
 title: "Combating Fake News With a Smartphone"
 date: 2017-03-09 10:01
 modified: 2017-03-09 10:01
+categories: links
 tags:
   - fakenews
 ---

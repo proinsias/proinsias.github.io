@@ -3,6 +3,7 @@ layout: single
 title: "The Truth About Bad Science"
 date: 2017-01-26 10:20
 modified: 2017-01-26 10:20
+categories: links
 tags:
   - reproducibility
 ---

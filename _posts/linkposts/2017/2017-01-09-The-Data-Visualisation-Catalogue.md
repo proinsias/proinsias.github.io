@@ -3,6 +3,7 @@ layout: single
 title: "The Data Visualisation Catalogue"
 date: 2017-01-09 09:24
 modified: 2017-01-09 09:24
+categories: links
 tags:
   - datascience
   - visualization

@@ -3,6 +3,7 @@ layout: single
 title: "Death by Diagnosis on Freakonomics"
 date: 2017-01-03 16:54
 modified: 2017-01-03 16:54
+categories: links
 tags:
   - healthcare
 ---
