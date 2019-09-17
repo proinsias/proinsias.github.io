@@ -21,4 +21,4 @@ $ ssh -N -L 9001:localhost:6000 user@remotehost
 
 The `-N` option prevents remote commands from executing, and therefore allows local port forwarding.
 
-Via [Enki](https://app.enkipro.com/#/insight/565f4430e823b7070068d4db).
+Via [enki.com](https://app.enkipro.com/#/insight/565f4430e823b7070068d4db).

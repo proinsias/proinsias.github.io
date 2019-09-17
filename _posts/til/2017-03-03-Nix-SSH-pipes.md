@@ -30,4 +30,4 @@ You can also create an image of your local data with:
 dd if=/folder/data | ssh user@enki 'dd of=data.iso'
 ```
 
-Via [enkipro.com](https://enkipro.com/insight/56f52b879d23a008008ae28f).
+Via [enkipro.com](https://app.enkipro.com/#/insight/56f52b879d23a008008ae28f).

@@ -29,5 +29,4 @@ inspect their CPython VM bytecode:
    10 RETURN_VALUE
 ```
 
-Via [Python-tricks](https://www.getdrip.com/deliveries/t1eqbss1wvujterprnjs?__s=6e5g8qvxzzhujt5oncqs)
-.
+Via Python-tricks.

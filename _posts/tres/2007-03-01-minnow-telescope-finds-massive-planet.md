@@ -148,7 +148,7 @@ planets are so puffed up.
 *<b id="fig3">Figure 3</b>: An illustration of the different light-collecting areas of the 10-cm
 Sleuth telescope that first identified TrES-2 and the 10-m Keck
 telescope used to measure the Jovian mass of the planet. Credit:
-[Scott Kardel](http://www.astro.caltech.edu/~wsk/)
+Scott Kardel
 (California Institute of Technology)*
 </small>
 
@@ -223,7 +223,7 @@ are known as of 2016-06-30. [↩](#a1)
 <sup><b id="f2">2</b></sup>
 [TrES-3](https://en.wikipedia.org/wiki/TrES-3b),
 [TrES-4](https://en.wikipedia.org/wiki/TrES-4b), and
-[TrES-5](http://exoplanet.eu/catalog/tres-5_/), have since been
+[TrES-5](http://exoplanet.eu/catalog/tres-5_b/), have since been
 discovered. [↩](#a2)
 <sup><b id="f3">3</b></sup> [2628](http://exoplanet.eu/) transiting
 exoplanets are known as of 2016-06-30. [↩](#a3)

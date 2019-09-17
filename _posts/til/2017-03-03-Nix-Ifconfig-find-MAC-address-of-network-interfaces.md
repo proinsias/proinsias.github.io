@@ -26,4 +26,4 @@ lnc0: flags=108843 mtu 1500
        ether 00:0c:29:b8:92:8b
 ```
 
-Via [enki.com](https://insights.enki.com/insight/5588a26942a4534d00082acd).
+Via [enkipro.com](https://app.enkipro.com/#/insight/5588a26942a4534d00082acd).

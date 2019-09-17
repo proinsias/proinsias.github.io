@@ -28,7 +28,7 @@ def computation(p1, p2):
 
 Via [HackerNoon](https://hackernoon.com/10-tips-on-using-jupyter-notebook-abc0ba7028a4).
 
-To clear the cache, use [`memory.clear()`](https://pythonhosted.org/joblib/generated/joblib.Memory.html).
+To clear the cache, use [`memory.clear()`](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 
 ## Comparison with memoize
 
@@ -40,7 +40,7 @@ objects are persisted to disk, using a persister optimized for speed and memory 
 whereas Memory is best suited for functions with complex input and output objects,
 and aggressive persistence to disk.
 
-Via [PythonHosted](https://pythonhosted.org/joblib/memory.html).
+Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 
 ## Gotchas
 
@@ -91,7 +91,7 @@ class Foo(object):
 > [Second, t]he cached method will have self as one of its arguments.
 That means that the result will be recomputed if anything with self changes.
 
-Via [PythonHosted](https://pythonhosted.org/joblib/memory.html).
+Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 
 ## Ignoring some arguments
 
@@ -109,4 +109,4 @@ Called with x = 0
 >>> # my_func was not reevaluated
 ```
 
-Via [PythonHosted](https://pythonhosted.org/joblib/memory.html).
+Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).

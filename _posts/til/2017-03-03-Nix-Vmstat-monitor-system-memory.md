@@ -41,4 +41,4 @@ such as:
 As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of measurement
 for memory.
 
-Via [enki.com](https://insights.enki.com/insight/55c93d553d25fc2e0079a8b4).
+Via [enki.com](https://app.enkipro.com/#/insight/55c93d553d25fc2e0079a8b4).

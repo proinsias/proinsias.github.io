@@ -38,4 +38,4 @@ future.
 prints 3.14
 ```
 
-Via [enkipro.com](https://enkipro.com/insight/56cc7e3dc0159e0700cdcb5f).
+Via [enkipro.com](https://app.enkipro.com/#/insight/56cc7e3dc0159e0700cdcb5f).

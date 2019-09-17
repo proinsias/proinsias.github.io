@@ -53,4 +53,4 @@ to re-use the same pool of workers for several calls to the Parallel object:
 (1136.596..., 14)
 ```
 
-Via [PythonHosted](https://pythonhosted.org/joblib/parallel.html).
+Via [Joblib](https://joblib.readthedocs.io/en/latest/generated/joblib.Parallel.html).

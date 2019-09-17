@@ -24,4 +24,4 @@ help('modules')
 
 inside of a python interactive shell.
 
-Via [enkipro.com](https://enkipro.com/insight/55ed77e3ed2a613a005bddc9).
+Via [enki.com](https://app.enkipro.com/#/insight/55ed77e3ed2a613a005bddc9).

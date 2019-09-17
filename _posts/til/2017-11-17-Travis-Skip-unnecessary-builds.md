@@ -15,4 +15,4 @@ The most common reason a build might be unnecessary is that it’s just a docume
 For simple changes like these, add "[ci skip]" to your commit message,
 and Travis will automatically skip that build.
 
-Via [localytics.com](http://eng.localytics.com/best-practices-and-common-mistakes-with-travis-ci/).
+Via [localytics.com](https://web.archive.org/web/20180329110316/http://eng.localytics.com/best-practices-and-common-mistakes-with-travis-ci/).

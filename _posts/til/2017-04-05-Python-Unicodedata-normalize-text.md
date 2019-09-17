@@ -32,4 +32,4 @@ The `NFKD` stands for Normalization Form Compatibility Decomposition, and this i
 characters are decomposed by compatibility, also multiple combining characters are
 arranged in a specific order.
 
-Via [enkipro.com](https://enkipro.com/insight/56cb06ed59fd7a080038f33f).
+Via [enkipro.com](https://app.enkipro.com/#/insight/56cb06ed59fd7a080038f33f).

@@ -21,4 +21,4 @@ fuser -k filename
 The command above will search for the file and kill whatever processes are using
 it.
 
-Via [enki.com](https://insights.enki.com/insight/55e8d159cc63eb3a0074d1db).
+Via [enki.com](https://app.enkipro.com/#/insight/55e8d159cc63eb3a0074d1db).

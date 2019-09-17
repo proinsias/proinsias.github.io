@@ -31,4 +31,4 @@ feeds that to `md5sum`,
 and then prints how fast in MB/sec that was processed.
 This was executed on a modern 3.6 GHz AMD Phenom II CPU.
 
-Via [enki.com](https://insights.enki.com/insight/5586093a5c637c4b29b92748).
+Via [enki.com](https://app.enkipro.com/#/insight/5586093a5c637c4b29b92748).

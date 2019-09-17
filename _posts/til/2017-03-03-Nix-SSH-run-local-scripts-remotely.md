@@ -17,4 +17,4 @@ ssh user@enki 'bash -s' < enki.sh
 
 The output of `enki.sh` will be displayed locally.
 
-Via [enkipro.com](https://enkipro.com/insight/56f53541b513b106007135f2).
+Via [enkipro.com](https://app.enkipro.com/#/insight/56f53541b513b106007135f2).

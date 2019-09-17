@@ -25,4 +25,4 @@ To append data to files, the `-a` flag must be used:
 ps | tee -a fileone filetwo filethree
 ```
 
-Via [enkipro.com](https://enkipro.com/insight/56f437459d23a008008ad6b1).
+Via [enki.com](https://app.enkipro.com/#/insight/56f437459d23a008008ad6b1).

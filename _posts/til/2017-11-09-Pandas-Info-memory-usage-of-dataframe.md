@@ -27,5 +27,5 @@ memory usage: 320.0 bytes
 ```
 
 Via
-[pydata.org](http://pandas.pydata.org/pandas-docs/stable/faq.html#dataframe-memory-usage)
+[pydata.org](https://pandas.pydata.org/pandas-docs/stable/user_guide/gotchas.html#dataframe-memory-usage)
 .

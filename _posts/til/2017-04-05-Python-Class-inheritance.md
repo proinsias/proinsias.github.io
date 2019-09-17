@@ -23,6 +23,4 @@ True
 False
 ```
 
-Via
-[python-tricks](https://www.getdrip.com/deliveries/nvidr2xstzyu8zfrsqgz?__s=6e5g8qvxzzhujt5oncqs)
-.
+Via python-tricks.

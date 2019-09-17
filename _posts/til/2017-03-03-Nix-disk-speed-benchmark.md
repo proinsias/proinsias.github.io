@@ -33,4 +33,4 @@ Flags:
 * `oflag=direct`: uses direct I/O data, avoiding the buffer cache; and
   it speeds up the process 1.
 
-Via [enki.com](https://insights.enki.com/insight/55860b435c637c4b29b92749).
+Via [enki.com](https://app.enkipro.com/#/insight/55860b435c637c4b29b92749).

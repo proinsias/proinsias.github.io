@@ -40,8 +40,4 @@ select * from citext_emails where email = 'lizlemon@nbc.com';
 --   1 | LizLemon@nbc.com
 ```
 
-See
-[`citext-emails.sql`](https://github.com/jbranchaud/postgresing/blob/master/citext-emails.sql)
-for a full example.
-
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

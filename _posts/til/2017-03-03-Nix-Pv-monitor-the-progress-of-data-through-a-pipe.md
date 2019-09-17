@@ -38,4 +38,4 @@ For example you can keep track how fast a file is transferred with `nc` command:
 pv myFile | nc -w 1 example.com 3000
 ```
 
-Via [enkipro.com](https://enkipro.com/insight/55b0304dc629433100344a89).
+Via [enkipro.com](https://app.enkipro.com/#/insight/55b0304dc629433100344a89).
