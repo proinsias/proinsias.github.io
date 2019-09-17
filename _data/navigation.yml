@@ -1,6 +1,6 @@
 main:
-  - title: "TrES"
-    url: /tres/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
