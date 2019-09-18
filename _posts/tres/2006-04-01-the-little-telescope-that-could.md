@@ -118,7 +118,7 @@ and can observe each night, weather permitting.
 Unfortunately, the weather on the mountain does not always cooperate
 with our plans. Fortunately, Sleuth is part of an international
 network of three telescopes, the Transatlantic Exoplanet Survey
-([TrES](../index.html),
+([TrES](/portfolio/tres.html),
 the Spanish for “three”). The telescopes are located in California,
 Arizona and Tenerife, Spain. Observation of the same area of the sky
 with each of the telescopes allows for continuous monitoring even if

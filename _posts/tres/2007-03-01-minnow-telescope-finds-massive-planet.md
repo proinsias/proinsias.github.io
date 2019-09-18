@@ -56,7 +56,7 @@ using off-the-shelf 10-cm camera lenses. The three telescopes shown in
 Astrophysics and Research on Exoplanets
 ([STARE](http://www.hao.ucar.edu/research/stare/stare.html)) telescope
 – form a network called the Trans-atlantic Exoplanet Survey
-([TrES](../index.html)).
+([TrES](/portfolio/tres.html)).
 Our TrES team has so far<sup id="a2">[2](#f2)</sup> identified two
 planets, imaginatively called
 [TrES-1](https://en.wikipedia.org/wiki/TrES-1b) and
