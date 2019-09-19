@@ -396,6 +396,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
+  jekyll-mentions
   jekyll-paginate
   jekyll-sitemap
   jemoji

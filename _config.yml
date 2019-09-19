@@ -115,9 +115,6 @@ include:
   - _pages
 
 exclude:
-  - vendor
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -125,9 +122,11 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
+  - /bin
   - Capfile
   - CHANGELOG
   - config
+  - /docs  # Ignore Minimal Mistakes /docs.
   - Gemfile
   - Gemfile.lock
   - Gruntfile.js
@@ -138,27 +137,35 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - /templates
+  - /test  # Ignore Minimal Mistakes /test.
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - vendor
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+
 keep_files:
   - .git
   - .svn
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-algolia
   - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-mentions
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-algolia
   - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-mentions
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
