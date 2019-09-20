@@ -98,6 +98,7 @@ permalink: /:categories/:title/
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 timezone:  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+strict_front_matter: true  # Fail build if there is a YAML syntax error in a page's front matter.
 
 # Markdown Processing
 kramdown:

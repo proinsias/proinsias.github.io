@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Github: Exclude Whitespace Changes From GitHub Diffs"
+title: "(TIL) GitHub: Exclude Whitespace Changes From GitHub Diffs"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
