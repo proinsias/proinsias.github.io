@@ -40,5 +40,9 @@ check out GitHub's wonderful [`hub`](https://github.com/github/hub) tool "that m
 For example, `hub` enables you to create a pull request with a pre-populated title and description:
 
 ```bash
-hub pull-request --browse --message "My title" --message "My description."
+hub pull-request \
+    --browse \
+    --message "My title" \
+    --message "My description." \
+    --assign proinsias
 ```
