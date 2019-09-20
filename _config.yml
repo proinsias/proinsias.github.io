@@ -1,3 +1,4 @@
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,74 +14,75 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-locale                   : "en-US"
-title                    : "An independent mind..."
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Francis T. O'Donovan"
+locale: "en-US"
+title: "An independent mind..."
+title_separator: "-"
+subtitle:  # site tagline that appears below site title in masthead
+name: "Francis T. O'Donovan"
 description: >- # this means to ignore newlines until "baseurl:"
   My home on the web.
-baseurl                  : # the subpath of your site, e.g. "/blog"
-url                      : "https://proinsias.github.io"
-gh_repo                  : proinsias.github.io
-github                   : [metadata]  # https://github.com/github/pages-gem/issues/399
-repository               : proinsias/proinsias.github.io
-email                    : francis.odonovan@gmail.com
-twitter_username         : francisodonovan
-github_username          : proinsias
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search                   : true
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : # "/assets/images/88x88.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+baseurl:  # the subpath of your site, e.g. "/blog"
+url: "https://proinsias.github.io"
+gh_repo: proinsias.github.io
+github: [metadata]  # https://github.com/github/pages-gem/issues/399
+repository: proinsias/proinsias.github.io
+email: francis.odonovan@gmail.com
+twitter_username: francisodonovan
+github_username: proinsias
+minimal_mistakes_skin: "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+teaser:  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo:  # "/assets/images/88x88.png"
+# breadcrumbs: false # true, false (default)
+words_per_minute: 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  # yamllint disable-line rule:line-length
+  provider: "facebook"  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname:  # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    # yamllint disable-line rule:line-length
+    server:  # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:  # FIXME
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts:  # 5 (default)
+    colorscheme:  # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme:  # "github-light" (default), "github-dark"
+    issue_term:  # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields:  # ['name', 'email', 'url', 'message']
+  branch:  # "master"
+  commitMessage:  # "New comment by {fields.name}"
+  filename:  # comment-{@timestamp}
+  format:  # "yml"
+  moderation:  # true
+  path:  # "/_data/comments/{options.slug}" (default)
+  requiredFields:  # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email:  # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type:  # "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format:  # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint:  # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:  # To link to an externally hosted feed
-  path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : # true, false (default). Setting to true could impact page load performance.
-search_provider          : # lunr (default), algolia, google
+  path:  # blank (default) uses feed.xml
+search: true  # true, false (default)
+search_full_content:  # true, false (default). Setting to true could impact page load performance.
+search_provider:  # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id:  # YOUR_APPLICATION_ID
+  index_name:  # YOUR_INDEX_NAME
+  search_only_api_key:  # YOUR_SEARCH_ONLY_API_KEY
+  powered_by:  # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id:  # YOUR_SEARCH_ENGINE_ID
+  instant_search:  # false (default), true
 
 # Build settings
 excerpt_separator: "\n\n"
@@ -88,14 +90,14 @@ incremental: false
 highlighter: rouge
 lsi: false
 markdown: kramdown
-paginate: 5 # amount of posts to show
+paginate: 5  # amount of posts to show
 paginate_path: /page:num/
 permalink: /:categories/:title/
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Markdown Processing
 kramdown:
@@ -171,11 +173,11 @@ whitelist:
   - jemoji
 
 author:
-  name             : "Francis T. O'Donovan"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
-  location         : "Boston, MA"
-  email            : francis.odonovan@gmail.com
+  name: "Francis T. O'Donovan"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
+  location: "Boston, MA"
+  email: francis.odonovan@gmail.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -197,7 +199,7 @@ author:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: #"https://instagram.com/"
+      url:  # "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/francistodonovan"
@@ -231,7 +233,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: # "https://instagram.com/"
+      url:  # "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/francistodonovan"
@@ -272,22 +274,22 @@ tag_archive:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider: "google"  # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-79669521-1
-    anonymize_ip         : # true, false (default)
+    tracking_id: UA-79669521-1
+    anonymize_ip:  # true, false (default)
 
 # SEO Related
-google_site_verification : "wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo"
-bing_site_verification   : "23C03CE052C115F08A5835393718F084"
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification: "wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo"
+bing_site_verification: "23C03CE052C115F08A5835393718F084"
+alexa_site_verification:
+yandex_site_verification:
 
 compress_html:
   clippings: all
