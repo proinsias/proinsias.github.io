@@ -1,19 +1,30 @@
+---
+
+# https://github.com/actions/stale
+
 name: Mark stale issues and pull requests
 
+# yamllint disable-line rule:truthy
 on:
   schedule:
-  - cron: "0 0 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   stale:
 
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/stale@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'Stale issue message'
-        stale-pr-message: 'Stale pull request message'
-        stale-issue-label: 'no-issue-activity'
-        stale-pr-label: 'no-pr-activity'
+      - uses: actions/stale@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          # yamllint disable-line rule:line-length
+          stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days'
+          # yamllint disable-line rule:line-length
+          stale-pr-message: 'This pull request is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days'
+          days-before-stale: 30
+          days-before-close: 5
+          stale-issue-label: 'no-issue-activity'
+          stale-pr-label: 'no-pr-activity'
+          exempt-issue-label: 'awaiting-approval'
+          exempt-pr-label: 'awaiting-approval'
