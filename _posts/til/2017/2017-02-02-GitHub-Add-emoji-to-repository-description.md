@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Github: Add Emoji To GitHub Repository Description"
+title: "(TIL) GitHub: Add Emoji To GitHub Repository Description"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

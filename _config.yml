@@ -98,6 +98,7 @@ permalink: /:categories/:title/
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 timezone:  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+strict_front_matter: true  # Fail build if there is a YAML syntax error in a page's front matter.
 
 # Markdown Processing
 kramdown:
@@ -188,27 +189,24 @@ author:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/francis_odonovan/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/proinsias"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/proinsias/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url:  # "https://instagram.com/"
+    - label: "KeyBase"
+      icon: "fab fa-fw fa-key"
+      url: "https://keybase.io/proinsias/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/francistodonovan"
+      url: "https://www.linkedin.com/in/francistodonovan/"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/1257318/proinsias"
+      url: "https://stackoverflow.com/users/1257318/proinsias/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/francisodonovan"
+      url: "https://twitter.com/francisodonovan/"
 
 # Site Footer
 footer:
@@ -222,18 +220,15 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/francis_odonovan/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/proinsias"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/proinsias/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url:  # "https://instagram.com/"
+    - label: "KeyBase"
+      icon: "fab fa-fw fa-key"
+      url: "https://keybase.io/proinsias/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/francistodonovan"

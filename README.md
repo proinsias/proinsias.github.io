@@ -2,8 +2,10 @@
 
 [![Build Status](https://travis-ci.org/proinsias/proinsias.github.io.svg?branch=master)](https://travis-ci.org/proinsias/proinsias.github.io)
 [![Mergify Status][mergify-status]][mergify]
+[![Synk Status](https://snyk.io/test/github/proinsias/proinsias.github.io/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/proinsias/proinsias.github.io?targetFile=Gemfile.lock)
+[![License](https://img.shields.io/github/license/proinsias/proinsias.github.io.svg)](https://github.com/proinsias/proinsias.github.io/blob/master/LICENSE)
 
-The personal website of Francis T. O'Donovan,
+The source code for the personal website of Francis T. O'Donovan,
 hosted by [GitHub Pages](http://pages.github.com).
 You can find it at [proinsias.github.io](https://proinsias.github.io).
 

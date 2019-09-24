@@ -24,7 +24,7 @@ TODO:
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
-TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of Sleuth ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](http://www.iac.es/ot/indice.html), Canary Islands, Spain).
+TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of Sleuth ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](https://web.archive.org/web/20190903220416/http://www.iac.es/eno.php?op1=3), Canary Islands, Spain).
 
 Our method of detection relies on the edge-on alignment of the
 extrasolar system. If a planetary system is oriented so that Earth
