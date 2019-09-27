@@ -4,8 +4,9 @@ layout: single
 excerpt: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
+author: false
 date: 2016-06-20
-modified: 2017-04-25
+modified: 2019-09-20
 ---
 
 To see the various ways to contact me (including an easy way to encrypt messages via GPG),
@@ -16,7 +17,6 @@ FIXME:
 ---
 ads: false
 share: false
-author: false
 image:
   feature: about-michael-collage-2016.jpg
   teaser: about-teaser.jpg

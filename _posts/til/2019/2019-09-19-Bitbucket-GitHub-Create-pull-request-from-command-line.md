@@ -2,7 +2,7 @@
 layout: single
 title: "(TIL) Bitbucket/GitHub: Create pull request from command line"
 date: 2019-09-19 09.59
-date: 2019-09-19 09.59
+modified: 2019-09-24 19:53
 categories: til
 tags:
   - bitbucket
@@ -46,10 +46,11 @@ For example, `hub` enables you to create a pull request with a pre-populated tit
 
 ```bash
 hub pull-request \
+    --assign proinsias \
     --browse \
+    --labels work-in-progress \
     --message "My title" \
     --message "My description." \
-    --assign proinsias
 ```
 
 # Create a Bitbucket pull request from command line

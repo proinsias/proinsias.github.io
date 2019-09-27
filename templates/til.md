@@ -1,3 +1,4 @@
+<!--lint disable list-item-bullet-indent-->
 ---
 layout: single
 title: "(TIL) TILCat: Title"
@@ -8,4 +9,4 @@ tags:
   - til
   - tilcat
 ---
-
+<!--lint disable list-item-bullet-indent-->
