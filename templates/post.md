@@ -1,3 +1,4 @@
+<!--lint disable list-item-bullet-indent-->
 ---
 layout: single
 title: "Title"
@@ -8,3 +9,4 @@ tags:
   - tag
 excerpt: Excerpt
 ---
+<!--lint disable list-item-bullet-indent-->

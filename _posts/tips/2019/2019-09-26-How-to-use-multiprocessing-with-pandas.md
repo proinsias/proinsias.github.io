@@ -1,3 +1,4 @@
+<!--lint disable list-item-bullet-indent-->
 ---
 layout: single
 title: "How to use multiprocessing with pandas"
@@ -10,6 +11,7 @@ tags:
   - parallel
   - tips
 ---
+<!--lint enable list-item-bullet-indent-->
 
 `pandas` doesn't support parallel processing out of the box,
 but you can wrap support for using all of your expensive CPUs around calls to `apply()`.
