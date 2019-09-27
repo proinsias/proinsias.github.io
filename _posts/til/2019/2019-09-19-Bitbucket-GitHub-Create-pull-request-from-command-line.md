@@ -48,7 +48,7 @@ For example, `hub` enables you to create a pull request with a pre-populated tit
 hub pull-request \
     --assign proinsias \
     --browse \
-    --labels work-in-progress
+    --labels work-in-progress \
     --message "My title" \
     --message "My description." \
 ```
