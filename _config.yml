@@ -227,7 +227,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url:  # "https://instagram.com/"
     - label: "KeyBase"
-      icon: "fab fa-fw fa-key"
+      icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/proinsias/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
