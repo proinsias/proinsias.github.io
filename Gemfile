@@ -11,7 +11,7 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", ">= 200", group: :jekyll_plugins
 
 gem 'bundler'
 gem 'bundler-audit'
