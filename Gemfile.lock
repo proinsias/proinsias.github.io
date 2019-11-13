@@ -386,7 +386,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   bundler-audit
-  github-pages
+  github-pages (>= 200)
   html-proofer
   image_optim
   jekyll (>= 3.6.3)
@@ -409,4 +409,4 @@ DEPENDENCIES
   w3c_validators
 
 BUNDLED WITH
-   2.0.2
+   1.17.3
