@@ -9,8 +9,6 @@ tags:
   - til
 ---
 
-__NOTE__: Information taken from [python guide](http://docs.python-guide.org/en/latest/writing/gotchas/)
-
 One of the most confusing moments for new developers is when they discover how
 Python treats default arguments in function definitions.
 
@@ -66,4 +64,6 @@ def append_to(element, to=None):
     return to
 ```
 
-Via [thoughtbot/til](https://github.com/thoughtbot/til).
+Via [thoughtbot/til](https://github.com/thoughtbot/til)
+and [python guide](https://docs.python-guide.org/writing/gotchas/)
+.
