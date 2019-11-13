@@ -16,7 +16,7 @@ tags:
 Roughly: Light travels about a foot per nanosecond,
 sound travels about a foot per millisecond.
 A factor of almost exactly a million.
-</p>&mdash; Colin Wright (@ColinTheMathmo)
+</p>&mdash; Colin Wright
 <a href="https://twitter.com/ColinTheMathmo/status/1181486921450692608?ref_src=twsrc%5Etfw">October 8, 2019</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -149,7 +149,7 @@ PreCommit:
     enabled: true
     required_executable: 'markdownlint'
   Mdl:
-    enabled: true
+    enabled: false
   Pycodestyle:
     on_fail: 'warn'
     enabled: true
