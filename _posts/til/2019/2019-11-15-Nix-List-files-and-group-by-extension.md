@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "(TIL) Nix: List files and group by extension"
-date: 2019-11-12 21:03
-modified: 2019-11-12 21:03
+date: 2019-11-15 21:03
+modified: 2019-11-15 21:03
 categories: til
 tags:
   - science
