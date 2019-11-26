@@ -1,0 +1,22 @@
+---
+layout: single
+title: "(TIL) Mac: Software Update from the Command Line"
+date: 2019-11-26 16:04
+modified: 2019-11-26 16:04
+categories: til
+tags:
+  - mac
+  - til
+---
+
+There are [lots of Terminal commands](https://github.com/jamf/erase-install-webinar/wiki) that you can use to change or update your Mac’s OS.
+My favorite is this quick tip to download macOS updates and installation files:
+
+```bash
+# To download the latest macOS update.
+softwareupdate —fetch-full-installer
+# To download older builds of macOS, e.g., build 10.14.5.
+softwareupdate —fetch-full-installer 10.14.5.
+```
+
+Via [lifehacker.com](https://lifehacker.com/how-to-download-and-install-older-macos-versions-with-t-1839671161).
