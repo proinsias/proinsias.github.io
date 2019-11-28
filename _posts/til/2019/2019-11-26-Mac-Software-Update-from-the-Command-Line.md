@@ -16,7 +16,7 @@ My favorite is this quick tip to download macOS updates and installation files:
 # To download the latest macOS update.
 softwareupdate —fetch-full-installer
 # To download older builds of macOS, e.g., build 10.14.5.
-softwareupdate —fetch-full-installer 10.14.5.
+softwareupdate —fetch-full-installer --full-installer-version 10.14.5
 ```
 
 Via [lifehacker.com](https://lifehacker.com/how-to-download-and-install-older-macos-versions-with-t-1839671161).
