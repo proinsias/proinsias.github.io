@@ -9,8 +9,6 @@ tags:
   - til
 ---
 
-# Light v Sound
-
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
 Roughly: Light travels about a foot per nanosecond,
@@ -21,9 +19,7 @@ A factor of almost exactly a million.
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-> Roughly: Light travels about a foot per nanosecond, sound travels about a foot per millisecond. A factor of almost exactly a million.
-
-
-
-
-Via [Colin Wright](https://twitter.com/ColinTheMathmo/status/1181486921450692608).
+<!--
+FIXME: Why isn't this post showing up on my site? Try adding test post
+https://raw.githubusercontent.com/mmistakes/minimal-mistakes/fc3e7a61769253f10d325525b0a7a334166f49ac/docs/_posts/2010-09-10-post-twitter-embeds.md
+-->
