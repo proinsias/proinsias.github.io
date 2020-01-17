@@ -262,7 +262,7 @@ PostCheckout:
   GitLfs:
     enabled: false
   GitLfs2:
-    enabled: true
+    enabled: false
     command: ['git', 'lfs', 'post-checkout']
   IndexTags:
     enabled: true
@@ -281,7 +281,7 @@ PostCommit:
   GitLfs:
     enabled: false
   GitLfs2:
-    enabled: true
+    enabled: false
     command: ['git', 'lfs', 'post-commit']
   SubmoduleStatus:
     enabled: true
