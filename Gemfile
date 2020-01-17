@@ -36,7 +36,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-gist"
   gem "jekyll-include-cache"
-  gem "jekyll-mentions"
+  # gem "jekyll-mentions"  # I have both GitHub and Twitter mentions, which break this.
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jemoji"
