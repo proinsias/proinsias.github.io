@@ -295,7 +295,7 @@ PostMerge:
   GitLfs:
     enabled: false
   GitLfs2:
-    enabled: true
+    enabled: false
     command: ['git', 'lfs', 'post-merge']
   IndexTags:
     enabled: true
@@ -319,7 +319,7 @@ PrePush:
   GitLfs:
     enabled: false
   GitLfs2:
-    enabled: true
+    enabled: false
     command: ['git', 'lfs', 'pre-push']
   ProtectedBranches:
     enabled: true
