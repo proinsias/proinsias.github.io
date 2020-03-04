@@ -200,7 +200,7 @@ monitoring the night sky long after the sun has risen over STARE.
 This discovery using telescopes placed in multiple locations required
 an international team of astronomers, from various institutions like
 Caltech, [Harvard University](http://www.harvard.edu/), the
-[Canary Islands Institute of Astronomy](http://www.iac.es/index.php?lang=en),
+[Canary Islands Institute of Astronomy](http://www.iac.es/),
 and the Lowell Observatory (fittingly, as the institute where
 [Clyde Tombaugh](https://en.wikipedia.org/wiki/Clyde_Tombaugh)
 discovered Pluto in 1930). It also required countless man-hours be

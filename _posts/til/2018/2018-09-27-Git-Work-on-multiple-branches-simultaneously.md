@@ -55,5 +55,4 @@ always mounted, you can prevent its administrative files from being pruned by is
 `git worktree lock` command, optionally specifying `--reason` to explain why the working
 tree is locked.
 
-Via [StackToHeap](https://stacktoheap.com/blog/2016/01/19/using-multiple-worktrees-with-git/)
-and [Git](https://git-scm.com/docs/git-worktree).
+Via StackToHeap.com and [Git](https://git-scm.com/docs/git-worktree).
