@@ -14,4 +14,4 @@ I always wonder if it was the subject or their teachers that they disliked...
 
 > Mathematical genius resides within every one of us. Most people just don’t know it yet. That’s because genius is fragile. If you don’t embraced genius and tend to with care, it will slip away, leaving behind just a subdued vision of the mathematicians we could have become.
 
-(via [Mathematical genius is fragile. We need to stop destroying it.](https://medium.freecodecamp.com/mathematical-genius-is-fragile-society-needs-to-stop-destroying-it-5fdf3f08336e#.o72a1bds9))
+(via [Mathematical genius is fragile. We need to stop destroying it.](https://www.freecodecamp.org/news/mathematical-genius-is-fragile-society-needs-to-stop-destroying-it-5fdf3f08336e/))

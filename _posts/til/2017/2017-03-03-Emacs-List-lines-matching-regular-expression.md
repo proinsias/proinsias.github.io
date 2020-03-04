@@ -13,4 +13,4 @@ tags:
 M-x occur
 ```
 
-Via [@UnixToolTip](https://twitter.com/UnixToolTip/status/827572452276441090).
+Via [UnixToolTip](https://twitter.com/UnixToolTip/status/827572452276441090).

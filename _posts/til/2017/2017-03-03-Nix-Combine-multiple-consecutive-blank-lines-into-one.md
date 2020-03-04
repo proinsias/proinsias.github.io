@@ -30,4 +30,4 @@ abc
 def
 ```
 
-Via [@UnixToolTip](https://twitter.com/UnixToolTip/status/829005635391991808).
+Via [UnixToolTip](https://twitter.com/UnixToolTip/status/829005635391991808).

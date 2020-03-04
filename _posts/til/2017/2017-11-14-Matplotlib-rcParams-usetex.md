@@ -18,4 +18,4 @@ Use LaTex in your plots:
 matplotlib.rcParams.update({'text.usetex': True})
 ```
 
-Via [Invibe.net](http://blog.invibe.net/posts/2015-01-07-the-right-imports-in-a-notebook.html).
+Via [Invibe.net](https://laurentperrinet.github.io/sciblog/posts/2015-01-07-the-right-imports-in-a-notebook.html).

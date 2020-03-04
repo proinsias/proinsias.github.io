@@ -11,4 +11,4 @@ tags:
 
 Use `M-shift-backspace`.
 
-Via [@UnixToolTip](https://twitter.com/UnixToolTip/status/844951955894124548).
+Via [UnixToolTip](https://twitter.com/UnixToolTip/status/844951955894124548).
