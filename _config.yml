@@ -156,9 +156,11 @@ plugins:
   - jekyll-algolia
   - jekyll-feed
   - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
 
@@ -167,9 +169,11 @@ whitelist:
   - jekyll-algolia
   - jekyll-feed
   - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
 

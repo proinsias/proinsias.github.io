@@ -36,8 +36,10 @@ group :jekyll_plugins do
   gem 'jekyll-algolia', '>= 1.6.0'
   gem 'jekyll-feed'
   gem 'jekyll-gist'
+  gem 'jekyll-github-metadata'
   gem 'jekyll-include-cache'
   gem 'jekyll-paginate'
+  gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jemoji', '>= 0.11.1'
 end
