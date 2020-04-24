@@ -128,7 +128,7 @@ Transits of TrES-1 observered using 10 cm telescope.
 *   [*The Transit Light Curve Project. I. Four Consecutive Transits of the Exoplanet XO-1b*](https://www.doi.org/10.1086/508155),
     The Astrophysical Journal, Volume 652, p. 1715, December, 2006.
 
-*   [*Outcome of Six Candidate Transiting Planets from a TrES Field in Andromeda*](https://www.doi.org/10.1086/513684),
+*   [*Outcome of Six Candidate Transiting Planets from a TrES Field in Andromeda*](https://ui.adsabs.harvard.edu/abs/2007ApJ...662..658O/),
     The Astrophysical Journal, Volume 662, p. 658, October, 2006.
 
 *   [*TrES-2: The First Transiting Planet in the Kepler Field*](https://www.doi.org/10.1086/509123),
