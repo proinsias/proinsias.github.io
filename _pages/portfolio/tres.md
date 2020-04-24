@@ -57,14 +57,14 @@ See the STARE webpage for a summary of [The Search for Exoplanets](http://www.ha
 
 <h2 id="news">News</h2>
 
-* Number 5 is in the bag..., [TrES-5](http://arxiv.org/abs/1108.3572)!
+* Number 5 is in the bag..., [TrES-5](https://www.doi.org/10.1088/0004-637X/741/2/114)!
 
-* We've found the largest known transiting planet, [TrES-4](https://arxiv.org/abs/0708.0834)!
+* We've found the largest known transiting planet, [TrES-4](https://www.doi.org/10.1086/522115)!
 
-* We've found a transiting planet, [TrES-3](http://arxiv.org/abs/0705.2004), with 1.9 Jupiter masses and
+* We've found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
 an orbital period of only 1.3 days!
 
-* [TrES-2](http://arxiv.org/abs/astro-ph/0609335), the first known transiting planet in the *Kepler*
+* [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the *Kepler*
 field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
 
 * First direction detection of light from extrasolar planets!
@@ -80,134 +80,106 @@ Transits of TrES-1 observered using 10 cm telescope.
 
 <h2 id="papers">TrES Publications</h2>
 
-*   [*TrES-5: A Massive Jupiter-sized Planet Transiting a Cool G Dwarf*](http://adsabs.harvard.edu/abs/2011ApJ...741..114M),
+*   [*TrES-5: A Massive Jupiter-sized Planet Transiting a Cool G Dwarf*](https://www.doi.org/10.1088/0004-637X/741/2/114)
     The Astrophysical Journal, Volume 741, p. 5, November, 2011.
-    ([preprint](http://arxiv.org/abs/1108.3572))
 
-*   [*The Broadband Infrared Emission Spectrum of the Exoplanet TrES-3*](http://adsabs.harvard.edu/abs/2010ApJ...711..374F),
+*   [*The Broadband Infrared Emission Spectrum of the Exoplanet TrES-3*](https://www.doi.org/10.1088/0004-637X/711/1/374),
     The Astrophysical Journal, Volume 711, p. 374, March, 2010.
-    ([preprint](http://arxiv.org/abs/0909.5221))
 
-*   [*Detection of Planetary Emission from the Exoplanet Tres-2 Using Spitzer/IRAC*](http://adsabs.harvard.edu/abs/2010ApJ...710.1551O),
+*   [*Detection of Planetary Emission from the Exoplanet Tres-2 Using Spitzer/IRAC*](https://www.doi.org/10.1088/0004-637X/710/2/1551),
     The Astrophysical Journal, Volume 710, p. 1551, February, 2010.
-    ([preprint](http://arxiv.org/abs/0909.3073))
 
-*   [*A New Spectroscopic and Photometric Analysis of the Transiting Planet Systems TrES-3 and TrES-4*](http://adsabs.harvard.edu/abs/2009ApJ...691.1145S),
+*   [*A New Spectroscopic and Photometric Analysis of the Transiting Planet Systems TrES-3 and TrES-4*](https://www.doi.org/10.1088/0004-637X/691/2/1145),
     The Astrophysical Journal, Volume 691, p. 1145, February, 2009.
-    ([preprint](http://arxiv.org/abs/0809.4589))
 
-*   [*Detection of A Temperature Inversion in the Broadband Infrared Emission Spectrum of TrES-4*](http://adsabs.harvard.edu/abs/2009ApJ...691..866K),
+*   [*Detection of A Temperature Inversion in the Broadband Infrared Emission Spectrum of TrES-4*](https://www.doi.org/10.1088/0004-637X/691/1/866),
     The Astrophysical Journal, Volume 691, p. 866, January, 2009.
-    ([preprint](http://arxiv.org/abs/0810.0021))
 
-*   [*T-Lyr1-17236: A Long-Period Low-Mass Eclipsing Binary*](http://adsabs.harvard.edu/abs/2008ApJ...687.1253D),
+*   [*T-Lyr1-17236: A Long-Period Low-Mass Eclipsing Binary*](https://www.doi.org/10.1086/592080),
     The Astrophysical Journal, Volume 687, p. 1253, November, 2008.
-    ([preprint](http://arxiv.org/abs/0807.3746))
 
-*   [*The Prograde Orbit of Exoplanet TrES-2b*](http://adsabs.harvard.edu/abs/2008ApJ...682.1283W),
+*   [*The Prograde Orbit of Exoplanet TrES-2b*](https://www.doi.org/10.1086/589235),
     The Astrophysical Journal, Volume 682, p. 1283, August, 2008.
-    ([preprint](http://arxiv.org/abs/0804.2259))
 
-*   [*Identification, Classifications, and Absolute Properties of 773 Eclipsing Binaries Found in the Trans-Atlantic Exoplanet Survey*](http://adsabs.harvard.edu/abs/2008AJ....135..850D),
+*   [*Identification, Classifications, and Absolute Properties of 773 Eclipsing Binaries Found in the Trans-Atlantic Exoplanet Survey*](https://www.doi.org/10.1088/0004-6256/135/3/850),
     The Astrophysical Journal, Volume 135, p. 850, March, 2008.
-    ([preprint](http://arxiv.org/abs/0712.0839))
 
-*   [*Extrasolar planet detection by binary stellar eclipse timing: evidence for a third body around CM Draconis*](http://adsabs.harvard.edu/abs/2008A%26A...480..563D),
+*   [*Extrasolar planet detection by binary stellar eclipse timing: evidence for a third body around CM Draconis*](https://www.doi.org/10.1051/0004-6361:20079000),
     Astronomy and Astrophysics, Volume 480, p. 563, March, 2008.
-    ([preprint](http://arxiv.org/abs/0801.2186))
 
-*   [*The detection and exploration of planets from the Trans-atlantic Exoplanet Survey*](http://adsabs.harvard.edu/abs/2008PhDT........70O),
+*   [*The detection and exploration of planets from the Trans-atlantic
+    Exoplanet Survey*](https://www.doi.org/10.7907/585M-JF91),
     Ph.D. Thesis, California Institute of Technology, 2008.
-<!--
-    ([preprint]())
--->
 
-*   [*TrES-3: A Nearby, Massive, Transiting Hot Jupiter in a 31-Hour Orbit*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0705.2004),
+*   [*TrES-3: A Nearby, Massive, Transiting Hot Jupiter in a 31-Hour Orbit*](https://www.doi.org/10.1086/519793),
     The Astrophysical Journal, Volume 663, p. L37, September, 2007.
-    ([preprint](http://arxiv.org/abs/0705.2004))
 
-*   [*TrES Exoplanets and False Positives: Finding the Needle in the Haystack*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0705.1795),
+*   [*TrES Exoplanets and False Positives: Finding the Needle in the
+    Haystack*](https://ui.adsabs.harvard.edu/abs/2007ASPC..366...58O),
     ASP Conference Series: "Transiting Extrasolar Planets Workshop",
     September, 2007.
-    ([preprint](http://arxiv.org/abs/0705.1795))
 
-*   [*Improving Stellar and Planetary Parameters of Transiting Planet Systems: The Case of TrES-2*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0704.2938),
+*   [*Improving Stellar and Planetary Parameters of Transiting Planet Systems: The Case of TrES-2*](https://www.doi.org/10.1086/519214),
     The Astrophysical Journal, Volume 664, p. 1190, August, 2007.
-    ([preprint](http://arxiv.org/abs/0704.2938))
 
-*   [*The Transit Light Curve Project. VI. Three Transits of the Exoplanet TrES-2*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0704.2907),
+*   [*The Transit Light Curve Project. VI. Three Transits of the Exoplanet TrES-2*](https://www.doi.org/10.1086/519077),
     The Astrophysical Journal, Volume 664, p. 1185, August, 2007.
-    ([preprint](http://arxiv.org/abs/0704.2907))
 
-*   [*The Transit Light Curve Project. I. Four Consecutive Transits of the Exoplanet XO-1b*](http://adsabs.harvard.edu/abs/2006ApJ...652.1715H),
+*   [*The Transit Light Curve Project. I. Four Consecutive Transits of the Exoplanet XO-1b*](https://www.doi.org/10.1086/508155),
     The Astrophysical Journal, Volume 652, p. 1715, December, 2006.
-    ([preprint](http://arxiv.org/abs/astro-ph/0607571))
 
-*   [*Outcome of Six Candidate Transiting Planets from a TrES Field in Andromeda*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:astro-ph/0610603),
+*   [*Outcome of Six Candidate Transiting Planets from a TrES Field in Andromeda*](https://www.doi.org/10.1086/513684),
     The Astrophysical Journal, Volume 662, p. 658, October, 2006.
-    ([preprint](https://arxiv.org/abs/astro-ph/0610603))
 
-*   [*TrES-2: The First Transiting Planet in the Kepler Field*](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:astro-ph/0609335),
-    The Astrophysical Journal, Volume 651, p. L61, September, 2006.
-    ([preprint](http://arxiv.org/abs/astro-ph/0609335))
+*   [*TrES-2: The First Transiting Planet in the Kepler Field*](https://www.doi.org/10.1086/509123),
 
 *   [*Rejecting Astrophysical False Positives from the TrES
     Transiting Planet Survey: The Example of GSC
-    03885-00829*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2006ApJ...644.1237O&db_key=AST),
+    03885-00829*](https://www.doi.org/10.1086/503740),
     The Astrophysical Journal, Volume 644, p. 1237, June, 2006.
-    ([preprint](http://arxiv.org/abs/astro-ph/0603005))
 
 *   [*Detection of Thermal Emission from an Extrasolar
-    Planet*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJ...626..523C&db_key=AST&data_type=HTML&format=&high=42d679a7bc29569)
+    Planet*](https://www.doi.org/10.1086/429991)
     The Astrophysical Journal, Volume 626, p. 523, June, 2005.
-    ([preprint](http://arxiv.org/abs/astro-ph/0503457))
 
 * [*A New Detached M Dwarf Eclipsing
-    Binary*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJ...625L.127C&db_key=AST&data_type=HTML&format=&high=42d679a7bc29569)
+    Binary*](https://www.doi.org/10.1086/431278)
     The Astrophysical Journal, Volume 625, p. L127, June, 2005.
-    ([preprint](http://arxiv.org/abs/astro-ph/0504490))
 
 * [*The Challenge of Wide-Field Transit Surveys: The Case of GSC
-    01944-02289*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005ApJ...621.1061M&db_key=AST&data_type=HTML&format=&high=42d679a7bc29569)
+    01944-02289*](https://www.doi.org/10.1086/427727)
     The Astrophysical Journal, Volume 621, p. 1061, March, 2005.
-    ([preprint](http://arxiv.org/abs/astro-ph/0501554))
 
 * [*High-Resolution Spectroscopy of the Transiting Planet Host
     Star
-    TrES-1*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004ApJ...616L.167S&db_key=AST&high=3f6c82eb5311888)
+    TrES-1*](https://www.doi.org/10.1086/426864)
     The Astrophysical Journal, Volume 616, p. L167, December, 2004.
-    ([preprint](http://arxiv.org/abs/astro-ph/0410483))
 
 * [*PSST: The Planet Search Survey
-    Telescope*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004PASP..116.1072D&db_key=AST&high=3f6c82eb5300426)
+    Telescope*](https://www.doi.org/10.1086/426303)
     The Publications of the Astronomical Society of the Pacific, Volume
     116, p. 1072, November, 2004.
 
 * [*TrES-1: The Transiting Planet of a Bright K0 V
-    Star*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004ApJ...613L.153A&db_key=AST&high=3f6c82eb5300426)
+    Star*](https://www.doi.org/10.1086/425256)
     The Astrophysical Journal, Volume 613, p. L153, October, 2004.
-    ([preprint](http://arxiv.org/abs/astro-ph/0408421))
 
 * [*STARE operations experience and its data quality
-    control*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004AN....325..594A&db_key=AST&high=3f6c82eb5312091)
+    control*](https://www.doi.org/10.1002/asna.200410287)
     Astronomische Nachrichten, Volume 325, p. 594, October, 2004.
 
 * [*First Results From Sleuth: The Palomar Planet
-    Finder*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004AIPC..713..169O&db_key=AST&high=3f6c82eb5315444)
+    Finder*](https://www.doi.org/10.1063/1.1774518)
     The Search for Other Worlds, AIP Conference Proceedings, Volume
     713, p. 169, June, 2004.
-    ([preprint](http://arxiv.org/abs/astro-ph/0312289))
 
 * [*Sherlock: An Automated Follow-Up Telescope for Wide-Field
     Transit
-    Searches*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004AIPC..713..173K&db_key=AST&high=3f6c82eb5315444)
+    Searches*](https://www.doi.org/10.1063/1.1774519)
     The Search for Other Worlds, AIP Conference Proceedings, Volume
     713, p. 173, June, 2004.
-    ([preprint](http://arxiv.org/abs/astro-ph/0312432))
 
 * [*Astrophysical False Positives Encountered in Wide-Field
-    Transit
-    Searches*](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004AIPC..713..151C&db_key=AST&high=3f6c82eb5312091)
+    Transit Searches*](https://www.doi.org/10.1063/1.1774515)
     The Search for Other Worlds, AIP Conference Proceedings, Volume
     713, p. 151, June, 2004.
-    ([preprint](http://arxiv.org/abs/astro-ph/0401063))
