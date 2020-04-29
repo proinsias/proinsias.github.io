@@ -28,7 +28,7 @@ My favorite part is about how to create a healthy society:
 > we accommodate differently-abled people through accessibility standards,
 > not because it’s financially prudent but because it’s the right thing to do.
 > In a healthy society,
-> we make certain that the vulnerable amongst us are not harassed into silence 
+> we make certain that the vulnerable amongst us are not harassed into silence
 > because that is not the value behind free speech.
 > In a healthy society,
 > we strategically design to increase social cohesion
