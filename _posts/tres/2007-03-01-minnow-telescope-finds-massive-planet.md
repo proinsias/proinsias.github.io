@@ -154,7 +154,7 @@ Scott Kardel
 
 The planet TrES-2 is also noteworthy for being the first transiting
 planet in an area of the sky known as the
-“[Kepler field](http://kepler.nasa.gov/Science/about/targetFieldOfView/)”,
+“[Kepler field](https://exoplanets.nasa.gov/resources/1019/kepler-field-of-view/)”,
 which has been singled out as the target field of view for the
 upcoming NASA [Kepler](http://www.kepler.nasa.gov) mission. Using a
 satellite-based telescope, Kepler will stare at this patch of sky for

@@ -9,7 +9,7 @@ tags:
 ---
 
 [This wired.com article](
-http://bit.ly/2kwWpYO)
+https://www.wired.com/2017/01/john-arnold-waging-war-on-bad-science)
 on 'bad science' speaks to me on so many levels.
 It hurts my soul to see how many published studies are not reproducible.
 
