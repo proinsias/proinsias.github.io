@@ -15,7 +15,7 @@ source 'https://rubygems.org'
 
 gem 'github-pages', '>= 204', group: :jekyll_plugins
 
-gem 'activesupport', '>= 4.1.11' # CVE-2015-3227.
+gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem 'bundler'
 gem 'bundler-audit'
 gem 'html-proofer', '>= 3.15.1'
