@@ -16,7 +16,7 @@ modified: 2016-07-06
 ---
 
 *This article was originally published in the
-[Astronomy Ireland Magazine](http://www.astronomy.ie/magazine.php)
+[Astronomy Ireland Magazine](https://www.astronomy.ie/magazine.php)
 (March 2007).*
 
 Since ancient times, mankind has studied the sky and wondered what
@@ -54,7 +54,7 @@ telescopes. The humble telescopes used in the discovery were built
 using off-the-shelf 10-cm camera lenses. The three telescopes shown in
 [Figure 1](#fig1) – [Sleuth](/portfolio/tres.html), the Planet Search Survey Telescope and the STellar
 Astrophysics and Research on Exoplanets
-([STARE](http://www.hao.ucar.edu/research/stare/stare.html)) telescope
+([STARE](https://www.hao.ucar.edu/research/stare/stare.html)) telescope
 – form a network called the Trans-atlantic Exoplanet Survey
 ([TrES](/portfolio/tres.html)).
 Our TrES team has so far<sup id="a2">[2](#f2)</sup> identified two
@@ -119,8 +119,8 @@ the mass of the transiting companion in our candidate planetary
 system, and thereby determine whether it was a planet or a star, we
 had to scale up our equipment. We observed our target star with one of
 the 10-m telescopes at the
-[W.M. Keck Observatory](http://www.keckobservatory.org/) on the summit
-of [Mauna Kea, Hawaii](http://w3w.co/fiesta.registration.repeat) (see
+[W.M. Keck Observatory](https://www.keckobservatory.org/) on the summit
+of [Mauna Kea, Hawaii](https://w3w.co/fiesta.registration.repeat) (see
 [Figure 3](#fig3)). We measured the wobble of this star, and concluded that the
 companion was a Jupiter-mass planet.  The past few months have truly
 been an exciting time for astronomers looking for new
@@ -156,10 +156,12 @@ The planet TrES-2 is also noteworthy for being the first transiting
 planet in an area of the sky known as the
 “[Kepler field](https://exoplanets.nasa.gov/resources/1019/kepler-field-of-view/)”,
 which has been singled out as the target field of view for the
-upcoming NASA [Kepler](http://www.kepler.nasa.gov) mission. Using a
-satellite-based telescope, Kepler will stare at this patch of sky for
-four years, and should discover hundreds of giant planets and even
-Earth-like planets.  Finding a planet in the Kepler field allows
+upcoming NASA
+[Kepler](https://www.nasa.gov/mission_pages/kepler/main/index.html)
+mission.
+Using a satellite-based telescope, Kepler will stare at this patch of
+sky for four years, and should discover hundreds of giant planets and
+even Earth-like planets. Finding a planet in the Kepler field allows
 astronomers to plan future observations with Kepler that include
 searching for moons around TrES-2.
 
@@ -189,7 +191,7 @@ of bad weather. For example, the [PSST](https://web.archive.org/web/200609121320
 [Lowell Observatory](https://lowell.edu/) in Arizona experiences a
 monsoon every summer, during which very little observing is
 possible. Since the summer nights at
-[Palomar Observatory](http://www.astro.caltech.edu/palomar/homepage.html)
+[Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html)
 in California are generally clear, the Sleuth telescope can observe
 the target field while the PSST is weather-logged. The telescopes can
 also work in shifts, taking turns to observe the night sky as the sun
@@ -199,8 +201,8 @@ monitoring the night sky long after the sun has risen over STARE.
 
 This discovery using telescopes placed in multiple locations required
 an international team of astronomers, from various institutions like
-Caltech, [Harvard University](http://www.harvard.edu/), the
-[Canary Islands Institute of Astronomy](http://www.iac.es/),
+Caltech, [Harvard University](https://www.harvard.edu/), the
+[Canary Islands Institute of Astronomy](https://www.iac.es/),
 and the Lowell Observatory (fittingly, as the institute where
 [Clyde Tombaugh](https://en.wikipedia.org/wiki/Clyde_Tombaugh)
 discovered Pluto in 1930). It also required countless man-hours be

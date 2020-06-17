@@ -14,16 +14,16 @@ modified: 2016-06-30
 ---
 
 *This article was originally published in
-[The Big Eye Newsletter](http://www.astro.caltech.edu/palomar/community/friends/bigeye.html)
-([Vol 1 No 2](http://www.astro.caltech.edu/palomar/community/friends/newsletter/BigEye1-2.pdf),
+[The Big Eye Newsletter](https://www.astro.caltech.edu/palomar/community/friends/bigeye.html)
+([Vol 1 No 2](https://www.astro.caltech.edu/palomar/community/friends/newsletter/BigEye1-2.pdf),
 Spring 2006).*
 
 A new visitor to the
-[Palomar Observatory](http://www.astro.caltech.edu/palomar/homepage.html)
+[Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html)
 would be forgiven for paying scant attention to the small hut-like
 structure shown in [Figure 1](#fig1). A few minutes walk from the gigantic dome of the
 five-meter (200-inch)
-[Hale Telescope](http://www.astro.caltech.edu/palomar/about/telescopes/hale.html),
+[Hale Telescope](https://www.astro.caltech.edu/palomar/about/telescopes/hale.html),
 the clamshell enclosure houses a small telescope named [Sleuth](/portfolio/tres.html). The
 diameter of Sleuth's camera lens is relatively small, only 10 cm. The
 telescope itself would blend in well in a store for the astronomy
@@ -68,7 +68,7 @@ small telescope (if you were careful with how you measured this
 brightness). In 1999, the first transiting exoplanet
 [HD 209458 b](https://en.wikipedia.org/wiki/HD_209458_b) was
 discovered using the 10-cm
-[STARE](http://www.hao.ucar.edu/research/stare/stare.html) (STellar
+[STARE](https://www.hao.ucar.edu/research/stare/stare.html) (STellar
 Astrophysics & Research on Exoplanets) telescope. Eight other
 transiting exoplanets
 are now known<sup id="a2">[2](#f2)</sup>.
@@ -112,7 +112,7 @@ a good night's sleep and receive the data in the morning. The
 automated nature of this procedure allows for remote observing, so the
 observer need not even be on the mountain. In this way, Sleuth is
 controlled from the California Institute of Technology
-([Caltech](http://www.caltech.edu/)) in Pasadena,
+([Caltech](https://www.caltech.edu/)) in Pasadena,
 and can observe each night, weather permitting.
 
 Unfortunately, the weather on the mountain does not always cooperate
@@ -136,11 +136,11 @@ of their atmospheres.
 
 Many hours of work by professional astronomers were spent before the
 discovery of TrES-1. But any enthusiast can find the host star (at
-[19h 04m 10s +36d 37m 57s](http://www.sky-map.org/?ra=19.0694&de=36.63265&zoom=8&show_grid=1&show_constellation_lines=1&show_constellation_boundaries=1&show_const_names=0&show_galaxies=1&show_box=1&box_ra=19.0694&box_de=36.63265&box_width=50&box_height=50&img_source=DSS2),
+[19h 04m 10s +36d 37m 57s](https://www.sky-map.org/?ra=19.0694&de=36.63265&zoom=8&show_grid=1&show_constellation_lines=1&show_constellation_boundaries=1&show_const_names=0&show_galaxies=1&show_box=1&box_ra=19.0694&box_de=36.63265&box_width=50&box_height=50&img_source=DSS2),
 J2000) and observe it using amateur telescopes similar to
 Sleuth. Indeed, many amateur astronomers are joining the hunt for
 transiting planets as part of the
-[transitsearch.org](http://transitsearch.org/) network. If you too can
+[transitsearch.org](https://transitsearch.org/) network. If you too can
 escape the light pollution, I invite you to enjoy the night sky, and
 think of Sleuth, the tireless workhorse, quietly studying thousands of
 stars for signs of TrES-2, -3 and maybe even -4<sup id="a4">[4](#f4)</sup>, and providing the
@@ -152,7 +152,7 @@ are known as of 2016-06-30. [↩](#a1)
 exoplanets are known as of 2016-06-30. [↩](#a2)
 <sup><b id="f3">3</b></sup> Sleuth went out of service in 2007, and
 was
-[retired](http://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html)
+[retired](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html)
 in 2009. [↩](#a3)
 <sup><b id="f4">4</b></sup>
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b),

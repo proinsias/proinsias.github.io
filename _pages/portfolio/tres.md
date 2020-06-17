@@ -24,7 +24,7 @@ TODO:
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
-TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of Sleuth ([Palomar Observatory](http://www.astro.caltech.edu/palomar/index.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](http://www.lowell.edu/), Northern Arizona) and [STARE](http://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](https://web.archive.org/web/20190903220416/http://www.iac.es/eno.php?op1=3), Canary Islands, Spain).
+TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above) searching the sky for transiting planets. The network consists of Sleuth ([Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html), Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) ([Lowell Observatory](https://www.lowell.edu/), Northern Arizona) and [STARE](https://www.hao.ucar.edu/research/stare/stare.html) ([Observatorio del Teide](https://web.archive.org/web/20190903220416/http://www.iac.es/eno.php?op1=3), Canary Islands, Spain).
 
 Our method of detection relies on the edge-on alignment of the
 extrasolar system. If a planetary system is oriented so that Earth
@@ -53,7 +53,7 @@ in close orbits. The results of successful radial-velocity planetary
 searches have shown that planetary systems of this type could be quite
 common.
 
-See the STARE webpage for a summary of [The Search for Exoplanets](http://www.hao.ucar.edu/research/stare/search.html).
+See the STARE webpage for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
 
 <h2 id="news">News</h2>
 
@@ -75,7 +75,7 @@ field and the most massive nearby transiting planet, discovered using small-aper
 * Discussion of identifying insidious blend contaminants common in
   wide--field transit surveys, such as TrES.
 
-* [TrES Network Success: Transiting Planet Discovered](http://www.hao.ucar.edu/research/stare/tres1_2.html)!
+* [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html)!
 Transits of TrES-1 observered using 10 cm telescope.
 
 <h2 id="papers">TrES Publications</h2>
