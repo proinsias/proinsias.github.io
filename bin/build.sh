@@ -15,7 +15,7 @@ bundle exec htmlproofer ./_site \
     --check-favicon \
     --check-html \
     --empty-alt-ignore `# Unsure how to enable alt tags for teaser images` \
-    --http-status-ignore 999 `# Ignore 999 errors associated with LinkedIn urls` \
     --internal-domains proinsias.github.io `# Treat urls with this domain as internal urls` \
+    --only-4xx \
     --typhoeus-config '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
     --url-ignore "#,/web.archive.org/"
