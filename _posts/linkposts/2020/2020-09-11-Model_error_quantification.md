@@ -57,6 +57,4 @@ plt.show()
 
 ![Metric values](https://miro.medium.com/max/1370/1*-R4VlYwkyaEk3OzvOf24UQ.png)
 
-You can see the full details in the associated Jupyter Notebook:
-
-<iframe src="https://github.com/bot13956/Random_error_quantification_in_ML/blob/master/Random_error_quantification_in_ML.ipynb"></iframe>
+You can see the full details in the associated [Jupyter Notebook](https://github.com/bot13956/Random_error_quantification_in_ML/blob/master/Random_error_quantification_in_ML.ipynb).
