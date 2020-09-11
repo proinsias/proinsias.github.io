@@ -5,7 +5,7 @@ date: 2020-09-11 15:00
 modified: 2020-09-11 15:00
 categories: links
 tags:
-  - 
+  - errors
   - ml
   - machine learning
   - random
