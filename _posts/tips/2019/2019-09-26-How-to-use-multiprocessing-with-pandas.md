@@ -1,4 +1,3 @@
-<!--lint disable list-item-bullet-indent-->
 ---
 layout: single
 title: "How to use multiprocessing with pandas"
@@ -11,6 +10,7 @@ tags:
   - parallel
   - tips
 ---
+<!--lint disable list-item-bullet-indent-->
 <!--lint enable list-item-bullet-indent-->
 
 `pandas` doesn't support parallel processing out of the box,

@@ -32,11 +32,11 @@ To clear the cache, use [`memory.clear()`](https://joblib.readthedocs.io/en/late
 
 ## Comparison with memoize
 
-> The [memoize decorator](http://code.activestate.com/recipes/52201/) caches in memory all the inputs
+> The memoize decorator caches in memory all the inputs
 and outputs of a function call.
-> [U]sing memoize with large objects will consume all the memory, where with Memory,
+> Using memoize with large objects will consume all the memory, where with Memory,
 objects are persisted to disk, using a persister optimized for speed and memory usage.
-> [M]emoize is best suited for functions with “small” input and output objects,
+> Memoize is best suited for functions with “small” input and output objects,
 whereas Memory is best suited for functions with complex input and output objects,
 and aggressive persistence to disk.
 
