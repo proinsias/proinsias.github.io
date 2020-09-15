@@ -22,4 +22,4 @@ or add the following to your `jupyter_notebook_config.py`:
 c.InlineBackend.figure_format = 'retina'
 ```
 
-Via [Martina Pugliese](https://web.archive.org/web/20200915133315/https%3A//martinapugliese.github.io/tech/jupyter-customise/).
+Via [Martina Pugliese](https://web.archive.org/web/20200915133315/https://martinapugliese.github.io/tech/jupyter-customise/).

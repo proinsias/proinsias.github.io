@@ -15,4 +15,4 @@ You can set environment variables directly from the notebook without having to r
 %env NEW_ENV_VAR=1
 ```
 
-Via [Martina Pugliese](https://martinapugliese.github.io/jupyter-customise/).
+Via [Martina Pugliese](https://web.archive.org/web/20200915133315/https://martinapugliese.github.io/tech/jupyter-customise/).

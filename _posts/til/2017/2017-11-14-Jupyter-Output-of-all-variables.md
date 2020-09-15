@@ -27,5 +27,5 @@ c = get_config()
 c.InteractiveShell.ast_node_interactivity = "all"
 ```
 
-Via [Martina Pugliese](https://martinapugliese.github.io/jupyter-customise/) and
+Via [Martina Pugliese](https://web.archive.org/web/20200915133315/https://martinapugliese.github.io/tech/jupyter-customise/) and
 [dataquest.io](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).
