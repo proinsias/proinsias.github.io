@@ -1,19 +1,19 @@
 ---
 layout: single
 title: "(TIL) Pandas: Make Data Frame"
-date: 2020-09-18 13:00
-modified: 2020-09-18 13:00
+date: 2020-09-18 14:00
+modified: 2020-09-18 14:00
 categories: til
 tags:
-  - clipboard
   - pandas
+  - random
   - til
 ---
 
 `pandas` has a built-in function `makeDataFrame()` to return a
 DataFrame containing random floats. Note that this is using the
 private API, and the exact details has been changing over time. For
-`pandas` version 1.1., the following should work:
+`pandas` version 1.1.2, the following should work:
 
 ```python
 >>> import pandas as pd
