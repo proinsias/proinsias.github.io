@@ -22,4 +22,4 @@ For instance, try running the method after copying the following Data Frame:
 3	0.221309	0.916424	0.649175	0.803750
 ```
 
-Via [adrianperea.dev](https://www.adrianperea.dev/pandas-hacks-r ads-clipboard/).
+Via [adrianperea.dev](https://www.adrianperea.dev/pandas-hacks-reads-clipboard/).
