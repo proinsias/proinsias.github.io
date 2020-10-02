@@ -18,8 +18,3 @@ A factor of almost exactly a million.
 <a href="https://twitter.com/ColinTheMathmo/status/1181486921450692608?ref_src=twsrc%5Etfw">October 8, 2019</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!--
-FIXME: Why isn't this post showing up on my site? Try adding test post
-https://raw.githubusercontent.com/mmistakes/minimal-mistakes/fc3e7a61769253f10d325525b0a7a334166f49ac/docs/_posts/2010-09-10-post-twitter-embeds.md
--->
