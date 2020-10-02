@@ -165,7 +165,7 @@ Transits of TrES-1 observered using 10 cm telescope.
     The Astrophysical Journal, Volume 613, p. L153, October, 2004.
 
 * [*STARE operations experience and its data quality
-    control*](https://www.doi.org/10.1002/asna.200410287)
+    control*](https://www.researchgate.net/publication/227645647_STARE_operations_experience_and_its_data_quality_control)
     Astronomische Nachrichten, Volume 325, p. 594, October, 2004.
 
 * [*First Results From Sleuth: The Palomar Planet
