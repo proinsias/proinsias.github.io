@@ -3,7 +3,9 @@ layout: single
 title: "Unlearning descriptive statistics"
 date: 2017-02-10 16:54
 modified: 2017-02-10 16:54
-categories: posts
+categories:
+  - posts
+  - tips
 tags:
   - statistics
 ---
