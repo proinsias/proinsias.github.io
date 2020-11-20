@@ -1,6 +1,6 @@
 ---
 
-name: Testing the GitHub Pages publication
+name: Jekyll Build
 # yamllint disable-line rule:truthy
 on: [pull_request]
 
