@@ -10,32 +10,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Cache gems
-      uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-        # key: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-${{ hashFiles('**/Gemfile.lock')
-        #  }}
-        restore-keys: ${{ runner.os }}-gem-
-        # restore-keys: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-
+      - name: Cache gems
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          # key: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gem-
+          # restore-keys: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-
 
-    - name: Build
-      uses: jerryjvl/jekyll-build-action@v1
+      - name: Build
+        uses: jerryjvl/jekyll-build-action@v1
 
-    - name: Check HTML
-      uses: chabad360/htmlproofer@master
-      with:
-        # The directory to scan.
-        directory: "./_site"
-        # The arguments to pass to HTMLProofer.
-        arguments: --check-favicon \
-                   --check-html \
-                   --empty-alt-ignore `# Unsure how to enable alt tags for teaser images` \
-                   --internal-domains proinsias.github.io `# Treat urls with this domain as internal urls` \
-                   --only-4xx \
-                   --typhoeus-config '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
-                   --url-ignore "#,/web.archive.org/"
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          # The directory to scan.
+          directory: "./_site"
+          # The arguments to pass to HTMLProofer.
+          arguments: --check-favicon \
+                     --check-html \
+                     --empty-alt-ignore  `# Unsure how to enable alt tags for teaser images` \
+                     --internal-domains proinsias.github.io  `# Treat urls with this domain as internal urls` \
+                     --only-4xx \
+                     --url-ignore "#,/web.archive.org/"
