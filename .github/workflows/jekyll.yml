@@ -2,7 +2,7 @@
 
 name: Jekyll Build
 # yamllint disable-line rule:truthy
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   jekyll:
