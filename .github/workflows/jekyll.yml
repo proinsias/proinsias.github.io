@@ -25,7 +25,7 @@ jobs:
       - name: 'Bundler Audit'
         uses: andrewmcodes/bundler-audit-action@main
         env:
-          GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bundler Leak Action
         uses: andrewmcodes/bundler-leak-action@v0.0.1
@@ -33,7 +33,7 @@ jobs:
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
         env:
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true  # Speeds up installation of html-proofer.
 
       - name: Check HTML
