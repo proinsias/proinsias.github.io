@@ -24,6 +24,8 @@ jobs:
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master
