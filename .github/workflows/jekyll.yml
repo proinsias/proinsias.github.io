@@ -18,14 +18,9 @@ jobs:
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-          # key: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gem-
-          # restore-keys: v1-${{ runner.os }}-${{ matrix.ruby }}-gems-
 
-      - name: 'Bundler Audit'
-        uses: andrewmcodes/bundler-audit-action@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # TODO: Cache $BUILD_DIR/tmp/.htmlproofer - for some value of build dir.
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
@@ -39,9 +34,9 @@ jobs:
           # The directory to scan.
           directory: "./_site"
           # The arguments to pass to HTMLProofer.
-          arguments: --check-favicon \
-                     --check-html \
-                     --empty-alt-ignore  `# Unsure how to enable alt tags for teaser images` \
-                     --internal-domains proinsias.github.io  `# Treat urls with this domain as internal urls` \
-                     --only-4xx \
-                     --url-ignore "#,/web.archive.org/"
+          # Unsure how to enable alt tags for teaser images.
+          # Treat urls with this domain as internal urls.
+          arguments: "--check-favicon --check-html \
+--empty-alt-ignore --internal-domains proinsias.github.io --only-4xx \
+--url-ignore \"#,/web.archive.org/\" \
+--typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
