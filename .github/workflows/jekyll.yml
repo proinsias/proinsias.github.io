@@ -27,9 +27,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Bundler Leak Action
-        uses: andrewmcodes/bundler-leak-action@v0.0.1
-
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
         env:
