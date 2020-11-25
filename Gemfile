@@ -18,6 +18,7 @@ gem 'github-pages', '>= 207', group: :jekyll_plugins
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem 'bundler'
 gem 'bundler-audit'
+gem 'bundler-leak'
 gem 'html-proofer', '>= 3.15.1'
 gem 'image_optim'
 gem 'jekyll', '>= 3.6.3'
