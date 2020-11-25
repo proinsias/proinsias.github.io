@@ -21,5 +21,5 @@ and that alternatives do exist.
   Our primary comparison is between H2O (which honors categorical variables)
   and scikit-learn (which requires them to be one-hot encoded).
 
-(via [Are categorical variables getting lost in your random forests?](https://roamanalytics.com/2016/10/28/are-categorical-variables-getting-lost-in-your-random-forests/)
+(via [Are categorical variables getting lost in your random forests?](https://web.archive.org/web/20200924113639/https://roamanalytics.com/2016/10/28/are-categorical-variables-getting-lost-in-your-random-forests/)
 )

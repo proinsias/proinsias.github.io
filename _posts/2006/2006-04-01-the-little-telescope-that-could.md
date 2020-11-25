@@ -136,7 +136,7 @@ of their atmospheres.
 
 Many hours of work by professional astronomers were spent before the
 discovery of TrES-1. But any enthusiast can find the host star (at
-[19h 04m 10s +36d 37m 57s](https://www.sky-map.org/?ra=19.0694&de=36.63265&zoom=8&show_grid=1&show_constellation_lines=1&show_constellation_boundaries=1&show_const_names=0&show_galaxies=1&show_box=1&box_ra=19.0694&box_de=36.63265&box_width=50&box_height=50&img_source=DSS2),
+[19h 04m 10s +36d 37m 57s](https://web.archive.org/web/20201125153132/https://www.sky-map.org/?ra=19.0694&de=36.63265&zoom=8&show_grid=1&show_constellation_lines=1&show_constellation_boundaries=1&show_const_names=0&show_galaxies=1&show_box=1&box_ra=19.0694&box_de=36.63265%5C+&box_width=50&box_height=50&img_source=DSS2),
 J2000) and observe it using amateur telescopes similar to
 Sleuth. Indeed, many amateur astronomers are joining the hunt for
 transiting planets as part of the
