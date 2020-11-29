@@ -24,5 +24,5 @@ foo = None  # type: Optional[int]
 bar = []  # type: List[str]
 ```
 
-Via [MyPy](https://mypy.readthedocs.io/en/latest/python36.html#syntax-for-variable-annotations-pep-526)
+Via [MyPy](https://mypy.readthedocs.io/en/latest/)
 .
