@@ -12,7 +12,8 @@ ruleset:
     comment: |
       Perfect @{{ user.login }} - now replace the first two rules with your own!
 
-      If you wish to keep the third rule, you can merge by starting a comment with "LGTM".
+      If you wish to keep the third rule,
+      you can merge by starting a comment with "LGTM".
 
       Please see the following resources if you get stuck - best of luck!
 
@@ -39,8 +40,10 @@ ruleset:
     comment: |
       Welcome to VarCI @{{ user.login }}!
 
-      Continue pushing changes to the config in this branch and I'll validate the changes.
+      Continue pushing changes to the config in this branch,
+      and I'll validate the changes.
 
       You can also test out new rules in your pull requests before merging them.
 
-      For example, try triggering the second rule by mentioning me (@VarCI-bot) right now!
+      For example, try triggering the second rule
+      by mentioning me (@VarCI-bot) right now!

@@ -26,7 +26,8 @@ jobs:
         uses: jerryjvl/jekyll-build-action@v1
         env:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NOKOGIRI_USE_SYSTEM_LIBRARIES: true  # Speeds up installation of html-proofer.
+          # Speeds up installation of html-proofer.
+          NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master

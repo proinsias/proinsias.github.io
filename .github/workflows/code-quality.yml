@@ -28,12 +28,12 @@ jobs:
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
         with:
-          exclude: "./.git/*" # Optional.
+          exclude: "./.git/*"  # Optional.
           fail_on_error: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
           path: "."
-          pattern: "*.sh" # Optional.
-          reporter: github-pr-review # Change reporter.
+          pattern: "*.sh"  # Optional.
+          reporter: github-pr-review  # Change reporter.
           shellcheck_flags: '--external-sources --format=gcc --shell=bash'
 
       - name: Yamllint Github Action

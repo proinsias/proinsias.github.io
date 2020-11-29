@@ -7,7 +7,8 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -29,16 +30,23 @@ repository: proinsias/proinsias.github.io
 email: francis.odonovan@gmail.com
 twitter_username: francisodonovan
 github_username: proinsias
-minimal_mistakes_skin: "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-teaser:  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+# "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default"
+# filename of teaser fallback teaser image placed in /images/,
+# e.g., "500x300.png"
+teaser:
 logo:  # "/assets/images/88x88.png"
 # breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
+  # false (default), "disqus", "discourse", "facebook", "staticman",
+  # "staticman_v2", "utterances", "custom"
   # yamllint disable-line rule:line-length
-  provider: "facebook"  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "facebook"
   disqus:
-    shortname:  # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    # yamllint disable-line rule:line-length
+    # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname:
   discourse:
     # yamllint disable-line rule:line-length
     server:  # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
@@ -65,15 +73,19 @@ staticman:
     date:
       type:  # "date"
       options:
-        format:  # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint:  # URL of your own deployment with trailing slash, will fallback to the public instance
+        # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format:
+  # URL of your own deployment with trailing slash,
+  # will fallback to the public instance
+  endpoint:
 reCaptcha:
   siteKey:
   secret:
 atom_feed:  # To link to an externally hosted feed
   path:  # blank (default) uses feed.xml
 search: true  # true, false (default)
-search_full_content:  # true, false (default). Setting to true could impact page load performance.
+# true, false (default). Setting to true could impact page load performance.
+search_full_content:
 search_provider:  # lunr (default), algolia, google
 algolia:
   application_id:  # YOUR_APPLICATION_ID
@@ -98,7 +110,8 @@ permalink: /:categories/:title/
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 timezone:  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-strict_front_matter: true  # Fail build if there is a YAML syntax error in a page's front matter.
+# Fail build if there is a YAML syntax error in a page's front matter.
+strict_front_matter: true
 
 # Markdown Processing
 kramdown:
@@ -180,6 +193,7 @@ whitelist:
 author:
   name: "Francis T. O'Donovan"
   avatar: "/assets/images/bio-photo.jpg"
+  # yamllint disable-line rule:line-length
   bio: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
   location: "Boston, MA"
   email: francis.odonovan@gmail.com
@@ -273,7 +287,8 @@ tag_archive:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
