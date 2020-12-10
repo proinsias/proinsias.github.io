@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Stty - sane terminal settings
+title: "(TIL) Nix: Stty - sane terminal settings"
 date: 2020-12-10 17:02
 modified: 2020-12-10 17:02
 categories: til
