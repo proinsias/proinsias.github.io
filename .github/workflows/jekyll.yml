@@ -39,5 +39,5 @@ jobs:
           # Treat urls with this domain as internal urls.
           arguments: "--check-favicon --check-html \
 --empty-alt-ignore --internal-domains proinsias.github.io --only-4xx \
---url-ignore \"#,/web.archive.org/\" \
+--url-ignore \"#,/web.archive.org/,/twitter.com/,/doi.org/\" \
 --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
