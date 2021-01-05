@@ -13,23 +13,23 @@ source 'https://rubygems.org'
 
 # To upgrade, run `bundle update`.
 
-gem 'github-pages', '>= 207', group: :jekyll_plugins
+gem 'github-pages', '>= 209', group: :jekyll_plugins
 
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem 'bundler'
 gem 'bundler-audit'
-gem 'html-proofer', '>= 3.15.1'
+gem 'html-proofer', '>= 3.18.3'
 gem 'image_optim'
 gem 'jekyll', '>= 3.6.3'
 gem 'mdl'
-gem 'nokogiri', '>= 1.10.8'
+gem 'nokogiri', '>= 1.11.0'
 gem 'overcommit'
 gem 'reek'
 gem 'rubocop'
 gem 'ruby-lint'
 gem 'travis'
 gem 'tzinfo-data'
-gem 'w3c_validators', '>= 1.3.4'
+gem 'w3c_validators', '>= 1.3.6'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 group :jekyll_plugins do
@@ -41,7 +41,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jemoji', '>= 0.11.1'
+  gem 'jemoji', '>= 0.12.0'
 end
 
 # gem 'danger'
