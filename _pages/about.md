@@ -22,8 +22,6 @@ Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 res
   <a href="https://www.hospiq.com"><img src="https://www.hospiq.com/wp-content/uploads/2020/03/HospitalIQ-LOGO-small.png" alt="Hospital IQ" width="100"/></a>,
   where our goal is to improve the productivity and happiness of every healthcare worker every day.
 
-- I try to post occasionally on my personal [![Website](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://proinsias.github.io/).
-
 - Pronouns: He/Him
 
 - Skills:
@@ -74,8 +72,6 @@ How to reach me:
 <a href="https://twitter.com/francisodonovan"><img height="30" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
 </p>
 
-#33A0FF
-
 <!--
 Kaggle
 Medium
@@ -86,9 +82,4 @@ Others?
 ## 😜Here's a Joke for you:
 <img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
 
-<p align="center">
-<img src="https://github.com/proinsias/proinsias.github.io/workflows/Add%20Latest%20Blog%20Posts/badge.svg"/>
-<img src="https://github.com/proinsias/proinsias.github.io/workflows/Add%20Recent%20Github%20Activity/badge.svg"/>
-</p>
-
-<img src="images/allmodelsarewrong.jpg" alt="All Models are Wrong"/>
+<img src="assets/images/allmodelsarewrong.jpg" alt="All Models are Wrong"/>
