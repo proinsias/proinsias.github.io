@@ -12,12 +12,6 @@ tags:
   - tres
 ---
 
-<!--
-TODO:
-* Add preprint link for PhD thesis.
-
--->
-
 [Intro](#intro) : [News](#news) : [TrES Papers](#papers)
 
 <h2 id="intro">Introduction</h2>
@@ -55,7 +49,7 @@ common.
 
 See the STARE webpage for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
 
-<h2 id="news">News</h2>
+<h2 id="news">In the News</h2>
 
 * Number 5 is in the bag..., [TrES-5](https://www.doi.org/10.1088/0004-637X/741/2/114)!
 
