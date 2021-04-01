@@ -1,6 +1,6 @@
 # proinsias.github.io
 
-![Jekyll Build](https://github.com/proinsias/proinsias.github.io/workflows/Jekyll%20Build/badge.svg)
+[![Jekyll Build](https://github.com/proinsias/proinsias.github.io/workflows/Jekyll%20Build/badge.svg)](https://github.com/proinsias/proinsias.github.io/actions/workflows/jekyll.yml)
 [![Build Status](https://travis-ci.org/proinsias/proinsias.github.io.svg?branch=master)](https://travis-ci.org/proinsias/proinsias.github.io)
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/proinsias/proinsias.github.io&style=flat)](https://mergify.io)
 [![Synk Status](https://snyk.io/test/github/proinsias/proinsias.github.io/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/proinsias/proinsias.github.io?targetFile=Gemfile.lock)
