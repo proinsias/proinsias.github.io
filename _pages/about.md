@@ -73,8 +73,8 @@ How to reach me:
 </p>
 
 <!--
-Kaggle
-Medium
+Kaggle: https://www.kaggle.com/francisodonovan
+Medium: https://medium.com/@proinsias
 Stackoverflow: https://stackoverflow.com/users/1257318/proinsias/
 Others?
 -->
@@ -82,4 +82,4 @@ Others?
 ## 😜Here's a Joke for you:
 <img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
 
-<img src="assets/images/allmodelsarewrong.jpg" alt="All Models are Wrong"/>
+<img src="/assets/images/allmodelsarewrong.jpg" alt="All Models are Wrong"/>
