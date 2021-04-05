@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Upgrading Python Homebrew packages using pip"
+title: "Python: Upgrading Python Homebrew packages using pip"
 date: 2021-04-04 21:47
 modified: 2021-04-04 21:47
 categories: til
