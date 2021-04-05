@@ -15,5 +15,5 @@ tags:
 
 (via [Freakonomics](http://freakonomics.com/podcast/bad-medicine-part-3-death-diagnosis/))
 
-This was a perfect listen for me, given my new position at [OM1](http://www.om1.com)
+This was a perfect listen for me, given my new position at [OM1](https://www.om1.com/)
 working towards optimizing patient outcomes.
