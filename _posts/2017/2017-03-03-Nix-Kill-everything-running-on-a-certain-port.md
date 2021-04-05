@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Kill Everything Running On A Certain Port"
+title: "Nix: Kill Everything Running On A Certain Port"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

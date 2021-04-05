@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Copy files intelligently with ditto"
+title: "Mac: Copy files intelligently with ditto"
 date: 2017-07-12 14:07
 modified: 2017-07-12 14:07
 categories: til

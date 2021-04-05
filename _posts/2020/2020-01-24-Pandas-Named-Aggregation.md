@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Named Aggregation"
+title: "Pandas: Named Aggregation"
 date: 2020-01-24 16:45
 modified: 2020-01-24 16:45
 categories: til

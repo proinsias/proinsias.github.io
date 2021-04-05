@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Bash: Append to variable without creating leading colon if unset"
+title: "Bash: Append to variable without creating leading colon if unset"
 date: 2017-07-07 14:55
 modified: 2017-07-07 14:55
 categories: til

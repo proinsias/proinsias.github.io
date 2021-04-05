@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: List contents of directories in a tree-like format"
+title: "Nix: List contents of directories in a tree-like format"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Open The Current Command In An Editor"
+title: "Nix: Open The Current Command In An Editor"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

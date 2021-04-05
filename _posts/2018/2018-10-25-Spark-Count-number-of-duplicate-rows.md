@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Spark: Count number of duplicate rows"
+title: "Spark: Count number of duplicate rows"
 date: 2018-10-25 12:46
 modified: 2018-10-25 12:46
 categories: til

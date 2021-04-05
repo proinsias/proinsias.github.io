@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Salted Hash"
+title: "Python: Salted Hash"
 date: 2020-09-19 22:00
 modified: 2020-09-19 22:00
 categories: til

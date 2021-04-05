@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Spark: Calculating the length of a column with size"
+title: "Spark: Calculating the length of a column with size"
 date: 2017-04-03 20:53
 modified: 2017-04-03 20:53
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Matplotlib: Use LaTeX"
+title: "Matplotlib: Use LaTeX"
 date: 2017-11-14 15:51
 modified: 2017-11-14 15:51
 categories: til

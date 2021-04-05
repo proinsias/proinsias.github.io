@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: tmux in your tmux"
+title: "Tmux: tmux in your tmux"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

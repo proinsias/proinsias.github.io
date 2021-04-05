@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: List Sessions"
+title: "Tmux: List Sessions"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

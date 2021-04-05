@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Homebrew: Switch Versions of a Brew Formula"
+title: "Homebrew: Switch Versions of a Brew Formula"
 date: 2017-02-02 10:04
 modified: 2017-02-02 10:04
 categories: til

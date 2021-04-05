@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Resizing Both Corners Of A Window"
+title: "Mac: Resizing Both Corners Of A Window"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

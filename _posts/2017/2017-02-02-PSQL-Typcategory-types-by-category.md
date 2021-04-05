@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Types By Category"
+title: "PSQL: Types By Category"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

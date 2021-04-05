@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) CompSci: GUIDs are not strings"
+title: "CompSci: GUIDs are not strings"
 date: 2017-11-03 10:21
 modified: 2017-11-03 10:21
 categories: til

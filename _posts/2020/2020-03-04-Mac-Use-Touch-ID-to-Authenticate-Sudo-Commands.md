@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Use Touch ID to Authenticate Sudo Commands"
+title: "Mac: Use Touch ID to Authenticate Sudo Commands"
 date: 2020-03-04 10:00
 modified: 2020-03-04 10:00
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Thousands Separator in Formatted Strings"
+title: "Python: Thousands Separator in Formatted Strings"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

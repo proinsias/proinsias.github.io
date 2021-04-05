@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Numpy: Set number of decimal places using set_printoptions"
+title: "Numpy: Set number of decimal places using set_printoptions"
 date: 2017-10-12 15:40
 modified: 2017-10-12 15:40
 categories: til

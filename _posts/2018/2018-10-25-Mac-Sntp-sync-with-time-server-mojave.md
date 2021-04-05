@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Sync with time server (Mojave)"
+title: "Mac: Sync with time server (Mojave)"
 date: 2018-10-25 12:42
 modified: 2018-10-25 12:42
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Sets With The Values Command"
+title: "PSQL: Sets With The Values Command"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

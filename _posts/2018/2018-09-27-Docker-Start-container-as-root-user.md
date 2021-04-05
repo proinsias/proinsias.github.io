@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Docker: Start Container as Root User"
+title: "Docker: Start Container as Root User"
 date: 2018-09-27 10:25
 modified: 2018-09-27 10:25
 categories: til

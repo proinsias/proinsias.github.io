@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Max out CPU with Yes"
+title: "Nix: Max out CPU with Yes"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

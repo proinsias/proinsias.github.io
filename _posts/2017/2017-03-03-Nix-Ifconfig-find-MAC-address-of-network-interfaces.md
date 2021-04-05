@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Find MAC address of network interfaces with ifconfig"
+title: "Nix: Find MAC address of network interfaces with ifconfig"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

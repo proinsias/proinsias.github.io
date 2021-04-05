@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Blocked ssh port"
+title: "Git: Blocked ssh port"
 date: 2019-09-13 16.28
 modified: 2019-09-13 16.28
 categories: til

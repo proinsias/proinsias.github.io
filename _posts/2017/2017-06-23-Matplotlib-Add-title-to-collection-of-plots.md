@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Matplotlib: Add title to collection of plots"
+title: "Matplotlib: Add title to collection of plots"
 date: 2017-06-23 16:07
 modified: 2017-06-2316:07
 categories: til

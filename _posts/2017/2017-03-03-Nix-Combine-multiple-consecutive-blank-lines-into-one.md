@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Combine multiple consecutive blank lines into one"
+title: "Nix: Combine multiple consecutive blank lines into one"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

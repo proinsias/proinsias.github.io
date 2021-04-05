@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: The cron schedule expression editor"
+title: "Nix: The cron schedule expression editor"
 date: 2016-07-25 11:13
 modified: 2016-07-25 11:13
 categories: til

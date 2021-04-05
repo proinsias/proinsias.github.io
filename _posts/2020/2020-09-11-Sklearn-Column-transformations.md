@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Sklearn: Column transformations"
+title: "Sklearn: Column transformations"
 date: 2020-09-11 10:00
 modified: 2020-09-11 10:00
 categories: til

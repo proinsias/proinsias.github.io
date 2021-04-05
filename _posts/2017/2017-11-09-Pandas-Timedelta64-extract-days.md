@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Extract days from a timedelta64"
+title: "Pandas: Extract days from a timedelta64"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

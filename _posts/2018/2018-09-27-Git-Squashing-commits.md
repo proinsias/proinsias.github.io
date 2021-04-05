@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Two ways of squashing commits"
+title: "Git: Two ways of squashing commits"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

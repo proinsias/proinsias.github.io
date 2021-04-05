@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: Create A Named tmux Session"
+title: "Tmux: Create A Named tmux Session"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

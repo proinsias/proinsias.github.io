@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Check If A Port Is In Use"
+title: "Nix: Check If A Port Is In Use"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

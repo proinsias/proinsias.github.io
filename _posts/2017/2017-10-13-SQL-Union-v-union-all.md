@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) SQL: UNION v UNION ALL"
+title: "SQL: UNION v UNION ALL"
 date: 2017-10-13 13:36
 modified: 2017-10-13 13:36
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Last Commit A File Appeared In"
+title: "Git: Last Commit A File Appeared In"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

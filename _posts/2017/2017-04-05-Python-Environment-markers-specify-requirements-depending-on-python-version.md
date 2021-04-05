@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Specify requirements depending on python version using environment markers"
+title: "Python: Specify requirements depending on python version using environment markers"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

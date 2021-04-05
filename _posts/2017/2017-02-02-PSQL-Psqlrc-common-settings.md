@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Use a psqlrc File For Common Settings"
+title: "PSQL: Use a psqlrc File For Common Settings"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: List parent pid with ps"
+title: "Nix: List parent pid with ps"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

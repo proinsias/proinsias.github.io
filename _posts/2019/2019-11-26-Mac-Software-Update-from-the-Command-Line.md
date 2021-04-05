@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Software Update from the Command Line"
+title: "Mac: Software Update from the Command Line"
 date: 2019-11-26 16:04
 modified: 2019-11-26 16:04
 categories: til

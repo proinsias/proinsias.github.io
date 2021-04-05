@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Restart or shutdown"
+title: "Mac: Restart or shutdown"
 date: 2020-12-10 17:04
 modified: 2020-12-10 17:04
 categories: til

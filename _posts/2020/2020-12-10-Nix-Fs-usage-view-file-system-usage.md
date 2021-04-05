@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Fs_usage - View File System Usage"
+title: "Nix: Fs_usage - View File System Usage"
 date: 2020-12-10 16:58
 modified: 2020-12-10 16:58
 categories: til

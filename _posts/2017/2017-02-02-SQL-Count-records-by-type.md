@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) SQL: Count Records By Type"
+title: "SQL: Count Records By Type"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

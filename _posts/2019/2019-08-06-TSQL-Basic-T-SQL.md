@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) TSQL: Basic T-SQL"
+title: "TSQL: Basic T-SQL"
 date: 2019-08-06 10:11
 modified: 2019-08-06 10:11
 categories: til

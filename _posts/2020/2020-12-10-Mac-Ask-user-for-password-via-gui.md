@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Ask user for password via GUI"
+title: "Mac: Ask user for password via GUI"
 date: 2020-12-10 17:08
 modified: 2020-12-10 17:08
 categories: til

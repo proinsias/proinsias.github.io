@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Merge pdf files"
+title: "Nix: Merge pdf files"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Printing with lpr"
+title: "Nix: Printing with lpr"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

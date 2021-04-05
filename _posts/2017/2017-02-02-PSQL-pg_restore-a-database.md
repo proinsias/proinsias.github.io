@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Restore a database"
+title: "PSQL: Restore a database"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: List Different Commits Between Two Branches"
+title: "Git: List Different Commits Between Two Branches"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

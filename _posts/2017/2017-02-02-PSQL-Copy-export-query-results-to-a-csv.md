@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Export Query Results To A CSV"
+title: "PSQL: Export Query Results To A CSV"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

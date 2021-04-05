@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Show The diffstat Summary Of A Commit"
+title: "Git: Show The diffstat Summary Of A Commit"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

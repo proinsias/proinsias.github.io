@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Stash tips"
+title: "Git: Stash tips"
 date: 2019-09-09 16.31
 modified: 2019-09-09 16.31
 categories: til

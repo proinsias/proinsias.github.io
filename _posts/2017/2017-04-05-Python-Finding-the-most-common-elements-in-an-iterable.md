@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Find the most common elements in an iterable"
+title: "Python: Find the most common elements in an iterable"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

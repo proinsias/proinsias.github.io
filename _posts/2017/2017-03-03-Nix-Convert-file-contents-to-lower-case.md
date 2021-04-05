@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Convert file contents to lower case with tr"
+title: "Nix: Convert file contents to lower case with tr"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

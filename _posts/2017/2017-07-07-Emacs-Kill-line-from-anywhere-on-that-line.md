@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Emacs: Kill line from anywhere on that line"
+title: "Emacs: Kill line from anywhere on that line"
 date: 2017-07-07 10:23
 modified: 2017-07-07 10:23
 categories: til

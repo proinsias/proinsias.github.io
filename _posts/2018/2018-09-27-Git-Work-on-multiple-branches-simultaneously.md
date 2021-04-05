@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: High-res plotswork on multiple branches simultaneously"
+title: "Git: High-res plotswork on multiple branches simultaneously"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

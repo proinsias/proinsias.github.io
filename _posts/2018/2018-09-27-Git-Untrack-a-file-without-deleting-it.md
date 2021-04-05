@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Untrack A File Without Deleting It"
+title: "Git: Untrack A File Without Deleting It"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

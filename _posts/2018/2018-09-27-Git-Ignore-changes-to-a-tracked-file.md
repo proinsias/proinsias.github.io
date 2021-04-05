@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Ignore Changes To A Tracked File"
+title: "Git: Ignore Changes To A Tracked File"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

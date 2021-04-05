@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Sklearn: Pipeline diagram"
+title: "Sklearn: Pipeline diagram"
 date: 2020-09-11 11:00
 modified: 2020-09-11 11:00
 categories: til

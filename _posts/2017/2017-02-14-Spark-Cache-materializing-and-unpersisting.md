@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Spark: Materializing and Unpersisting Cache"
+title: "Spark: Materializing and Unpersisting Cache"
 date: 2017-02-14 12:57
 modified: 2017-02-1412:57
 categories: til

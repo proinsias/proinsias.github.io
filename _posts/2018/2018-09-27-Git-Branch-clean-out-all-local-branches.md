@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Clean Out All Local Branches"
+title: "Git: Clean Out All Local Branches"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

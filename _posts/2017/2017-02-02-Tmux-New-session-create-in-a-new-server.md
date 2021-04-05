@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: Create A New Session In A New Server"
+title: "Tmux: Create A New Session In A New Server"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

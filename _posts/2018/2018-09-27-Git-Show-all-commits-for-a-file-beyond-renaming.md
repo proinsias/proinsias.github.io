@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Show All Commits For A File Beyond Renaming"
+title: "Git: Show All Commits For A File Beyond Renaming"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

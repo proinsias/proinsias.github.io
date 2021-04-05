@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Run local scripts remotely with SSH"
+title: "Nix: Run local scripts remotely with SSH"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

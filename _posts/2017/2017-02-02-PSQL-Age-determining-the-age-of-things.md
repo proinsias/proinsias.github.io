@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Determining The Age Of Things"
+title: "PSQL: Determining The Age Of Things"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

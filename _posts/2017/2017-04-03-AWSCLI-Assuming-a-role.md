@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) AWS CLI: Assuming a role"
+title: "AWS CLI: Assuming a role"
 date: 2017-04-03 20:47
 modified: 2017-04-03 20:47
 categories: til

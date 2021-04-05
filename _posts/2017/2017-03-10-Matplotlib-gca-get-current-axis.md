@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Matplotlib: Get current axis"
+title: "Matplotlib: Get current axis"
 date: 2017-03-10 14:17
 modified: 2017-03-10 14:17
 categories: til

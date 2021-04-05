@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Insert Just The Defaults"
+title: "PSQL: Insert Just The Defaults"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

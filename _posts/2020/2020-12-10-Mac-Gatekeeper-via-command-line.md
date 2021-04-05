@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Gatekeeper via the command line"
+title: "Mac: Gatekeeper via the command line"
 date: 2020-12-10 17:00
 modified: 2020-12-10 17:00
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Sklearn: Tree diagram"
+title: "Sklearn: Tree diagram"
 date: 2020-09-11 12:00
 modified: 2020-09-11 12:00
 categories: til

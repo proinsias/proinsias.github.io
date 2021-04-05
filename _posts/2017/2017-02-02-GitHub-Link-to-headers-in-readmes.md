@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) GitHub: Link to headers in READMEs"
+title: "GitHub: Link to headers in READMEs"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

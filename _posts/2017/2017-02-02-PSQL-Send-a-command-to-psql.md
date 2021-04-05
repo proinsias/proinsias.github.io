@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Send A Command To psql"
+title: "PSQL: Send A Command To psql"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

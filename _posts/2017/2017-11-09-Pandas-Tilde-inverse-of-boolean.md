@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Inverse of boolean"
+title: "Pandas: Inverse of boolean"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

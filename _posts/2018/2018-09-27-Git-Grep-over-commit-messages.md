@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Determine The Hash Id For A BlobGrep Over Commit Messages"
+title: "Git: Determine The Hash Id For A BlobGrep Over Commit Messages"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

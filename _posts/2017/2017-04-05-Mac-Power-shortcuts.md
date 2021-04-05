@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Power shortcuts"
+title: "Mac: Power shortcuts"
 date: 2017-04-05 21:08
 modified: 2017-04-05 21:08
 categories: til

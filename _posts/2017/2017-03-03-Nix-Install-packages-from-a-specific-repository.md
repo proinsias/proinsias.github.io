@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Install Packages From A Specific Repository"
+title: "Nix: Install Packages From A Specific Repository"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

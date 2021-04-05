@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Use unlogged tables for caches"
+title: "PSQL: Use unlogged tables for caches"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

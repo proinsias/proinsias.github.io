@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Stashing Untracked Files"
+title: "Git: Stashing Untracked Files"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

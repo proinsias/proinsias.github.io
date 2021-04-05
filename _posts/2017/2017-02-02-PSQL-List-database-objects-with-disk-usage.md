@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: List Database Objects With Disk Usage"
+title: "PSQL: List Database Objects With Disk Usage"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Amend Author Of Previous Commit"
+title: "Git: Amend Author Of Previous Commit"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

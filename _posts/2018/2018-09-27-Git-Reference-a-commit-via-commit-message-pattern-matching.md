@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Reference A Commit Via Commit Message Pattern Matching"
+title: "Git: Reference A Commit Via Commit Message Pattern Matching"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) SQL: List Columns in Table"
+title: "SQL: List Columns in Table"
 date: 2018-11-06 10:57
 modified: 2018-11-06 10:57
 categories: til

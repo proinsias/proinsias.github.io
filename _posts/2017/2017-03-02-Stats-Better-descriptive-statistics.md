@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Stats: Better descriptive statistics"
+title: "Stats: Better descriptive statistics"
 date: 2018-07-12 15:35
 modified: 2018-07-12 15:35
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Clear The Screen In psql"
+title: "PSQL: Clear The Screen In psql"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

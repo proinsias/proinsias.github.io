@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Renaming A Table"
+title: "PSQL: Renaming A Table"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Read Clipboard"
+title: "Pandas: Read Clipboard"
 date: 2020-09-18 13:00
 modified: 2020-09-18 13:00
 categories: til

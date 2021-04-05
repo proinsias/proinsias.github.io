@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Docker: Attach/Detach"
+title: "Docker: Attach/Detach"
 date: 2018-03-02 19:40
 modified: 2018-03-02 19:40
 categories: til

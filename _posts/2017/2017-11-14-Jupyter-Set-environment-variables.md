@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Jupyter: Set environment variables"
+title: "Jupyter: Set environment variables"
 date: 2017-11-14 15:51
 modified: 2017-11-14 15:51
 categories: til

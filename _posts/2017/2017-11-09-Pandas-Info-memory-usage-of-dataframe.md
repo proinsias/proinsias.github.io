@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Get Memory usage of DataFrame with info"
+title: "Pandas: Get Memory usage of DataFrame with info"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

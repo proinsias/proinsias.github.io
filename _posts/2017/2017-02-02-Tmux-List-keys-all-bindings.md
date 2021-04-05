@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: List All Key Bindings"
+title: "Tmux: List All Key Bindings"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

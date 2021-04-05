@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Checkout Old Version Of A File"
+title: "Git: Checkout Old Version Of A File"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

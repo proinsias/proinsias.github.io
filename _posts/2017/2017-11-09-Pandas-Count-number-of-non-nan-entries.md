@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Count number of non-NaN entries"
+title: "Pandas: Count number of non-NaN entries"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

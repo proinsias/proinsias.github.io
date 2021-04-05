@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) AWS CLI: Modify volume size"
+title: "AWS CLI: Modify volume size"
 date: 2018-02-05 11:27
 modified: 2018-02-05 11:27
 categories: til

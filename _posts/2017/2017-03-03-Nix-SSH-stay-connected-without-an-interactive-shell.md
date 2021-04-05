@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Stay connected without an interactive SSH shell"
+title: "Nix: Stay connected without an interactive SSH shell"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

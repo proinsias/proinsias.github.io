@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: DateOffset as a Frequency Increment"
+title: "Pandas: DateOffset as a Frequency Increment"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

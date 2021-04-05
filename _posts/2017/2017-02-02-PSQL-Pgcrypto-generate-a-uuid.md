@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Generating UUIDs With pgcrypto"
+title: "PSQL: Generating UUIDs With pgcrypto"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

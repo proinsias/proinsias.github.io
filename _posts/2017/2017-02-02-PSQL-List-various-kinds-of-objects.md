@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: List Various Kinds Of Objects"
+title: "PSQL: List Various Kinds Of Objects"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

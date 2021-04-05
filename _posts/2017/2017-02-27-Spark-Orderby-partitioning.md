@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Spark: Orderby Partitioning"
+title: "Spark: Orderby Partitioning"
 date: 2017-02-27 14:27
 modified: 2017-02-27 14:27
 categories: til

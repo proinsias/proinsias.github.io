@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Restart A Sequence"
+title: "PSQL: Restart A Sequence"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

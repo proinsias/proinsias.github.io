@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Check if string is null or empty"
+title: "Python: Check if string is null or empty"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

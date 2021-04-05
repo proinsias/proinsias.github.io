@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Killing A Frozen SSH Session"
+title: "Nix: Killing A Frozen SSH Session"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

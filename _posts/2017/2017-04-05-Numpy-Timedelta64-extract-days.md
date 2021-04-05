@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Numpy: Extract days from timedelta64"
+title: "Numpy: Extract days from timedelta64"
 date: 2017-04-05 21:31
 modified: 2017-04-05 21:31
 categories: til

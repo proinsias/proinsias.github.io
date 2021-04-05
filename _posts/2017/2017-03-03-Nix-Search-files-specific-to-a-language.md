@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Search Files Specific To A Language"
+title: "Nix: Search Files Specific To A Language"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

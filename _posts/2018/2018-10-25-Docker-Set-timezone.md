@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Docker: Set Timezone"
+title: "Docker: Set Timezone"
 date: 2018-10-25 12:38
 modified: 2018-10-25 12:38
 categories: til

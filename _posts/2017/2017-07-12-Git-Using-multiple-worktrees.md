@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Using multiple worktrees"
+title: "Git: Using multiple worktrees"
 date: 2017-07-12 12:06
 modified: 2017-07-12 12:06
 categories: til

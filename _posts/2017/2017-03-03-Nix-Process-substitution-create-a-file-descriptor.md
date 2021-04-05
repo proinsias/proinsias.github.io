@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Create A File Descriptor with Process Substitution"
+title: "Nix: Create A File Descriptor with Process Substitution"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

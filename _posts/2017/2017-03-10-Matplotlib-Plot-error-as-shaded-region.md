@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Matplotlib: Plot error as shaded region"
+title: "Matplotlib: Plot error as shaded region"
 date: 2017-03-10 14:22
 modified: 2017-03-10 14:22
 categories: til

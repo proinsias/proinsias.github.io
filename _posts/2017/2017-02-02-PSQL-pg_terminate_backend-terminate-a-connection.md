@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Terminating A Connection"
+title: "PSQL: Terminating A Connection"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

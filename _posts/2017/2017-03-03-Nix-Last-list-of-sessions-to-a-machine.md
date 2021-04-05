@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: List Of Sessions To A Machine"
+title: "Nix: List Of Sessions To A Machine"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

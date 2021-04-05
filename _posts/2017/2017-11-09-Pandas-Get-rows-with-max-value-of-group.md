@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Get rows with max value of group"
+title: "Pandas: Get rows with max value of group"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

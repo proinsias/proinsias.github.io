@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: List Names Of Files With Matches"
+title: "Nix: List Names Of Files With Matches"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

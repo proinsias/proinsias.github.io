@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Mkfile - Create an empty file"
+title: "Nix: Mkfile - Create an empty file"
 date: 2020-12-10 16:55
 modified: 2020-12-10 16:55
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Speed up merges"
+title: "Pandas: Speed up merges"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

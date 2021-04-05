@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Sklearn: Fix No Space Left on Device Error"
+title: "Sklearn: Fix No Space Left on Device Error"
 date: 2018-09-25 10:14
 modified: 2018-09-25 10:14
 categories: til

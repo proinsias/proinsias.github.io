@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Snowflake: Create table with comment"
+title: "Snowflake: Create table with comment"
 date: 2017-11-13 15:30
 modified: 2017-11-13 15:30
 categories: til

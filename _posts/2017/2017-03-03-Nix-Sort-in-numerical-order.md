@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Sort In Numerical Order"
+title: "Nix: Sort In Numerical Order"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

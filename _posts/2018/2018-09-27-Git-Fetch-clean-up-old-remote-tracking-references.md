@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Clean Up Old Remote Tracking References"
+title: "Git: Clean Up Old Remote Tracking References"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

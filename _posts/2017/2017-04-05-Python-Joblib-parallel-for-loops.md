@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Parallel for loops"
+title: "Python: Parallel for loops"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

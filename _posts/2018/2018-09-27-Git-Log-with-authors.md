@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Git Log With Authors"
+title: "Git: Git Log With Authors"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Limit Execution Time Of Statements"
+title: "PSQL: Limit Execution Time Of Statements"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

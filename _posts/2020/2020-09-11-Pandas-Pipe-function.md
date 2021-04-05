@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Pipe function"
+title: "Pandas: Pipe function"
 date: 2020-09-11 13:00
 modified: 2020-09-11 13:00
 categories: til

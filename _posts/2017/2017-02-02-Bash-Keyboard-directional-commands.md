@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Bash: Directional Commands"
+title: "Bash: Directional Commands"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

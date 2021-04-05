@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Snowflake: Show file formats"
+title: "Snowflake: Show file formats"
 date: 2017-05-03 21:17
 modified: 2017-05-03 21:17
 categories: til

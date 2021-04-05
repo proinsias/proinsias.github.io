@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Travis: Why is my build not running?"
+title: "Travis: Why is my build not running?"
 date: 2017-07-07 10:00
 modified: 2017-07-07 10:00
 categories: til

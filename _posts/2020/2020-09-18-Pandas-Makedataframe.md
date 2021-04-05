@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Make Data Frame"
+title: "Pandas: Make Data Frame"
 date: 2020-09-18 14:00
 modified: 2020-09-18 14:00
 categories: til

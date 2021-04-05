@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: Open New Window With A Specific Directory"
+title: "Tmux: Open New Window With A Specific Directory"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

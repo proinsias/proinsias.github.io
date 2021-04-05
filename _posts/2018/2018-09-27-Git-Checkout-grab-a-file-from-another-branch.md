@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Use a file from another branch"
+title: "Git: Use a file from another branch"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

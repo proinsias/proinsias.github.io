@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Configure The Timezone"
+title: "PSQL: Configure The Timezone"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

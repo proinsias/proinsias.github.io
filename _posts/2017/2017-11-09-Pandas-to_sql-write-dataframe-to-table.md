@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Write DataFrame to table with to_sql"
+title: "Pandas: Write DataFrame to table with to_sql"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

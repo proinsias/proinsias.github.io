@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Slack: Accessing Direct Messages from Disabled Users"
+title: "Slack: Accessing Direct Messages from Disabled Users"
 date: 2017-07-12 10:13
 modified: 2017-07-12 10:13
 categories: til

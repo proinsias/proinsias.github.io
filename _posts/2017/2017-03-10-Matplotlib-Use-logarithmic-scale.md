@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Matplotlib: Use logarithmic scale"
+title: "Matplotlib: Use logarithmic scale"
 date: 2017-03-10 14:14
 modified: 2017-03-10 14:14
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Use dtype to speed up reading with read_csv"
+title: "Pandas: Use dtype to speed up reading with read_csv"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til

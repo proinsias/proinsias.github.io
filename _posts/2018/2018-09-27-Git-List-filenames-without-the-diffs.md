@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: List Filenames Without The Diffs"
+title: "Git: List Filenames Without The Diffs"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

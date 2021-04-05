@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Watch That Program"
+title: "Nix: Watch That Program"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Get The Size Of A Table"
+title: "PSQL: Get The Size Of A Table"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

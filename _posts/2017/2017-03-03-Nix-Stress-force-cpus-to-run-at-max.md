@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Force cpus to run at max with stress"
+title: "Nix: Force cpus to run at max with stress"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

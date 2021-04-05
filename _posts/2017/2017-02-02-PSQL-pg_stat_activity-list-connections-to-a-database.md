@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: List Connections To A Database"
+title: "PSQL: List Connections To A Database"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

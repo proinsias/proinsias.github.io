@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Science: Light v Sound"
+title: "Science: Light v Sound"
 date: 2019-11-12 21:03
 modified: 2019-11-12 21:03
 categories: til

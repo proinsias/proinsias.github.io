@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Where Are The Binaries"
+title: "Nix: Where Are The Binaries"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

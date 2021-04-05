@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Find The Data Directory"
+title: "PSQL: Find The Data Directory"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

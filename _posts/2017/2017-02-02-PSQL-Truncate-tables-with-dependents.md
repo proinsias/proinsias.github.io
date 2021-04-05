@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Truncate Tables With Dependents"
+title: "PSQL: Truncate Tables With Dependents"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Standard output to clipboard buffer"
+title: "Nix: Standard output to clipboard buffer"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

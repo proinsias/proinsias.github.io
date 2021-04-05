@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Global Substitution On The Previous Command"
+title: "Nix: Global Substitution On The Previous Command"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

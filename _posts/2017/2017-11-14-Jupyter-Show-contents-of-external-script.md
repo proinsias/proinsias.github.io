@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Jupyter: Show contents of external script"
+title: "Jupyter: Show contents of external script"
 date: 2017-11-14 15:51
 modified: 2017-11-14 15:51
 categories: til

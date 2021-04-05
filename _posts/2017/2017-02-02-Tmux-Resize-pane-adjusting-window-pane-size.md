@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: Adjusting Window Pane Size"
+title: "Tmux: Adjusting Window Pane Size"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

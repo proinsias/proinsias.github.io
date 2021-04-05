@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) LaTeX: Send a bit of LaTeX"
+title: "LaTeX: Send a bit of LaTeX"
 date: 2017-07-07 10:06
 modified: 2017-07-07 10:06
 categories: til

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Find The Location Of Postgres Config Files"
+title: "PSQL: Find The Location Of Postgres Config Files"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

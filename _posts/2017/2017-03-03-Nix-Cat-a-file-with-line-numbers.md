@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Cat A File With Line Numbers"
+title: "Nix: Cat A File With Line Numbers"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

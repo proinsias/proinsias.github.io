@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Determine The Hash Id For A Blob"
+title: "Git: Determine The Hash Id For A Blob"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

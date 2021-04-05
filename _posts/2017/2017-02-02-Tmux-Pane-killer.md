@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Tmux: Pane Killer"
+title: "Tmux: Pane Killer"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

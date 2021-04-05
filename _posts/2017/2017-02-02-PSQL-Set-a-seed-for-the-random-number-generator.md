@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Set A Seed For The Random Number Generator"
+title: "PSQL: Set A Seed For The Random Number Generator"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

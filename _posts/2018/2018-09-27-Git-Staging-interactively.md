@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Staging Stashes Interactively"
+title: "Git: Staging Stashes Interactively"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

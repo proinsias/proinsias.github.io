@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Date and Time"
+title: "Mac: Date and Time"
 date: 2020-12-10 17:06
 modified: 2020-12-10 17:06
 categories: til

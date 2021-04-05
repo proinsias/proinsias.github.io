@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Jupyter: High-res plots"
+title: "Jupyter: High-res plots"
 date: 2017-10-12 15:42
 modified: 2017-10-12 15:42
 categories: til

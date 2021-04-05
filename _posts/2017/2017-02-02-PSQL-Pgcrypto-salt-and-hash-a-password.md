@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Salt And Hash A Password With pgcrypto"
+title: "PSQL: Salt And Hash A Password With pgcrypto"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

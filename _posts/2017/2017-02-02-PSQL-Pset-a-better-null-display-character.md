@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: A Better Null Display Character"
+title: "PSQL: A Better Null Display Character"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

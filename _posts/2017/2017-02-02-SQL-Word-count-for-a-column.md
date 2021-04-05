@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) SQL: Word Count for a Column"
+title: "SQL: Word Count for a Column"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

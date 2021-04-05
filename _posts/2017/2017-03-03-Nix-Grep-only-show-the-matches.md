@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Only Show The Matches"
+title: "Nix: Only Show The Matches"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

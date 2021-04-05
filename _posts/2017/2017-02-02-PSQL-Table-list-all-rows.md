@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: List All Rows In A Table"
+title: "PSQL: List All Rows In A Table"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

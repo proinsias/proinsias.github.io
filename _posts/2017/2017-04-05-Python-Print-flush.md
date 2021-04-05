@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Flushing while printing"
+title: "Python: Flushing while printing"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

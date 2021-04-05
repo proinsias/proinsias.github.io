@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Function disassembler"
+title: "Python: Function disassembler"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

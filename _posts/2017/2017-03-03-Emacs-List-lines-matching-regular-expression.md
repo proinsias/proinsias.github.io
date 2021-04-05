@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Emacs: List lines matching a regular expression"
+title: "Emacs: List lines matching a regular expression"
 date: 2017-03-03 10:24
 modified: 2017-03-03 10:24
 categories: til

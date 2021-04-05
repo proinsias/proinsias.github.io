@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: SSH With Port Forwarding"
+title: "Nix: SSH With Port Forwarding"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

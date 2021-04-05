@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Python: Time the execution of a program"
+title: "Python: Time the execution of a program"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til

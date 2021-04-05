@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Pandas: Combine Functions"
+title: "Pandas: Combine Functions"
 date: 2020-09-18 21:00
 modified: 2020-09-19 15:00
 categories: til

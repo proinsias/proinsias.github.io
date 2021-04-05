@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: Use Argument Indexes"
+title: "PSQL: Use Argument Indexes"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

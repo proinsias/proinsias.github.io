@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Pattern-matched search of your history"
+title: "Nix: Pattern-matched search of your history"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

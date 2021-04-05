@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Git: Grab A Single File From A Stash"
+title: "Git: Grab A Single File From A Stash"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til

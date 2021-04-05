@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Mac: Remove quarantine flag from app"
+title: "Mac: Remove quarantine flag from app"
 date: 2019-11-28 15:55
 modified: 2019-11-28 15:55
 categories: til

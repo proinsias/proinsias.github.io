@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) PSQL: List Database Users"
+title: "PSQL: List Database Users"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til

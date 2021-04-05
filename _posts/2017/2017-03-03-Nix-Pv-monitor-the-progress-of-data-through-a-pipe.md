@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Monitor the progress of data through a pipe"
+title: "Nix: Monitor the progress of data through a pipe"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

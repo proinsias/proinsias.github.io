@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) AWS CLI: List account aliases"
+title: "AWS CLI: List account aliases"
 date: 2017-11-02 15:48
 modified: 2017-11-02 15:48
 categories: til

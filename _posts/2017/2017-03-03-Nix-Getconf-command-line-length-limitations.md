@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Command Line Length Limitations"
+title: "Nix: Command Line Length Limitations"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til

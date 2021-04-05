@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Bitbucket/GitHub: Create pull request from command line"
+title: "Bitbucket/GitHub: Create pull request from command line"
 date: 2019-09-19 09.59
 modified: 2019-09-24 19:53
 categories: til

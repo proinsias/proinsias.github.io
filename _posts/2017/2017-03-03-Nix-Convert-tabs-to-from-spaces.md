@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "(TIL) Nix: Convert tabs to/from spaces"
+title: "Nix: Convert tabs to/from spaces"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
