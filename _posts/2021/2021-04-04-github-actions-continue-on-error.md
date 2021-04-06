@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "GitHub: Skipping a GitHub Actions step without failing"
+title: "GitHub Actions: Skipping a step without failing"
 date: 2021-04-04 12:00
 modified: 2021-04-04 12:00
 categories: til

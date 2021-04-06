@@ -1,0 +1,43 @@
+Add timeout to html profiler?
+
+
+
+eslint:
+jshint:
+remark:
+stylelint:
+
+mergify.yml ??
+
+overcommit ??
+".varci.yml"
+
+Add OSSAR action, ShiftLeft Scan action, CodeQL action, markdown-link-check action to these?
+
+github-action-markdownlint-cli
+
+MarkdownLint mdl Action
+
+markdownlint:
+    name: runner / markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: markdownlint
+        uses: reviewdog/action-markdownlint@v0.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+
+Lint Markdown
+
+Run markdownlint (mdl)
+
+https://github.com/marketplace/actions/image-actions
+
+# FIXME: Try https://github.com/reviewdog/action-suggester
+# FIXME: Try https://github.com/reviewdog/action-alex
+# FIXME: Try https://github.com/reviewdog/action-misspell
+# FIXME: Try https://github.com/reviewdog/action-languagetool
+https://github.com/reviewdog/action-remark-lint
+https://github.com/reviewdog/action-markdownlint

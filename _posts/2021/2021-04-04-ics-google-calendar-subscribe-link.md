@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ICS: Providing a 'subscribe in Google Calendar' link for an ics feed"
+title: "ICS: Providing a 'subscribe in Google Calendar' link for a feed"
 date: 2021-04-04 10:00
 modified: 2021-04-04 10:00
 categories: til
