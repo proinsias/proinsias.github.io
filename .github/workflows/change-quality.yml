@@ -52,6 +52,12 @@ jobs:
           # Change reporter level if you need.
           level: warning
 
+      - name: markdownlint
+        uses: reviewdog/action-markdownlint@v0.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+
       - name: markdown-link-check
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
