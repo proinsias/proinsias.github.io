@@ -31,7 +31,7 @@ jobs:
         uses: reviewdog/action-detect-secrets@master
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Change reporter.
+          reporter: github-pr-review  # Change reporter.
 
       - name: markdown-link-check
         uses: gaurav-nelson/github-action-markdown-link-check@v1
