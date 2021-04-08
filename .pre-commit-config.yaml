@@ -39,3 +39,8 @@ repos:
       - id: forbid-binary
       - id: git-check  # Configure in .gitattributes
       - id: shellcheck
+
+  - repo: https://github.com/sirosen/fix-smartquotes
+    rev: 0.2.0
+    hooks:
+      - id: fix-smartquotes
