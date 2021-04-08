@@ -16,4 +16,3 @@ Computational Intelligence and Machine Learning held a special session
 on "Interpretable Models in Machine Learning". Here's the introductory
 paper for the session: [Making machine learning models
 interpretable](https://pdfs.semanticscholar.org/ce0b/8b6fca7dc089548cc2e9aaac3bae82bb19da.pdf).
-

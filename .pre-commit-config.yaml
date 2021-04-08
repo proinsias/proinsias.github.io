@@ -33,15 +33,9 @@ repos:
         args: ['--baseline', '.secrets.baseline']
         exclude: package.lock.json
 
-# FIXME:
-
-#  - repo: https://github.com/jumanjihouse/pre-commit-hooks
-#    rev: 2.1.5
-#    hooks:
-#      - id: bundler-audit
-#      - id: check-mailmap
-#      - id: forbid-binary
-#      - id: git-check  # Configure in .gitattributes
-#      - id: git-dirty  # Configure in .gitignore
-#      - id: markdownlint # Configure in .mdlrc
-#      - id: shellcheck
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.5
+    hooks:
+      - id: forbid-binary
+      - id: git-check  # Configure in .gitattributes
+      - id: shellcheck

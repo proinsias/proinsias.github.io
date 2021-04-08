@@ -15,4 +15,3 @@ SHA-1 digital signature on the first PDF file which can also be abused as a
 valid signature on the second PDF file.
 
 (via [SHAttered](http://shattered.it/))
-

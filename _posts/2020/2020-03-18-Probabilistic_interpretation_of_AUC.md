@@ -32,4 +32,3 @@ And as a reminder of why the AUC has many advantages compared to other 'single n
 > * Invariance to prior class probabilities or class prevalence in the data.
 > * Can choose/change a decision threshold based on cost-benefit analysis after model training.
 > * Extensively used in machine learning, and in medical research.
-
