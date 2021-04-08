@@ -71,11 +71,11 @@ PreCommit:
   BrokenSymlinks:
     enabled: true
   BundleAudit:
-    enabled: true
+    enabled: false
   BundleCheck:
     enabled: true
   BundleOutdated:
-    enabled: true
+    enabled: false
   Caniusepython3:
     enabled: false
     required_executable: 'caniusepython3'
@@ -146,7 +146,7 @@ PreCommit:
   LocalPathsInGemfile:
     enabled: true
   Markdownlint:
-    enabled: true
+    enabled: false
     required_executable: 'markdownlint'
     install_command: 'npm install --global markdownlint-cli'
   Mdl:
@@ -245,11 +245,11 @@ PreCommit:
   XmlSyntax:
     enabled: true
   YamlLint:
-    enabled: true
+    enabled: false
     flags:
       - '--config-data "{extends: default, rules: {line-length: {max: 120}}}"'
   YamlSyntax:
-    enabled: true
+    enabled: false
     include:
       - '**/*.yaml'
       - '**/*.yml'
