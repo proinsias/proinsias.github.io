@@ -26,6 +26,15 @@ repos:
       - id: yamllint
         args: [-c=.yamllint.yml]
 
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.0.3
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: package.lock.json
+
+# FIXME:
+
 #  - repo: https://github.com/jumanjihouse/pre-commit-hooks
 #    rev: 2.1.5
 #    hooks:
