@@ -19,3 +19,20 @@ repos:
       - id: end-of-file-fixer
       - id: mixed-line-ending  # Replaces or checks mixed line ending.
       - id: trailing-whitespace
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.1
+    hooks:
+      - id: yamllint
+        args: [-c=.yamllint.yml]
+
+#  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+#    rev: 2.1.5
+#    hooks:
+#      - id: bundler-audit
+#      - id: check-mailmap
+#      - id: forbid-binary
+#      - id: git-check  # Configure in .gitattributes
+#      - id: git-dirty  # Configure in .gitignore
+#      - id: markdownlint # Configure in .mdlrc
+#      - id: shellcheck
