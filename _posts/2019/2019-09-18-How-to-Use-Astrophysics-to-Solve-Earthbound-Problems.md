@@ -12,7 +12,7 @@ header:
   image_description: "An example of an Urban Observatory deployment of a
 Visible Near-Infrared Hyperspectral camera"
   caption: "Photo credit: G. Dobler et al. 2019"
-  teaser: /assets/images/urban_astronomy.png
+  teaser: /assets/images/urban_astronomy_thumbnail.gif
 ---
 
 The cross-pollination that naturally occurs when people move along a diverse career path is of great benefit to the areas they find themselves in.

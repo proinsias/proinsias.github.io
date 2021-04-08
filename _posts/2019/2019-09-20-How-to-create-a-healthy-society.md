@@ -12,7 +12,7 @@ header:
   image: /assets/images/danah_boyd_eff.jpeg
   image_description: "danah boyd accepts her EFF award"
   caption: "Courtesy of danah boyd"
-  teaser: /assets/images/danah_boyd_eff.jpeg
+  teaser: /assets/images/danah_boyd_eff_thumbnail.gif
 ---
 
 Microsoft Research's danah boyd has been given an award by the [Electronic Frontier Foundation](https://eff.org/),
