@@ -121,7 +121,7 @@ PreCommit:
   HtmlTidy:
     enabled: true
   ImageOptim:
-    enabled: true
+    enabled: false
     required_executable: 'svgo'
     install_command: 'brew install svgo'
   JavaCheckstyle:
