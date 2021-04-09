@@ -16,7 +16,6 @@ repos:
       - id: check-yaml
       - id: detect-private-key
       - id: double-quote-string-fixer
-      - id: end-of-file-fixer
       - id: mixed-line-ending  # Replaces or checks mixed line ending.
       - id: trailing-whitespace
 
@@ -28,11 +27,6 @@ repos:
       - id: detect-secrets
         args: ['--baseline', '.secrets.baseline']
         exclude: package.lock.json
-
-  - repo: https://github.com/sirosen/fix-smartquotes
-    rev: 0.2.0
-    hooks:
-      - id: fix-smartquotes
 
   # Git
 
@@ -56,7 +50,6 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      - id: forbid-binary
       - id: git-check  # Configure in .gitattributes
       - id: shellcheck
         args: ['--external-sources', '--format=gcc', '--shell=bash']
@@ -65,4 +58,3 @@ repos:
     rev: v1.1.9
     hooks:
       - id: remove-crlf
-      - id: remove-tabs
