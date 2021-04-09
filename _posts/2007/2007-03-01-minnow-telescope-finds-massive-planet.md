@@ -229,7 +229,3 @@ are known as of 2016-06-30. [↩](#a1)
 discovered. [↩](#a2)
 <sup><b id="f3">3</b></sup> [2628](http://exoplanet.eu/) transiting
 exoplanets are known as of 2016-06-30. [↩](#a3)
-
-
-
-
