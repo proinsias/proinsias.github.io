@@ -45,7 +45,7 @@ ignore=body-is-missing
 line-length=50
 
 [title-min-length]
-min-length=10
+min-length=5
 
 [title-must-not-contain-word]
 # Comma-separated list of words that should not occur in the title. Matching is case
@@ -62,8 +62,8 @@ words=wip
 [body-max-line-length]
 line-length=72
 
-# [body-min-length]
-# min-length=5
+[body-min-length]
+min-length=5
 
 # [body-is-missing]
 # Whether to ignore this rule on merge commits (which typically only have a title). This default is true.

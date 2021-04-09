@@ -17,7 +17,7 @@ is a popular and robust metric for machine learning classification.
 However, one issue with its use is that it is not as easy to explain to a client what it is and why you are using it.
 Over at [0-fold Cross-Validation](https://www.alexejgossmann.com/), Alexej Gossmann has a useful post on how to think of the AUC probabilistically:
 
-> In other words, if the classification algorithm distinguishes “positive” and “negative” examples (e.g., disease status),
+> In other words, if the classification algorithm distinguishes "positive" and "negative" examples (e.g., disease status),
 > then AUC is the probability of correct ranking of a random "positive"-"negative" pair.
 
 From this, you can derive a simple formula to compute AUC on a finite sample as an alternative to the
