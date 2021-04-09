@@ -20,11 +20,7 @@ repos:
       - id: mixed-line-ending  # Replaces or checks mixed line ending.
       - id: trailing-whitespace
 
-  - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.1
-    hooks:
-      - id: yamllint
-        args: [-c=.yamllint.yml]
+  # General
 
   - repo: https://github.com/Yelp/detect-secrets
     rev: v1.0.3
@@ -33,6 +29,30 @@ repos:
         args: ['--baseline', '.secrets.baseline']
         exclude: package.lock.json
 
+  - repo: https://github.com/sirosen/fix-smartquotes
+    rev: 0.2.0
+    hooks:
+      - id: fix-smartquotes
+
+  # Git
+
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.15.0
+    hooks:
+      - id: gitlint
+
+  # Markdown
+
+  # YAML
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.1
+    hooks:
+      - id: yamllint
+        args: [-c=.yamllint.yml]
+
+  # Mixed
+
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
@@ -40,13 +60,3 @@ repos:
       - id: git-check  # Configure in .gitattributes
       - id: shellcheck
         args: ['--external-sources', '--format=gcc', '--shell=bash']
-
-  - repo: https://github.com/sirosen/fix-smartquotes
-    rev: 0.2.0
-    hooks:
-      - id: fix-smartquotes
-
-  - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.15.0
-    hooks:
-      - id: gitlint
