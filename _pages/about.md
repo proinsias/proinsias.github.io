@@ -27,7 +27,7 @@ Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 res
 - Skills:
     - Data Science, Machine Learning, and Big Data:
     <a href="https://pandas.pydata.org/"><img alt="pandas" src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=ShieldStyle"/></a>
-    <a href="https://scikit-learn.org/stable/index.html"><img alt="scikit-learn" src="https://img.shields.io/badge/scikit%20learn-F7931E?logo=scikit-learn&logoColor=white&style=ShieldStyle"/></a>
+    <a href="https://scikit-learn.org/stable/index.html"><img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=ShieldStyle"/></a>
     <a href="https://jupyter.org/"><img alt="jupyter" src="https://img.shields.io/badge/jupyter-%23F37626?logo=scikit-learn&logoColor=white&style=ShieldStyle"/></a>
     <a href="https://numpy.org/"><img alt="numpy" src="https://img.shields.io/badge/numpy-%23013243?logo=numpy&logoColor=white&style=ShieldStyle"/></a>
     <a href="https://www.scipy.org/"><img alt="scipy" src="https://img.shields.io/badge/scipy-8CAAE6?logo=scipy&logoColor=white&style=ShieldStyle"/></a>
