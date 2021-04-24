@@ -1,5 +1,4 @@
----
-
+# yamllint disable-line rule:document-start
 name: Pull Requests & Pushes
 
 # yamllint disable-line rule:truthy
@@ -7,8 +6,8 @@ on: [push, pull_request]
 
 jobs:
 
-  code-quality:
-    name: Check code quality
+  github-actions:
+    name: GitHub Actions
     runs-on: ubuntu-latest
 
     steps:
@@ -36,12 +35,12 @@ jobs:
           level: warning
 
       - name: Bundler audit
-        uses: andrewmcodes/bundler-audit-action@main
+        uses: andrewmcodes/bundler-audit-action@v0.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Detect secrets
-        uses: reviewdog/action-detect-secrets@master
+        uses: reviewdog/action-detect-secrets@v0.4.3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review  # Change reporter.
@@ -64,6 +63,9 @@ jobs:
           github_token: ${{ secrets.github_token }}
           locale: "US"
 
+      # - name: pre-commit
+      #   uses: pre-commit/action@v2.0.2
+
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
         with:
@@ -82,6 +84,17 @@ jobs:
           yamllint_comment: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update TOC
+        run: npx markdown-toc README.md -i
+
+      - name: Commit and push if README changed
+        run: |-
+          git diff
+          git config --global user.email "proinsias@users.noreply.github.com"
+          git config --global user.name "Francis T. O'Donovan"
+          git diff --quiet || (git add README.md && git commit -m "Updated README TOC")
+          git push
 
   label:
     name: Issue/PR Labeler
@@ -117,7 +130,7 @@ jobs:
           NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
       - name: Check HTML
-        uses: chabad360/htmlproofer@master
+        uses: chabad360/htmlproofer@v1.1
         timeout-minutes: 30
         with:
           # The directory to scan.

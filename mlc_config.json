@@ -1,0 +1,10 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github.com/proinsias/travis-lint/workflows/Pull%20Requests%20%26%20Pushes/badge.svg"
+    },
+    {
+      "pattern": "^https://github.com/proinsias/travis-lint/workflows/ShiftLeft%20Scan/badge.svg"
+    }
+  ]
+}
