@@ -39,12 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Detect secrets
-        uses: reviewdog/action-detect-secrets@v0.4.3
-        with:
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review  # Change reporter.
-
       - name: markdownlint
         uses: reviewdog/action-markdownlint@v0.1
         with:
