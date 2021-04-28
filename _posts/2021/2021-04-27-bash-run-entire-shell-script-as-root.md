@@ -17,3 +17,5 @@ tags:
 ```bash
 #!/usr/bin/sudo /usr/bin/env bash
 ```
+
+Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/25273/run-entire-shell-script-as-root?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Command-line-fu+%28Command-Line-Fu%29).
