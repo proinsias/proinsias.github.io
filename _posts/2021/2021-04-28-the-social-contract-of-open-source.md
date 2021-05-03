@@ -13,9 +13,6 @@ header:
   teaser: /assets/images/handshake_thumbnail.gif
 ---
 
-<sup>*Banner photo by [flazingo_photos](https://flickr.com/people/124247024@N07)
-shared under a [Creative Commons (BY-SA) license](https://creativecommons.org/licenses/by-sa/2.0/)*
-
 I'm a huge fan of open source software. Much of my work and play involve using it, either directly or indirectly.
 And so I'm a big proponent of people giving back to open source and the community that supports it –
 especially companies that benefit so immensely from open source –
@@ -43,3 +40,6 @@ and others to get you started:
   helps you subscribe to your favorite open-source projects
   and get a new open issue from them in your inbox every day.
 * [Open Source Friday](https://opensourcefriday.com) encourages you to spend time on open source every Friday.
+
+<sup>*Banner photo by [flazingo_photos](https://flickr.com/people/124247024@N07)
+shared under a [Creative Commons (BY-SA) license](https://creativecommons.org/licenses/by-sa/2.0/)*
