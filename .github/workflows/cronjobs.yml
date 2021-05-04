@@ -30,6 +30,7 @@ jobs:
         run: |
           sudo wget --output-file /bin/hadolint \
               https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
+          sudo chmod +x /bin/hadolint
 
       - uses: browniebroke/pre-commit-autoupdate-action@v1.0.0
 
