@@ -32,7 +32,11 @@ jobs:
               https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
           sudo chmod +x /bin/hadolint
 
-      - uses: browniebroke/pre-commit-autoupdate-action@v1.0.0
+      - run: pip install pre-commit
+        shell: bash
+
+      - run: pre-commit autoupdate
+        shell: bash
 
       - uses: peter-evans/create-pull-request@v3
         with:
