@@ -66,6 +66,7 @@ jobs:
         with:
           check-modified-files-only: 'no'
           max-depth: 1
+          config-file: 'mlc_config.json'
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
