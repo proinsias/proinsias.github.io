@@ -33,14 +33,14 @@ repos:
         stages: [commit]
 
   - repo: https://github.com/hadolint/hadolint
-    rev: v2.1.0
+    rev: v2.4.0
     hooks:
       - id: hadolint
 
   # Git
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.15.0
+    rev: v0.15.1
     hooks:
       - id: gitlint
 
@@ -64,7 +64,7 @@ repos:
         args: ['--external-sources', '--format=gcc', '--shell=bash']
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.9
+    rev: v1.1.10
     hooks:
       - id: remove-crlf
       - id: remove-tabs
