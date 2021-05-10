@@ -23,3 +23,6 @@ jobs:
           reporter: github-pr-review
           # Change reporter level if you need.
           level: warning
+
+      - name: Dependabot Auto Merge
+        uses: ahmadnassri/action-dependabot-auto-merge@v2.3.1
