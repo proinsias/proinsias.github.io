@@ -20,18 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install shfmt
-        run: |
-          sudo apt update
-          sudo apt install snapd
-          sudo snap install shfmt
-
-      - name: Install hadolint
-        run: |
-          sudo wget --output-file /bin/hadolint \
-              https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
-          sudo chmod +x /bin/hadolint
-
       - run: pip install pre-commit
         shell: bash
 
