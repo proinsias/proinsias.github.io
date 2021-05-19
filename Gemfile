@@ -18,11 +18,11 @@ gem 'github-pages', '>= 214', group: :jekyll_plugins
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem 'bundler'
 gem 'bundler-audit'
-gem 'html-proofer', '>= 3.18.3'
+gem 'html-proofer', '>= 3.19.1'
 gem 'image_optim'
 gem 'jekyll', '>= 3.9.0'
 gem 'mdl', '>= 0.11.0'
-gem 'nokogiri', '>= 1.11.0'
+gem 'nokogiri', '>= 1.11.4'
 gem 'overcommit'
 gem 'reek'
 gem 'rubocop'
@@ -33,7 +33,7 @@ gem 'w3c_validators', '>= 1.3.6'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia', '>= 1.6.0'
+  gem 'jekyll-algolia', '>= 1.7.0'
   gem 'jekyll-feed', '>= 0.15.1'
   gem 'jekyll-gist'
   gem 'jekyll-github-metadata', '>= 2.13.0'
