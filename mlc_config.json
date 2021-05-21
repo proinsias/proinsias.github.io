@@ -5,6 +5,9 @@
     },
     {
       "pattern": "^https://github.com/proinsias/travis-lint/workflows/ShiftLeft%20Scan/badge.svg"
+    },
+    {
+      "pattern": "https://snyk.io/test/github/proinsias/proinsias.github.io?targetFile=Gemfile.lock"
     }
   ]
 }
