@@ -76,3 +76,11 @@ jobs:
 --empty-alt-ignore --internal-domains proinsias.github.io --only-4xx \
 --url-ignore \"#,/archive.org/,/twitter.com/,/doi.org/,/enkipro.com/\" \
 --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
+
+      - name: Dependabot Auto Merge
+        uses: koj-co/dependabot-pr-action
+        with:
+          github-token: ${{ secrets.github_token }}
+          approve: true
+          auto-level: true
+          merge: true
