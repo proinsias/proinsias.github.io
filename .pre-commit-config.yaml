@@ -2,7 +2,7 @@
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.0.1
     hooks:
       # General
       - id: check-added-large-files
@@ -16,28 +16,31 @@ repos:
       - id: check-yaml
       - id: detect-private-key
       - id: double-quote-string-fixer
-      - id: end-of-file-fixer
       - id: mixed-line-ending  # Replaces or checks mixed line ending.
       - id: trailing-whitespace
 
-  # General
+  # Docker
 
-  - repo: https://github.com/Yelp/detect-secrets
-    rev: v1.0.3
+  - repo: https://github.com/IamTheFij/docker-pre-commit
+    rev: v2.0.0
     hooks:
-      - id: detect-secrets
-        args: ['--baseline', '.secrets.baseline']
-        exclude: package.lock.json
+      - id: docker-compose-check
 
-  - repo: https://github.com/sirosen/fix-smartquotes
-    rev: 0.2.0
+  - repo: https://github.com/pryorda/dockerfilelint-precommit-hooks
+    rev: v0.1.0
     hooks:
-      - id: fix-smartquotes
+      - id: dockerfilelint
+        stages: [commit]
+
+  - repo: https://github.com/hadolint/hadolint
+    rev: v2.4.1
+    hooks:
+      - id: hadolint
 
   # Git
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.15.0
+    rev: v0.15.1
     hooks:
       - id: gitlint
 
@@ -56,13 +59,13 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      - id: forbid-binary
       - id: git-check  # Configure in .gitattributes
       - id: shellcheck
         args: ['--external-sources', '--format=gcc', '--shell=bash']
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.9
+    rev: v1.1.10
     hooks:
       - id: remove-crlf
       - id: remove-tabs
+        exclude: .git/COMMIT_EDITMSG

@@ -15,11 +15,11 @@ it reads copy-pasted tabular data and parses it into a Data Frame.
 For instance, try running the method after copying the following Data Frame:
 
 ```
-           0	       1	       2	       3
-0	0.850004	0.206778	0.655200	0.079339
-1	0.948567	0.749701	0.116241	0.069551
-2	0.834722	0.360724	0.410327	0.535236
-3	0.221309	0.916424	0.649175	0.803750
+           0           1           2           3
+0    0.850004    0.206778    0.655200    0.079339
+1    0.948567    0.749701    0.116241    0.069551
+2    0.834722    0.360724    0.410327    0.535236
+3    0.221309    0.916424    0.649175    0.803750
 ```
 
 Via [adrianperea.dev](https://www.adrianperea.dev/pandas-hacks-reads-clipboard/).
