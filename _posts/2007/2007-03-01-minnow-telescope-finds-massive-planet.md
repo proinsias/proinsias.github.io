@@ -2,7 +2,7 @@
 title: "Minnow Telescope Finds Massive Planet"
 layout: single
 excerpt: "Since ancient times, mankind has studied the sky and
-wondered what the "wandering stars" (planets) might be. In the last two decades, we have
+wondered what the 'wandering stars' (planets) might be. In the last two decades, we have
 found hundreds of planets outside our solar system."
 categories: tres
 tags:
@@ -21,7 +21,7 @@ modified: 2016-07-06
 
 Since ancient times, mankind has studied the sky and wondered what
 those
-"[wandering stars](https://en.wikipedia.org/wiki/Classical_planet)"
+'[wandering stars](https://en.wikipedia.org/wiki/Classical_planet)'
 (the solar system planets) might be.  Centuries of observations of
 these celestial bodies led to the realization that Earth was not the
 center of the universe and the development of Newton's
@@ -49,7 +49,7 @@ properties. Credit: [Jeffrey Hall](https://lowell.edu/staff-member/jeffrey-hall/
 In this age of billion-dollar telescopes that dwarf houses, it would
 be reasonable to assume that each of these discoveries was made using
 the latest and greatest technology. However, one of the most recently
-discovered "exoplanets" was identified using a trio of amateur
+discovered 'exoplanets' was identified using a trio of amateur
 telescopes. The humble telescopes used in the discovery were built
 using off-the-shelf 10-cm camera lenses. The three telescopes shown in
 [Figure 1](#fig1) – [Sleuth](/portfolio/tres.html), the Planet Search Survey Telescope and the STellar
@@ -61,7 +61,7 @@ Our TrES team has so far<sup id="a2">[2](#f2)</sup> identified two
 planets, imaginatively called
 [TrES-1](https://en.wikipedia.org/wiki/TrES-1b) and
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b). They are transiting
-exoplanets, so called because they "transit" or pass in front of their
+exoplanets, so called because they 'transit' or pass in front of their
 stars (see [Figure 2](#fig2)).  When a planet transits a star, it blocks a
 small fraction of the starlight, and the star appears to dim. This is
 similar to what we saw during the recent transit of the Sun by the
@@ -71,7 +71,7 @@ it using a digital camera. Although 200 exoplanets are known,
 transiting exoplanets are rarer, with only
 14<sup id="a3">[3](#f3)</sup> known today. These two planets can also
 be classified as
-"[hot Jupiters](https://en.wikipedia.org/wiki/Hot_Jupiter)". They are
+'[hot Jupiters](https://en.wikipedia.org/wiki/Hot_Jupiter)'. They are
 similar in mass and size to Jupiter, and yet they are closer to their
 stars than Mercury is to our Sun! The proximity of the star means that
 such a planet experiences intense radiation from the star, making the
@@ -92,7 +92,7 @@ Jupiter and hence causes Jupiter to circle around it in a 12 year
 orbit. However, Jupiter also attracts the Sun, and causes the Sun to
 circle, albeit in a much smaller orbit. A distant observer outside the
 solar system could deduce the presence of Jupiter by observing this
-"wobble" of the Sun. In a similar way, we can measure the mass of a
+'wobble' of the Sun. In a similar way, we can measure the mass of a
 transiting planet by observing the movement of its host star. Note
 that in neither case do we directly detect the planet, only the effect
 the planet has on the star, either by blocking its light or causing it
@@ -154,7 +154,7 @@ Scott Kardel
 
 The planet TrES-2 is also noteworthy for being the first transiting
 planet in an area of the sky known as the
-"[Kepler field](https://exoplanets.nasa.gov/resources/1019/kepler-field-of-view/)",
+'[Kepler field](https://exoplanets.nasa.gov/resources/1019/kepler-field-of-view/)',
 which has been singled out as the target field of view for the
 upcoming NASA
 [Kepler](https://www.nasa.gov/mission_pages/kepler/main/index.html)

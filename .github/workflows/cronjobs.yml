@@ -78,7 +78,7 @@ jobs:
 --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
 
       - name: Dependabot Auto Merge
-        uses: koj-co/dependabot-pr-action
+        uses: PabioHQ/dependabot-pr-action@v1.1.12
         with:
           github-token: ${{ secrets.github_token }}
           approve: true
