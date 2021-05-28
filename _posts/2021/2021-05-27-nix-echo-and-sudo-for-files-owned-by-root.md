@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Nix: Echo and sudo"
+title: "Nix: Echo and sudo for files owned by root"
 date: 2021-05-27 20:04
 modified: 2021-05-27 20:04
 categories: til
@@ -11,7 +11,8 @@ tags:
   - til
 ---
 
-This doesn't work:
+If you're not root, and you want to modify a file owned by root (say
+`/root/tarsnap-backup.sh`), this won't work:
 
 ```bash
 sudo echo '#!/bin/sh
