@@ -83,9 +83,9 @@ Others?
 
 You may be wondering why this blog is called 'An Independent Mind'.
 Well back in the olden days when [Shareware](https://en.wikipedia.org/wiki/Shareware) was more common,
-when you registered your software there was often a required field for the company you worked out.
+and when you often had to register your software, there was often a required field for the company you worked out.
 But I was just a wee lad, so I didn't have anything to put there.
-And so 'An Independend Mind' was born.
+And so 'An Independent Mind' was born.
 
 ## 😜Here's a Joke for you:
 <img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
