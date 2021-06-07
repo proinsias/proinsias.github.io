@@ -3,3 +3,11 @@
 additional-dependency-files:
   - type: bundler-gemfile
     path: Gemfile
+
+ignore-failures:
+
+  ruby:
+    - jekyll-gist
+    - jekyll-paginate
+    - ruby-lint
+    - wdm
