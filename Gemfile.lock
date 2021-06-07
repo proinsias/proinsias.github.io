@@ -29,7 +29,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     dnsruby (1.61.5)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
@@ -144,7 +144,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.7.0)
+    jekyll-algolia (1.7.1)
       algolia_html_extractor (~> 2.6)
       algoliasearch (~> 1.26)
       filesize (~> 0.1)
@@ -268,8 +268,7 @@ GEM
       mixlib-shellout
     mercenary (0.3.6)
     method_source (1.0.0)
-    mini_portile2 (2.5.2)
-      net-ftp (~> 0.1)
+    mini_portile2 (2.5.3)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -282,12 +281,8 @@ GEM
       chef-utils
     multi_json (1.15.0)
     multipart-post (2.1.1)
-    net-ftp (0.1.2)
-      net-protocol
-      time
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
-    net-protocol (0.1.0)
     netrc (0.11.0)
     nokogiri (1.11.6)
       mini_portile2 (~> 2.5.0)
@@ -361,7 +356,6 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thor (1.1.0)
     thread_safe (0.3.6)
-    time (0.1.0)
     tomlrb (2.0.1)
     travis (1.4.0)
       backports
