@@ -17,7 +17,7 @@ tags:
     # Series level
     df.groupby('class')['sepal length (cm)'].agg(
         **{
-            # new column: 'function'.
+            # 'new column': 'function',
             'sepal_average_length': 'mean',
             'sepal_standard_deviation': 'std',
         }
@@ -26,7 +26,7 @@ tags:
     # DataFrame level
     df.groupby(['class']).agg(
         **{
-            # new column: ('column', 'function').
+            # 'new column': ('column', 'function'),
             'sepal_average_length': ("sepal length (cm)", "mean"),
             'sepal_standard_deviation': ("sepal length (cm)", "std"),
         }
