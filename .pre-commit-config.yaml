@@ -33,7 +33,7 @@ repos:
         stages: [commit]
 
   - repo: https://github.com/hadolint/hadolint
-    rev: v2.5.0
+    rev: v2.6.0
     hooks:
       - id: hadolint
 
