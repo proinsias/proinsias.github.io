@@ -32,4 +32,4 @@ EOF
 ```
 
 Via
-[herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line/blob/master/functions.md#ask-user-for-password).
+[awesome-macos-command-line](https://git.herrbischoff.com/awesome-macos-command-line/about/functions.md#ask-user-for-password).
