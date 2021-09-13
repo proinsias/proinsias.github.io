@@ -1,0 +1,20 @@
+---
+# https://github.com/actions/labeler
+
+name: Labeler
+on:  # yamllint disable-line rule:truthy
+  # note: security risk from this action.  Do not add
+  # actions in here which need a checkout of the repo,
+  # and do not use any caching in here.
+  # Need this for actions/labeler.
+  pull_request_target:
+
+jobs:
+  label:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/labeler@v3
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
