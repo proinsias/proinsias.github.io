@@ -13,7 +13,7 @@ source 'https://rubygems.org'
 
 # To upgrade, run `bundle update`.
 
-gem 'github-pages', '>= 215', group: :jekyll_plugins
+gem 'github-pages', '>= 219', group: :jekyll_plugins
 
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem 'bundler'
@@ -22,7 +22,7 @@ gem 'html-proofer', '>= 3.19.2'
 gem 'image_optim'
 gem 'jekyll', '>= 3.9.0'
 gem 'mdl', '>= 0.11.0'
-gem 'nokogiri', '>= 1.11.4'
+gem 'nokogiri', '>= 1.12.5'
 gem 'reek'
 gem 'rubocop'
 gem 'ruby-lint'
