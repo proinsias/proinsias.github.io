@@ -1,7 +1,7 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
+excerpt: "Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
 author: false
@@ -18,7 +18,7 @@ Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 res
 
 ## 😄 About Me
 
-- I'm currently the Data Science Manager at
+- I'm currently the Senior Data Science Manager at
   <a href="https://www.hospiq.com"><img src="https://www.hospiq.com/wp-content/uploads/2020/03/HospitalIQ-LOGO-small.png" alt="Hospital IQ" width="100"/></a>,
   where our goal is to improve the productivity and happiness of every healthcare worker every day.
 
