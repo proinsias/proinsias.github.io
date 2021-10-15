@@ -27,7 +27,7 @@ url: "https://proinsias.github.io"
 gh_repo: proinsias.github.io
 github: [metadata]  # https://github.com/github/pages-gem/issues/399
 repository: proinsias/proinsias.github.io
-email: francis.odonovan@gmail.com
+email: proinsias_github_io.48ui2@aleeas.com
 twitter_username: francisodonovan
 github_username: proinsias
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -196,7 +196,7 @@ author:
   # yamllint disable-line rule:line-length
   bio: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
   location: "Boston, MA"
-  email: francis.odonovan@gmail.com
+  email: proinsias_github_io.48ui2@aleeas.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
