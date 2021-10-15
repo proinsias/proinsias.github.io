@@ -194,9 +194,8 @@ author:
   name: "Francis T. O'Donovan"
   avatar: "/assets/images/bio-photo.jpg"
   # yamllint disable-line rule:line-length
-  bio: "Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
+  bio: "Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
   location: "Boston, MA"
-  email: proinsias_github_io.48ui2@aleeas.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
