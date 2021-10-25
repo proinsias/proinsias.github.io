@@ -6,6 +6,7 @@ modified: 2017-07-07 14:55
 categories: til
 tags:
   - bash
+  - nix
   - til
 ---
 
