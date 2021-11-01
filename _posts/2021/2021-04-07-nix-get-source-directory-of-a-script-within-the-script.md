@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Nix: Get source directory of a script within the script"
+title: "Bash: Get source directory of a script within the script"
 date: 2021-04-07 12:24
 modified: 2021-04-07 12:24
 categories: til
