@@ -33,14 +33,14 @@ repos:
         stages: [commit]
 
   - repo: https://github.com/hadolint/hadolint
-    rev: v2.7.0
+    rev: v2.8.0
     hooks:
       - id: hadolint
 
   # Git
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.16.0
+    rev: v0.17.0
     hooks:
       - id: gitlint
 
