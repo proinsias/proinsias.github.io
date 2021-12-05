@@ -33,9 +33,9 @@ GEM
     connection_pool (2.2.5)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
-    em-websocket (0.5.2)
+    em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
+      http_parser.rb (~> 0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
@@ -57,7 +57,7 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    github-pages (221)
+    github-pages (222)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -119,7 +119,7 @@ GEM
       rainbow (~> 3.0)
       typhoeus (~> 1.3)
       yell (~> 2.0)
-    http_parser.rb (0.6.0)
+    http_parser.rb (0.8.0)
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -307,7 +307,7 @@ GEM
       method_source (~> 1.0)
     psych (3.3.1)
     public_suffix (4.0.6)
-    racc (1.5.2)
+    racc (1.6.0)
     rainbow (3.0.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
@@ -381,7 +381,7 @@ GEM
       nokogiri (~> 1.6)
       rexml (~> 3.2)
     yell (2.2.2)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
