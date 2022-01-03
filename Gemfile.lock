@@ -57,7 +57,7 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent (>= 2.7)
       net-http-pipeline
-    github-pages (222)
+    github-pages (223)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -67,6 +67,7 @@ GEM
       jekyll-feed (= 0.15.1)
       jekyll-gist (= 1.5.0)
       jekyll-github-metadata (= 2.13.0)
+      jekyll-include-cache (= 0.2.1)
       jekyll-mentions (= 1.6.0)
       jekyll-optional-front-matter (= 0.3.2)
       jekyll-paginate (= 1.1.0)
@@ -273,7 +274,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.14.4)
+    minitest (5.15.0)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.9)
       tomlrb
@@ -381,7 +382,7 @@ GEM
       nokogiri (~> 1.6)
       rexml (~> 3.2)
     yell (2.2.2)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.3)
 
 PLATFORMS
   ruby
