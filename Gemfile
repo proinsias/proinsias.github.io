@@ -16,6 +16,7 @@ source 'https://rubygems.org'
 gem 'github-pages', '>= 219', group: :jekyll_plugins
 
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
+gem "addressable", ">= 2.8.0"  # CVE-2021-32740.
 gem 'bundler'
 gem 'bundler-audit'
 gem 'html-proofer', '>= 3.19.2'
@@ -26,7 +27,6 @@ gem 'nokogiri', '>= 1.12.5'
 gem 'reek'
 gem 'rubocop'
 gem 'ruby-lint'
-gem 'travis', '>= 1.4.0'
 gem 'tzinfo-data'
 gem 'w3c_validators', '>= 1.3.6'
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
