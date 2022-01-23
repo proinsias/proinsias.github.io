@@ -36,7 +36,7 @@ Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 res
     <a href="https://www.python.org/"><img alt="python" src="https://img.shields.io/badge/python-3776AB?logo=python&logoColor=white&style=ShieldStyle"/></a>
     <a href="https://www.gnu.org/software/bash/"><img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011?style=ShieldStyle&logo=gnu-bash&logoColor=white"/></a>
     <a href="https://www.markdownguide.org/"><img alt="markdown" src="https://img.shields.io/badge/markdown-%23000000?logo=markdown&logoColor=white&style=ShieldStyle"/></a>
-    <a href="https://www.java.com/en/"><img alt="java" src="https://img.shields.io/badge/java-%23ED8B00?logo=java&logoColor=white&style=ShieldStyle"/></a>
+    <img alt="java" src="https://img.shields.io/badge/java-%23ED8B00?logo=java&logoColor=white&style=ShieldStyle"/>
     <a href="https://www.latex-project.org/"><img alt="LaTeX" src="https://img.shields.io/badge/latex-%23008080?logo=LaTeX&logoColor=white&style=ShieldStyle"/></a>
     <a href="https://www.jetbrains.com/pycharm/"><img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000?logo=PyCharm&logoColor=white&style=ShieldStyle"/></a>
 
