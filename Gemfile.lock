@@ -29,7 +29,6 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.9)
-    connection_pool (2.2.5)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
@@ -68,13 +67,6 @@ GEM
     forwardable-extended (2.6.0)
     fspath (3.1.2)
     gemoji (3.0.1)
-    gh (0.14.0)
-      addressable
-      backports
-      faraday (~> 0.8)
-      multi_json (~> 1.0)
-      net-http-persistent (>= 2.7)
-      net-http-pipeline
     github-pages (223)
       github-pages-health-check (= 1.17.9)
       jekyll (= 3.9.0)
@@ -294,13 +286,9 @@ GEM
     mixlib-shellout (3.2.5)
       chef-utils
     multipart-post (2.1.1)
-    net-http-persistent (4.0.1)
-      connection_pool (~> 2.2)
-    net-http-pipeline (1.0.1)
-    netrc (0.11.0)
-    nokogiri (1.13.1-x86_64-darwin)
+    nokogiri (1.13.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.1-x86_64-linux)
+    nokogiri (1.13.2-x86_64-linux)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
