@@ -13,7 +13,7 @@ source 'https://rubygems.org'
 
 # To upgrade, run `bundle update`.
 
-gem 'github-pages', '>= 219', group: :jekyll_plugins
+gem 'github-pages', '>= 224', group: :jekyll_plugins
 
 gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem "addressable", ">= 2.8.0"  # CVE-2021-32740.
