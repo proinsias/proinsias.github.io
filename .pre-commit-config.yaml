@@ -22,7 +22,7 @@ repos:
   # Docker
 
   - repo: https://github.com/IamTheFij/docker-pre-commit
-    rev: v2.0.1
+    rev: v2.1.0
     hooks:
       - id: docker-compose-check
 
@@ -57,14 +57,14 @@ repos:
   # Mixed
 
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.5
+    rev: 2.1.6
     hooks:
       - id: git-check  # Configure in .gitattributes
       - id: shellcheck
         args: ['--external-sources', '--format=gcc', '--shell=bash']
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.1.10
+    rev: v1.1.13
     hooks:
       - id: remove-crlf
       - id: remove-tabs

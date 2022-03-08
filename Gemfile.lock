@@ -390,7 +390,7 @@ DEPENDENCIES
   jekyll-github-metadata (>= 2.13.0)
   jekyll-include-cache (>= 0.2.1)
   jekyll-paginate
-  jekyll-seo-tag (>= 2.7.1)
+  jekyll-seo-tag (= 2.8.0)
   jekyll-sitemap (>= 1.4.0)
   jemoji (>= 0.12.0)
   mdl (>= 0.11.0)
