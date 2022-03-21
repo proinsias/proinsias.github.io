@@ -16,7 +16,7 @@ modified: 2016-07-06
 ---
 
 *This article was originally published in the
-[Astronomy Ireland Magazine](https://www.astronomy.ie/magazine.php)
+[Astronomy Ireland Magazine](https://www.astronomy.ie/)
 (March 2007).*
 
 Since ancient times, mankind has studied the sky and wondered what
