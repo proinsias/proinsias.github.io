@@ -8,6 +8,9 @@ ignore-failures:
 
   ruby:
     - jekyll-gist
+    - jekyll-github-metadata
     - jekyll-paginate
+    - jekyll-sitemap
+    - jemoji
     - ruby-lint
     - wdm
