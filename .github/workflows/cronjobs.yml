@@ -35,7 +35,7 @@ jobs:
           body: Update versions of pre-commit hooks to latest version.
 
       - name: Mark Stale Issues
-        uses: actions/stale@v4
+        uses: actions/stale@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-close: 5
