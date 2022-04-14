@@ -18,4 +18,4 @@ bundle exec htmlproofer ./_site \
     --internal-domains proinsias.github.io `# Treat urls with this domain as internal urls` \
     --only-4xx \
     --typhoeus-config '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
-    --url-ignore "#,/archive.org/,/doi.org/,/enkipro.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/"
+    --url-ignore "#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/"
