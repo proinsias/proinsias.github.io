@@ -11,12 +11,12 @@ set -o xtrace  # Echo commands as they are executed.
 
 bundle exec jekyll build
 
+# Keep in sync with .github/workflows/cronjobs.yml.
 bundle exec htmlproofer ./_site \
     --check-favicon \
     --check-html \
     --empty-alt-ignore `# Unsure how to enable alt tags for teaser images` \
-    --http-status-ignore "403" \
     --internal-domains proinsias.github.io `# Treat urls with this domain as internal urls` \
     --only-4xx \
     --typhoeus-config '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
-    --url-ignore "#,/archive.org/,/doi.org/,/enkipro.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/"
+    --url-ignore "#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/"
