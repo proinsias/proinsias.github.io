@@ -11,7 +11,7 @@ set -o xtrace  # Echo commands as they are executed.
 
 bundle exec jekyll build
 
-# Keep in sync with .github/workflows/cronjobs.yml.
+# Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
 bundle exec htmlproofer ./_site \
     --check-favicon \
     --check-html \
