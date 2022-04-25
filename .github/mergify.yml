@@ -11,6 +11,10 @@ pull_request_rules:
           - base=main
           - author~=proinsias
           - check-success-or-neutral=Deadpendency Check
+      actions:
+          queue:
+              method: merge
+              name: default
     - name: automatic merge on CI success and review
       conditions:
           - base=main
