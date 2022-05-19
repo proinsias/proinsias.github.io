@@ -110,6 +110,8 @@ jobs:
                   # Unsure how to enable alt tags for teaser images.
                   # Treat urls with this domain as internal urls.
                   # Keep in sync with bin/build.sh and .github/workflows/cronjobs.yml
-                  # yamllint disable-line rule:line-length
-                  arguments: "--check-favicon --check-html --empty-alt-ignore --internal-domains proinsias.github.io --only-4xx --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\"\
-                      \ --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
+                  # yamllint disable
+                  arguments: "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
+                      \ --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\" --typhoeus-config\
+                      \ '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
+                  # yamllint enable

@@ -75,6 +75,6 @@ jobs:
                   # Treat urls with this domain as internal urls.
                   # Keep in sync with bin/build.sh and .github/workflows/pull-requests-and-pushes.yml
                   # yamllint disable
-                  arguments: "--check-favicon --check-html --empty-alt-ignore --internal-domains proinsias.github.io --only-4xx --typhoeus-config '{ \"\
-                      connecttimeout\": 30, \"timeout\": 30 }' --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\""
+                  arguments: "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
+                      \ --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }' --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\""
                   # yamllint enable
