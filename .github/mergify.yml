@@ -8,7 +8,7 @@ queue_rules:
 pull_request_rules:
     - name: automatic merge for me
       conditions:
-          - base=main
+          - base=master
           - author~=proinsias
           - check-success-or-neutral=Deadpendency Check
       actions:
@@ -17,7 +17,7 @@ pull_request_rules:
               name: default
     - name: automatic merge on CI success and review
       conditions:
-          - base=main
+          - base=master
           - author~=github-actions
           - check-success-or-neutral=Deadpendency Check
       actions:
@@ -26,7 +26,7 @@ pull_request_rules:
               name: default
     - name: automatic merge for Dependabot pull requests
       conditions:
-          - base=main
+          - base=master
           - author~=dependabot
           - check-success-or-neutral=Deadpendency Check
       actions:
