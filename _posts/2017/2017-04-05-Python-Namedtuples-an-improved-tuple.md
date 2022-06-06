@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Python: An improved tuple"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-
-- python
-- til
-
+  - python
+  - til
 ---
 
 A downside of plain `tuple`s is that the data you store in them can only be pulled out by

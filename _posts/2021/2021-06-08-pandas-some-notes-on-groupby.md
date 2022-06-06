@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Pandas: Some notes on groupby"
 date: 2021-06-08 16:07
 modified: 2021-06-08 16:07
 categories: til
 tags:
-
-- pandas
-- til
-
+  - pandas
+  - til
 ---
 
 1. The `count()` aggregation function counts only non-null values. To count all values, whether null or non-null, use `size`.

@@ -1,16 +1,13 @@
 ---
-
 layout: single
 title: "PSQL: List Database Users"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-
-- psql
-- sql
-- til
-
+  - psql
+  - sql
+  - til
 ---
 
 Within `psql`, type `\du` to list all the users for a database and their

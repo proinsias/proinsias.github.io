@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Nix: Sorted human readable sizes"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-
-- nix
-- til
-
+  - nix
+  - til
 ---
 
 ```bash

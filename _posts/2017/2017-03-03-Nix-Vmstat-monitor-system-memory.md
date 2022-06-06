@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Nix: Monitor System Memory with vmstat"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-
-- nix
-- til
-
+  - nix
+  - til
 ---
 
 `vmstat` allows the user to monitor virtual memory statistics such as processes,

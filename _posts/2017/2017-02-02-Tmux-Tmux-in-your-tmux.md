@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Tmux: tmux in your tmux"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-
-- til
-- tmux
-
+  - til
+  - tmux
 ---
 
 If you are running tmux locally and you shell into another machine to

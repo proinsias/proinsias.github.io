@@ -1,17 +1,14 @@
 ---
-
 layout: single
 title: "The true meaning of work-life balance"
 date: 2020-09-19 22:00
 modified: 2020-09-19 22:00
 categories: posts
 tags:
-
-- children
-- death
-- parenting
-- work-life
-
+  - children
+  - death
+  - parenting
+  - work-life
 ---
 
 Some

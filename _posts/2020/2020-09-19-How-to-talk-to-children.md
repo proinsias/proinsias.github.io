@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "How to talk to children"
 date: 2020-09-19 15:00
 modified: 2020-09-19 15:00
 categories: posts
 tags:
-
-- children
-- parenting
-
+  - children
+  - parenting
 ---
 
 As a parent of two small children, I have to constantly remind myself

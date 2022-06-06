@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Git: Using multiple worktrees"
 date: 2017-07-12 12:06
 modified: 2017-07-12 12:06
 categories: til
 tags:
-
-- git
-- til
-
+  - git
+  - til
 ---
 
 > When working with multiple branches at the same time, people clone the whole

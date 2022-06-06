@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Jupyter: Output of all variables"
 date: 2017-11-14 15:51
 modified: 2017-11-14 15:51
 categories: til
 tags:
-
-- jupyter
-- til
-
+  - jupyter
+  - til
 ---
 
 > If you try to see the output of more variables without explicitly writing `print` in

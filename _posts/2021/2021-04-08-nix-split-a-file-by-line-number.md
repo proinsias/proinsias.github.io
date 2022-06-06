@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Nix: Split a file by line number"
 date: 2021-04-08 10:44
 modified: 2021-04-08 10:44
 categories: til
 tags:
-
-- nix
-- til
-
+  - nix
+  - til
 ---
 
 I've been using the `split` command for a while to split a file into multiple files with at most say 1000 lines per file:

@@ -1,17 +1,14 @@
 ---
-
 layout: single
 title: "How to use multiprocessing with pandas"
 date: 2019-09-26 13:40
 modified: 2019-09-26 13:40
 categories: tips
 tags:
-
-- multiprocessing
-- pandas
-- parallel
-- tips
-
+  - multiprocessing
+  - pandas
+  - parallel
+  - tips
 ---
 
 <!--lint disable list-item-bullet-indent-->

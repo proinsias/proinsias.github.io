@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Git: Show The diffstat Summary Of A Commit"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-
-- git
-- til
-
+  - git
+  - til
 ---
 
 Use the `--stat` flag when running `git show` on a commit to see the

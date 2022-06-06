@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Nix: Determine The IP Address Of A Domain"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-
-- nix
-- til
-
+  - nix
+  - til
 ---
 
 The `dig` (domain information grouper) command can be used to get more

@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Pandas: Options"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til
 tags:
-
-- pandas
-- til
-
+  - pandas
+  - til
 ---
 
 You can use the following functions to interact with the options in `pandas`:

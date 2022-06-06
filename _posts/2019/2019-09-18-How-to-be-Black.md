@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "How to be Black"
 date: 2019-09-18 22.19
 modified: 2019-09-18 22.19
 categories: posts
 tags:
-
-- books
-- comedy
-
+  - books
+  - comedy
 ---
 
 I just finished Baratunde Thurston's [_How to be Black_](https://howtobeblack.me/),

@@ -1,16 +1,13 @@
 ---
-
 layout: single
 title: "Website: How to create drafts in Jekyll"
 date: 2021-06-03 12:55
 modified: 2021-06-03 12:55
 categories: til
 tags:
-
-- jekyll
-- til
-- website
-
+  - jekyll
+  - til
+  - website
 ---
 
 In case you haven't noticed, I use [Jekyll](https://jekyllrb.com) to create my blog from markdown files. And I typically write short posts, mostly TILs like this one. But I am trying to write longer, more thoughtful posts, which means that I will likely need to write drafts of these posts.

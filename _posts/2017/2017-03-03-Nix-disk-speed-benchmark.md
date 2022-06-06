@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Nix: Disk Speed Benchmark"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-
-- nix
-- til
-
+  - nix
+  - til
 ---
 
 In Linux, the `dd` command can be used for simple I/O performance measurements

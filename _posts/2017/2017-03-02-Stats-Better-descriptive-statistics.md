@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Stats: Better descriptive statistics"
 date: 2018-07-12 15:35
 modified: 2018-07-12 15:35
 categories: til
 tags:
-
-- statistics
-- til
-
+  - statistics
+  - til
 ---
 
 - Instead of the mean, use the median and/or the mode.

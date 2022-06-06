@@ -1,14 +1,11 @@
 ---
-
 layout: single
 title: "SHAttered"
 date: 2017-02-23 10:43
 modified: 2017-02-23 10:43
 categories: posts
 tags:
-
-- security
-
+  - security
 ---
 
 Awesome work to demonstrate how to deliberately cause a SHA-1 collision.

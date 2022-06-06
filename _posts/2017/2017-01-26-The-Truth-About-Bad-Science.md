@@ -1,14 +1,11 @@
 ---
-
 layout: single
 title: "The Truth About Bad Science"
 date: 2017-01-26 10:20
 modified: 2017-01-26 10:20
 categories: posts
 tags:
-
-- reproducibility
-
+  - reproducibility
 ---
 
 [This wired.com article](https://www.wired.com/2017/01/john-arnold-waging-war-on-bad-science)

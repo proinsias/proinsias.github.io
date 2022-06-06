@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Git: Configure to Use Single Key Presses in Interactive Mode"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-
-- git
-- til
-
+  - git
+  - til
 ---
 
 When staging changes in interactive mode (`git add -p`), you have a number

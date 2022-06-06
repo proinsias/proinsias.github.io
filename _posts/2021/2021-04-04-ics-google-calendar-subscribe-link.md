@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "ICS: Providing a 'subscribe in Google Calendar' link for a feed"
 date: 2021-04-04 10:00
 modified: 2021-04-04 10:00
 categories: til
 tags:
-
-- ics
-- til
-
+  - ics
+  - til
 ---
 
 > If you provide your own custom generated ICS file hosted at a URL,

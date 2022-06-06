@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "AWS CLI: Modify volume size"
 date: 2018-02-05 11:27
 modified: 2018-02-05 11:27
 categories: til
 tags:
-
-- awscli
-- til
-
+  - awscli
+  - til
 ---
 
 Here's how to modify the size of the volume attached to an EC2 instance "my_ec2":

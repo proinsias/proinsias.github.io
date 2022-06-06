@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Finding nulls in DataFrames"
 date: 2021-04-01 10:00
 modified: 2021-04-01 10:00
 categories: tips
 tags:
-
-- pandas
-- tips
-
+  - pandas
+  - tips
 ---
 
 <!--lint disable list-item-bullet-indent-->

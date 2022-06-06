@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Git: Use a file from another branch"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-
-- git
-- til
-
+  - git
+  - til
 ---
 
 Sometimes you just need one file from another branch. Sure you could `git cherry-pick` but then you're dealing with commits. That sort of thing gets

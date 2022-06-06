@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Mac: Power shortcuts"
 date: 2017-04-05 21:08
 modified: 2017-04-05 21:08
 categories: til
 tags:
-
-- mac
-- til
-
+  - mac
+  - til
 ---
 
 - `Control-Command-Power/Eject` will reboot the Mac instantly.

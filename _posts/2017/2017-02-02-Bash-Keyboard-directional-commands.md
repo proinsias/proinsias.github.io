@@ -1,16 +1,13 @@
 ---
-
 layout: single
 title: "Bash: Directional Commands"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-
-- bash
-- nix
-- til
-
+  - bash
+  - nix
+  - til
 ---
 
 You can move the cursor without arrow keys. Here is the keyboard equivalent for each.

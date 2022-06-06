@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Git: Intent To Add"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-
-- git
-- til
-
+  - git
+  - til
 ---
 
 Git commands like `git diff` and `git add --patch` are awesome, but their

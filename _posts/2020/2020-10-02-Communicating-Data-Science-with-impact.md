@@ -1,16 +1,13 @@
 ---
-
 layout: single
 title: "Communicating Data Science with impact"
 date: 2020-10-02 11:11
 modified: 2020-10-02 11:11
 categories: tips
 tags:
-
-- communication
-- datascience
-- impact
-
+  - communication
+  - datascience
+  - impact
 ---
 
 One of the major differentiators between a new Data Scientist and a

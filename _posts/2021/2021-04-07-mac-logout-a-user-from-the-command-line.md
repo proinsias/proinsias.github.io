@@ -1,15 +1,12 @@
 ---
-
 layout: single
 title: "Mac: Logout a user from the command line"
 date: 2021-04-07 12:21
 modified: 2021-04-07 12:21
 categories: til
 tags:
-
-- mac
-- til
-
+  - mac
+  - til
 ---
 
 ```bash

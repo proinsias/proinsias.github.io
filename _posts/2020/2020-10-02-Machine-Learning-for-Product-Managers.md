@@ -1,18 +1,15 @@
 ---
-
 layout: single
 title: "Machine Learning for Product Managers"
 date: 2020-10-02 11:45
 modified: 2020-10-02 11:45
 categories: tips
 tags:
-
-- communication
-- datascience
-- impact
-- management
-- product
-
+  - communication
+  - datascience
+  - impact
+  - management
+  - product
 ---
 
 In a [previous post](https://proinsias.github.io/tips/Communicating-Data-Science-with-impact/), I discussed the importance of learning how to properly communicate Data Science to maximize the impact of your work. Product Managers are an obvious target of this communication, and a key ally when communicating with customers.
