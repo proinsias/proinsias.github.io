@@ -21,7 +21,7 @@ I've been using the `split` command for a while to split a file into multiple fi
 >>> wc --lines file??
 1000 fileaa
 1000 fileab
- 325 fileac
+325 fileac
 2325 total
 ```
 
@@ -33,7 +33,7 @@ and also to specify the file extension to use:
 >>> wc --lines file??.txt
 1000 file00.txt
 1000 file01.txt
- 325 file02.txt
+325 file02.txt
 2325 total
 ```
 

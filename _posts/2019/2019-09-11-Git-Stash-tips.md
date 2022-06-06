@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Git: Stash tips"
 date: 2019-09-09 16.31
 modified: 2019-09-09 16.31
 categories: til
 tags:
-  - git
-  - til
+
+- git
+- til
+
 ---
 
 I'm a big fan of using `git stash` to shelve some changes in my repository so that I can move on to some other task.
@@ -38,7 +41,7 @@ index 0000000..d92368b
 +++ b/style.css
 @@ -0,0 +1,3 @@
 +* {
-+ text-decoration: blink;
+    + text-decoration: blink;
 +}
 diff --git a/index.html b/index.html
 index 9daeafb..ebdcbd2 100644

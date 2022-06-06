@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "PSQL: String Contains Another String"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+
+- psql
+- sql
+- til
+
 ---
 
 You can check if a string _contains_ another string using the `position`

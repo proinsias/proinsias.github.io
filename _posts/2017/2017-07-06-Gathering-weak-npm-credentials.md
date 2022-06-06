@@ -1,11 +1,14 @@
 ---
+
 layout: single
 title: "Gathering weak npm credentials"
 date: 2017-07-06 10:41
 modified: 2017-07-06 10:41
 categories: posts
 tags:
-  - security
+
+- security
+
 ---
 
 We _all_ know the importance of strong passwords, don't we?

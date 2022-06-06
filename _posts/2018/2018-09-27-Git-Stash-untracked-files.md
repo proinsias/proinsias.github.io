@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Git: Stashing Untracked Files"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+
+- git
+- til
+
 ---
 
 Normally when stashing changes, using `git stash`, git is only going to

@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Python: MyPy variable annotations"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-  - python
-  - til
+
+- python
+- til
+
 ---
 
 > In Python 3.6, variables (in global, class or local scope) can now have type annotations

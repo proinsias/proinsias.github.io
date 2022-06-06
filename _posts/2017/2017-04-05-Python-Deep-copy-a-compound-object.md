@@ -1,17 +1,20 @@
 ---
+
 layout: single
 title: "Python: Deep copy a compound object"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-  - python
-  - til
+
+- python
+- til
+
 ---
 
 > Assignment statements in Python do not copy objects, they create bindings between a
 > target and an object. For collections that are mutable or contain mutable items, a copy is
-> sometimes needed so one can change one copy without changing the other. [The `copy`]
+> sometimes needed so one can change one copy without changing the other. \[The `copy`\]
 > module provides generic shallow and deep copy operations.
 > The difference between shallow and deep copying is only relevant for compound objects
 > (objects that contain other objects, like lists or class instances):

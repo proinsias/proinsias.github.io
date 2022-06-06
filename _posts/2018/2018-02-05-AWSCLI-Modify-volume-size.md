@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "AWS CLI: Modify volume size"
 date: 2018-02-05 11:27
 modified: 2018-02-05 11:27
 categories: til
 tags:
-  - awscli
-  - til
+
+- awscli
+- til
+
 ---
 
 Here's how to modify the size of the volume attached to an EC2 instance "my_ec2":
@@ -15,7 +18,7 @@ Here's how to modify the size of the volume attached to an EC2 instance "my_ec2"
 
 ```bash
 $ jq -r '.Reservations[0].Instances[0].InstanceId' \
-<(aws ec2 describe-instances --filters Name="tag:Name",Values="bfg-devbox")
+    <(aws ec2 describe-instances --filters Name="tag:Name",Values="bfg-devbox")
 i-02f8f997c05932f66
 ```
 
@@ -23,7 +26,7 @@ i-02f8f997c05932f66
 
 ```bash
 $ jq -r '.Volumes[0].VolumeId' \
-<(aws ec2 describe-volumes --filter Name="attachment.instance-id",Values="i-02f8f997c05932f66")
+    <(aws ec2 describe-volumes --filter Name="attachment.instance-id",Values="i-02f8f997c05932f66")
 vol-0abf653a810ee073b
 ```
 

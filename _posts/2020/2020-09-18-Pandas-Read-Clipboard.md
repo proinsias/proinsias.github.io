@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "Pandas: Read Clipboard"
 date: 2020-09-18 13:00
 modified: 2020-09-18 13:00
 categories: til
 tags:
-  - clipboard
-  - pandas
-  - til
+
+- clipboard
+- pandas
+- til
+
 ---
 
 > The `pandas.read_clipboard()` method is as simple as it sounds:

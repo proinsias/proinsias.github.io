@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Git: Show The diffstat Summary Of A Commit"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+
+- git
+- til
+
 ---
 
 Use the `--stat` flag when running `git show` on a commit to see the
@@ -19,11 +22,11 @@ commit 8a1f36a1ce71d708d1d82afbc2191de9aefba021
 Author: Derek Parker <derek.parker@coreos.com>
 Date:   Wed Jan 27 23:47:04 2016 -0800
 
-    dlv: Flag to print stacktrace on trace subcommand
+dlv: Flag to print stacktrace on trace subcommand
 
- cmd/dlv/main.go     | 45 ++++++++++-----------------------------------
- terminal/command.go |  7 +++++--
- 2 files changed, 15 insertions(+), 37 deletions(-)
+cmd/dlv/main.go     | 45 ++++++++++-----------------------------------
+terminal/command.go |  7 +++++--
+2 files changed, 15 insertions(+), 37 deletions(-)
 ```
 
 The following is a description of the `diffstat` program

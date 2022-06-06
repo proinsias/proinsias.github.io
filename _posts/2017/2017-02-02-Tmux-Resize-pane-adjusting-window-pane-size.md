@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Tmux: Adjusting Window Pane Size"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - til
-  - tmux
+
+- til
+- tmux
+
 ---
 
 In tmux, the size of window panes can be adjusted incrementally with the

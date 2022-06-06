@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "GitHub Actions: Skipping a step without failing"
 date: 2021-04-04 12:00
 modified: 2021-04-04 12:00
 categories: til
 tags:
-  - github
-  - github-actions
-  - til
+
+- github
+- github-actions
+- til
+
 ---
 
 > I wanted to have a GitHub Action step run that might fail,

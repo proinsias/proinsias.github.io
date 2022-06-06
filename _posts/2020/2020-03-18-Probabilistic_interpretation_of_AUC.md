@@ -1,14 +1,17 @@
 ---
+
 layout: single
 title: "Probabilistic interpretation of AUC"
 date: 2020-03-18 15:00
 modified: 2020-03-18 15:00
 categories: tips
 tags:
-  - auc
-  - ml
-  - machine learning
-  - probability
+
+- auc
+- ml
+- machine learning
+- probability
+
 ---
 
 The area under the ROC (receiver operating characteristic) curve, or

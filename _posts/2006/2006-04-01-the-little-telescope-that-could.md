@@ -1,16 +1,19 @@
 ---
+
 title: "The Little Telescope that Could"
 layout: single
 excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Could..."
 categories: tres
 tags:
-  - astronomy
-  - caltech
-  - palomar
-  - sleuth
-  - tres
-date: 2006-04-01
-modified: 2016-06-30
+
+- astronomy
+- caltech
+- palomar
+- sleuth
+- tres
+  date: 2006-04-01
+  modified: 2016-06-30
+
 ---
 
 _This article was originally published in
@@ -119,7 +122,7 @@ Unfortunately, the weather on the mountain does not always cooperate
 with our plans. Fortunately, Sleuth is part of an international
 network of three telescopes, the Transatlantic Exoplanet Survey
 ([TrES](/portfolio/tres.html),
-the Spanish for “three”). The telescopes are located in California,
+the Spanish for "three"). The telescopes are located in California,
 Arizona and Tenerife, Spain. Observation of the same area of the sky
 with each of the telescopes allows for continuous monitoring even if
 weather shuts down one of the telescopes. In 2004, this TrES

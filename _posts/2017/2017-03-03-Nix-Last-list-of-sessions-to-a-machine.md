@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Nix: List Of Sessions To A Machine"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-  - nix
-  - til
+
+- nix
+- til
+
 ---
 
 The `last` command is a handy way to find out who has been connecting to a

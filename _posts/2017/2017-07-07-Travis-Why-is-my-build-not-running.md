@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Travis: Why is my build not running?"
 date: 2017-07-07 10:00
 modified: 2017-07-07 10:00
 categories: til
 tags:
-  - til
-  - travis
+
+- til
+- travis
+
 ---
 
 > Sometimes you push to Travis CI and there is no new build. What to do in such case? Has

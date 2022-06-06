@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Nix: Duplicate pipe content"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-  - nix
-  - til
+
+- nix
+- til
+
 ---
 
 > To duplicate the content while piping you can use the tee utility.

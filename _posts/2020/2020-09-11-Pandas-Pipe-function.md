@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "Pandas: Pipe function"
 date: 2020-09-11 13:00
 modified: 2020-09-11 13:00
 categories: til
 tags:
-  - pandas
-  - pipe
-  - til
+
+- pandas
+- pipe
+- til
+
 ---
 
 > Pandas introduced `pipe()` starting from version 0.16.2. `pipe()` enables user-defined methods in method chains.
@@ -23,10 +26,7 @@ f(g(h(df), arg1=a), arg2=b, arg3=c)
 > we can write
 
 ```python
-(df.pipe(h)
-   .pipe(g, arg1=a)
-   .pipe(f, arg2=b, arg3=c)
-)
+(df.pipe(h).pipe(g, arg1=a).pipe(f, arg2=b, arg3=c))
 ```
 
 > > Method chaining is a programmatic style of invoking multiple method calls sequentially

@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "PSQL: Compute Hashes With pgcrypto"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+
+- psql
+- sql
+- til
+
 ---
 
 The `pgcrypto` extension that comes with PostgreSQL adds access to some

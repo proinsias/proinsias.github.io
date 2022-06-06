@@ -1,17 +1,20 @@
 ---
+
 layout: single
 title: "Slack: Accessing Direct Messages from Disabled Users"
 date: 2017-07-12 10:13
 modified: 2017-07-12 10:13
 categories: til
 tags:
-  - slack
-  - til
+
+- slack
+- til
+
 ---
 
-> You can’t actually delete a user in Slack.
+> You can't actually delete a user in Slack.
 > You can, however, disable a user.
-> And the cool thing about disabled users is that you can still access the messages you’ve
+> And the cool thing about disabled users is that you can still access the messages you've
 > sent to them.
 >
 > Accessing the messages is simple.
@@ -19,7 +22,7 @@ tags:
 > The url for that is something like <http://yourteam.slack.com/team>.
 > Now find the greyed out "Disabled Accounts" section.
 > Click on it.
-> Next to each of the users you will see a […] menu.
+> Next to each of the users you will see a \[…\] menu.
 > Open that menu and select "Open Message Archives".
 >
 > You can now view your archived direct messages from previous members of your team.

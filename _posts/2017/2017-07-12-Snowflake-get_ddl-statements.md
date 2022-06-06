@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Snowflake: Get_ddl statements"
 date: 2017-07-12 13:52
 modified: 2017-07-12 13:52
 categories: til
 tags:
-  - snowflake
-  - til
+
+- snowflake
+- til
+
 ---
 
 # Get_ddl statements

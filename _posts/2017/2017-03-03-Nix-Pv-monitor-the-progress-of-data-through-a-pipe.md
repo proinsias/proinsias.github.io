@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Nix: Monitor the progress of data through a pipe"
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-  - nix
-  - til
+
+- nix
+- til
+
 ---
 
 You can use pv to monitor the progress of any pipe, by putting it between input/output

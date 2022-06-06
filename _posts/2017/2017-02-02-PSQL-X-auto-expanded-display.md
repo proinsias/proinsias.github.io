@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "PSQL: Auto Expanded Display"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+
+- psql
+- sql
+- til
+
 ---
 
 By default, postgres has expanded display turned off. This means that

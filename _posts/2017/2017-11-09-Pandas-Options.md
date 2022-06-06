@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Pandas: Options"
 date: 2017-11-09 12:35
 modified: 2017-11-09 12:35
 categories: til
 tags:
-  - pandas
-  - til
+
+- pandas
+- til
+
 ---
 
 You can use the following functions to interact with the options in `pandas`:
@@ -21,15 +24,15 @@ You can use the following functions to interact with the options in `pandas`:
 For example:
 
 ```python
-pd.set_option('display.float_format', '{:,}'.format)
-pd.set_option('display.height', 1000)
-pd.set_option('display.max_columns', 500)
-pd.set_option('display.max_colwidth', 1000)
-pd.set_option('display.max_rows', 500)
-pd.set_option('display.precision', 2)
+pd.set_option("display.float_format", "{:,}".format)
+pd.set_option("display.height", 1000)
+pd.set_option("display.max_columns", 500)
+pd.set_option("display.max_colwidth", 1000)
+pd.set_option("display.max_rows", 500)
+pd.set_option("display.precision", 2)
 
-pd.reset_option('all')  # Reset all options.
-pd.describe_option('rows')  # Print description for 'rows' registered option.
+pd.reset_option("all")  # Reset all options.
+pd.describe_option("rows")  # Print description for 'rows' registered option.
 pd.describe_option()  # Get a listing for all registered options.
 ```
 

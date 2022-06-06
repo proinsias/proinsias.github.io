@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Python: Get a notification via knockknock"
 date: 2021-06-08 18:00
 modified: 2021-06-08 18:00
 categories: til
 tags:
-  - python
-  - til
+
+- python
+- til
+
 ---
 
 > There is a Python library called [**knockknock**](https://github.com/huggingface/knockknock#email) that allows you to get a notification when your training is complete or when it crashes during the process. All it takes to get a notification is two additional lines of code.
@@ -17,7 +20,9 @@ tags:
 > from knockknock import email_sender
 >
 >
-> @email_sender(recipient_emails=["youremail@gmail.com"], sender_email="anotheremail@gmail.com")
+> @email_sender(
+>     recipient_emails=["youremail@gmail.com"], sender_email="anotheremail@gmail.com"
+> )
 > def main():
 >     ...
 > ```
@@ -27,7 +32,12 @@ tags:
 > ```python
 > from knockknock import slack_sender
 >
-> @slack_sender(webhook_url="webhook_url_to_your_slack_room", channel="<your_favorite_slack_channel>", user_mentions=["<your_slack_id>"])
+>
+> @slack_sender(
+>     webhook_url="webhook_url_to_your_slack_room",
+>     channel="<your_favorite_slack_channel>",
+>     user_mentions=["<your_slack_id>"],
+> )
 > def main():
 >     ...
 > ```

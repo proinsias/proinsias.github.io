@@ -1,13 +1,16 @@
 ---
+
 layout: single
 title: "PSQL: Limit Execution Time Of Statements"
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+
+- psql
+- sql
+- til
+
 ---
 
 You can limit the amount of time that postgres will execute a statement

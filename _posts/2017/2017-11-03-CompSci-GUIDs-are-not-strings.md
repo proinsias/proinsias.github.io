@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "CompSci: GUIDs are not strings"
 date: 2017-11-03 10:21
 modified: 2017-11-03 10:21
 categories: til
 tags:
-  - compsci
-  - til
+
+- compsci
+- til
+
 ---
 
 > GUIDs are not strings. They are numbers. We render them as strings for readability. We

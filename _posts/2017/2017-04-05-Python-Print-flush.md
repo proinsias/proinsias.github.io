@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Python: Flushing while printing"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-  - python
-  - til
+
+- python
+- til
+
 ---
 
 > Since Python 3.3, you can force the normal `print()` function to flush without the need to use

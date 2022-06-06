@@ -17,9 +17,9 @@ jobs:
       - name: Cache gems
         uses: actions/cache@v3.0.3
         with:
-            path: vendor/bundle
-            key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-            restore-keys: ${{ runner.os }}-gem-
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gem-
       # - name: Install shfmt
       #   run: |
       #     sudo apt update

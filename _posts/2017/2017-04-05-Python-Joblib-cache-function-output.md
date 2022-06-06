@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Python: Cache function output"
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-  - python
-  - til
+
+- python
+- til
+
 ---
 
 > Joblib traces parameters passed to a function, and if the function has been called with the
@@ -19,7 +22,11 @@ import tempfile
 
 import sklearn.externals
 
-memory = sklearn.externals.joblib.Memory(cachedir=tempfile.mkdtemp(), verbose=0, )
+memory = sklearn.externals.joblib.Memory(
+    cachedir=tempfile.mkdtemp(),
+    verbose=0,
+)
+
 
 @memory.cache
 def computation(p1, p2):
@@ -36,7 +43,7 @@ To clear the cache, use [`memory.clear()`](https://joblib.readthedocs.io/en/late
 > and outputs of a function call.
 > Using memoize with large objects will consume all the memory, where with Memory,
 > objects are persisted to disk, using a persister optimized for speed and memory usage.
-> Memoize is best suited for functions with “small” input and output objects,
+> Memoize is best suited for functions with "small" input and output objects,
 > whereas Memory is best suited for functions with complex input and output objects,
 > and aggressive persistence to disk.
 
@@ -54,6 +61,7 @@ def compute_func(arg1, arg2, arg3):
     # long computation
     return result
 
+
 class Foo(object):
     def __init__(self, args):
         self.data = None
@@ -65,12 +73,11 @@ class Foo(object):
 > Using Memory for methods is not recommended and has some caveats that make it very fragile
 > from a maintenance point of view because it is very easy to forget about these caveats
 > when your software evolves. If you still want to do it, here are a few known caveats:
-> [First, y]ou cannot decorate a method at class definition.
-> The following code won’t work:
+> \[First, y\]ou cannot decorate a method at class definition.
+> The following code won't work:
 
 ```python
 class Foo(object):
-
     @mem.cache  # WRONG
     def method(self, args):
         pass
@@ -88,7 +95,7 @@ class Foo(object):
         pass
 ```
 
-> [Second, t]he cached method will have self as one of its arguments.
+> \[Second, t\]he cached method will have self as one of its arguments.
 > That means that the result will be recomputed if anything with self changes.
 
 Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).

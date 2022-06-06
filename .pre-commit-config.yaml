@@ -30,22 +30,6 @@ repos:
     hooks:
       - id: gitlint
 
-  # Markdown
-
-  - repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.14
-    hooks:
-      - id: mdformat
-        additional_dependencies:
-          - mdformat-beautysh
-          - mdformat-black
-          - mdformat-config
-          # - mdformat-frontmatter  # Breaks.
-          - mdformat-gfm
-          - mdformat-shfmt
-          - mdformat-tables
-          - mdformat-toc
-
   # YAML
 
   - repo: https://github.com/adrienverge/yamllint

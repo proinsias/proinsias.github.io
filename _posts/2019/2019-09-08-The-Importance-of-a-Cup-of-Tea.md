@@ -1,14 +1,17 @@
 ---
+
 layout: single
 title: "The Importance of a Cup of Tea"
 date: 2019-09-08 10:14
 modified: 2019-09-08 10:14
 categories: posts
 tags:
-  - history
-  - statistics
-  - tests
-excerpt: A discriminating palate leads to novel rigorous statistical methods
+
+- history
+- statistics
+- tests
+  excerpt: A discriminating palate leads to novel rigorous statistical methods
+
 ---
 
 Could you tell the difference between the taste of a cup of tea where the milk was poured first,
@@ -30,7 +33,7 @@ Trying to understand the significance of this result inspired Fisher to develop 
 > including the null hypothesis and statistical significance,
 > that scientists worldwide still use today.
 > And the first example Fisher used in his book, to set the tone for everything that followed,
-> was Muriel Bristol’s tea test.
+> was Muriel Bristol's tea test.
 
 Via the [Irish Times](https://www.irishtimes.com/news/science/how-a-tea-tasting-test-led-to-a-breakthrough-in-statistics-1.3998786)
 and the [Science History Institute](https://www.sciencehistory.org/distillations/ronald-fisher-a-bad-cup-of-tea-and-the-birth-of-modern-statistics).

@@ -1,12 +1,15 @@
 ---
+
 layout: single
 title: "Git: LFS Prune"
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+
+- git
+- til
+
 ---
 
 You can delete files from your local Git LFS cache with the `git lfs prune` command.
