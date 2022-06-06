@@ -1,6 +1,16 @@
 ---
-
-## title: "About Francis O'Donovan" layout: single excerpt: "Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek." sitemap: false permalink: /about/ author: false date: 2016-06-20 modified: 2021-03-26 header: image: /assets/images/banner.png teaser: /assets/images/banner.png
+title: "About Francis O'Donovan"
+layout: single
+excerpt: "Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek."
+sitemap: false
+permalink: /about/
+author: false
+date: 2016-06-20
+modified: 2021-03-26
+header:
+  image: /assets/images/banner.png
+  teaser: /assets/images/banner.png
+---
 
 Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Francis!
 
