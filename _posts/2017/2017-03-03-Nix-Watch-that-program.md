@@ -25,7 +25,7 @@ our dump directory every time a cron job executed,
 we ran `watch ls`, and watched the script succeed or fail with live updates.
 
 The `-d` flag instructs `watch` to highlight the parts of the output that are
-*different* from the previous run of the command.
+_different_ from the previous run of the command.
 
 So if I run:
 

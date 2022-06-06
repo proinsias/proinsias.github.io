@@ -34,7 +34,7 @@ Using `pv` can prove extremely useful when working with big files or processes t
 a long time to complete.
 For example you can keep track how fast a file is transferred with `nc` command:
 
-``` bash
+```bash
 pv myFile | nc -w 1 example.com 3000
 ```
 

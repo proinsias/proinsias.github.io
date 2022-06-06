@@ -1,4 +1,4 @@
-______________________________________________________________________
+---
 
 layout: single
 title: "Git: Blocked ssh port"
@@ -12,7 +12,7 @@ tags:
 - github
 - til
 
-______________________________________________________________________
+---
 
 I mostly clone GitHub and Bitbucket repositories using SSH URLs,
 so that I can protect this access with an SSH private/public keypair.

@@ -32,8 +32,7 @@ CREATE EXTENSION
 0a9f2a6772942557ab5355d76af442f8f65e01
 ```
 
-See the [`pgcrypto` docs](
-http://www.postgresql.org/docs/current/static/pgcrypto.html) for more
+See the [`pgcrypto` docs](http://www.postgresql.org/docs/current/static/pgcrypto.html) for more
 details.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

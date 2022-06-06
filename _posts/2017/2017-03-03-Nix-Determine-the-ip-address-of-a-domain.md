@@ -34,7 +34,7 @@ joshbranchaud.com.      86400   IN      A       198.74.60.157
 ;; MSG SIZE  rcvd: 51
 ```
 
-The *answer section* tells me that the IP address for `joshbranchaud.com` is
+The _answer section_ tells me that the IP address for `joshbranchaud.com` is
 `198.74.60.157`.
 
 See `man dig` for more details.

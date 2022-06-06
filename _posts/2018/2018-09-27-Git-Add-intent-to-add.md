@@ -24,8 +24,8 @@ pages:
 > things, showing the unstaged content of such files
 > with git diff and committing them with git commit -a.
 
-By adding untracked files with the `-N` flag, you are stating your *intent
-to add* these files as tracked files. Once git knows that these files are
+By adding untracked files with the `-N` flag, you are stating your _intent
+to add_ these files as tracked files. Once git knows that these files are
 meant to be tracked, it will know to include them when doing things like
 computing the diff, performing an interactive add, etc.
 

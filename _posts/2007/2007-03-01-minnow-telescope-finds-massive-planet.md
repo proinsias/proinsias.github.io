@@ -15,14 +15,14 @@ date: 2007-03-01
 modified: 2016-07-06
 ---
 
-*This article was originally published in the
+_This article was originally published in the
 [Astronomy Ireland Magazine](https://www.astronomy.ie/)
-(March 2007).*
+(March 2007)._
 
 Since ancient times, mankind has studied the sky and wondered what
 those
 '[wandering stars](https://en.wikipedia.org/wiki/Classical_planet)'
-(the solar system planets) might be.  Centuries of observations of
+(the solar system planets) might be. Centuries of observations of
 these celestial bodies led to the realization that Earth was not the
 center of the universe and the development of Newton's
 [Theory of Gravity](https://en.wikipedia.org/wiki/Gravity). At the end
@@ -35,7 +35,7 @@ planetary companions.
 
 ![TrES-2 by Jeffrey Hall](/assets/images/tres2jeffhall.png)
 <small>
-*<b id="fig1">Figure 1</b>: A computer-generated simulation of TrES-2 crossing
+_<b id="fig1">Figure 1</b>: A computer-generated simulation of TrES-2 crossing
 (transiting) the disk of its host star. TrES-2 transits farther from
 the disk center than any other known transiting planet. The transit of
 TrES-2 causes a drop in the brightness of its home star of about one
@@ -43,7 +43,7 @@ and a half percent. This slight dimming of the star's light was
 noticed and measured by the TrES researchers, who used the parameters
 of the transit to determine the planet's mass, size and other
 properties. Credit: [Jeffrey Hall](https://lowell.edu/staff-member/jeffrey-hall/)
-(Lowell Observatory)*
+(Lowell Observatory)_
 </small>
 
 In this age of billion-dollar telescopes that dwarf houses, it would
@@ -62,7 +62,7 @@ planets, imaginatively called
 [TrES-1](https://en.wikipedia.org/wiki/TrES-1b) and
 [TrES-2](https://en.wikipedia.org/wiki/TrES-2b). They are transiting
 exoplanets, so called because they 'transit' or pass in front of their
-stars (see [Figure 2](#fig2)).  When a planet transits a star, it blocks a
+stars (see [Figure 2](#fig2)). When a planet transits a star, it blocks a
 small fraction of the starlight, and the star appears to dim. This is
 similar to what we saw during the recent transit of the Sun by the
 planet Mercury. For distant stars, though, we cannot take an image of
@@ -75,10 +75,10 @@ be classified as
 similar in mass and size to Jupiter, and yet they are closer to their
 stars than Mercury is to our Sun! The proximity of the star means that
 such a planet experiences intense radiation from the star, making the
-planet hotter than a more-isolated planet like Jupiter.  These
+planet hotter than a more-isolated planet like Jupiter. These
 precious transiting hot Jupiters are the only planets outside of our
 solar system for which we can precisely measure the size and mass of
-the planet.  Before the discovery of the transiting planets, we only
+the planet. Before the discovery of the transiting planets, we only
 had the four gas giants within our solar system (Jupiter, Saturn,
 Uranus and Neptune) with which to study how these giant planets form
 and evolve. This meant that our understanding was limited.
@@ -114,7 +114,7 @@ Although TrES-2 was first identified using a 10-cm telescope, we could
 not be certain that the transit dip that we saw was caused by a
 planet. It was possible that we were instead seeing an eclipsing
 binary system, where two stars are in orbit around each other and take
-turns passing across the disk of their companion.  In order to measure
+turns passing across the disk of their companion. In order to measure
 the mass of the transiting companion in our candidate planetary
 system, and thereby determine whether it was a planet or a star, we
 had to scale up our equipment. We observed our target star with one of
@@ -122,7 +122,7 @@ the 10-m telescopes at the
 [W.M. Keck Observatory](https://www.keckobservatory.org/) on the summit
 of [Mauna Kea, Hawaii](https://w3w.co/fiesta.registration.repeat) (see
 [Figure 3](#fig3)). We measured the wobble of this star, and concluded that the
-companion was a Jupiter-mass planet.  The past few months have truly
+companion was a Jupiter-mass planet. The past few months have truly
 been an exciting time for astronomers looking for new
 exoplanets. TrES-2 is the most massive of the nearby transiting
 planets and sets a new constraint for our models of how these gas
@@ -138,18 +138,18 @@ heat from the nearby star, they were able to explain how the mass of a
 hot Jupiter should relate to its radius. And their models correctly
 predicted the observed planetary radii, except for one transiting
 planet, [HD 209458b](https://en.wikipedia.org/wiki/HD_209458_b). With
-one oddball, it's easy to dismiss it as a rare case.  However, TrES-2,
-HAT-P-1b and WASP- 1b are all larger than we would expect.  Now we
+one oddball, it's easy to dismiss it as a rare case. However, TrES-2,
+HAT-P-1b and WASP- 1b are all larger than we would expect. Now we
 have to go back to the drawing board and try to figure out why these
 planets are so puffed up.
 
 ![Sleuth v Keck by Scott Kardel](/assets/images/sleuth_v_keck.jpg)
 <small>
-*<b id="fig3">Figure 3</b>: An illustration of the different light-collecting areas of the 10-cm
+_<b id="fig3">Figure 3</b>: An illustration of the different light-collecting areas of the 10-cm
 Sleuth telescope that first identified TrES-2 and the 10-m Keck
 telescope used to measure the Jovian mass of the planet. Credit:
 Scott Kardel
-(California Institute of Technology)*
+(California Institute of Technology)_
 </small>
 
 The planet TrES-2 is also noteworthy for being the first transiting
@@ -195,7 +195,7 @@ possible. Since the summer nights at
 in California are generally clear, the Sleuth telescope can observe
 the target field while the PSST is weather-logged. The telescopes can
 also work in shifts, taking turns to observe the night sky as the sun
-rotates around the other side of the Earth.  STARE in the Canaries
+rotates around the other side of the Earth. STARE in the Canaries
 begins observing first each night, whereas Sleuth can continue
 monitoring the night sky long after the sun has risen over STARE.
 
@@ -213,12 +213,11 @@ that these humble and tireless workhorses are scanning the heavens for
 new exoplanets.
 
 > Francis T. O Donovan is a final-year PhD graduate student at the
-California Institute of Technology near Los Angeles. He received a
-BSc and MSc from University College Cork, and tells everyone who
-will listen that TrES-2 is The First Irish Planet. His PhD thesis is
-based on the search for extrasolar planets, and he previously worked
-on X-ray Binaries.
-
+> California Institute of Technology near Los Angeles. He received a
+> BSc and MSc from University College Cork, and tells everyone who
+> will listen that TrES-2 is The First Irish Planet. His PhD thesis is
+> based on the search for extrasolar planets, and he previously worked
+> on X-ray Binaries.
 
 <sup><b id="f1">1</b></sup> [3443](http://exoplanet.eu/) exoplanets
 are known as of 2016-06-30. [↩](#a1)

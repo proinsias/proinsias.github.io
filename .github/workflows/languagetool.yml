@@ -1,25 +1,23 @@
 ---
-
 name: languagetool
 
 # yamllint disable-line rule:truthy
 on: pull_request
 
 jobs:
+  languagetool:
+    name: Run languagetool
+    runs-on: ubuntu-latest
 
-    languagetool:
-        name: Run languagetool
-        runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
-
-            - name: languagetool
-              uses: reviewdog/action-languagetool@v1
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
-                  reporter: github-pr-review
-                  # Change reporter level if you need.
-                  level: warning
+      - name: languagetool
+        uses: reviewdog/action-languagetool@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
+          reporter: github-pr-review
+          # Change reporter level if you need.
+          level: warning

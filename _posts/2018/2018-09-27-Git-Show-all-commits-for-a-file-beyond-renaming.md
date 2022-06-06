@@ -48,7 +48,7 @@ README.rdoc
 ```
 
 This command roped in a commit from when `README.md` used to be called
-`README.rdoc`. If you want to know about the *full* history of a file, this
+`README.rdoc`. If you want to know about the _full_ history of a file, this
 is the way to go.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

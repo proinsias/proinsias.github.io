@@ -23,6 +23,6 @@ if logger.isEnabledFor(logging.DEBUG):
 ```
 
 > so that if the `logger`’s threshold is set above `DEBUG`,
-the calls to `expensive_func1()` and `expensive_func2()` are never made.
+> the calls to `expensive_func1()` and `expensive_func2()` are never made.
 
 Via [docs.python.org](https://docs.python.org/3/howto/logging.html#optimization).

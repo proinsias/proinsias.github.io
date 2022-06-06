@@ -11,9 +11,9 @@ tags:
 
 `pandas` has two handy functions for combining DataFrames:
 
-* The
-[`combine`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine.html)
-function performs a column-wise combine of one DataFrame with another:
+- The
+  [`combine`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine.html)
+  function performs a column-wise combine of one DataFrame with another:
 
 ```python
 # Combine using a simple function that chooses the smaller column.
@@ -53,10 +53,10 @@ function performs a column-wise combine of one DataFrame with another:
 1  0  3
 ```
 
-* The
-[`combine_first`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine_first.html)
-function combines the two DataFrames by filling null values in one
-DataFrame with non-null values from the other:
+- The
+  [`combine_first`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine_first.html)
+  function combines the two DataFrames by filling null values in one
+  DataFrame with non-null values from the other:
 
 ```python
 >>> df1 = pd.DataFrame({'A': [None, 0], 'B': [4, None]})

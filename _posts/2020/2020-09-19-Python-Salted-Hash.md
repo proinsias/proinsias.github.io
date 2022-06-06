@@ -12,9 +12,9 @@ tags:
 ---
 
 > The salt is just a randomly derived bit of data that you prefix or
-  postfix your data with to dramatically increase the complexity of a
-  dictionary attack on your hashed value. So given a salt `s` and data `d`
-  you'd just do the following to generate a salted hash of the data:
+> postfix your data with to dramatically increase the complexity of a
+> dictionary attack on your hashed value. So given a salt `s` and data `d`
+> you'd just do the following to generate a salted hash of the data:
 
 ```python
 import hashlib

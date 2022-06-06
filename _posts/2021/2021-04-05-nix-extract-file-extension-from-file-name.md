@@ -9,7 +9,7 @@ tags:
   - til
 ---
 
-If you need to know in a *nix script the extension of a file, try the following:
+If you need to know in a \*nix script the extension of a file, try the following:
 
 ```bash
 $ filename="abc.txt"

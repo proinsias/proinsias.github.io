@@ -11,11 +11,11 @@ tags:
 
 You can use the following functions to interact with the options in `pandas`:
 
-* [pd.get_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_option.html)
+- [pd.get_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.get_option.html)
   retrieves the value of the specified option,
-* [pd.reset_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.reset_option.html)
+- [pd.reset_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.reset_option.html)
   resets one or more options to their default value, and
-* [pd.set_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html)
+- [pd.set_option](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html)
   sets the value of the specified option.
 
 For example:

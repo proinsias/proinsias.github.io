@@ -14,6 +14,7 @@ sudo launchctl bootout gui/$(id -u <username>)
 # or
 sudo launchctl bootout user/$(id -u <username>)
 ```
+
 Works on macOS 10.11.x or later.
 
 Via

@@ -12,8 +12,8 @@ tags:
 # Get_ddl statements
 
 > `get_ddl` returns a DDL statement that can be used to recreate the specified object.
-For databases and schemas, `get_ddl` is recursive, i.e. it returns the DDL statements for
-recreating all supported objects within the specified database/schema.
+> For databases and schemas, `get_ddl` is recursive, i.e. it returns the DDL statements for
+> recreating all supported objects within the specified database/schema.
 
 For example:
 

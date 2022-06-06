@@ -10,7 +10,7 @@ tags:
   - til
 ---
 
-You can check if a string *contains* another string using the `position`
+You can check if a string _contains_ another string using the `position`
 function.
 
 ```sql
@@ -32,7 +32,7 @@ that substring.
 
 If the substring doesn't appear within the string, then the result is 0.
 
-Thus, you can determine if a string *contains* another string by checking if
+Thus, you can determine if a string _contains_ another string by checking if
 the value resulting from `position` is greater than 0.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

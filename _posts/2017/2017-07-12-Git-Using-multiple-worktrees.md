@@ -10,7 +10,7 @@ tags:
 ---
 
 > When working with multiple branches at the same time, people clone the whole
-git repository again.
+> git repository again.
 
 I am one of these people. I have been using `git` for years, and I can't believe
 I've not known about `git worktree`! – this makes it easy to work on various

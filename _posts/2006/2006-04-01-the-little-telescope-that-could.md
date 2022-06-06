@@ -13,10 +13,10 @@ date: 2006-04-01
 modified: 2016-06-30
 ---
 
-*This article was originally published in
+_This article was originally published in
 [The Big Eye Newsletter](https://www.astro.caltech.edu/palomar/community/friends/bigeye.html)
 ([Vol 1 No 2](https://www.astro.caltech.edu/palomar/community/friends/newsletter/BigEye1-2.pdf),
-Spring 2006).*
+Spring 2006)._
 
 A new visitor to the
 [Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html)
@@ -34,7 +34,7 @@ the Little Telescope That Could.
 
 ![20-inch enclosure](/assets/images/20inchopen.jpg)
 <small>
-*<b id="fig1">Figure 1</b>: Sleuth - the smallest telescope at the Palomar Observatory*
+_<b id="fig1">Figure 1</b>: Sleuth - the smallest telescope at the Palomar Observatory_
 </small>
 
 The planets in our own solar system have intrigued humanity throughout
@@ -95,14 +95,14 @@ the candidate.
 
 ![Sleuth](/assets/images/sleuth.jpg)
 <small>
-*<b id="fig2">Figure 2</b>*
+_<b id="fig2">Figure 2</b>_
 </small>
 
 Despite its location in sunny Southern California, Palomar Mountain
 can be a cold, windy experience for observers at night, especially
 during winter. And without the shelter available in the larger domes,
 regularly observing in Sleuth's clamshell enclosure requires passion,
-discipline, and lots of layered clothing!  Thankfully, the frostbitten
+discipline, and lots of layered clothing! Thankfully, the frostbitten
 fingertips of graduate students need not be sacrificed in the name of
 science. Sleuth is an automated telescope, capable of observing target
 areas of the night sky without much human supervision. All the

@@ -9,8 +9,7 @@ tags:
   - til
 ---
 
-Sometimes you just need one file from another branch. Sure you could `git
-cherry-pick` but then you're dealing with commits. That sort of thing gets
+Sometimes you just need one file from another branch. Sure you could `git cherry-pick` but then you're dealing with commits. That sort of thing gets
 sticky fast; don't go there.
 
 The best way is to use your old pal `git checkout`. Just make sure you're

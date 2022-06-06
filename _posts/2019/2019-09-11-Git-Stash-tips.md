@@ -55,8 +55,8 @@ $ git stash pop stash@{2}
 ```
 
 > If the changes on your branch diverge from the changes in your stash,
-you may run into conflicts when popping or applying your stash.
-Instead, you can use the following to create a new branch to apply your stashed changes to:
+> you may run into conflicts when popping or applying your stash.
+> Instead, you can use the following to create a new branch to apply your stashed changes to:
 
 ```bash
 git stash branch

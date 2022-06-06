@@ -11,7 +11,7 @@ tags:
 ---
 
 Anytime you add a header to a markdown file, GitHub attaches an `href` with its
-downcased name. 'JavaScript'  receives a link to `#javascript`, for instance.
+downcased name. 'JavaScript' receives a link to `#javascript`, for instance.
 
 Leverage this by adding a table of contents to your README with links to the
 headers further down the document:

@@ -10,7 +10,6 @@ tags:
   - til
 ---
 
-
 # Add Emoji To GitHub Repository Description
 
 GitHub restricts the set of unicode characters that can appear in the

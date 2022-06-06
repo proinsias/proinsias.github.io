@@ -10,10 +10,10 @@ tags:
 ---
 
 When staging changes in interactive mode (`git add -p`), you have a number
-of options associated with single keys. `y` is *yes*, `n` is *no*, `a` is
-*this and all remaining*, and so on.
+of options associated with single keys. `y` is _yes_, `n` is _no_, `a` is
+_this and all remaining_, and so on.
 
-By default, you have to press *enter* after making your selection. However,
+By default, you have to press _enter_ after making your selection. However,
 it can be configured for single key presses. Add the following to your git
 configuration file to enable single key presses for interactive mode:
 

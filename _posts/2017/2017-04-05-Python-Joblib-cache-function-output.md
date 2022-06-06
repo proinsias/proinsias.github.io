@@ -10,7 +10,7 @@ tags:
 ---
 
 > Joblib traces parameters passed to a function, and if the function has been called with the
-same parameters it returns the return value cached on a disk.
+> same parameters it returns the return value cached on a disk.
 
 With only a few lines of code, you get caching of the output of any function:
 
@@ -33,20 +33,20 @@ To clear the cache, use [`memory.clear()`](https://joblib.readthedocs.io/en/late
 ## Comparison with memoize
 
 > The memoize decorator caches in memory all the inputs
-and outputs of a function call.
+> and outputs of a function call.
 > Using memoize with large objects will consume all the memory, where with Memory,
-objects are persisted to disk, using a persister optimized for speed and memory usage.
+> objects are persisted to disk, using a persister optimized for speed and memory usage.
 > Memoize is best suited for functions with “small” input and output objects,
-whereas Memory is best suited for functions with complex input and output objects,
-and aggressive persistence to disk.
+> whereas Memory is best suited for functions with complex input and output objects,
+> and aggressive persistence to disk.
 
 Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 
 ## Gotchas
 
 > memory is designed for pure functions and it is not recommended to use it for methods.
-If you want to use cache inside a class the recommended pattern is to cache a pure function
-and use the cached function inside your class, i.e. something like this:
+> If you want to use cache inside a class the recommended pattern is to cache a pure function
+> and use the cached function inside your class, i.e. something like this:
 
 ```python
 @mem.cache
@@ -63,8 +63,8 @@ class Foo(object):
 ```
 
 > Using Memory for methods is not recommended and has some caveats that make it very fragile
-from a maintenance point of view because it is very easy to forget about these caveats
-when your software evolves. If you still want to do it, here are a few known caveats:
+> from a maintenance point of view because it is very easy to forget about these caveats
+> when your software evolves. If you still want to do it, here are a few known caveats:
 > [First, y]ou cannot decorate a method at class definition.
 > The following code won’t work:
 
@@ -89,14 +89,14 @@ class Foo(object):
 ```
 
 > [Second, t]he cached method will have self as one of its arguments.
-That means that the result will be recomputed if anything with self changes.
+> That means that the result will be recomputed if anything with self changes.
 
 Via [PythonHosted](https://joblib.readthedocs.io/en/latest/generated/joblib.Memory.html).
 
 ## Ignoring some arguments
 
 > It may be useful not to recalculate a function when certain arguments change,
-for instance a debug flag. Memory provides the `ignore` list:
+> for instance a debug flag. Memory provides the `ignore` list:
 
 ```python
 >>> @memory.cache(ignore=['debug'])

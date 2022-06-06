@@ -29,11 +29,11 @@ f(g(h(df), arg1=a), arg2=b, arg3=c)
 )
 ```
 
->> Method chaining is a programmatic style of invoking multiple method calls sequentially
->> with each call performing an action on the same object and returning it.
->>
->> It eliminates the cognitive burden of naming variables at each intermediate step.
->> Fluent Interface, a method of creating object-oriented API relies on method cascading (aka method chaining).
->> This is akin to piping in Unix systems.
+> > Method chaining is a programmatic style of invoking multiple method calls sequentially
+> > with each call performing an action on the same object and returning it.
+> >
+> > It eliminates the cognitive burden of naming variables at each intermediate step.
+> > Fluent Interface, a method of creating object-oriented API relies on method cascading (aka method chaining).
+> > This is akin to piping in Unix systems.
 
 Via [towards data science](https://towardsdatascience.com/using-pandas-pipe-function-to-improve-code-readability-96d66abfaf8).

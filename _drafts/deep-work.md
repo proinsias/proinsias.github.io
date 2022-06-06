@@ -15,8 +15,8 @@ header:
   teaser: /assets/images/monastery_on_skellig_michael_thumbnail.gif
 ---
 
-<sup>*Banner photo by [amerune](https://flickr.com/people/amerune)
-shared under a [Creative Commons (2.0) license](https://creativecommons.org/licenses/by/2.0/)*
+<sup>_Banner photo by [amerune](https://flickr.com/people/amerune)
+shared under a [Creative Commons (2.0) license](https://creativecommons.org/licenses/by/2.0/)_
 
 FIXME: Add image of book cover somewhere.
 
@@ -27,7 +27,6 @@ now as a manager I struggle with this even more, which is why I have found this 
 Cal Newport.
 
 who he is, what led him to discover this.
-
 
 > Deep Work: Professional activities performed in a state of distraction-free concentration
 > that push your cognitive capabilities to their limit.
@@ -57,10 +56,10 @@ Not sure I agree with this. 10x developer myth. $300 wine bottle v $30. ROI.
 
 Ben B's point -> not enough credit for our agencies
 
-
 APPLY THIS TO LEISURE TIME TOO! MAXIMIZE HUMAN POTENTIAL!!!
 
 > Two Core Abilities for Thriving in the New Economy
+>
 > 1. The ability to quickly master hard things.
 > 2. The ability to produce at an elite level, in terms of both quality and speed.
 
@@ -251,7 +250,7 @@ So hard. But I've already found my mind working on things of import during these
 
 > The Craftsman Approach to Tool Selection: Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impacts.
 
-> The Law of the Vital Few*: In many settings, 80 percent of a given effect is due to
+> The Law of the Vital Few\*: In many settings, 80 percent of a given effect is due to
 > just 20 percent of the possible causes.
 
 > If anything, with the rise of the Internet and the low-brow attention economy it supports,

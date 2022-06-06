@@ -1,4 +1,4 @@
-______________________________________________________________________
+---
 
 layout: single
 title: "Git: Using 1password, gpg and git for seamless commit signing on linux"
@@ -13,7 +13,7 @@ tags:
 - git
 - github
 
-______________________________________________________________________
+---
 
 We can combine 1password, gpg and git to enable seamless commit signing on linux as follows:
 

@@ -1,12 +1,15 @@
-<!--lint disable list-item-bullet-indent-->
----
+## <!--lint disable list-item-bullet-indent-->
+
 layout: single
 title: "Title"
 date: 2019-09-08 10:14
 modified: 2019-09-08 10:14
 categories: posts
 tags:
-  - tag
-excerpt: Excerpt
+
+- tag
+  excerpt: Excerpt
+
 ---
+
 <!--lint disable list-item-bullet-indent-->

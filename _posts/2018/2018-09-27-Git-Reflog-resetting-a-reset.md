@@ -10,7 +10,7 @@ tags:
 ---
 
 Sometimes we run commands like `git reset --hard HEAD~` when we shouldn't
-have. We wish we could undo what we've done, but the commit we've *reset* is
+have. We wish we could undo what we've done, but the commit we've _reset_ is
 gone forever. Or is it?
 
 When bad things happen, `git-reflog` can often lend a hand. Using

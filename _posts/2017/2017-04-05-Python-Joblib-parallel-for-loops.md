@@ -10,8 +10,8 @@ tags:
 ---
 
 > Joblib provides a simple helper class to write parallel for loops using multiprocessing.
-The core idea is to write the code to be executed as a generator expression,
-and convert it to parallel computing:
+> The core idea is to write the code to be executed as a generator expression,
+> and convert it to parallel computing:
 
 ```python
 >>> from math import sqrt
@@ -33,11 +33,11 @@ and convert it to parallel computing:
 > The `delayed` function is a simple trick to be able to create a tuple `(function, args, kwargs)`
 > with a function-call syntax.
 > Some algorithms require to make several consecutive calls to a parallel function
-interleaved with processing of the intermediate results.
-Calling Parallel several times in a loop is sub-optimal
-because it will create and destroy a pool of workers ... several times which can cause a significant overhead.
+> interleaved with processing of the intermediate results.
+> Calling Parallel several times in a loop is sub-optimal
+> because it will create and destroy a pool of workers ... several times which can cause a significant overhead.
 > For this case it is more efficient to use the context manager API of the Parallel class
-to re-use the same pool of workers for several calls to the Parallel object:
+> to re-use the same pool of workers for several calls to the Parallel object:
 
 ```python
 >>> with Parallel(n_jobs=2) as parallel:

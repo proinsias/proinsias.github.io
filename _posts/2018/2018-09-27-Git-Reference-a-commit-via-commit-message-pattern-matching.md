@@ -19,7 +19,7 @@ $ git show cd6a63d014
 
 There are many ways to reference commits though. One way is via regex
 pattern matching on the commit message. For instance, if you recently had a
-commit with a typo and you had included *typo* in the commit message, then
+commit with a typo and you had included _typo_ in the commit message, then
 you could reference that commit like so:
 
 ```bash

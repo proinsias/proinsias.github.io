@@ -11,7 +11,7 @@ tags:
 
 Here's how to modify the size of the volume attached to an EC2 instance "my_ec2":
 
-* First identify the instance ID from the instance name:
+- First identify the instance ID from the instance name:
 
 ```bash
 $ jq -r '.Reservations[0].Instances[0].InstanceId' \
@@ -19,7 +19,7 @@ $ jq -r '.Reservations[0].Instances[0].InstanceId' \
 i-02f8f997c05932f66
 ```
 
-* Then identify the ID of the attached volume:
+- Then identify the ID of the attached volume:
 
 ```bash
 $ jq -r '.Volumes[0].VolumeId' \
@@ -27,7 +27,7 @@ $ jq -r '.Volumes[0].VolumeId' \
 vol-0abf653a810ee073b
 ```
 
-* And now you can modify the volume size:
+- And now you can modify the volume size:
 
 ```bash
 aws ec2 modify-volume --volume-id vol-0abf653a810ee073b --size 256 --dry-run

@@ -11,8 +11,8 @@ tags:
 ---
 
 > The `pandas.read_clipboard()` method is as simple as it sounds:
-it reads copy-pasted tabular data and parses it into a Data Frame.
-For instance, try running the method after copying the following Data Frame:
+> it reads copy-pasted tabular data and parses it into a Data Frame.
+> For instance, try running the method after copying the following Data Frame:
 
 ```
            0           1           2           3

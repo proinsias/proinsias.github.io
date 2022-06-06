@@ -16,11 +16,11 @@ tags:
 > `continue-on-error: true` does exactly that:
 
 ```yaml
-    - name: Download previous database
-      run: curl --fail -o tils.db https://til.simonwillison.net/tils.db
-      continue-on-error: true
-    - name: Build database
-      run: python build_database.py
+- name: Download previous database
+  run: curl --fail -o tils.db https://til.simonwillison.net/tils.db
+  continue-on-error: true
+- name: Build database
+  run: python build_database.py
 ```
 
 > [From this workflow](https://github.com/simonw/til/blob/7d799a24921f66e585b8a6b8756b7f8040c899df/.github/workflows/build.yml#L32-L36)

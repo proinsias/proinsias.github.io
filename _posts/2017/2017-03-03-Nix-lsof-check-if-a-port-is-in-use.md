@@ -9,7 +9,7 @@ tags:
   - til
 ---
 
-The `lsof` command is used to *list open files*. This includes listing
+The `lsof` command is used to _list open files_. This includes listing
 network connections. This means I can check if a particular port is in use
 and what process is using that port. For instance, I can check if my rails
 application is currently running on port 3000.

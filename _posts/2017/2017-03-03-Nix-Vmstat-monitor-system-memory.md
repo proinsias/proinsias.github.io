@@ -30,13 +30,13 @@ procs -----------memory----------
 The above will run `vmstat` every second and display system virtual memory usage
 such as:
 
-* `r` number process waiting to run,
-* `b` blocked process,
-* `swpd` virtual memory used,
-* `free` idle memory,
-* `bi`, `bo` number of blocks sent and received from disk,
-* `us` time spent in user code, or
-* `sy` time spent in kernel code.
+- `r` number process waiting to run,
+- `b` blocked process,
+- `swpd` virtual memory used,
+- `free` idle memory,
+- `bi`, `bo` number of blocks sent and received from disk,
+- `us` time spent in user code, or
+- `sy` time spent in kernel code.
 
 As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of measurement
 for memory.

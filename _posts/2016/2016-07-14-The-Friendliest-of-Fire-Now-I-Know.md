@@ -8,4 +8,4 @@ tags:
 ---
 
 How on earth could an American pilot get a Distinguished Flying Cross for shooting down an American plane? [The Friendliest of Fire](http://nowiknow.com/the-friendliest-of-fire/)
-(via *Now I Know*) tells all.
+(via _Now I Know_) tells all.

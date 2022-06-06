@@ -20,7 +20,7 @@ resize-pane -U 10
 resize-pane -R 10
 ```
 
-This will adjust the pane by *10* units in the corresponding direction. Of
+This will adjust the pane by _10_ units in the corresponding direction. Of
 course, other values can be used for more significant size adjustments.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

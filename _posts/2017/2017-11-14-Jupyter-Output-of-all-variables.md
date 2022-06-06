@@ -10,7 +10,7 @@ tags:
 ---
 
 > If you try to see the output of more variables without explicitly writing `print` in
-front of each, only the last one gets outputted. With this, you get them all:
+> front of each, only the last one gets outputted. With this, you get them all:
 
 ```python
 from IPython.core.interactiveshell import InteractiveShell
@@ -18,7 +18,7 @@ InteractiveShell.ast_node_interactivity = "all"
 ```
 
 > If you want to set this behaviour for all instances of Jupyter, simply create a file
-`~/.ipython/profile_default/ipython_config.py` with the lines below.
+> `~/.ipython/profile_default/ipython_config.py` with the lines below.
 
 ```python
 c = get_config()

@@ -1,80 +1,81 @@
 ---
-
 name: Cron Jobs
 
 # yamllint disable-line rule:truthy
 on:
-    schedule:
-        - cron: 0 0 * * *  # every day at midnight
-    # Run workflow manually (without waiting for the cron to be called),
-    # through the Github Actions Workflow page directly.
-    workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * * # every day at midnight
+  # Run workflow manually (without waiting for the cron to be called),
+  # through the Github Actions Workflow page directly.
+  workflow_dispatch:
 
 jobs:
-    cronjobs:
+  cronjobs:
+    runs-on: ubuntu-latest
 
-        runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
+      - run: pip install pre-commit
+        shell: bash
 
-            - run: pip install pre-commit
-              shell: bash
+      - run: pre-commit autoupdate
+        shell: bash
 
-            - run: pre-commit autoupdate
-              shell: bash
+      - uses: peter-evans/create-pull-request@v4.0.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/pre-commit-hooks
+          title: Update pre-commit hooks
+          commit-message: Auto-update pre-commit hooks
+          body: Update versions of pre-commit hooks to latest version.
 
-            - uses: peter-evans/create-pull-request@v4.0.4
-              with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: update/pre-commit-hooks
-                  title: Update pre-commit hooks
-                  commit-message: Auto-update pre-commit hooks
-                  body: Update versions of pre-commit hooks to latest version.
+      - name: Mark Stale Issues
+        uses: actions/stale@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-close: 5
+          days-before-stale: 30
+          exempt-issue-labels: awaiting-approval
+          exempt-pr-labels: awaiting-approval
+          stale-issue-label: no-issue-activity
+          # yamllint disable-line rule:line-length
+          stale-issue-message:
+            This issue is stale because it has been open 30 days with no activity.
+            Remove stale label or comment or this will be closed in 5 days.
+          stale-pr-label: no-pr-activity
+          # yamllint disable-line rule:line-length
+          stale-pr-message:
+            This pull request is stale because it has been open 30 days with no activity.
+            Remove stale label or comment or this will be closed in 5 days.
 
-            - name: Mark Stale Issues
-              uses: actions/stale@v5
-              with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  days-before-close: 5
-                  days-before-stale: 30
-                  exempt-issue-labels: awaiting-approval
-                  exempt-pr-labels: awaiting-approval
-                  stale-issue-label: no-issue-activity
-                  # yamllint disable-line rule:line-length
-                  stale-issue-message: This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will
-                      be closed in 5 days
-                  stale-pr-label: no-pr-activity
-                  # yamllint disable-line rule:line-length
-                  stale-pr-message: This pull request is stale because it has been open 30 days with no activity. Remove stale label or comment or this
-                      will be closed in 5 days
+      - name: markdown-link-check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          check-modified-files-only: false
+          max-depth: 1
+          config-file: mlc_config.json
 
-            - name: markdown-link-check
-              uses: gaurav-nelson/github-action-markdown-link-check@v1
-              with:
-                  check-modified-files-only: false
-                  max-depth: 1
-                  config-file: mlc_config.json
+      - name: Build
+        uses: jerryjvl/jekyll-build-action@v1
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Speeds up installation of html-proofer.
+          NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
-            - name: Build
-              uses: jerryjvl/jekyll-build-action@v1
-              env:
-                  JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  # Speeds up installation of html-proofer.
-                  NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-
-            - name: Check HTML
-              uses: chabad360/htmlproofer@v1.1
-              timeout-minutes: 30
-              with:
-                  # The directory to scan.
-                  directory: ./_site
-                  # The arguments to pass to HTMLProofer.
-                  # Unsure how to enable alt tags for teaser images.
-                  # Treat urls with this domain as internal urls.
-                  # Keep in sync with bin/build.sh and .github/workflows/pull-requests-and-pushes.yml
-                  # yamllint disable
-                  arguments: "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
-                      \ --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }' --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\""
-                  # yamllint enable
+      - name: Check HTML
+        uses: chabad360/htmlproofer@v1.1
+        timeout-minutes: 30
+        with:
+          # The directory to scan.
+          directory: ./_site
+          # The arguments to pass to HTMLProofer.
+          # Unsure how to enable alt tags for teaser images.
+          # Treat urls with this domain as internal urls.
+          # Keep in sync with bin/build.sh and .github/workflows/pull-requests-and-pushes.yml
+          # yamllint disable
+          arguments:
+            "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
+            \ --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }' --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\""
+          # yamllint enable

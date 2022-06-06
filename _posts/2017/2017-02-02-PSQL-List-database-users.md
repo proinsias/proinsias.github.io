@@ -20,6 +20,6 @@ respective permissions.
 ------------+------------------------------------------------+-----------
  jbranchaud | Superuser, Create role, Create DB, Replication | {}
  sampleuser | Create DB                                      | {}
- ```
+```
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

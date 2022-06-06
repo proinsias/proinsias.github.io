@@ -10,7 +10,7 @@ tags:
   - til
 ---
 
->  Cloud Storage supports streaming transfers, which allow you to stream data to and from your Cloud Storage account without requiring that the data first be saved to a file.
+> Cloud Storage supports streaming transfers, which allow you to stream data to and from your Cloud Storage account without requiring that the data first be saved to a file.
 
 ```shell
 # Stream uploads.

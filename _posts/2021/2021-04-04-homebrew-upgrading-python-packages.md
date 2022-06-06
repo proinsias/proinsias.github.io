@@ -11,10 +11,10 @@ tags:
 ---
 
 > Homebrew Python packages work by setting up their own package-specific virtual environments.
-This means you can upgrade them without waiting for the tap.
+> This means you can upgrade them without waiting for the tap.
 
 > To find the virtual environment, run `head -n 1` against the Homebrew-provided executable.
-For example, VisiData is `vd`, so this works:
+> For example, VisiData is `vd`, so this works:
 
 ```bash
 % head -n 1 $(which vd)

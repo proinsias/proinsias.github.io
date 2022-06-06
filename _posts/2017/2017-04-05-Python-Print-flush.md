@@ -18,6 +18,6 @@ print(*objects, sep=' ', end='
 ```
 
 > Whether output is buffered is usually determined by file, but if the flush keyword argument is true,
-the stream is forcibly flushed.
+> the stream is forcibly flushed.
 
 Via [SO](https://stackoverflow.com/a/23142556).

@@ -28,7 +28,7 @@ Date:   Wed Jan 27 23:47:04 2016 -0800
 
 The following is a description of the `diffstat` program
 
-> This  program  reads the output of diff and displays a histogram of the
+> This program reads the output of diff and displays a histogram of the
 > insertions, deletions, and modifications per-file.
 
 See `man git-show` and `man diffstat` for more details.

@@ -55,7 +55,7 @@ which saves some typing and redundancy.
 When it comes to memory usage `namedtuple`s are also “better” than regular classes
 and just as memory efficient as regular `tuple`s.
 
-The `namedtuple`’s  `._fields` property gives you a list of the constituent field names.
+The `namedtuple`’s `._fields` property gives you a list of the constituent field names.
 
 The `_asdict()` helper returns the contents of a `namedtuple` as a dictionary.
 This is great for avoiding typos when generating JSON-output, for example.

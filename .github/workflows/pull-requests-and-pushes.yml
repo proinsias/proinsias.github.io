@@ -6,112 +6,111 @@ name: Pull Requests & Pushes
 on: [push, pull_request]
 
 jobs:
+  github-actions:
+    name: GitHub Actions
+    runs-on: ubuntu-latest
 
-    github-actions:
-        name: GitHub Actions
-        runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
+      - name: Cache gems
+        uses: actions/cache@v3.0.3
+        with:
+            path: vendor/bundle
+            key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+            restore-keys: ${{ runner.os }}-gem-
+      # - name: Install shfmt
+      #   run: |
+      #     sudo apt update
+      #     sudo apt install snapd
+      #     sudo snap install shfmt
 
-            - name: Cache gems
-              uses: actions/cache@v3.0.3
-              with:
-                  path: vendor/bundle
-                  key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-                  restore-keys: ${{ runner.os }}-gem-
+      # - name: Install hadolint
+      #   run: |
+      #     sudo wget --output-file /bin/hadolint \
+      #         https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
+      #     sudo chmod +x /bin/hadolint
 
-            # - name: Install shfmt
-            #   run: |
-            #     sudo apt update
-            #     sudo apt install snapd
-            #     sudo snap install shfmt
+      # - name: pre-commit
+      #   uses: pre-commit/action@v2.0.2
 
-            # - name: Install hadolint
-            #   run: |
-            #     sudo wget --output-file /bin/hadolint \
-            #         https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
-            #     sudo chmod +x /bin/hadolint
+      - name: Bundler audit
+        uses: andrewmcodes/bundler-audit-action@v0.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            # - name: pre-commit
-            #   uses: pre-commit/action@v2.0.2
+      - name: markdownlint
+        uses: reviewdog/action-markdownlint@v0.7
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
 
-            - name: Bundler audit
-              uses: andrewmcodes/bundler-audit-action@v0.1.0
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: markdown-link-check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          check-modified-files-only: true
+          max-depth: 1
 
-            - name: markdownlint
-              uses: reviewdog/action-markdownlint@v0.7
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  reporter: github-pr-review
+      # - name: pre-commit
+      #   uses: pre-commit/action@v2.0.2
 
-            - name: markdown-link-check
-              uses: gaurav-nelson/github-action-markdown-link-check@v1
-              with:
-                  check-modified-files-only: true
-                  max-depth: 1
+      - name: shellcheck
+        uses: reviewdog/action-shellcheck@v1
+        with:
+          exclude: ./.git/* # Optional.
+          fail_on_error: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: .
+          pattern: "*.sh" # Optional.
+          reporter: github-pr-review # Change reporter.
+          shellcheck_flags: --external-sources --format=gcc --shell=bash
 
-            # - name: pre-commit
-            #   uses: pre-commit/action@v2.0.2
+      - name: yamllint
+        uses: karancode/yamllint-github-action@v2.0.0
+        with:
+          yamllint_config_filepath: .yamllint.yml
+          yamllint_comment: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: shellcheck
-              uses: reviewdog/action-shellcheck@v1
-              with:
-                  exclude: ./.git/*  # Optional.
-                  fail_on_error: false
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  path: .
-                  pattern: '*.sh'  # Optional.
-                  reporter: github-pr-review  # Change reporter.
-                  shellcheck_flags: --external-sources --format=gcc --shell=bash
+  jekyll:
+    name: Jekyll Build
+    runs-on: ubuntu-latest
 
-            - name: yamllint
-              uses: karancode/yamllint-github-action@v2.0.0
-              with:
-                  yamllint_config_filepath: .yamllint.yml
-                  yamllint_comment: true
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    jekyll:
-        name: Jekyll Build
-        runs-on: ubuntu-latest
+      - name: Cache gems
+        uses: actions/cache@v3.0.3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gem-
 
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
+      # TODO: Cache $BUILD_DIR/tmp/.htmlproofer - for some value of build dir.
 
-            - name: Cache gems
-              uses: actions/cache@v3.0.3
-              with:
-                  path: vendor/bundle
-                  key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-                  restore-keys: ${{ runner.os }}-gem-
+      - name: Build
+        uses: jerryjvl/jekyll-build-action@v1
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Speeds up installation of html-proofer.
+          NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
-            # TODO: Cache $BUILD_DIR/tmp/.htmlproofer - for some value of build dir.
-
-            - name: Build
-              uses: jerryjvl/jekyll-build-action@v1
-              env:
-                  JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  # Speeds up installation of html-proofer.
-                  NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-
-            - name: Check HTML
-              uses: chabad360/htmlproofer@v1.1
-              timeout-minutes: 30
-              with:
-                  # The directory to scan.
-                  directory: ./_site
-                  # The arguments to pass to HTMLProofer.
-                  # Unsure how to enable alt tags for teaser images.
-                  # Treat urls with this domain as internal urls.
-                  # Keep in sync with bin/build.sh and .github/workflows/cronjobs.yml
-                  # yamllint disable
-                  arguments: "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
-                      \ --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\" --typhoeus-config\
-                      \ '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
-                  # yamllint enable
+      - name: Check HTML
+        uses: chabad360/htmlproofer@v1.1
+        timeout-minutes: 30
+        with:
+          # The directory to scan.
+          directory: ./_site
+          # The arguments to pass to HTMLProofer.
+          # Unsure how to enable alt tags for teaser images.
+          # Treat urls with this domain as internal urls.
+          # Keep in sync with bin/build.sh and .github/workflows/cronjobs.yml
+          # yamllint disable
+          arguments:
+            "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
+            \ --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\" --typhoeus-config\
+            \ '{ \"connecttimeout\": 30, \"timeout\": 30 }'"
+          # yamllint enable

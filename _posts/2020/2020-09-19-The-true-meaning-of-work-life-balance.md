@@ -16,5 +16,5 @@ Some
 from a parent dealing with the death of his young son:
 
 > “Hug your kids. Don’t work too late. A lot of the things you are
-  likely spending your time on you’ll regret once you no longer have
-  the time.”
+> likely spending your time on you’ll regret once you no longer have
+> the time.”

@@ -9,7 +9,7 @@ tags:
   - til
 ---
 
-``` sql
+```sql
 // Add two years to the current date:
 select dateadd(year, 2, current_date());
 

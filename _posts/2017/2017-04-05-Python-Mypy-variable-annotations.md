@@ -10,7 +10,7 @@ tags:
 ---
 
 > In Python 3.6, variables (in global, class or local scope) can now have type annotations
-using either of the following two forms:
+> using either of the following two forms:
 
 ```python
 foo: Optional[int]

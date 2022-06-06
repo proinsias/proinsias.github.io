@@ -16,16 +16,16 @@ Well Jekyll has a nice [feature](https://uhded.com/jekyll-drafts) where you can 
 
 But wait! There's more!!!
 
->  You can view the posts (most likely locally) in the `_drafts` folder using the `--drafts`flag:
+> You can view the posts (most likely locally) in the `_drafts` folder using the `--drafts`flag:
 
 ```shell
 bundle exec jekyll serve --drafts
 ```
 
->  Also, the posts in the `_drafts` folder typically don’t have the date in the file name. i.e instead of `2020-01-01-post-1.md`, it would be `post-1.md`. You add the date after you move it to the `_posts` folder.
+> Also, the posts in the `_drafts` folder typically don’t have the date in the file name. i.e instead of `2020-01-01-post-1.md`, it would be `post-1.md`. You add the date after you move it to the `_posts` folder.
 >
 > If you want to keep the dates in the filename of the drafts, then run:
 
- ```shell
- bundle exec jekyll serve --drafts --future
- ```
+```shell
+bundle exec jekyll serve --drafts --future
+```
