@@ -1,21 +1,18 @@
 ---
-
 layout: single
 title: "Book Summary of 'Deep Work: Rules for Focused Success in a Distracted World'"
 date: 2021-04-07 19:23
 modified: 2021-04-07 19:23
 categories: book-summary
-tags:
-
-- book-summary
-- deep-work
-- productivity
-  header:
+header:
   image: /assets/images/monastery_on_skellig_michael.jpg
   image_description: "Monastery on Skellig Michael"
   caption: "Monastery on Skellig Michael (Photo credit: amerune on flickr)"
   teaser: /assets/images/monastery_on_skellig_michael_thumbnail.gif
-
+tags:
+  - book-summary
+  - deep-work
+  - productivity
 ---
 
 <sup>_Banner photo by [amerune](https://flickr.com/people/amerune)

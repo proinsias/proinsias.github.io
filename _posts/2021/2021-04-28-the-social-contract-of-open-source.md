@@ -1,19 +1,16 @@
 ---
-
 layout: single
 title: "The social contract of open source"
 date: 2021-04-28 12:36
 modified: 2021-04-28 12:36
 categories: posts
-tags:
-
-- open source
-  header:
+header:
   image: /assets/images/handshake.jpg
   image_description: "Handshake - 2 men"
   caption: "Handshake (Photo credit: flazingo_photos on flickr)"
   teaser: /assets/images/handshake_thumbnail.gif
-
+tags:
+  - open source
 ---
 
 I'm a huge fan of open source software. Much of my work and play involve using it, either directly or indirectly.
