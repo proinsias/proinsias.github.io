@@ -26,12 +26,10 @@ jobs:
           exempt-issue-labels: awaiting-approval
           exempt-pr-labels: awaiting-approval
           stale-issue-label: no-issue-activity
-          # yamllint disable-line rule:line-length
           stale-issue-message:
-            This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will
-            be closed in 5 days
+            This issue is stale because it has been open 30 days with no activity.
+            Remove stale label or comment or this will be closed in 5 days.
           stale-pr-label: no-pr-activity
-          # yamllint disable-line rule:line-length
           stale-pr-message:
-            This pull request is stale because it has been open 30 days with no activity. Remove stale label or comment or this
-            will be closed in 5 days
+            This pull request is stale because it has been open 30 days with no activity.
+            Remove stale label or comment or this will be closed in 5 days.

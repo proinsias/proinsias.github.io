@@ -78,4 +78,4 @@ jobs:
           arguments:
             "--check-favicon --check-html --empty-alt-ignore --http-status-ignore '401,403' --internal-domains proinsias.github.io --only-4xx\
             \ --typhoeus-config '{ \"connecttimeout\": 30, \"timeout\": 30 }' --url-ignore \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/\""
-          # yamllint enable
+            # yamllint enable
