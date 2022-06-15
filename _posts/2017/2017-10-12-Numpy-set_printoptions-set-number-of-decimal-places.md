@@ -16,4 +16,4 @@ tags:
 [ 1.1235]
 ```
 
-Via [laurentperrinet.github.io](https://laurentperrinet.github.io/sciblog/posts/2015-01-07-the-right-imports-in-a-notebook.html).
+Via [laurentperrinet.github.io](https://web.archive.org/web/20210512102316/https:/laurentperrinet.github.io/sciblog/posts/2015-01-07-the-right-imports-in-a-notebook.html).
