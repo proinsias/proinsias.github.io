@@ -4,15 +4,14 @@ title: "How to Use Astrophysics to Solve Earthbound Problems"
 date: 2019-09-18 10:16
 modified: 2019-18-08 10:16
 categories: posts
+header:
+  image: /assets/images/urban_astronomy.png
+  image_description: "An example of an Urban Observatory deployment of a Visible Near-Infrared Hyperspectral camera"
+  caption: "Photo credit: G. Dobler et al. 2019"
+  teaser: /assets/images/urban_astronomy_thumbnail.gif
 tags:
   - astronomy
   - career
-header:
-  image: /assets/images/urban_astronomy.png
-  image_description: "An example of an Urban Observatory deployment of a
-Visible Near-Infrared Hyperspectral camera"
-  caption: "Photo credit: G. Dobler et al. 2019"
-  teaser: /assets/images/urban_astronomy_thumbnail.gif
 ---
 
 The cross-pollination that naturally occurs when people move along a diverse career path is of great benefit to the areas they find themselves in.

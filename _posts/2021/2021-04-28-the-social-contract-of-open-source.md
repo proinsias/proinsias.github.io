@@ -43,3 +43,4 @@ and others to get you started:
 
 <sup>_Banner photo by [flazingo_photos](https://flickr.com/people/124247024@N07)
 shared under a [Creative Commons (BY-SA) license](https://creativecommons.org/licenses/by-sa/2.0/)_
+.

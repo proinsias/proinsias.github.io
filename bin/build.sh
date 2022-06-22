@@ -11,6 +11,9 @@ set -o xtrace  # Echo commands as they are executed.
 
 bundle exec jekyll build
 
+# Render posts in the _drafts folder, with a future date, and those marked as unpublished.
+# bundle exec jekyll build --drafts --future --unpublished
+
 # Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
 bundle exec htmlproofer ./_site \
     --check-favicon \
