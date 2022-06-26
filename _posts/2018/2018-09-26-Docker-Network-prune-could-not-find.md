@@ -17,4 +17,4 @@ ERROR: could not find an available, non-overlapping IPv4 address pool among the 
 
 try using `docker network prune` to remove all unused networks and free up the address pool.
 
-Via [GitHub](https://github.com/lando/lando/issues/274).
+Via [GitHub](https://github.com/lando/docs/issues/139).
