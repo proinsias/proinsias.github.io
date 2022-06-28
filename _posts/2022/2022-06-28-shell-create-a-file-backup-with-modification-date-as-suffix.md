@@ -30,3 +30,5 @@ You can simplify the copy command using:
 ```shell
 cp file{,.$(date -d @$(stat -c '%Y' file) "+%Y%m%d")}
 ```
+
+Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/24686/create-backup-copy-of-file-adding-suffix-of-the-date-of-the-file-modification-not-todays-date?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Command-line-fu+%28Command-Line-Fu%29).
