@@ -11,6 +11,8 @@ Here's a list of some of the projects I've been involved in over the years:
 
 <!-- FIXME: More from HIQ? -->
 
+- [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
+
 - [Predicting Discharge Barriers to Optimize Patient Flow](https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
 
 - Predicting which [Operating Room reservation blocks](https://www.hospiq.com/solutions/perioperative/)
