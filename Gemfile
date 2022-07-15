@@ -19,7 +19,7 @@ gem 'activesupport', '>= 6.0.3.1' # CVE-2015-3227.
 gem "addressable", ">= 2.8.0"  # CVE-2021-32740.
 gem 'bundler'
 gem 'bundler-audit'
-gem 'html-proofer', '>= 3.19.2'
+gem 'html-proofer', '>= 4.0.1'
 gem 'image_optim'
 gem 'jekyll', '>= 3.9.0'
 gem 'mdl', '>= 0.11.0'

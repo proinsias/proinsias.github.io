@@ -16,11 +16,9 @@ bundle exec jekyll build
 
 # Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
 bundle exec htmlproofer ./_site \
-    --check-favicon \
-    --check-html \
-    --empty-alt-ignore `# Unsure how to enable alt tags for teaser images` \
-    --http-status-ignore '401,403' \
-    --internal-domains proinsias.github.io `# Treat urls with this domain as internal urls` \
+    --enforce-https false \
+    --ignore-empty-alt `# Unsure how to enable alt tags for teaser images` \
+    --ignore-status-codes '401,403' \
     --only-4xx \
-    --typhoeus-config '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
-    --url-ignore "#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/towardsdatascience.com/,/twitter.com/"
+    --typhoeus '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
+    --ignore-urls "#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/proinsias.github.io/,/towardsdatascience.com/,/twitter.com/"
