@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/banner.png
 ---
 
-Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Francis!
+Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="hand wave" width="25px">, I'm Francis!
 
 Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 researcher, 💻 developer, 🕷️ geek.
 
@@ -70,10 +70,10 @@ Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 res
 How to reach me:
 
 <p align='center'>
-<a href="https://mailhide.io/e/fTv414zF/"><img src="https://img.shields.io/badge/reveal%20email-2a8?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://keybase.io/proinsias/"><img src="https://img.shields.io/badge/keybase-33A0FF?logo=keybase&logoColor=white&style=for-the-badge"></a>
-<a href="https://www.linkedin.com/in/francistodonovan/"><img src="https://img.shields.io/badge/linkedin-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
-<a href="https://twitter.com/francisodonovan"><img height="30" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
+<a href="https://mailhide.io/e/fTv414zF/"><img alt="Reveal Email" src="https://img.shields.io/badge/reveal%20email-2a8?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://keybase.io/proinsias/"><img alt="Keybase" src="https://img.shields.io/badge/keybase-33A0FF?logo=keybase&logoColor=white&style=for-the-badge"></a>
+<a href="https://www.linkedin.com/in/francistodonovan/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
+<a href="https://twitter.com/francisodonovan"><img height="30" alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
 </p>
 
 <!--
