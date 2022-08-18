@@ -38,4 +38,4 @@ tags:
 >
 > This method has a slight disadvantage that the caller must know that the pattern is written in a verbose format and call it accordingly.
 
-Via [softwareengineering.stackexchange.com](https://softwareengineering.stackexchange.com/a/236320).
+Via [softwareengineering.stackexchange.com](https://web.archive.org/web/20220818173512/https://softwareengineering.stackexchange.com/questions/178355/commenting-regular-expressions/236320%23236320).

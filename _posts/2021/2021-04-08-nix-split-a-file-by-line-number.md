@@ -34,4 +34,4 @@ and also to specify the file extension to use:
 2325 total
 ```
 
-Via [SO](https://unix.stackexchange.com/a/74166/198328).
+Via [SO](https://web.archive.org/web/20220818174137/https://unix.stackexchange.com/questions/32626/split-a-file-by-line-and-have-control-over-resulting-files-extension/74166).

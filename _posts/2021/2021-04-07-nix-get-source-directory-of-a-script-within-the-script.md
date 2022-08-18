@@ -34,4 +34,4 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 ```
 
-Via [SO](https://stackoverflow.com/a/246128/1257318).
+Via [SO](https://web.archive.org/web/20220818174206/https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script/246128).

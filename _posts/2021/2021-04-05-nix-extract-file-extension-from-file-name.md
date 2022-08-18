@@ -18,4 +18,4 @@ $ echo "${fileext}"
 txt
 ```
 
-Via [SO](https://stackoverflow.com/a/41879583/1257318).
+Via [SO](https://web.archive.org/web/*/https://stackoverflow.com/questions/407184/how-to-check-the-extension-of-a-filename-in-a-bash-script/41879583#41879583).

@@ -36,4 +36,4 @@ tags:
 >
 > Whatever happens in the code, the `__exit__` method will be called in the end to make sure nothing is left unmanaged.
 
-Via [enkipro.com](https://app.enki.com/public/insight/56c5b01e3e75da06001547fa).
+Via [enki.com](https://www.enki.com).

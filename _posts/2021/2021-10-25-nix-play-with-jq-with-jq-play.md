@@ -11,4 +11,4 @@ tags:
 
 > Use [jq-play](https://jqplay.org/) to dry-run your jq filter and optimize any way you want.
 
-Via [SO](https://stackoverflow.com/a/42248841/1257318).
+Via [SO](https://web.archive.org/web/20220818180032/https://stackoverflow.com/questions/42245288/add-new-element-to-existing-json-array-with-jq/42248841).
