@@ -20,5 +20,5 @@ bundle exec htmlproofer ./_site \
     --ignore-empty-alt `# Unsure how to enable alt tags for teaser images` \
     --ignore-status-codes '401,403' \
     --only-4xx \
-    --typhoeus '{ "connecttimeout": 0, "timeout": 0 }' `# Reset to defaults. Rely on Travis timeouts` \
+    --typhoeus '{ "connecttimeout": 30, "timeout": 30 }' \
     --ignore-urls "#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/proinsias.github.io/,/towardsdatascience.com/,/twitter.com/"
