@@ -22,4 +22,4 @@ df.groupBy(df.columns)\
     .show()
 ```
 
-Via [SO](https://stackoverflow.com/a/48554666).
+Via [SO](https://web.archive.org/web/20220818191209/https://stackoverflow.com/questions/48554619/count-number-of-duplicate-rows-in-sparksql/48554666).

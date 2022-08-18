@@ -17,4 +17,4 @@ How to handle duplicates in your PATH variable? Use the following one liner:
 PATH="$(perl -e 'print join(":", grep { not $seen{$_}++ } split(/:/, $ENV{PATH}))')"
 ```
 
-Via [SO](https://stackoverflow.com/a/44232192/1257318).
+Via [SO](https://web.archive.org/web/20220818180922/https://stackoverflow.com/questions/44232009/how-to-handle-duplicates-in-my-path-variable/44232192).

@@ -18,4 +18,4 @@ Here's a nice one liner for generating a random string using just digits and upp
 
 The use of `random.SystemRandom` is to make the randomness more cryptographically secure.
 
-Via [SO](https://stackoverflow.com/a/2257449/1257318).
+Via [SO](https://web.archive.org/web/20220818191046/https://stackoverflow.com/questions/2257441/random-string-generation-with-upper-case-letters-and-digits/2257449).

@@ -23,4 +23,4 @@ import matplotlib
 matplotlib.rcParams['backend']
 ```
 
-Via [SO](https://stackoverflow.com/questions/3580027/how-do-you-determine-which-backend-is-being-used-by-matplotlib).
+Via [SO](https://web.archive.org/web/20220228120340/https://stackoverflow.com/questions/3580027/how-do-you-determine-which-backend-is-being-used-by-matplotlib).
