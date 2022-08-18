@@ -11,6 +11,7 @@ ignore-failures:
     - jekyll-paginate
     - jekyll-sitemap
     - jemoji
+    - mdl
     - ruby-lint
     - terminal-notifier
     - wdm
