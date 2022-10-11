@@ -1,17 +1,18 @@
 ---
 additional-dependency-files:
-  - type: bundler-gemfile
-    path: Gemfile
+    - type: bundler-gemfile
+      path: Gemfile
 
 ignore-failures:
-  ruby:
-    - bundle-audit
-    - jekyll-gist
-    - jekyll-github-metadata
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jemoji
-    - mdl
-    - ruby-lint
-    - terminal-notifier
-    - wdm
+    ruby:
+        - bundle-audit
+        - jekyll-gist
+        - jekyll-github-metadata
+        - jekyll-include-cache
+        - jekyll-paginate
+        - jekyll-sitemap
+        - jemoji
+        - mdl
+        - ruby-lint
+        - terminal-notifier
+        - wdm
