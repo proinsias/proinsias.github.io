@@ -6,6 +6,8 @@ APPLY_FIXES: all # all, none, or list of linter keys
 DISABLE:
   - ACTION # FIXME: Figure out why not working!?
   - EDITORCONFIG # FIXME: Figure out why not working!?
+DISABLE_LINTERS:
+  - BASH_SHELLCHECK # FIXME: Figure out why not working!?
 FILEIO_REPORTER: true
 JSON_V8R_DISABLE_ERRORS: true
 LINTER_RULES_PATH: .

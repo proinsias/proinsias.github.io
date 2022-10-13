@@ -22,7 +22,6 @@ subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
   My home on the web.
-baseurl: # the subpath of your site, e.g. "/blog"
 url: https://proinsias.github.io
 gh_repo: proinsias.github.io
 github: [metadata] # https://github.com/github/pages-gem/issues/399
@@ -104,12 +103,10 @@ lsi: false
 markdown: kramdown
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-permalink: /:categories/:title/
+permalink: /:categories/:title
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Fail build if there is a YAML syntax error in a page's front matter.
 strict_front_matter: true
 
@@ -122,7 +119,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 # Reading Files
 include:
@@ -248,7 +244,7 @@ defaults:
   # _posts
   - scope:
       path: ''
-      type: posts
+      type: 'posts'
     values:
       layout: single
       author_profile: true
@@ -259,7 +255,7 @@ defaults:
   # _pages
   - scope:
       path: _pages
-      type: pages
+      type: 'pages'
     values:
       layout: single
       author_profile: true
@@ -277,7 +273,7 @@ sass:
   # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   style: compressed
 
-encoding: utf-8
+encoding: UTF-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 # Analytics
 analytics:
