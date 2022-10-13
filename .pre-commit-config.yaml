@@ -66,3 +66,34 @@ repos:
           - id: check-github-actions
           - id: check-github-workflows
           - id: check-readthedocs
+
+    - repo: https://github.com/zricethezav/gitleaks
+      rev: v8.13.0
+      hooks:
+          - id: gitleaks
+
+    - repo: https://github.com/rhysd/actionlint
+      rev: v1.6.21
+      hooks:
+          - id: actionlint
+
+    # FIXME: Figure out why this doesn't work.
+    #    - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    #      rev: 2.6.1
+    #      hooks:
+    #          - id: editorconfig-checker
+
+    - repo: https://github.com/RyoWakabayashi/pre-commit-mirrors-textlint
+      rev: v12.2.1
+      hooks:
+          - id: textlint
+
+    - repo: https://github.com/streetsidesoftware/cspell-cli
+      rev: v6.2.0
+      hooks:
+          - id: cspell
+
+    - repo: https://github.com/bridgecrewio/checkov/
+      rev: 2.1.269
+      hooks:
+          - id: checkov

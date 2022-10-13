@@ -1,0 +1,7 @@
+{
+  "ignorePaths": ["**/.git/**", "[a-z]*/**", ".*", "Gemfile"],
+  "language": "en",
+  "noConfigSearch": true,
+  "words": ["proinsias"],
+  "version": "0.2"
+}
