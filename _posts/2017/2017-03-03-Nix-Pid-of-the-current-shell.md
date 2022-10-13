@@ -27,6 +27,6 @@ current shell with `echo $$`.
 36609
 ```
 
-See the `Special Paramaters` section of `man bash` for more details.
+See the `Special Parameters` section of `man bash` for more details.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

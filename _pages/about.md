@@ -91,7 +91,7 @@ and when you often had to register your software, there was often a required fie
 But I was just a wee lad, so I didn't have anything to put there.
 And so 'An Independent Mind' was born.
 
-## 😜Here's a Joke for you:
+## 😜Here's a Joke for you
 
 <img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
 

@@ -16,7 +16,7 @@ tags:
 > To prevent a disconnection, use the -N flag:
 
 ```bash
-$ ssh -N -L 9001:localhost:6000 user@remotehost
+ssh -N -L 9001:localhost:6000 user@remotehost
 ```
 
 The `-N` option prevents remote commands from executing, and therefore allows local port forwarding.

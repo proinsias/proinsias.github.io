@@ -17,7 +17,7 @@
 # in the templates via {{ site.myvariable }}.
 locale: en-US
 title: An independent mind...
-title_separator: "-"
+title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
@@ -157,8 +157,8 @@ exclude:
   - /test # Ignore Minimal Mistakes /test.
   - tmp
   - vendor
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - '*.sublime-project'
+  - '*.sublime-workspace'
 
 keep_files:
   - .git
@@ -247,7 +247,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single

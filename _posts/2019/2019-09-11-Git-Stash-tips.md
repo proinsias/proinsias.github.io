@@ -15,7 +15,7 @@ Here are some advanced `git stash` commands to optimize your use of this tool:
 > To provide a bit more context, it's good practice to annotate your stashes with a description, using:
 
 ```bash
-$ git stash save "message"
+git stash save "message"
 ```
 
 > You can view a summary of a stash with git stash show:
@@ -51,7 +51,7 @@ index 9daeafb..ebdcbd2 100644
 > You can choose which stash to re-apply by passing its identifier as the last argument:
 
 ```bash
-$ git stash pop stash@{2}
+git stash pop stash@{2}
 ```
 
 > If the changes on your branch diverge from the changes in your stash,

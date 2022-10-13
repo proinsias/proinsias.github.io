@@ -13,7 +13,6 @@ tags:
 > Slow loading resources (images, scripts, etc) can break your application.
 > With [this proxy](http://deelay.me) you can simulate unexpected network conditions when loading a specific resource.
 
-To use `deelay.me`, change your link to: https://deelay.me/<delay in
-milliseconds>/<original url>. For example:
+To use `deelay.me`, change your link to: deelay.me/<delay in milliseconds>/<original url>. For example:
 
 <https://deelay.me/5000/https://picsum.photos/200/300>

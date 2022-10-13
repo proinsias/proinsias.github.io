@@ -3,21 +3,21 @@ version: 2
 
 updates:
   # Enable version updates for Docker
-  - package-ecosystem: "docker"
+  - package-ecosystem: 'docker'
     # Look for a `Dockerfile` in the `root` directory
-    directory: "/"
+    directory: '/'
     # Check for updates once a week
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
 
   # Maintain dependencies for Bundler
-  - package-ecosystem: "bundler"
-    directory: "/"
+  - package-ecosystem: 'bundler'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'
 
   # Maintain dependencies for GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "weekly"
+      interval: 'weekly'

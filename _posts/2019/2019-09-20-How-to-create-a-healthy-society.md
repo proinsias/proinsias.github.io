@@ -16,7 +16,7 @@ tags:
 ---
 
 Microsoft Research's danah boyd has been given an award by the [Electronic Frontier Foundation](https://eff.org/),
-and gave a magnificant
+and gave a magnificent
 [speech](https://web.archive.org/web/20191213222537/https://onezero.medium.com/facing-the-great-reckoning-head-on-8fe434e10630)
 on her experience as a women in technology.
 My favorite part is about how to create a healthy society:

@@ -70,7 +70,7 @@ See the STARE webpage for a summary of [The Search for Exoplanets](https://www.h
   wide--field transit surveys, such as TrES.
 
 - [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html)!
-  Transits of TrES-1 observered using 10 cm telescope.
+  Transits of TrES-1 observed using 10 cm telescope.
 
 <h2 id="papers">TrES Publications</h2>
 

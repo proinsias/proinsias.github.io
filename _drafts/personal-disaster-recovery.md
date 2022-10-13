@@ -59,7 +59,7 @@ However, there are issue with backups:
 - Slow to restore entire machine, and machine is out of commission the entire time restore is happening.
 - Very hard to trust backup process. Ideally, you would regularly use second hard disk to restore to and then compare with backup.
 - Very limited compatibility - need
-- Build up of cruft. If it doesn't matter enough for you to incorporate it into your configuraiton files, it's not important
+- Build up of cruft. If it doesn't matter enough for you to incorporate it into your configuration files, it's not important
   and shouldn't be taking up space.
 
 Use a document-syncing service, such as Google Drive, OneDrive, iCloud, Dropbox, etc. Then on a new machine, I just
@@ -86,7 +86,7 @@ terminal recording gifs
 Screenshots?
 Medium post?
 
-http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
+<http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/>
 
 <sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
 shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_

@@ -62,7 +62,7 @@ jobs:
           fail_on_error: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
           path: .
-          pattern: "*.sh" # Optional.
+          pattern: '*.sh' # Optional.
           reporter: github-pr-review # Change reporter.
           shellcheck_flags: --external-sources --format=gcc --shell=bash
 
