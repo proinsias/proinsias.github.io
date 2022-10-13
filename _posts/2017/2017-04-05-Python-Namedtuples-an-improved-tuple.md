@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Python: An improved tuple"
+title: 'Python: An improved tuple'
 date: 2017-04-05 05:23
 modified: 2017-04-05 05:34
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 A downside of plain `tuple`s is that the data you store in them can only be pulled out by
@@ -64,7 +64,7 @@ This is great for avoiding typos when generating JSON-output, for example.
 The `_replace()` function creates a (shallow) copy of a `namedtuple`
 and allows you to selectively replace some of its fields.
 
-The `_make()` classmethod can be used to create new instances of a `namedtuple` from a
+The `_make()` class method can be used to create new instances of a `namedtuple` from a
 sequence or iterable.
 
 From [dbader.org](https://dbader.org/blog/writing-clean-python-with-namedtuples).

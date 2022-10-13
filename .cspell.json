@@ -1,7 +1,22 @@
 {
-  "ignorePaths": ["**/.git/**", "[a-z]*/**", ".*", "Gemfile"],
+  "dictionaries": ["project-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./project-words.txt",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": [
+    "**/.git/**",
+    "[a-z]*/**",
+    ".*",
+    "Gemfile",
+    "**/megalinter-reports/**",
+    "**/_site/**",
+    ",/project-words.txt"
+  ],
   "language": "en",
   "noConfigSearch": true,
-  "words": ["proinsias"],
   "version": "0.2"
 }

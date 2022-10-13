@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "PSQL: Export Query Results To A CSV"
+title: 'PSQL: Export Query Results To A CSV'
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Digging through the results of queries in Postgres's `psql` is great if you
@@ -20,21 +20,21 @@ For example, exporting all your pokemon to `/tmp/pokemon_dump.csv` can be
 accomplished with:
 
 ```sql
-copy (select * from pokemons) to '/tmp/pokemon_dump.csv' csv;
+copy (select * from pokemon) to '/tmp/pokemon_dump.csv' csv;
 ```
 
 Because we are grabbing the entire table, we can just specify the table name
 instead of using a subquery:
 
 ```sql
-copy pokemons to '/tmp/pokemon_dump.csv' csv;
+copy pokemon to '/tmp/pokemon_dump.csv' csv;
 ```
 
 Include the column names as headers to the CSV file with the `header`
 keyword:
 
 ```sql
-copy (select * from pokemons) to '/tmp/pokemon_dump.csv' csv header;
+copy (select * from pokemon) to '/tmp/pokemon_dump.csv' csv header;
 ```
 
 If your user has limited access, you can use the

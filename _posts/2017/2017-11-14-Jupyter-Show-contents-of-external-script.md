@@ -1,18 +1,18 @@
 ---
 layout: single
-title: "Jupyter: Show contents of external script"
+title: 'Jupyter: Show contents of external script'
 date: 2017-11-14 15:51
 modified: 2017-11-14 15:51
 categories: til
 tags:
-  - jupyter
-  - til
+    - jupyter
+    - til
 ---
 
 `%pycat` shows you (in a popup) the syntax highlighted contents of an external file:
 
 ```python
-> %pycat pythoncode.py
+> %pycat python_code.py
 
 import numpy
 def append_if_not_exists(arr, x):

@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "SQL: Calculate percentage of column"
+title: 'SQL: Calculate percentage of column'
 date: 2021-06-14 18:59
 modified: 2021-06-14 18:59
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 ```sql
@@ -30,7 +30,7 @@ tags:
 | Sally |  30  |        50        |
 | Peter |  15  |        25        |
 +-------+------+------------------+
-# Or use a subselect/subsquery.
+# Or use a subselect/subquery.
 >  SELECT Rep, Sale,
 .. Sale * 100 / (SELECT SUM(sale) AS s FROM sales) AS `percent of total`
 .. FROM sales;

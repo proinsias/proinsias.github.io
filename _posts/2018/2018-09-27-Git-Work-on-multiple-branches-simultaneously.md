@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Git: High-res plotswork on multiple branches simultaneously"
+title: 'Git: Work on multiple branches simultaneously'
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 Say you are on a feature branch, and want to make a bug fix in `master`. Rather than
@@ -22,7 +22,7 @@ The above sets up a new worktree at `../bugfix` (assuming, and recommended that 
 the root of your original cloned repository).
 This new working tree is called a "linked working tree" as opposed to the "main working
 tree" prepared by "git init" or "git clone".
-A repository has one main working tree (if it’s not a bare repository) and zero or more
+A repository has one main working tree (if it's not a bare repository) and zero or more
 linked working trees.
 
 The `-b bugfix-1234` option creates a new branch, named `bugfix-1234`, based off `master`.

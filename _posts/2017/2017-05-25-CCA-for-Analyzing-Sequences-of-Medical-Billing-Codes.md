@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "Canonical Correlation Analysis for Analyzing Sequences of Medical Billing Codes"
+title: 'Canonical Correlation Analysis for Analyzing Sequences of Medical Billing Codes'
 date: 2017-05-25 15:51
 modified: 2017-05-25 15:51
 categories: posts
 tags:
-  - code
-  - healthcare
-  - dimensionalityreduction
+    - code
+    - healthcare
+    - dimensionality-reduction
 ---
 
 Due to the vast number of medical billing codes, it is generally infeasible to

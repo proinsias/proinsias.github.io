@@ -5,13 +5,13 @@ date: 2018-09-26 16:00
 modified: 2018-09-26 16:00
 categories: til
 tags:
-  - docker
-  - til
+    - docker
+    - til
 ---
 
 If you encounter the following error when starting a docker container:
 
-```
+```docker
 ERROR: could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network
 ```
 

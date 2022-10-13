@@ -1,15 +1,16 @@
 ---
 layout: single
-title: "Python: The divmod() function"
+title: 'Python: The divmod() function'
 date: 2021-10-25 13:14
 modified: 2021-10-25 13:14
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
-> The [built-in] `divmod()` function returns a tuple containing the quotient and the remainder when argument1 (dividend) is divided by argument2 (divisor).
+> The [built-in] `divmod()` function returns a tuple containing the quotient and the remainder
+> when argument1 (dividend) is divided by argument2 (divisor).
 
 For example:
 

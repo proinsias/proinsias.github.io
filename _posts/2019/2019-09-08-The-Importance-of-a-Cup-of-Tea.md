@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "The Importance of a Cup of Tea"
+title: 'The Importance of a Cup of Tea'
 date: 2019-09-08 10:14
 modified: 2019-09-08 10:14
 categories: posts
 excerpt: A discriminating palate leads to novel rigorous statistical methods
 tags:
-  - history
-  - statistics
-  - tests
+    - history
+    - statistics
+    - tests
 ---
 
 Could you tell the difference between the taste of a cup of tea where the milk was poured first,
@@ -22,7 +22,8 @@ As it happens, Dr. Bristol defended her discriminating palate.
 
 > By the eighth cup Fisher was goggle-eyed behind his spectacles. Bristol had gotten every single one correct.
 
-Trying to understand the significance of this result inspired Fisher to develop novel rigorous statistical methods for testing hypotheses.
+Trying to understand the significance of this result inspired Fisher
+to develop novel rigorous statistical methods for testing hypotheses.
 
 > Fisher published the fruit of his research in two seminal books,
 > Statistical Methods for Research Workers and The Design of Experiments.

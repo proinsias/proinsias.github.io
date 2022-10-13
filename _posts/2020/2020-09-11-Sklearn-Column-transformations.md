@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Sklearn: Column transformations"
+title: 'Sklearn: Column transformations'
 date: 2020-09-11 10:00
 modified: 2020-09-11 10:00
 categories: til
 tags:
-  - sklearn
-  - til
+    - sklearn
+    - til
 ---
 
 > The Scikit-learn pipeline has a function called ColumnTransformer
@@ -40,7 +40,7 @@ numeric_transformer = Pipeline(steps=[
 
 categorical_transformer = Pipeline(steps=[
     ('imputer', SimpleImputer(strategy='constant', fill_value='missing')),
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))])
+    ('one_hot', OneHotEncoder(handle_unknown='ignore'))])
 
 # Use the ColumnTransformer to apply to the correct features
 preprocessor = ColumnTransformer(

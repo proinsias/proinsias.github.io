@@ -1,20 +1,20 @@
 ---
 layout: single
-title: "Pandas: Read Clipboard"
+title: 'Pandas: Read Clipboard'
 date: 2020-09-18 13:00
 modified: 2020-09-18 13:00
 categories: til
 tags:
-  - clipboard
-  - pandas
-  - til
+    - clipboard
+    - pandas
+    - til
 ---
 
 > The `pandas.read_clipboard()` method is as simple as it sounds:
 > it reads copy-pasted tabular data and parses it into a Data Frame.
 > For instance, try running the method after copying the following Data Frame:
 
-```
+```python
            0           1           2           3
 0    0.850004    0.206778    0.655200    0.079339
 1    0.948567    0.749701    0.116241    0.069551

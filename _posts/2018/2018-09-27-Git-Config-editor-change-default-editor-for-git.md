@@ -1,15 +1,13 @@
 ---
 layout: single
-title: "Git: Change default editor for git"
+title: 'Git: Change default editor for git'
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
-
-#
 
 To set the default editor for `git` to be say Textwrangler, use:
 

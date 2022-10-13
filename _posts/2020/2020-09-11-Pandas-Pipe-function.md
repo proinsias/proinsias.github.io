@@ -1,17 +1,17 @@
 ---
 layout: single
-title: "Pandas: Pipe function"
+title: 'Pandas: Pipe function'
 date: 2020-09-11 13:00
 modified: 2020-09-11 13:00
 categories: til
 tags:
-  - pandas
-  - pipe
-  - til
+    - pandas
+    - pipe
+    - til
 ---
 
 > Pandas introduced `pipe()` starting from version 0.16.2. `pipe()` enables user-defined methods in method chains.
-
+>
 > Instead of writing
 
 ```python

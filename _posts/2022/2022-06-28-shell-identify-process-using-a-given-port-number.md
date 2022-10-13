@@ -1,16 +1,18 @@
 ---
 layout: single
-title: "Shell: Identify process using a given port number"
+title: 'Shell: Identify process using a given port number'
 date: 2022-06-28 10:53
 modified: 2022-06-28 10:53
 categories: til
 tags:
-  - lsof
-  - port
-  - til
+    - lsof
+    - port
+    - til
 ---
 
-Say you want to run an command that uses a given port number (e.g., TCP 3032), and it complains that that port number is already in use. In order to identify what command is using that port number, run the following command:
+Say you want to run an command that uses a given port number (e.g., TCP 3032),
+and it complains that that port number is already in use.
+In order to identify what command is using that port number, run the following command:
 
 ```shell
 > lsof -iTCP:3032

@@ -1,22 +1,22 @@
 ---
 layout: single
-title: "AWS CLI: List account aliases"
+title: 'AWS CLI: List account aliases'
 date: 2017-11-02 15:48
 modified: 2017-11-02 15:48
 categories: til
 tags:
-  - awscli
-  - til
+    - awscli
+    - til
 ---
 
 > If you want the URL for your sign-in page to contain your company name
 > (or other friendly identifier) instead of your AWS account ID,
 > you can create an alias for your AWS account ID.
 > Your sign-in page URL has the following format, by default.
-> 'https://Your_AWS_Account_ID.signin.aws.amazon.com/console/'
+> 'Your_AWS_Account_ID.signin.aws.amazon.com/console/'
 > If you create an AWS account alias for your AWS account ID,
 > your sign-in page URL will look like the following example.
-> 'https://Your_Alias.signin.aws.amazon.com/console/'
+> 'Your_Alias.signin.aws.amazon.com/console/'
 > Note: The original URL containing your AWS account ID remains active
 > and can be used after you create your AWS account alias.
 > To create an alias for your AWS Management Console sign-in page URL:

@@ -1,16 +1,18 @@
 ---
 layout: single
-title: "Python: Get a notification via knockknock"
+title: 'Python: Get a notification via knockknock'
 date: 2021-06-08 18:00
 modified: 2021-06-08 18:00
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
-> There is a Python library called [**knockknock**](https://github.com/huggingface/knockknock#email) that allows you to get a notification when your training is complete or when it crashes during the process. All it takes to get a notification is two additional lines of code.
-
+> There is a Python library called [**knockknock**](https://github.com/huggingface/knockknock#email)
+> that allows you to get a notification when your training is complete or when it crashes during the process.
+> All it takes to get a notification is two additional lines of code.
+>
 > To send an email, simply insert a decorator `@email_sender()` above your ... function:
 >
 > ```python

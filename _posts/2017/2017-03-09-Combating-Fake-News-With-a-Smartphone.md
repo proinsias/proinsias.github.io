@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Combating Fake News With a Smartphone"
+title: 'Combating Fake News With a Smartphone'
 date: 2017-03-09 10:01
 modified: 2017-03-09 10:01
 categories: tips
 tags:
-  - fakenews
+    - fake-news
 ---
 
 > Automatically [add] extra digital proof data to all photos and videos you take.

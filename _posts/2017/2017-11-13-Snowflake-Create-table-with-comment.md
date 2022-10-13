@@ -1,15 +1,17 @@
 ---
 layout: single
-title: "Snowflake: Create table with comment"
+title: 'Snowflake: Create table with comment'
 date: 2017-11-13 15:30
 modified: 2017-11-13 15:30
 categories: til
 tags:
-  - snowflake
-  - til
+    - snowflake
+    - til
 ---
 
 You can specify comments for a table, and even the columns in the table:
+
+<!-- markdownlint-disable line-length -->
 
 ```sql
 >>> create table example

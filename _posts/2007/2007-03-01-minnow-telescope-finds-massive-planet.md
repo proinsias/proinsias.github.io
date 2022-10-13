@@ -16,7 +16,7 @@ tags:
 ---
 
 _This article was originally published in the
-[Astronomy Ireland Magazine](https://www.astronomy.ie/)
+[Astronomy Ireland Magazine](https://web.archive.org/web/20221010214545/https://www.astronomy.ie/)
 (March 2007)._
 
 Since ancient times, mankind has studied the sky and wondered what
@@ -102,7 +102,7 @@ to move in a small circular orbit.
 
 <small>
 *<b id="fig2">Figure 2</b>: The 10-cm telescopes used to identify the transiting planet
-TrES-2. Together these telescopes form the Trans-altlantic Exoplanet
+TrES-2. Together these telescopes form the Trans-atlantic Exoplanet
 Survey network, and search the night sky for evidence of planets
 orbiting around distant stars. The PSST is located at Lowell
 Observatory, home to another planet hunter, Clyde Tombaugh, discoverer
@@ -126,7 +126,7 @@ companion was a Jupiter-mass planet. The past few months have truly
 been an exciting time for astronomers looking for new
 exoplanets. TrES-2 is the most massive of the nearby transiting
 planets and sets a new constraint for our models of how these gas
-giants form around stars. TrES-2, announcd in September, was also the
+giants form around stars. TrES-2, announced in September, was also the
 first of four new planets to be presented within a few weeks. Three of
 these planets have posed theorists a new challenge. Prior to the
 discovery of the planets TrES-2,
@@ -187,7 +187,8 @@ observations are transferred over the internet to the observer's home
 computer.
 
 The three telescopes also act as backups for each other during periods
-of bad weather. For example, the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) at
+of bad weather.
+For example, the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html) at
 [Lowell Observatory](https://lowell.edu/) in Arizona experiences a
 monsoon every summer, during which very little observing is
 possible. Since the summer nights at

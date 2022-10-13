@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "How to use multiprocessing with pandas"
+title: 'How to use multiprocessing with pandas'
 date: 2019-09-26 13:40
 modified: 2019-09-26 13:40
 categories: tips
 tags:
-  - multiprocessing
-  - pandas
-  - parallel
-  - tips
+    - multiprocessing
+    - pandas
+    - parallel
+    - tips
 ---
 
 <!--lint disable list-item-bullet-indent-->
@@ -132,10 +132,10 @@ For example:
 ...       'b': np.arange(10),
 ...    },
 ...)
->>> def xxyy(r):
+>>> def func(r):
 ...    return r['a']**2 + r['b']**2
 >>> groupby_df = df.groupby('a')
->>> groupby_df.apply(xxyy).reset_index(drop=True)
+>>> groupby_df.apply(func).reset_index(drop=True)
 0     1
 1     2
 2     5
@@ -147,7 +147,7 @@ For example:
 8    73
 9    90
 dtype: int64
->>> parallel_groupby_apply(groupby_df, xxyy, progress_bar=False)
+>>> parallel_groupby_apply(groupby_df, func, progress_bar=False)
 0     1
 1     2
 2     5

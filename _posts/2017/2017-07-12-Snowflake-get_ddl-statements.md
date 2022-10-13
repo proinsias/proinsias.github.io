@@ -1,15 +1,13 @@
 ---
 layout: single
-title: "Snowflake: Get_ddl statements"
+title: 'Snowflake: Get_ddl statements'
 date: 2017-07-12 13:52
 modified: 2017-07-12 13:52
 categories: til
 tags:
-  - snowflake
-  - til
+    - snowflake
+    - til
 ---
-
-# Get_ddl statements
 
 > `get_ddl` returns a DDL statement that can be used to recreate the specified object.
 > For databases and schemas, `get_ddl` is recursive, i.e. it returns the DDL statements for
@@ -17,16 +15,16 @@ tags:
 
 For example:
 
-Return the DDL used to create a schema named `seqschema`, which contains table `t1` and
+Return the DDL used to create a schema named `seq_schema`, which contains table `t1` and
 sequence `seq`:
 
 ```sql
-select get_ddl('schema', 'seqschema');
+select get_ddl('schema', 'seq_schema');
 
 -------------------------------------------------------------+
-              GET_DDL('SCHEMA', 'SEQSCHEMA')                 |
+              GET_DDL('SCHEMA', 'SEQ_SCHEMA')                 |
 -------------------------------------------------------------+
- create or replace schema SEQSCHEMA;                         |
+ create or replace schema SEQ_SCHEMA;                         |
  create or replace table T1(                                 |
  N NUMBER(38,0) NOT NULL                                     |
  );                                                          |

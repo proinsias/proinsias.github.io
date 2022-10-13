@@ -1,18 +1,18 @@
 ---
 layout: single
-title: "How to create a healthy society"
+title: 'How to create a healthy society'
 date: 2019-09-20 10:14
 modified: 2019-09-20 10:14
 categories: posts
 header:
-  image: /assets/images/danah_boyd_eff.jpeg
-  image_description: "danah boyd accepts her EFF award"
-  caption: "Courtesy of danah boyd"
-  teaser: /assets/images/danah_boyd_eff_thumbnail.gif
+    image: /assets/images/danah_boyd_eff.jpeg
+    image_description: 'danah boyd accepts her EFF award'
+    caption: 'Courtesy of danah boyd'
+    teaser: /assets/images/danah_boyd_eff_thumbnail.gif
 tags:
-  - accessibility
-  - metoo
-  - society
+    - accessibility
+    - me-too
+    - society
 ---
 
 Microsoft Research's danah boyd has been given an award by the [Electronic Frontier Foundation](https://eff.org/),

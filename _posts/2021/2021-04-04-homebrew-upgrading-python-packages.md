@@ -1,18 +1,18 @@
 ---
 layout: single
-title: "Python: Upgrading Homebrew packages using pip"
+title: 'Python: Upgrading Homebrew packages using pip'
 date: 2021-04-04 21:47
 modified: 2021-04-04 21:47
 categories: til
 tags:
-  - homebrew
-  - python
-  - til
+    - homebrew
+    - python
+    - til
 ---
 
 > Homebrew Python packages work by setting up their own package-specific virtual environments.
 > This means you can upgrade them without waiting for the tap.
-
+>
 > To find the virtual environment, run `head -n 1` against the Homebrew-provided executable.
 > For example, VisiData is `vd`, so this works:
 

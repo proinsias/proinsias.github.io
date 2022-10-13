@@ -1,13 +1,13 @@
 ---
 layout: single
-title: "PSQL: Salt And Hash A Password With pgcrypto"
+title: 'PSQL: Salt And Hash A Password With pgcrypto'
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 The
@@ -53,7 +53,7 @@ The salt value is generated using the blowfish encryption algorithm (hence,
 the `'bf'`). There is support for other algorithms such as `md5`.
 
 See the
-[`pgcrypt` documentation](http://www.postgresql.org/docs/current/static/pgcrypto.html)
+[`pgcrypto` documentation](http://www.postgresql.org/docs/current/static/pgcrypto.html)
 for more details.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

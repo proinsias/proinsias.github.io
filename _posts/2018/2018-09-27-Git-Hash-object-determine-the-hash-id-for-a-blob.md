@@ -1,20 +1,20 @@
 ---
 layout: single
-title: "Git: Determine The Hash Id For A Blob"
+title: 'Git: Determine The Hash Id For A Blob'
 date: 2018-09-27 10:14
 modified: 2018-09-27 10:14
 categories: til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 Git's `hash-object` command can be used to determine what hash id will be
 used by git when creating a blob in its internal file system.
 
 ```bash
-$ echo 'Hello, world!' > hola
-$ git hash-object hola
+$ echo 'Hello, world!' > file.txt
+$ git hash-object file.txt
 af5626b4a114abcb82d63db7c8082c3c4756e51b
 ```
 

@@ -1,23 +1,25 @@
 ---
 layout: single
-title: "Model error quantification"
+title: 'Model error quantification'
 date: 2020-09-11 15:00
 modified: 2020-09-11 15:00
 categories: tips
 tags:
-  - errors
-  - ml
-  - machine learning
-  - random
+    - errors
+    - ml
+    - machine learning
+    - random
 ---
 
 When we train a machine-learning model, we almost always report some performance metric, such as accuracy, recall, or F1-score.
 
-But there is some inherent randomness to this machine learning, and different training runs will result in different output metric values.
+But there is some inherent randomness to this machine learning,
+and different training runs will result in different output metric values.
 
 [Benjamin Obi Tayo](https://medium.com/@benjaminobi)'s article
 ["Random Error Quantification in Machine Learning"](https://medium.com/towards-artificial-intelligence/random-error-quantification-in-machine-learning-846f6e78e519)
-has a nice summary for how to quantify and visualize the error associated with your metric from the output of your cross-validation steps:
+has a nice summary for how to quantify and visualize the error associated with your metric
+from the output of your cross-validation steps:
 
 ```python
 train_score = []

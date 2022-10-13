@@ -1,20 +1,20 @@
 ---
 layout: single
-title: "PSQL: Truncate All Rows"
+title: 'PSQL: Truncate All Rows'
 date: 2017-02-02 20:57
 modified: 2017-02-02 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Given a postgres database, if you want to delete all rows in a table, you
 can use the `DELETE` query without any conditions.
 
 ```sql
-> delete from pokemons;
+> delete from pokemon;
 DELETE 151
 ```
 
@@ -24,7 +24,7 @@ faster than a `DELETE` query because it will just delete the rows without
 scanning them as it goes.
 
 ```sql
-> truncate pokemons;
+> truncate pokemon;
 TRUNCATE TABLE
 ```
 

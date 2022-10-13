@@ -1,17 +1,17 @@
 ---
 layout: single
-title: "Bitbucket/GitHub: Create pull request from command line"
+title: 'Bitbucket/GitHub: Create pull request from command line'
 date: 2019-09-19 09.59
 modified: 2019-09-24 19:53
 categories: til
 tags:
-  - bitbucket
-  - git
-  - github
-  - til
+    - bitbucket
+    - git
+    - github
+    - til
 ---
 
-# Create a GitHub pull request from command line
+## Create a GitHub pull request from command line
 
 You may have noticed that when you push a new branch to a GitHub repository,
 you get a handy URL to create a corresponding pull request:
@@ -38,7 +38,7 @@ You can of course visit the URL from the command line:
 open https://github.com/proinsias/proinsias.github.io/pull/new/test
 ```
 
-# Create a GitHub pull request using hub
+## Create a GitHub pull request using hub
 
 If you want more control over this process from the command line,
 check out GitHub's wonderful [`hub`](https://github.com/github/hub) tool "that makes git easier to use with GitHub".
@@ -53,9 +53,10 @@ hub pull-request \
     --message "My description." \
 ```
 
-# Create a Bitbucket pull request from command line
+## Create a Bitbucket pull request from command line
 
-The following script (based on [bitbucket-pr](https://www.npmjs.com/package/bitbucket-pr) and updated for python3) achieves something similar for Bitbucket repos:
+The following script (based on [bitbucket-pr](https://www.npmjs.com/package/bitbucket-pr) and updated for python3)
+achieves something similar for Bitbucket repos:
 
 ```bash
 #!/bin/bash

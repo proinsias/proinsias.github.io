@@ -1,15 +1,17 @@
 ---
 layout: single
-title: "Pandas: Three new functions"
+title: 'Pandas: Three new functions'
 date: 2021-05-23 20:28
 modified: 2021-05-23 20:28
 categories: til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
-Towards Data Science on Medium has been a great source of tips so far, and [this article](https://towardsdatascience.com/top-3-pandas-functions-i-wish-i-knew-earlier-6711030bf48a) is a great example that highlights the following functions new to me.
+Towards Data Science on Medium has been a great source of tips so far,
+and [this article](https://towardsdatascience.com/top-3-pandas-functions-i-wish-i-knew-earlier-6711030bf48a)
+is a great example that highlights the following functions new to me.
 
 ```python
 > import pandas as pd

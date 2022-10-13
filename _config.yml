@@ -291,4 +291,4 @@ yandex_site_verification:
 compress_html:
   clippings: all
   ignore:
-    envs: development # disable compression in dev environmen
+    envs: development # disable compression in dev environment

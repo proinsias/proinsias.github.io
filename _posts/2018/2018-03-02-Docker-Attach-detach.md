@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Docker: Attach/Detach"
+title: 'Docker: Attach/Detach'
 date: 2018-03-02 19:40
 modified: 2018-03-02 19:40
 categories: til
 tags:
-  - docker
-  - til
+    - docker
+    - til
 ---
 
 To detach from a container, you hold `Ctrl` and press `P`, then `Q`.
@@ -15,7 +15,7 @@ This only works if the container was started with both `-t` and `-i`.
 If this doesn't work for some reason, try:
 
 ```bash
-docker stop <containerid>
+docker stop <container-id>
 ```
 
 To attach to a running container you use:

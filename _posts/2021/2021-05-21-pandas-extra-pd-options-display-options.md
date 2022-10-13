@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Pandas: Extra pd.options.display options"
+title: 'Pandas: Extra pd.options.display options'
 date: 2021-05-21 19:15
 modified: 2021-05-21 19:15
 categories: til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 I've come across several `pandas` display options before, such as:
@@ -32,4 +32,5 @@ pd.options.display.float_format = '{:.2f}%'.format
 pd.options.display.date_yearfirst = True
 ```
 
-Via [towards data science](https://towardsdatascience.com/6-pandas-display-options-you-should-memories-84adf8887bc3) and [pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html#available-options).
+Via [towards data science](https://towardsdatascience.com/6-pandas-display-options-you-should-memories-84adf8887bc3)
+and [pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html#available-options).

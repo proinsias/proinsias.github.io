@@ -1,18 +1,21 @@
 ---
 layout: single
-title: "Shell: Create a file backup with modification date as suffix"
+title: 'Shell: Create a file backup with modification date as suffix'
 date: 2022-06-28 10:38
 modified: 2022-06-28 10:38
 categories: til
 tags:
-  - backup
-  - shell
-  - til
+    - backup
+    - shell
+    - til
 ---
 
-> When I go to change a configuration file I always like to make a backup first. You can use `cp -p` to preserve the modification time, but it gets confusing to have `file.prev`, `file.prev2`, etc. So I like to add a `YYMMDD` suffix that shows when the file was last changed.
+> When I go to change a configuration file I always like to make a backup first.
+> You can use `cp -p` to preserve the modification time, but it gets confusing to have `file.prev`, `file.prev2`, etc.
+> So I like to add a `YYMMDD` suffix that shows when the file was last changed.
 >
-> `stat -c %Y` gives you the modification time in epoch seconds, then `date -d @` converts that to whatever format you specify in your `+format` string.
+> `stat -c %Y` gives you the modification time in epoch seconds, then `date -d @` converts that
+> to whatever format you specify in your `+format` string.
 
 For example:
 

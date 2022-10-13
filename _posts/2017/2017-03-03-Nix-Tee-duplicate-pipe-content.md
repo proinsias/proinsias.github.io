@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Nix: Duplicate pipe content"
+title: 'Nix: Duplicate pipe content'
 date: 2017-03-03 05:34
 modified: 2017-03-03 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 > To duplicate the content while piping you can use the tee utility.
@@ -15,14 +15,14 @@ tags:
 > The command to achieve this is:
 
 ```bash
-ps | tee fileone filetwo filethree
+ps | tee file_one file_two file_three
 ```
 
 > The output of the `ps` command is now inside three different files.
 > To append data to files, the `-a` flag must be used:
 
 ```bash
-ps | tee -a fileone filetwo filethree
+ps | tee -a file_one file_two file_three
 ```
 
 Via [enki.com](https://app.enkipro.com/#/insight/56f437459d23a008008ad6b1).

@@ -1,0 +1,50 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^#"
+    },
+    {
+      "pattern": "^https://www.linkedin.com"
+    },
+    {
+      "pattern": "^https://img.shields.io"
+    },
+    {
+      "pattern": "^https://visitor-badge.glitch.me"
+    },
+    {
+      "pattern": "^https://superuser.com"
+    },
+    {
+      "pattern": "^https://app.enkipro.com"
+    },
+    {
+      "pattern": "^https://deelay.me"
+    },
+    {
+      "pattern": "^https://jqplay.org"
+    },
+    {
+      "pattern": "^https://.*stackexchange.com"
+    },
+    {
+      "pattern": "^https://stackoverflow.com"
+    },
+    {
+      "pattern": "^https://serverfault.com"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/assets",
+      "replacement": "https://proinsias.github.io/assets"
+    },
+    {
+      "pattern": "^/portfolio",
+      "replacement": "https://proinsias.github.io/portfolio"
+    }
+  ],
+  "retryOn429": true,
+  "retryCount": 5,
+  "aliveStatusCodes": [200, 203]
+}
