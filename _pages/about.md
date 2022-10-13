@@ -15,18 +15,21 @@ header:
 Hey there
 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="hand wave" width="25px">, I'm Francis!
 
-Thanks for checking out the webpage of a 🔭 planet discoverer, 👨‍🔬 researcher, 💻 developer, 🕷️ geek.
+Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 researcher, 💻 developer, 🕷️ geek.
 
 ## 😄 About Me
 
 <!-- markdownlint-disable line-length -->
 
--   I'm currently the Senior Data Science Manager at
+-   I'm the Senior Data Science Manager at
 <a href="https://www.hospiq.com"><img src="https://www.hospiq.com/wp-content/uploads/2020/03/HospitalIQ-LOGO-small.png" alt="Hospital IQ" width="100"/></a>,
 where our goal is to improve the productivity and happiness of every healthcare worker every day.
 <!-- markdownlint-enable line-length -->
 
+<!-- textlint-disable alex -->
+
 -   Pronouns: He/Him
+<!-- textlint-enable alex -->
 
 -   Skills:
 
@@ -65,7 +68,10 @@ where our goal is to improve the productivity and happiness of every healthcare 
         <a href="https://travis-ci.com/"><img alt="TravisCI" src="https://img.shields.io/badge/Travis%20CI-%232B2F33?logo=Travis%20CI&logoColor=white&style=ShieldStyle"/></a>
         <a href="https://github.com/features/actions/"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-%232671E5?logo=GitHub%20Actions&logoColor=white&style=ShieldStyle"/></a>
 
+      <!-- textlint-disable en-capitalization -->
+
     and others.
+      <!-- textlint-enable en-capitalization -->
 
 -   🧬 I support Ethical Software Licensing – [DoNoHarm.org](https://firstdonoharm.dev/).
 
@@ -89,11 +95,15 @@ Others?
 
 ## What's 'An Independent Mind' all about?
 
+<!-- textlint-disable alex -->
+
 You may be wondering why this blog is called 'An Independent Mind'.
 Well back in the olden days when [Shareware](https://en.wikipedia.org/wiki/Shareware) was more common,
 and when you often had to register your software, there was often a required field for the company you worked out.
 But I was just a wee lad, so I didn't have anything to put there.
 And so 'An Independent Mind' was born.
+
+<!-- textlint-enable alex -->
 
 ## 😜Here's a Joke for you
 

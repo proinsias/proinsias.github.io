@@ -1,16 +1,16 @@
 ---
-title: "The Little Telescope that Could"
+title: 'The Little Telescope that Could'
 layout: single
 excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Could..."
 categories: tres
 date: 2006-04-01
 modified: 2016-06-30
 tags:
-  - astronomy
-  - caltech
-  - palomar
-  - sleuth
-  - tres
+    - astronomy
+    - caltech
+    - palomar
+    - sleuth
+    - tres
 ---
 
 _This article was originally published in
@@ -24,7 +24,7 @@ would be forgiven for paying scant attention to the small hut-like
 structure shown in [Figure 1](#fig1). A few minutes walk from the gigantic dome of the
 five-meter (200-inch)
 [Hale Telescope](https://www.astro.caltech.edu/palomar/about/telescopes/hale.html),
-the clamshell enclosure houses a small telescope named [Sleuth](/portfolio/tres.html). The
+the clamshell enclosure houses a small telescope named [Sleuth](https://proinsias.github.io/portfolio/tres.html). The
 diameter of Sleuth's camera lens is relatively small, only 10 cm. The
 telescope itself would blend in well in a store for the astronomy
 enthusiast. And yet, this inconspicuous telescope is contributing to
@@ -68,10 +68,8 @@ small telescope (if you were careful with how you measured this
 brightness). In 1999, the first transiting exoplanet
 [HD 209458 b](https://en.wikipedia.org/wiki/HD_209458_b) was
 discovered using the 10-cm
-[STARE](https://www.hao.ucar.edu/research/stare/stare.html) (STellar
-Astrophysics & Research on Exoplanets) telescope. Eight other
-transiting exoplanets
-are now known<sup id="a2">[2](#f2)</sup>.
+[STellar Astrophysics & Research on Exoplanets (STARE)](https://www.hao.ucar.edu/research/stare/stare.html) telescope.
+Eight other transiting exoplanets are now known<sup id="a2">[2](#f2)</sup>.
 
 Sleuth (shown in [Figure 2](#fig2)) is a small-aperture telescope, similar to that used
 to discover HD 290458 b. Its 10-cm camera lens has a large square field of view on
@@ -79,14 +77,14 @@ the night sky, about six degrees to a side. (The diameter of the moon
 on the sky is about half a degree.) The construction of the telescope
 by
 [Professor David Charbonneau](https://www.cfa.harvard.edu/~dcharbon/Site/Welcome.html)
-(currently at the [Center for Astronomy](https://www.cfa.harvard.edu/)
+(at the [Center for Astronomy](https://www.cfa.harvard.edu/)
 at Harvard University) was completed in 2003. Since then, Sleuth has
 observed a new patch of sky throughout each night every two to three
 months<sup id="a3">[3](#f3)</sup>. At the end of this observing run,
 the brightness of each of the thousands of stars is studied for signs
 of a transit dip. Any candidates must then be confirmed by observing
 them with various instruments on larger telescopes before any
-announcement can be made with certainty. Ultimately, the mass of the
+announcement can be made with certainty. The mass of the
 planet must be measured from the wobble of the host star. In the case
 of a transiting planet, the estimate of the mass of the planet from
 the wobble of the star is very close to the actual mass, so we can
@@ -118,7 +116,7 @@ and can observe each night, weather permitting.
 Unfortunately, the weather on the mountain does not always cooperate
 with our plans. Fortunately, Sleuth is part of an international
 network of three telescopes, the Transatlantic Exoplanet Survey
-([TrES](/portfolio/tres.html),
+([TrES](https://proinsias.github.io/portfolio/tres.html),
 the Spanish for "three"). The telescopes are located in California,
 Arizona and Tenerife, Spain. Observation of the same area of the sky
 with each of the telescopes allows for continuous monitoring even if

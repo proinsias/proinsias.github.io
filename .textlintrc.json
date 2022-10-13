@@ -1,45 +1,47 @@
 {
-  "filters": {},
+  "filters": {
+    "comments": true
+  },
+  "plugins": ["latex2e"],
   "rules": {
     "alex": {
       "allow": []
     },
-    "apostrophe": true,
+    "apostrophe": false,
     "common-misspellings": {
-        // Misspellings to be ignored (case-insensitive)
-        "ignore": []
+      "ignore": []
     },
     "diacritics": true,
-    "doubled-spaces": true,
-    "editorconfig": true,
+    "doubled-spaces": false,
+    "editorconfig": false,
     "en-capitalization": true,
     "en-spell": true,
     "max-number-of-lines": {
-        "max" : 300
+      "max": 300
     },
     "no-dead-link": {
       "checkRelative": true,
       "baseURI": null,
       "ignore": [],
       "preferGET": [],
-      "ignoreRedirects": false,
+      "ignoreRedirects": true,
       "retry": 3,
       "userAgent": "textlint-rule-no-dead-link/1.0",
       "maxRetryTime": 10
     },
     "no-empty-section": true,
     "no-start-duplicated-conjunction": {
-        "interval" : 2 // interval of sentences
+      "interval": 2
     },
     "no-todo": true,
     "stop-words": {
-      "defaultWords": true,
-    }
-    "terminology": {
-      "defaultTerms": true,
+      "defaultWords": true
     },
-    "unexpanded-acronym" : {
-      "min_acronym_len" : 3,
+    "terminology": {
+      "defaultTerms": true
+    },
+    "unexpanded-acronym": {
+      "min_acronym_len": 3
     },
     "@textlint-rule/no-duplicate-abbr": true,
     "@textlint-rule/no-invalid-control-character": true

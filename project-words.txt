@@ -360,6 +360,7 @@ tejrnz
 tempfile
 testfile
 textfiles
+textlint
 textwrap
 thoughtbot
 tils

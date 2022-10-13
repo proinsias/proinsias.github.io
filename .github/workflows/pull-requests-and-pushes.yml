@@ -20,57 +20,12 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gem-
-      # - name: Install shfmt
-      #   run: |
-      #     sudo apt update
-      #     sudo apt install snapd
-      #     sudo snap install shfmt
-
-      # - name: Install hadolint
-      #   run: |
-      #     sudo wget --output-file /bin/hadolint \
-      #         https://github.com/hadolint/hadolint/releases/download/v2.3.0/hadolint-Linux-x86_64
-      #     sudo chmod +x /bin/hadolint
 
       # - name: pre-commit
       #   uses: pre-commit/action@v2.0.2
 
       - name: Bundler audit
         uses: andrewmcodes/bundler-audit-action@v0.1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: markdownlint
-        uses: reviewdog/action-markdownlint@v0.9
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review
-
-      - name: markdown-link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          check-modified-files-only: true
-          max-depth: 1
-
-      # - name: pre-commit
-      #   uses: pre-commit/action@v2.0.2
-
-      - name: shellcheck
-        uses: reviewdog/action-shellcheck@v1
-        with:
-          exclude: ./.git/* # Optional.
-          fail_on_error: false
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          path: .
-          pattern: '*.sh' # Optional.
-          reporter: github-pr-review # Change reporter.
-          shellcheck_flags: --external-sources --format=gcc --shell=bash
-
-      - name: yamllint
-        uses: karancode/yamllint-github-action@v2.0.0
-        with:
-          yamllint_config_filepath: .yamllint.yml
-          yamllint_comment: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

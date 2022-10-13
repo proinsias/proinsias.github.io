@@ -12,6 +12,9 @@ tags:
     - tres
 ---
 
+<!-- textlint-disable no-dead-link -->
+<!-- textlint-disable unexpanded-acronym -->
+
 [Intro](#intro) : [News](#news) : [TrES Papers](#papers)
 
 <h2 id="intro">Introduction</h2>
@@ -49,12 +52,12 @@ variable stars and transit candidates. It takes two or more transits
 (or cycles in a variable star) to discern the period of the orbit (or
 the variability).
 
-The TrES method therefore favors giant planets orbiting sun-like stars
+The TrES method favors giant planets orbiting sun-like stars
 in close orbits. The results of successful radial-velocity planetary
 searches have shown that planetary systems of this type could be quite
 common.
 
-See the STARE webpage for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
+See the STARE web page for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
 
 <h2 id="news">In the News</h2>
 
@@ -71,7 +74,7 @@ See the STARE webpage for a summary of [The Search for Exoplanets](https://www.h
 -   First direction detection of light from extrasolar planets!
     TrES group identifies thermal emission from the hot Jupiter TrES-1.
 
--   TrES group announces the discovery of a new detached M Dwarf Eclipsing Binary!
+-   TrES group announces the discovery of a new detached M-Dwarf Eclipsing Binary!
 
 -   Discussion of identifying insidious blend contaminants common in
     wide--field transit surveys, such as TrES.
