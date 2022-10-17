@@ -408,3 +408,6 @@ ylabel
 ylim
 yscale
 zoneinfo
+zoomable
+mapscii
+commandlinefu
