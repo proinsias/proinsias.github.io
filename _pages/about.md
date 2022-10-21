@@ -4,7 +4,7 @@ layout: single
 excerpt: 'Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek.'
 sitemap: false
 permalink: /about/
-author: false
+author_profile: false
 date: 2016-06-20
 modified: 2021-03-26
 header:
