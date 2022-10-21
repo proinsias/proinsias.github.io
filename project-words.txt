@@ -473,3 +473,6 @@ failglob
 unsharp
 tilcat
 Meck
+crontabs
+fifi
+plainenglish
