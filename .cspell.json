@@ -20,4 +20,3 @@
   "noConfigSearch": true,
   "version": "0.2"
 }
-  "ignorePaths": ["**/.git/**", ".*", "Gemfile", "**/megalinter-reports/**", "**/.gitleaksignore", "**/project-words.txt"],

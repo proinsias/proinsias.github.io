@@ -112,6 +112,7 @@ strict_front_matter: true
 
 # Markdown Processing
 kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks.
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -119,6 +120,11 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting.
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css.
+    css_class: 'highlight'
 
 # Reading Files
 include:
@@ -148,7 +154,7 @@ exclude:
   - node_modules
   - package.json
   - Rakefile
-  - README
+  - README.md
   - /templates
   - /test # Ignore Minimal Mistakes /test.
   - tmp
@@ -163,14 +169,14 @@ keep_files:
 # Plugins (previously gems:)
 plugins:
   - jekyll-algolia
-  - jekyll-feed
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
   - jekyll-gist
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-mentions
   - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-seo-tag # Create metadata tags for search engines and social networks.
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem.
   - jemoji
 
 # mimic GitHub Pages with --safe
