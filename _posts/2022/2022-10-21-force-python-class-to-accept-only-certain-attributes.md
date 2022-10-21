@@ -2,7 +2,7 @@
 modified: '2022-10-21 15:21 -0400'
 date: '2022-10-21 15:21 -0400'
 layout: single
-published: false
+published: true
 title: Force python class to accept only certain attributes
 categories: til
 tags:
