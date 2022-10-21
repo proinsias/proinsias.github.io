@@ -155,7 +155,6 @@ exclude:
   - package.json
   - Rakefile
   - README.md
-  - /templates
   - /test # Ignore Minimal Mistakes /test.
   - tmp
   - vendor
@@ -360,6 +359,12 @@ prose:
         field:
           element: 'hidden'
           value: CURRENT_DATETIME
+      - name: 'excerpt'
+        field:
+          element: 'text'
+          label: 'Excerpt'
+          placeholder: 'Excerpt'
+          alterable: true
       - name: 'categories'
         field:
           element: 'select'

@@ -11,7 +11,7 @@ tags:
 ---
 > We can force Python classes to accept only certain attributes.
 > We can achieve this using the __slots__ special attribute
-> 
+>
 > ```python
 > class Dog():
 >     __slots__ = ["name", "age"]
@@ -28,7 +28,7 @@ tags:
 > dog.age = 6              # ok
 > dog.breed = "mongrel"    # error
 > ```
-> 
+>
 > Here, we get an error when we try to set the `breed` attribute of the `Dog` object, as only `name` and `age` are allowed based on `__slots__`. This error won’t happen if we didn’t specifically define the `__slots__` attribute.
 
 Via [python.plainenglish.io](https://python.plainenglish.io/4-things-i-only-recently-knew-about-python-18528a5eb59a).

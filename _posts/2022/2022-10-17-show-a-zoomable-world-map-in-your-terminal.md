@@ -7,8 +7,8 @@ categories: tips
 tags:
     - bash
     - shell
-    - utility
-    - tips
+    - utility`
+    - tips`
 ---
 
 If you've always want to browse a zoomable world map via your [terminal](https://asciinema.org/a/117813?autoplay=1),
