@@ -365,6 +365,11 @@ prose:
           label: 'Excerpt'
           placeholder: 'Excerpt'
           alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          value: "true"
       - name: 'categories'
         field:
           element: 'select'
