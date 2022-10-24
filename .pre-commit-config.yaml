@@ -30,6 +30,16 @@ repos:
       hooks:
           - id: gitlint
 
+    # Markdown
+
+    - repo: https://github.com/tcort/markdown-link-check
+      rev: v3.10.3
+      hooks:
+          - id: markdown-link-check
+            args:
+                - --config
+                - .markdown-link-check.json
+
     # YAML
 
     - repo: https://github.com/adrienverge/yamllint

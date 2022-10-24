@@ -25,6 +25,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Cache gems
+        uses: actions/cache@v3.0.11
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gem-
+
+      - name: Bundler audit
+        uses: andrewmcodes/bundler-audit-action@v0.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - run: pip install pre-commit
         shell: bash
 
@@ -75,7 +87,7 @@ jobs:
           # Keep in sync with bin/build.sh and .github/workflows/pull-requests-and-pushes.yml
           # yamllint disable
           arguments:
-            "--enforce-https false --ignore-empty-alt true --ignore-status-codes 401,403,429 --only-4xx\
+            "--no-enforce-https --ignore-empty-alt --ignore-status-codes 401,403,429 --only-4xx\
             \ --typhoeus '{ \"connecttimeout\": 30, \"timeout\": 30 }'\
-            \ --ignore-urls \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/proinsias.github.io/,/towardsdatascience.com/,/twitter.com/\""
+            \ --ignore-urls \"#,/archive.org/,/doi.org/,/enkipro.com/,/help.github.com/,/medium.com/,/proinsias.github.io/,/towardsdatascience.com/,/twitter.com/,/serverfault.com/,/askubuntu.com/\""
             # yamllint enable
