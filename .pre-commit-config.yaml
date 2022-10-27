@@ -18,7 +18,7 @@ repos:
           - id: trailing-whitespace
 
     - repo: https://github.com/pre-commit/mirrors-prettier
-      rev: v3.0.0-alpha.3
+      rev: v3.0.0-alpha.4
       hooks:
           - id: prettier
             stages: [commit]
@@ -130,6 +130,6 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.1.294
+      rev: 2.2.0
       hooks:
           - id: checkov
