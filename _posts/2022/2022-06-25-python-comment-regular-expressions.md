@@ -2,7 +2,8 @@
 layout: single
 title: 'Python: Comment regular expressions'
 date: 2022-06-25 19:10
-modified: 2022-06-25 19:10
+modified: 2022-10-31 19:10
+excerpt: Use re.VERBOSE to your advantage
 categories: til
 tags:
     - python
@@ -38,7 +39,8 @@ tags:
 >                     #        or 5-8 (V, followed by 0 to 3 I's)
 > $                   # end of string
 > """
-> >>> re.search(pattern, 'M', re.VERBOSE)                1
+> >>> re.search(pattern, 'M', re.VERBOSE)
+> 1
 > ```
 >
 > Source and further details [here](https://diveintopython3.problemsolving.io/regular-expressions.html#verbosere).

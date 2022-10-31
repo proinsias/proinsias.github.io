@@ -2,7 +2,8 @@
 layout: single
 title: 'Shell: Identify process using a given port number'
 date: 2022-06-28 10:53
-modified: 2022-06-28 10:53
+modified: 2022-10-31 10:53
+excerpt: Quickly get the information you need to free a used port
 categories: til
 tags:
     - lsof

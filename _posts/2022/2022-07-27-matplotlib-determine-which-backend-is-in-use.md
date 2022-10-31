@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Matplotlib: Determine which backend is in use"
+title: 'Matplotlib: Determine which backend is in use'
 date: 2022-07-27 16:27
 modified: 2022-07-27 16:27
+excerpt: Quick one-liner to identify the backend
 categories: til
 tags:
-  - matplotlib
-  - til
+    - matplotlib
+    - til
 ---
 
 To figure out which `matplotlib` backend is in use, use either:

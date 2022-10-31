@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Python: Implement a custom context manager"
+title: 'Python: Implement a custom context manager'
 date: 2022-07-27 16:15
 modified: 2022-07-27 16:15
 categories: til
+excerpt: How to create your own `with ...`
 tags:
-  - context
-  - python
-  - til
+    - context
+    - python
+    - til
 ---
 
 > The context manager type is a Python feature to help work with unmanaged resources (e.g. file streams)

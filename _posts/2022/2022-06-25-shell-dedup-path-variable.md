@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Shell: Dedup PATH variable"
+title: 'Shell: Dedup PATH variable'
 date: 2022-06-25 19:17
-modified: 2022-06-25 19:17
+modified: 2022-10-31 19:17
+excerpt: Perl to the rescue!
 categories: til
 tags:
-  - bash
-  - path
-  - shell
-  - til
+    - bash
+    - path
+    - shell
+    - til
 ---
 
 How to handle duplicates in your PATH variable? Use the following one liner:
