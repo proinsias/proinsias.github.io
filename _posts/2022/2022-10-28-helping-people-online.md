@@ -5,19 +5,22 @@ layout: single
 published: true
 title: Helping people online
 excerpt: >-
-  How to overcome the communication limitations of the internet and actualy help
-  people
+    How to overcome the communication limitations of the internet and actually help
+    people
 categories: posts
 tags:
-  - tips
+    - tips
 ---
-A helpful [post](https://web.archive.org/web/20220826234811/https://nedbatchelder.com/blog/202009/how_to_be_helpful_online.html) by [Ned Batchelder](https://nedbatchelder.com/) on how to overcome the communication limitations of the internet and actualy help people:
+
+A helpful [post](https://web.archive.org/web/20220826234811/https://nedbatchelder.com/blog/202009/how_to_be_helpful_online.html)
+by [Ned Batchelder](https://nedbatchelder.com/) on how to overcome the communication limitations of the internet
+and actually help people:
 
 > Helping people online is difficult.
 > We expect technical questions and discussions,
 > but everyone involved are just people,
-> so it doesn’t always go smoothly.
-> There’s no way to guarantee a good outcome,
+> so it doesn't always go smoothly.
+> There's no way to guarantee a good outcome,
 > but there are things we as helpers can do to improve the interactions.
 
 The highlights:
@@ -34,10 +37,4 @@ The highlights:
 10. Understand your motivations
 11. Humility
 12. Make connections
-13. It’s hard
-
-
-
-
-
-
+13. It's hard

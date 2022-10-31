@@ -477,3 +477,14 @@ crontabs
 fifi
 plainenglish
 tollmanz
+pythonbytes
+elif
+dedented
+errexit
+errtrace
+noclobber
+nounset
+pipefail
+globstar
+xtrace
+Batchelder

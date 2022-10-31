@@ -13,7 +13,7 @@ tags:
 
 You really [should be using python's walrus operator](https://martinheinz.dev/blog/79) – see below for some examples of why from this excellent discussion.
 
-If you are interested in automatically rewritting your code to use this operator, check out the [pre-commit](http://pre-commit.com) hook [auto-walrus](https://github.com/MarcoGorelli/auto-walrus). Thanks to [pythonbytes.fm](https://pythonbytes.fm/episodes/show/305/decorators-need-love-too) for the tip!
+If you are interested in automatically rewriting your code to use this operator, check out the [pre-commit](http://pre-commit.com) hook [auto-walrus](https://github.com/MarcoGorelli/auto-walrus). Thanks to [pythonbytes.fm](https://pythonbytes.fm/episodes/show/305/decorators-need-love-too) for the tip!
 
 > Let's imagine a function called func() that performs some very expensive computations.
 > It takes a long time to compute results, so we don't want to call it many times:
@@ -27,7 +27,7 @@ If you are interested in automatically rewritting your code to use this operator
 > ```
 >
 > In the first list declaration above, the `func(x)` is called 3 times,
-> everytime returning \[the\] same result, which wastes time and compute resources.
+> every time returning \[the\] same result, which wastes time and compute resources.
 > When rewritten using walrus operator, `func()` is invoked only once,
 > assigning its result to y and reusing it for \[the\] remaining 2 list values.
 >

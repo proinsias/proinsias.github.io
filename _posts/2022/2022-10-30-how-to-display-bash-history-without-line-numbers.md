@@ -7,23 +7,24 @@ title: How to display bash history without line numbers
 excerpt: Useful for direct copy & pasting of commands
 categories: til
 tags:
-  - til
-  - nix
+    - til
+    - nix
 ---
+
 A standard use of the `history` command will output line numbers as well as the commands in your history:
 
 ```shell
 > history
   1  ls
-  2  du -ks myfile.txt
-  3  rm myfile.txt
+  2  du -ks my_file.txt
+  3  rm my_file.txt
 ```
 
-The line numbers are useful for when you want to repeat a command – you can refer to it by the line number as follows:
+The line numbers are useful for when you want to repeat a command – you can refer to it by the line number as follows:
 
 ```shell
 > !1
-myfile.txt
+my_file.txt
 ```
 
 But if you want to save a lot of commands from your history and not have to edit out the line numbers, you can simply use:
@@ -31,8 +32,8 @@ But if you want to save a lot of commands from your history and not have to edit
 ```shell
 > history -w /dev/stdout
 ls
-du -ks myfile.txt
-rm myfile.txt
+du -ks my_file.txt
+rm my_file.txt
 history
 ls
 ```
