@@ -1,9 +1,10 @@
 ---
 modified: '2022-10-21 15:21 -0400'
-date: '2022-10-21 15:21 -0400'
+date: '2022-10-31 15:21 -0400'
 layout: single
 published: true
 title: Force python class to accept only certain attributes
+excerpt: Use the slots attribute to limit the attributes of the class
 categories: til
 tags:
     - python
@@ -30,6 +31,8 @@ tags:
 > dog.breed = "mongrel"    # error
 > ```
 >
-> Here, we get an error when we try to set the `breed` attribute of the `Dog` object, as only `name` and `age` are allowed based on `__slots__`. This error won't happen if we didn't specifically define the `__slots__` attribute.
+> Here, we get an error when we try to set the `breed` attribute of the `Dog` object,
+> as only `name` and `age` are allowed based on `__slots__`.
+> This error won't happen if we didn't specifically define the `__slots__` attribute.
 
 Via [python.plainenglish.io](https://python.plainenglish.io/4-things-i-only-recently-knew-about-python-18528a5eb59a).
