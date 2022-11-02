@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Jupyter: View notebook in terminal"
+title: 'Jupyter: View notebook in terminal'
+excerpt: Via an open-source command line tool
 date: 2021-10-25 13:55
 modified: 2021-10-25 13:55
 categories: tips
 tags:
-  - jupyter
-  - tips
+    - jupyter
+    - tips
 ---
 
 You can use the command line tool
