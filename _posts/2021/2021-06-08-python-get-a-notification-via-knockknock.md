@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Python: Get a notification via knockknock'
+excerpt: Add notifications to your scripts or python code
 date: 2021-06-08 18:00
-modified: 2021-06-08 18:00
+modified: 2022-11-02 18:00
 categories: til
 tags:
     - python

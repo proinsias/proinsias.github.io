@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Some notes on groupby'
+excerpt: Groupby expert level
 date: 2021-06-08 16:07
-modified: 2021-06-08 16:07
+modified: 2022-11-02 16:07
 categories: til
 tags:
     - pandas

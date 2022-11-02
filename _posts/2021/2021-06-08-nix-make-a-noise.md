@@ -1,15 +1,17 @@
 ---
 layout: single
-title: "Nix: Make a noise!"
+title: 'Nix: Make a noise!'
+excerpt: Get a notification from your script
 date: 2021-06-08 17:54
-modified: 2021-06-08 17:54
+modified: 2022-11-02 17:54
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
-If you're writing a script, and want it to make a noise to notify you when it's done, look no further than [SoX](https://sox.sourceforge.io/):
+If you're writing a script, and want it to make a noise to notify you when it's done,
+look no further than [SoX](https://sox.sourceforge.io/):
 
 ```shell
 brew install sox

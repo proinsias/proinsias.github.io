@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Nix: Sponge soaks up standard input and writes it to a file'
+excerpt: Easily construct pipelines that read from and write to the same file
 date: 2021-05-21 18:57
-modified: 2021-05-21 18:57
+modified: 2022-11-02 18:57
 categories: til
 tags:
     - til
@@ -35,6 +36,6 @@ From the user manual:
 
 > **sponge** reads standard input and writes it out to the specified file. Unlike a shell redirect,
 > sponge soaks up all its input before opening the output file.
-> This allows constricting pipelines that read from and write to the same file.
+> This allows constructing pipelines that read from and write to the same file.
 >
 > If no output file is specified, sponge outputs to stdout.

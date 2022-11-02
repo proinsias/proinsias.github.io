@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Nix: Echo and sudo for files owned by root"
+title: 'Nix: Echo and sudo for files owned by root'
+excerpt: How to modify a file owned by root
 date: 2021-05-27 20:04
-modified: 2021-05-27 20:04
+modified: 2022-11-02 20:04
 categories: til
 tags:
-  - echo
-  - nix
-  - sudo
-  - til
+    - echo
+    - nix
+    - sudo
+    - til
 ---
 
 If you're not root, and you want to modify a file owned by root (say
