@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Pandas: Regular expressions with str.contains"
+title: 'Pandas: Regular expressions with str.contains'
+excerpt: How to enable regex flags
 date: 2021-04-26 19:31
-modified: 2021-04-26 19:31
+modified: 2022-11-02 19:31
 categories: til
 tags:
-  - pandas
-  - regex
-  - til
+    - pandas
+    - regex
+    - til
 ---
 
 The `pd.Series.str.contains` method assumes that it is passed a regular expression for the `pat` input:

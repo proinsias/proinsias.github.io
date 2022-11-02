@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "MacOS: How to validate your FileVault Recovery Key"
+title: 'MacOS: How to validate your FileVault Recovery Key'
+excerpt: Do a dry run from the Terminal
 date: 2021-04-26 16:57
-modified: 2021-04-26 16:57
+modified: 2022-11-02 16:57
 categories: til
 tags:
-  - filevault
-  - macos
-  - til
+    - filevault
+    - macos
+    - til
 ---
 
 I'm a big fan of keeping my laptop drive encrypted using macOS' [FileVault](https://support.apple.com/en-us/HT204837).

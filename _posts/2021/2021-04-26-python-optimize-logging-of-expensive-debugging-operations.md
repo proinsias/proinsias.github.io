@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Python: Optimize logging of expensive debugging operations"
+title: 'Python: Optimize logging of expensive debugging operations'
+excerpt: Only log if threshold is set appropriately
 date: 2021-04-26 19:24
-modified: 2021-04-26 19:24
+modified: 2021-11-02 19:24
 categories: til
 tags:
-  - logging
-  - python
-  - til
+    - logging
+    - python
+    - til
 ---
 
 > Formatting of message arguments is deferred until it cannot be avoided.
