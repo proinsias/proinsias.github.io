@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Nix: Count the number of fields in a record"
+title: 'Nix: Count the number of fields in a record'
+excerpt: Using awk
 date: 2021-04-06 16:02
-modified: 2021-04-06 16:02
+modified: 2022-11-04 16:02
 categories: til
 tags:
-  - awk
-  - nix
-  - til
+    - awk
+    - nix
+    - til
 ---
 
 To count the number of fields in a delimiter-separated text file, use `awk`:

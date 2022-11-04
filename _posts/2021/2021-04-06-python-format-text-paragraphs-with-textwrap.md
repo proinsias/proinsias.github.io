@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Python: Format text paragraphs with textwrap"
+title: 'Python: Format text paragraphs with textwrap'
+excerpt: Wrap and fill lines
 date: 2021-04-06 15:52
-modified: 2021-04-06 15:52
+modified: 2022-11-04 15:52
 categories: til
 tags:
-  - python
-  - text
-  - til
+    - python
+    - text
+    - til
 ---
 
 > Python's `textwrap` module is useful for rearranging text, e.g. wrapping and filling lines.

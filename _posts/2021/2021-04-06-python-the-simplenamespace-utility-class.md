@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Python: The SimpleNamespace Utility Class'
+excerpt: Easily add and remove attributes
 date: 2021-04-06 15:48
-modified: 2021-04-06 15:48
+modified: 2022-11-04 15:48
 categories: til
 tags:
     - python
@@ -27,7 +28,7 @@ print(enki.type)
 
 Via [enkipro.com](https://app.enkipro.com/public/insight/56cf076ee4eff806006ee822).
 
-> A simple `object` subclass that provides attribute access to its namespace, as well as a meaningful \[representation\].
+> A simple `object` subclass that provides attribute access to its namespace, as well as a meaningful [representation].
 >
 > Unlike `object`, with `SimpleNamespace` you can add and remove attributes.
 > If a `SimpleNamespace` object is initialized with keyword arguments,
