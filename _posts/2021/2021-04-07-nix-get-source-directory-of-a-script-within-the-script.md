@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Bash: Get source directory of a script within the script'
+excerpt: Works no matter where the script is being called from
 date: 2021-04-07 12:24
-modified: 2021-04-07 12:24
+modified: 2022-11-04 12:24
 categories: til
 tags:
     - bash

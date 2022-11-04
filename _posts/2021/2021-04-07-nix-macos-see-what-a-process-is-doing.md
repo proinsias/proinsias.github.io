@@ -1,16 +1,17 @@
 ---
 layout: single
-title: "Nix/Macos: See what a process is doing"
+title: 'Nix/Macos: See what a process is doing'
+excerpt: Understand why that process is taking so long
 date: 2021-04-07 11:31
-modified: 2021-04-07 11:31
+modified: 2022-11-04 11:31
 categories: til
 tags:
-  - macos
-  - nix
-  - til
+    - mac
+    - nix
+    - til
 ---
 
-To check what a long-rerunning process is doing on linux, use `strace`:
+To check what a long-running process is doing on linux, use `strace`:
 
 ```bash
 brew install strace

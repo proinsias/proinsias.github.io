@@ -7,7 +7,7 @@ modified: 2022-11-02 16:57
 categories: til
 tags:
     - filevault
-    - macos
+    - mac
     - til
 ---
 

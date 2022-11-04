@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Convert reStructuredText to Markdown"
+title: 'Nix: Convert reStructuredText to Markdown'
+excerpt: Another use for pandoc
 date: 2021-04-07 16:33
-modified: 2021-04-07 16:33
+modified: 2022-11-04 16:33
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 I've used [`pandoc`](https://pandoc.org) a lot before to convert
