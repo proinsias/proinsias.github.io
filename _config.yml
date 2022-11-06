@@ -15,6 +15,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 locale: en-US
 title: An independent mind...
 title_separator: '-'
@@ -22,19 +27,17 @@ subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
   My home on the web.
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url: https://proinsias.github.io
-gh_repo: proinsias.github.io
-github: [metadata] # https://github.com/github/pages-gem/issues/399
+baseurl: # the subpath of your site, e.g. "/blog"
+# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 repository: proinsias/proinsias.github.io
-email: proinsias_github_io.48ui2@aleeas.com
-twitter_username: francisodonovan
-github_username: proinsias
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: default
 # filename of teaser fallback teaser image placed in /images/,
 # e.g., "500x300.png"
-teaser:
-logo: # "/assets/images/88x88.png"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # breadcrumbs: false # true, false (default)
 words_per_minute: 200
 comments:
@@ -57,35 +60,28 @@ comments:
   utterances:
     theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
-staticman:
-  allowedFields: # ['name', 'email', 'url', 'message']
-  branch: # "master"
-  commitMessage: # "New comment by {fields.name}"
-  filename: # comment-{@timestamp}
-  format: # "yml"
-  moderation: # true
-  path: # "/_data/comments/{options.slug}" (default)
-  requiredFields: # ['name', 'email', 'message']
-  transforms:
-    email: # "md5"
-  generatedFields:
-    date:
-      type: # "date"
-      options:
-        # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-        format:
-  # URL of your own deployment with trailing slash,
-  # will fallback to the public instance
-  endpoint:
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey:
   secret:
 atom_feed: # To link to an externally hosted feed
   path: # blank (default) uses feed.xml
+  hide: # true, false (default)
 search: true # true, false (default)
 # true, false (default). Setting to true could impact page load performance.
 search_full_content:
 search_provider: # lunr (default), algolia, google
+lunr:
+  search_within_pages    : # true, false (default)
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -95,102 +91,36 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 
-# Build settings
-excerpt_separator: "\n\n"
-incremental: false
-highlighter: rouge
-lsi: false
-markdown: kramdown
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-permalink: /:categories/:title
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-remote_theme: mmistakes/minimal-mistakes
-# Fail build if there is a YAML syntax error in a page's front matter.
-strict_front_matter: true
+# SEO Related
+google_site_verification: wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo
+bing_site_verification: 23C03CE052C115F08A5835393718F084
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
-# Markdown Processing
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks.
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting.
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css.
-    css_class: 'highlight'
+# Social Sharing  # FIXME:
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-# Reading Files
-include:
-  - .htaccess
-  - .well-known
-  - _pages
+# Analytics
+analytics:
+  provider: google # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: UA-79669521-1
+    anonymize_ip: # true, false (default)
 
-exclude:
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - /bin
-  - Capfile
-  - CHANGELOG
-  - config
-  - /docs # Ignore Minimal Mistakes /docs.
-  - Gemfile
-  - Gemfile.lock
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README.md
-  - /test # Ignore Minimal Mistakes /test.
-  - tmp
-  - vendor
-  - '*.sublime-project'
-  - '*.sublime-workspace'
-
-keep_files:
-  - .git
-  - .svn
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-algolia
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag # Create metadata tags for search engines and social networks.
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem.
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-algolia
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-
+# Site Author
 author:
   name: Francis T. O'Donovan
   avatar: /assets/images/bio-photo.jpg
@@ -237,6 +167,12 @@ author:
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
       url: https://twitter.com/francisodonovan/
+    - label: Mastodon
+      icon: fab fa-fw fa-mastodon-square
+      url: https://twit.social/@francis
+    - label: Keyoxide
+      icon: fab fa-fw fa-key-square
+      url: https://keyoxide.org/francis.odonovan@gmail.com
 
 # Site Footer
 footer:
@@ -245,6 +181,144 @@ footer:
       icon: fas fa-fw fa-link
       url: # "https://proinsias.github.io/"
 
+# Reading Files
+include:
+  - .htaccess
+  - .well-known
+  - _pages
+
+exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - /bin
+  - Capfile
+  - CHANGELOG
+  - config
+  - /docs # Ignore Minimal Mistakes /docs.
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README.md
+  - /test # Ignore Minimal Mistakes /test.
+  - tmp
+  - vendor
+  - '*.sublime-project'
+  - '*.sublime-workspace'
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: UTF-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+# Conversion
+excerpt_separator: "\n\n"
+incremental: false
+highlighter: rouge
+lsi: false
+markdown: kramdown
+
+# Markdown Processing
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks.
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting.
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css.
+    css_class: 'highlight'
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+permalink: /:categories/:title
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-algolia
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag # Create metadata tags for search engines and social networks.
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem.
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-algolia
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development # disable compression in dev environment
+
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -268,39 +342,6 @@ defaults:
       comments: true
       share: true
       related: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-  style: compressed
-
-encoding: UTF-8
-markdown_ext: markdown,mkdown,mkdn,mkd,md
-# Analytics
-analytics:
-  provider: google # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id: UA-79669521-1
-    anonymize_ip: # true, false (default)
-
-# SEO Related
-google_site_verification: wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo
-bing_site_verification: 23C03CE052C115F08A5835393718F084
-alexa_site_verification:
-yandex_site_verification:
-
-compress_html:
-  clippings: all
-  ignore:
-    envs: development # disable compression in dev environment
 
 prose:
   rooturl: '_posts'
