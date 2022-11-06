@@ -61,15 +61,15 @@ comments:
     theme: # "github-light" (default), "github-dark"
     issue_term: # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    repo_id: # Shown during giscus setup at https://giscus.app
+    category_name: # Full text name of the category
+    category_id: # Shown during giscus setup at https://giscus.app
+    discussion_term: # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: # '1' for enabled (default), '0' for disabled
+    theme: # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey:
   secret:
@@ -81,7 +81,7 @@ search: true # true, false (default)
 search_full_content:
 search_provider: # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages: # true, false (default)
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -94,23 +94,23 @@ google:
 # SEO Related
 google_site_verification: wtuOVsGiCFaCgBQRQKNSBUcMfBCPlGZtGV_YQtO56vo
 bing_site_verification: 23C03CE052C115F08A5835393718F084
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
 
 # Social Sharing  # FIXME:
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -168,10 +168,10 @@ author:
       icon: fab fa-fw fa-twitter-square
       url: https://twitter.com/francisodonovan/
     - label: Mastodon
-      icon: fab fa-fw fa-mastodon-square
+      icon: fab fa-fw fa-square
       url: https://twit.social/@francis
     - label: Keyoxide
-      icon: fab fa-fw fa-key-square
+      icon: fab fa-fw fa-key
       url: https://keyoxide.org/francis.odonovan@gmail.com
 
 # Site Footer
@@ -406,11 +406,11 @@ prose:
           label: 'Excerpt'
           placeholder: 'Excerpt'
           alterable: true
-      - name: "published"
+      - name: 'published'
         field:
-          element: "checkbox"
-          label: "published"
-          value: "true"
+          element: 'checkbox'
+          label: 'published'
+          value: 'true'
       - name: 'categories'
         field:
           element: 'select'
