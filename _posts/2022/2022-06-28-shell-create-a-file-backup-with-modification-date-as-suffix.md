@@ -2,7 +2,7 @@
 layout: single
 title: 'Shell: Create a file backup with modification date as suffix'
 date: 2022-06-28 10:38
-modified: 2022-10-31 10:38
+modified: 2022-11-10 10:38
 excerpt: Useful prior to changing a configuration file
 categories: til
 tags:
@@ -35,4 +35,4 @@ You can simplify the copy command using:
 cp file{,.$(date -d @$(stat -c '%Y' file) "+%Y%m%d")}
 ```
 
-Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/24686/create-backup-copy-of-file-adding-suffix-of-the-date-of-the-file-modification-not-todays-date?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Command-line-fu+%28Command-Line-Fu%29).
+Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/24686/create-backup-copy-of-file-adding-suffix-of-the-date-of-the-file-modification-not-todays-date).

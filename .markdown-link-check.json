@@ -32,6 +32,9 @@
     },
     {
       "pattern": "^https://serverfault.com"
+    },
+    {
+      "pattern": "^https://4kib.com"
     }
   ],
   "replacementPatterns": [

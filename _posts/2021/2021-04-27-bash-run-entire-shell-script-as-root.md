@@ -3,7 +3,7 @@ layout: single
 title: 'Bash: Run entire shell script as root'
 excerpt: Avoid prepending commands with sudo
 date: 2021-04-27 20:44
-modified: 2021-11-02 20:44
+modified: 2022-11-10 20:44
 categories: til
 tags:
     - bash
@@ -21,4 +21,4 @@ tags:
 #!/usr/bin/sudo /usr/bin/env bash
 ```
 
-Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/25273/run-entire-shell-script-as-root?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Command-line-fu+%28Command-Line-Fu%29).
+Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/25273/run-entire-shell-script-as-root).

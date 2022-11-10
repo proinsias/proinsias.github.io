@@ -21,4 +21,4 @@ bundle exec htmlproofer ./_site \
     --ignore-status-codes 401,403,429 \
     --only-4xx \
     --typhoeus '{ "connecttimeout": 30, "timeout": 30 }' \
-    --ignore-urls "#,/archive.org/,/askubuntu.com/,/doi.org/,/enki.com/,/enkipro.com/,/help.github.com/,/mademistakes.com/,/medium.com/,/proinsias.github.io/,/serverfault.com/,/stackexchange.com/,/stackoverflow.com/,/towardsdatascience.com/,/twitter.com/"
+    --ignore-urls "#,/4kib.com/,/archive.org/,/askubuntu.com/,/doi.org/,/enki.com/,/enkipro.com/,/help.github.com/,/mademistakes.com/,/medium.com/,/proinsias.github.io/,/serverfault.com/,/stackexchange.com/,/stackoverflow.com/,/towardsdatascience.com/,/twitter.com/"

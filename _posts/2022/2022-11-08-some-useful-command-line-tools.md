@@ -7,9 +7,10 @@ title: Some useful command line tools
 categories: til
 excerpt: sponge and pee
 tags:
-  - til
-  - nix
+    - til
+    - nix
 ---
+
 [climagic](https://twitter.com/climagic) posted a great
 [example](https://twitter.com/climagic/status/846714728235892737)
 of multiple commands:
@@ -26,7 +27,7 @@ for some additional detail:
    [DNS server 4.2.2.2](https://4kib.com/4-2-2-2-story-behind-dns-legend/)
    100 times.
 2. `sponge` 'soaks' up all the data from `ping`.
-3. `pee` (`tee` for pipes) runs each command provided – in this case `head` and `tail`,
+3. `pee` (`tee` for pipes) runs each command provided – in this case `head` and `tail`,
    and feeds each command a copy of the standard input.
    The output of all commands is sent to stdout.
 

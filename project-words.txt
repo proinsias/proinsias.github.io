@@ -488,3 +488,6 @@ pipefail
 globstar
 xtrace
 Batchelder
+stddev
+climagic
+mademistakes

@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Bash: Jump To The Ends Of Your Shell History"
+title: 'Bash: Jump To The Ends Of Your Shell History'
+excerpt: The meta key to the rescue
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-10 20:57
 categories: til
 tags:
-  - bash
-  - nix
-  - til
+    - bash
+    - nix
+    - til
 ---
 
 There are all sorts of ways to do things in your shell environment without

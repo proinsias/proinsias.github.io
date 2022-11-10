@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Why Should I Trust You?: Explaining the Predictions of Any Classifier'
+excerpt: People don't trust black-box models
 date: 2017-01-09 13:01
-modified: 2017-01-09 13:01
+modified: 2022-11-10 13:01
 categories: posts
 tags:
     - explainability
