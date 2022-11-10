@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'The relativity of raw data'
+excerpt: Why provenance of data is important
 date: 2016-07-26 10:25
-modified: 2016-07-26 10:25
+modified: 2022-11-09 10:25
 categories: posts
 tags:
     - datascience
