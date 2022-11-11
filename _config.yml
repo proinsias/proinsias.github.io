@@ -77,8 +77,7 @@ atom_feed: # To link to an externally hosted feed
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
 search: true # true, false (default)
-# true, false (default). Setting to true could impact page load performance.
-search_full_content:
+search_full_content: # true, false (default). Setting to true could impact page load performance.
 search_provider: # lunr (default), algolia, google
 lunr:
   search_within_pages: # true, false (default)
@@ -115,9 +114,9 @@ social:
 
 # Analytics
 analytics:
-  provider: google # false (default), "google", "google-universal", "custom"
+  provider: 'google-gtag' # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: UA-79669521-1
+    tracking_id: 'G-0CM81H85T8'
     anonymize_ip: # true, false (default)
 
 # Site Author
