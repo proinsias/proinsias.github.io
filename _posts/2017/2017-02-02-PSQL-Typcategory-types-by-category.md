@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "PSQL: Types By Category"
+excerpt: Array, Boolean, String, Numeric, Composite, etc.
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
   - psql

@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "PSQL: Limit Execution Time Of StatementsSpecial Math Operators"
+title: "PSQL: Special Math Operators"
+excerpt: Factorial, square root, absolute value operators.
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
   - psql
