@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "GitHub: Link to headers in READMEs"
+title: 'GitHub: Link to headers in READMEs'
+excerpt: Quick way to generate a table of contents
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - git
-  - github
-  - til
+    - git
+    - github
+    - til
 ---
 
 Anytime you add a header to a markdown file, GitHub attaches an `href` with its
@@ -19,7 +20,7 @@ headers further down the document:
 ```markdown
 ### Table of Contents
 
-- [Cucumber](#cucumber)
+-   [Cucumber](#cucumber)
 ```
 
 This will link to a header containing 'Cucumber'.

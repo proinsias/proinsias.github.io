@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Determining The Age Of Things"
+title: 'PSQL: Determining The Age Of Things'
+excerpt: The aptly-named age function
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 In PostgreSQL, we can determine the age of something (or someone) by passing

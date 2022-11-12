@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Bash: Partial String Matching In Bash Scripts"
+title: 'Bash: Partial String Matching In Bash Scripts'
+excerpt: Using a wildcard
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - bash
-  - nix
-  - til
+    - bash
+    - nix
+    - til
 ---
 
 To compare two strings in a bash script, you will have a snippet of code

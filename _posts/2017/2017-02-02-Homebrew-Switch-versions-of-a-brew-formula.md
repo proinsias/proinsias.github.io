@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Homebrew: Switch Versions of a Brew Formula"
+title: 'Homebrew: Switch Versions of a Brew Formula'
+excerpt: Pick between installed versions
 date: 2017-02-02 10:04
-modified: 2017-02-02 10:04
+modified: 2022-11-11 10:04
 categories: til
 tags:
-  - homebrew
-  - til
+    - homebrew
+    - til
 ---
 
 If you've installed a couple versions of a program via brew and you'd like

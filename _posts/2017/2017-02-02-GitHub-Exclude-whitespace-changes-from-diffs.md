@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "GitHub: Exclude Whitespace Changes From GitHub Diffs"
+title: 'GitHub: Exclude Whitespace Changes From GitHub Diffs'
+excerpt: Just add w=1 to the diff URL
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - git
-  - github
-  - til
+    - git
+    - github
+    - til
 ---
 
 If you run a tidy ship and use plugins like

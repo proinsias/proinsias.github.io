@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Restart A Sequence"
+title: 'PSQL: Restart A Sequence'
+excerpt: Using alter sequence
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 In postgres, if you are truncating a table or doing some other sort of

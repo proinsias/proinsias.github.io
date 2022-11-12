@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Renaming A Table"
+title: 'PSQL: Renaming A Table'
+excerpt: Using alter table
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Using the `alter table` command in PostgreSQL, you can rename an existing
