@@ -71,7 +71,7 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.18.4
+      rev: 0.19.1
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
@@ -130,6 +130,6 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.2.43
+      rev: 2.2.44
       hooks:
           - id: checkov
