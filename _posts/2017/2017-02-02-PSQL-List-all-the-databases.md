@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: List All The Databases"
+title: 'PSQL: List All The Databases'
+excerpt: Using the list command
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 There are two ways to list all the available databases. The first is a

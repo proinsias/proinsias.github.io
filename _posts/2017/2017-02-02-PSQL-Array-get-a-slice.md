@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Getting A Slice Of An Array"
+title: 'PSQL: Getting A Slice Of An Array'
+excerpt: Using brackets
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Postgres has a very natural syntax for grabbing a slice of an array. You

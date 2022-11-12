@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Storing Emails With citext"
+title: 'PSQL: Storing Emails With citext'
+excerpt: Ignore case in email addresses
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Email addresses should be treated as case-insensitive because they are. If a

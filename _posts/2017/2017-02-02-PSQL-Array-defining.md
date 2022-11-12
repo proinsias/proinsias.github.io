@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Defining Arrays"
+title: 'PSQL: Defining Arrays'
+excerpt: With one or two dimensions
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 In postgres, an array can be defined using the `array` syntax like so:

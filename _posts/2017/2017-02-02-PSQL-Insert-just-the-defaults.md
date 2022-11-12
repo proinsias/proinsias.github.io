@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Insert Just The Defaults"
+title: 'PSQL: Insert Just The Defaults'
+excerpt: Using the 'default values' options
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 If you are constructing an `INSERT` statement for a table whose required

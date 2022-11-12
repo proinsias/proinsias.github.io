@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: List Database Objects With Disk Usage"
+title: 'PSQL: List Database Objects With Disk Usage'
+excerpt: The dt command
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 I'll often times use `\d` or `\dt` to check out the tables in my database.

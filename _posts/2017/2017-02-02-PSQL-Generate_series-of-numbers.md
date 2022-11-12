@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Generate Series Of Numbers"
+title: 'PSQL: Generate Series Of Numbers'
+excerpt: Using the generate_series function
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Postgres has a `generate_series` function that can be used to, well,

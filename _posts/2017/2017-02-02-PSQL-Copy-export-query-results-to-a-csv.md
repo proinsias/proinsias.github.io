@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'PSQL: Export Query Results To A CSV'
+excerpt: Using the copy function
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
     - psql
