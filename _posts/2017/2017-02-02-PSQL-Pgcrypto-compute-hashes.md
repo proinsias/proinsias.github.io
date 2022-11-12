@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "PSQL: Compute Hashes With pgcrypto"
+excerpt: md5, sha1, sha224, sha256, sha384 and sha512
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
   - psql

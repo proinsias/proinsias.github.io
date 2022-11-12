@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "PSQL: Send A Command To psql"
+excerpt: Execute SQL from the command line
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
   - psql
@@ -10,7 +11,7 @@ tags:
   - til
 ---
 
-You can send a command to `psql` to be executed by using the `-c` flag
+You can send a command to `psql` to be executed by using the `-c` flag:
 
 ```bash
 $ psql -c "select 'Hello, World!';"
@@ -20,7 +21,7 @@ $ psql -c "select 'Hello, World!';"
 (1 row)
 ```
 
-Specify a particular database as needed
+Specify a particular database as needed:
 
 ```bash
 $ psql blog_prod -c 'select count(*) from posts;'

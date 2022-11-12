@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "PSQL: Set A Seed For The Random Number Generator"
+excerpt: Allow for reproducibility
 date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+modified: 2022-11-11 20:57
 categories: til
 tags:
   - psql
