@@ -125,7 +125,7 @@ repos:
                 ]
 
     - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v6.14.0
+      rev: v6.14.1
       hooks:
           - id: cspell
 
