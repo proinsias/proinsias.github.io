@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Curling With Basic Auth Credentials"
+title: 'Nix: Curling With Basic Auth Credentials'
+excerpt: Using the user flag of curl
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-16 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 I often use `curl` to take a quick look at the responses of particular

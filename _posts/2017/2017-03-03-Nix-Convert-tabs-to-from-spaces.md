@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Convert tabs to/from spaces"
+title: 'Nix: Convert tabs to/from spaces'
+excerpt: Using the expand/unexpand commands
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-16 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The command `expand` in [GNU coreutils](http://www.gnu.org/software/coreutils/)
