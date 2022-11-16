@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Combine multiple consecutive blank lines into one"
+title: 'Nix: Combine multiple consecutive blank lines into one'
+excerpt: Using the squeeze-blank option
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-15 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 `cat --squeeze-blank` (or `cat -s` for short) will suppress repeated empty

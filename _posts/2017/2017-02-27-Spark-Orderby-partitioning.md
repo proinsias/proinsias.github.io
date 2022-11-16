@@ -1,17 +1,18 @@
 ---
 layout: single
-title: "Spark: Orderby Partitioning"
+title: 'Spark: Orderby Partitioning'
+excerpt: The spark.sql.shuffle.partitions configuration option
 date: 2017-02-27 14:27
-modified: 2017-02-27 14:27
-categories: til
+modified: 2022-11-15 14:27
+categories: tips
 tags:
-  - spark
-  - til
+    - spark
+    - tips
 ---
 
 Remember that `orderBy` uses the number of partitions specified by
 `spark.conf.get("spark.sql.shuffle.partitions")`.
-The default for this is 200. Can change manually to say 8 by using:
+The default for this is 200. You can change manually to say 8 by using:
 
 ```python
 spark.conf.set("spark.sql.shuffle.partitions", "8")`

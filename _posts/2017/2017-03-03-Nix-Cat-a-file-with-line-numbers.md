@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Cat A File With Line Numbers"
+title: 'Nix: Cat A File With Line Numbers'
+excerpt: Using the number option
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-15 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can quickly view a file using `cat`
@@ -22,7 +23,7 @@ gem 'rails', '4.2.0'
 gem 'pg'
 ```
 
-With the `-n` flag you can view that file with line numbers
+With the `-n` or `--number` flag you can view that file with line numbers
 
 ```bash
 $ cat -n Gemfile

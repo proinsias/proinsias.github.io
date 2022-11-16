@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Change Default Shell For A User"
+title: 'Nix: Change Default Shell For A User'
+excerpt: Take a new shell for a spin!
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-15 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can change the default shell program for a particular unix user with the

@@ -1,11 +1,12 @@
 ---
 layout: single
-title: "SHAttered"
+title: 'SHAttered'
+excerpt: Deliberately cause a SHA-1 collision
 date: 2017-02-23 10:43
-modified: 2017-02-23 10:43
+modified: 2022-11-15 10:43
 categories: posts
 tags:
-  - security
+    - security
 ---
 
 Awesome work to demonstrate how to deliberately cause a SHA-1 collision.

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "The legends of mathematics that almost never were"
+title: 'The legends of mathematics that almost never were'
+excerpt:
 date: 2017-02-07 14:06
-modified: 2017-02-07 14:06
+modified: 2022-11-15 14:06
 categories: posts
 tags:
-  - mathematics
-  - motivation
+    - mathematics
+    - motivation
 ---
 
 It's always made me sad when people tell me they dislike mathematics.
