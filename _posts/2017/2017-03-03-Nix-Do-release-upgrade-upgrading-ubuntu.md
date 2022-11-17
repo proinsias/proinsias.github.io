@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Upgrading Ubuntu"
+title: 'Nix: Upgrading Ubuntu'
+excerpt: Using the do-release-upgrade command
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-17 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 I recently discovered that my Linode box was running a fairly old version of

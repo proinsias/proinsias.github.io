@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Command Line Length Limitations"
+title: 'Nix: Command Line Length Limitations'
+excerpt: Using getconf to retrieve standard configuration variables
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-17 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The other day I tried to run a `rm` command on the contents of a directory

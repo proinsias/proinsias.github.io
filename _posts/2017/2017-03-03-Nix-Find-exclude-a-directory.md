@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Exclude A Directory With Find"
+title: 'Nix: Exclude A Directory With Find'
+excerpt: Using the not and path arguments
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-17 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Using `find` is a handy way to track down files that meet certain criteria.

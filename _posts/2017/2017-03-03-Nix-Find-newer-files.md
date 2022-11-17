@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Find Newer Files"
+title: 'Nix: Find Newer Files'
+excerpt: Using the newer argument
 date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+modified: 2022-11-17 05:34
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Use the `-newer` flag with the name of a file to find files that have a
