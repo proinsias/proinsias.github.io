@@ -78,7 +78,7 @@ Finally, I thought it would be useful to reproduce here two lists from Brinton's
 > 14. The zero line of the vertical scale for a curve should be a much broader line than the average co-ordinate lines.
 > 15. If the zero line of the vertical scale cannot be shown at the bottom of a curve chart, the bottom line should be a slightly wavy line indicating that the field has been broken off and does not reach to zero.
 > 16. When curves are drawn on logarithmically ruled paper, the bottom line and the top line of the chart should each be at some power of ten on the vertical scale.
-> 17. W T hen the scale of a curve chart refers to percentages, the line at 100 per cent should be a broad line of the same width as a zero line.
+> 17. When the scale of a curve chart refers to percentages, the line at 100 per cent should be a broad line of the same width as a zero line.
 > 18. If the horizontal scale for a curve begins at zero, the vertical line at zero (usually the left-hand edge of the field) should be a broad line.
 > 19. When the horizontal scale expresses time, the lines at the left- and right-hand edges of a curve chart should not be made heavy, since a chart cannot be made to include the beginning or the end of time.
 > 20. When curves are to be printed, do not show any more co-ordinate lines than necessary for the data and to guide the eye. Lines 34-inch apart are sufficient to guide the eye.
@@ -86,7 +86,7 @@ Finally, I thought it would be useful to reproduce here two lists from Brinton's
 > 22. Whenever possible have a vertical line of the co-ordinate ruling for each point plotted on a curve so that the vertical lines may show the frequency of the data observations.
 > 23. If there are not too many curves drawn in one field it is desirable to show at the top of the chart the figures representing the value of each point plotted in a curve.
 > 24. When figures are given at the top of a chart for each point in a curve, have the figures added if possible to show yearly totals or other totals which may be useful in reading.
-> 25. Make the title of a chart so complete and so clear that misinter- pretation will be impossible.
+> 25. Make the title of a chart so complete and so clear that misinterpretation will be impossible.
 
 <div style="max-width:854px">
 <div style="position:relative;height:0;padding-bottom:56.25%">

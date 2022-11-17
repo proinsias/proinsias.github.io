@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Use a psqlrc File For Common Settings"
-excerpt: Lauch PSQL with a custom configuration
+title: 'PSQL: Use a psqlrc File For Common Settings'
+excerpt: Launch PSQL with a custom configuration
 date: 2017-02-02 20:57
 modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 There are a handful of settings that I inevitably turn on or configure each
