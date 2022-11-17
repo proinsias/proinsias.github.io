@@ -26,7 +26,7 @@ repos:
     # Git
 
     - repo: https://github.com/jorisroovers/gitlint
-      rev: v0.17.0
+      rev: v0.18.0
       hooks:
           - id: gitlint
 
@@ -130,6 +130,6 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.2.65
+      rev: 2.2.72
       hooks:
           - id: checkov
