@@ -9,11 +9,15 @@ modified: 2021-03-26
 
 Here's a list of some of the projects I've been involved in over the years:
 
-<!-- FIXME: More from HIQ? -->
+<!-- textlint-disable stop-words -->
+
+<!-- FIXME: Keep adding from HIQ. -->
+
+-   [In the OR, Accuracy in Scheduling is Everything](https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/).
+
+-   [Proactive Discharge Planning: Managing Patient Stays to Optimize the Discharge Day](https://www.hospiq.com/blog/proactive-discharge-planning-managing-patient-stays-to-optimize-the-discharge-day/).
 
 -   [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
-
-<!-- textlint-disable stop-words -->
 
 -   [Predicting Discharge Barriers to Optimize Patient Flow](https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
 <!-- textlint-enable stop-words -->
