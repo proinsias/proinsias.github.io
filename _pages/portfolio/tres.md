@@ -23,7 +23,9 @@ tags:
 
 TrES, the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
 searching the sky for transiting planets.
-The network consisted of Sleuth ([Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html),
+The network consisted of
+[Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html)
+([Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html),
 Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html)
 ([Lowell Observatory](https://www.lowell.edu/), Northern Arizona) and
 [STARE](https://www.hao.ucar.edu/research/stare/stare.html)
