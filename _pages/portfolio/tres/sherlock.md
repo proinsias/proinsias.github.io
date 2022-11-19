@@ -17,8 +17,10 @@ tags:
 We assembled a telescope named Sherlock
 ([original webpage](https://web.archive.org/web/20060921165842/http://www.astro.caltech.edu/~ftod/tres/sherlock.html))
 that was dedicated to examining transit candidates from
-[Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html),
-as well as a number of other transit surveys that monitor stars brighter than V=13.
+[Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html)
+and other telescopes in the
+[TrES](https://proinsias.github.io/portfolio/tres.html)
+network, as well as a number of other transit surveys that monitor stars brighter than V=13.
 Highly automated and observing in custom RGB filters with a better angular resolution (1.7 arcsec/pixel)
 than Sleuth (10 arcsec/pixel),
 Sherlock was able to reject most of the contaminants from these transit surveys.

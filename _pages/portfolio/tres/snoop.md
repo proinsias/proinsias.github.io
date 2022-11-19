@@ -28,6 +28,7 @@ is owned and operated by the
 [California Institute of Technology](http://www.caltech.edu/).
 It supports the research activities of members of the
 [Astronomy Department](http://www.astro.caltech.edu/)
+(such as our work for [TrES](https://proinsias.github.io/portfolio/tres.html))
 and other Caltech departments,
 as well as that of researchers at Caltech's collaborating institutions.
 We provided the original [webpage](https://web.archive.org/web/20060907193341/http://snoop.palomar.caltech.edu/)
