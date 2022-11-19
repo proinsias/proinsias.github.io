@@ -55,4 +55,4 @@ Here's a list of some of the projects I've been involved in over the years:
 
 -   [The Transatlantic Exoplanet Survey](https://proinsias.github.io/portfolio/tres.html).
 
--   [Infrared Spectroscopy of the Black Hole Candidate GRO J1655-40](/assets/pdf/Ge132Presentation.pdf)
+-   [Infrared Spectroscopy of the Black Hole Candidate GRO J1655-40](https://proinsias.github.io/portfolio/j1655.html)

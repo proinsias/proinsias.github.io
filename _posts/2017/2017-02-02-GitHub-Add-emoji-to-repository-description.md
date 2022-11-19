@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'GitHub: Add Emoji To GitHub Repository Description'
-excerpt: A workaround for the limited unicode set.
+excerpt: A workaround for the limited unicode set
 date: 2017-02-02 20:57
 modified: 2022-11-11 20:57
 categories: til

@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Special Math Operators"
-excerpt: Factorial, square root, absolute value operators.
+title: 'PSQL: Special Math Operators'
+excerpt: Factorial, square root, absolute value operators
 date: 2017-02-02 20:57
 modified: 2022-11-11 20:57
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Postgres has all the mathematical operators you might expect in any
