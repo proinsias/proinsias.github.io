@@ -157,6 +157,15 @@ The Astrophysical Journal, Volume 135, p. 850, March, 2008.
     01944-02289_](https://www.doi.org/10.1086/427727)
     The Astrophysical Journal, Volume 621, p. 1061, March, 2005.
 
+-   [_Searching for Transiting Planets and Eliminating False Positives in a TrES Field in
+    Cygnus_](/assets/pdf/2005AspenPoster.pdf)
+    presented at the 2005 Aspen Center for Physics Winter Conference on Astrophysics.
+
+-   [\_Further Sleuthing: Candidates from a New Field in
+    Andromeda](/assets/pdf/2004WSPoster.pdf)
+    presented at the 2004 XVI
+    [Canary Islands Winter School of Astrophysics](https://www.cambridge.org/core/series/canary-islands-winter-school-of-astrophysics/68A65A5DE79483357BC919E37E13C8E7).
+
 -   [_High-Resolution Spectroscopy of the Transiting Planet Host
     Star
     TrES-1_](https://www.doi.org/10.1086/426864)
