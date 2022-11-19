@@ -182,7 +182,7 @@ The Astrophysical Journal, Volume 135, p. 850, March, 2008.
     Cygnus_](/assets/pdf/2005AspenPoster.pdf)
     presented at the 2005 Aspen Center for Physics Winter Conference on Astrophysics.
 
--   [\_Further Sleuthing: Candidates from a New Field in
+-   [_Further Sleuthing: Candidates from a New Field in
     Andromeda](/assets/pdf/2004WSPoster.pdf)
     presented at the 2004 XVI
     [Canary Islands Winter School of Astrophysics](https://www.cambridge.org/core/series/canary-islands-winter-school-of-astrophysics/68A65A5DE79483357BC919E37E13C8E7).

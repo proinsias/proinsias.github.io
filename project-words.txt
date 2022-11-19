@@ -507,3 +507,4 @@ arcsec
 Cassegrain
 SBIG
 Autoguider
+SDSS
