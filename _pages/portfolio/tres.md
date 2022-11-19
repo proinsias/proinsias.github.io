@@ -1,7 +1,7 @@
 ---
 title: 'TrES: The Transatlantic Exoplanet Survey'
 layout: single
-excerpt: 'TrES is a network of three small-aperture telescopes searching the sky for transiting planets.'
+excerpt: 'TrES was a network of three small-aperture telescopes searching the sky for transiting planets'
 permalink: /portfolio/tres.html
 categories: tres
 date: 2016-07-08
@@ -15,22 +15,22 @@ tags:
 <!-- textlint-disable no-dead-link -->
 <!-- textlint-disable unexpanded-acronym -->
 
-[Intro](#intro) : [News](#news) : [TrES Papers](#papers)
+[Intro](#intro) : [Sleuth](#sleuth) : [News](#news) : [TrES Papers](#papers)
 
 <h2 id="intro">Introduction</h2>
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
-TrES, the Transatlantic Exoplanet Survey, is a network of three small-aperture telescopes (pictured above)
+TrES, the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
 searching the sky for transiting planets.
-The network consists of Sleuth ([Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html),
+The network consisted of Sleuth ([Palomar Observatory](https://www.astro.caltech.edu/palomar/homepage.html),
 Southern California), the [PSST](https://web.archive.org/web/20060912132008/http://www.lowell.edu/Research/PSST.html)
 ([Lowell Observatory](https://www.lowell.edu/), Northern Arizona) and
 [STARE](https://www.hao.ucar.edu/research/stare/stare.html)
 ([Observatorio del Teide](https://web.archive.org/web/20190903220416/http://www.iac.es/eno.php?op1=3),
 Canary Islands, Spain).
 
-Our method of detection relies on the edge-on alignment of the
+Our method of detection relied on the edge-on alignment of the
 extrasolar system. If a planetary system is oriented so that Earth
 lies near the plane of the planet's orbit, then once per orbit the
 planet passes between its star and the Earth, causing a transit. This
@@ -41,25 +41,40 @@ transiting Sun-sized stars, the expected dimming of the star's light
 will be about 1%, and the duration of the transit should be a few
 hours.
 
-To look for such a transit, the TrES telescopes takes timed exposures
+To look for such a transit, the TrES telescopes took timed exposures
 of the same field-of-view all night for as many nights as the field is
 favorably positioned (usually around 2 months). When an observing
-campaign is completed for a particular field, the multitude of data
-are run through software which, after correcting for many sources of
-distortion and noise, produces light curves for thousands of stars in
-the field. Other software is run to analyze the processed data for
-variable stars and transit candidates. It takes two or more transits
+campaign was completed for a particular field, the multitude of data
+was run through software which, after correcting for many sources of
+distortion and noise, produced light curves for thousands of stars in
+the field. Other software was run to analyze the processed data for
+variable stars and transit candidates. It took two or more transits
 (or cycles in a variable star) to discern the period of the orbit (or
 the variability).
 
-The TrES method favors giant planets orbiting sun-like stars
+The TrES method favored giant planets orbiting sun-like stars
 in close orbits. The results of successful radial-velocity planetary
-searches have shown that planetary systems of this type could be quite
+searches showed that planetary systems of this type could be quite
 common.
 
 See the STARE web page for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
 
+<h2 id="sleuth">Sleuth: The Palomar Planet Finder</h2>
+
+More details on Sleuth, the telescope I used for my PhD discovery of three exoplanets,
+can be found on the [Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html) main page.
+
+Additional telescopic support at Palomar Observatory was provided by:
+
+-   [Snoop](https://proinsias.github.io/portfolio/tres/snoop.html): our Palomar All-Sky Surveillance Camera
+-   [Sherlock](https://proinsias.github.io/portfolio/tres/sherlock.html): our transit-contaminant detector
+
+A nice [summary](https://web.archive.org/web/20160728221235/http://www.sandiegouniontribune.com/uniontrib/20051102/news_lz1c02palomar.html)
+of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
+
 <h2 id="news">In the News</h2>
+
+-   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
 
 -   Number 5 is in the bag..., [TrES-5](https://www.doi.org/10.1088/0004-637X/741/2/114)!
 
@@ -68,8 +83,12 @@ See the STARE web page for a summary of [The Search for Exoplanets](https://www.
 -   We've found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
     an orbital period of only 1.3 days!
 
+    - Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
+
 -   [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the _Kepler_
     field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
+
+    - NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
 
 -   First direction detection of light from extrasolar planets!
     TrES group identifies thermal emission from the hot Jupiter TrES-1.
@@ -80,7 +99,9 @@ See the STARE web page for a summary of [The Search for Exoplanets](https://www.
     wide--field transit surveys, such as TrES.
 
 -   [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html)!
-    Transits of TrES-1 observed using 10 cm telescope.
+    Transits of TrES-1 observed using 10-cm telescope.
+
+    - STARE [article](https://web.archive.org/web/20060904011953/http://www.hao.ucar.edu/public/research/stare/tres1_2.html).
 
 <h2 id="papers">TrES Publications</h2>
 
