@@ -502,3 +502,8 @@ includeif
 Callanan
 Orosz
 Faulkes
+Kotredes
+arcsec
+Cassegrain
+SBIG
+Autoguider
