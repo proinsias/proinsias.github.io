@@ -178,7 +178,7 @@ The Astrophysical Journal, Volume 135, p. 850, March, 2008.
 -   [_First Results From Sleuth: The Palomar Planet
     Finder_](https://www.doi.org/10.1063/1.1774518)
     The Search for Other Worlds, AIP Conference Proceedings, Volume
-    713, p. 169, June, 2004.
+    713, p. 169, June, 2004 ([pdf](/assets/pdf/2004AASPoster.pdf)).
 
 -   [_Sherlock: An Automated Follow-Up Telescope for Wide-Field
     Transit

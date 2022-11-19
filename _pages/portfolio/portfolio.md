@@ -54,3 +54,5 @@ Here's a list of some of the projects I've been involved in over the years:
     [high-volume data processing applications and enterprise application integration](https://www.abinitio.com/).
 
 -   [The Transatlantic Exoplanet Survey](https://proinsias.github.io/portfolio/tres.html).
+
+-   [Infrared Spectroscopy of the Black Hole Candidate GRO J1655-40](/assets/pdf/Ge132Presentation.pdf)
