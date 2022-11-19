@@ -17,6 +17,8 @@ tags:
 
 ## Introduction
 
+![Sleuth](/assets/images/sleuth.jpg)
+
 Sleuth ([original webpage](https://web.archive.org/web/20060921165825/http://www.astro.caltech.edu/%7Eftod/tres/sleuth.html))
 is a dedicated planet-search telescope which was set up by
 [David Charbonneau](https://astronomy.fas.harvard.edu/people/david-charbonneau).
@@ -50,7 +52,7 @@ At dawn, the night's data were automatically compressed and sent by ftp to our w
 
 -   Sleuth mentioned in the Astronomy Ireland Magazine:
     [Minnow Telescope Finds Massive Planet](https://proinsias.github.io/tres/minnow-telescope-finds-massive-planet).
--   Sleuth plays prominant role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
+-   Sleuth plays prominent role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
     TrES-2 is the first known transiting planet in the Kepler field
     and was at the time the most massive nearby transiting planet!
 -   Sleuth and the

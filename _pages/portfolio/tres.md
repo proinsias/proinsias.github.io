@@ -83,12 +83,12 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 -   We've found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
     an orbital period of only 1.3 days!
 
-    - Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
+    -   Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
 
 -   [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the _Kepler_
     field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
 
-    - NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
+    -   NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
 
 -   First direction detection of light from extrasolar planets!
     TrES group identifies thermal emission from the hot Jupiter TrES-1.
@@ -101,7 +101,7 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 -   [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html)!
     Transits of TrES-1 observed using 10-cm telescope.
 
-    - STARE [article](https://web.archive.org/web/20060904011953/http://www.hao.ucar.edu/public/research/stare/tres1_2.html).
+    -   STARE [article](https://web.archive.org/web/20060904011953/http://www.hao.ucar.edu/public/research/stare/tres1_2.html).
 
 <h2 id="papers">TrES Publications</h2>
 
