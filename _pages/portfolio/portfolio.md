@@ -9,8 +9,6 @@ modified: 2021-03-26
 
 Here's a list of some of the projects I've been involved in over the years:
 
-<!-- textlint-disable stop-words -->
-
 <!-- FIXME: Keep adding from HIQ. -->
 
 -   [In the OR, Accuracy in Scheduling is Everything](https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/).
@@ -20,7 +18,6 @@ Here's a list of some of the projects I've been involved in over the years:
 -   [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
 
 -   [Predicting Discharge Barriers to Optimize Patient Flow](https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
-<!-- textlint-enable stop-words -->
 
 -   Predicting which [Operating Room reservation blocks](https://www.hospiq.com/solutions/perioperative/)
     are most likely to go unused.

@@ -11,9 +11,6 @@ tags:
     - tres
 ---
 
-<!-- textlint-disable no-dead-link -->
-<!-- textlint-disable unexpanded-acronym -->
-
 We assembled a telescope named Sherlock
 ([original webpage](https://web.archive.org/web/20060921165842/http://www.astro.caltech.edu/~ftod/tres/sherlock.html))
 that was dedicated to examining transit candidates from

@@ -12,16 +12,15 @@ tags:
     - tres
 ---
 
-<!-- textlint-disable no-dead-link -->
-<!-- textlint-disable unexpanded-acronym -->
-
 [Intro](#intro) : [Sleuth](#sleuth) : [News](#news) : [TrES Papers](#papers)
 
 <h2 id="intro">Introduction</h2>
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
-TrES, the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
+TrES
+([original webpage](https://web.archive.org/web/20060919005845/http://www.astro.caltech.edu/%7Eftod/tres/tres.html)),
+the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
 searching the sky for transiting planets.
 The network consisted of
 [Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html)
@@ -76,34 +75,27 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 
 <h2 id="news">In the News</h2>
 
--   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
-
 -   Number 5 is in the bag..., [TrES-5](https://www.doi.org/10.1088/0004-637X/741/2/114)!
 
--   We've found the largest known transiting planet, [TrES-4](https://www.doi.org/10.1086/522115)!
+-   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
 
--   We've found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
-    an orbital period of only 1.3 days!
+-   We found a transiting planet, [TrES-3](https://proinsias.github.io/portfolio/tres/tres3.html), with 1.9 Jupiter masses and
+    an orbital period of only 1.3 days.
 
-    -   Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
+-   [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html), the first known transiting planet in the _Kepler_
+    field and the most massive nearby transiting planet at the time, discovered using small-aperture telescopes.
 
--   [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the _Kepler_
-    field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
+-   [First direction detection of light from extrasolar planets](https://proinsias.github.io/portfolio/tres/thermal.html).
+    TrES group identified thermal emission from the hot Jupiter TrES-1.
 
-    -   NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
+-   TrES group announced the discovery of
+    [a new detached M-Dwarf Eclipsing Binary](https://www.doi.org/10.1086/431278)!
 
--   First direction detection of light from extrasolar planets!
-    TrES group identifies thermal emission from the hot Jupiter TrES-1.
+-   [Discussion](https://www.doi.org/10.1086/427727)
+    of identifying insidious blend contaminants common in wide--field transit surveys, such as TrES.
 
--   TrES group announces the discovery of a new detached M-Dwarf Eclipsing Binary!
-
--   Discussion of identifying insidious blend contaminants common in
-    wide--field transit surveys, such as TrES.
-
--   [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html)!
+-   [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html).
     Transits of TrES-1 observed using 10-cm telescope.
-
-    -   STARE [article](https://web.archive.org/web/20060904011953/http://www.hao.ucar.edu/public/research/stare/tres1_2.html).
 
 <h2 id="papers">TrES Publications</h2>
 
@@ -128,11 +120,9 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 -   [_The Prograde Orbit of Exoplanet TrES-2b_](https://www.doi.org/10.1086/589235),
     The Astrophysical Journal, Volume 682, p. 1283, August, 2008.
 
-<!-- markdownlint-disable line-length -->
-
--   [_Identification, Classifications, and Absolute Properties of 773 Eclipsing Binaries Found in the Trans-Atlantic Exoplanet Survey_](https://www.doi.org/10.1088/0004-6256/135/3/850),
-The Astrophysical Journal, Volume 135, p. 850, March, 2008.
-<!-- markdownlint-enable line-length -->
+-   [_Identification, Classifications, and Absolute Properties of 773 Eclipsing Binaries Found
+    in the Trans-Atlantic Exoplanet Survey_](https://www.doi.org/10.1088/0004-6256/135/3/850),
+    The Astrophysical Journal, Volume 135, p. 850, March, 2008.
 
 -   [_Extrasolar planet detection by binary stellar eclipse timing: evidence for a third body around CM Draconis_](https://www.doi.org/10.1051/0004-6361:20079000),
     Astronomy and Astrophysics, Volume 480, p. 563, March, 2008.

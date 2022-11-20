@@ -509,3 +509,8 @@ SBIG
 Autoguider
 SDSS
 Fourmilab
+Vliet
+solas
+Physorg
+Laughlin
+Encyclopaedia

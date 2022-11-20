@@ -7,6 +7,7 @@ categories: tres
 header:
     image: /assets/images/sleuth.jpg
     image_description: 'Sleuth: The Palomar Planet Finder'
+    teaser: /assets/images/sleuth_thumbnail.gif
 date: 2022-11-19
 modified: 2022-11-19
 tags:
@@ -15,13 +16,10 @@ tags:
     - tres
 ---
 
-<!-- textlint-disable no-dead-link -->
-<!-- textlint-disable unexpanded-acronym -->
-
 ## Introduction
 
 Sleuth ([original webpage](https://web.archive.org/web/20060921165825/http://www.astro.caltech.edu/%7Eftod/tres/sleuth.html))
-is a dedicated planet-search telescope which was set up by
+was a dedicated planet-search telescope which was set up by
 [David Charbonneau](https://astronomy.fas.harvard.edu/people/david-charbonneau).
 Dr. Charbonneau and I used this automated telescope to search for evidence of transiting extrasolar planets.
 Sleuth monitored roughly 10,000 stars (brighter than V=12) in a 6 degree square field-of-view
@@ -54,18 +52,18 @@ At dawn, the night's data were automatically compressed and sent by ftp to our w
 ## Sleuth News
 
 -   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
--   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115)!
+-   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
 -   We found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
-    an orbital period of only 1.3 days!
+    an orbital period of only 1.3 days.
     -   Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
 -   [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the _Kepler_
-    field and the most massive nearby transiting planet, discovered using small-aperture telescopes!
+    field and the most massive nearby transiting planet, discovered using small-aperture telescopes.
     -   NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
 -   Sleuth mentioned in the Astronomy Ireland Magazine:
     [Minnow Telescope Finds Massive Planet](https://proinsias.github.io/tres/minnow-telescope-finds-massive-planet).
 -   Sleuth plays prominent role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
     TrES-2 is the first known transiting planet in the Kepler field
-    and was at the time the most massive nearby transiting planet!
+    and was at the time the most massive nearby transiting planet.
 -   Sleuth and the
     [High Performance Wireless Research and Education Network](https://web.archive.org/web/20060921165825/http://pr.caltech.edu/media/Press_Releases/PR12884.html).
 -   Sleuth, [the Little Telescope That Could](https://proinsias.github.io/tres/the-little-telescope-that-could).

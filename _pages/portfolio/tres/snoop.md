@@ -11,9 +11,6 @@ tags:
     - tres
 ---
 
-<!-- textlint-disable no-dead-link -->
-<!-- textlint-disable unexpanded-acronym -->
-
 As a means of improving our ability to evaluate astronomical observing conditions,
 graduate students
 [Luke Kotredes](https://web.archive.org/web/20060907193341/http://www.astro.caltech.edu/~ltk/)
