@@ -58,12 +58,10 @@ that helped discover three transiting exoplanets.
 
 -   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
 -   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
--   We found a transiting planet, [TrES-3](https://www.doi.org/10.1086/519793), with 1.9 Jupiter masses and
-    an orbital period of only 1.3 days.
-    -   Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
--   [TrES-2](https://www.doi.org/10.1086/509123), the first known transiting planet in the _Kepler_
+-   We found a transiting planet, [TrES-3](https://proinsias.github.io/portfolio/tres/tres3.html),
+    with 1.9 Jupiter masses and an orbital period of only 1.3 days.
+-   [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html), the first known transiting planet in the _Kepler_
     field and the most massive nearby transiting planet, discovered using small-aperture telescopes.
-    -   NASA [article](http://www.nasa.gov/vision/universe/newworlds/Tres2-Transit.html).
 -   Sleuth mentioned in the Astronomy Ireland Magazine:
     [Minnow Telescope Finds Massive Planet](https://proinsias.github.io/tres/minnow-telescope-finds-massive-planet).
 -   Sleuth plays prominent role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
