@@ -1,8 +1,8 @@
 ---
-title: 'Sherlock: A transit false-positive detector'
+title: 'First direction detection of light from extrasolar planets'
 layout: single
-excerpt: 'Making the number of transit candidates manageable'
-permalink: /portfolio/tres/sherlock.html
+excerpt: 'TrES group identified thermal emission from the hot Jupiter TrES-1'
+permalink: /portfolio/tres/thermal.html
 categories: tres
 date: 2022-11-19
 modified: 2022-11-19
