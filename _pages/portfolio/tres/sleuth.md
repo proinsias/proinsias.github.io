@@ -18,7 +18,7 @@ tags:
 
 ## Introduction
 
-Sleuth ([original webpage](https://web.archive.org/web/20060921165825/http://www.astro.caltech.edu/%7Eftod/tres/sleuth.html))
+Sleuth ([original webpage](https://web.archive.org/web/20080620111540/http://solas.dnsalias.org:8080/~ftod/tres/sleuth.html))
 was a dedicated planet-search telescope which was set up by
 [David Charbonneau](https://astronomy.fas.harvard.edu/people/david-charbonneau).
 Dr. Charbonneau and I used this automated telescope to search for evidence of transiting extrasolar planets.
@@ -48,6 +48,11 @@ were controlled by a workstation running Linux.
 In the event of threatening weather, the on-site night assistant for the 200" telescope closed the system remotely,
 and an observatory weather station provided additional protection.
 At dawn, the night's data were automatically compressed and sent by ftp to our workstation at Caltech.
+
+Having suffered repeated electronic failures after a unexpected rainfall,
+we decided to retire Sleuth gracefully.
+We are grateful to the staff at Palomar Observatory who facilitated the operation of this little telescope
+that helped discover three transiting exoplanets.
 
 ## Sleuth News
 

@@ -28,7 +28,7 @@ It supports the research activities of members of the
 (such as our work for [TrES](https://proinsias.github.io/portfolio/tres.html))
 and other Caltech departments,
 as well as that of researchers at Caltech's collaborating institutions.
-We provided the original [webpage](https://web.archive.org/web/20060907193341/http://snoop.palomar.caltech.edu/)
+We provided the original [webpage](https://web.archive.org/web/20070804011413/http://snoop.palomar.caltech.edu/)
 as a resource to observers who were either present at Palomar or gathering data with one of its robotic telescopes.
 Curious onlookers were also welcome!
 Observers could then compare what they saw with the map of the current sky overhead

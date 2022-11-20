@@ -19,7 +19,7 @@ tags:
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
 TrES
-([original webpage](https://web.archive.org/web/20060919005845/http://www.astro.caltech.edu/%7Eftod/tres/tres.html)),
+([original webpage](https://web.archive.org/web/20080620002210/http://solas.dnsalias.org:8080/~ftod//tres/tres.html)),
 the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
 searching the sky for transiting planets.
 The network consisted of

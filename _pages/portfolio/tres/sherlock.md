@@ -12,7 +12,7 @@ tags:
 ---
 
 We assembled a telescope named Sherlock
-([original webpage](https://web.archive.org/web/20060921165842/http://www.astro.caltech.edu/~ftod/tres/sherlock.html))
+([original webpage](https://web.archive.org/web/20080620204421/http://solas.dnsalias.org:8080/~ftod/tres/sherlock.html))
 that was dedicated to examining transit candidates from
 [Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html)
 and other telescopes in the

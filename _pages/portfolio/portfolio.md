@@ -50,6 +50,11 @@ Here's a list of some of the projects I've been involved in over the years:
 -   Developing
     [high-volume data processing applications and enterprise application integration](https://www.abinitio.com/).
 
+-   My PhD thesis "The detection and exploration of planets from the Trans-atlantic Exoplanet Survey"
+    is available from the
+    [Caltech Library](https://web.archive.org/web/20080620002210/http://etd.caltech.edu/etd/available/etd-08272007-043911/)
+    or from [Lulu.com](https://web.archive.org/web/20080620002210/http://www.lulu.com/content/1145448).
+
 -   [The Transatlantic Exoplanet Survey](https://proinsias.github.io/portfolio/tres.html).
 
 -   [Infrared Spectroscopy of the Black Hole Candidate GRO J1655-40](https://proinsias.github.io/portfolio/j1655.html)

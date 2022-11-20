@@ -4,7 +4,7 @@ layout: single
 excerpt: 'The first known transiting planet in the Kepler field'
 header:
     image: /assets/images/Jkv.TrES-2b.png
-    image_description: 'An artist's impression of TrES-2b'
+    image_description: "An artist's impression of TrES-2b"
     caption: 'Photo credit: John Van Vliet 2020'
     teaser: /assets/images/Jkv.TrES-2b_thumbnail.gif
 permalink: /portfolio/tres/tres2.html
