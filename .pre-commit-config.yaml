@@ -50,6 +50,11 @@ repos:
 
     # Mixed
 
+    - repo: https://github.com/kraymer/cesar
+      rev: v1.0.0
+      hooks:
+          - id: cesar
+
     - repo: https://github.com/sirosen/texthooks
       rev: 0.4.0
       hooks:

@@ -112,3 +112,5 @@ And so 'An Independent Mind' was born.
 <img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
 
 <img src="/assets/images/all_models_are_wrong.jpg" alt="All Models are Wrong"/>
+
+<img src="/assets/images/if_we_knew.jpg" alt="If we knew what it was we were doing"/>
