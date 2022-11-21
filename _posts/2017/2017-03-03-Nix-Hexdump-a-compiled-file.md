@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Hexdump A Compiled File"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Hexdump A Compiled File'
+excerpt: Using the C option
+date: 2017-03-03
+modified: 2022-11-20
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `hexdump` unix utility allows you to dump the contents of a

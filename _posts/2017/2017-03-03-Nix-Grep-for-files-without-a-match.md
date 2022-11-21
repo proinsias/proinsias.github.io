@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Grep For Files Without A Match"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Grep For Files Without A Match'
+excerpt: Using the files-without-match flag
+date: 2017-03-03
+modified: 2022-11-20
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `grep` command is generally used to find files whose contents match a

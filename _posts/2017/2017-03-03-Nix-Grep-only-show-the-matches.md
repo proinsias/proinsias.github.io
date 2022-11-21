@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Only Show The Matches"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Only Show The Matches'
+excerpt: Using the o flag
+date: 2017-03-03
+modified: 2022-11-20
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Tools like `grep`, `ack`, and `ag` make it easy to search for lines in a
