@@ -108,7 +108,7 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (5.0.1)
+    html-proofer (5.0.2)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
@@ -357,7 +357,7 @@ GEM
       nokogiri (~> 1.6)
       rexml (~> 3.2)
     yell (2.2.2)
-    zeitwerk (2.6.5)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
