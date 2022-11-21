@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-24 11:19 -0400'
-date: '2022-10-24 11:19 -0400'
+modified: 2022-10-24
+date: 2022-10-24
 layout: single
 published: true
 title: Cherry Picking a Range of Commits with Git

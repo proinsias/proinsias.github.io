@@ -2,8 +2,8 @@
 layout: single
 title: 'Spark: Orderby Partitioning'
 excerpt: The spark.sql.shuffle.partitions configuration option
-date: 2017-02-27 14:27
-modified: 2022-11-15 14:27
+date: 2017-02-27
+modified: 2022-11-15
 categories: tips
 tags:
     - spark

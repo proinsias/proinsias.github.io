@@ -2,8 +2,8 @@
 layout: single
 title: 'Python: Use underscores as visual separators for numbers'
 excerpt: Aid readability of numbers
-date: 2021-06-03 13:11
-modified: 2022-11-02 13:11
+date: 2021-06-03
+modified: 2022-11-02
 categories: til
 tags:
     - python

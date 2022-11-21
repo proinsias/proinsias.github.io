@@ -2,8 +2,8 @@
 layout: single
 title: 'The legends of mathematics that almost never were'
 excerpt:
-date: 2017-02-07 14:06
-modified: 2022-11-15 14:06
+date: 2017-02-07
+modified: 2022-11-15
 categories: posts
 tags:
     - mathematics

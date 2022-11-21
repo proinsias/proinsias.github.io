@@ -2,8 +2,8 @@
 layout: single
 title: 'The Friendliest of Fire'
 excerpt: An American pilot shoots down an American plane
-date: 2016-07-14 12:52
-modified: 2022-11-09 12:52
+date: 2016-07-14
+modified: 2022-11-09
 categories:
     - posts
 tags:

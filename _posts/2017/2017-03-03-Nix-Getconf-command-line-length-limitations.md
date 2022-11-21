@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Command Line Length Limitations'
 excerpt: Using getconf to retrieve standard configuration variables
-date: 2017-03-03 05:34
-modified: 2022-11-17 05:34
+date: 2017-03-03
+modified: 2022-11-17
 categories: til
 tags:
     - nix

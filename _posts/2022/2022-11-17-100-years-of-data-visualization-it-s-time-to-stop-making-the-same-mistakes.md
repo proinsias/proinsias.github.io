@@ -1,6 +1,6 @@
 ---
-modified: '2022-11-17 10:20 -0500'
-date: '2022-11-17 10:20 -0500'
+modified: 2022-11-17
+date: 2022-11-17
 layout: single
 published: true
 title: 100 Years of Data Visualization – It's Time to Stop Making the Same Mistakes

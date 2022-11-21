@@ -2,8 +2,8 @@
 layout: single
 title: 'Emacs: List lines matching a regular expression'
 excerpt: Using the occur command
-date: 2017-03-03 10:24
-modified: 2022-11-15 10:24
+date: 2017-03-03
+modified: 2022-11-15
 categories: til
 tags:
     - emacs

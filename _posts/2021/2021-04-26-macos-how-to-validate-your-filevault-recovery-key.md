@@ -2,8 +2,8 @@
 layout: single
 title: 'MacOS: How to validate your FileVault Recovery Key'
 excerpt: Do a dry run from the Terminal
-date: 2021-04-26 16:57
-modified: 2022-11-02 16:57
+date: 2021-04-26
+modified: 2022-11-02
 categories: til
 tags:
     - filevault

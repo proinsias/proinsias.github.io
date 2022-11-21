@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Send A Command To psql"
+title: 'PSQL: Send A Command To psql'
 excerpt: Execute SQL from the command line
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 You can send a command to `psql` to be executed by using the `-c` flag:

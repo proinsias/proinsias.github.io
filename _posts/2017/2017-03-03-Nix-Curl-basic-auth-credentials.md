@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Curling With Basic Auth Credentials'
 excerpt: Using the user flag of curl
-date: 2017-03-03 05:34
-modified: 2022-11-16 05:34
+date: 2017-03-03
+modified: 2022-11-16
 categories: til
 tags:
     - nix

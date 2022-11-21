@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-30 16:09 -0400'
-date: '2022-10-30 16:09 -0400'
+modified: 2022-10-30
+date: 2022-10-30
 layout: single
 published: true
 title: How to display bash history without line numbers

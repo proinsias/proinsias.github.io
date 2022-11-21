@@ -2,8 +2,8 @@
 layout: single
 title: 'Bash: Escaping strings easily'
 excerpt: Quick tip using history expansion
-date: 2021-04-07 11:47
-modified: 2022-11-04 11:47
+date: 2021-04-07
+modified: 2022-11-04
 categories: til
 tags:
     - bash

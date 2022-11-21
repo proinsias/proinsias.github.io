@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Nix: Find MAC address of network interfaces with ifconfig"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Find MAC address of network interfaces with ifconfig'
+date: 2017-03-03
+modified: 2022-11-21
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 To get the MAC addresses of all your interfaces, grep the `HWaddr` from the `ifconfig`

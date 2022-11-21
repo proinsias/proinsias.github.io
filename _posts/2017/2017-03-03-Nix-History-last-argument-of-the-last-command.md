@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Nix: Last Argument Of The Last Command"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Last Argument Of The Last Command'
+date: 2017-03-03
+modified: 2022-11-21
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can use `!$` as a way to reference the last argument in the last

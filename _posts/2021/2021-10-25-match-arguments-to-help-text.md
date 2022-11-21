@@ -1,8 +1,8 @@
 ---
 layout: single
 title: 'Match arguments to help text'
-date: 2021-10-25 13:33
-modified: 2022-10-31 13:33
+date: 2021-10-25
+modified: 2022-10-31
 excerpt: Better understand your shell commands
 categories: tips
 tags:

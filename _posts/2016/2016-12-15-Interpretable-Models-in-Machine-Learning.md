@@ -2,8 +2,8 @@
 layout: single
 title: 'Making machine learning models interpretable'
 excerpt: From the 20th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
-date: 2016-12-15 10:53
-modified: 2022-11-09 10:53
+date: 2016-12-15
+modified: 2022-11-09
 categories: posts
 tags:
     - datascience

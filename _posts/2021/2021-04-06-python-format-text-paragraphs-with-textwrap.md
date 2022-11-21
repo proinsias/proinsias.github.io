@@ -2,8 +2,8 @@
 layout: single
 title: 'Python: Format text paragraphs with textwrap'
 excerpt: Wrap and fill lines
-date: 2021-04-06 15:52
-modified: 2022-11-04 15:52
+date: 2021-04-06
+modified: 2022-11-04
 categories: til
 tags:
     - python

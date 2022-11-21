@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Find Newer Files'
 excerpt: Using the newer argument
-date: 2017-03-03 05:34
-modified: 2022-11-17 05:34
+date: 2017-03-03
+modified: 2022-11-17
 categories: til
 tags:
     - nix

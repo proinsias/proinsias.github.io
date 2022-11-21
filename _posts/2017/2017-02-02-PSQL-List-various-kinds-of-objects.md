@@ -1,26 +1,26 @@
 ---
 layout: single
-title: "PSQL: List Various Kinds Of Objects"
+title: 'PSQL: List Various Kinds Of Objects'
 excerpt: Useful meta-commands
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Our PostgreSQL database can end up with all kinds of objects: tables,
 sequences, views, etc. We can use a variety of `psql` meta-commands to list
 the different types of (user-created) objects in our database.
 
-- `\dt` will list all the tables
-- `\dE` will list all the foreign tables
-- `\di` will list all the indexes
-- `\ds` will list all the sequences
-- `\dv` will list all the views
-- `\dm` will list all the materialized views
+-   `\dt` will list all the tables
+-   `\dE` will list all the foreign tables
+-   `\di` will list all the indexes
+-   `\ds` will list all the sequences
+-   `\dv` will list all the views
+-   `\dm` will list all the materialized views
 
 These can also be combined. For instance, to see all the tables and
 sequences, we can run `\dts`.

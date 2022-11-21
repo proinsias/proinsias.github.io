@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Convert reStructuredText to Markdown'
 excerpt: Another use for pandoc
-date: 2021-04-07 16:33
-modified: 2022-11-04 16:33
+date: 2021-04-07
+modified: 2022-11-04
 categories: til
 tags:
     - nix

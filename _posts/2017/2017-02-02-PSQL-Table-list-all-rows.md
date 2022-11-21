@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: List All Rows In A Table"
+title: 'PSQL: List All Rows In A Table'
 excerpt: The table command
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Perhaps the more common way to list all rows in a table is with the

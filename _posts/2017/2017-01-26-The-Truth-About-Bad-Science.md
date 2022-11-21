@@ -2,8 +2,8 @@
 layout: single
 title: 'The Truth About Bad Science'
 excerpt: Many published studies are not reproducible!
-date: 2017-01-26 10:20
-modified: 2022-11-10 10:20
+date: 2017-01-26
+modified: 2022-11-10
 categories: posts
 tags:
     - reproducibility

@@ -2,8 +2,8 @@
 layout: single
 title: 'Bash: Run entire shell script as root'
 excerpt: Avoid prepending commands with sudo
-date: 2021-04-27 20:44
-modified: 2022-11-10 20:44
+date: 2021-04-27
+modified: 2022-11-10
 categories: til
 tags:
     - bash

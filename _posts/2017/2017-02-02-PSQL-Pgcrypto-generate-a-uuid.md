@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Generating UUIDs With pgcrypto"
+title: 'PSQL: Generating UUIDs With pgcrypto'
 excerpt: Avoid the OSSP UUID library
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 If you check out the docs for the [`uuid-ossp`

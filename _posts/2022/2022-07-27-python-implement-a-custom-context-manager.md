@@ -1,10 +1,10 @@
 ---
 layout: single
 title: 'Python: Implement a custom context manager'
-date: 2022-07-27 16:15
-modified: 2022-07-27 16:15
+date: 2022-07-27
+modified: 2022-07-27
 categories: til
-excerpt: How to create your own `with ...`
+excerpt: How to create your own 'with'
 tags:
     - context
     - python

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: 'Nix: Play with jq with jq-play'
-date: 2021-10-25 13:52
-modified: 2022-10-31 13:52
+date: 2021-10-25
+modified: 2022-10-31
 excerpt: Test run your jq filters
 categories: tips
 tags:

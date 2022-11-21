@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Find The Location Of Postgres Config Files"
+title: 'PSQL: Find The Location Of Postgres Config Files'
 excerpt: Via show config_file
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 If you can connect to your database with `psql`, then you can easily find

@@ -1,15 +1,16 @@
 ---
-modified: '2022-10-26 10:03 -0400'
-date: '2022-10-26 10:03 -0400'
+modified: 2022-10-26
+date: 2022-10-26
 layout: single
 published: true
 title: Formatting text paragraphs in python
 excerpt: The textwrap module to the rescue!
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
+
 > The textwrap module can be used to format text for output in situations
 > where pretty-printing is desired.
 > It offers programmatic functionality similar to the paragraph wrapping

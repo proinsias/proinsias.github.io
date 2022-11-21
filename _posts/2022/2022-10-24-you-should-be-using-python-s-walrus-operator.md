@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-24 13:52 -0400'
-date: '2022-10-24 13:52 -0400'
+modified: 2022-10-24
+date: 2022-10-24
 layout: single
 published: true
 title: You Should Be Using Python's Walrus Operator

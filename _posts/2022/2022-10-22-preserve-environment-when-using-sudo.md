@@ -1,14 +1,14 @@
 ---
-modified: '2022-10-22 15:13 -0400'
-date: '2022-10-22 15:13 -0400'
+modified: 2022-10-22
+date: 2022-10-22
 layout: single
 published: true
 title: Preserve environment when using sudo
 excerpt: Preserve environment when using sudo
 categories: til
 tags:
-  - nix
-  - ssh
+    - nix
+    - ssh
 ---
 
 When using the `sudo` command:

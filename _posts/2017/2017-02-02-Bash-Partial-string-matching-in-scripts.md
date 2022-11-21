@@ -2,8 +2,8 @@
 layout: single
 title: 'Bash: Partial String Matching In Bash Scripts'
 excerpt: Using a wildcard
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
     - bash

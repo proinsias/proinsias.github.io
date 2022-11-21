@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-28 22:51 -0400'
-date: '2022-10-28 22:51 -0400'
+modified: 2022-10-28
+date: 2022-10-28
 layout: single
 published: true
 title: Helping people online

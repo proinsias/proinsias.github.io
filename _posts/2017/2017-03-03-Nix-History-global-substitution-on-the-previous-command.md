@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Nix: Global Substitution On The Previous Command"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Global Substitution On The Previous Command'
+date: 2017-03-03
+modified: 2022-11-21
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Let's say we just executed the following command:

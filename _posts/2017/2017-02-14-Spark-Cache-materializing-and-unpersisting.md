@@ -2,8 +2,8 @@
 layout: single
 title: 'Spark: Materializing and Unpersisting Cache'
 excerpt: Optimize your use of Spark DataFrames
-date: 2017-02-14 12:57
-modified: 2022-11-15 12:57
+date: 2017-02-14
+modified: 2022-11-15
 categories: til
 tags:
     - spark

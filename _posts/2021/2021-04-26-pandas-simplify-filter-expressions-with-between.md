@@ -2,8 +2,8 @@
 layout: single
 title: 'Pandas: Simplify filter expressions with between'
 excerpt: Create more readable code
-date: 2021-04-26 19:41
-modified: 2022-11-02 19:41
+date: 2021-04-26
+modified: 2022-11-02
 categories: til
 tags:
     - filter

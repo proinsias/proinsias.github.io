@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Turn Timing On"
+title: 'PSQL: Turn Timing On'
 excerpt: Via the timing command
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 When digging around your database and running queries, it is helpful to

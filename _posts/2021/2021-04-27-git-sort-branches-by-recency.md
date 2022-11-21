@@ -2,8 +2,8 @@
 layout: single
 title: 'Git: Sort branches by recency'
 excerpt: A more useful default behavior
-date: 2021-04-27 20:49
-modified: 2021-11-02 20:49
+date: 2021-04-27
+modified: 2021-11-02
 categories: til
 tags:
     - git

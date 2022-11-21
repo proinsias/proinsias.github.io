@@ -2,8 +2,8 @@
 layout: single
 title: 'Mac: Resizing Both Corners Of A Window'
 excerpt: Using the option key
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
     - mac

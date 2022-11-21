@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Types By Category"
+title: 'PSQL: Types By Category'
 excerpt: Array, Boolean, String, Numeric, Composite, etc.
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Postgres has many types, each of which fall into a particular category.

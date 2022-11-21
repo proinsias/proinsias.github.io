@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Curling For Headers'
 excerpt: Using the head flag for curl
-date: 2017-03-03 05:34
-modified: 2022-11-16 05:34
+date: 2017-03-03
+modified: 2022-11-16
 categories: til
 tags:
     - nix

@@ -2,8 +2,8 @@
 layout: single
 title: 'Python: Fix issues using PyCharm and Docker'
 excerpt: Two troubleshooting tips
-date: 2021-04-26 11:56
-modified: 2022-11-02 11:56
+date: 2021-04-26
+modified: 2022-11-02
 categories: til
 tags:
     - docker

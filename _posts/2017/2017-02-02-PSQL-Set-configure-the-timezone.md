@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Configure The Timezone"
+title: 'PSQL: Configure The Timezone'
 excerpt: Via show/set timezone
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Running `show timezone;` will reveal the timezone for your postgres

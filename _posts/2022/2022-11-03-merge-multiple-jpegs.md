@@ -1,15 +1,16 @@
 ---
-modified: '2022-11-03 15:52 -0400'
-date: '2022-11-03 15:52 -0400'
+modified: 2022-11-03
+date: 2022-11-03
 layout: single
 published: true
 title: Merge multiple JPEGs
 excerpt: Stack JPEGs vertically
 categories: til
 tags:
-  - til
-  - nix
+    - til
+    - nix
 ---
+
 Use the following to combine multiple JPEG files into a JPEG file that stacks them vertically:
 
 ```shell

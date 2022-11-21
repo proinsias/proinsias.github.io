@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Use unlogged tables for caches"
+title: 'PSQL: Use unlogged tables for caches'
 excerpt: Trade crash-safety for speed
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Using a Postgres table for caching? You might want to try making it `unlogged`.

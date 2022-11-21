@@ -1,6 +1,6 @@
 ---
-modified: '2022-11-08 14:20 -0500'
-date: '2022-11-08 14:20 -0500'
+modified: 2022-11-08
+date: 2022-11-08
 layout: single
 published: true
 title: Some useful command line tools

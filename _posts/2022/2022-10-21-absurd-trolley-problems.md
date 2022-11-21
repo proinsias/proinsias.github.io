@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-21 14:41 -0400'
-date: '2022-10-31 14:41 -0400'
+modified: 2022-10-21
+date: 2022-10-31
 layout: single
 published: true
 title: Absurd trolley problems

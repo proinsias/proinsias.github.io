@@ -2,8 +2,8 @@
 layout: single
 title: "ICS: Providing a 'subscribe in Google Calendar' link for a feed"
 excerpt: Show Google Calendar interface even with a custom feed
-date: 2021-04-04 10:00
-modified: 2022-11-08 10:00
+date: 2021-04-04
+modified: 2022-11-08
 categories: til
 tags:
     - ics

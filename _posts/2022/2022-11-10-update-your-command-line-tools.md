@@ -1,6 +1,6 @@
 ---
-modified: '2022-11-10 13:12 -0500'
-date: '2022-11-10 13:12 -0500'
+modified: 2022-11-10
+date: 2022-11-10
 layout: single
 published: true
 title: Update your command line tools

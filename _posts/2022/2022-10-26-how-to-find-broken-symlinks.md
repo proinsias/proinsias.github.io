@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-26 09:34 -0400'
-date: '2022-10-26 09:34 -0400'
+modified: 2022-10-26
+date: 2022-10-26
 layout: single
 published: true
 title: How to find broken symlinks

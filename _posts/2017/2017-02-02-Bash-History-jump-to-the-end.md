@@ -2,8 +2,8 @@
 layout: single
 title: 'Bash: Jump To The Ends Of Your Shell History'
 excerpt: The meta key to the rescue
-date: 2017-02-02 20:57
-modified: 2022-11-10 20:57
+date: 2017-02-02
+modified: 2022-11-10
 categories: til
 tags:
     - bash

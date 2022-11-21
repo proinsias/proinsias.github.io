@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-21 15:01 -0400'
-date: '2022-10-31 15:01 -0400'
+modified: 2022-10-21
+date: 2022-10-31
 layout: single
 published: false
 title: Easier access to digital health records

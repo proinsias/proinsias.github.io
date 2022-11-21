@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Nix: Search History"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Search History'
+date: 2017-03-03
+modified: 2022-11-21
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Often times there is a very specific command you have entered into your bash

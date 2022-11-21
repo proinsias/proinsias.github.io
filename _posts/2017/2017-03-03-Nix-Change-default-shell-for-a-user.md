@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Change Default Shell For A User'
 excerpt: Take a new shell for a spin!
-date: 2017-03-03 05:34
-modified: 2022-11-15 05:34
+date: 2017-03-03
+modified: 2022-11-15
 categories: til
 tags:
     - nix

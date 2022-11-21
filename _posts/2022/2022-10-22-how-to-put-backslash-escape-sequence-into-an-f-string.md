@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-22 20:37 -0400'
-date: '2022-10-22 20:37 -0400'
+modified: 2022-10-22
+date: 2022-10-22
 layout: single
 published: true
 title: How to put backslash escape sequence into an f-string

@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: A Better Null Display Character"
+title: 'PSQL: A Better Null Display Character'
 excerpt: Update the default null
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 By default, `psql` will display null values with whitespace. This makes it

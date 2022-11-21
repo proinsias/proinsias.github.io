@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Make a noise!'
 excerpt: Get a notification from your script
-date: 2021-06-08 17:54
-modified: 2022-11-02 17:54
+date: 2021-06-08
+modified: 2022-11-02
 categories: til
 tags:
     - nix

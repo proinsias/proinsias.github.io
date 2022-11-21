@@ -2,8 +2,8 @@
 layout: single
 title: 'HTTP: Simulate unexpected network conditions with deelay.me'
 excerpt: Another webpage to add to your toolkit
-date: 2021-10-25 13:23
-modified: 2021-10-25 13:23
+date: 2021-10-25
+modified: 2021-10-25
 categories: tips
 tags:
     - http

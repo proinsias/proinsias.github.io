@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Set A Seed For The Random Number Generator"
+title: 'PSQL: Set A Seed For The Random Number Generator'
 excerpt: Allow for reproducibility
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 In PostgreSQL, the internal seed for the random number generator is a

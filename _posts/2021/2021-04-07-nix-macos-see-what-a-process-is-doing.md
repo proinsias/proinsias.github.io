@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix/Macos: See what a process is doing'
 excerpt: Understand why that process is taking so long
-date: 2021-04-07 11:31
-modified: 2022-11-04 11:31
+date: 2021-04-07
+modified: 2022-11-04
 categories: til
 tags:
     - mac

@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Sponge soaks up standard input and writes it to a file'
 excerpt: Easily construct pipelines that read from and write to the same file
-date: 2021-05-21 18:57
-modified: 2022-11-02 18:57
+date: 2021-05-21
+modified: 2022-11-02
 categories: til
 tags:
     - til

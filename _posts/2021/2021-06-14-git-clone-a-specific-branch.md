@@ -2,8 +2,8 @@
 layout: single
 title: 'Git: Clone a specific branch'
 excerpt: Speed up your git clones
-date: 2021-06-14 19:51
-modified: 2021-06-14 19:51
+date: 2021-06-14
+modified: 2021-06-14
 categories: til
 tags:
     - git

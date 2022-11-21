@@ -2,8 +2,8 @@
 layout: single
 title: 'Python: The SimpleNamespace Utility Class'
 excerpt: Easily add and remove attributes
-date: 2021-04-06 15:48
-modified: 2022-11-04 15:48
+date: 2021-04-06
+modified: 2022-11-04
 categories: til
 tags:
     - python

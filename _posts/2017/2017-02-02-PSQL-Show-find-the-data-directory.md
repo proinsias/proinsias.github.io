@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "PSQL: Find The Data Directory"
+title: 'PSQL: Find The Data Directory'
 excerpt: Via show data_directory
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Where does postgres store all of the data for a database cluster? Well, in

@@ -2,8 +2,8 @@
 layout: single
 title: 'Python: Upgrading Homebrew packages using pip'
 excerpt: Deep dive into homebrew python environments
-date: 2021-04-04 21:47
-modified: 2022-11-08 21:47
+date: 2021-04-04
+modified: 2022-11-08
 categories: til
 tags:
     - homebrew

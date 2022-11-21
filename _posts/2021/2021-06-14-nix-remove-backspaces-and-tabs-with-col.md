@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Remove backspaces and tabs with col'
 excerpt: Tidy up text output of various commands
-date: 2021-06-14 17:47
-modified: 2021-06-14 17:47
+date: 2021-06-14
+modified: 2021-06-14
 categories: til
 tags:
     - nix

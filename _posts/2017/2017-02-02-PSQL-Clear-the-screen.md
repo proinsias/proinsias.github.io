@@ -2,8 +2,8 @@
 layout: single
 title: 'PSQL: Clear The Screen In psql'
 excerpt: Via the clear shell command
-date: 2017-02-02 20:57
-modified: 2022-11-11 20:57
+date: 2017-02-02
+modified: 2022-11-11
 categories: til
 tags:
     - psql

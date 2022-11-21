@@ -2,8 +2,8 @@
 layout: single
 title: 'Docker: Verify docker-compose configuration'
 excerpt: Validate your docker-compose.yml files
-date: 2021-10-25 13:18
-modified: 2021-10-25 13:18
+date: 2021-10-25
+modified: 2021-10-25
 categories: til
 tags:
     - docker

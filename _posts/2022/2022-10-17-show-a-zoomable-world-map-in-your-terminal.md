@@ -1,15 +1,15 @@
 ---
 layout: single
 title: 'Show a zoomable world map in your terminal'
-date: 2022-10-17 12:00
-modified: 2022-10-17 12:00
+date: 2022-10-17
+modified: 2022-10-17
 categories: tips
 excerpt: Browse the world from your command line
 tags:
     - bash
     - shell
-    - utility`
-    - tips`
+    - utility
+    - tips
 ---
 
 If you've always want to browse a zoomable world map via your [terminal](https://asciinema.org/a/117813?autoplay=1),

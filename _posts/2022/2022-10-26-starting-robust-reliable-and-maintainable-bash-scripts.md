@@ -1,6 +1,6 @@
 ---
-modified: '2022-10-26 09:42 -0400'
-date: '2022-10-26 09:42 -0400'
+modified: 2022-10-26
+date: 2022-10-26
 layout: single
 published: true
 title: Starting robust reliable and maintainable bash scripts

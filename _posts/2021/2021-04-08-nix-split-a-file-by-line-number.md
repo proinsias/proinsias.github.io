@@ -2,8 +2,8 @@
 layout: single
 title: 'Nix: Split a file by line number'
 excerpt: Extra options for output file names
-date: 2021-04-08 10:44
-modified: 2022-11-02 10:44
+date: 2021-04-08
+modified: 2022-11-02
 categories: til
 tags:
     - nix
