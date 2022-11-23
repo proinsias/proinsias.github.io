@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Kill Everything Running On A Certain Port"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Kill Everything Running On A Certain Port'
+excerpt: Using the lsof command
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can quickly kill everything running on a certain port with the following

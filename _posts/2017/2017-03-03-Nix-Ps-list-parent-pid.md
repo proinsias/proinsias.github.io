@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: List parent pid with ps"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: List parent pid with ps'
+excerpt: Using the -f flag
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `ps` command, which stands for `process status`, is a great way to find

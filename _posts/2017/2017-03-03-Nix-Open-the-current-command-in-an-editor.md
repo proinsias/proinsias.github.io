@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Open The Current Command In An Editor"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Open The Current Command In An Editor'
+excerpt: Using Ctrl-x Ctrl-e
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 If you are working with a complicated command in the terminal trying to get

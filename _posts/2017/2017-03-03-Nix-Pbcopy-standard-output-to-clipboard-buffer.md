@@ -1,12 +1,14 @@
 ---
 layout: single
-title: "Nix: Standard output to clipboard buffer"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Standard output to clipboard buffer'
+excerpt: Using the pbcopy command on macOS
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - macos
+    - nix
+    - til
 ---
 
 Adding `| pbcopy` to the end of any command will send the standard output

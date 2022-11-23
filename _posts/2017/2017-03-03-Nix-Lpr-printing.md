@@ -1,12 +1,14 @@
 ---
 layout: single
-title: "Nix: Printing with lpr"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Printing with lpr'
+excerpt: On macOS
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - macos
+    - nix
+    - til
 ---
 
 Recently while trying to fix a printer I used `lpr` a bunch of times.

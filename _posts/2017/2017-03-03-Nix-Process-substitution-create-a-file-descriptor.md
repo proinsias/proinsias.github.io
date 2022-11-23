@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Create A File Descriptor with Process Substitution"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Create A File Descriptor with Process Substitution'
+excerpt: Make a command's output appear to come from a file
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Process substitution can be used to create a file descriptor from the

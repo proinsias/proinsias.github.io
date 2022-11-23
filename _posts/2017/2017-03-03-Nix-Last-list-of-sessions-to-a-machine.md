@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: List Of Sessions To A Machine"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: List Of Sessions To A Machine'
+excerpt: Using the last command
+date: 2017-03-03
+modified: 2022-11-23
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `last` command is a handy way to find out who has been connecting to a
