@@ -109,7 +109,7 @@ And so 'An Independent Mind' was born.
 
 ## 😜Here's a Joke for you
 
-<img src="https://readme-jokes.vercel.app/api" alt="Refresh again to view Jokes Card" />
+![Jokes Card](https://readme-jokes.vercel.app/api)
 
 <img src="/assets/images/all_models_are_wrong.jpg" alt="All Models are Wrong"/>
 
