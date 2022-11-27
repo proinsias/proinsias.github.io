@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Killing A Frozen SSH Session"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Killing A Frozen SSH Session'
+excerpt: Something else to do rather than mashing the keyboard
+date: 2017-03-03
+modified: 2022-11-26
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Whenever an SSH session freezes, I usually mash the keyboard in desperation

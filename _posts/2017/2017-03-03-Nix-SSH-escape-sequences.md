@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: SSH Escape Sequences"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: SSH Escape Sequences'
+excerpt: Power user commands
+date: 2017-03-03
+modified: 2022-11-26
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 To see the SSH Escape Sequences, hit `<Enter>~?`.

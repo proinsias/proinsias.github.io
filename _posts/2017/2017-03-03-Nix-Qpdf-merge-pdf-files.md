@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Merge pdf files"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Merge pdf files'
+excerpt: Using the qpdf command
+date: 2017-03-03
+modified: 2022-11-26
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can use qpdf to merge pdf files into a single file as follow:
