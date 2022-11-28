@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Run local scripts remotely with SSH"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Run local scripts remotely with SSH'
+excerpt: Via the bash command
+date: 2017-03-03
+modified: 2022-11-28
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 To run a local script `enki.sh` on a remote machine, use:

@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Nix: Stay connected without an interactive SSH shell'
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+excerpt: Using the -N flag
+date: 2017-03-03
+modified: 2022-11-28
 categories: til
 tags:
     - nix

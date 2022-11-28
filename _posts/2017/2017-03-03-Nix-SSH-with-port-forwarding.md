@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Nix: SSH With Port Forwarding'
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+excerpt: Using the -L flag
+date: 2017-03-03
+modified: 2022-11-28
 categories: til
 tags:
     - nix

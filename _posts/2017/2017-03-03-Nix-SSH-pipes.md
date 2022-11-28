@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: SSH pipes"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: SSH pipes'
+excerpt: Execute half your command locally and half remotely
+date: 2017-03-03
+modified: 2022-11-28
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 One of the benefits of piping is that you can use it over networks and it does wonders for
