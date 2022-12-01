@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: See all versions of package in the archive"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: See all versions of package in the archive'
+excerpt: Using the apt-cache policy command
+date: 2017-03-03
+modified: 2022-11-30
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Use `apt-cache policy <package>`. For example:

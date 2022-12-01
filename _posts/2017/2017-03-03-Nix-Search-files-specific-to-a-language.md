@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Search Files Specific To A Language"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Search Files Specific To A Language'
+excerpt: Using the ack command
+date: 2017-03-03
+modified: 2022-11-30
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `ack` command makes it easy to narrow the set of searched files to those

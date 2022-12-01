@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Search Man Page Descriptions"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Search Man Page Descriptions'
+excerpt: Using the apropos command
+date: 2017-03-03
+modified: 2022-11-30
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 You can use the `apropos` command with a keyword argument to search for that

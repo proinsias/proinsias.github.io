@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Sort In Numerical Order"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Sort In Numerical Order'
+excerpt: Using the --numeric-sort flag
+date: 2017-03-03
+modified: 2022-11-30
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 By default, the `sort` command will sort things alphabetically. If you have
@@ -28,7 +29,7 @@ $ ls | sort
 5.txt
 ```
 
-with the `-n` flag, I get the sort order I am looking for.
+with the `-n` (or `--numeric-sort`) flag, I get the sort order I am looking for.
 
 ```bash
 $ ls | sort -n
