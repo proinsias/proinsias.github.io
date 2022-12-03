@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Nix: Duplicate pipe content'
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+excerpt: Write to multiple files at the same time
+date: 2017-03-03
+modified: 2022-12-02
 categories: til
 tags:
     - nix

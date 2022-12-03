@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Force cpus to run at max with stress"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Force cpus to run at max'
+excerpt: Using the stress command
+date: 2017-03-03
+modified: 2022-12-02
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 To make your 4 CPUs run flat out for 60 seconds:

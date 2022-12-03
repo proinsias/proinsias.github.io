@@ -1,16 +1,17 @@
 ---
 layout: single
-title: "Nix: Monitor System Memory with vmstat"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Monitor System Memory with vmstat'
+excerpt: Can set a sampling period too
+date: 2017-03-03
+modified: 2022-12-02
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 `vmstat` allows the user to monitor virtual memory statistics such as processes,
-memory, paging, block IO, traps , disks and cpu activity.
+memory, paging, block IO, traps, disks and cpu activity.
 
 The user can specify a sampling period.
 
@@ -30,13 +31,13 @@ us sy id wa
 The above will run `vmstat` every second and display system virtual memory usage
 such as:
 
-- `r` number process waiting to run,
-- `b` blocked process,
-- `swpd` virtual memory used,
-- `free` idle memory,
-- `bi`, `bo` number of blocks sent and received from disk,
-- `us` time spent in user code, or
-- `sy` time spent in kernel code.
+-   `r` number process waiting to run,
+-   `b` blocked process,
+-   `swpd` virtual memory used,
+-   `free` idle memory,
+-   `bi`, `bo` number of blocks sent and received from disk,
+-   `us` time spent in user code, or
+-   `sy` time spent in kernel code.
 
 As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of measurement
 for memory.

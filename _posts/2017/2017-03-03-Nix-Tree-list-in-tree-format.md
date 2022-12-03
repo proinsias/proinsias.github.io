@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: List contents of directories in a tree-like format"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: List contents of directories in a tree-like format'
+excerpt: Via the tree command
+date: 2017-03-03
+modified: 2022-12-02
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Why don't I use this command more?

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Watch That Program"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Watch That Program'
+excerpt: For example, watch ls
+date: 2017-03-03
+modified: 2022-12-02
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Have you ever been working in the terminal and found yourself repeating the
