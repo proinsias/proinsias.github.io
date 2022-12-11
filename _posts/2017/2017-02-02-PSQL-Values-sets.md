@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Sets With The Values Command"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Sets With The Values Command'
+excerpt: Create single or even multiple columns of values
+date: 2017-02-02
+modified: 2022-12-10
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 You can concisely create sets of values in PostgreSQL using the `values`

@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Who Is The Current User"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Who Is The Current User'
+excerpt: The current_user variable
+date: 2017-02-02
+modified: 2022-12-10
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 You can determine the current user of a psql session by selecting on the `current_user`

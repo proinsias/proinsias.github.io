@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Use Argument Indexes"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Use Argument Indexes'
+excerpt: Stop repeating yourself
+date: 2017-02-02
+modified: 2022-12-10
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 In Postgres, each of the arguments you specify in a `select` statement has a
