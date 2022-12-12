@@ -4,3 +4,4 @@ _site/
 !/bin*
 megalinter-reports/
 report/
+.pre-commit-trivy-cache
