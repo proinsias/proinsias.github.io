@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Restore a database"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Restore a database'
+excerpt: Using the pg_restore function
+date: 2017-02-02
+modified: 2022-12-14
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 To restore the dump, create a fresh database and then use `pg_restore`:

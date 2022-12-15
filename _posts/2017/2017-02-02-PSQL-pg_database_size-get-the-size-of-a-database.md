@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Get The Size Of A Database"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Get The Size Of A Database'
+excerpt: Using the pg_database_size function
+date: 2017-02-02
+modified: 2022-12-14
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 If you have connect access to a PostgreSQL database, you can use the

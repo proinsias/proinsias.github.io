@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Get The Size Of A Table"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Get The Size Of A Table'
+excerpt: Using the pg_relation_size function
+date: 2017-02-02
+modified: 2022-12-14
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 With the `pg_relation_size()` function, we can get the size of a given table.

@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Dump a database"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Dump a database'
+excerpt: Using pg_dump function
+date: 2017-02-02
+modified: 2022-12-14
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Using the `pg_dump` with the `-Fc` flag will create a dump of the given
