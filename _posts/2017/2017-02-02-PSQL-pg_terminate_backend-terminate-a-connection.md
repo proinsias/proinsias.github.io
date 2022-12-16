@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Terminating A Connection"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Terminating A Connection'
+excerpt: Using the pg_terminate_backend command
+date: 2017-02-02
+modified: 2022-12-15
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 Consider the scenario where you are trying to drop a database, but there are

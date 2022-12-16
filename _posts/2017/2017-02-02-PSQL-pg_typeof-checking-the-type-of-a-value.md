@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: Checking The Type Of A Value"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: Checking The Type Of A Value'
+excerpt: Using the pg_typeof funtion
+date: 2017-02-02
+modified: 2022-12-15
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 The `pg_typeof()` function allows you to determine the data type of anything

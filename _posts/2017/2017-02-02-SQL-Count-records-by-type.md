@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: Count Records By Type"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'SQL: Count Records By Type'
+excerpt: Using group by
+date: 2017-02-02
+modified: 2022-12-15
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 If you have a table with some sort of type column on it, you can come up

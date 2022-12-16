@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "PSQL: List Connections To A Database"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'PSQL: List Connections To A Database'
+excerpt: Using the pg_stat_activity table
+date: 2017-02-02
+modified: 2022-12-15
 categories: til
 tags:
-  - psql
-  - sql
-  - til
+    - psql
+    - sql
+    - til
 ---
 
 The `pg_stat_activity` table can be used to determine what connections there
