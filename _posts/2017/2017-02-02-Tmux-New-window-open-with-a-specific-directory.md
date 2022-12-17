@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: Open New Window With A Specific Directory"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: Open New Window With A Specific Directory'
+excerpt: Using new-window
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 When you initially start a tmux session, the default directory is based off

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: List All Key Bindings"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: List All Key Bindings'
+excerpt: Using list-keys
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 There are a couple ways to list all the tmux key bindings. If you are not

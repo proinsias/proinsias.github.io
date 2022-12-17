@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: Word Count for a Column"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'SQL: Word Count for a Column'
+excerpt: Using array_length and regexp_split_to_array
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 Assuming I have a database with a posts table:

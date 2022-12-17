@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: Day Of Week By Name For A Date"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'SQL: Day Of Week By Name For A Date'
+excerpt: Using to_char
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 By using the `to_char()` function with a date or timestamp,

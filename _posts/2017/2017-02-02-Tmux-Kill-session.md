@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: Kill The Current Session"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: Kill The Current Session'
+excerpt: Using kill-session
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 When you are done with the current tmux session and you no longer need it,

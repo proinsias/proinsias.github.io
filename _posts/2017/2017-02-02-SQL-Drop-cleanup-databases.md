@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: Cleanup Databases"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'SQL: Cleanup Databases'
+excerpt: Using drop database
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 ```sql

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: Create A New Session In A New Server"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: Create A New Session In A New Server'
+excerpt: Using the -L flag
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 Any tmux command will, by default, be invoked against the `default`

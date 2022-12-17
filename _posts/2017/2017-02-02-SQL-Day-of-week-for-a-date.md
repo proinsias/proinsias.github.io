@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: Day Of Week For A Date"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'SQL: Day Of Week For A Date'
+excerpt: Using date_part
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 Given a `date` in PostgreSQL

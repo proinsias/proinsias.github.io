@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: List Sessions"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: List Sessions'
+excerpt: Using the ls or list-sessions command
+date: 2017-02-02
+modified: 2022-12-16
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 Not sure if `tmux` is running or, if it is, which sessions are available?
