@@ -135,7 +135,7 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.2.180
+      rev: 2.2.186
       hooks:
           - id: checkov
 
