@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: Rename The Current Session"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: Rename The Current Session'
+date: 2017-02-02
+modified: 2022-12-23
+excerpt: Using <prefix>$
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 If you've created an unnamed tmux session or you no longer like the original

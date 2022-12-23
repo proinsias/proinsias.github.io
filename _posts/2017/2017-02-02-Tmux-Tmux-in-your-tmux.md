@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: tmux in your tmux"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: tmux in your tmux'
+date: 2017-02-02
+modified: 2022-12-23
+excerpt: Use your prefix twice to access inner tmux instance
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 If you are running tmux locally and you shell into another machine to

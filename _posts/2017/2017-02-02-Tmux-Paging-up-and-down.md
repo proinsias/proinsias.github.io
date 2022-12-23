@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Tmux: Paging Up And Down"
-date: 2017-02-02 20:57
-modified: 2017-02-02 20:57
+title: 'Tmux: Paging Up And Down'
+date: 2017-02-02
+modified: 2022-12-23
+excerpt: Using control-u and control-d
 categories: til
 tags:
-  - til
-  - tmux
+    - til
+    - tmux
 ---
 
 When in _copy mode_ (`<prefix>[`), you can move the cursor around like you
