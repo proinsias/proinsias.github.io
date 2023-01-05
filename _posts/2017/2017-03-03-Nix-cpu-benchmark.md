@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: CPU Benchmark"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: CPU Benchmark'
+excerpt: Using the dd command
+date: 2017-03-03
+modified: 2023-01-05
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 `dd` in conjunction with any stream-processing CPU-intensive program can be used

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Check Ubuntu Version"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Check Ubuntu Version'
+excerpt: Using the lsb_release command
+date: 2017-03-03
+modified: 2023-01-05
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Are you on Ubuntu? Want to know what version (release) of Ubuntu you are

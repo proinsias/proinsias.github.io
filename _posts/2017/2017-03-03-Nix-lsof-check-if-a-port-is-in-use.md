@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Check If A Port Is In Use"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Check If A Port Is In Use'
+excerpt: Using the lsof command
+date: 2017-03-03
+modified: 2023-01-05
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 The `lsof` command is used to _list open files_. This includes listing

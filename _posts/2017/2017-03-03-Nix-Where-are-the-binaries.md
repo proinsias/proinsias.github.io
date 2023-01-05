@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Where Are The Binaries"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Where Are The Binaries'
+excerpt: Using the where command
+date: 2017-03-03
+modified: 2023-01-05
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 When I want to know where an executable is, I use `which` like so:

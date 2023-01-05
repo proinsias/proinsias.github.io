@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Max out CPU with Yes"
-date: 2017-03-03 05:34
-modified: 2017-03-03 05:34
+title: 'Nix: Max out CPU with Yes'
+excerpt: Using the yes command
+date: 2017-03-03
+modified: 2023-01-05
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 If you want a quick and easy method to max out the usage of a CPU core, just use `yes`:

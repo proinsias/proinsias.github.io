@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Combating Fake News With a Smartphone'
-date: 2017-03-09 10:01
-modified: 2017-03-09 10:01
+excerpt: The Guardian Project
+date: 2017-03-09
+modified: 2023-01-05
 categories: tips
 tags:
     - fake-news
