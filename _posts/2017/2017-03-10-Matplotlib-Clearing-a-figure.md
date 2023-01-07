@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Matplotlib: Clearing a figure"
-date: 2017-03-10 14:29
-modified: 2017-03-10 14:29
+title: 'Matplotlib: Clearing a figure'
+date: 2017-03-10
+modified: 2022-01-06
+excerpt: cla v clf v close
 categories: til
 tags:
-  - matplotlib
-  - plot
-  - til
-  - visualization
+    - matplotlib
+    - plot
+    - til
+    - visualization
 ---
 
 ```python

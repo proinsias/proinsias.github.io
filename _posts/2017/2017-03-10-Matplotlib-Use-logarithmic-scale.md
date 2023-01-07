@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Matplotlib: Use logarithmic scale"
-date: 2017-03-10 14:14
-modified: 2017-03-10 14:14
+title: 'Matplotlib: Use logarithmic scale'
+date: 2017-03-10
+modified: 2022-01-06
+excerpt: Using the set_xscale and set_yscale commands
 categories: til
 tags:
-  - matplotlib
-  - plot
-  - til
-  - visualization
+    - matplotlib
+    - plot
+    - til
+    - visualization
 ---
 
 ```python

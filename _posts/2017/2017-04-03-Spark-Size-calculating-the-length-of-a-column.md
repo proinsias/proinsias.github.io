@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Spark: Calculating the length of a column with size"
-date: 2017-04-03 20:53
-modified: 2017-04-03 20:53
+title: 'Spark: Calculating the length of a column with size'
+date: 2017-04-03
+modified: 2022-01-06
+excerpt: Using the size command
 categories: til
 tags:
-  - spark
-  - til
+    - spark
+    - til
 ---
 
 In Spark >= 1.5 you can use the `size` function to calculate the length of a column:

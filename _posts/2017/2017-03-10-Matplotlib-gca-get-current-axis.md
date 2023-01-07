@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Matplotlib: Get current axis"
-date: 2017-03-10 14:17
-modified: 2017-03-10 14:17
+title: 'Matplotlib: Get current axis'
+date: 2017-03-10
+modified: 2022-01-06
+excerpt: Using the gca command
 categories: til
 tags:
-  - matplotlib
-  - plot
-  - til
-  - visualization
+    - matplotlib
+    - plot
+    - til
+    - visualization
 ---
 
 `matplotlib.pyplot.gca(**kwargs)` gets the current `Axes` instance on the current

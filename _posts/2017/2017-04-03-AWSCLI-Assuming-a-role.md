@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "AWS CLI: Assuming a role"
-date: 2017-04-03 20:47
-modified: 2017-04-03 20:47
+title: 'AWS CLI: Assuming a role'
+date: 2017-04-03
+modified: 2022-01-06
+excerpt: Using the aws config files
 categories: til
 tags:
-  - awscli
-  - til
+    - awscli
+    - til
 ---
 
 You can configure the AWS Command Line Interface to use a role by creating a profile for

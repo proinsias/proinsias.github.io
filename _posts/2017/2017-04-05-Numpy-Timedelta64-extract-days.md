@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Numpy: Extract days from timedelta64"
-date: 2017-04-05 21:31
-modified: 2017-04-05 21:31
+title: 'Numpy: Extract days from timedelta64'
+date: 2017-04-05
+modified: 2022-01-06
+excerpt: Using np.timedelta64 itself
 categories: til
 tags:
-  - numpy
-  - til
+    - numpy
+    - til
 ---
 
 To extract the integer value of days from a `numpy.timedelta64`, you divide it with a
