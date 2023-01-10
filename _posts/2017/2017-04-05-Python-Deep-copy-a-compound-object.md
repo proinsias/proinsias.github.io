@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Deep copy a compound object"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Deep copy a compound object'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using deepcopy
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 > Assignment statements in Python do not copy objects, they create bindings between a
@@ -16,10 +17,10 @@ tags:
 > The difference between shallow and deep copying is only relevant for compound objects
 > (objects that contain other objects, like lists or class instances):
 
-- A shallow copy constructs a new compound object and then (to the extent possible)
-  inserts references into it to the objects found in the original.
-- A deep copy constructs a new compound object and then, recursively, inserts copies
-  into it of the objects found in the original.
+-   A shallow copy constructs a new compound object and then (to the extent possible)
+    inserts references into it to the objects found in the original.
+-   A deep copy constructs a new compound object and then, recursively, inserts copies
+    into it of the objects found in the original.
 
 ```python
 >>> items = [

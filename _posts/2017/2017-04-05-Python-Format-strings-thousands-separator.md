@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Thousands Separator in Formatted Strings"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Thousands Separator in Formatted Strings'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Just add ':,' to the format specifier
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 It's very easy to add thousands separators to numbers:

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Invert a mapping"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Invert a mapping'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using items()
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 Given this dictionary:

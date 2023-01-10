@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Nested Comprehensions"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Nested Comprehensions'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using two fors within a comprehension
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 You probably know how to rewrite a for loop such as:

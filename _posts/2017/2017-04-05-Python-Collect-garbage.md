@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Collect garbage"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Collect garbage'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using the gc module
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 If you have a variable with a large memory footprint, you can force garbage collection

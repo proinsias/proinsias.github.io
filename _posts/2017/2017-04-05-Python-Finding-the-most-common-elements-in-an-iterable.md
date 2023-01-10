@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Find the most common elements in an iterable"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Find the most common elements in an iterable'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using the collections module
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 ```python

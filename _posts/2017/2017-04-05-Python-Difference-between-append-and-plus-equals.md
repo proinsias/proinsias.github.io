@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Difference between append and '+='"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: "Python: Difference between append and '+=' for lists"
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: An exception to the general interchangeability
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 In many applications `+=` and `append` are interchangeable,

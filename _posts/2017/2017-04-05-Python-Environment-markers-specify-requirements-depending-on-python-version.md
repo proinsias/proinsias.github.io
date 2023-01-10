@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Specify requirements depending on python version using environment markers"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Specify requirements depending on python version using environment markers'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: For example python_version and sys.platform
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 You can use the [environment markers](https://www.python.org/dev/peps/pep-0496/)

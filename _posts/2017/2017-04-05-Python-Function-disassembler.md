@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Function disassembler"
-date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+title: 'Python: Function disassembler'
+date: 2017-04-05
+modified: 2023-01-10
+excerpt: Using the dis module
 categories: til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 You can use Python's built-in `dis` module to disassemble functions and
