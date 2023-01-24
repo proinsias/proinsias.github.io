@@ -11,15 +11,15 @@ Here's a list of some of the projects I've been involved in over the years:
 
 <!-- FIXME: Keep adding from HIQ. -->
 
--   [In the OR, Accuracy in Scheduling is Everything](https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/).
+-   [In the OR, Accuracy in Scheduling is Everything](https://web.archive.org/web/20221109153007/https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/).
 
--   [Proactive Discharge Planning: Managing Patient Stays to Optimize the Discharge Day](https://www.hospiq.com/blog/proactive-discharge-planning-managing-patient-stays-to-optimize-the-discharge-day/).
+-   [Proactive Discharge Planning: Managing Patient Stays to Optimize the Discharge Day](https://web.archive.org/web/20230124154310/https://www.hospiq.com/blog/proactive-discharge-planning-managing-patient-stays-to-optimize-the-discharge-day/).
 
--   [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
+-   [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://web.archive.org/web/20220716034049/https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
 
--   [Predicting Discharge Barriers to Optimize Patient Flow](https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
+-   [Predicting Discharge Barriers to Optimize Patient Flow](https://web.archive.org/web/20230124154406/https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
 
--   Predicting which [Operating Room reservation blocks](https://www.hospiq.com/solutions/perioperative/)
+-   Predicting which [Operating Room reservation blocks](https://web.archive.org/web/20220902151438/https://www.hospiq.com/solutions/perioperative/)
     are most likely to go unused.
 
 -   The [OM1 Medical Burden Index (OMBI®)](https://www.om1.com/solutions/aipredictivemedicine/ombi/)
