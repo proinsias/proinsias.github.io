@@ -15,7 +15,7 @@ source 'https://rubygems.org'
 
 source "https://rubygems.org"
 
-gem "github-pages", '>= 227', group: :jekyll_plugins
+gem "github-pages", ">= 227", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem 'bundler'
