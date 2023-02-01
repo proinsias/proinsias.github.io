@@ -1,7 +1,7 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: 'Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek.'
+excerpt: 'Data Science Manager at LeanTaaS – Planet discoverer, researcher, developer, geek.'
 sitemap: false
 permalink: /about/
 author_profile: false
@@ -21,9 +21,11 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 <!-- markdownlint-disable line-length -->
 
--   I'm the Senior Data Science Manager at
-<a href="https://www.hospiq.com"><img src="https://www.hospiq.com/wp-content/uploads/2020/03/HospitalIQ-LOGO-small.png" alt="Hospital IQ" width="100"/></a>,
-where our goal is to improve the productivity and happiness of every healthcare worker every day.
+-   I'm a Data Science Manager at
+    <a href="https://www.leantaas.com">
+    <img src="https://leantaas.com/wp-content/uploads/2021/06/LeanTaaS-new-logo.svg" alt="LeanTaaS" width="100"/></a>,
+    where our goal is better healthcare through math.
+
 <!-- markdownlint-enable line-length -->
 
 <!-- textlint-disable alex -->
