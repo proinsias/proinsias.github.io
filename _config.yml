@@ -124,7 +124,7 @@ author:
   name: Francis T. O'Donovan
   avatar: /assets/images/bio-photo.jpg
   # yamllint disable-line rule:line-length
-  bio: Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek.
+  bio: Data Science Manager at LeanTaaS – Planet discoverer, researcher, developer, geek.
   location: Boston, MA
   links:
     - label: Website
