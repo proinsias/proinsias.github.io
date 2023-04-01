@@ -75,6 +75,8 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 
 <h2 id="news">In the News</h2>
 
+-   Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
+
 -   Number 5 is in the bag..., [TrES-5](https://www.doi.org/10.1088/0004-637X/741/2/114)!
 
 -   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
