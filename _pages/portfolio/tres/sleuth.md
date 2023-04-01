@@ -56,6 +56,7 @@ that helped discover three transiting exoplanets.
 
 ## Sleuth News
 
+-   Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
 -   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
 -   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
 -   We found a transiting planet, [TrES-3](https://proinsias.github.io/portfolio/tres/tres3.html),
