@@ -80,6 +80,7 @@ with Kepler that include searching for moons around TrES-2.
 
 ## TrES-2 Press and Links
 
+-   Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
 -   Wikipedia [entry](https://en.wikipedia.org/wiki/TrES-2b).
 -   [Harvard Crimson](https://web.archive.org/web/20080623114304/http://www.thecrimson.com/article.aspx?ref=514347), "New Planets Discovered".
 -   [SpaceFlight Now](https://web.archive.org/web/20080623114304/http://www.spaceflightnow.com/news/n0609/19planet/), "Jupiter-size planet found by telescope network".
