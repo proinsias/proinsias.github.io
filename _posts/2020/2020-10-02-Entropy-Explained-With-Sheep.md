@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Entropy Explained, With Sheep'
-date: 2020-10-02 19:47
-modified: 2020-10-02 19:47
+excerpt: You won't fall asleep with this!
+date: 2020-10-02
+modified: 2023-04-03
 categories: posts
 tags:
     - entropy

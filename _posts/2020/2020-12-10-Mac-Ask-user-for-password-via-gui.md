@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Mac: Ask user for password via GUI"
-date: 2020-12-10 17:08
-modified: 2020-12-10 17:08
+title: 'Mac: Ask user for password via GUI'
+excerpt: Using Applescript
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - mac
-  - til
+    - mac
+    - til
 ---
 
 This function will use AppleScript to present a password entry dialog

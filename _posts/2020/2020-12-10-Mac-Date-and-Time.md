@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Mac: Date and Time"
-date: 2020-12-10 17:06
-modified: 2020-12-10 17:06
+title: 'Mac: Date and Time'
+excerpt: From the command line
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - mac
-  - til
+    - mac
+    - til
 ---
 
 List Available Timezones:

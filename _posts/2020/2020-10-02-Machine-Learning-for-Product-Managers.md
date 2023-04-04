@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Machine Learning for Product Managers'
-date: 2020-10-02 11:45
-modified: 2020-10-02 11:45
+excerpt: And those who communicate with them
+date: 2020-10-02
+modified: 2023-04-03
 categories: tips
 tags:
     - communication

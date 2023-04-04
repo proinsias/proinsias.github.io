@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Finding nulls in DataFrames"
-date: 2021-04-01 10:00
-modified: 2021-04-01 10:00
+title: 'Finding nulls in DataFrames'
+excerpt: Handy one liners I use all the time
+date: 2021-04-01
+modified: 2023-04-03
 categories: tips
 tags:
-  - pandas
-  - tips
+    - pandas
+    - tips
 ---
 
 <!--lint disable list-item-bullet-indent-->

@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Mac: Gatekeeper via the command line"
-date: 2020-12-10 17:00
-modified: 2020-12-10 17:00
+title: 'Mac: Gatekeeper via the command line'
+excerpt: Manage exceptions
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - gatekeeper
-  - mac
-  - til
+    - gatekeeper
+    - mac
+    - til
 ---
 
 Add Gatekeeper Exception:

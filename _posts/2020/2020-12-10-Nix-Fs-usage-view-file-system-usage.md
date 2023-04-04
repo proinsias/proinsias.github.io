@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Fs_usage - View File System Usage"
-date: 2020-12-10 16:58
-modified: 2020-12-10 16:58
+title: 'Nix: Fs_usage - View File System Usage'
+excerpt: As a continuous stream
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 View a continuous stream of file system access info:

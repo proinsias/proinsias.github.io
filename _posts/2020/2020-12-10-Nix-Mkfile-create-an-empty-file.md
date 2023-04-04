@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Nix: Mkfile - Create an empty file"
-date: 2020-12-10 16:55
-modified: 2020-12-10 16:55
+title: 'Nix: Mkfile - Create an empty file'
+excerpt: Of any size!
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - nix
-  - til
+    - nix
+    - til
 ---
 
 Creates an empty 10 gigabyte test file:

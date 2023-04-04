@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Mac: Restart or shutdown"
-date: 2020-12-10 17:04
-modified: 2020-12-10 17:04
+title: 'Mac: Restart or shutdown'
+excerpt: Using reboot and poweroff
+date: 2020-12-10
+modified: 2023-04-03
 categories: til
 tags:
-  - mac
-  - til
+    - mac
+    - til
 ---
 
 You can restart or shutdown from the command line:
