@@ -33,7 +33,7 @@ repos:
     # Markdown
 
     - repo: https://github.com/tcort/markdown-link-check
-      rev: v3.10.3
+      rev: v3.11.0
       hooks:
           - id: markdown-link-check
             args:
@@ -43,7 +43,7 @@ repos:
     # YAML
 
     - repo: https://github.com/adrienverge/yamllint
-      rev: v1.29.0
+      rev: v1.30.0
       hooks:
           - id: yamllint
             args: [-c=.yamllint.yml]
@@ -69,7 +69,7 @@ repos:
             args: [--external-sources, --format=gcc, --shell=bash]
 
     - repo: https://github.com/Lucas-C/pre-commit-hooks
-      rev: v1.4.2
+      rev: v1.5.1
       hooks:
           - id: remove-crlf
           - id: remove-tabs
@@ -83,12 +83,12 @@ repos:
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.16.0
+      rev: v8.16.2
       hooks:
           - id: gitleaks
 
     - repo: https://github.com/rhysd/actionlint
-      rev: v1.6.23
+      rev: v1.6.24
       hooks:
           - id: actionlint
 
@@ -130,12 +130,12 @@ repos:
                 ]
 
     - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v6.28.0
+      rev: v6.31.0
       hooks:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.3.85
+      rev: 2.3.155
       hooks:
           - id: checkov
 
