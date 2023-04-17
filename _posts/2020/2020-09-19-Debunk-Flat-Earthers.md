@@ -1,11 +1,12 @@
 ---
 layout: single
-title: "Debunk Flat Earthers"
-date: 2020-09-19 16:00
-modified: 2020-09-19 16:00
+title: 'Debunk Flat Earthers'
+date: 2020-09-19
+modified: 2023-04-16
+excerpt: Equipped with cardboard
 categories: posts
 tags:
-  - science
+    - science
 ---
 
 Carl Sagan debunks Flat Earthers using nothing more than a piece of cardboard:

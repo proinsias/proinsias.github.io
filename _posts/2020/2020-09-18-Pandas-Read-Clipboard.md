@@ -1,8 +1,9 @@
 ---
 layout: single
-title: 'Pandas: Read Clipboard'
-date: 2020-09-18 13:00
-modified: 2020-09-18 13:00
+title: 'Pandas: Create a DataFrame via the Clipboard'
+date: 2020-09-18
+modified: 2023-04-16
+excerpt: The read_clipboard function.
 categories: til
 tags:
     - clipboard

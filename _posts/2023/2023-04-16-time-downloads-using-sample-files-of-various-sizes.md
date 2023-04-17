@@ -3,8 +3,8 @@ layout: single
 title: 'Time downloads using sample files of various sizes'
 excerpt: Using wget and time
 published: true
-date: 2023-04-16 19:52
-modified: 2023-04-16 19:52
+date: 2023-04-16
+modified: 2023-04-16
 categories: til
 tags:
     - til

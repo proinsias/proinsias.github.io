@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Communicating Data Science with impact'
-date: 2020-10-02 11:11
-modified: 2020-10-02 11:11
+date: 2020-10-02
+modified: 2023-04-16
+excerpt: The difference between a junior and senior Data Scientist
 categories: tips
 tags:
     - communication

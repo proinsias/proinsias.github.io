@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Pandas: Make Data Frame"
-date: 2020-09-18 14:00
-modified: 2020-09-18 14:00
+title: 'Pandas: Make a Data Frame with random floats'
+date: 2020-09-18
+modified: 2023-04-16
+excerpt: The aptly-named makeDataFrame function
 categories: til
 tags:
-  - pandas
-  - random
-  - til
+    - pandas
+    - random
+    - til
 ---
 
 `pandas` has a built-in function `makeDataFrame()` to return a

@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Python: Salted Hash"
-date: 2020-09-19 22:00
-modified: 2020-09-19 22:00
+title: 'Python: Salted Hash'
+date: 2020-09-19
+modified: 2023-04-16
+excerpt: The hashlib module
 categories: til
 tags:
-  - hash
-  - salt
-  - python
-  - til
+    - hash
+    - salt
+    - python
+    - til
 ---
 
 > The salt is just a randomly derived bit of data that you prefix or

@@ -1,19 +1,20 @@
 ---
 layout: single
-title: "Pandas: Combine Functions"
-date: 2020-09-18 21:00
-modified: 2020-09-19 15:00
+title: 'Pandas: Combine Functions'
+date: 2020-09-18
+modified: 2023-04-16
+excerpt: The combine and combine_first functions
 categories: til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 `pandas` has two handy functions for combining DataFrames:
 
-- The
-  [`combine`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine.html)
-  function performs a column-wise combine of one DataFrame with another:
+-   The
+    [`combine`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine.html)
+    function performs a column-wise combine of one DataFrame with another:
 
 ```python
 # Combine using a simple function that chooses the smaller column.
@@ -53,10 +54,10 @@ tags:
 1  0  3
 ```
 
-- The
-  [`combine_first`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine_first.html)
-  function combines the two DataFrames by filling null values in one
-  DataFrame with non-null values from the other:
+-   The
+    [`combine_first`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine_first.html)
+    function combines the two DataFrames by filling null values in one
+    DataFrame with non-null values from the other:
 
 ```python
 >>> df1 = pd.DataFrame({'A': [None, 0], 'B': [4, None]})

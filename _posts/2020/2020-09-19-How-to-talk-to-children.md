@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'How to talk to children'
-date: 2020-09-19 15:00
-modified: 2020-09-19 15:00
+date: 2020-09-19
+modified: 2023-04-16
+excerpt: Fred Rogers' tips
 categories: posts
 tags:
     - children

@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Sklearn: Tree diagram"
-date: 2020-09-11 12:00
-modified: 2020-09-11 12:00
+title: 'Sklearn: Tree diagram'
+date: 2020-09-11
+modified: 2023-04-16
+excerpt: Via the plot_tree command
 categories: til
 tags:
-  - sklearn
-  - til
-  - tree
+    - sklearn
+    - til
+    - tree
 ---
 
 > The `plot_tree()` function allows you to create a diagram of steps present in a decision tree model:
