@@ -11,11 +11,13 @@ Here's a list of some of the projects I've been involved in over the years:
 
 <!-- FIXME: Keep adding from HIQ. -->
 
--   [In the OR, Accuracy in Scheduling is Everything](https://web.archive.org/web/20221109153007/https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/).
+-   [Accurately predicting surgical case lengths](https://web.archive.org/web/20221109153007/https://www.hospiq.com/blog/in-the-or-accuracy-in-scheduling-is-everything/)
+    to optimize OR scheduling.
 
--   [Proactive Discharge Planning: Managing Patient Stays to Optimize the Discharge Day](https://web.archive.org/web/20230124154310/https://www.hospiq.com/blog/proactive-discharge-planning-managing-patient-stays-to-optimize-the-discharge-day/).
+-   [Proactively planning for patient discharges](https://web.archive.org/web/20230124154310/https://www.hospiq.com/blog/proactive-discharge-planning-managing-patient-stays-to-optimize-the-discharge-day/)
+    to reduce delays for patients and optimize bed utilization.
 
--   [Knowing Future Bed Demand with a Surgical Placement Forecaster](https://web.archive.org/web/20220716034049/https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
+-   [Identifying future bed demand post-surgery](https://web.archive.org/web/20220716034049/https://www.hospiq.com/blog/knowing-future-bed-demand-with-a-surgical-placement-forecaster/).
 
 -   [Predicting Discharge Barriers to Optimize Patient Flow](https://web.archive.org/web/20230124154406/https://www.hospiq.com/blog/prioritizing-and-processing-discharges-to-better-manage-patient-flow/).
 
@@ -34,17 +36,25 @@ Here's a list of some of the projects I've been involved in over the years:
 -   [Characterizing user behavior and information propagation on a social multimedia network](https://doi.org/10.1109/ICMEW.2013.6618395).
 <!-- markdownlint-enable line-length -->
 
--   [Activity Learning and Inferencing for Space Situational Awareness](https://www.sbir.gov/sbirsearch/detail/824285).
+-   Establishing timely, accurate, and comprehensive Space Situation Awareness in the
+    [Activity Learning and Inferencing for Space Situational Awareness](https://www.sbir.gov/sbirsearch/detail/824285)
+    and
+    [Rapid Identification of Space Objects using Multisensor Signatures](https://www.sbir.gov/sbirsearch/detail/666352)
+    programs.
 
--   [Rapid Identification of Space Objects using Multisensor Signatures](https://www.sbir.gov/sbirsearch/detail/666352).
-
--   [Context Aware Inference for Advanced Persistent Threat](https://www.sbir.gov/sbirsearch/detail/873315).
-
--   [Context Aware Inference for Navy Cyber Situation Awareness (NCSA)](https://www.sbir.gov/sbirsearch/detail/685198).
+-   Defending against state-of-the-art cyber attacks such as Advanced Persistent Threats in the
+    [Context Aware Inference for Advanced Persistent Threat](https://www.sbir.gov/sbirsearch/detail/873315)
+    and
+    [Context Aware Inference for Navy Cyber Situation Awareness (NCSA)](https://www.sbir.gov/sbirsearch/detail/685198)
+    programs.
 
 <!-- textlint-disable stop-words -->
 
--   [Social Media in Strategic Communication](https://www.darpa.mil/program/social-media-in-strategic-communication).
+-   Developing tools to help identify misinformation or deception campaigns
+    as part of the Defense Advanced Research Projects Agency (DARPA)
+    [Social Media in Strategic Communication](https://www.darpa.mil/program/social-media-in-strategic-communication).
+    (SMISC) program.
+
 <!-- textlint-enable stop-words -->
 
 -   Developing
