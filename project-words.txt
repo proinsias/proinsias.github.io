@@ -516,3 +516,5 @@ Laughlin
 Encyclopaedia
 thinkbroadband
 mastadon
+repr
+dunder
