@@ -1,8 +1,8 @@
 ---
 layout: single
 title: 'Pets v Cattle: Making a personal disaster recovery plan'
-date: 2022-06-21 12:36
-modified: 2022-06-21 12:36
+date: 2022-06-21
+modified: 2023-04-16
 categories: posts
 header:
     image: /assets/images/disaster_recovery_plan.jpg
@@ -18,80 +18,136 @@ tags:
     - stow
 ---
 
-One lesson from a former DevOps colleague that really resonated with me –
-when dealing with computers, you should rely on cattle, not on pets.
-the difference between pets and cattle when in came to machines in DevOps.
+> When dealing with computers, you should rely on cattle, not on pets.
 
-You never want to be in the situation where you have a carefully configured machine that your entire business relies on,
-whether it is a physical server or a virtual machine.
-You never want one machine to dictate the success of your business.
+With these wise words, a former DevOps colleague introduced me to the idea of treating computers
+[as cattle, rather than pets](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/).
+
+<sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
+shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
+.
+
 When you put a lot of love, care and attention into the configuration and maintenance of individual machines,
 they become like pets. You would hate to seem them go.
-What you should do instead is to create a system of machines that can easily be created, configured, deleted and replaced.
-If anything happens to any given machine, you can very easily replace that machine without a lot of effort on your part.
-This is like having cattle, where you have a bunch of animals in your herd, and if something happens to one of them,
-you can easily replace that animal, and you are not as invested in any one animal.
+This is particularly true if your entire business relies on that machine's availability.
+If a machine goes down, you have to wait until a new machine is built,
+and your custom configuration restored from a backup that is _hopefully_ complete and valid.
 
-If someone takes a hammer to your laptop, how quickly before you can be up and running.
-Points for a system that enables you to be working using a minimal configuration
-while additional configuration is done in the background.
+Rather than relying on these "pets", a better approach is to depend on a collections of machines
+that can be easily (i.e., automatically) created, configured, deleted and replaced.
+These machines are "cattle", with a bunch of machines in your "herd".
+If something happens to one of them, you can easily replace that machine.
 
-While this is a good system for how to run your business, this idea really resonated with me because of my own
-previous experience with having to swap work laptop routinely over several months due to some buggy hardware,
-requiring me to recreate my work environment multiple times to get access to the system configuration, applications,
-and documents that I required to get work done.
-I quickly became interested in how to do this as efficiently as possible.
+This DevOps strategy has become an important part of corporate disaster recovery plans,
+because it allows for rapid recovery of entire systems that form the backbone of a business
+and tests that recovery process regularly as individual machines fail.
 
-NEED TO ADDRESS HOW SOMEONE MIGHT NOT THINK THIS WORTHWHILE SINCE THEY DON'T SWAP COMPUTERS REGULARLY.
+While this is a good system for how to run a business,
+this idea resonated with me
+because of my own previous experience having to swap work laptops routinely over several months
+due to some buggy hardware.
+I ended up having to recreate my work environment multiple times
+in order to have access to the applications, documents, and system configuration
+that I required to get my job done.
 
-Idea of keeping your system setup as much in text configuration files as much as possible as a disaster recovery plan.
+As a result of this experience, I became interested in how to do this as efficiently as possible –
+how could I best treat my personal machines as cattle, not as pets?
+How could I develop a personal disaster recovery plan
+that would:
 
-Do do backups: Should have three copies of every important file:
+1. improve upon the standard process of backup and restore of a "pet" computer,
+2. allow for a rapid recovery of my systems that enable me to get work done
+   after they suffer damage, theft or other disaster, and
+3. test that recovery process regularly.
 
-1. On your work machine.
-2. On a local backup drive (spare internal/external drive or network-attached storage (NAS)).
-3. On an off-premise drive, e.g., using a cloud service.
+Here I'll discuss first the issues I've found with the backup/restore process,
+and then what I've come up with so far as an alternative.
+I hope you find it useful, and please let me know if you have your own tips via the comments!
 
-That way even if all your computing devices are stolen, you still have a cloud backup. Also, if you end up losing
-the copy of a file on your work machine,
-you will still have the file on your local drive and a backup on the cloud drive.
+# Entire-system backups are essential and comprehensive but slow
 
-However, there are issue with backups:
+The first step of any recovery plan must be to ensure that backups of your entire system are being done regularly
+(at least daily if not more frequently), and properly
+using the [3-2-1 rule](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/):
+three copies of your data on two different media with one copy stored off-site.
 
--   Slow to restore entire machine, and machine is out of commission the entire time restore is happening.
--   Very hard to trust backup process. Ideally, you would regularly use second hard disk to restore to
-    and then compare with backup.
--   Very limited compatibility - need
--   Build up of cruft. If it doesn't matter enough for you to incorporate it into your configuration files,
-    it's not important and shouldn't be taking up space.
+Unfortunately I have found that using backups alone as a recovery plan has several issues:
 
-Use a document-syncing service, such as Google Drive, OneDrive, iCloud, Dropbox, etc. Then on a new machine, I just
-log into the service, and my documents start loading onto my laptop.
+1. It's slow to restore an entire machine,
+   and the machine is out of commission the entire time the restore is happening.
+2. Even if your backup software allows for restoring a subset of the backup,
+   it can be difficult to find all the data you need scattered across the system,
+   especially if you're not a power user.
+3. It's hard to trust the backup process.
+   Who among us has actually taken the time to restore a backup just to verify it?
+   And I've had numerous issues when a recovery was necessary, though thankfully none that proved fatal in the end.
 
-For code, obviously use a version-control software like Git. But it's easy to forget that you have local changes
-that are not present on the remote repository, and then are in danger of being lost. Use tool like `uncommitted`.
+# For rapid recovery, backup and restore system components separately and automatically
 
-Idea of having configuration files to represent various configurations on your machine.
-That way we can keep these textfiles in Git, and easily track changes and backup to Github.
+As part of my plan to rapidly and automatically configure a new machine,
+I identified different system components that I would want to recover independently, at different times,
+and without hogging the machine.
 
+## Documents
+
+Your documents are often the most valuable and irreplaceable data on your machine.
+Thankfully they are also the easiest to protect – just use any document-syncing service,
+such as Google Drive, OneDrive, Dropbox, etc. –
+as long as you can be disciplined enough not to store any documents outside of the relevant directory!
+
+Then on a new machine, just log into the service, and your documents will start loading!
+
+## Special case for documents: software code
+
+These document-syncing services aren't the best solution for all types of documents.
+Most software developers are familiar with version-control software like git
+that are used to keep track of changes to their code, often with the use of remote servers
+such as those at [GitHub](github.com/).
+This allows for a rapid restore of code to a new machine.
+
+I make note of this special case because one flaw in the use of version-control software
+is that it's easy to forget that you have local changes that are not yet synced to the remote repository.
+I use the [`uncommitted`](https://github.com/brandon-rhodes/uncommitted) tool to find these changes across my machine.
+
+## GUI and CLI Applications
+
+As a Data Scientist, I rely on my machine having installed a long list of applications,
+both the Graphical User Interface (GUI) and the Command Line Interface (CLI) kind.
+While I could try to manually install those applications I remember onto a new machine,
+most of the time I would likely not remember a given application until I need it,
+and then I would have to wait until I find the installer and install it.
+
+Thankfully I don't have to rely on my memory for this.
+I use [Homebrew](https://brew.sh/), the 'missing package manager' for macOS and Linux,
+to install most of the applications I need,
+and also to produce a list of installed applications that I keep as a text file under version control using git.
+On a new machine, I can download this list, and have Homebrew processes it in the background
+to install all the tools I need while I keep working.
+
+## Special case for applications: software code
+
+FIXME: DOCKER! Don't rely on a custom system configuration. build a shared environment.
+But then that makes it easy to get up and running on a new machine!
+
+## dotfiles
+
+FIXME:
 Next step - dotfiles, configuration files for macOS or \*nix machine.
 People often use github to synchronize these dotfiles.
 Then to make any new environment more like your existing environment, you just need to clone that dotfiles repo
 and run a command like `stow` (link) to setup the files in the right locations.
 
-Next step - homebrew - quickly setup software I want to install - command line utilities and applications.
-Can then save this setup configuration as a text file.
+## System Configuration
 
+FIXME:
+Idea of having configuration files to represent various configurations on your machine.
+That way we can keep these textfiles in Git, and easily track changes and backup to Github.
 Ansible - system preferences etc
 
-Use of github actions to test configuration regularly.
+# Testing
 
-terminal recording gifs
-Screenshots?
-Medium post?
+FIXME: Use of github actions to test configuration regularly.
 
-<http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/>
-
-<sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
-shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
-.
+FIXME: Add Screenshots?
+FIXME: Medium post? # https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium
+FIXME: Advertise on twitter and mastadon.
