@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Data problems'
-date: 2020-09-11 16:00
-modified: 2020-09-11 16:00
+date: 2020-09-11
+modified: 2023-04-17
+excerpt: 9 things to check with a new data set.
 categories: tips
 tags:
     - data

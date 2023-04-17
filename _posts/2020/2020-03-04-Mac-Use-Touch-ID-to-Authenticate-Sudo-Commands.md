@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Mac: Use Touch ID to Authenticate Sudo Commands'
-date: 2020-03-04 10:00
-modified: 2020-03-04 10:00
+date: 2020-03-04
+modified: 2023-04-17
+excerpt: Stop typing your password so many times
 categories: til
 tags:
     - mac

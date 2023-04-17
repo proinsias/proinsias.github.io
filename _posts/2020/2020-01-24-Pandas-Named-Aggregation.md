@@ -1,19 +1,20 @@
 ---
 layout: single
-title: "Pandas: Named Aggregation"
-date: 2020-01-24 16:45
-modified: 2020-01-24 16:45
+title: 'Pandas: Named Aggregation'
+date: 2020-01-24
+modified: 2023-04-17
+excerpt: Simplify your groupbys
 categories: til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 `pandas>=0.25` supports named aggregation,
 allowing you to specify the output column names when you aggregate a groupby,
 instead of renaming.
 This will be especially useful for doing multiple aggregations on the same column.
-Here’s a simple example from the
+Here's a simple example from the
 [Docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#aggregation):
 
 ```python
@@ -63,7 +64,7 @@ Only pairs of `(column, aggfunc)` should be passed as `**kwargs`.
 If your aggregation functions requires additional arguments, partially apply them with `functools.partial()`.
 
 Named aggregation is also valid for `Series` `groupby` aggregations.
-In this case there’s no column selection, so the values are just the functions:
+In this case there's no column selection, so the values are just the functions:
 
 ```python
 animals.groupby("kind").height.agg(

@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Model error quantification'
-date: 2020-09-11 15:00
-modified: 2020-09-11 15:00
+date: 2020-09-11
+modified: 2023-04-17
+excerpt: Visualize the cross-validation results
 categories: tips
 tags:
     - errors

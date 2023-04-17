@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Probabilistic interpretation of AUC'
-date: 2020-03-18 15:00
-modified: 2020-03-18 15:00
+date: 2020-03-18
+modified: 2023-04-17
+excerpt: How to explain it to a layperson
 categories: tips
 tags:
     - auc
