@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Convert tabs to/from spaces'
 excerpt: Using the expand/unexpand commands
 date: 2017-03-03
-modified: 2022-11-16
+last_modified_at: 2022-11-16
 categories: til
 tags:
     - nix

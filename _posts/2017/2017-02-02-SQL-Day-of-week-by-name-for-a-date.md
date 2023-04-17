@@ -3,7 +3,7 @@ layout: single
 title: 'SQL: Day Of Week By Name For A Date'
 excerpt: Using to_char
 date: 2017-02-02
-modified: 2022-12-16
+last_modified_at: 2022-12-16
 categories: til
 tags:
     - sql

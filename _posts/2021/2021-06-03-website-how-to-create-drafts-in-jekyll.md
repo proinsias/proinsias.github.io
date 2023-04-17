@@ -3,7 +3,7 @@ layout: single
 title: 'Website: How to create drafts in Jekyll'
 excerpt: Save those valuable thoughts for later
 date: 2021-06-03
-modified: 2022-11-02
+last_modified_at: 2022-11-02
 categories: til
 tags:
     - jekyll

@@ -2,7 +2,7 @@
 layout: single
 title: 'Nix: List files and group by extension'
 date: 2019-11-15 21:03
-modified: 2019-11-15 21:03
+last_modified_at: 2019-11-15 21:03
 categories: til
 tags:
     - science

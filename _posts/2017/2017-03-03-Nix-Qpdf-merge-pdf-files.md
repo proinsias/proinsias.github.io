@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Merge pdf files'
 excerpt: Using the qpdf command
 date: 2017-03-03
-modified: 2022-11-26
+last_modified_at: 2022-11-26
 categories: til
 tags:
     - nix

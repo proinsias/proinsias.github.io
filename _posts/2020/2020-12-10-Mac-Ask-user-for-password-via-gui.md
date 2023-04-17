@@ -3,7 +3,7 @@ layout: single
 title: 'Mac: Ask user for password via GUI'
 excerpt: Using Applescript
 date: 2020-12-10
-modified: 2023-04-03
+last_modified_at: 2023-04-03
 categories: til
 tags:
     - mac

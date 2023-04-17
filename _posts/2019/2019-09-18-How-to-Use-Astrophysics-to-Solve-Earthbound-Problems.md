@@ -2,7 +2,7 @@
 layout: single
 title: 'How to Use Astrophysics to Solve Earthbound Problems'
 date: 2019-09-18 10:16
-modified: 2019-18-08 10:16
+last_modified_at: 2019-18-08 10:16
 categories: posts
 header:
     image: /assets/images/urban_astronomy.png

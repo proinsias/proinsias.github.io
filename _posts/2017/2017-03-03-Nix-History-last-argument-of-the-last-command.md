@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Last Argument Of The Last Command'
 excerpt: Quick shortcut
 date: 2017-03-03
-modified: 2022-11-21
+last_modified_at: 2022-11-21
 categories: til
 tags:
     - nix

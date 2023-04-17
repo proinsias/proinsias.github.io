@@ -9,7 +9,7 @@ header:
     image_description: 'Sleuth: The Palomar Planet Finder'
     teaser: /assets/images/sleuth_thumbnail.gif
 date: 2022-11-19
-modified: 2022-11-19
+last_modified_at: 2022-11-19
 tags:
     - astronomy
     - sleuth

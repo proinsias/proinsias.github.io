@@ -3,7 +3,7 @@ layout: single
 title: 'Python: Random string generation with digits and upper-case letters'
 excerpt: Using random.SystemRandom
 date: 2021-04-05
-modified: 2022-11-04
+last_modified_at: 2022-11-04
 categories: til
 tags:
     - python

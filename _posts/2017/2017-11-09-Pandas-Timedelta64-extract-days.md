@@ -2,7 +2,7 @@
 layout: single
 title: "Pandas: Extract days from a timedelta64"
 date: 2017-11-09 12:35
-modified: 2017-11-09 12:35
+last_modified_at: 2017-11-09 12:35
 categories: til
 tags:
   - pandas

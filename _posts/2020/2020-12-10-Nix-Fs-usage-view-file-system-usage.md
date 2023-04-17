@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Fs_usage - View File System Usage'
 excerpt: As a continuous stream
 date: 2020-12-10
-modified: 2023-04-03
+last_modified_at: 2023-04-03
 categories: til
 tags:
     - nix

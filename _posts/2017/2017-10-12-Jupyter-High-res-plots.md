@@ -2,7 +2,7 @@
 layout: single
 title: "Jupyter: High-res plots"
 date: 2017-10-12 15:42
-modified: 2017-10-12 15:42
+last_modified_at: 2017-10-12 15:42
 categories: til
 tags:
   - jupyter

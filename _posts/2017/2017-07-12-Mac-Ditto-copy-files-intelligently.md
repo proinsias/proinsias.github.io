@@ -2,7 +2,7 @@
 layout: single
 title: "Mac: Copy files intelligently with ditto"
 date: 2017-07-12 14:07
-modified: 2017-07-12 14:07
+last_modified_at: 2017-07-12 14:07
 categories: til
 tags:
   - mac

@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Who Is The Current User'
 excerpt: The current_user variable
 date: 2017-02-02
-modified: 2022-12-10
+last_modified_at: 2022-12-10
 categories: til
 tags:
     - psql

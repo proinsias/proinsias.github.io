@@ -5,7 +5,7 @@ excerpt: 'TrES was a network of three small-aperture telescopes searching the sk
 permalink: /portfolio/tres.html
 categories: tres
 date: 2016-07-08
-modified: 2016-07-09
+last_modified_at: 2016-07-09
 tags:
     - astronomy
     - sleuth

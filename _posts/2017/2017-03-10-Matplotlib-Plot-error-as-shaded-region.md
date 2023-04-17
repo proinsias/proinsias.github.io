@@ -2,7 +2,7 @@
 layout: single
 title: 'Matplotlib: Plot error as shaded region'
 date: 2017-03-10
-modified: 2022-01-06
+last_modified_at: 2022-01-06
 excerpt: Using the fill_between command
 categories: til
 tags:

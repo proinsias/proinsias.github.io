@@ -3,7 +3,7 @@ layout: single
 title: 'Bash: Run entire shell script as root'
 excerpt: Avoid prepending commands with sudo
 date: 2021-04-27
-modified: 2022-11-10
+last_modified_at: 2022-11-10
 categories: til
 tags:
     - bash

@@ -2,7 +2,7 @@
 layout: single
 title: 'Shell: Create a file backup with modification date as suffix'
 date: 2022-06-28
-modified: 2022-11-10
+last_modified_at: 2022-11-10
 excerpt: Useful prior to changing a configuration file
 categories: til
 tags:

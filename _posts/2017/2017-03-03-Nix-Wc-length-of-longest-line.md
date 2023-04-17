@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Get length of longest line with wc'
 excerpt: Using the --max-line-length flag
 date: 2017-03-03
-modified: 2023-01-05
+last_modified_at: 2023-01-05
 categories: til
 tags:
     - nix

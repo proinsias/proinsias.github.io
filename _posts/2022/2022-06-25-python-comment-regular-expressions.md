@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Comment regular expressions'
 date: 2022-06-25
-modified: 2022-10-31
+last_modified_at: 2022-10-31
 excerpt: Use re.VERBOSE to your advantage
 categories: til
 tags:

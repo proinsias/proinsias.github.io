@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Use Argument Indexes'
 excerpt: Stop repeating yourself
 date: 2017-02-02
-modified: 2022-12-10
+last_modified_at: 2022-12-10
 categories: til
 tags:
     - psql

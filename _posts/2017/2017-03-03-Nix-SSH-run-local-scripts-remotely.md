@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Run local scripts remotely with SSH'
 excerpt: Via the bash command
 date: 2017-03-03
-modified: 2022-11-28
+last_modified_at: 2022-11-28
 categories: til
 tags:
     - nix

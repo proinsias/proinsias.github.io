@@ -2,7 +2,7 @@
 layout: single
 title: 'The Modal American'
 date: 2019-09-09 16.31
-modified: 2019-09-09 16.31
+last_modified_at: 2019-09-09 16.31
 categories: tips
 tags:
     - statistics

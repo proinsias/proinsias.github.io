@@ -10,7 +10,7 @@ header:
 permalink: /portfolio/tres/tres2.html
 categories: tres
 date: 2022-11-19
-modified: 2022-11-19
+last_modified_at: 2022-11-19
 tags:
     - astronomy
     - sleuth

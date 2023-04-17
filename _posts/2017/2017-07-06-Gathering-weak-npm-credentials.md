@@ -2,7 +2,7 @@
 layout: single
 title: "Gathering weak npm credentials"
 date: 2017-07-06 10:41
-modified: 2017-07-06 10:41
+last_modified_at: 2017-07-06 10:41
 categories: posts
 tags:
   - security

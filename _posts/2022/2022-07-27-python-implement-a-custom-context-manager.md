@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Implement a custom context manager'
 date: 2022-07-27
-modified: 2022-07-27
+last_modified_at: 2022-07-27
 categories: til
 excerpt: How to create your own 'with'
 tags:

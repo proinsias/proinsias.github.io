@@ -2,7 +2,7 @@
 layout: single
 title: 'Pandas: Pipe function'
 date: 2020-09-11
-modified: 2023-04-17
+last_modified_at: 2023-04-17
 excerpt: Create a method chain in pandas
 categories: til
 tags:

@@ -2,7 +2,7 @@
 layout: single
 title: "Pandas: Inverse of boolean"
 date: 2017-11-09 12:35
-modified: 2017-11-09 12:35
+last_modified_at: 2017-11-09 12:35
 categories: til
 tags:
   - pandas

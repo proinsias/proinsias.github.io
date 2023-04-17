@@ -2,7 +2,7 @@
 layout: single
 title: 'Mac: Software Update from the Command Line'
 date: 2019-11-26 16:04
-modified: 2019-11-26 16:04
+last_modified_at: 2019-11-26 16:04
 categories: til
 tags:
     - mac

@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Count the number of fields in a record'
 excerpt: Using awk
 date: 2021-04-06
-modified: 2022-11-04
+last_modified_at: 2022-11-04
 categories: til
 tags:
     - awk

@@ -2,7 +2,7 @@
 layout: single
 title: "Docker: Filtered system prune"
 date: 2018-11-06 10:20
-modified: 2018-11-06 10:20
+last_modified_at: 2018-11-06 10:20
 categories: til
 tags:
   - docker

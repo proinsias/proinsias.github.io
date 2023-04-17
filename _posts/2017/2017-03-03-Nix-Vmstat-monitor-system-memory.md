@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Monitor System Memory with vmstat'
 excerpt: Can set a sampling period too
 date: 2017-03-03
-modified: 2022-12-02
+last_modified_at: 2022-12-02
 categories: til
 tags:
     - nix

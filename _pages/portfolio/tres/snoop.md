@@ -5,7 +5,7 @@ excerpt: 'Evaluating astronomical observing conditions'
 permalink: /portfolio/tres/snoop.html
 categories: tres
 date: 2022-11-19
-modified: 2022-11-19
+last_modified_at: 2022-11-19
 tags:
     - astronomy
     - tres

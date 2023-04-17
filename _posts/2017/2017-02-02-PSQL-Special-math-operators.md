@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Special Math Operators'
 excerpt: Factorial, square root, absolute value operators
 date: 2017-02-02
-modified: 2022-11-11
+last_modified_at: 2022-11-11
 categories: til
 tags:
     - psql

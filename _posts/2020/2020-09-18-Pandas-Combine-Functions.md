@@ -2,7 +2,7 @@
 layout: single
 title: 'Pandas: Combine Functions'
 date: 2020-09-18
-modified: 2023-04-16
+last_modified_at: 2023-04-16
 excerpt: The combine and combine_first functions
 categories: til
 tags:

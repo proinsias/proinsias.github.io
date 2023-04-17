@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Create A File Descriptor with Process Substitution'
 excerpt: Make a command's output appear to come from a file
 date: 2017-03-03
-modified: 2022-11-23
+last_modified_at: 2022-11-23
 categories: til
 tags:
     - nix

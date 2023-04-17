@@ -3,7 +3,7 @@ layout: single
 title: 'Finding nulls in DataFrames'
 excerpt: Handy one liners I use all the time
 date: 2021-04-01
-modified: 2023-04-03
+last_modified_at: 2023-04-03
 categories: tips
 tags:
     - pandas

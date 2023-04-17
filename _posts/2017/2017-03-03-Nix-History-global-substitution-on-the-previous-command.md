@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Global Substitution On The Previous Command'
 excerpt: Different substitution options
 date: 2017-03-03
-modified: 2022-11-21
+last_modified_at: 2022-11-21
 categories: til
 tags:
     - nix

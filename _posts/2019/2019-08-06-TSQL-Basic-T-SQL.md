@@ -2,7 +2,7 @@
 layout: single
 title: "TSQL: Basic T-SQL"
 date: 2019-08-06 10:11
-modified: 2019-08-06 10:11
+last_modified_at: 2019-08-06 10:11
 categories: til
 tags:
   - sql

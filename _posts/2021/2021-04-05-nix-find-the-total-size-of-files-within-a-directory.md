@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Find the total size of files within a directory'
 excerpt: du command to the rescue!
 date: 2021-04-05
-modified: 2022-11-08
+last_modified_at: 2022-11-08
 categories: til
 tags:
     - nix

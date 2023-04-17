@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Combine multiple consecutive blank lines into one'
 excerpt: Using the squeeze-blank option
 date: 2017-03-03
-modified: 2022-11-15
+last_modified_at: 2022-11-15
 categories: til
 tags:
     - nix

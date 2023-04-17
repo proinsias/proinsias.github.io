@@ -3,7 +3,7 @@ layout: single
 title: 'Python: Optimize logging of expensive debugging operations'
 excerpt: Only log if threshold is set appropriately
 date: 2021-04-26
-modified: 2021-11-02
+last_modified_at: 2021-11-02
 categories: til
 tags:
     - logging

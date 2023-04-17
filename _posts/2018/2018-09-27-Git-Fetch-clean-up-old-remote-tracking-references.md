@@ -2,7 +2,7 @@
 layout: single
 title: "Git: Clean Up Old Remote Tracking References"
 date: 2018-09-27 10:14
-modified: 2018-09-27 10:14
+last_modified_at: 2018-09-27 10:14
 categories: til
 tags:
   - git

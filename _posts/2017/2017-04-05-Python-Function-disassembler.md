@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Function disassembler'
 date: 2017-04-05
-modified: 2023-01-10
+last_modified_at: 2023-01-10
 excerpt: Using the dis module
 categories: til
 tags:

@@ -3,7 +3,7 @@ layout: single
 title: 'Jupyter: Trust notebook from command line'
 excerpt: Speed up your usage of notebooks
 date: 2021-10-25
-modified: 2021-10-25
+last_modified_at: 2021-10-25
 categories: til
 tags:
     - jupyter

@@ -3,7 +3,7 @@ layout: single
 title: 'Python: Use underscores as visual separators for numbers'
 excerpt: Aid readability of numbers
 date: 2021-06-03
-modified: 2022-11-02
+last_modified_at: 2022-11-02
 categories: til
 tags:
     - python

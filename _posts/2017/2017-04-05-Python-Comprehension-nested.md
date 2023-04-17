@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Nested Comprehensions'
 date: 2017-04-05
-modified: 2023-01-10
+last_modified_at: 2023-01-10
 excerpt: Using two fors within a comprehension
 categories: til
 tags:

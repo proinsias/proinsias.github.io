@@ -3,7 +3,7 @@ layout: single
 title: 'SQL: Count Records By Type'
 excerpt: Using group by
 date: 2017-02-02
-modified: 2022-12-15
+last_modified_at: 2022-12-15
 categories: til
 tags:
     - sql

@@ -2,7 +2,7 @@
 layout: single
 title: "Spark: Date Arithmetic with Multiple Columns"
 date: 2018-10-25 12:54
-modified: 2018-10-25 12:54
+last_modified_at: 2018-10-25 12:54
 categories: til
 tags:
   - spark

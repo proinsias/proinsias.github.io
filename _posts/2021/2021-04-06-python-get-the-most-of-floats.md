@@ -3,7 +3,7 @@ layout: single
 title: 'Python: Get the most of floats'
 excerpt: Additional methods useful in various scenarios
 date: 2021-04-06
-modified: 2022-11-04
+last_modified_at: 2022-11-04
 categories: til
 tags:
     - float

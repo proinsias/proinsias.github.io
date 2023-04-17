@@ -2,7 +2,7 @@
 layout: single
 title: 'Tmux: Pane Killer'
 date: 2017-02-02
-modified: 2022-12-23
+last_modified_at: 2022-12-23
 excerpt: Using <prefix>x
 categories: til
 tags:

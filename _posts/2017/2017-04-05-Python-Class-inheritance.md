@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Class inheritance'
 date: 2017-04-05
-modified: 2022-01-06
+last_modified_at: 2022-01-06
 excerpt: Using the issubclass command
 categories: til
 tags:

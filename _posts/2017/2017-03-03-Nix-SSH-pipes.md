@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: SSH pipes'
 excerpt: Execute half your command locally and half remotely
 date: 2017-03-03
-modified: 2022-11-28
+last_modified_at: 2022-11-28
 categories: til
 tags:
     - nix

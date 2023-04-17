@@ -2,7 +2,7 @@
 layout: single
 title: "Bash: Append to variable without creating leading colon if unset"
 date: 2017-07-07 14:55
-modified: 2017-07-07 14:55
+last_modified_at: 2017-07-07 14:55
 categories: til
 tags:
   - bash

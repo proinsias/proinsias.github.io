@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Do Not Overwrite Existing Files'
 excerpt: Use the no-clobber option of cp
 date: 2017-03-03
-modified: 2022-11-16
+last_modified_at: 2022-11-16
 categories: til
 tags:
     - nix

@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Specify requirements depending on python version using environment markers'
 date: 2017-04-05
-modified: 2023-01-10
+last_modified_at: 2023-01-10
 excerpt: For example python_version and sys.platform
 categories: til
 tags:

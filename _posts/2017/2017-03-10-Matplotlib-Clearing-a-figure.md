@@ -2,7 +2,7 @@
 layout: single
 title: 'Matplotlib: Clearing a figure'
 date: 2017-03-10
-modified: 2022-01-06
+last_modified_at: 2022-01-06
 excerpt: cla v clf v close
 categories: til
 tags:

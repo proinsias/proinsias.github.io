@@ -3,7 +3,7 @@ layout: single
 title: 'SQL: Calculate percentage of column'
 excerpt: Using a cross join or a subselect query
 date: 2021-06-14
-modified: 2021-06-14
+last_modified_at: 2021-06-14
 categories: til
 tags:
     - sql

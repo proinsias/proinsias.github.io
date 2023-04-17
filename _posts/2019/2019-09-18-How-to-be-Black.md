@@ -2,7 +2,7 @@
 layout: single
 title: 'How to be Black'
 date: 2019-09-18 22.19
-modified: 2019-09-18 22.19
+last_modified_at: 2019-09-18 22.19
 categories: posts
 tags:
     - books

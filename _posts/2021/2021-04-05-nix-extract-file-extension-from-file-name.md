@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Extract file extension from file name'
 excerpt: Using variable manipulation
 date: 2021-04-05
-modified: 2022-11-08
+last_modified_at: 2022-11-08
 categories: til
 tags:
     - nix

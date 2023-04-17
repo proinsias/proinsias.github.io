@@ -3,7 +3,7 @@ layout: single
 title: 'SQL: Word Count for a Column'
 excerpt: Using array_length and regexp_split_to_array
 date: 2017-02-02
-modified: 2022-12-16
+last_modified_at: 2022-12-16
 categories: til
 tags:
     - sql

@@ -2,7 +2,7 @@
 layout: single
 title: 'Nix: Play with jq with jq-play'
 date: 2021-10-25
-modified: 2022-10-31
+last_modified_at: 2022-10-31
 excerpt: Test run your jq filters
 categories: tips
 tags:

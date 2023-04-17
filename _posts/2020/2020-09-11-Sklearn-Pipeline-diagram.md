@@ -2,7 +2,7 @@
 layout: single
 title: 'Sklearn: Pipeline diagram'
 date: 2020-09-11
-modified: 2023-04-17
+last_modified_at: 2023-04-17
 excerpt: Visualize your sklearn pipelines in Jupyter
 categories: til
 tags:

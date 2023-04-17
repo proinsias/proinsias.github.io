@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-modified: 2021-03-26
+last_modified_at: 2021-03-26
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png

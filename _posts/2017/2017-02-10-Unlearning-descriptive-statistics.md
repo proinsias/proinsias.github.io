@@ -3,7 +3,7 @@ layout: single
 title: 'Unlearning descriptive statistics'
 excerpt:
 date: 2017-02-10
-modified: 2022-11-15
+last_modified_at: 2022-11-15
 categories: tips
 tags:
     - statistics

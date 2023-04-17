@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: List Of Sessions To A Machine'
 excerpt: Using the last command
 date: 2017-03-03
-modified: 2022-11-23
+last_modified_at: 2022-11-23
 categories: til
 tags:
     - nix

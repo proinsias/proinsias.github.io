@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Truncate Tables With Dependents'
 excerpt: Truncate in pairs or via a cascade
 date: 2017-02-02
-modified: 2022-11-11
+last_modified_at: 2022-11-11
 categories: til
 tags:
     - psql

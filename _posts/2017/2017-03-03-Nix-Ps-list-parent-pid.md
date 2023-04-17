@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: List parent pid with ps'
 excerpt: Using the -f flag
 date: 2017-03-03
-modified: 2022-11-23
+last_modified_at: 2022-11-23
 categories: til
 tags:
     - nix

@@ -3,7 +3,7 @@ layout: single
 title: 'Mac: Date and Time'
 excerpt: From the command line
 date: 2020-12-10
-modified: 2023-04-03
+last_modified_at: 2023-04-03
 categories: til
 tags:
     - mac

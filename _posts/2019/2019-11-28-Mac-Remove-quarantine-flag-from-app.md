@@ -2,7 +2,7 @@
 layout: single
 title: "Mac: Remove quarantine flag from app"
 date: 2019-11-28 15:55
-modified: 2019-11-28 15:55
+last_modified_at: 2019-11-28 15:55
 categories: til
 tags:
   - mac

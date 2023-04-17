@@ -2,7 +2,7 @@
 layout: single
 title: "Snowflake: Increment date and time values with dateadd"
 date: 2017-07-04 22:57
-modified: 2017-07-04 22:57
+last_modified_at: 2017-07-04 22:57
 categories: til
 tags:
   - snowflake

@@ -3,7 +3,7 @@ layout: single
 title: 'Numpy: Return maximum of array ignoring NaNs using nanmax'
 excerpt: Using np.nanmax
 date: 2017-03-03
-modified: 2023-01-05
+last_modified_at: 2023-01-05
 categories: til
 tags:
     - numpy

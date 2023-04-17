@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Cat A File With Line Numbers'
 excerpt: Using the number option
 date: 2017-03-03
-modified: 2022-11-15
+last_modified_at: 2022-11-15
 categories: til
 tags:
     - nix

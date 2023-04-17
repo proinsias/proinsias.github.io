@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: Sort In Numerical Order'
 excerpt: Using the --numeric-sort flag
 date: 2017-03-03
-modified: 2022-11-30
+last_modified_at: 2022-11-30
 categories: til
 tags:
     - nix

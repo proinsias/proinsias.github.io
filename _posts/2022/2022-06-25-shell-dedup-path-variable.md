@@ -2,7 +2,7 @@
 layout: single
 title: 'Shell: Dedup PATH variable'
 date: 2022-06-25
-modified: 2022-10-31
+last_modified_at: 2022-10-31
 excerpt: Perl to the rescue!
 categories: til
 tags:

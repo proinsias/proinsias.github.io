@@ -2,7 +2,7 @@
 layout: single
 title: "SQL: List Columns in Table"
 date: 2018-11-06 10:57
-modified: 2018-11-06 10:57
+last_modified_at: 2018-11-06 10:57
 categories: til
 tags:
   - sql

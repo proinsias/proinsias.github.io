@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Restore a database'
 excerpt: Using the pg_restore function
 date: 2017-02-02
-modified: 2022-12-14
+last_modified_at: 2022-12-14
 categories: til
 tags:
     - psql

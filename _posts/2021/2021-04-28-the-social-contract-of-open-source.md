@@ -3,7 +3,7 @@ layout: single
 title: 'The social contract of open source'
 excerpt: Please be kind to your open source maintainers
 date: 2021-04-28
-modified: 2021-11-02
+last_modified_at: 2021-11-02
 categories: posts
 header:
     image: /assets/images/handshake.jpg

@@ -6,7 +6,7 @@ wondered what the 'wandering stars' (planets) might be. In the last two decades,
 found hundreds of planets outside our solar system."
 categories: tres
 date: 2007-03-01
-modified: 2016-07-06
+last_modified_at: 2016-07-06
 tags:
   - astronomy
   - caltech

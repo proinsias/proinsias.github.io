@@ -3,7 +3,7 @@ layout: single
 title: 'The Data Visualisation Catalogue'
 excerpt: Get inspired to visualize!
 date: 2017-01-09
-modified: 2022-11-10
+last_modified_at: 2022-11-10
 categories: tips
 tags:
     - datascience

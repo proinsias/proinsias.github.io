@@ -3,7 +3,7 @@ layout: single
 title: 'Nix: PID Of The Current Shell'
 excerpt: Using a special parameter of bash
 date: 2017-03-03
-modified: 2022-11-23
+last_modified_at: 2022-11-23
 categories: til
 tags:
     - nix

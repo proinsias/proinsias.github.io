@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Normalize text with unicodedata"
 date: 2017-04-05 05:23
-modified: 2017-04-05 05:34
+last_modified_at: 2017-04-05 05:34
 categories: til
 tags:
   - python

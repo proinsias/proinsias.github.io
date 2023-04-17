@@ -2,7 +2,7 @@
 layout: single
 title: 'Sklearn: Tree diagram'
 date: 2020-09-11
-modified: 2023-04-16
+last_modified_at: 2023-04-16
 excerpt: Via the plot_tree command
 categories: til
 tags:

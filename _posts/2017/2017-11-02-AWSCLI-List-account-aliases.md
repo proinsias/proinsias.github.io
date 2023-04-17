@@ -2,7 +2,7 @@
 layout: single
 title: 'AWS CLI: List account aliases'
 date: 2017-11-02 15:48
-modified: 2017-11-02 15:48
+last_modified_at: 2017-11-02 15:48
 categories: til
 tags:
     - awscli

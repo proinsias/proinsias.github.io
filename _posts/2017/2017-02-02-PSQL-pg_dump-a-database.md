@@ -3,7 +3,7 @@ layout: single
 title: 'PSQL: Dump a database'
 excerpt: Using pg_dump function
 date: 2017-02-02
-modified: 2022-12-14
+last_modified_at: 2022-12-14
 categories: til
 tags:
     - psql

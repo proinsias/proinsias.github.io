@@ -2,7 +2,7 @@
 layout: single
 title: 'How to create a healthy society'
 date: 2019-09-20 10:14
-modified: 2019-09-20 10:14
+last_modified_at: 2019-09-20 10:14
 categories: posts
 header:
     image: /assets/images/danah_boyd_eff.jpeg

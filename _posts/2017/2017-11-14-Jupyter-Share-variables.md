@@ -2,7 +2,7 @@
 layout: single
 title: "Jupyter: Share variables"
 date: 2017-11-14 15:51
-modified: 2017-11-14 15:51
+last_modified_at: 2017-11-14 15:51
 categories: til
 tags:
   - jupyter

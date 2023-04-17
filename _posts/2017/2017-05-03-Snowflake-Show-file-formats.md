@@ -2,7 +2,7 @@
 layout: single
 title: "Snowflake: Show file formats"
 date: 2017-05-03 21:17
-modified: 2017-05-03 21:17
+last_modified_at: 2017-05-03 21:17
 categories: til
 tags:
   - snowflake

@@ -2,7 +2,7 @@
 layout: single
 title: 'AWS CLI: Assuming a role'
 date: 2017-04-03
-modified: 2022-01-06
+last_modified_at: 2022-01-06
 excerpt: Using the aws config files
 categories: til
 tags:

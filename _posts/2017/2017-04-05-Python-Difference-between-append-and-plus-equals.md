@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Difference between append and '+=' for lists"
 date: 2017-04-05
-modified: 2023-01-10
+last_modified_at: 2023-01-10
 excerpt: An exception to the general interchangeability
 categories: til
 tags:

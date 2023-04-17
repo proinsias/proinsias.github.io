@@ -2,7 +2,7 @@
 layout: single
 title: "Git: Stashing Only Unstaged Changes"
 date: 2018-09-27 10:14
-modified: 2018-09-27 10:14
+last_modified_at: 2018-09-27 10:14
 categories: til
 tags:
   - git
@@ -19,11 +19,11 @@ On branch master
 ...
 Changes to be committed:
 
-    modified: 2018-09-27 10:14   README.md
+    last_modified_at: 2018-09-27 10:14   README.md
 
 Changes not staged for commit:
 
-    modified: 2018-09-27 10:14   app/models/user.rb
+    last_modified_at: 2018-09-27 10:14   app/models/user.rb
 
 $ git stash -k
 Saved working directory and index state ...
@@ -33,7 +33,7 @@ On branch master
 ...
 Changes to be committed:
 
-    modified: 2018-09-27 10:14   README.md
+    last_modified_at: 2018-09-27 10:14   README.md
 ```
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

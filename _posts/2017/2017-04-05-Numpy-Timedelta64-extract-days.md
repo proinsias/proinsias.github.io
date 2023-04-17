@@ -2,7 +2,7 @@
 layout: single
 title: 'Numpy: Extract days from timedelta64'
 date: 2017-04-05
-modified: 2022-01-06
+last_modified_at: 2022-01-06
 excerpt: Using np.timedelta64 itself
 categories: til
 tags:
