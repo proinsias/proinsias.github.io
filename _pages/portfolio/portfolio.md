@@ -22,7 +22,7 @@ Here's a list of some of the projects I've been involved in over the years:
 -   Predicting which [Operating Room reservation blocks](https://web.archive.org/web/20220902151438/https://www.hospiq.com/solutions/perioperative/)
     are most likely to go unused.
 
--   The [OM1 Medical Burden Index (OMBI®)](https://www.om1.com/solutions/aipredictivemedicine/ombi/)
+-   The [OM1 Medical Burden Index (OMBI®)](https://www.om1.com/aipredictivemedicine/ombi/)
     that measures the combined medical burden of an individual or a patient population.
     It is a 1-1000 score of patient level comorbidity
     that is highly predictive of future resource usage and mortality.

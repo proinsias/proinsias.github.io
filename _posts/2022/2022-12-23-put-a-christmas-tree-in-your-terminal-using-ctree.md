@@ -20,6 +20,6 @@ brew install gleich/homebrew-tap/ctree
 ctree --no-refresh
 ```
 
-![Demo of ctree displaying a Christmas tree in your terminal]({{site.baseurl}}/https://raw.githubusercontent.com/gleich/ctree/master/images/demo.gif)
+![Demo of ctree displaying a Christmas tree in your terminal](https://raw.githubusercontent.com/gleich/ctree/master/images/demo.gif)
 
 Via [linuxlinks.com](https://www.linuxlinks.com/linux-candy-ctree-christmas-tree-terminal/).
