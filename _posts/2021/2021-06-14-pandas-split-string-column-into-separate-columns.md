@@ -3,8 +3,8 @@ layout: single
 title: 'Pandas: Split string column into separate columns'
 excerpt: Using the expand option of pd.Series.str.split
 date: 2021-06-14
-last_modified_at: 2021-06-14
-categories: <categories>
+last_modified_at: 2023-04-18 21:51:29
+categories: til
 tags:
     - pandas
     - string
