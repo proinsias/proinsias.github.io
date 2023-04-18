@@ -2,7 +2,7 @@
 layout: single
 title: 'Pets v Cattle: Making a personal disaster recovery plan'
 date: 2022-06-21
-last_modified_at: 2023-04-16
+last_modified_at: 2023-04-18 19:44:49
 categories: posts
 header:
     image: /assets/images/disaster_recovery_plan.jpg
@@ -18,23 +18,23 @@ tags:
     - stow
 ---
 
+<sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
+shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
+.
+
 > When dealing with computers, you should rely on cattle, not on pets.
 
 With these wise words, a former DevOps colleague introduced me to the idea of treating computers
 [as cattle, rather than pets](https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/).
 
-<sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
-shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
-.
-
 When you put a lot of love, care and attention into the configuration and maintenance of individual machines,
 they become like pets. You would hate to seem them go.
-This is particularly true if your entire business relies on that machine's availability.
+This is especially true if your entire business relies on that machine's availability.
 If a machine goes down, you have to wait until a new machine is built,
 and your custom configuration restored from a backup that is _hopefully_ complete and valid.
 
 Rather than relying on these "pets", a better approach is to depend on a collections of machines
-that can be easily (i.e., automatically) created, configured, deleted and replaced.
+that can be automatically created, configured, deleted and replaced.
 These machines are "cattle", with a bunch of machines in your "herd".
 If something happens to one of them, you can easily replace that machine.
 
@@ -45,9 +45,9 @@ and tests that recovery process regularly as individual machines fail.
 While this is a good system for how to run a business,
 this idea resonated with me
 because of my own previous experience having to swap work laptops routinely over several months
-due to some buggy hardware.
+caused by some buggy hardware.
 I ended up having to recreate my work environment multiple times
-in order to have access to the applications, documents, and system configuration
+to have access to the applications, documents, and system configuration
 that I required to get my job done.
 
 As a result of this experience, I became interested in how to do this as efficiently as possible –
@@ -55,10 +55,10 @@ how could I best treat my personal machines as cattle, not as pets?
 How could I develop a personal disaster recovery plan
 that would:
 
-1. improve upon the standard process of backup and restore of a "pet" computer,
-2. allow for a rapid recovery of my systems that enable me to get work done
+1. Improve upon the standard process of backup and restore of a "pet" computer,
+2. Allow for a rapid recovery of my systems that enable me to get work done
    after they suffer damage, theft or other disaster, and
-3. test that recovery process regularly.
+3. Test that recovery process regularly.
 
 Here I'll discuss first the issues I've found with the backup/restore process,
 and then what I've come up with so far as an alternative.
@@ -79,8 +79,8 @@ Unfortunately I have found that using backups alone as a recovery plan has sever
    it can be difficult to find all the data you need scattered across the system,
    especially if you're not a power user.
 3. It's hard to trust the backup process.
-   Who among us has actually taken the time to restore a backup just to verify it?
-   And I've had numerous issues when a recovery was necessary, though thankfully none that proved fatal in the end.
+   Who among us has actually taken the time to restore a backup for the sole purpose of verifying it?
+   And I've had numerous issues when a recovery was necessary, though thankfully none that proved fatal.
 
 # For rapid recovery, backup and restore system components separately and automatically
 
@@ -91,63 +91,83 @@ and without hogging the machine.
 ## Documents
 
 Your documents are often the most valuable and irreplaceable data on your machine.
-Thankfully they are also the easiest to protect – just use any document-syncing service,
+Thankfully they are also the easiest to protect – use any document-syncing service,
 such as Google Drive, OneDrive, Dropbox, etc. –
-as long as you can be disciplined enough not to store any documents outside of the relevant directory!
+as long as you can be disciplined enough not to store any documents outside the relevant directory!
 
-Then on a new machine, just log into the service, and your documents will start loading!
+Then on a new machine, log into the service, and your documents will start loading!
 
-## Special case for documents: software code
+### Special case for documents: software code
 
 These document-syncing services aren't the best solution for all types of documents.
 Most software developers are familiar with version-control software like git
-that are used to keep track of changes to their code, often with the use of remote servers
-such as those at [GitHub](github.com/).
+that are used to keep track of changes to their code, often with remote servers
+such as those at [GitHub](https://github.com/).
 This allows for a rapid restore of code to a new machine.
 
-I make note of this special case because one flaw in the use of version-control software
+I make note of this special case because one flaw in version-control software
 is that it's easy to forget that you have local changes that are not yet synced to the remote repository.
 I use the [`uncommitted`](https://github.com/brandon-rhodes/uncommitted) tool to find these changes across my machine.
 
 ## GUI and CLI Applications
 
+<!-- textlint-disable terminology -->
+
 As a Data Scientist, I rely on my machine having installed a long list of applications,
 both the Graphical User Interface (GUI) and the Command Line Interface (CLI) kind.
+
+<!-- textlint-enable terminology -->
+
 While I could try to manually install those applications I remember onto a new machine,
 most of the time I would likely not remember a given application until I need it,
 and then I would have to wait until I find the installer and install it.
 
 Thankfully I don't have to rely on my memory for this.
 I use [Homebrew](https://brew.sh/), the 'missing package manager' for macOS and Linux,
-to install most of the applications I need,
-and also to produce a list of installed applications that I keep as a text file under version control using git.
-On a new machine, I can download this list, and have Homebrew processes it in the background
+to install most of the applications I need.
+Previously I also used it produce a list of installed applications that I keep as a text file under version control using git.
+On a new machine, I could download this list, and have Homebrew processes it in the background
 to install all the tools I need while I keep working.
+Nowadays I use Homebrew in combination with [Ansible](https://www.ansible.com/) playbooks – more on this below.
 
-## Special case for applications: software code
+### Special case for applications: software code
 
-FIXME: DOCKER! Don't rely on a custom system configuration. build a shared environment.
-But then that makes it easy to get up and running on a new machine!
+Another special mention here for software developers.
+I highly recommend [Docker](https://www.docker.com/) to share a development environment for software projects.
+Rather than having each developer carefully curate a combination of operating-system (OS) versions and language packages
+to make your software [work on their machine](https://blog.codinghorror.com/the-works-on-my-machine-certification-program/),
+with Docker you can run one command to build a virtual machine that will run your application anywhere.
 
-## dotfiles
+An extra benefit of using Docker is that setting up your development environment on a new machine is
+as easy as running the same Docker command you've been using all along.
 
-FIXME:
-Next step - dotfiles, configuration files for macOS or \*nix machine.
-People often use github to synchronize these dotfiles.
-Then to make any new environment more like your existing environment, you just need to clone that dotfiles repo
-and run a command like `stow` (link) to setup the files in the right locations.
+## Dotfiles
+
+Many applications (both the GUI and CLI type, and terminal shells in particular) use
+[dotfiles](https://missing.csail.mit.edu/2019/dotfiles/)
+to store configuration details.
+These plain-text files are called 'dotfiles' because their filenames start with a '.' (!).
+You may not have noticed them because most OSs will hide them by default.
+Historically they have been located in your home directory `~/`,
+but are often now found under `~/.config/`.
+
+One of the quickest ways to feel in a foreign land on a new laptop is missing these configurations.
+Thankfully, an easy solution is to store and update these files in a GitHub repo.
+Then to make any new environment more like your existing environment, you clone that dotfiles repo
+and run a command like [`stow`](https://www.gnu.org/software/stow/manual/stow.html)
+to setup the files in the right locations.
 
 ## System Configuration
 
 FIXME:
 Idea of having configuration files to represent various configurations on your machine.
-That way we can keep these textfiles in Git, and easily track changes and backup to Github.
+That way we can keep these text files in Git, and easily track changes and backup to GitHub.
 Ansible - system preferences etc
 
 # Testing
 
-FIXME: Use of github actions to test configuration regularly.
+FIXME: Use of GitHub actions to test configuration regularly.
 
 FIXME: Add Screenshots?
 FIXME: Medium post? # https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium
-FIXME: Advertise on twitter and mastadon.
+FIXME: Advertise on twitter and mastodon.

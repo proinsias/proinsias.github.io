@@ -5,7 +5,7 @@
   "plugins": ["latex2e"],
   "rules": {
     "alex": {
-      "allow": []
+      "allow": ["attacks", "easy", "special"]
     },
     "apostrophe": false,
     "common-misspellings": {
@@ -15,14 +15,16 @@
     "doubled-spaces": false,
     "editorconfig": false,
     "en-capitalization": true,
-    "en-spell": true,
+    "en-spell": {
+      "personalDictionary": ["DARPA", "Inferencing", "SMISC", "Jernej", "OneDrive", "Homebrew", "dotfiles"]
+    },
     "max-number-of-lines": {
       "max": 300
     },
     "no-dead-link": {
       "checkRelative": true,
       "baseURI": null,
-      "ignore": [],
+      "ignore": ["https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium"],
       "preferGET": [],
       "ignoreRedirects": true,
       "retry": 3,
@@ -35,12 +37,14 @@
     },
     "no-todo": true,
     "stop-words": {
-      "defaultWords": true
+      "defaultWords": true,
+      "exclude": ["discharge"]
     },
     "terminology": {
       "defaultTerms": true
     },
     "unexpanded-acronym": {
+      "ignore_acronyms": ["GRO"],
       "min_acronym_len": 3
     },
     "@textlint-rule/no-duplicate-abbr": true,

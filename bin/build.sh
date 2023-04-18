@@ -11,6 +11,10 @@ set -o xtrace     # Echo commands as they are executed.
 
 bundle exec jekyll build
 
+# To fix a warning about 'No GitHub API authentication',
+# make sure to set the JEKYLL_GITHUB_TOKEN environment variable.
+# https://github.com/github/pages-gem/issues/399#issuecomment-361091215
+
 # Render posts in the _drafts folder, with a future date, and those marked as unpublished.
 # bundle exec jekyll build --drafts --future --unpublished
 

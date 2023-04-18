@@ -35,6 +35,9 @@
     },
     {
       "pattern": "^https://4kib.com"
+    },
+    {
+      "pattern": "^https://help.medium.com"
     }
   ],
   "replacementPatterns": [
