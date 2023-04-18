@@ -5,7 +5,7 @@
   "plugins": ["latex2e"],
   "rules": {
     "alex": {
-      "allow": ["attacks", "easy", "special"]
+      "allow": ["attacks", "easy", "lies", "period", "special"]
     },
     "apostrophe": false,
     "common-misspellings": {
@@ -16,21 +16,23 @@
     "editorconfig": false,
     "en-capitalization": true,
     "en-spell": {
-      "personalDictionary": ["DARPA", "Inferencing", "SMISC", "Jernej", "OneDrive", "Homebrew", "dotfiles"]
+      "personalDictionary": [
+        "DARPA",
+        "Inferencing",
+        "SMISC",
+        "Jernej",
+        "OneDrive",
+        "Homebrew",
+        "dotfiles",
+        "Spitzer",
+        "Teide",
+        "Prograde"
+      ]
     },
     "max-number-of-lines": {
       "max": 300
     },
-    "no-dead-link": {
-      "checkRelative": true,
-      "baseURI": null,
-      "ignore": ["https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium"],
-      "preferGET": [],
-      "ignoreRedirects": true,
-      "retry": 3,
-      "userAgent": "textlint-rule-no-dead-link/1.0",
-      "maxRetryTime": 10
-    },
+    "no-dead-link": false,
     "no-empty-section": true,
     "no-start-duplicated-conjunction": {
       "interval": 2
@@ -44,7 +46,7 @@
       "defaultTerms": true
     },
     "unexpanded-acronym": {
-      "ignore_acronyms": ["GRO"],
+      "ignore_acronyms": ["AIP", "GRO", "GSC", "IRAC", "PDF", "STARE", "XVI"],
       "min_acronym_len": 3
     },
     "@textlint-rule/no-duplicate-abbr": true,

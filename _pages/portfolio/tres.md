@@ -5,21 +5,22 @@ excerpt: 'TrES was a network of three small-aperture telescopes searching the sk
 permalink: /portfolio/tres.html
 categories: tres
 date: 2016-07-08
-last_modified_at: 2016-07-09
+last_modified_at: 2023-04-18 22:07:35
 tags:
     - astronomy
     - sleuth
     - tres
+toc: true
+# toc_label: "Unique Title"
+# toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 
-[Intro](#intro) : [Sleuth](#sleuth) : [News](#news) : [TrES Papers](#papers)
-
-<h2 id="intro">Introduction</h2>
+# Introduction
 
 | ![Sleuth](/assets/images/sleuth.jpg) | ![PSST](/assets/images/psst.jpg) | ![STARE](/assets/images/stare.jpg) |
 
 TrES
-([original webpage](https://web.archive.org/web/20080620002210/http://solas.dnsalias.org:8080/~ftod//tres/tres.html)),
+([original web page](https://web.archive.org/web/20080620002210/http://solas.dnsalias.org:8080/~ftod//tres/tres.html)),
 the Transatlantic Exoplanet Survey, was a network of three small-aperture telescopes (pictured above)
 searching the sky for transiting planets.
 The network consisted of
@@ -60,7 +61,7 @@ common.
 
 See the STARE web page for a summary of [The Search for Exoplanets](https://www.hao.ucar.edu/research/stare/search.html).
 
-<h2 id="sleuth">Sleuth: The Palomar Planet Finder</h2>
+# Sleuth: The Palomar Planet Finder
 
 More details on Sleuth, the telescope I used for my PhD discovery of three exoplanets,
 can be found on the [Sleuth](https://proinsias.github.io/portfolio/tres/sleuth.html) main page.
@@ -73,7 +74,7 @@ Additional telescopic support at Palomar Observatory was provided by:
 A nice [summary](https://web.archive.org/web/20160728221235/http://www.sandiegouniontribune.com/uniontrib/20051102/news_lz1c02palomar.html)
 of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 
-<h2 id="news">In the News</h2>
+# In the News
 
 -   Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
 
@@ -99,7 +100,7 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 -   [TrES Network Success: Transiting Planet Discovered](https://www.hao.ucar.edu/research/stare/tres1_2.html).
     Transits of TrES-1 observed using 10-cm telescope.
 
-<h2 id="papers">TrES Publications</h2>
+# TrES Publications
 
 -   [_TrES-5: A Massive Jupiter-sized Planet Transiting a Cool G Dwarf_](https://www.doi.org/10.1088/0004-637X/741/2/114)
     The Astrophysical Journal, Volume 741, p. 5, November, 2011.
@@ -126,7 +127,7 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
     in the Trans-Atlantic Exoplanet Survey_](https://www.doi.org/10.1088/0004-6256/135/3/850),
     The Astrophysical Journal, Volume 135, p. 850, March, 2008.
 
--   [_Extrasolar planet detection by binary stellar eclipse timing: evidence for a third body around CM Draconis_](https://www.doi.org/10.1051/0004-6361:20079000),
+-   [_Extrasolar planet detection by binary stellar eclipse timing: evidence for a third body around CM Draconis_](https://doi.org/10.48550/arXiv.0801.2186),
     Astronomy and Astrophysics, Volume 480, p. 563, March, 2008.
 
 -   [_The detection and exploration of planets from the Trans-atlantic
@@ -176,7 +177,7 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
     Cygnus_](/assets/pdf/2005AspenPoster.pdf)
     presented at the 2005 Aspen Center for Physics Winter Conference on Astrophysics.
 
--   [_Further Sleuthing: Candidates from a New Field in
+-   [\_Further Sleuthing: Candidates from a New Field in
     Andromeda](/assets/pdf/2004WSPoster.pdf)
     presented at the 2004 XVI
     [Canary Islands Winter School of Astrophysics](https://www.cambridge.org/core/series/canary-islands-winter-school-of-astrophysics/68A65A5DE79483357BC919E37E13C8E7).
@@ -202,7 +203,7 @@ of the Palomar trio of telescopes was written up by the San Diego Union Tribune.
 -   [_First Results From Sleuth: The Palomar Planet
     Finder_](https://www.doi.org/10.1063/1.1774518)
     The Search for Other Worlds, AIP Conference Proceedings, Volume
-    713, p. 169, June, 2004 ([pdf](/assets/pdf/2004AASPoster.pdf)).
+    713, p. 169, June, 2004 ([PDF](/assets/pdf/2004AASPoster.pdf)).
 
 -   [_Sherlock: An Automated Follow-Up Telescope for Wide-Field
     Transit
