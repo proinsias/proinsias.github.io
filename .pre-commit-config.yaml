@@ -48,6 +48,11 @@ repos:
           - id: yamllint
             args: [-c=.yamllint.yml]
 
+    - repo: https://github.com/proinsias/yaml-update-last-modified-date
+      rev: v1.1.0
+      hooks:
+          - id: yaml-update-last-modified-date
+
     # Mixed
 
     - repo: https://github.com/kraymer/cesar
