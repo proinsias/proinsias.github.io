@@ -11,5 +11,5 @@ set -o xtrace     # Echo commands as they are executed.
 
 file="${1}"
 
-convert "${file}" -resize 1500x1500 "${file}".resized
+convert "${file}" -resize 1140x1140 "${file}".resized
 mv -f "${file}".resized "${file}"

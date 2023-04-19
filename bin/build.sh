@@ -11,13 +11,6 @@ set -o xtrace     # Echo commands as they are executed.
 
 bundle exec jekyll build
 
-# To fix a warning about 'No GitHub API authentication',
-# make sure to set the JEKYLL_GITHUB_TOKEN environment variable.
-# https://github.com/github/pages-gem/issues/399#issuecomment-361091215
-
-# Render posts in the _drafts folder, with a future date, and those marked as unpublished.
-# bundle exec jekyll build --drafts --future --unpublished
-
 # Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
 bundle exec htmlproofer ./_site \
     --no-enforce-https \
@@ -26,3 +19,15 @@ bundle exec htmlproofer ./_site \
     --only-4xx \
     --typhoeus '{ "connecttimeout": 30, "timeout": 30 }' \
     --ignore-urls "#,/4kib.com/,/archive.org/,/askubuntu.com/,/doi.org/,/enki.com/,/enkipro.com/,/help.github.com/,/mademistakes.com/,/medium.com/,/proinsias.github.io/,/serverfault.com/,/stackexchange.com/,/stackoverflow.com/,/towardsdatascience.com/,/twitter.com/"
+
+echo ""
+echo "To fix a warning about 'No GitHub API authentication',"
+echo "make sure to set the JEKYLL_GITHUB_TOKEN environment variable."
+# https://github.com/github/pages-gem/issues/399#issuecomment-361091215
+
+echo ""
+echo "To render posts in the _drafts folder, with a future date, and those marked as unpublished, run:"
+echo "> bundle exec jekyll build --drafts --future --unpublished"
+
+echo "To serve the site locally, run:"
+echo "> bundle exec jekyll serve [--drafts --future --unpublished]"

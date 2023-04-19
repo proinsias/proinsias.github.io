@@ -28,8 +28,8 @@ name: Francis T. O'Donovan
 description: >-
   My home on the web.
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url: https://proinsias.github.io
-baseurl: '/' # the subpath of your site, e.g. "/blog"
+url: https://proinsias.github.io # Leave off trailing forward slashes when setting url.
+# baseurl: '/blog' # the subpath of your site, e.g. "/blog"  # Don't need this if there's no subpath.
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 repository: proinsias/proinsias.github.io
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"

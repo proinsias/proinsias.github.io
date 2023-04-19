@@ -23,3 +23,5 @@ gem 'bundler-audit'
 gem 'html-proofer', '>= 4.0.1'
 gem 'image_optim'
 gem 'mdl', '>= 0.11.0'
+
+gem "webrick", "~> 1.8"

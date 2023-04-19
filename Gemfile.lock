@@ -312,6 +312,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    webrick (1.8.1)
     yell (2.2.2)
     zeitwerk (2.6.7)
 
@@ -328,6 +329,7 @@ DEPENDENCIES
   image_optim
   jekyll-include-cache
   mdl (>= 0.11.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.1.4

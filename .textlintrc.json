@@ -26,7 +26,11 @@
         "dotfiles",
         "Spitzer",
         "Teide",
-        "Prograde"
+        "Prograde",
+        "CC0",
+        "Santeri",
+        "Viinam",
+        "Brewfile"
       ]
     },
     "max-number-of-lines": {
