@@ -69,9 +69,7 @@ Type "clear" Enter
 Show
 
 Type "# Create a brand new git repo" Sleep 1s Enter
-Type "cd /tmp" Sleep 500ms Enter
-Type "mkdir test" Sleep 500ms Enter
-Type "cd test" Sleep 500ms Enter
+Type "cd /tmp && mkdir test && cd test" Sleep 500ms Enter
 Type "git init" Sleep 500ms Enter
 Sleep 3s
 

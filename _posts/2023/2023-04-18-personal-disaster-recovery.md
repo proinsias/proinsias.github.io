@@ -1,6 +1,7 @@
 ---
 layout: single
 title: 'Pets v Cattle: Making a personal disaster recovery plan'
+excerpt: When disaster strikes, how quickly will you recover?
 date: 2023-04-18
 last_modified_at: 2023-04-19 18:02:37
 categories: posts
