@@ -2,6 +2,9 @@
 name: Compress Images
 
 on:
+  # Run workflow manually (without waiting for the cron to be called),
+  # through the Github Actions Workflow page directly.
+  workflow_dispatch:
   pull_request:
     # Run Image Actions when JPG, JPEG, PNG or WebP files are added or changed.
     paths:
