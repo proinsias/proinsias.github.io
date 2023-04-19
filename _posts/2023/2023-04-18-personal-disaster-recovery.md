@@ -2,9 +2,9 @@
 layout: single
 title: 'Pets v Cattle: Making a personal disaster recovery plan'
 date: 2023-04-18
-last_modified_at: 2023-04-18 19:44:49
+last_modified_at: 2023-04-19 18:02:37
 categories: posts
-published: false
+published: true
 header:
     image: /assets/images/disaster_recovery_plan.jpg
     image_description: 'Disaster Recovery Plan'
@@ -168,7 +168,12 @@ On a new machine, I could download this list, and have Homebrew processes it in 
 to install all the tools I need while I keep working.
 Nowadays I use Homebrew in combination with [Ansible](https://www.ansible.com/) playbooks – more on this below.
 
-<!-- FIXME: Add demo gif of installing popular software via brew. Store these vhs files-->
+<!-- textlint-disable terminology -->
+
+![Demo of brew](/assets/images/brew.gif)
+<sup>_Demo of brew installing applications via the command line._
+
+<!-- textlint-enable terminology -->
 
 ### Special case for applications: software code
 
@@ -204,8 +209,6 @@ to setup the files in the right locations.
 ![Demo of stow](/assets/images/stow.gif)
 <sup>_Demo of stow setting up my dotfiles._
 
-<!-- FIXME: Run this tape file on GCS VM machine with no dotfiles and no pre-commit! -->
-
 ## System Configuration
 
 A common characteristic of most of the above solutions is the reliance upon text files
@@ -229,8 +232,6 @@ that I can use in future to setup a new macOS or Linux laptop as follows:
 4. Globally install a list of [nodejs](https://nodejs.org/) packages.
 5. Set various macOS system configurations.
 
-<!-- FIXME: Add demo gif of ansible installing basic homebrew packages. Store these vhs files -->
-
 # Testing
 
 > Make sure to test your disaster recovery plan.
@@ -245,15 +246,3 @@ I also test the Ansible playbook via a GitHub Actions
 So there you have it. My personal disaster recovery plan.
 I hope it helps you recover faster the next time gremlins strike.
 Please let me know if you have your own tips via the comments!
-
-<!-- FIXME: Add demo gif of testing via GitHub actions?. -->
-<!--
-
-https://recordit.co/
-https://josephcardillo.medium.com/how-to-add-gifs-to-your-github-readme-89c74da2ce47
-https://getkap.co/
-
--->
-
-<!-- FIXME: Medium post? # https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium -->
-<!-- FIXME: Advertise on twitter and mastodon. -->
