@@ -181,7 +181,8 @@ with Docker you can run one command to build a virtual machine that will run you
 An extra benefit of using Docker is that setting up your development environment on a new machine is
 as easy as running the same Docker command you've been using all along.
 
-<!-- FIXME: Add demo gif of running linux command on a macos via docker. Store these vhs files -->
+![Demo of docker](/assets/images/docker.gif)
+<sup>_Demo of docker running application in shared environments._
 
 ## Dotfiles
 
