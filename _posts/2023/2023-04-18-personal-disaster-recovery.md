@@ -126,7 +126,8 @@ as long as you can be disciplined enough not to store any documents outside the 
 
 Then on a new machine, log into the service, and your documents will start loading!
 
-<!-- FIXME: Add gif of documents syncing -->
+![Documents syncing](/assets/images/google-drive.png)
+<sup>_Hey presto! \[Photo by [Google](https://google.com/).\]_
 
 ### Special case for documents: software code
 
@@ -140,7 +141,9 @@ I make note of this special case because one flaw in version-control software
 is that it's easy to forget that you have local changes that are not yet synced to the remote repository.
 I use the [`uncommitted`](https://github.com/brandon-rhodes/uncommitted) tool to find these changes across my machine.
 
-<!-- FIXME: Add demo gif of uncommitted -->
+![Demo of uncommitted](/assets/images/uncommitted.gif)
+<sup>_Demo of uncommitted showing local un-synced changes.
+\[Generated using [vhs](https://github.com/charmbracelet/vhs).\]_
 
 ## GUI and CLI Applications
 
@@ -165,7 +168,7 @@ On a new machine, I could download this list, and have Homebrew processes it in 
 to install all the tools I need while I keep working.
 Nowadays I use Homebrew in combination with [Ansible](https://www.ansible.com/) playbooks – more on this below.
 
-<!-- FIXME: Add demo gif of installing popular software via brew -->
+<!-- FIXME: Add demo gif of installing popular software via brew. Store these vhs files-->
 
 ### Special case for applications: software code
 
@@ -178,7 +181,7 @@ with Docker you can run one command to build a virtual machine that will run you
 An extra benefit of using Docker is that setting up your development environment on a new machine is
 as easy as running the same Docker command you've been using all along.
 
-<!-- FIXME: Add demo gif of running linux command on a macos via docker -->
+<!-- FIXME: Add demo gif of running linux command on a macos via docker. Store these vhs files -->
 
 ## Dotfiles
 
@@ -194,10 +197,13 @@ One of the quickest ways to feel in a foreign land on a new laptop is missing th
 Thankfully, an easy solution is to store and update these files in a GitHub repo,
 such as [proinsias/dotfiles](https://github.com/proinsias/dotfiles).
 Then to make any new environment more like your existing environment, you clone that dotfiles repo
-and run a command like [`stow`](https://www.gnu.org/software/stow/manual/stow.html)
+and run a command like [stow](https://www.gnu.org/software/stow/manual/stow.html)
 to setup the files in the right locations.
 
-<!-- FIXME: Add demo gif of stow -->
+![Demo of stow](/assets/images/stow.gif)
+<sup>_Demo of stow setting up my dotfiles._
+
+<!-- FIXME: Run this tape file on GCS VM machine with no dotfiles and no pre-commit! -->
 
 ## System Configuration
 
@@ -222,7 +228,7 @@ that I can use in future to setup a new macOS or Linux laptop as follows:
 4. Globally install a list of [nodejs](https://nodejs.org/) packages.
 5. Set various macOS system configurations.
 
-<!-- FIXME: Add demo gif of ansible installing basic homebrew packages -->
+<!-- FIXME: Add demo gif of ansible installing basic homebrew packages. Store these vhs files -->
 
 # Testing
 
@@ -230,12 +236,23 @@ that I can use in future to setup a new macOS or Linux laptop as follows:
 
 Whichever recovery plan you end up picking, you must test your process _before_ disaster strikes.
 
-Above I mention that backup verification is hard.
+I do this by keeping most of my settings across my work and home computers synced using Ansible.
+I run my Ansible playbook daily automatically, and review any errors that crop up.
+I also test the Ansible playbook via a GitHub Actions
+[workflow](https://github.com/proinsias/mac-playbook/blob/master/.github/workflows/ci.yml).
 
-Use uncommitted to check for changes.
-Run ansible script daily and via GitHub.
+So there you have it. My personal disaster recovery plan.
+I hope it helps you recover faster the next time gremlins strike.
+Please let me know if you have your own tips via the comments!
 
-<!-- FIXME: Add demo gif of testing via GitHub actions? -->
+<!-- FIXME: Add demo gif of testing via GitHub actions?. -->
+<!--
+
+https://recordit.co/
+https://josephcardillo.medium.com/how-to-add-gifs-to-your-github-readme-89c74da2ce47
+https://getkap.co/
+
+-->
 
 <!-- FIXME: Medium post? # https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium -->
 <!-- FIXME: Advertise on twitter and mastodon. -->
