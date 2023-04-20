@@ -88,7 +88,7 @@ repos:
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.16.2
+      rev: v8.16.3
       hooks:
           - id: gitleaks
 
@@ -140,12 +140,12 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.3.183
+      rev: 2.3.187
       hooks:
           - id: checkov
 
     - repo: https://github.com/mxab/pre-commit-trivy.git
-      rev: v0.5.0
+      rev: v0.5.1
       hooks:
           - id: trivyfs-docker
             args:
