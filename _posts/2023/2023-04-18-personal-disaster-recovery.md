@@ -1,9 +1,9 @@
 ---
 layout: single
 title: 'Pets v Cattle: Making a personal disaster recovery plan'
-excerpt: When disaster strikes, how quickly will you recover?
+excerpt: 'When disaster strikes, how quickly will you recover?'
 date: 2023-04-18
-last_modified_at: 2023-04-19 18:02:37
+last_modified_at: 2023-04-20 01:44:55
 categories: posts
 published: true
 header:
@@ -42,7 +42,7 @@ These machines are "cattle", with a bunch of machines in your "herd".
 If something happens to one of them, you can easily replace that machine.
 
 ![Cattle versus Pets](/assets/images/cattle-v-pets.jpg)
-<sup>_When dealing with computers, you should rely on cattle, not on pets. \[Photo in CC0 Public Domain\]_
+<sup>_When dealing with computers, you should rely on cattle, not on pets. \[Photo in CC0 Public Domain.\]_
 
 This DevOps strategy has become an important part of corporate disaster recovery plans,
 because it allows for rapid recovery of entire systems that form the backbone of a business
@@ -140,7 +140,7 @@ This allows for a rapid restore of code to a new machine.
 
 I make note of this special case because one flaw in version-control software
 is that it's easy to forget that you have local changes that are not yet synced to the remote repository.
-I use the [`uncommitted`](https://github.com/brandon-rhodes/uncommitted) tool to find these changes across my machine.
+I use the [uncommitted](https://github.com/brandon-rhodes/uncommitted) tool to find these changes across my machine.
 
 ![Demo of uncommitted](/assets/images/uncommitted.gif)
 <sup>_Demo of uncommitted showing local un-synced changes.
@@ -227,7 +227,7 @@ I ended up creating my own [set of playbooks](https://github.com/proinsias/mac-p
 that I can use in future to setup a new macOS or Linux laptop as follows:
 
 1. Install an OS-specific list of GUI and CLI applications using `homebrew` (both OSs),
-   [mas](https://github.com/mas-cli/mas) (macOS only) and `apt` (Linux only).
+   [mas](https://github.com/mas-cli/mas) (macOS only), and `apt` (Linux only).
 2. Install a list of python-based utilities to their own virtual environments using [pipx](https://pypa.github.io/pipx/).
 3. Globally install a list of [ruby](https://www.ruby-lang.org/) packages.
 4. Globally install a list of [nodejs](https://nodejs.org/) packages.
