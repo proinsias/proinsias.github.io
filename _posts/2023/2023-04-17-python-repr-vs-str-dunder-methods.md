@@ -3,8 +3,9 @@ layout: single
 title: 'Python: repr vs str dunder methods'
 excerpt: Use __repr__() for Programmers vs __str__() for Users
 date: 2023-04-17
-last_modified_at: 2023-04-17
-categories: til
+last_modified_at: 2023-04-25 02:20:40
+categories:
+    - til
 tags:
     - til
     - python

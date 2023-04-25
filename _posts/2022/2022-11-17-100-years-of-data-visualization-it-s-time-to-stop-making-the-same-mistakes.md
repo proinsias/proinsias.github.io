@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-11-17
+last_modified_at: 2023-04-25 02:20:40
 date: 2022-11-17
 layout: single
 published: true
@@ -11,7 +11,9 @@ tags:
     - datascience
 ---
 
-I just watched the very informative webinar below from
+{% include video id="141091383" provider="vimeo" %}
+
+I just watched the very informative webinar above from
 [Data Science Central](https://www.datasciencecentral.com/)
 called
 [100 Years of Data Visualization – It's Time to Stop Making the Same Mistakes](https://vimeo.com/141091383).
@@ -87,16 +89,3 @@ Finally, I thought it would be useful to reproduce here two lists from Brinton's
 > 23. If there are not too many curves drawn in one field it is desirable to show at the top of the chart the figures representing the value of each point plotted in a curve.
 > 24. When figures are given at the top of a chart for each point in a curve, have the figures added if possible to show yearly totals or other totals which may be useful in reading.
 > 25. Make the title of a chart so complete and so clear that misinterpretation will be impossible.
-
-<div style="max-width:854px">
-<div style="position:relative;height:0;padding-bottom:56.25%">
-<iframe
-src="https://player.vimeo.com/video/141091383?h=a2598608f7"
-width="640"
-height="480"
-frameborder="0"
-allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen>
-</iframe>
-</div>
-</div>
