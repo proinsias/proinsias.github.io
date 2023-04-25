@@ -3,11 +3,13 @@ layout: single
 title: 'Spark: Orderby Partitioning'
 excerpt: The spark.sql.shuffle.partitions configuration option
 date: 2017-02-27
-last_modified_at: 2022-11-15
+last_modified_at: 2023-04-25 01:22:52
 categories: tips
 tags:
     - spark
     - tips
+redirect_from:
+    - /til/Spark-Orderby-partitioning
 ---
 
 Remember that `orderBy` uses the number of partitions specified by

@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-30
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-30
 layout: single
 published: true
@@ -9,6 +9,8 @@ categories: til
 tags:
     - til
     - nix
+redirect_from:
+    - /pages/proinsias/til/how-to-display-bash-history-without-line-numbers
 ---
 
 A standard use of the `history` command will output line numbers as well as the commands in your history:

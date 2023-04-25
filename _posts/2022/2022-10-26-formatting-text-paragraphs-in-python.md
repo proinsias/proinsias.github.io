@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-26
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-26
 layout: single
 published: true
@@ -9,6 +9,8 @@ categories: til
 tags:
     - python
     - til
+redirect_from:
+    - /pages/proinsias/til/formatting-text-paragraphs-in-python
 ---
 
 > The textwrap module can be used to format text for output in situations

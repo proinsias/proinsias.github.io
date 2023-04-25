@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-22
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-22
 layout: single
 published: true
@@ -9,6 +9,8 @@ categories: til
 tags:
     - python
     - til
+redirect_from:
+    - /pages/proinsias/til/how-to-put-backslash-escape-sequence-into-an-f-string
 ---
 
 If you want to write something like:

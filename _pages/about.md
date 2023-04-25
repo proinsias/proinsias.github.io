@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-last_modified_at: 2021-03-26
+last_modified_at: 2023-04-25 01:22:52
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png
@@ -96,18 +96,6 @@ Medium: https://medium.com/@proinsias
 Stackoverflow: https://stackoverflow.com/users/1257318/proinsias/
 Others?
 -->
-
-## What's 'An Independent Mind' all about?
-
-<!-- textlint-disable alex -->
-
-You may be wondering why this blog is called 'An Independent Mind'.
-Well back in the olden days when [Shareware](https://en.wikipedia.org/wiki/Shareware) was more common,
-and when you often had to register your software, there was often a required field for the company you worked out.
-But I was just a wee lad, so I didn't have anything to put there.
-And so 'An Independent Mind' was born.
-
-<!-- textlint-enable alex -->
 
 ## 😜Here's a Joke for you
 

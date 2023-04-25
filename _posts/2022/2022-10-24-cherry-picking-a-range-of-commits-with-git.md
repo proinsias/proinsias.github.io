@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-24
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-24
 layout: single
 published: true
@@ -10,6 +10,8 @@ tags:
     - git
     - til
     - nix
+redirect_from:
+    - /pages/proinsias/til/cherry-picking-a-range-of-commits-with-git
 ---
 
 > Cherry picking a range of commits is not too difficult, but it does come with a strange syntax

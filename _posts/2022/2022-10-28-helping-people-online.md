@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-28
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-28
 layout: single
 published: true
@@ -10,6 +10,8 @@ excerpt: >-
 categories: posts
 tags:
     - tips
+redirect_from:
+    - pages/proinsias/posts/helping-people-online
 ---
 
 A helpful [post](https://web.archive.org/web/20220826234811/https://nedbatchelder.com/blog/202009/how_to_be_helpful_online.html)

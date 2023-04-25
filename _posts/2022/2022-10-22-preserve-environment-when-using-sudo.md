@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2022-10-22
+last_modified_at: 2023-04-25 01:22:52
 date: 2022-10-22
 layout: single
 published: true
@@ -9,6 +9,8 @@ categories: til
 tags:
     - nix
     - ssh
+redirect_from:
+    - /pages/proinsias/til/preserve-environment-when-using-sudo
 ---
 
 When using the `sudo` command:

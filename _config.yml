@@ -21,7 +21,7 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 locale: en-US
-title: An independent mind...
+title: Looking for data in all the right places...
 title_separator: '-'
 subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
@@ -265,6 +265,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-seo-tag # Create metadata tags for search engines and social networks.
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem.
   - jemoji
@@ -278,6 +279,7 @@ whitelist:
   - jekyll-include-cache
   - jekyll-mentions
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
