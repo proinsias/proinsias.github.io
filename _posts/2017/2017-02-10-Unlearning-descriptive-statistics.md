@@ -3,12 +3,12 @@ layout: single
 title: 'Unlearning descriptive statistics'
 excerpt:
 date: 2017-02-10
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-25 01:28:01
 categories: tips
 tags:
     - statistics
 redirect_from:
-    - /til/Stats-Better-descriptive-statistics
+    - /til/Stats-Better-descriptive-statistics/
 ---
 
 Top tips on better descriptive statistics:

@@ -3,14 +3,14 @@ layout: single
 title: 'Pandas: Simplify filter expressions with between'
 excerpt: Create more readable code
 date: 2021-04-26
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-25 01:28:01
 categories: til
 tags:
     - filter
     - pandas
     - til
 redirect_from:
-    - /til/pandas-simplify-filter-expressions-with-between
+    - /til/pandas-simplify-filter-expressions-with-between/
 ---
 
 You can reduce this filter:
