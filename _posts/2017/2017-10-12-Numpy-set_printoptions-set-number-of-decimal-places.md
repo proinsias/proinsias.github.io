@@ -1,6 +1,7 @@
 ---
 layout: single
 title: 'Numpy: Set number of decimal places using set_printoptions'
+excerpt: Via the precision argument
 date: 2017-10-12 15:40
 last_modified_at: 2023-04-26 13:22:37
 categories:
@@ -12,7 +13,7 @@ tags:
 
 ```python
 > import numpy as np
-> np.set_printoptions(precision=4, )
+> np.set_printoptions(precision=4)
 > print(np.array([1.123456789]))
 [ 1.1235]
 ```
