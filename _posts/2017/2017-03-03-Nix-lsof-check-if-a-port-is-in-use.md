@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Check If A Port Is In Use'
 excerpt: Using the lsof command
 date: 2017-03-03
-last_modified_at: 2023-01-05
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - nix
     - til

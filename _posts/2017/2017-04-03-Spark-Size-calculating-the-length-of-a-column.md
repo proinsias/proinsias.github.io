@@ -2,9 +2,10 @@
 layout: single
 title: 'Spark: Calculating the length of a column with size'
 date: 2017-04-03
-last_modified_at: 2022-01-06
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the size command
-categories: til
+categories:
+    - til
 tags:
     - spark
     - til

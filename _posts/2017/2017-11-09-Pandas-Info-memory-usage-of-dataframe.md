@@ -1,17 +1,18 @@
 ---
 layout: single
-title: "Pandas: Get Memory usage of DataFrame with info"
+title: 'Pandas: Get Memory usage of DataFrame with info'
 date: 2017-11-09 12:35
-last_modified_at: 2017-11-09 12:35
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 The memory usage of a DataFrame (including the index) is shown when accessing the `info`
 method of a DataFrame. A configuration option, `display.memory_usage`, specifies if the
-DataFrame’s memory usage will be displayed when invoking the `df.info()` method.
+DataFrame's memory usage will be displayed when invoking the `df.info()` method.
 
 ```python
 >>> df = pd.DataFrame(np.random.randn(10,3),columns=list('ABC'))

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Pandas: Calculate percentile ranking relative to another column"
+title: 'Pandas: Calculate percentile ranking relative to another column'
 date: 2017-11-09 12:35
-last_modified_at: 2017-11-09 12:35
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 Say we have two columns of data representing the same quantity;

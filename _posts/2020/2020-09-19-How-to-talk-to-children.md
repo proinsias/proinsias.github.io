@@ -2,9 +2,10 @@
 layout: single
 title: 'How to talk to children'
 date: 2020-09-19
-last_modified_at: 2023-04-16
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Fred Rogers' tips
-categories: posts
+categories:
+    - posts
 tags:
     - children
     - parenting

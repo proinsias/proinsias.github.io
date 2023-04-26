@@ -1,10 +1,11 @@
 ---
-last_modified_at: 2022-10-21
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-31
 layout: single
 published: true
 title: Absurd trolley problems
-categories: tips
+categories:
+    - tips
 excerpt: Playful thought experiments
 tags:
     - tips

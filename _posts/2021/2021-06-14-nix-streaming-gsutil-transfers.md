@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Streaming gsutil transfers'
 excerpt: Avoid landing data unnecessarily
 date: 2021-06-14
-last_modified_at: 2021-06-14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - gsutil
     - nix

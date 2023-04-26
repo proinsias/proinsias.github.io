@@ -1,15 +1,16 @@
 ---
 layout: single
-title: "Matplotlib: Use LaTeX"
+title: 'Matplotlib: Use LaTeX'
 date: 2017-11-14 15:51
-last_modified_at: 2017-11-14 15:51
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - latex
-  - matplotlib
-  - plot
-  - til
-  - visualization
+    - latex
+    - matplotlib
+    - plot
+    - til
+    - visualization
 ---
 
 Use LaTex in your plots:

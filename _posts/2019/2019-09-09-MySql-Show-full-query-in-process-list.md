@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "MySql: Show full query in process list"
+title: 'MySql: Show full query in process list'
 date: 2019-09-09 16.28
-last_modified_at: 2019-09-09 16.28
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - mysql
-  - sql
-  - til
+    - mysql
+    - sql
+    - til
 ---
 
 ```sql

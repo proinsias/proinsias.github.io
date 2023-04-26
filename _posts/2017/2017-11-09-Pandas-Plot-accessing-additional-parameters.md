@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Pandas: Accessing additional parameters for a plot"
+title: 'Pandas: Accessing additional parameters for a plot'
 date: 2017-11-09 12:35
-last_modified_at: 2017-11-09 12:35
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 Q:

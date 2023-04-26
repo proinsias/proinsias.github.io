@@ -2,9 +2,10 @@
 layout: single
 title: 'Python: Comment regular expressions'
 date: 2022-06-25
-last_modified_at: 2022-10-31
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Use re.VERBOSE to your advantage
-categories: til
+categories:
+    - til
 tags:
     - python
     - regex

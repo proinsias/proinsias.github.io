@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Open The Current Command In An Editor'
 excerpt: Using Ctrl-x Ctrl-e
 date: 2017-03-03
-last_modified_at: 2022-11-23
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - nix
     - til

@@ -7,9 +7,10 @@ header:
     image_description: "An artist's impression of a TrES-3 transit"
     teaser: /assets/images/TrES3_0.preview_thumbnail.gif
 permalink: /portfolio/tres/tres3.html
-categories: tres
+categories:
+    - tres
 date: 2022-11-19
-last_modified_at: 2022-11-19
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - tres

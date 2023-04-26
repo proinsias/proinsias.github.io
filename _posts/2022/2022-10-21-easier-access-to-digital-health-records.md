@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-21
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-31
 layout: single
 published: false
 title: Easier access to digital health records
 excerpt: New federal rules reduce friction
-categories: posts
+categories:
+    - posts
 tags:
     - healthcare
 ---

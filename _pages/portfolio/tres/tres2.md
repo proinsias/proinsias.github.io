@@ -8,9 +8,10 @@ header:
     caption: 'Photo credit: John Van Vliet 2020'
     teaser: /assets/images/Jkv.TrES-2b_thumbnail.gif
 permalink: /portfolio/tres/tres2.html
-categories: tres
+categories:
+    - tres
 date: 2022-11-19
-last_modified_at: 2022-11-19
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - sleuth

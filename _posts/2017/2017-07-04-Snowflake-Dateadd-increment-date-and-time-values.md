@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Snowflake: Increment date and time values with dateadd"
+title: 'Snowflake: Increment date and time values with dateadd'
 date: 2017-07-04 22:57
-last_modified_at: 2017-07-04 22:57
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - snowflake
-  - til
+    - snowflake
+    - til
 ---
 
 ```sql

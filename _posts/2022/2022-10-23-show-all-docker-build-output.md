@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-23
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-23
 layout: single
 published: true
 title: Show all Docker build output
 excerpt: Ensure all layer commands are visible
-categories: til
+categories:
+    - til
 tags:
     - til
     - docker

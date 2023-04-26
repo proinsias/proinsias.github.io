@@ -3,8 +3,9 @@ layout: single
 title: 'Tmux: Open New Window With A Specific Directory'
 excerpt: Using new-window
 date: 2017-02-02
-last_modified_at: 2022-12-16
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - til
     - tmux

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Print without newline"
+title: 'Python: Print without newline'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 To print a string without appending the usual newline, use the `end` parameter of the

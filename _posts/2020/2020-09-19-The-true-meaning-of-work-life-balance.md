@@ -2,9 +2,10 @@
 layout: single
 title: 'The true meaning of work-life balance'
 date: 2020-09-19
-last_modified_at: 2023-04-16
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Hug your kids
-categories: posts
+categories:
+    - posts
 tags:
     - children
     - death

@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2023-04-25 02:20:40
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-11-17
 layout: single
 published: true
 title: 100 Years of Data Visualization – It's Time to Stop Making the Same Mistakes
 excerpt: Data viz tips from a 1914 book we can still learn from
-categories: posts
+categories:
+    - posts
 tags:
     - tips
     - datascience

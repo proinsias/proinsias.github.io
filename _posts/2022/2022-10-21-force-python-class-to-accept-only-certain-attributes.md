@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-21
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-31
 layout: single
 published: true
 title: Force python class to accept only certain attributes
 excerpt: Use the slots attribute to limit the attributes of the class
-categories: til
+categories:
+    - til
 tags:
     - python
     - til

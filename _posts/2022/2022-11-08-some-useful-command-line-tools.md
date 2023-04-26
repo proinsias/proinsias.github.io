@@ -1,10 +1,11 @@
 ---
-last_modified_at: 2022-11-08
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-11-08
 layout: single
 published: true
 title: Some useful command line tools
-categories: til
+categories:
+    - til
 excerpt: sponge and pee
 tags:
     - til

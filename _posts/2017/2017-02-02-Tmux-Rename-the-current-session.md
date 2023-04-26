@@ -2,9 +2,10 @@
 layout: single
 title: 'Tmux: Rename The Current Session'
 date: 2017-02-02
-last_modified_at: 2022-12-23
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Using <prefix>$
-categories: til
+categories:
+    - til
 tags:
     - til
     - tmux

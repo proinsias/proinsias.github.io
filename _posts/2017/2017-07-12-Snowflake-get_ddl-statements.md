@@ -2,8 +2,9 @@
 layout: single
 title: 'Snowflake: Get_ddl statements'
 date: 2017-07-12 13:52
-last_modified_at: 2017-07-12 13:52
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - snowflake
     - til

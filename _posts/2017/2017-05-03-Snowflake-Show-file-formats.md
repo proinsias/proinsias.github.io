@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Snowflake: Show file formats"
+title: 'Snowflake: Show file formats'
 date: 2017-05-03 21:17
-last_modified_at: 2017-05-03 21:17
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - snowflake
-  - til
+    - snowflake
+    - til
 ---
 
 To list the file formats for which you have access privileges, use:

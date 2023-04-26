@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Delete Remote Git Tags"
+title: 'Git: Delete Remote Git Tags'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 Tagging releases with Git is a good idea.

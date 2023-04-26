@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Jupyter: High-res plots"
+title: 'Jupyter: High-res plots'
 date: 2017-10-12 15:42
-last_modified_at: 2017-10-12 15:42
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - jupyter
-  - til
+    - jupyter
+    - til
 ---
 
 You can enable high-resolution plots in jupyter notebook using the following

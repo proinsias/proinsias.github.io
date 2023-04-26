@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Mutable default arguments"
+title: 'Python: Mutable default arguments'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 One of the most confusing moments for new developers is when they discover how
@@ -46,7 +47,7 @@ But what you get instead is:
 A new list is created once when the function is defined,
 and the same list is used in each successive call.
 
-Python’s default arguments are evaluated once when the function is defined,
+Python's default arguments are evaluated once when the function is defined,
 instead of each time the function is called (like it is in say Ruby).
 This means that if you use a mutable default argument and mutate it,
 you will and have mutated that object for all future calls to the function as well.

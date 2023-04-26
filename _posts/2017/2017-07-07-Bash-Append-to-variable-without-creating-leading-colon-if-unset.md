@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Bash: Append to variable without creating leading colon if unset"
+title: 'Bash: Append to variable without creating leading colon if unset'
 date: 2017-07-07 14:55
-last_modified_at: 2017-07-07 14:55
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - bash
-  - nix
-  - til
+    - bash
+    - nix
+    - til
 ---
 
 Say you need to append a directory to `PATH`, but only add a leading `:` if `PATH` is

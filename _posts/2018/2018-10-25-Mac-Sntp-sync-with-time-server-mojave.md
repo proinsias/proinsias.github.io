@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Mac: Sync with time server (Mojave)"
+title: 'Mac: Sync with time server (Mojave)'
 date: 2018-10-25 12:42
-last_modified_at: 2018-10-25 12:42
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - mac
-  - til
+    - mac
+    - til
 ---
 
 To check and update your system time in macos Mojave:

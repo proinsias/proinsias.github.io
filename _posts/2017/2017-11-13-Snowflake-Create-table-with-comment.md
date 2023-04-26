@@ -2,8 +2,9 @@
 layout: single
 title: 'Snowflake: Create table with comment'
 date: 2017-11-13 15:30
-last_modified_at: 2017-11-13 15:30
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - snowflake
     - til

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Docker: Filtered system prune"
+title: 'Docker: Filtered system prune'
 date: 2018-11-06 10:20
-last_modified_at: 2018-11-06 10:20
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - docker
-  - til
+    - docker
+    - til
 ---
 
 Every now and then I run:

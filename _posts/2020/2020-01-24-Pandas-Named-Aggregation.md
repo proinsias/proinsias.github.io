@@ -2,9 +2,10 @@
 layout: single
 title: 'Pandas: Named Aggregation'
 date: 2020-01-24
-last_modified_at: 2023-04-17
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Simplify your groupbys
-categories: til
+categories:
+    - til
 tags:
     - pandas
     - til

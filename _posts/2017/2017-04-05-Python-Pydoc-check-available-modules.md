@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Check available modules with pydoc"
+title: 'Python: Check available modules with pydoc'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 Find a list of all python modules installed on a machine by running the following command

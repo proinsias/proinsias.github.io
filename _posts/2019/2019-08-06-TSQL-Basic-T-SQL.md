@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "TSQL: Basic T-SQL"
+title: 'TSQL: Basic T-SQL'
 date: 2019-08-06 10:11
-last_modified_at: 2019-08-06 10:11
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - sql
-  - til
-  - tsql
+    - sql
+    - til
+    - tsql
 ---
 
 ```sql

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Last Commit A File Appeared In"
+title: 'Git: Last Commit A File Appeared In'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 In my project, I have a `README.md` file that I haven't modified in a while.

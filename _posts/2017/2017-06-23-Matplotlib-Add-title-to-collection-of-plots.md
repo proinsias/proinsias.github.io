@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "Matplotlib: Add title to collection of plots"
+title: 'Matplotlib: Add title to collection of plots'
 date: 2017-06-23 16:07
-last_modified_at: 2017-06-23 16:07
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - matplotlib
-  - plot
-  - til
-  - visualization
+    - matplotlib
+    - plot
+    - til
+    - visualization
 ---
 
 Use `matplotlib.pyplot.suptitle()` to add a centered title to the figure:

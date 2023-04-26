@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-26
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-26
 layout: single
 published: true
 title: How to find broken symlinks
 excerpt: Find stale symlinks optimally
-categories: til
+categories:
+    - til
 tags:
     - til
     - nix

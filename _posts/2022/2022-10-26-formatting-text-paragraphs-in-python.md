@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-26
 layout: single
 published: true
 title: Formatting text paragraphs in python
 excerpt: The textwrap module to the rescue!
-categories: til
+categories:
+    - til
 tags:
     - python
     - til

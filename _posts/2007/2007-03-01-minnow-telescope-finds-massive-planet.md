@@ -4,9 +4,10 @@ layout: single
 excerpt: "Since ancient times, mankind has studied the sky and
 wondered what the 'wandering stars' (planets) might be. In the last two decades, we have
 found hundreds of planets outside our solar system."
-categories: tres
+categories:
+    - tres
 date: 2007-03-01
-last_modified_at: 2016-07-06
+last_modified_at: 2023-04-26 13:22:37
 tags:
   - astronomy
   - caltech

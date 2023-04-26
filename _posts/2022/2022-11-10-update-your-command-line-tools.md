@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-11-10
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-11-10
 layout: single
 published: true
 title: Update your command line tools
 excerpt: Modern versions of common vintage tools
-categories: tips
+categories:
+    - tips
 tags:
     - tips
     - nix

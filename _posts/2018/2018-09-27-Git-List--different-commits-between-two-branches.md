@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: List Different Commits Between Two Branches"
+title: 'Git: List Different Commits Between Two Branches'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 There are times when I want to get a sense of the difference between two

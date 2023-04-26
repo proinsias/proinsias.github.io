@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Mac: Copy files intelligently with ditto"
+title: 'Mac: Copy files intelligently with ditto'
 date: 2017-07-12 14:07
-last_modified_at: 2017-07-12 14:07
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - mac
-  - til
+    - mac
+    - til
 ---
 
 > `ditto` is slightly more advanced but can be advantageous to 'cp' for several reasons,

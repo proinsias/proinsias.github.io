@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Travis: Skip unnecessary builds"
+title: 'Travis: Skip unnecessary builds'
 date: 2017-11-17 10:18
-last_modified_at: 2017-11-17 10:18
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - til
-  - travis
+    - til
+    - travis
 ---
 
 > Especially when you're working with a large team with multiple Travis-enabled repositories,

@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: The cron schedule expression editor'
 excerpt: Quick way of getting the syntax right
 date: 2016-07-25
-last_modified_at: 2022-11-09
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - nix
     - til

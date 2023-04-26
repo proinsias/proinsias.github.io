@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Pandas: Use dtype to speed up reading with read_csv"
+title: 'Pandas: Use dtype to speed up reading with read_csv'
 date: 2017-11-09 12:35
-last_modified_at: 2017-11-09 12:35
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - pandas
-  - til
+    - pandas
+    - til
 ---
 
 By default, `pandas` will infer the data types of the columns when reading in a csv file.

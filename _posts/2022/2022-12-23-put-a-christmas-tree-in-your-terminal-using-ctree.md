@@ -1,17 +1,18 @@
 ---
-last_modified_at: '2022-12-23 10:43 -0500'
+last_modified_at: 2023-04-26 13:22:37
 date: '2022-12-23 10:43 -0500'
 layout: single
 published: true
 title: Put a Christmas tree in your terminal using ctree
-excerpt: Celebratation time!
-categories: til
+excerpt: Celebration time!
+categories:
+    - til
 tags:
-  - til
-  - nix
+    - til
+    - nix
 ---
-As we get closer to the big day, here's how to get a Christmas tree in your terminal:
 
+As we get closer to the big day, here's how to get a Christmas tree in your terminal:
 
 ```shell
 # Install ctree via homebrew.

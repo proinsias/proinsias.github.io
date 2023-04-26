@@ -4,8 +4,9 @@ title: 'Time downloads using sample files of various sizes'
 excerpt: Using wget and time
 published: true
 date: 2023-04-16
-last_modified_at: 2023-04-16
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - til
     - time

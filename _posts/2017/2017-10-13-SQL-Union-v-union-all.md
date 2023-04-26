@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "SQL: UNION v UNION ALL"
+title: 'SQL: UNION v UNION ALL'
 date: 2017-10-13 13:36
-last_modified_at: 2017-10-13 13:36
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - sql
-  - til
+    - sql
+    - til
 ---
 
 `UNION` removes duplicate records, whereas `UNION ALL` does not.

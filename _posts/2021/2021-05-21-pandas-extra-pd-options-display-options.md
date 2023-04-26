@@ -3,8 +3,9 @@ layout: single
 title: 'Pandas: Extra pd.options.display options'
 excerpt: More control over display of your pandas objects
 date: 2021-05-21
-last_modified_at: 2022-11-02
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - pandas
     - til

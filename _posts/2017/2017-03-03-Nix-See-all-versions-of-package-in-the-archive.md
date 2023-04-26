@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: See all versions of package in the archive'
 excerpt: Using the apt-cache policy command
 date: 2017-03-03
-last_modified_at: 2022-11-30
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - nix
     - til

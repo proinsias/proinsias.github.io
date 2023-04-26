@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Generate random but reproducible UUID with seed"
+title: 'Python: Generate random but reproducible UUID with seed'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 I often generate UUIDs (

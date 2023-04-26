@@ -3,8 +3,9 @@ layout: single
 title: 'GitHub Actions: Skipping a step without failing'
 excerpt: The continue-on-error option
 date: 2021-04-04
-last_modified_at: 2022-11-08
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - github
     - github-actions

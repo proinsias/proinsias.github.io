@@ -3,8 +3,9 @@ layout: single
 title: 'The legends of mathematics that almost never were'
 excerpt:
 date: 2017-02-07
-last_modified_at: 2022-11-15
-categories: posts
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - posts
 tags:
     - mathematics
     - motivation

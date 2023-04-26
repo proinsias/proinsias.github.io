@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-30
 layout: single
 published: true
 title: How to display bash history without line numbers
 excerpt: Useful for direct copy & pasting of commands
-categories: til
+categories:
+    - til
 tags:
     - til
     - nix

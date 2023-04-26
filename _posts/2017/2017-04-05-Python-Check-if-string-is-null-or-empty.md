@@ -2,9 +2,10 @@
 layout: single
 title: 'Python: Check if string is null or empty'
 date: 2017-04-05
-last_modified_at: 2022-01-06
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Using strip
-categories: til
+categories:
+    - til
 tags:
     - python
     - til

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Docker: Start Container as Root User"
+title: 'Docker: Start Container as Root User'
 date: 2018-09-27 10:25
-last_modified_at: 2018-09-27 10:25
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - docker
-  - til
+    - docker
+    - til
 ---
 
 When `sudo` is not available in container,

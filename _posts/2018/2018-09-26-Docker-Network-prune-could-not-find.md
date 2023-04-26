@@ -2,8 +2,9 @@
 layout: single
 title: "Docker: 'Could not find' with network prune"
 date: 2018-09-26 16:00
-last_modified_at: 2018-09-26 16:00
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - docker
     - til

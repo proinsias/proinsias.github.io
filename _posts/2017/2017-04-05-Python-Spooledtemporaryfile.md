@@ -1,17 +1,18 @@
 ---
 layout: single
-title: "Python: SpooledTemporaryFile"
+title: 'Python: SpooledTemporaryFile'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 The `tempfile.SpooledTemporaryFile` function operates exactly as `TemporaryFile()` does,
 except that data is spooled in memory until the file size exceeds the parameter
-`max_size`, or until the file’s `fileno()` method is called, at which point the contents
+`max_size`, or until the file's `fileno()` method is called, at which point the contents
 are written to disk and operation proceeds as with `TemporaryFile()`.
 
 The resulting file has one additional method, `rollover()`, which causes the file to roll

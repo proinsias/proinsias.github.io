@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Echo and sudo for files owned by root'
 excerpt: How to modify a file owned by root
 date: 2021-05-27
-last_modified_at: 2022-11-02
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - echo
     - nix

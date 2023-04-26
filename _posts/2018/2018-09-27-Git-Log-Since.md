@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Git Log since"
+title: 'Git: Git Log since'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 At the end of each day, I try to record what I did, to jog my memory during the

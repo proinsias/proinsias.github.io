@@ -3,13 +3,14 @@ title: 'Sleuth: The Palomar Planet Finder'
 layout: single
 excerpt: 'The little telescope that could'
 permalink: /portfolio/tres/sleuth.html
-categories: tres
+categories:
+    - tres
 header:
     image: /assets/images/sleuth.jpg
     image_description: 'Sleuth: The Palomar Planet Finder'
     teaser: /assets/images/sleuth_thumbnail.gif
 date: 2022-11-19
-last_modified_at: 2022-11-19
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - sleuth

@@ -2,9 +2,10 @@
 title: 'The Little Telescope that Could'
 layout: single
 excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Could..."
-categories: tres
+categories:
+    - tres
 date: 2006-04-01
-last_modified_at: 2016-06-30
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - caltech

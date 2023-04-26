@@ -3,8 +3,9 @@ layout: single
 title: 'PSQL: Generate Series Of Numbers'
 excerpt: Using the generate_series function
 date: 2017-02-02
-last_modified_at: 2022-11-11
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - psql
     - sql

@@ -2,8 +2,9 @@
 layout: single
 title: 'Python: Flushing while printing'
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-25 01:28:01
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - python
     - til

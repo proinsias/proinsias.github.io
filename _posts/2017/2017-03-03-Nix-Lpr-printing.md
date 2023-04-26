@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Printing with lpr'
 excerpt: On macOS
 date: 2017-03-03
-last_modified_at: 2022-11-23
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - macos
     - nix

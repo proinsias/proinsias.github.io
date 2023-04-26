@@ -2,9 +2,10 @@
 layout: single
 title: 'Python: Find the most common elements in an iterable'
 date: 2017-04-05
-last_modified_at: 2023-01-10
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the collections module
-categories: til
+categories:
+    - til
 tags:
     - python
     - til

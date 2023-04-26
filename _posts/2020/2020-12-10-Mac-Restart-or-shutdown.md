@@ -3,8 +3,9 @@ layout: single
 title: 'Mac: Restart or shutdown'
 excerpt: Using reboot and poweroff
 date: 2020-12-10
-last_modified_at: 2023-04-03
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - mac
     - til

@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Grab A Single File From A Stash"
+title: 'Git: Grab A Single File From A Stash'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 In git, you can reference a commit SHA or branch to checkout differing

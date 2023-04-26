@@ -3,8 +3,9 @@ layout: single
 title: 'Pandas: Three new functions'
 excerpt: Tips from Towards Data Science
 date: 2021-05-23
-last_modified_at: 2022-11-02
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - pandas
     - til

@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-22
 layout: single
 published: true
 title: Preserve environment when using sudo
 excerpt: Preserve environment when using sudo
-categories: til
+categories:
+    - til
 tags:
     - nix
     - ssh

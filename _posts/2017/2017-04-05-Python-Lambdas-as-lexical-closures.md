@@ -1,18 +1,19 @@
 ---
 layout: single
-title: "Python: Lambdas as lexical closures"
+title: 'Python: Lambdas as lexical closures'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 A 'lexical closure' is a fancy name for a function that remembers the values
 from the enclosing lexical scope even when the program flow is no longer in
 that scope.
-Here’s a (fairly academic) example to illustrate the idea:
+Here's a (fairly academic) example to illustrate the idea:
 
 ```python
 >>> def make_adder(n):

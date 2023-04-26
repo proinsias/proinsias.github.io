@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-28
 layout: single
 published: true
@@ -7,7 +7,8 @@ title: Helping people online
 excerpt: >-
     How to overcome the communication limitations of the internet and actually help
     people
-categories: posts
+categories:
+    - posts
 tags:
     - tips
 redirect_from:

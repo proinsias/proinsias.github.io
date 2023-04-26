@@ -2,9 +2,10 @@
 title: 'My Portfolio'
 layout: single
 permalink: /portfolio/
-categories: portfolio
+categories:
+    - portfolio
 date: 2019-09-17
-last_modified_at: 2023-04-18 19:44:49
+last_modified_at: 2023-04-26 13:22:37
 ---
 
 Here's a list of some of the projects I've been involved in over the years:

@@ -3,9 +3,10 @@ title: 'TrES: The Transatlantic Exoplanet Survey'
 layout: single
 excerpt: 'TrES was a network of three small-aperture telescopes searching the sky for transiting planets'
 permalink: /portfolio/tres.html
-categories: tres
+categories:
+    - tres
 date: 2016-07-08
-last_modified_at: 2023-04-18 22:07:35
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - sleuth

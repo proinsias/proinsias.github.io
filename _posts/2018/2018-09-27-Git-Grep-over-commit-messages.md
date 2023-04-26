@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Determine The Hash Id For A BlobGrep Over Commit Messages"
+title: 'Git: Determine The Hash Id For A BlobGrep Over Commit Messages'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 The `git log` command supports a `--grep` flag that allows you to do a text

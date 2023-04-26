@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Slack: Accessing Direct Messages from Disabled Users"
+title: 'Slack: Accessing Direct Messages from Disabled Users'
 date: 2017-07-12 10:13
-last_modified_at: 2017-07-12 10:13
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - slack
-  - til
+    - slack
+    - til
 ---
 
 > You can't actually delete a user in Slack.

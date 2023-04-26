@@ -3,8 +3,9 @@ layout: single
 title: 'PSQL: List Connections To A Database'
 excerpt: Using the pg_stat_activity table
 date: 2017-02-02
-last_modified_at: 2022-12-15
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - psql
     - sql

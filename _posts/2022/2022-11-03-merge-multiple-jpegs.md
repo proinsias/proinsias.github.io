@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-11-03
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-11-03
 layout: single
 published: true
 title: Merge multiple JPEGs
 excerpt: Stack JPEGs vertically
-categories: til
+categories:
+    - til
 tags:
     - til
     - nix

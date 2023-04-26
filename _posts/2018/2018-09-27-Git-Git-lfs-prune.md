@@ -1,26 +1,27 @@
 ---
 layout: single
-title: "Git: LFS Prune"
+title: 'Git: LFS Prune'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 You can delete files from your local Git LFS cache with the `git lfs prune` command.
 This will delete any local Git LFS files that are considered 'old'.
 An old file is any file not referenced by:
 
-- the currently checked out commit,
-- a commit that has not yet been pushed (to origin, or whatever `lfs.pruneremotetocheck` is set to), or
-- a recent commit.
+-   the currently checked out commit,
+-   a commit that has not yet been pushed (to origin, or whatever `lfs.pruneremotetocheck` is set to), or
+-   a recent commit.
 
 By default, a recent commit is any commit created in the last 'x' days, where 'x' is the sum of:
 
-- the value of the `lfs.fetchrecentrefsdays` property (which defaults to seven), and
-- the value of the `lfs.pruneoffsetdays` property (which defaults to three).
+-   the value of the `lfs.fetchrecentrefsdays` property (which defaults to seven), and
+-   the value of the `lfs.pruneoffsetdays` property (which defaults to three).
 
 Unlike Git's built-in garbage collection,
 Git LFS content is not pruned automatically,

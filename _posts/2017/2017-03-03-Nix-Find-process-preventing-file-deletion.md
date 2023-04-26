@@ -3,8 +3,9 @@ layout: single
 title: 'Nix: Find process preventing file deletion with fuser'
 excerpt: Lists process IDs of all processes that have one or more files open
 date: 2017-03-03
-last_modified_at: 2022-11-17
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
     - nix
     - til

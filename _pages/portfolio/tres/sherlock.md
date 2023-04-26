@@ -3,9 +3,10 @@ title: 'Sherlock: A transit false-positive detector'
 layout: single
 excerpt: 'Making the number of transit candidates manageable'
 permalink: /portfolio/tres/sherlock.html
-categories: tres
+categories:
+    - tres
 date: 2022-11-19
-last_modified_at: 2022-11-19
+last_modified_at: 2023-04-26 13:22:37
 tags:
     - astronomy
     - tres

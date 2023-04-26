@@ -3,8 +3,9 @@ layout: single
 title: 'SHAttered'
 excerpt: Deliberately cause a SHA-1 collision
 date: 2017-02-23
-last_modified_at: 2022-11-15
-categories: posts
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - posts
 tags:
     - security
 ---

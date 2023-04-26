@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Spark: Count number of duplicate rows"
+title: 'Spark: Count number of duplicate rows'
 date: 2018-10-25 12:46
-last_modified_at: 2018-10-25 12:46
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - spark
-  - til
+    - spark
+    - til
 ---
 
 To count the number of duplicate rows in a pyspark DataFrame,

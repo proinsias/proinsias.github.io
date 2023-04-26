@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Python: Parallel for loops"
+title: 'Python: Parallel for loops'
 date: 2017-04-05 05:23
-last_modified_at: 2017-04-05 05:34
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - python
-  - til
+    - python
+    - til
 ---
 
 > Joblib provides a simple helper class to write parallel for loops using multiprocessing.

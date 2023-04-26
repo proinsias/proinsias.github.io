@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2023-04-25 01:22:52
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-24
 layout: single
 published: true
 title: Cherry Picking a Range of Commits with Git
 excerpt: Git's cherry-picking syntax is easy to mess up
-categories: til
+categories:
+    - til
 tags:
     - git
     - til

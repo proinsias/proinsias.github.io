@@ -1,12 +1,13 @@
 ---
 layout: single
-title: "Git: Two ways of squashing commits"
+title: 'Git: Two ways of squashing commits'
 date: 2018-09-27 10:14
-last_modified_at: 2018-09-27 10:14
-categories: til
+last_modified_at: 2023-04-26 13:22:37
+categories:
+    - til
 tags:
-  - git
-  - til
+    - git
+    - til
 ---
 
 It is handy to squash down your commits before merging your PR with

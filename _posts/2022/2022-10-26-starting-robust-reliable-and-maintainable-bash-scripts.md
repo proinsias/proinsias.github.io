@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-26
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-26
 layout: single
 published: true
 title: Starting robust reliable and maintainable bash scripts
 excerpt: A useful header for bash scripts to avoid common bugs
-categories: tips
+categories:
+    - tips
 tags:
     - tips
     - nix

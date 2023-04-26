@@ -2,9 +2,10 @@
 layout: single
 title: 'Sklearn: Column transformations'
 date: 2020-09-11
-last_modified_at: 2023-04-17
+last_modified_at: 2023-04-26 13:22:37
 excerpt: Specify which columns to apply the most appropriate preprocessing
-categories: til
+categories:
+    - til
 tags:
     - sklearn
     - til

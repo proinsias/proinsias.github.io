@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2022-10-24
+last_modified_at: 2023-04-26 13:22:37
 date: 2022-10-24
 layout: single
 published: true
 title: You Should Be Using Python's Walrus Operator
 excerpt: How and why to automatically use the walrus operator
-categories: til
+categories:
+    - til
 tags:
     - python
     - til
