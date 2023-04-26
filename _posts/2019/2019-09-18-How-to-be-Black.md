@@ -2,8 +2,10 @@
 layout: single
 title: 'How to be Black'
 date: 2019-09-18 22.19
-last_modified_at: 2019-09-18 22.19
-categories: posts
+last_modified_at: 2023-04-26 02:04:37
+excerpt: A satirical guide to race issues
+categories:
+    - posts
 tags:
     - books
     - comedy

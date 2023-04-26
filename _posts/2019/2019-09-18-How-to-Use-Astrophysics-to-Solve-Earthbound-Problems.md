@@ -2,8 +2,10 @@
 layout: single
 title: 'How to Use Astrophysics to Solve Earthbound Problems'
 date: 2019-09-18 10:16
-last_modified_at: 2019-09-18 10:16
-categories: posts
+last_modified_at: 2023-04-26 02:04:37
+excerpt: Cross-pollination at its best
+categories:
+    - posts
 header:
     image: /assets/images/urban_astronomy.png
     image_description: 'An example of an Urban Observatory deployment of a Visible Near-Infrared Hyperspectral camera'

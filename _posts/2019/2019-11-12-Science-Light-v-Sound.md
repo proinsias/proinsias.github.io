@@ -2,8 +2,10 @@
 layout: single
 title: 'Science: Light v Sound'
 date: 2019-11-12 21:03
-last_modified_at: 2019-11-12 21:03
-categories: til
+last_modified_at: 2023-04-26 02:04:37
+excerpt: A factor of almost exactly a million
+categories:
+    - til
 tags:
     - science
     - til

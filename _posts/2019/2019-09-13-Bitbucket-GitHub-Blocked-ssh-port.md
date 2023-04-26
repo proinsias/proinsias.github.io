@@ -2,8 +2,10 @@
 layout: single
 title: 'Git: Blocked ssh port'
 date: 2019-09-13 16.28
-last_modified_at: 2019-09-13 16.28
-categories: til
+last_modified_at: 2023-04-26 02:04:37
+excerpt: Fix this using your .ssh/config file
+categories:
+    - til
 tags:
     - bitbucket
     - git

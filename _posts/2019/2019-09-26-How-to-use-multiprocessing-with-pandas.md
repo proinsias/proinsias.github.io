@@ -2,18 +2,16 @@
 layout: single
 title: 'How to use multiprocessing with pandas'
 date: 2019-09-26 13:40
-last_modified_at: 2019-09-26 13:40
-categories: tips
+last_modified_at: 2023-04-26 02:04:37
+excerpt: Using the aptly named multiprocessing module
+categories:
+    - tips
 tags:
     - multiprocessing
     - pandas
     - parallel
     - tips
 ---
-
-<!--lint disable list-item-bullet-indent-->
-
-<!--lint enable list-item-bullet-indent-->
 
 `pandas` doesn't support parallel processing out of the box,
 but you can wrap support for using all of your expensive CPUs around calls to `apply()`.
