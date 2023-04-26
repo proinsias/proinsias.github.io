@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Python: Flushing while printing'
+excerpt: Using the flush keyword
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-26 13:35:52
 categories:
     - til
 tags:
@@ -16,8 +17,7 @@ redirect_from:
 > `sys.stdout.flush()`; just set the `flush` keyword argument to `True`. From the documentation:
 
 ```python
-print(*objects, sep=' ', end='
-', file=sys.stdout, flush=False)
+print(*objects, sep=' ', end='', file=sys.stdout, flush=False)
 ```
 
 > Whether output is buffered is usually determined by file, but if the flush keyword argument is true,

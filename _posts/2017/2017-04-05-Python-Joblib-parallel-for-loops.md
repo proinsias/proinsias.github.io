@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Python: Parallel for loops'
+excerpt: Using joblib's Parallel function
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-26 13:35:52
 categories:
     - til
 tags:

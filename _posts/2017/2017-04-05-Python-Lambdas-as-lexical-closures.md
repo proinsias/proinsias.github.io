@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Python: Lambdas as lexical closures'
+excerpt: A function that remembers the values from the enclosing lexical scope even when the program flow is no longer in that scope
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-26 13:35:52
 categories:
     - til
 tags:
