@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Explaining complex machine learning models with LIME'
+excerpt: Using Local Interpretable Model-Agnostic Explanations
 date: 2017-05-01 10:48
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-26 13:41:33
 categories:
     - posts
 tags:
