@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Speed up merges'
+excerpt: Specify the key column of the merge as the index of your dataframes, then join instead of merge
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-27 13:36:44
 categories:
     - til
 tags:

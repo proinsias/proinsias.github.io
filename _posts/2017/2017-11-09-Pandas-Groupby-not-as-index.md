@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Groupby Not As Index'
+excerpt: Via the as_index parameter
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-27 13:36:44
 categories:
     - til
 tags:
@@ -45,7 +46,7 @@ D
 If you don't want this, you can set the `as_index` parameter to `False`:
 
 ```python
->>> df.groupby('D', as_index=False, ).max()
+>>> df.groupby('D', as_index=False).max()
    D         A         B         C
 0  1 -0.860885 -0.972855  1.044217
 1  2  0.233229 -0.571801  1.220630
