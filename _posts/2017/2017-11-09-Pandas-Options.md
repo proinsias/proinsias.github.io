@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Options'
+excerpt: The get_option, reset_option, and set_option functions.
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-28 12:52:18
 categories:
     - til
 tags:
@@ -10,7 +11,11 @@ tags:
     - til
 ---
 
+<!-- textlint-disable terminology -->
+
 {% include video id="yiO43TQ4xvc" provider="youtube" %}
+
+<!-- textlint-enable terminology -->
 
 You can use the following functions to interact with the options in `pandas`:
 

@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Extract days from a timedelta64'
+excerpt: Via the components property
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-28 12:52:18
 categories:
     - til
 tags:
@@ -51,4 +52,4 @@ Out[17]:
 5    11     10        0        0             0             0            0
 ```
 
-Via [StackOverflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).
+Via [Stack Overflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).

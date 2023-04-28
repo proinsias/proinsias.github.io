@@ -399,7 +399,7 @@ prose:
         field:
           element: 'hidden'
           value: CURRENT_DATETIME
-      - name: 'modified'
+      - name: 'last_modified_at'
         field:
           element: 'hidden'
           value: CURRENT_DATETIME

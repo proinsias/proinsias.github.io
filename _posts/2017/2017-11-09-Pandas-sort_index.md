@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: sort_index'
+excerpt: Sort a dataframe by index
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-28 12:52:18
 categories:
     - til
 tags:
@@ -10,9 +11,13 @@ tags:
     - til
 ---
 
+<!-- textlint-disable stop-words -->
+
 Dataframes have a new `sort_index` method to sort a dataframe by index.
 This is equivalent to the deprecated `sort` method with the `columns` argument set to
 `None.
+
+<!-- textlint-enable stop-words -->
 
 ```python
 import pandas as pd
@@ -27,4 +32,4 @@ print(df.to_string())
 234  3
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/22211821/1257318).
+Via [Stack Overflow](http://stackoverflow.com/a/22211821/1257318).

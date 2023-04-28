@@ -24,13 +24,16 @@
         "OneDrive",
         "Homebrew",
         "dotfiles",
+        "Jupyter",
         "Spitzer",
         "Teide",
         "Prograde",
         "CC0",
         "Santeri",
         "Viinam",
-        "Brewfile"
+        "Brewfile",
+        "Pugliese",
+        "youtube"
       ]
     },
     "max-number-of-lines": {

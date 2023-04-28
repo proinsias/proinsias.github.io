@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Pandas: Accessing additional parameters for a plot'
+excerpt: Via the plot axes.
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-04-28 12:52:18
 categories:
     - til
 tags:
@@ -13,7 +14,7 @@ tags:
 Q:
 
 How can you set parameters such as x- and y-labels?
-The `plot()` wrapper for `pandas` DataFrames doesn't take those parameters?
+The `plot()` wrapper for `pandas` DataFrames does not take those parameters?
 
 A:
 
@@ -26,4 +27,4 @@ You can set the labels on that object.
 >>> ax.set_ylabel("y label")
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/21487560/1257318).
+Via [Stack Overflow](http://stackoverflow.com/a/21487560/1257318).
