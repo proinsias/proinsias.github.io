@@ -1,9 +1,9 @@
 ---
 layout: single
 title: 'The legends of mathematics that almost never were'
-excerpt:
+excerpt: Mathematical genius resides within every one of us
 date: 2017-02-07
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:05:18
 categories:
     - posts
 tags:
