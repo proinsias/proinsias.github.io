@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Spark: Count number of duplicate rows'
+excerpt: Using the groupby function
 date: 2018-10-25 12:46
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:10:56
 categories:
     - til
 tags:

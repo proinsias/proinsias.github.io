@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'SQL: List Columns in Table'
+excerpt: The ANSI standard
 date: 2018-11-06 10:57
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:10:56
 categories:
     - til
 tags:

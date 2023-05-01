@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Spark: Date Arithmetic with Multiple Columns'
+excerpt: Using the expr function
 date: 2018-10-25 12:54
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:10:56
 categories:
     - til
 tags:

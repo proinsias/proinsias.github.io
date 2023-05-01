@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'The Modal American'
+excerpt: The most common values
 date: 2019-09-09 16.31
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:10:56
 categories:
     - tips
 tags:

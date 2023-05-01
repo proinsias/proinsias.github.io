@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Mac: Sync with time server (Mojave)'
+excerpt: Using the sntp command
 date: 2018-10-25 12:42
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 18:10:56
 categories:
     - til
 tags:
