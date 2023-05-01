@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 23:27:03
 date: 2022-11-17
 layout: single
 published: true
@@ -8,8 +8,9 @@ excerpt: Data viz tips from a 1914 book we can still learn from
 categories:
     - posts
 tags:
-    - tips
     - datascience
+    - posts
+    - tips
 ---
 
 {% include video id="141091383" provider="vimeo" %}

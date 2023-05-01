@@ -3,13 +3,14 @@ layout: single
 title: 'Canonical Correlation Analysis for Analyzing Sequences of Medical Billing Codes'
 excerpt: Addressing the high dimensionality of these codes
 date: 2017-05-25 15:51
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 23:27:03
 categories:
     - posts
 tags:
     - code
-    - healthcare
     - dimensionality-reduction
+    - healthcare
+    - posts
 ---
 
 Due to the vast number of medical billing codes, it is generally infeasible to

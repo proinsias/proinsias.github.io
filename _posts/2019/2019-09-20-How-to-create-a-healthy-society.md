@@ -2,7 +2,7 @@
 layout: single
 title: 'How to create a healthy society'
 date: 2019-09-20 10:14
-last_modified_at: 2023-05-01 18:10:56
+last_modified_at: 2023-05-01 23:27:03
 excerpt: Move fast and break things is an abomination if your goal is to create a healthy society
 categories:
     - posts
@@ -14,6 +14,7 @@ header:
 tags:
     - accessibility
     - me-too
+    - posts
     - society
 ---
 

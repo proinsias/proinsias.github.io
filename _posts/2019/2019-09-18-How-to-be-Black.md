@@ -2,13 +2,14 @@
 layout: single
 title: 'How to be Black'
 date: 2019-09-18 22.19
-last_modified_at: 2023-04-26 02:04:37
+last_modified_at: 2023-05-01 23:27:03
 excerpt: A satirical guide to race issues
 categories:
     - posts
 tags:
     - books
     - comedy
+    - posts
 ---
 
 I just finished Baratunde Thurston's [_How to be Black_](https://howtobeblack.me/),

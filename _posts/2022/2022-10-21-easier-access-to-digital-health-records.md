@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 23:27:03
 date: 2022-10-31
 layout: single
 published: false
@@ -9,6 +9,7 @@ categories:
     - posts
 tags:
     - healthcare
+    - posts
 ---
 
 It's never really seemed fair to me that companies make it hard for people to get access to their data at companies.
