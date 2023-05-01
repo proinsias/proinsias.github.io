@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Jupyter: Show contents of external script'
+excerpt: Using the pycat magic command
 date: 2017-11-14 15:51
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 13:43:06
 categories:
     - til
 tags:

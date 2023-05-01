@@ -2,10 +2,10 @@
 layout: single
 title: 'How to create a healthy society'
 date: 2019-09-20 10:14
-last_modified_at: 2023-04-26 02:04:37
-excerpt: "Move fast and break things" is an abomination if your goal is to create a healthy society
+last_modified_at: 2023-05-01 13:43:06
+excerpt: Move fast and break things is an abomination if your goal is to create a healthy society
 categories:
-  - posts
+    - posts
 header:
     image: /assets/images/danah_boyd_eff.jpeg
     image_description: 'danah boyd accepts her EFF award'

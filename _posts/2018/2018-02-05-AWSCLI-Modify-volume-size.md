@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'AWS CLI: Modify volume size'
+excerpt: Using awscli
 date: 2018-02-05 11:27
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 13:43:06
 categories:
     - til
 tags:
