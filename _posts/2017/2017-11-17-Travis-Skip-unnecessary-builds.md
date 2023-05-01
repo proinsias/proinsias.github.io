@@ -1,8 +1,9 @@
 ---
 layout: single
 title: 'Travis: Skip unnecessary builds'
+excerpt: Via the "ci skip" suffix
 date: 2017-11-17 10:18
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-01 17:51:14
 categories:
     - til
 tags:
