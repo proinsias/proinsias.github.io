@@ -541,3 +541,6 @@ Harford
 Midgley
 oldbranch
 newbranch
+deque
+popleft
+appendleft
