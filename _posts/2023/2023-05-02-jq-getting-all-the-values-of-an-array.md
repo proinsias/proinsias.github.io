@@ -1,9 +1,9 @@
 ---
 layout: single
 title: 'Jq: Getting all the values of an array'
-excerpt:
+excerpt: Different approaches to extract the information you want
 date: 2023-05-02
-last_modified_at: 2023-05-02 14:16:12
+last_modified_at: 2023-05-03 01:09:29
 categories:
     - til
 tags:
