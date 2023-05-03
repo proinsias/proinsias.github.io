@@ -549,3 +549,5 @@ Deyan
 Ginev
 dginev
 opencontainers
+Soares
+itertools
