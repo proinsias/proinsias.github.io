@@ -1,9 +1,9 @@
 ---
 layout: single
 title: 'Python: Best way to implement a simple queue'
-excerpt:
+excerpt: Implement queues using the collections.deque module
 date: 2023-05-02 20:30
-last_modified_at: 2023-05-03 00:42:39
+last_modified_at: 2023-05-03 00:55:43
 categories:
     - til
 tags:
