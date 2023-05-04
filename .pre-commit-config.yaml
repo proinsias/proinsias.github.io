@@ -33,7 +33,7 @@ repos:
     # Markdown
 
     - repo: https://github.com/tcort/markdown-link-check
-      rev: v3.11.1
+      rev: v3.11.2
       hooks:
           - id: markdown-link-check
             args:
@@ -140,7 +140,7 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.3.199
+      rev: 2.3.220
       hooks:
           - id: checkov
 
