@@ -1,12 +1,12 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: 'Senior Data Science Manager at Hospital IQ – Planet discoverer, researcher, developer, geek.'
+excerpt: 'Data Science Manager at LeanTaaS – Planet discoverer, researcher, developer, geek.'
 sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-modified: 2021-03-26
+last_modified_at: 2023-05-04 12:51:55
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png
@@ -19,12 +19,10 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 ## 😄 About Me
 
-<!-- markdownlint-disable line-length -->
-
--   I'm the Senior Data Science Manager at
-<a href="https://www.hospiq.com"><img src="https://www.hospiq.com/wp-content/uploads/2020/03/HospitalIQ-LOGO-small.png" alt="Hospital IQ" width="100"/></a>,
-where our goal is to improve the productivity and happiness of every healthcare worker every day.
-<!-- markdownlint-enable line-length -->
+-   I'm a Data Science Manager at
+    <a href="https://www.leantaas.com">
+    <img src="https://leantaas.com/wp-content/uploads/2021/06/LeanTaaS-new-logo.svg" alt="LeanTaaS" width="100"/></a>,
+    where our goal is better healthcare through math.
 
 <!-- textlint-disable alex -->
 
@@ -94,18 +92,6 @@ Medium: https://medium.com/@proinsias
 Stackoverflow: https://stackoverflow.com/users/1257318/proinsias/
 Others?
 -->
-
-## What's 'An Independent Mind' all about?
-
-<!-- textlint-disable alex -->
-
-You may be wondering why this blog is called 'An Independent Mind'.
-Well back in the olden days when [Shareware](https://en.wikipedia.org/wiki/Shareware) was more common,
-and when you often had to register your software, there was often a required field for the company you worked out.
-But I was just a wee lad, so I didn't have anything to put there.
-And so 'An Independent Mind' was born.
-
-<!-- textlint-enable alex -->
 
 ## 😜Here's a Joke for you
 
