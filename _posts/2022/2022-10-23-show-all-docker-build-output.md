@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-05-10 15:27:01
 date: 2022-10-23
 layout: single
 published: true
@@ -10,6 +10,8 @@ categories:
 tags:
     - til
     - docker
+redirect_from:
+    - /pages/proinsias/til/show-all-docker-build-output
 ---
 
 You may have noticed with newer versions of Docker that the output of each layer's commands is shown only while that layer is being built, and is then hidden.
