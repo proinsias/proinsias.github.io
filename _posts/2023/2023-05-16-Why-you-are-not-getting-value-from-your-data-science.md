@@ -2,16 +2,16 @@
 layout: single
 title: "Why You're Not Getting Value from Your Data Science"
 excerpt: >-
-If companies want to get value from their data, they need to focus on accelerating human understanding of data,
-scaling the number of modeling questions they can ask of that data in a short amount of time, and assessing their implications.
+    If companies want to get value from their data, they need to focus on accelerating human understanding of data,
+    scaling the number of modeling questions they can ask of that data in a short amount of time, and assessing their implications.
 date: 2023-05-16 17:48
-last_modified_at: 2023-05-16 21:56:07
+last_modified_at: 2023-05-17 02:39:00
 categories:
-  - tips
+    - tips
 tags:
-  - data-science
-  - impact
-  - machine-learning
+    - data-science
+    - impact
+    - machine-learning
 ---
 
 As a Data Science manager at [LeanTaaS](https://leantaas.com), I strive to maximize the return on investment (or ROI) of expensive time from Data Scientists into new products.

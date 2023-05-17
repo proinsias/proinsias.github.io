@@ -6,10 +6,9 @@ permalink: /portfolio/tres.html
 categories:
     - tres
 date: 2016-07-08
-last_modified_at: 2023-05-04 12:56:20
+last_modified_at: 2023-05-17 02:39:00
 tags:
     - astronomy
-    - portfolio-projects
     - sleuth
     - tres
 toc: true

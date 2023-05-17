@@ -3,11 +3,10 @@ layout: single
 title: "'Fun' asteroid simulator"
 excerpt: Where do you want to take out?
 date: 2023-05-01
-last_modified_at: 2023-05-03 01:09:29
+last_modified_at: 2023-05-17 02:39:00
 categories:
     - posts
 tags:
-    - portfolio
     - posts
 ---
 
