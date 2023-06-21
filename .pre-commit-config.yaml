@@ -81,19 +81,19 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.23.1
+      rev: 0.23.2
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.16.4
+      rev: v8.17.0
       hooks:
           - id: gitleaks
 
     - repo: https://github.com/rhysd/actionlint
-      rev: v1.6.24
+      rev: v1.6.25
       hooks:
           - id: actionlint
 
@@ -140,7 +140,7 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 2.3.281
+      rev: 2.3.296
       hooks:
           - id: checkov
 
