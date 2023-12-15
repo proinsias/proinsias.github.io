@@ -19,3 +19,16 @@ You can find it at [proinsias.github.io](https://proinsias.github.io).
 
 It is based on the
 [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes).
+
+## Tech Stack
+proinsias/proinsias.github.io is built on the following main stack:
+
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Bundler](http://bundler.io) – Front End Package Manager
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
+
+Full tech stack [here](/techstack.md)
