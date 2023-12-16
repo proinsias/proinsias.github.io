@@ -32,11 +32,6 @@ jobs:
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gem-
 
-      - name: Bundler audit
-        uses: andrewmcodes/bundler-audit-action@v0.1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - run: pip install pre-commit
         shell: bash
 
