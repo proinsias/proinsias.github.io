@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-last_modified_at: 2023-05-04 12:51:55
+last_modified_at: 2023-12-19 14:57:35
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png
@@ -21,7 +21,7 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 -   I'm a Data Science Manager at
     <a href="https://www.leantaas.com">
-    <img src="https://leantaas.com/wp-content/uploads/2021/06/LeanTaaS-new-logo.svg" alt="LeanTaaS" width="100"/></a>,
+    <img src="https://leantaas.com/wp-content/uploads/2022/10/color-logo.svg" alt="LeanTaaS" width="100"/></a>,
     where our goal is better healthcare through math.
 
 <!-- textlint-disable alex -->

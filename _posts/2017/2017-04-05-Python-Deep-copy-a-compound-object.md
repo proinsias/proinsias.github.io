@@ -2,7 +2,7 @@
 layout: single
 title: 'Python: Deep copy a compound object'
 date: 2017-04-05
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2023-12-19 14:57:35
 excerpt: Using deepcopy
 categories:
     - til
@@ -112,6 +112,4 @@ False
 {'id': 3, 'name': 'book', 'value': 20}]
 ```
 
-Via [PyBites](http://pybit.es/mutability.html) and
-[docs.python.org](https://docs.python.org/3.6/library/copy.html)
-.
+Via [docs.python.org](https://docs.python.org/3.6/library/copy.html).
