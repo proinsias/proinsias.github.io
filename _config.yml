@@ -22,7 +22,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 locale: en-US
 title: Looking for data in all the right places...
-title_separator: '-'
+title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
@@ -114,9 +114,9 @@ social:
 
 # Analytics
 analytics:
-  provider: 'google-gtag' # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: 'G-0CM81H85T8'
+    tracking_id: "G-0CM81H85T8"
     anonymize_ip: # true, false (default)
 
 # Site Author
@@ -209,11 +209,12 @@ exclude:
   - package.json
   - Rakefile
   - README.md
+  - techstack.md
   - /test # Ignore Minimal Mistakes /test.
   - tmp
   - vendor
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
 
 keep_files:
   - .git
@@ -243,7 +244,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css.
-    css_class: 'highlight'
+    css_class: "highlight"
 
 # Sass/SCSS
 sass:
@@ -254,7 +255,7 @@ sass:
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 permalink: /:categories/:title/
-timezone: 'America/New_York' # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "America/New_York" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
@@ -323,8 +324,8 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ''
-      type: 'posts'
+      path: ""
+      type: "posts"
     values:
       author_profile: true
       comments: true
@@ -336,7 +337,7 @@ defaults:
   # _pages
   - scope:
       path: _pages
-      type: 'pages'
+      type: "pages"
     values:
       author_profile: true
       comments: true
@@ -347,9 +348,9 @@ defaults:
       show_date: true
 
 prose:
-  rooturl: '_posts'
-  siteurl: 'https://proinsias.github.io'
-  media: 'assets/images'
+  rooturl: "_posts"
+  siteurl: "https://proinsias.github.io"
+  media: "assets/images"
   ignore:
     - .cspell.json
     - .editorconfig
@@ -385,49 +386,49 @@ prose:
     - /_layouts
   metadata:
     _posts:
-      - name: 'layout'
+      - name: "layout"
         field:
-          element: 'hidden'
-          value: 'single'
-      - name: 'title'
+          element: "hidden"
+          value: "single"
+      - name: "title"
         field:
-          element: 'text'
-          label: 'Post title'
-          placeholder: 'Title'
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
           alterable: true
-      - name: 'date'
+      - name: "date"
         field:
-          element: 'hidden'
+          element: "hidden"
           value: CURRENT_DATETIME
-      - name: 'last_modified_at'
+      - name: "last_modified_at"
         field:
-          element: 'hidden'
+          element: "hidden"
           value: CURRENT_DATETIME
-      - name: 'excerpt'
+      - name: "excerpt"
         field:
-          element: 'text'
-          label: 'Excerpt'
-          placeholder: 'Excerpt'
+          element: "text"
+          label: "Excerpt"
+          placeholder: "Excerpt"
           alterable: true
-      - name: 'published'
+      - name: "published"
         field:
-          element: 'checkbox'
-          label: 'published'
-          value: 'true'
-      - name: 'categories'
+          element: "checkbox"
+          label: "published"
+          value: "true"
+      - name: "categories"
         field:
-          element: 'select'
-          label: 'Select Category'
-          placeholder: 'Choose Category'
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
           options:
-            - name: 'Posts'
-              value: 'posts'
-            - name: 'TIL'
-              value: 'til'
-            - name: 'Tips'
-              value: 'tips'
-            - name: 'TrES'
-              value: 'tres'
+            - name: "Posts"
+              value: "posts"
+            - name: "TIL"
+              value: "til"
+            - name: "Tips"
+              value: "tips"
+            - name: "TrES"
+              value: "tres"
       # header:
       #    image: /assets/images/image_name
       #    image_description: 'danah boyd accepts her EFF award'
@@ -439,24 +440,24 @@ prose:
       #          label: "Add Image to Post"
       #          placeholder: "Image path (relative to /assets/post-images/)"
       #          alterable: true
-      - name: 'tags'
+      - name: "tags"
         field:
-          element: 'multiselect'
-          label: 'Add Tags'
-          placeholder: 'Choose Tags'
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
           alterable: true # A user can add additional values.
           options:
-            - name: 'git'
-              value: 'git'
-            - name: 'Pandas'
-              value: 'pandas'
-            - name: 'Python'
-              value: 'python'
-            - name: 'SQL'
-              value: 'sql'
-            - name: 'TIL'
-              value: 'til'
-            - name: 'Tips'
-              value: 'tips'
-            - name: '*nix'
-              value: 'nix'
+            - name: "git"
+              value: "git"
+            - name: "Pandas"
+              value: "pandas"
+            - name: "Python"
+              value: "python"
+            - name: "SQL"
+              value: "sql"
+            - name: "TIL"
+              value: "til"
+            - name: "Tips"
+              value: "tips"
+            - name: "*nix"
+              value: "nix"
