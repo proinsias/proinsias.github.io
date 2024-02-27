@@ -21,7 +21,7 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 -   I'm a Principal Data Scientist at
     <a href="https://www.trinet.com">
-    <img src="images/trinet.png" alt="TriNet" width="75"/></a>,
+    <img src="/assets/images/trinet.png" alt="TriNet" width="75"/></a>,
     who provide full-service HR solutions, so you get time back to focus on your business,
     your employees get HR support, and your business gains the HR guidance it needs. 
 
