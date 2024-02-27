@@ -19,10 +19,11 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 ## 😄 About Me
 
--   I'm a Data Science Manager at
-    <a href="https://www.leantaas.com">
-    <img src="https://leantaas.com/wp-content/uploads/2022/10/color-logo.svg" alt="LeanTaaS" width="100"/></a>,
-    where our goal is better healthcare through math.
+-   I'm a Principal Data Scientist at
+    <a href="https://www.trinet.com">
+    <img src="images/trinet.png" alt="TriNet" width="75"/></a>,
+    who provide full-service HR solutions, so you get time back to focus on your business,
+    your employees get HR support, and your business gains the HR guidance it needs. 
 
 <!-- textlint-disable alex -->
 
