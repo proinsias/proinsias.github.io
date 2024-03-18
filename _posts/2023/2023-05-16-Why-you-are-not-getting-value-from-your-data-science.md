@@ -9,7 +9,7 @@ last_modified_at: 2023-05-17 02:39:00
 categories:
     - tips
 tags:
-    - data-science
+    - datascience
     - impact
     - machine-learning
 ---
