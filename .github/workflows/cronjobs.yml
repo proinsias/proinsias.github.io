@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Cache gems
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v4.0.1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -38,7 +38,7 @@ jobs:
       - run: pre-commit autoupdate
         shell: bash
 
-      - uses: peter-evans/create-pull-request@v5.0.2
+      - uses: peter-evans/create-pull-request@v6.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: update/pre-commit-hooks
