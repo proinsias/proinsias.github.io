@@ -124,7 +124,7 @@ author:
   name: Francis T. O'Donovan
   avatar: /assets/images/bio-photo.jpg
   # yamllint disable-line rule:line-length
-  bio: Data Science Manager at LeanTaaS – Planet discoverer, researcher, developer, geek.
+  bio: Principal Data Scientist at TriNet – Planet discoverer, researcher, developer, geek.
   location: Boston, MA
   links:
     - label: Website
