@@ -341,7 +341,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   bundler-audit
-  github-pages (>= 228)
+  github-pages (>= 229)
   html-proofer (>= 4.0.1)
   image_optim
   jekyll-include-cache
