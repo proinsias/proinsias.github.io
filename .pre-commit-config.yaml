@@ -54,7 +54,7 @@ repos:
           - id: cesar
 
     - repo: https://github.com/sirosen/texthooks
-      rev: 0.6.4
+      rev: 0.6.6
       hooks:
           - id: fix-smartquotes
           - id: fix-ligatures
@@ -128,12 +128,12 @@ repos:
                 ]
 
     - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v8.6.0
+      rev: v8.6.1
       hooks:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.39
+      rev: 3.2.48
       hooks:
           - id: checkov
 
