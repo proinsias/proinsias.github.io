@@ -86,7 +86,7 @@ repos:
           - id: gitleaks
 
     - repo: https://github.com/rhysd/actionlint
-      rev: v1.6.27
+      rev: v1.7.0
       hooks:
           - id: actionlint
 
@@ -133,7 +133,7 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.84
+      rev: 3.2.90
       hooks:
           - id: checkov
 
