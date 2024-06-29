@@ -38,7 +38,7 @@ jobs:
     steps:
       # Git Checkout
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           # fetch-depth: 0 # If you use VALIDATE_ALL_CODEBASE = true, you can remove this line to improve performances
@@ -76,8 +76,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6.1.0
         with:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
-          commit-message: '[MegaLinter] Apply linters automatic fixes'
-          title: '[MegaLinter] Apply linters automatic fixes'
+          commit-message: "[MegaLinter] Apply linters automatic fixes"
+          title: "[MegaLinter] Apply linters automatic fixes"
           labels: bot
       - name: Create PR output
         # yamllint disable-line rule:line-length
@@ -97,4 +97,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
-          commit_message: '[MegaLinter] Apply linters fixes'
+          commit_message: "[MegaLinter] Apply linters fixes"
