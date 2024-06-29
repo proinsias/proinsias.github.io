@@ -1,9 +1,9 @@
 ---
 layout: single
-title: 'Travis: Why is my build not running?'
+title: "Travis: Why is my build not running?"
 excerpt: Using travis requests
 date: 2017-07-07 10:00
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2024-06-29 01:18:26
 categories:
     - til
 tags:
@@ -21,4 +21,4 @@ You can get logs useful for debugging your Travis builds using either:
 -   The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
     on the upper right.
 
-Via [travis-ci.com](https://blog.travis-ci.com/2014-05-12-why-is-my-build-not-running/).
+Via [travis-ci.com](https://blog.travis-ci.com/).

@@ -1,16 +1,16 @@
 ---
 layout: single
-title: 'Pets v Cattle: Making a personal disaster recovery plan'
-excerpt: 'When disaster strikes, how quickly will you recover?'
+title: "Pets v Cattle: Making a personal disaster recovery plan"
+excerpt: "When disaster strikes, how quickly will you recover?"
 date: 2023-04-18
-last_modified_at: 2023-12-19 14:57:35
+last_modified_at: 2024-06-29 01:18:26
 categories:
     - posts
 published: true
 header:
     image: /assets/images/disaster_recovery_plan.jpg
-    image_description: 'Disaster Recovery Plan'
-    caption: 'Disaster Recovery Plan (Photo credit: Jernej Furman on flickr)'
+    image_description: "Disaster Recovery Plan"
+    caption: "Disaster Recovery Plan (Photo credit: Jernej Furman on flickr)"
     teaser: /assets/images/disaster_recovery_plan_thumbnail.gif
 tags:
     - ansible
@@ -23,7 +23,7 @@ tags:
 toc: true
 ---
 
-<sup>_Banner photo by [Jernej Furman](https://www.flickr.com/people/91261194@N06/)
+<sup>_Banner photo by [Jernej Furman](https://web.archive.org/web/20240214200815/https://www.flickr.com/people/91261194@N06/)
 shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
 .
 
@@ -112,7 +112,7 @@ Unfortunately I have found that using backups alone as a recovery plan has sever
 <sup>_\[Photo by [John Boston](https://web.archive.org/web/20161014064145/https://www.flickr.com/people/60026579@N00)
 shared under a [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license.\]_
 
-# My disaster recovery plan
+# My disaster recovery pla
 
 > For rapid recovery, backup and restore system components separately and automatically.
 
