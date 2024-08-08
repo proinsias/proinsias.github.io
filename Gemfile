@@ -13,7 +13,7 @@ source 'https://rubygems.org'
 
 # To upgrade, run `bundle update`.
 
-gem "github-pages", ">= 229", group: :jekyll_plugins
+gem "github-pages", ">= 232", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem 'bundler'
