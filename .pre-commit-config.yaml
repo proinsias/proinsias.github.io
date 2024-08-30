@@ -54,7 +54,7 @@ repos:
           - id: cesar
 
     - repo: https://github.com/sirosen/texthooks
-      rev: 0.6.6
+      rev: 0.6.7
       hooks:
           - id: fix-smartquotes
           - id: fix-ligatures
@@ -74,7 +74,7 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.29.0
+      rev: 0.29.2
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
@@ -128,12 +128,12 @@ repos:
                 ]
 
     - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v8.10.1
+      rev: v8.13.3
       hooks:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.186
+      rev: 3.2.238
       hooks:
           - id: checkov
 
