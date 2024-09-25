@@ -59,7 +59,7 @@ GEM
       net-http
     ffi (1.17.0)
     ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0-x86_64-linux)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
@@ -338,9 +338,12 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
     uri (0.13.1)
-    webrick (1.8.1)
+    webrick (1.8.2)
     yell (2.2.2)
     zeitwerk (2.6.13)
 
@@ -357,7 +360,7 @@ DEPENDENCIES
   image_optim
   jekyll-include-cache
   mdl (>= 0.11.0)
-  webrick (~> 1.8)
+  webrick (~> 1.8, >= 1.8.2)
 
 BUNDLED WITH
    2.4.22
