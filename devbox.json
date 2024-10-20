@@ -18,7 +18,11 @@
     "bundler@latest",
     "coreutils@latest",
     "imagemagick@latest",
-    "checkov@latest"
+    "checkov@latest",
+    "vhs@latest",
+    "image_optim@latest",
+    "html-proofer@latest",
+    "rubyPackages_3_2.webrick@latest"
   ],
   "shell": {
     "init_hook": ["bundle install --quiet"],
