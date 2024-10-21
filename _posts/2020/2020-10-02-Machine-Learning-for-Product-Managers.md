@@ -1,9 +1,9 @@
 ---
 layout: single
-title: 'Machine Learning for Product Managers'
+title: "Machine Learning for Product Managers"
 excerpt: And those who communicate with them
 date: 2020-10-02
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2024-10-21 01:41:33
 categories:
     - tips
 tags:
@@ -18,7 +18,7 @@ In a [previous post](https://proinsias.github.io/tips/Communicating-Data-Science
 I discussed the importance of learning how to properly communicate Data Science to maximize the impact of your work.
 Product Managers are an obvious target of this communication, and a key ally when communicating with customers.
 
-[Alexey Kutsenko](https://www.mindtheproduct.com/profile/Alexey.Kutsenko) presents
+[Alexey Kutsenko](https://web.archive.org/web/20221202100714/https://www.mindtheproduct.com/profile/Alexey.Kutsenko) presents
 [6 keys lessons](https://www.mindtheproduct.com/machine-learning-for-product-managers-a-quick-primer/)
 for Product Managers to learn for success:
 

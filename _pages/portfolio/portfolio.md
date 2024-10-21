@@ -1,9 +1,9 @@
 ---
-title: 'My Portfolio'
+title: "My Portfolio"
 layout: single
 permalink: /portfolio/
 date: 2019-09-17
-last_modified_at: 2023-05-17 02:39:00
+last_modified_at: 2024-10-21 01:41:33
 ---
 
 Here's a list of some of the projects I've been involved in over the years:
@@ -36,15 +36,15 @@ Here's a list of some of the projects I've been involved in over the years:
 <!-- markdownlint-enable line-length -->
 
 -   Establishing up-to-date, accurate, and comprehensive Space Situation Awareness in the
-    [Activity Learning and Inferencing for Space Situational Awareness](https://www.sbir.gov/sbirsearch/detail/824285)
+    [Activity Learning and Inferencing for Space Situational Awareness](https://www.sbir.gov/awards/149862)
     and
-    [Rapid Identification of Space Objects using Multisensor Signatures](https://www.sbir.gov/sbirsearch/detail/666352)
+    [Rapid Identification of Space Objects using Multisensor Signatures](https://www.sbir.gov/awards/142671)
     programs.
 
 -   Defending against cutting-edge cyber attacks such as Advanced Persistent Threats in the
-    [Context Aware Inference for Advanced Persistent Threat](https://www.sbir.gov/sbirsearch/detail/873315)
+    [Context Aware Inference for Advanced Persistent Threat](https://www.sbir.gov/awards/151547)
     and
-    [Context Aware Inference for Navy Cyber Situation Awareness (NCSA)](https://www.sbir.gov/sbirsearch/detail/685198)
+    [Context Aware Inference for Navy Cyber Situation Awareness (NCSA)](https://www.sbir.gov/awards/144940)
     programs.
 
 <!-- textlint-disable stop-words -->

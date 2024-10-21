@@ -1,9 +1,9 @@
 ---
 layout: single
-title: 'Nix/Macos: See what a process is doing'
+title: "Nix/Macos: See what a process is doing"
 excerpt: Understand why that process is taking so long
 date: 2021-04-07
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2024-10-21 01:41:33
 categories:
     - til
 tags:
@@ -41,4 +41,4 @@ sudo dtruss df -h  # Run and examine the `df -h` command.
 Via [til.simonwillison.net](https://github.com/simonw/til/blob/main/linux/basic-strace.md),
 [SO](https://web.archive.org/web/20220818174407/https://stackoverflow.com/questions/1925978/equivalent-of-strace-feopen-command-on-mac-os-x/1926131),
 and
-[opensource.apple.com](https://opensource.apple.com/source/dtrace/dtrace-147/DTTk/dtruss.auto.html).
+[opensource.apple.com](https://web.archive.org/web/20240919043858/https://opensource.apple.com/source/dtrace/dtrace-147/DTTk/dtruss.auto.html).
