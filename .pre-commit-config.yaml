@@ -128,12 +128,12 @@ repos:
                 ]
 
     - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v8.15.2
+      rev: v8.15.3
       hooks:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.281
+      rev: 3.2.282
       hooks:
           - id: checkov
 
