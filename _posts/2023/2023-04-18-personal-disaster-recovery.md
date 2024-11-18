@@ -3,7 +3,7 @@ layout: single
 title: "Pets v Cattle: Making a personal disaster recovery plan"
 excerpt: "When disaster strikes, how quickly will you recover?"
 date: 2023-04-18
-last_modified_at: 2024-06-29 01:18:26
+last_modified_at: 2024-11-18 17:17:28
 categories:
     - posts
 published: true
@@ -112,7 +112,7 @@ Unfortunately I have found that using backups alone as a recovery plan has sever
 <sup>_\[Photo by [John Boston](https://web.archive.org/web/20161014064145/https://www.flickr.com/people/60026579@N00)
 shared under a [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license.\]_
 
-# My disaster recovery pla
+# My disaster recovery plan
 
 > For rapid recovery, backup and restore system components separately and automatically.
 
