@@ -133,12 +133,12 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.314
+      rev: 3.2.322
       hooks:
           - id: checkov
 
     - repo: https://github.com/mxab/pre-commit-trivy.git
-      rev: v0.13.0
+      rev: v0.14.0
       hooks:
           - id: trivyfs-docker
             args:
