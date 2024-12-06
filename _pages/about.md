@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-last_modified_at: 2023-12-19 14:57:35
+last_modified_at: 2024-12-06 17:51
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png
@@ -81,18 +81,10 @@ How to reach me:
 <p align='center'>
 <a href="https://mailhide.io/e/fTv414zF/"><img alt="Reveal Email" src="https://img.shields.io/badge/reveal%20email-2a8?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a rel="me" href="https://keyoxide.org/hkp/74b07ae5ffb55bfc2fb8b25e8dbe5f9a6519d396"><img alt="Keyoxide" src="https://img.shields.io/badge/keyoxide-166BFF?logo=keystone&logoColor=white&style=for-the-badge"></a>
-<a rel="me" href="https://keybase.io/proinsias/"><img alt="Keybase" src="https://img.shields.io/badge/keybase-33A0FF?logo=keybase&logoColor=white&style=for-the-badge"></a>
 <a rel="me" href="https://www.linkedin.com/in/francistodonovan/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
-<a rel="me" href="https://twitter.com/francisodonovan"><img height="30" alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
+<a rel="me" href="https://medium.com/@proinsias"><img alt="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white&style=for-the-badge"></a>
 <a rel="me" href="https://twit.social/@francis"><img height="30" alt="Mastodon" src="https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=white&style=for-the-badge"></a>
 </p>
-
-<!--
-Kaggle: https://www.kaggle.com/francisodonovan
-Medium: https://medium.com/@proinsias
-Stackoverflow: https://stackoverflow.com/users/1257318/proinsias/
-Others?
--->
 
 ## 😜Here's a Joke for you
 
