@@ -81,7 +81,7 @@ repos:
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.21.2
+      rev: v8.21.3
       hooks:
           - id: gitleaks
 
@@ -133,7 +133,7 @@ repos:
           - id: cspell
 
     - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.339
+      rev: 3.2.343
       hooks:
           - id: checkov
 
