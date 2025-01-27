@@ -32,25 +32,12 @@ jobs:
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gem-
 
-      - run: pip install pre-commit
-        shell: bash
-
-      - run: pre-commit autoupdate
-        shell: bash
-
-      - uses: peter-evans/create-pull-request@v7.0.6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update/pre-commit-hooks
-          title: Update pre-commit hooks
-          commit-message: Auto-update pre-commit hooks
-          body: Update versions of pre-commit hooks to latest version.
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - run: |
+      - name: Install gems
+        run: |
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
