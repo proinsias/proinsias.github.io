@@ -22,7 +22,8 @@
     "pngcrush@latest",
     "jpegoptim@latest",
     "python@3.12",
-    "yamlfmt@latest"
+    "yamlfmt@latest",
+    "lychee@latest"
   ],
   "shell": {
     "init_hook": ["bundle install --quiet"],

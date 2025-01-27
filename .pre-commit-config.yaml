@@ -29,15 +29,12 @@ repos:
           - id: prettier
             stages: [pre-commit]
 
-    # Markdown
-
-    - repo: https://github.com/tcort/markdown-link-check
-      rev: v3.13.6
+    - repo: https://github.com/lycheeverse/lychee.git
+      rev: v0.15.1
       hooks:
-          - id: markdown-link-check
-            args:
-                - --config
-                - .markdown-link-check.json
+          - id: lychee
+          # Optionally include additional CLI arguments
+          # args: ["--no-progress", "--exclude", "file://"]
 
     # YAML
 

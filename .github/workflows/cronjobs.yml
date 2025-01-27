@@ -21,40 +21,24 @@ jobs:
   cronjobs:
     runs-on: ubuntu-latest
 
+    permissions:
+      issues: write # required for peter-evans/create-issue-from-file
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.213.0
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         with:
-          ruby-version: "3.2" # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+            args: --base https://proinsias.github.io
+            fail: false
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
-      - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-
-      - name: Check HTML
-        uses: chabad360/htmlproofer@v2
-        timeout-minutes: 30
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
         with:
-          # The directory to scan.
-          directory: ./_site
-          # The arguments to pass to HTMLProofer.
-          # Unsure how to enable alt tags for teaser images.
-          # Treat urls with this domain as internal urls.
-          # Keep in sync with bin/build.sh and .github/workflows/pull-requests-and-pushes.yml
-          # yamllint disable
-          arguments:
-            "--no-enforce-https --ignore-empty-alt --ignore-status-codes 401,403,429 --only-4xx\
-            \ --typhoeus '{ \"connecttimeout\": 30, \"timeout\": 30 }'\
-            \ --ignore-urls \"#,/4kib.com/,/archive.org/,/askubuntu.com/,/doi.org/,/enki.com/,/enkipro.com/,/help.github.com/,/mademistakes.com/,/medium.com/,/proinsias.github.io/,/serverfault.com/,/stackexchange.com/,/stackoverflow.com/,/towardsdatascience.com/,/twitter.com/\""
-            # yamllint enable
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
