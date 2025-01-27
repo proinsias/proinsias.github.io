@@ -1,3 +1,4 @@
+---
 queue_rules:
   - name: duplicated default from automatic merge on CI success and review
     queue_conditions:
