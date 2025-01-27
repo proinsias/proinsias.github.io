@@ -14,4 +14,15 @@ source 'https://rubygems.org'
 # To upgrade, run `bundle update`.
 
 gem "github-pages", ">= 232", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+gem "tzinfo-data"
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
+end
