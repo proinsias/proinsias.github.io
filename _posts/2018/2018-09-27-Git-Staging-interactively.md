@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Staging Stashes Interactively'
+title: "Git: Staging Stashes Interactively"
 excerpt: A partial stash
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:08:18

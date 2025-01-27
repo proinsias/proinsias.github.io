@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'How to use multiprocessing with pandas'
+title: "How to use multiprocessing with pandas"
 date: 2019-09-26 13:40
 last_modified_at: 2023-04-26 02:04:37
 excerpt: Using the aptly named multiprocessing module

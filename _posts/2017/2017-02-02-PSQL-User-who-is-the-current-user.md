@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Who Is The Current User'
+title: "PSQL: Who Is The Current User"
 excerpt: The current_user variable
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

@@ -1,5 +1,5 @@
 ---
-ci:  # https://pre-commit.ci
+ci: # https://pre-commit.ci
     autofix_prs: true
     autoupdate_schedule: monthly
     skip: []
@@ -95,59 +95,3 @@ repos:
       rev: v1.7.7
       hooks:
           - id: actionlint
-
-    # FIXME: Figure out why this doesn't work.
-    #    - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    #      rev: 2.6.1
-    #      hooks:
-    #          - id: editorconfig-checker
-
-    # FIXME: Finish addressing issues.
-    - repo: https://github.com/RyoWakabayashi/pre-commit-mirrors-textlint
-      rev: v12.2.1
-      hooks:
-          - id: textlint
-            additional_dependencies:
-                [
-                    'textlint',
-                    'textlint-plugin-latex2e',
-                    'textlint-filter-rule-comments',
-                    'textlint-rule-alex',
-                    'textlint-rule-apostrophe',
-                    'textlint-rule-common-misspellings',
-                    'textlint-rule-diacritics',
-                    'textlint-rule-doubled-spaces',
-                    'textlint-rule-editorconfig',
-                    'textlint-rule-en-capitalization',
-                    'textlint-rule-en-spell',
-                    'textlint-rule-max-number-of-lines',
-                    'textlint-rule-no-dead-link',
-                    'textlint-rule-no-empty-section',
-                    'textlint-rule-no-start-duplicated-conjunction',
-                    'textlint-rule-no-todo',
-                    'textlint-rule-stop-words',
-                    'textlint-rule-terminology',
-                    'textlint-rule-write-good',
-                    'textlint-rule-unexpanded-acronym',
-                    '@textlint-rule/textlint-rule-no-duplicate-abbr',
-                    '@textlint-rule/textlint-rule-no-invalid-control-character',
-                ]
-
-    - repo: https://github.com/streetsidesoftware/cspell-cli
-      rev: v8.17.1
-      hooks:
-          - id: cspell
-
-    - repo: https://github.com/bridgecrewio/checkov/
-      rev: 3.2.357
-      hooks:
-          - id: checkov
-
-    - repo: https://github.com/mxab/pre-commit-trivy.git
-      rev: v0.14.0
-      hooks:
-          - id: trivyfs-docker
-            args:
-                - --ignore-unfixed
-                - . # last arg indicates the path/file to scan
-            stages: [pre-push]

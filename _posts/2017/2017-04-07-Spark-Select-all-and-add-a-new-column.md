@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Spark: Select all and add a new column'
+title: "Spark: Select all and add a new column"
 excerpt: Using select
 date: 2017-04-07 13:57
 last_modified_at: 2023-04-26 13:41:33

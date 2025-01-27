@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Snowflake: Create table with comment'
+title: "Snowflake: Create table with comment"
 excerpt: Be kind to future you, ... and other developers
 date: 2017-11-13 15:30
 last_modified_at: 2023-04-28 12:52:18

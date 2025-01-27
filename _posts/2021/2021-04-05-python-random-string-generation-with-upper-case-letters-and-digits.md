@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Random string generation with digits and upper-case letters'
+title: "Python: Random string generation with digits and upper-case letters"
 excerpt: Using random.SystemRandom
 date: 2021-04-05
 last_modified_at: 2023-04-26 13:22:37

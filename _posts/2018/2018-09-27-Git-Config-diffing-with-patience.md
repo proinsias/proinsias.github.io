@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Diffing With Patience'
+title: "Git: Diffing With Patience"
 excerpt: Using the diff.algorithm option
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

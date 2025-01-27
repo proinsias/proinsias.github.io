@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Ignore Changes To A Tracked File'
+title: "Git: Ignore Changes To A Tracked File"
 excerpt: Using the git update-index command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:05:18

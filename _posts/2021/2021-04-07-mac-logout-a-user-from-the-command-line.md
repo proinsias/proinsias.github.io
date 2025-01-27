@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Mac: Logout a user from the command line'
+title: "Mac: Logout a user from the command line"
 excerpt: Skip the UI entirely
 date: 2021-04-07
 last_modified_at: 2023-04-26 13:22:37

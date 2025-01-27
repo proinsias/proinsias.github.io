@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Three new functions'
+title: "Pandas: Three new functions"
 excerpt: Tips from Towards Data Science
 date: 2021-05-23
 last_modified_at: 2023-04-26 13:22:37

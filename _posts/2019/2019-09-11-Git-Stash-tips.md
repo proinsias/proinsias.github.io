@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Stash tips'
+title: "Git: Stash tips"
 excerpt: Annotate or summarize your stashes, and more
 date: 2019-09-09 16.31
 last_modified_at: 2023-04-26 13:35:52

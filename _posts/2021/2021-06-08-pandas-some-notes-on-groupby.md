@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Some notes on groupby'
+title: "Pandas: Some notes on groupby"
 excerpt: Groupby expert level
 date: 2021-06-08
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Send A Command To psql'
+title: "PSQL: Send A Command To psql"
 excerpt: Execute SQL from the command line
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

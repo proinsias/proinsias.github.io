@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Thousands Separator in Formatted Strings'
+title: "Python: Thousands Separator in Formatted Strings"
 date: 2017-04-05
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Just add ':,' to the format specifier

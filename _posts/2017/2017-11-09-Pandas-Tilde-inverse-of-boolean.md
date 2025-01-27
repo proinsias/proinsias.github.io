@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Inverse of boolean'
+title: "Pandas: Inverse of boolean"
 excerpt: Using the tilde operator
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-28 12:52:18

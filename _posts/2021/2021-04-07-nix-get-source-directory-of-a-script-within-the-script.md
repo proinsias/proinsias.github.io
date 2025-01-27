@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Bash: Get source directory of a script within the script'
+title: "Bash: Get source directory of a script within the script"
 excerpt: Works no matter where the script is being called from
 date: 2021-04-07
 last_modified_at: 2023-04-26 13:22:37

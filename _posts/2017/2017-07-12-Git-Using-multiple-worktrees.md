@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Using multiple worktrees'
+title: "Git: Using multiple worktrees"
 excerpt: Via the git worktree command
 date: 2017-07-12 12:06
 last_modified_at: 2023-04-26 13:22:37

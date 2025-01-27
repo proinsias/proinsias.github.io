@@ -1,7 +1,7 @@
 ---
-title: 'First direction detection of light from extrasolar planets'
+title: "First direction detection of light from extrasolar planets"
 layout: single
-excerpt: 'TrES group identified thermal emission from the hot Jupiter TrES-1'
+excerpt: "TrES group identified thermal emission from the hot Jupiter TrES-1"
 permalink: /portfolio/tres/thermal.html
 categories:
     - tres

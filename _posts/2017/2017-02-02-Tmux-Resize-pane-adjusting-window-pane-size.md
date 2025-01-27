@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Tmux: Adjusting Window Pane Size'
+title: "Tmux: Adjusting Window Pane Size"
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the resize-pane command

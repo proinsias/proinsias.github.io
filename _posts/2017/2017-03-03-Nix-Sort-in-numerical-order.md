@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Sort In Numerical Order'
+title: "Nix: Sort In Numerical Order"
 excerpt: Using the --numeric-sort flag
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

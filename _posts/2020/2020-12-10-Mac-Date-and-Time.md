@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Mac: Date and Time'
+title: "Mac: Date and Time"
 excerpt: From the command line
 date: 2020-12-10
 last_modified_at: 2023-04-26 13:22:37

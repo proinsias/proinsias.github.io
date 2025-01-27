@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Regular expressions with str.contains'
+title: "Pandas: Regular expressions with str.contains"
 excerpt: How to enable regex flags
 date: 2021-04-26
 last_modified_at: 2023-04-26 13:22:37

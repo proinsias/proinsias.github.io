@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Invert a mapping'
+title: "Python: Invert a mapping"
 date: 2017-04-05
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using items()

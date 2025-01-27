@@ -1,7 +1,7 @@
 ---
-title: 'TrES-3: A Nearby, Massive, Transiting Hot Jupiter in a 31-Hour Orbit'
+title: "TrES-3: A Nearby, Massive, Transiting Hot Jupiter in a 31-Hour Orbit"
 layout: single
-excerpt: '1.9 Jupiter masses'
+excerpt: "1.9 Jupiter masses"
 header:
     image: /assets/images/TrES3_0.preview.jpg
     image_description: "An artist's impression of a TrES-3 transit"

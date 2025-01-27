@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Extract file extension from file name'
+title: "Nix: Extract file extension from file name"
 excerpt: Using variable manipulation
 date: 2021-04-05
 last_modified_at: 2023-04-26 13:22:37

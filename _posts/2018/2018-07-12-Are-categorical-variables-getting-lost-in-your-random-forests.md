@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Are categorical variables getting lost in your random forests?'
+title: "Are categorical variables getting lost in your random forests?"
 excerpt: Comparing two approaches
 date: 2018-07-12 15:35
 last_modified_at: 2023-05-01 17:51:14

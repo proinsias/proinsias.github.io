@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: SpooledTemporaryFile'
+title: "Python: SpooledTemporaryFile"
 excerpt: From the tempfile module
 date: 2017-04-05 05:23
 last_modified_at: 2023-04-26 13:41:33

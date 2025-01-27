@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Tmux: Create A New Session In A New Server'
+title: "Tmux: Create A New Session In A New Server"
 excerpt: Using the -L flag
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

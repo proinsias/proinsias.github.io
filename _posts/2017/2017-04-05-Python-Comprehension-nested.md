@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Nested Comprehensions'
+title: "Python: Nested Comprehensions"
 date: 2017-04-05
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using two fors within a comprehension

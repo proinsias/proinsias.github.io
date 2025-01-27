@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Combine Functions'
+title: "Pandas: Combine Functions"
 date: 2020-09-18
 last_modified_at: 2023-04-26 13:22:37
 excerpt: The combine and combine_first functions

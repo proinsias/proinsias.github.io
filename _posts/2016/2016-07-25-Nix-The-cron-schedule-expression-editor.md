@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: The cron schedule expression editor'
+title: "Nix: The cron schedule expression editor"
 excerpt: Quick way of getting the syntax right
 date: 2016-07-25
 last_modified_at: 2023-05-10 15:27:01

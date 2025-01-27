@@ -1,7 +1,7 @@
 ---
-title: 'Sherlock: A transit false-positive detector'
+title: "Sherlock: A transit false-positive detector"
 layout: single
-excerpt: 'Making the number of transit candidates manageable'
+excerpt: "Making the number of transit candidates manageable"
 permalink: /portfolio/tres/sherlock.html
 categories:
     - tres

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Match arguments to help text'
+title: "Match arguments to help text"
 date: 2021-10-25
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Better understand your shell commands

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: sort_index'
+title: "Pandas: sort_index"
 excerpt: Sort a dataframe by index
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-28 12:52:18

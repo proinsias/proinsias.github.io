@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Use a psqlrc File For Common Settings'
+title: "PSQL: Use a psqlrc File For Common Settings"
 excerpt: Launch PSQL with a custom configuration
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

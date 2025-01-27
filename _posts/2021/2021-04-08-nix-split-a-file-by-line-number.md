@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Split a file by line number'
+title: "Nix: Split a file by line number"
 excerpt: Extra options for output file names
 date: 2021-04-08
 last_modified_at: 2023-04-26 13:22:37

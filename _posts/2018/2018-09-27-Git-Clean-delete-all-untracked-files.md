@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Delete All Untracked Files'
+title: "Git: Delete All Untracked Files"
 excerpt: Via git clean
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:51:14

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Using a single sudo to run multiple && arguments'
+title: "Using a single sudo to run multiple && arguments"
 excerpt: There's more than one way to skin a cat
 date: 2023-05-02 21:00
 last_modified_at: 2023-05-03 01:03:14

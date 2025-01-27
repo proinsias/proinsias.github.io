@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Find MAC address of network interfaces with ifconfig'
+title: "Nix: Find MAC address of network interfaces with ifconfig"
 excerpt: Grep for the hardware address (HWaddr)
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Sort branches by recency'
+title: "Git: Sort branches by recency"
 excerpt: A more useful default behavior
 date: 2021-04-27
 last_modified_at: 2023-04-26 13:22:37

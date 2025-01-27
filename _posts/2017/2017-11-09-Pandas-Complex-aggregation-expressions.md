@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Complex aggregation expressions'
+title: "Pandas: Complex aggregation expressions"
 excerpt: Using a dictionary of aggreations
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-27 13:36:44

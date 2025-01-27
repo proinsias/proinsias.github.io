@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Time downloads using sample files of various sizes'
+title: "Time downloads using sample files of various sizes"
 excerpt: Using wget and time
 published: true
 date: 2023-04-16

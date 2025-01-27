@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Optimize logging of expensive debugging operations'
+title: "Python: Optimize logging of expensive debugging operations"
 excerpt: Only log if threshold is set appropriately
 date: 2021-04-26
 last_modified_at: 2023-04-26 13:22:37

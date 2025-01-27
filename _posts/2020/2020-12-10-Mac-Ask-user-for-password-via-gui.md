@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Mac: Ask user for password via GUI'
+title: "Mac: Ask user for password via GUI"
 excerpt: Using Applescript
 date: 2020-12-10
 last_modified_at: 2023-04-26 13:22:37

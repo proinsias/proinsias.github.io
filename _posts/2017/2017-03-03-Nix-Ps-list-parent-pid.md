@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: List parent pid with ps'
+title: "Nix: List parent pid with ps"
 excerpt: Using the -f flag
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

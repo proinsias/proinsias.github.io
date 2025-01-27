@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Shell: Identify process using a given port number'
+title: "Shell: Identify process using a given port number"
 date: 2022-06-28
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Quickly get the information you need to free a used port

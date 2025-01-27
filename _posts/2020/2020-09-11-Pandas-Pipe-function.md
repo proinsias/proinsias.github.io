@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Pipe function'
+title: "Pandas: Pipe function"
 date: 2020-09-11
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Create a method chain in pandas

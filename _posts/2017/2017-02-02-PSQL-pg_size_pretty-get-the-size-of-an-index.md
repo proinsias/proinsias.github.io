@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Get The Size Of An Index'
+title: "PSQL: Get The Size Of An Index"
 excerpt: Using the pg_size_pretty and pg_relation_size functions
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

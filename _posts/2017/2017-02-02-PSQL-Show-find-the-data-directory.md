@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Find The Data Directory'
+title: "PSQL: Find The Data Directory"
 excerpt: Via show data_directory
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Jupyter: High-res plots'
+title: "Jupyter: High-res plots"
 excerpt: Via the InlineBackend.figure_format configuration option
 date: 2017-10-12 15:42
 last_modified_at: 2023-04-26 13:22:37

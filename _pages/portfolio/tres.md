@@ -1,7 +1,7 @@
 ---
-title: 'TrES: The Transatlantic Exoplanet Survey'
+title: "TrES: The Transatlantic Exoplanet Survey"
 layout: single
-excerpt: 'TrES was a network of three small-aperture telescopes searching the sky for transiting planets'
+excerpt: "TrES was a network of three small-aperture telescopes searching the sky for transiting planets"
 permalink: /portfolio/tres.html
 categories:
     - tres

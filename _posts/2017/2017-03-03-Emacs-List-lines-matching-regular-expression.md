@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Emacs: List lines matching a regular expression'
+title: "Emacs: List lines matching a regular expression"
 excerpt: Using the occur command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

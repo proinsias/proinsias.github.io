@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Terminating A Connection'
+title: "PSQL: Terminating A Connection"
 excerpt: Using the pg_terminate_backend command
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Sort lists naturally not lexicographically with natsort'
+title: "Python: Sort lists naturally not lexicographically with natsort"
 excerpt: Using the natsorted function
 date: 2017-04-05 05:23
 last_modified_at: 2023-04-26 13:35:52

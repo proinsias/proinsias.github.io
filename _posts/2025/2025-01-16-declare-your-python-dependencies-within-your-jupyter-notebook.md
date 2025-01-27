@@ -5,13 +5,13 @@ excerpt: Reproducible workflows are simplified with tools like Nix for shell scr
 date: 2025-01-16 19:42
 last_modified_at: 2025-01-16 19:42
 categories:
-  - posts
+    - posts
 tags:
-  - reproducible
-  - jupyter
-  - dependency
-  - nix
-  - python
+    - reproducible
+    - jupyter
+    - dependency
+    - nix
+    - python
 ---
 
 I recently came across the idea of [Reproducible interpreted shell scripts](https://nix.dev/tutorials/first-steps/reproducible-scripts.html),

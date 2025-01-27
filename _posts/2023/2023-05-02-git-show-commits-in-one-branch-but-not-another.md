@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Show commits in one branch but not another'
+title: "Git: Show commits in one branch but not another"
 excerpt: Using git log
 date: 2023-05-02 17:03
 last_modified_at: 2023-05-03 01:09:29

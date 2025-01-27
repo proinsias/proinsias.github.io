@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Docker: Verify docker-compose configuration'
+title: "Docker: Verify docker-compose configuration"
 excerpt: Validate your docker-compose.yml files
 date: 2021-10-25
 last_modified_at: 2023-04-26 13:22:37

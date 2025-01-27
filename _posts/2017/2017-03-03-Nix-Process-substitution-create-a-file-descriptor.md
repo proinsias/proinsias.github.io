@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Create A File Descriptor with Process Substitution'
+title: "Nix: Create A File Descriptor with Process Substitution"
 excerpt: Make a command's output appear to come from a file
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

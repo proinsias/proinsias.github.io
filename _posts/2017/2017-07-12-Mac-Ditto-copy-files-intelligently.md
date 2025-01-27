@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Mac: Copy files intelligently with ditto'
+title: "Mac: Copy files intelligently with ditto"
 excerpt: ditto is slightly more advanced but can be advantageous to cp for several reasons
 date: 2017-07-12 14:07
 last_modified_at: 2023-04-26 13:22:37

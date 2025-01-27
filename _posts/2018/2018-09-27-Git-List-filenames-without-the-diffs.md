@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: List Filenames Without The Diffs'
+title: "Git: List Filenames Without The Diffs"
 excerpt: The name-only flag
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:05:18

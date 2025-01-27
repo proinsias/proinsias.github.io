@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Limit Execution Time Of Statements'
+title: "PSQL: Limit Execution Time Of Statements"
 excerpt: Set a hard timeout
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

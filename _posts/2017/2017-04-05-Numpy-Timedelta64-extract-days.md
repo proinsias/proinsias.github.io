@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Numpy: Extract days from timedelta64'
+title: "Numpy: Extract days from timedelta64"
 date: 2017-04-05
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using np.timedelta64 itself

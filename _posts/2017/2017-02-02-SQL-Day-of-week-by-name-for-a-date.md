@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'SQL: Day Of Week By Name For A Date'
+title: "SQL: Day Of Week By Name For A Date"
 excerpt: Using to_char
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

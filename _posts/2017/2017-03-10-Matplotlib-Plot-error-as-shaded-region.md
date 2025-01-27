@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Matplotlib: Plot error as shaded region'
+title: "Matplotlib: Plot error as shaded region"
 date: 2017-03-10
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the fill_between command

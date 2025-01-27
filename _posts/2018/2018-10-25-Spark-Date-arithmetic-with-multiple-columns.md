@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Spark: Date Arithmetic with Multiple Columns'
+title: "Spark: Date Arithmetic with Multiple Columns"
 excerpt: Using the expr function
 date: 2018-10-25 12:54
 last_modified_at: 2023-05-01 18:10:56

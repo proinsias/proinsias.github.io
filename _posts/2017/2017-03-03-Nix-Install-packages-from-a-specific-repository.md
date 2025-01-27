@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Install Packages From A Specific Repository'
+title: "Nix: Install Packages From A Specific Repository"
 excerpt: Using yum or apt-get
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

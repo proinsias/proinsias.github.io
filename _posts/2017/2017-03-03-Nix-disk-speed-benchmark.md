@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Disk Speed Benchmark'
+title: "Nix: Disk Speed Benchmark"
 excerpt: Using the dd command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

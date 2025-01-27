@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Renaming A Table'
+title: "PSQL: Renaming A Table"
 excerpt: Using alter table
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

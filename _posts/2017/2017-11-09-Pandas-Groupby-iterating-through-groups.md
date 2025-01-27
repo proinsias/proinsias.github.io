@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Iterating through groups'
+title: "Pandas: Iterating through groups"
 excerpt: Accessing the name and DataFrameGroupBy
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-27 13:36:44

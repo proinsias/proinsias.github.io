@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Use unlogged tables for caches'
+title: "PSQL: Use unlogged tables for caches"
 excerpt: Trade crash-safety for speed
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

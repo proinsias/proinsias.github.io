@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'SQL: Word Count for a Column'
+title: "SQL: Word Count for a Column"
 excerpt: Using array_length and regexp_split_to_array
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

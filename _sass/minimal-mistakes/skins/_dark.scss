@@ -21,10 +21,10 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
-  color: inherit;
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
 }
 
 .ais-search-box .ais-search-box--input {
-  background-color: $form-background-color;
+    background-color: $form-background-color;
 }

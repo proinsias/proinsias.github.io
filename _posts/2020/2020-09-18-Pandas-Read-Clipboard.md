@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Create a DataFrame via the Clipboard'
+title: "Pandas: Create a DataFrame via the Clipboard"
 date: 2020-09-18
 last_modified_at: 2023-04-26 13:22:37
 excerpt: The read_clipboard function.

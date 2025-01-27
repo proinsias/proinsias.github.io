@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'AWS CLI: List account aliases'
+title: "AWS CLI: List account aliases"
 excerpt: Using the aws iam list-account-aliases command
 date: 2017-11-02 15:48
 last_modified_at: 2023-04-26 13:22:37

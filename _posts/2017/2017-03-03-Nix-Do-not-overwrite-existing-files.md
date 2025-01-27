@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Do Not Overwrite Existing Files'
+title: "Nix: Do Not Overwrite Existing Files"
 excerpt: Use the no-clobber option of cp
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

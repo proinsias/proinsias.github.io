@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Work on multiple branches simultaneously'
+title: "Git: Work on multiple branches simultaneously"
 excerpt: Using the git worktree command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:10:56

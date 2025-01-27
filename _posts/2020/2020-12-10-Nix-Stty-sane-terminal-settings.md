@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Stty - sane terminal settings'
+title: "Nix: Stty - sane terminal settings"
 excerpt: Fix garbled shell session
 date: 2020-12-10
 last_modified_at: 2023-04-26 13:22:37

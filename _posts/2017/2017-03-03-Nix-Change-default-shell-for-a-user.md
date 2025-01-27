@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Change Default Shell For A User'
+title: "Nix: Change Default Shell For A User"
 excerpt: Take a new shell for a spin!
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

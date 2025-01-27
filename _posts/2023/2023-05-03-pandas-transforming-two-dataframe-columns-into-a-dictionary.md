@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Transforming two DataFrame columns into a dictionary'
+title: "Pandas: Transforming two DataFrame columns into a dictionary"
 excerpt: Using the zip command
 date: 2023-05-03 09:44
 last_modified_at: 2023-05-03 13:52:31

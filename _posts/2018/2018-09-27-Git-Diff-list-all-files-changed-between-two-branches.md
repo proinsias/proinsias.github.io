@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: List All Files Changed Between Two Branches'
+title: "Git: List All Files Changed Between Two Branches"
 excerpt: Using git diff --name-only master
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

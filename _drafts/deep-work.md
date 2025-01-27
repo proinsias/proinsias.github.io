@@ -7,8 +7,8 @@ categories:
     - book-summary
 header:
     image: /assets/images/monastery_on_skellig_michael.jpg
-    image_description: 'Monastery on Skellig Michael'
-    caption: 'Monastery on Skellig Michael (Photo credit: amerune on flickr)'
+    image_description: "Monastery on Skellig Michael"
+    caption: "Monastery on Skellig Michael (Photo credit: amerune on flickr)"
     teaser: /assets/images/monastery_on_skellig_michael_thumbnail.gif
 tags:
     - book-summary

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'AWS CLI: Assuming a role'
+title: "AWS CLI: Assuming a role"
 date: 2017-04-03
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the aws config files

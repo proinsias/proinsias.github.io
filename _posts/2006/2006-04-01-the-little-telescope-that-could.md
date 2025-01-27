@@ -1,5 +1,5 @@
 ---
-title: 'The Little Telescope that Could'
+title: "The Little Telescope that Could"
 layout: single
 excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Could..."
 categories:

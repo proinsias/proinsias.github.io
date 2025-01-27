@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Storing Emails With citext'
+title: "PSQL: Storing Emails With citext"
 excerpt: Ignore case in email addresses
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Mac: Software Update from the Command Line'
+title: "Mac: Software Update from the Command Line"
 date: 2019-11-26 16:04
 last_modified_at: 2023-04-26 02:04:37
 excerpt: Via the softwareupdate command

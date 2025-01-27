@@ -3,7 +3,7 @@
 # See all available variables at https://oxsecurity.github.io/megalinter/configuration/ and in linters documentation
 
 APPLY_FIXES: all # all, none, or list of linter keys
-BASH_SHELLCHECK_ARGUMENTS: '--external-sources --format=gcc --shell=bash'
+BASH_SHELLCHECK_ARGUMENTS: "--external-sources --format=gcc --shell=bash"
 DISABLE:
   - ACTION # FIXME: Figure out why not working!?
   - EDITORCONFIG # FIXME: Figure out why not working!?

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Shell: Create a file backup with modification date as suffix'
+title: "Shell: Create a file backup with modification date as suffix"
 date: 2022-06-28
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Useful prior to changing a configuration file

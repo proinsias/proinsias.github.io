@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Options'
+title: "Pandas: Options"
 excerpt: The get_option, reset_option, and set_option functions.
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-28 12:52:18

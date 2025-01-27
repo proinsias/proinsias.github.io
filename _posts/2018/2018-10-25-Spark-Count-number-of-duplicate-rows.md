@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Spark: Count number of duplicate rows'
+title: "Spark: Count number of duplicate rows"
 excerpt: Using the groupby function
 date: 2018-10-25 12:46
 last_modified_at: 2023-05-01 18:10:56

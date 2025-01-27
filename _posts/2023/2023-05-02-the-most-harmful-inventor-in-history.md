@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'The Most Harmful Inventor in History'
+title: "The Most Harmful Inventor in History"
 excerpt: It is difficult to surpass the magnitude of the damage caused by two particular inventions, and both were created by the same man
 date: 2023-05-02 13:51
 last_modified_at: 2023-05-02 18:03:57

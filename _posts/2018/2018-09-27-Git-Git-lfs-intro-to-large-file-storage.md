@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Intro to Large File Storage (LFS)'
+title: "Git: Intro to Large File Storage (LFS)"
 excerpt: An extension of git
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

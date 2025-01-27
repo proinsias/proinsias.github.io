@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Checkout Old Version Of A File'
+title: "Git: Checkout Old Version Of A File"
 excerpt: Using the appropriate hash
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:51:14

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: LFS Pull'
+title: "Git: LFS Pull"
 excerpt: Addressing git checkout fails
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:05:18

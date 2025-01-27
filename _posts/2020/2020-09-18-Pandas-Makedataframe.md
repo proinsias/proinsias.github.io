@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Make a Data Frame with random floats'
+title: "Pandas: Make a Data Frame with random floats"
 date: 2020-09-18
 last_modified_at: 2023-04-26 13:22:37
 excerpt: The aptly-named makeDataFrame function

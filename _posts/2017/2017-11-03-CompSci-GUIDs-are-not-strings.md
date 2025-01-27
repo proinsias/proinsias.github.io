@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'CompSci: GUIDs are not strings'
+title: "CompSci: GUIDs are not strings"
 excerpt: The string representation of a GUID should not be relevant to a program
 date: 2017-11-03 10:21
 last_modified_at: 2023-04-26 13:22:37

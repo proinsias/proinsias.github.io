@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Groupby Not As Index'
+title: "Pandas: Groupby Not As Index"
 excerpt: Via the as_index parameter
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-27 13:36:44

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Turn Timing On'
+title: "PSQL: Turn Timing On"
 excerpt: Via the timing command
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

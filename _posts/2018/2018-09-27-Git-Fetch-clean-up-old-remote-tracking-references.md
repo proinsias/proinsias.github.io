@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Clean Up Old Remote Tracking References'
+title: "Git: Clean Up Old Remote Tracking References"
 excerpt: Using git fetch origin --prune
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

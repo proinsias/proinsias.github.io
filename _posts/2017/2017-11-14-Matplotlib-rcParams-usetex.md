@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Matplotlib: Use LaTeX'
+title: "Matplotlib: Use LaTeX"
 excerpt: Via the 'text.usetex' parameter
 date: 2017-11-14 15:51
 last_modified_at: 2023-05-01 17:51:14

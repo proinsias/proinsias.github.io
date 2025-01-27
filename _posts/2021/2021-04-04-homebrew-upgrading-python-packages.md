@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Upgrading Homebrew packages using pip'
+title: "Python: Upgrading Homebrew packages using pip"
 excerpt: Deep dive into homebrew python environments
 date: 2021-04-04
 last_modified_at: 2023-04-26 13:22:37

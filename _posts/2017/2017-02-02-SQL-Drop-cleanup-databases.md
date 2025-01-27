@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'SQL: Cleanup Databases'
+title: "SQL: Cleanup Databases"
 excerpt: Using drop database
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

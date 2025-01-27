@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Curling For Headers'
+title: "Nix: Curling For Headers"
 excerpt: Using the head flag for curl
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

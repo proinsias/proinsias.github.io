@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Snowflake: Increment date and time values with dateadd'
+title: "Snowflake: Increment date and time values with dateadd"
 excerpt: Some datetime examples
 date: 2017-07-04 22:57
 last_modified_at: 2023-04-26 13:22:37

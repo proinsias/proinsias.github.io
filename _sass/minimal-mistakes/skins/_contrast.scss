@@ -32,21 +32,21 @@ $base0e: #ff73fd !default;
 $base0f: #b18a3d !default;
 
 .page__content {
-  .notice,
-  .notice--primary,
-  .notice--info,
-  .notice--warning,
-  .notice--success,
-  .notice--danger {
-    color: $text-color;
-  }
+    .notice,
+    .notice--primary,
+    .notice--info,
+    .notice--warning,
+    .notice--success,
+    .notice--danger {
+        color: $text-color;
+    }
 }
 
 .page__footer {
-  color: #fff !important; // override
+    color: #fff !important; // override
 }
 
 .page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
-  color: inherit;
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
 }

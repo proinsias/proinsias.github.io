@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Determine The IP Address Of A Domain'
+title: "Nix: Determine The IP Address Of A Domain"
 excerpt: Using the dig command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

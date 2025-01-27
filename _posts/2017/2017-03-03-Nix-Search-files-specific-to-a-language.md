@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Search Files Specific To A Language'
+title: "Nix: Search Files Specific To A Language"
 excerpt: Using the ack command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

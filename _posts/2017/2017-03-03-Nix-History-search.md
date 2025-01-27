@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Search History'
+title: "Nix: Search History"
 excerpt: Using control-r
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

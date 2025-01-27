@@ -35,7 +35,7 @@ Full tech stack [here](/techstack.md)
 
 # Tech Stack File
 
-![](https://img.stackshare.io/repo.svg 'repo') [proinsias/proinsias.github.io](https://github.com/proinsias/proinsias.github.io)![](https://img.stackshare.io/public_badge.svg 'public')
+![](https://img.stackshare.io/repo.svg "repo") [proinsias/proinsias.github.io](https://github.com/proinsias/proinsias.github.io)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |16<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|

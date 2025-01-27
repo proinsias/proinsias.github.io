@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Check Ubuntu Version'
+title: "Nix: Check Ubuntu Version"
 excerpt: Using the lsb_release command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

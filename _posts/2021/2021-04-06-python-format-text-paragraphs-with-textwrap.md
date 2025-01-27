@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Format text paragraphs with textwrap'
+title: "Python: Format text paragraphs with textwrap"
 excerpt: Wrap and fill lines
 date: 2021-04-06
 last_modified_at: 2023-04-26 13:22:37

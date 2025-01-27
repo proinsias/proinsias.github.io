@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Curling With Basic Auth Credentials'
+title: "Nix: Curling With Basic Auth Credentials"
 excerpt: Using the user flag of curl
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

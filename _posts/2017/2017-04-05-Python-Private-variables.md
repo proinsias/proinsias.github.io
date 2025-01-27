@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Private variables'
+title: "Python: Private variables"
 excerpt: Follow the convention of putting two underscores at the beginning of the variable's name
 date: 2017-04-05 05:23
 last_modified_at: 2023-04-26 13:41:33

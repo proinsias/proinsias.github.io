@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Change default editor for git'
+title: "Git: Change default editor for git"
 excerpt: The core.editor option
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

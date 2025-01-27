@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Sorted human readable sizes'
+title: "Nix: Sorted human readable sizes"
 excerpt: Using the --human-numeric-sort flag with sort
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

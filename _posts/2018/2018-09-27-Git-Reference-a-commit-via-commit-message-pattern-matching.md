@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Reference A Commit Via Commit Message Pattern Matching'
+title: "Git: Reference A Commit Via Commit Message Pattern Matching"
 excerpt: Using the git show command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:05:18

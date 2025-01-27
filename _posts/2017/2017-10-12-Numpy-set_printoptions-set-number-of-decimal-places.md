@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Numpy: Set number of decimal places using set_printoptions'
+title: "Numpy: Set number of decimal places using set_printoptions"
 excerpt: Via the precision argument
 date: 2017-10-12 15:40
 last_modified_at: 2023-04-26 13:22:37

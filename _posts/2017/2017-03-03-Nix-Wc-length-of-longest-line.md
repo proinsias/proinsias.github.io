@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Get length of longest line with wc'
+title: "Nix: Get length of longest line with wc"
 excerpt: Using the --max-line-length flag
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'The relativity of raw data'
+title: "The relativity of raw data"
 excerpt: Why provenance of data is important
 date: 2016-07-26
 last_modified_at: 2023-05-01 23:27:03

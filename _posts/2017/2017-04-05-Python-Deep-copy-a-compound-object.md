@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Deep copy a compound object'
+title: "Python: Deep copy a compound object"
 date: 2017-04-05
 last_modified_at: 2023-12-19 14:57:35
 excerpt: Using deepcopy

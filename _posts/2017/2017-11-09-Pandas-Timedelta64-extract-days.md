@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Pandas: Extract days from a timedelta64'
+title: "Pandas: Extract days from a timedelta64"
 excerpt: Via the components property
 date: 2017-11-09 12:35
 last_modified_at: 2023-04-28 12:52:18

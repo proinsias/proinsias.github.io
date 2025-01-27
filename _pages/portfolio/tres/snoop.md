@@ -1,7 +1,7 @@
 ---
-title: 'Snoop: the Palomar All-Sky Surveillance Camera'
+title: "Snoop: the Palomar All-Sky Surveillance Camera"
 layout: single
-excerpt: 'Evaluating astronomical observing conditions'
+excerpt: "Evaluating astronomical observing conditions"
 permalink: /portfolio/tres/snoop.html
 categories:
     - tres

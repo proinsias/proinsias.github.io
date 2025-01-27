@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Getting A Slice Of An Array'
+title: "PSQL: Getting A Slice Of An Array"
 excerpt: Using brackets
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

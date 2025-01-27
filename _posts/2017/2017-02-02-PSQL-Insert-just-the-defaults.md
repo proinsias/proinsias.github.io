@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Insert Just The Defaults'
+title: "PSQL: Insert Just The Defaults"
 excerpt: Using the 'default values' options
 date: 2017-02-02
 last_modified_at: 2023-04-26 13:22:37

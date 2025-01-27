@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Reverse a String'
+title: "Nix: Reverse a String"
 excerpt: Using the rev command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

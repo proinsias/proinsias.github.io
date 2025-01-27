@@ -1,6 +1,6 @@
 ---
 last_modified_at: 2023-04-26 13:22:37
-date: '2022-12-23 10:43 -0500'
+date: "2022-12-23 10:43 -0500"
 layout: single
 published: true
 title: Put a Christmas tree in your terminal using ctree

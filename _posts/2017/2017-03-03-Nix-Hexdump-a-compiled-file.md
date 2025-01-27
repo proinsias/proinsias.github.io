@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Hexdump A Compiled File'
+title: "Nix: Hexdump A Compiled File"
 excerpt: Using the C option
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

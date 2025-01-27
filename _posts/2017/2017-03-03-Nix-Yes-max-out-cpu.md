@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Max out CPU with Yes'
+title: "Nix: Max out CPU with Yes"
 excerpt: Using the yes command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

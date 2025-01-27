@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Snapshot'
+title: "Git: Snapshot"
 excerpt: Using the git stash save command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:08:18

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Undo a Git Mistake'
+title: "Git: Undo a Git Mistake"
 excerpt: Using the git reflog command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:05:18

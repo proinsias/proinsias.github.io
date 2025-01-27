@@ -2,22 +2,22 @@
 # https://github.com/actions/labeler
 
 Build 🔨:
-  - '.travis.yml'
-  - 'bin/build.sh'
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '_config.yml'
+  - ".travis.yml"
+  - "bin/build.sh"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "_config.yml"
 
 Code Quality 🔎:
-  - '.mdl.rb'
-  - '.mdlrc'
-  - '.overcommit.yml'
-  - '.varci.yml'
+  - ".mdl.rb"
+  - ".mdlrc"
+  - ".overcommit.yml"
+  - ".varci.yml"
 
 Source 🗂:
-  - 'assets/**/*'
-  - 'index.html'
-  - '_data/**/*'
-  - '_includes/**/*'
-  - '_pages/**/*'
-  - '_posts/**/*'
+  - "assets/**/*"
+  - "index.html"
+  - "_data/**/*"
+  - "_includes/**/*"
+  - "_pages/**/*"
+  - "_posts/**/*"

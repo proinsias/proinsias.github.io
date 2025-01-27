@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Snowflake: Get_ddl statements'
+title: "Snowflake: Get_ddl statements"
 excerpt: Generate a DDL statement that can be used to recreate the specified object
 date: 2017-07-12 13:52
 last_modified_at: 2023-04-26 13:22:37

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Jupyter: Share variables'
+title: "Jupyter: Share variables"
 excerpt: Via the store_var magic command
 date: 2017-11-14 15:51
 last_modified_at: 2023-05-01 17:51:14

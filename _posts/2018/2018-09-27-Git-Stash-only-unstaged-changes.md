@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Stashing Only Unstaged Changes'
+title: "Git: Stashing Only Unstaged Changes"
 excerpt: Using the k flag
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:08:18

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Matplotlib: Clearing a figure'
+title: "Matplotlib: Clearing a figure"
 date: 2017-03-10
 last_modified_at: 2023-04-26 13:22:37
 excerpt: cla v clf v close

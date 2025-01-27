@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Delete Remote Git Tags'
+title: "Git: Delete Remote Git Tags"
 excerpt: Via git push
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 17:55:15

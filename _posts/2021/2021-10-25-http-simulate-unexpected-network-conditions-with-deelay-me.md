@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'HTTP: Simulate unexpected network conditions with deelay.me'
+title: "HTTP: Simulate unexpected network conditions with deelay.me"
 excerpt: Another webpage to add to your toolkit
 date: 2021-10-25
 last_modified_at: 2023-04-26 13:22:37

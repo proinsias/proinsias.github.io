@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Sklearn: Pipeline diagram'
+title: "Sklearn: Pipeline diagram"
 date: 2020-09-11
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Visualize your sklearn pipelines in Jupyter

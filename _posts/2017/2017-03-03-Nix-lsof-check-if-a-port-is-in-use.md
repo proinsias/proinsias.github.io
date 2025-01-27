@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Check If A Port Is In Use'
+title: "Nix: Check If A Port Is In Use"
 excerpt: Using the lsof command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37

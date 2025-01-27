@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Dynamic identity'
+title: "Git: Dynamic identity"
 excerpt: A great example of when to use the gitconfig includeif directive
 date: 2021-04-27
 last_modified_at: 2023-04-26 13:22:37

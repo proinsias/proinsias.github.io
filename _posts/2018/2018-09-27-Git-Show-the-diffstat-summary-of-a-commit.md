@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Git: Show The diffstat Summary Of A Commit'
+title: "Git: Show The diffstat Summary Of A Commit"
 excerpt: Using the git show --stat command
 date: 2018-09-27 10:14
 last_modified_at: 2023-05-01 18:08:18

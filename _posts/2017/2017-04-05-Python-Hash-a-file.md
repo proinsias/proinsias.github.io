@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Python: Hash a file'
+title: "Python: Hash a file"
 date: 2017-04-05
 last_modified_at: 2023-04-26 13:22:37
 excerpt: Using the hashlib module

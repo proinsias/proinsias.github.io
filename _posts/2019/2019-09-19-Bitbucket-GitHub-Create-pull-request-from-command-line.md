@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Bitbucket/GitHub: Create pull request from command line'
+title: "Bitbucket/GitHub: Create pull request from command line"
 date: 2019-09-19 09.59
 last_modified_at: 2023-04-26 02:04:37
 excerpt: Via hub command or handy url

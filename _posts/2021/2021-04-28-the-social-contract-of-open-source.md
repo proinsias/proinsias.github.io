@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'The social contract of open source'
+title: "The social contract of open source"
 excerpt: Please be kind to your open source maintainers
 date: 2021-04-28
 last_modified_at: 2023-04-26 13:22:37
@@ -8,8 +8,8 @@ categories:
     - posts
 header:
     image: /assets/images/handshake.jpg
-    image_description: 'Handshake - 2 men'
-    caption: 'Handshake (Photo credit: flazingo_photos on flickr)'
+    image_description: "Handshake - 2 men"
+    caption: "Handshake (Photo credit: flazingo_photos on flickr)"
     teaser: /assets/images/handshake_thumbnail.gif
 tags:
     - open source

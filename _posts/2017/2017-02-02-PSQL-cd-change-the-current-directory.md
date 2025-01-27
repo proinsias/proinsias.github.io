@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'PSQL: Change The Current Directory'
+title: "PSQL: Change The Current Directory"
 excerpt: The cd meta-command
 date: 2017-02-02
 last_modified_at: 2023-05-01 18:05:18

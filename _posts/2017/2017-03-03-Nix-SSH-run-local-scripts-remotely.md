@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Nix: Run local scripts remotely with SSH'
+title: "Nix: Run local scripts remotely with SSH"
 excerpt: Via the bash command
 date: 2017-03-03
 last_modified_at: 2023-04-26 13:22:37
