@@ -32,8 +32,8 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-            args: --base https://proinsias.github.io
-            fail: false
+          args: --base https://proinsias.github.io
+          fail: false
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
