@@ -9,9 +9,7 @@ branch: master
 detected_tools_count: 16
 tools:
   - name: JavaScript
-    description:
-      Lightweight, interpreted, object-oriented language with first-class
-      functions
+    description: Lightweight, interpreted, object-oriented language with first-class functions
     website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     open_source: true
     hosted_saas: false
@@ -20,9 +18,7 @@ tools:
     image_url: https://img.stackshare.io/service/1209/javascript.jpeg
     detection_source: Repo Metadata
   - name: Ruby
-    description:
-      A dynamic, interpreted, open source programming language with a focus
-      on simplicity and productivity
+    description: A dynamic, interpreted, open source programming language with a focus on simplicity and productivity
     website_url: https://www.ruby-lang.org
     open_source: true
     hosted_saas: false
@@ -105,8 +101,8 @@ tools:
     last_updated_on: 2016-08-04 02:38:36.000000000 Z
   - name: Shell
     description:
-      A shell is a text-based terminal, used for manipulating programs and
-      files. Shell scripts typically manage program execution.
+      A shell is a text-based terminal, used for manipulating programs and files. Shell scripts typically manage program
+      execution.
     website_url: https://en.wikipedia.org/wiki/Shell_script
     open_source: false
     hosted_saas: false
@@ -183,9 +179,7 @@ tools:
     last_updated_by: Francis T. O'Donovan
     last_updated_on: 2019-08-22 20:09:47.000000000 Z
   - name: webrick
-    description:
-      WEBrick is an HTTP server toolkit that can be configured as an HTTPS
-      server
+    description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS server
     package_url: https://rubygems.org/webrick
     version: 1.8.1
     license: BSD-2-Clause

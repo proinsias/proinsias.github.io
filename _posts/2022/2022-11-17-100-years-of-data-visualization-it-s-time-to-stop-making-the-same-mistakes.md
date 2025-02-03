@@ -29,9 +29,9 @@ by Willard Brinton that many data visualizers can still learn from. For example:
 
 Andy also recommends _slightly_ (/s) more recent books on data visualization:
 
--   [The Visual Display of Quantitative Information](https://www.edwardtufte.com/tufte/books_vdqi).
--   [Show Me the Numbers: Designing Tables and Graphs to Enlighten](https://a.co/fp42L70).
--   [Communicating Data with Tableau](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/).
+- [The Visual Display of Quantitative Information](https://www.edwardtufte.com/tufte/books_vdqi).
+- [Show Me the Numbers: Designing Tables and Graphs to Enlighten](https://a.co/fp42L70).
+- [Communicating Data with Tableau](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/).
 
 Finally, I thought it would be useful to reproduce here two lists from Brinton's book. Some of the details are out-of-date, but the spirit of the lessons are still mostly relevant.
 
