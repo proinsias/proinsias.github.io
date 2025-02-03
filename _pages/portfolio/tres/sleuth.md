@@ -57,27 +57,27 @@ that helped discover three transiting exoplanets.
 
 ## Sleuth News
 
--   Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
--   [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
--   We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
--   We found a transiting planet, [TrES-3](https://proinsias.github.io/portfolio/tres/tres3.html),
-    with 1.9 Jupiter masses and an orbital period of only 1.3 days.
--   [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html), the first known transiting planet in the _Kepler_
-    field and the most massive nearby transiting planet, discovered using small-aperture telescopes.
--   Sleuth mentioned in the Astronomy Ireland Magazine:
-    [Minnow Telescope Finds Massive Planet](https://proinsias.github.io/tres/minnow-telescope-finds-massive-planet).
--   Sleuth plays prominent role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
-    TrES-2 is the first known transiting planet in the Kepler field
-    and was at the time the most massive nearby transiting planet.
--   Sleuth and the
-    [High Performance Wireless Research and Education Network](https://web.archive.org/web/20060921165825/http://pr.caltech.edu/media/Press_Releases/PR12884.html).
--   Sleuth, [the Little Telescope That Could](https://proinsias.github.io/tres/the-little-telescope-that-could).
--   Sleuth mentioned on NASA's
-    [PlanetQuest](https://web.archive.org/web/20060921165825/http://planetquest.jpl.nasa.gov/Palomar/palomar_index.cfm)
-    page.
--   [Aerial Photos](https://web.archive.org/web/20060921165825/http://planetquest.jpl.nasa.gov/Palomar/palomar_index.cfm)
-    of Palomar Observatory - Where's Sleuth?!
--   A brief mention of Sleuth and Sherlock in the San Diego Union-Tribune:
-    [Palomar Observed](https://web.archive.org/web/20060921165825/http://www.signonsandiego.com/uniontrib/20051102/news_lz1c02palomar.html).
--   Sleuth Planet Search Telescope featured in December 2004
-    [National Geographic](https://web.archive.org/web/20061116140133/http://magma.nationalgeographic.com/ngm/0412/feature4/zoom2.html).
+- Stephen Colbert [adopts](https://nonprofit.adoptastar.org/stars/11446443) TrES-2!
+- [Goodbye to Sleuth](https://palomarskies.blogspot.com/2009/10/goodbye-to-sleuth.html).
+- We found the largest known transiting planet at the time, [TrES-4](https://www.doi.org/10.1086/522115).
+- We found a transiting planet, [TrES-3](https://proinsias.github.io/portfolio/tres/tres3.html),
+  with 1.9 Jupiter masses and an orbital period of only 1.3 days.
+- [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html), the first known transiting planet in the _Kepler_
+  field and the most massive nearby transiting planet, discovered using small-aperture telescopes.
+- Sleuth mentioned in the Astronomy Ireland Magazine:
+  [Minnow Telescope Finds Massive Planet](https://proinsias.github.io/tres/minnow-telescope-finds-massive-planet).
+- Sleuth plays prominent role in the discovery of [TrES-2](https://proinsias.github.io/portfolio/tres/tres2.html).
+  TrES-2 is the first known transiting planet in the Kepler field
+  and was at the time the most massive nearby transiting planet.
+- Sleuth and the
+  [High Performance Wireless Research and Education Network](https://web.archive.org/web/20060921165825/http://pr.caltech.edu/media/Press_Releases/PR12884.html).
+- Sleuth, [the Little Telescope That Could](https://proinsias.github.io/tres/the-little-telescope-that-could).
+- Sleuth mentioned on NASA's
+  [PlanetQuest](https://web.archive.org/web/20060921165825/http://planetquest.jpl.nasa.gov/Palomar/palomar_index.cfm)
+  page.
+- [Aerial Photos](https://web.archive.org/web/20060921165825/http://planetquest.jpl.nasa.gov/Palomar/palomar_index.cfm)
+  of Palomar Observatory - Where's Sleuth?!
+- A brief mention of Sleuth and Sherlock in the San Diego Union-Tribune:
+  [Palomar Observed](https://web.archive.org/web/20060921165825/http://www.signonsandiego.com/uniontrib/20051102/news_lz1c02palomar.html).
+- Sleuth Planet Search Telescope featured in December 2004
+  [National Geographic](https://web.archive.org/web/20061116140133/http://magma.nationalgeographic.com/ngm/0412/feature4/zoom2.html).
