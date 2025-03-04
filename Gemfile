@@ -15,6 +15,7 @@ source 'https://rubygems.org'
 
 gem "github-pages", ">= 232", group: :jekyll_plugins
 gem "tzinfo-data"
+gem "uri", ">=1.0.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
