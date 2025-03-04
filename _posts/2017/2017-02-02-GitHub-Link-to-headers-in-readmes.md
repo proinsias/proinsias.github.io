@@ -21,7 +21,7 @@ headers further down the document:
 ```markdown
 ### Table of Contents
 
--   [Cucumber](#cucumber)
+- [Cucumber](#cucumber)
 ```
 
 This will link to a header containing 'Cucumber'.
