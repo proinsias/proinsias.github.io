@@ -30,7 +30,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: nightly
+      rev: lychee-v0.18.1
       hooks:
           - id: lychee
           # Optionally include additional CLI arguments
