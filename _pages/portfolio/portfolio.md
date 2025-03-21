@@ -33,7 +33,7 @@ Here's a list of some of the projects I've been involved in over the years:
 <!-- markdownlint-disable line-length -->
 
 - [Characterizing user behavior and information propagation on a social multimedia network](https://doi.org/10.1109/ICMEW.2013.6618395).
-      <!-- markdownlint-enable line-length -->
+  <!-- markdownlint-enable line-length -->
 
 - Establishing up-to-date, accurate, and comprehensive Space Situation Awareness in the
   [Activity Learning and Inferencing for Space Situational Awareness](https://www.sbir.gov/awards/149862)
