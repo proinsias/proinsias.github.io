@@ -28,7 +28,7 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 <!-- textlint-disable alex -->
 
 - Pronouns: He/Him
-      <!-- textlint-enable alex -->
+  <!-- textlint-enable alex -->
 
 - Skills:
 
@@ -67,10 +67,10 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
       <a href="https://travis-ci.com/"><img alt="TravisCI" src="https://img.shields.io/badge/Travis%20CI-%232B2F33?logo=Travis%20CI&logoColor=white&style=ShieldStyle"/></a>
       <a href="https://github.com/features/actions/"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-%232671E5?logo=GitHub%20Actions&logoColor=white&style=ShieldStyle"/></a>
 
-          <!-- textlint-disable en-capitalization -->
+            <!-- textlint-disable en-capitalization -->
 
     and others.
-      <!-- textlint-enable en-capitalization -->
+    <!-- textlint-enable en-capitalization -->
 
 - 🧬 I support Ethical Software Licensing – [DoNoHarm.org](https://firstdonoharm.dev/).
 
