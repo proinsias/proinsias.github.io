@@ -39,18 +39,21 @@ pull_request_rules:
       label:
         add:
           - conflict
-  - name: automatic merge for Dependabot pull requests + automatic merge for me +
+  - name:
+      automatic merge for Dependabot pull requests + automatic merge for me +
       automatic merge on CI success and review
     conditions: []
     actions:
       queue:
 priority_rules:
-  - name: priority for queue `duplicated default from automatic merge on CI success
+  - name:
+      priority for queue `duplicated default from automatic merge on CI success
       and review`
     conditions:
       - author~=github-actions
     priority: 2500
-  - name: priority for queue `duplicated default from automatic merge for Dependabot
+  - name:
+      priority for queue `duplicated default from automatic merge for Dependabot
       pull requests`
     conditions:
       - author~=dependabot
