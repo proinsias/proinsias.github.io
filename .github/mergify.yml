@@ -1,4 +1,3 @@
----
 queue_rules:
   - name: duplicated default from automatic merge on CI success and review
     queue_conditions:
@@ -46,3 +45,16 @@ pull_request_rules:
     conditions: []
     actions:
       queue:
+priority_rules:
+  - name:
+      priority for queue `duplicated default from automatic merge on CI success
+      and review`
+    conditions:
+      - author~=github-actions
+    priority: 2500
+  - name:
+      priority for queue `duplicated default from automatic merge for Dependabot
+      pull requests`
+    conditions:
+      - author~=dependabot
+    priority: 2250
