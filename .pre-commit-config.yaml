@@ -30,7 +30,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: nightly
+      rev: lychee-v0.18.1
       hooks:
           - id: lychee
           # Optionally include additional CLI arguments
@@ -39,7 +39,7 @@ repos:
     # YAML
 
     - repo: https://github.com/adrienverge/yamllint
-      rev: v1.37.0
+      rev: v1.37.1
       hooks:
           - id: yamllint
             args: [-c=.yamllint.yml]
@@ -77,14 +77,14 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.32.1
+      rev: 0.33.0
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.24.2
+      rev: v8.25.1
       hooks:
           - id: gitleaks
 
