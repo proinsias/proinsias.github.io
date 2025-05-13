@@ -5,7 +5,7 @@ excerpt: "In the shadow of the 'Big Eye', this is the Little Telescope That Coul
 categories:
     - tres
 date: 2006-04-01
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 tags:
     - astronomy
     - caltech

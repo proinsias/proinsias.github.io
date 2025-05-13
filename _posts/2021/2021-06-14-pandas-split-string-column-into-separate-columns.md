@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Split string column into separate columns"
 excerpt: Using the expand option of pd.Series.str.split
 date: 2021-06-14
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

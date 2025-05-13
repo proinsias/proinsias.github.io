@@ -3,7 +3,7 @@ layout: single
 title: "Python: Normalize text with unicodedata"
 excerpt: Remove accents, etc.
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-26 13:41:33
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

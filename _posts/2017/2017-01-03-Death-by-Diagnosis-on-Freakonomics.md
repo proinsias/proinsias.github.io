@@ -3,7 +3,7 @@ layout: single
 title: "Death by Diagnosis on Freakonomics"
 excerpt: If we don't measure patient outcomes, how do we know how well our healthcare is doing?!
 date: 2017-01-03
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - posts
 tags:

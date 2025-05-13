@@ -3,7 +3,7 @@ layout: single
 title: "Docker: Filtered system prune"
 excerpt: The filter option
 date: 2018-11-06 10:20
-last_modified_at: 2023-05-01 18:10:56
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

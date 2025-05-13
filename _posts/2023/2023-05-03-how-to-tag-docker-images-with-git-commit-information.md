@@ -3,7 +3,7 @@ layout: single
 title: "How to Tag Docker Images with Git Commit Information"
 excerpt: Link versions of a Docker image back to Git commits
 date: 2023-05-03 09:26
-last_modified_at: 2023-05-03 13:39:15
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

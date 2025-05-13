@@ -177,7 +177,7 @@
             );
         } @else if (round($location) != $location) {
             @return _susy-error(
-                "Location (`#{$location}`) must be a 1-indexed intiger position.",
+                "Location( `#{$location}`) must be a 1-indexed intiger position.",
                 "su-valid-location"
             );
         } @else if ($location > $count) or ($location < 1) {

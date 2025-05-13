@@ -2,7 +2,7 @@
 layout: single
 title: "Probabilistic interpretation of AUC"
 date: 2020-03-18
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: How to explain it to a layperson
 categories:
     - tips
@@ -31,8 +31,8 @@ From this, you can derive a simple formula to compute AUC on a finite sample as 
 
 And as a reminder of why the AUC has many advantages compared to other 'single number" performance measures:
 
-> - It has a really nice probabilistic meaning!
-> - Independence of the decision threshold.
-> - Invariance to prior class probabilities or class prevalence in the data.
-> - Can choose/change a decision threshold based on cost-benefit analysis after model training.
-> - Extensively used in machine learning, and in medical research.
+> -   It has a really nice probabilistic meaning!
+> -   Independence of the decision threshold.
+> -   Invariance to prior class probabilities or class prevalence in the data.
+> -   Can choose/change a decision threshold based on cost-benefit analysis after model training.
+> -   Extensively used in machine learning, and in medical research.

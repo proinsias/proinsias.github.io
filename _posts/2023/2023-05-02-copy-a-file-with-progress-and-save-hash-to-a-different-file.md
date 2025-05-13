@@ -3,7 +3,7 @@ layout: single
 title: "Copy a file with progress and save hash to a different file"
 excerpt: Using pv, tee, and sha256sum
 date: 2023-05-02 21:03
-last_modified_at: 2023-05-03 01:05:56
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

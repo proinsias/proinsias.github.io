@@ -3,7 +3,7 @@ layout: single
 title: "Why you should really prepare for your one-on-ones"
 excerpt: Maximize the impact of your 1-on-1 meetings by preparing thoroughly, not just with your direct reports but also with your managers, to boost both job performance and career development.
 date: 2025-01-16 19:29
-last_modified_at: 2025-01-17 00:39:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - posts
 tags:

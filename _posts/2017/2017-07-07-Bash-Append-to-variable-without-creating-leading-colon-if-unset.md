@@ -3,7 +3,7 @@ layout: single
 title: "Bash: Append to variable without creating leading colon if unset"
 excerpt: Using an expansion operator
 date: 2017-07-07 14:55
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

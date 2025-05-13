@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Display DataFrames side by side"
 excerpt: Using html in a Jupyter Notebook
 date: 2023-05-03 09:46
-last_modified_at: 2023-05-04 01:04:40
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

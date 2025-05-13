@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Use logarithmic scale"
 date: 2017-03-10
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Using the set_xscale and set_yscale commands
 categories:
     - til

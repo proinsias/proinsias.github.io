@@ -2,7 +2,7 @@
 layout: single
 title: "How to Use Astrophysics to Solve Earthbound Problems"
 date: 2019-09-18 10:16
-last_modified_at: 2023-05-01 23:27:03
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Cross-pollination at its best
 categories:
     - posts

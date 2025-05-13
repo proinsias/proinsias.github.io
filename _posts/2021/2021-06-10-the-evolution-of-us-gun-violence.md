@@ -3,7 +3,7 @@ layout: single
 title: "The evolution of US gun violence"
 excerpt: Our acceptance of violence today stands in striking contrast to Americans' horror at the 1929 Valentine's Day Massacre
 date: 2021-06-10
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - posts
 tags:

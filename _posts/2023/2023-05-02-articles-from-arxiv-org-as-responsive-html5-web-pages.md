@@ -3,7 +3,7 @@ layout: single
 title: "Articles from arXiv.org as responsive HTML5 web pages"
 excerpt: One character makes a big difference
 date: 2023-05-02 20:46
-last_modified_at: 2023-05-03 01:09:29
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - tips
 tags:

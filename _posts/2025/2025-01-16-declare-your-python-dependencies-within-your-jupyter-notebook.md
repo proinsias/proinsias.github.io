@@ -3,7 +3,7 @@ layout: single
 title: "Declare your python dependencies within your Jupyter notebook"
 excerpt: Reproducible workflows are simplified with tools like Nix for shell scripts and juv for Jupyter notebooks, enabling dependency declarations directly within scripts or notebooks for seamless sharing.
 date: 2025-01-16 19:42
-last_modified_at: 2025-01-16 19:42
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - posts
 tags:

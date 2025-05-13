@@ -2,7 +2,7 @@
 layout: single
 title: "Tmux: tmux in your tmux"
 date: 2017-02-02
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Use your prefix twice to access inner tmux instance
 categories:
     - til

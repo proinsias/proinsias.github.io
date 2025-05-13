@@ -2,7 +2,7 @@
 layout: single
 title: "Nix: List files and group by extension"
 date: 2019-11-15 21:03
-last_modified_at: 2023-04-26 02:04:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Using the X option of the ls command
 categories:
     - til

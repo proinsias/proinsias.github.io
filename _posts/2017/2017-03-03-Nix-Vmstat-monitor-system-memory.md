@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Monitor System Memory with vmstat"
 excerpt: Can set a sampling period too
 date: 2017-03-03
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:
@@ -32,13 +32,13 @@ us sy id wa
 The above will run `vmstat` every second and display system virtual memory usage
 such as:
 
-- `r` number process waiting to run,
-- `b` blocked process,
-- `swpd` virtual memory used,
-- `free` idle memory,
-- `bi`, `bo` number of blocks sent and received from disk,
-- `us` time spent in user code, or
-- `sy` time spent in kernel code.
+-   `r` number process waiting to run,
+-   `b` blocked process,
+-   `swpd` virtual memory used,
+-   `free` idle memory,
+-   `bi`, `bo` number of blocks sent and received from disk,
+-   `us` time spent in user code, or
+-   `sy` time spent in kernel code.
 
 As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of measurement
 for memory.

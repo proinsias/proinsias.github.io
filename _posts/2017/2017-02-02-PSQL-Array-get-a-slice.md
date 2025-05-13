@@ -3,7 +3,7 @@ layout: single
 title: "PSQL: Getting A Slice Of An Array"
 excerpt: Using brackets
 date: 2017-02-02
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

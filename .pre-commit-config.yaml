@@ -33,8 +33,7 @@ repos:
       rev: lychee-v0.18.1
       hooks:
           - id: lychee
-          # Optionally include additional CLI arguments
-          # args: ["--no-progress", "--exclude", "file://"]
+            args: ["--cache", "--suggest"]
 
     # YAML
 

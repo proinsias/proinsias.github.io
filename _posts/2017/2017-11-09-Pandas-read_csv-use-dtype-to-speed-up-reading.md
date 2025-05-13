@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Use dtype to speed up reading with read_csv"
 excerpt: Avoid inferring data types
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-28 12:52:18
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

@@ -3,7 +3,7 @@ layout: single
 title: "Python: Check available modules with pydoc"
 excerpt: Find a list of all python modules installed on a machine
 date: 2017-04-05 05:23
-last_modified_at: 2023-04-26 13:41:33
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:
