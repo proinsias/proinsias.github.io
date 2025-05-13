@@ -17,8 +17,8 @@ tags:
 
 You can get logs useful for debugging your Travis builds using either:
 
--   The [`travis requests`](https://github.com/travis-ci/travis.rb#requests) command, or
--   The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
-    on the upper right.
+- The [`travis requests`](https://github.com/travis-ci/travis.rb#requests) command, or
+- The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
+  on the upper right.
 
 Via [travis-ci.com](https://blog.travis-ci.com/).
