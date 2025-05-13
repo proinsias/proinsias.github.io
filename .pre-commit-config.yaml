@@ -65,6 +65,10 @@ repos:
       rev: 3.0.0
       hooks:
           - id: git-check # Configure in .gitattributes
+
+    - repo: https://github.com/koalaman/shellcheck-precommit
+      rev: v0.10.0
+      hooks:
           - id: shellcheck
             args: [--external-sources, --format=gcc, --shell=bash]
 
