@@ -6,5 +6,5 @@ _site/
 megalinter-reports/
 report/
 
-_includes
-_layouts
+_includes/
+_layouts/

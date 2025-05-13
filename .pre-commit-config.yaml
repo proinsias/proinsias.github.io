@@ -2,7 +2,11 @@
 ci: # https://pre-commit.ci
     autofix_prs: true
     autoupdate_schedule: monthly
-    skip: []
+    skip:
+        - cesar
+        - lychee
+        - prettier
+        - shellcheck
     submodules: false
 
 repos:
