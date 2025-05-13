@@ -40,5 +40,5 @@ We determined the time of the secondary eclipse and have deduced that TrES-1 has
 
 ## TrES-1 Emission Press and Links
 
--   [Harvard-Smithsonian Center for Astrophysics Press Release](https://web.archive.org/web/20080620204433/http://cfa-www.harvard.edu/press/pr0509.html).
--   [NASA's Spitzer Space Telescope Press Release](https://web.archive.org/web/20080620204433/http://www.spitzer.caltech.edu/Media/releases/ssc2005-09/release.shtml).
+- [Harvard-Smithsonian Center for Astrophysics Press Release](https://web.archive.org/web/20080620204433/http://cfa-www.harvard.edu/press/pr0509.html).
+- [NASA's Spitzer Space Telescope Press Release](https://web.archive.org/web/20080620204433/http://www.spitzer.caltech.edu/Media/releases/ssc2005-09/release.shtml).

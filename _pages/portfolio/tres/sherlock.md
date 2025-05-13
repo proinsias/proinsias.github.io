@@ -70,9 +70,9 @@ which provides weather monitoring for the observatory.
 
 ## Sherlock Specifications
 
--   Meade LX200GPS 10'' f/6.3 Schmidt-Cassegrain Telescope
--   Apogee 1024 x 1024 pixel back-illuminated CCD camera
--   Filter wheel containing custom RGB and clear filters
--   SBIG STV Autoguider
--   Automated operation controlled by Linux workstation
--   Cloud cover monitored by Snoop, the Palomar All-Sky Camera
+- Meade LX200GPS 10'' f/6.3 Schmidt-Cassegrain Telescope
+- Apogee 1024 x 1024 pixel back-illuminated CCD camera
+- Filter wheel containing custom RGB and clear filters
+- SBIG STV Autoguider
+- Automated operation controlled by Linux workstation
+- Cloud cover monitored by Snoop, the Palomar All-Sky Camera

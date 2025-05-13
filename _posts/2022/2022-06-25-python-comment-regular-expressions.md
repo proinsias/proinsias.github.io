@@ -18,13 +18,13 @@ tags:
 > > Python allows you to do this with something called verbose regular expressions.
 > > A verbose regular expression is different from a compact regular expression in two ways:
 > >
-> > -   Whitespace is ignored. Spaces, tabs, and carriage returns are not matched as spaces, tabs, and carriage returns.
-> >     They're not matched at all. (If you want to match a space in a verbose regular expression,
-> >     you'll need to escape it by putting a backslash in front of it.)
-> > -   Comments are ignored. A comment in a verbose regular expression is just like a comment in Python code:
-> >     it starts with a `#` character and goes until the end of the line.
-> >     In this case it's a comment within a multi-line string instead of within your source code,
-> >     but it works the same way.
+> > - Whitespace is ignored. Spaces, tabs, and carriage returns are not matched as spaces, tabs, and carriage returns.
+> >   They're not matched at all. (If you want to match a space in a verbose regular expression,
+> >   you'll need to escape it by putting a backslash in front of it.)
+> > - Comments are ignored. A comment in a verbose regular expression is just like a comment in Python code:
+> >   it starts with a `#` character and goes until the end of the line.
+> >   In this case it's a comment within a multi-line string instead of within your source code,
+> >   but it works the same way.
 >
 > Example:
 >
