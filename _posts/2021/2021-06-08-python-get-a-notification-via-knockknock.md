@@ -3,7 +3,7 @@ layout: single
 title: "Python: Get a notification via knockknock"
 excerpt: Add notifications to your scripts or python code
 date: 2021-06-08
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

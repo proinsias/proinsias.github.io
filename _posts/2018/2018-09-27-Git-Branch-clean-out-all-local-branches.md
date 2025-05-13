@@ -3,7 +3,7 @@ layout: single
 title: "Git: Clean Out All Local Branches"
 excerpt: A handy one-liner
 date: 2018-09-27 10:14
-last_modified_at: 2023-05-01 17:51:14
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

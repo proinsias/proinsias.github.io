@@ -3,7 +3,7 @@ layout: single
 title: "Git: Two ways of squashing commits"
 excerpt: Use git merge to squash large number of commits
 date: 2018-09-27 10:14
-last_modified_at: 2023-05-01 18:08:18
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

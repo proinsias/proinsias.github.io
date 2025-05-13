@@ -5,3 +5,4 @@ _site/
 megalinter-reports/
 report/
 .pre-commit-trivy-cache
+.lycheecache

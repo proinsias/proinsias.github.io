@@ -3,7 +3,7 @@ layout: single
 title: "Canonical Correlation Analysis for Analyzing Sequences of Medical Billing Codes"
 excerpt: Addressing the high dimensionality of these codes
 date: 2017-05-25 15:51
-last_modified_at: 2023-05-01 23:27:03
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - posts
 tags:

@@ -3,7 +3,7 @@ layout: single
 title: "TSQL: Basic T-SQL"
 excerpt: Some quick one liners
 date: 2019-08-06 10:11
-last_modified_at: 2023-05-01 18:10:56
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Pattern-matched search of your history"
 excerpt: Quick unix tool tip
 date: 2017-03-03
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

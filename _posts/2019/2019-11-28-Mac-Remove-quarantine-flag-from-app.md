@@ -2,7 +2,7 @@
 layout: single
 title: "Mac: Remove quarantine flag from app"
 date: 2019-11-28 15:55
-last_modified_at: 2023-04-26 02:04:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Using the xattr command
 categories:
     - til

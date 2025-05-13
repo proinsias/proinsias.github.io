@@ -6,7 +6,7 @@ permalink: /portfolio/tres/sherlock.html
 categories:
     - tres
 date: 2022-11-19
-last_modified_at: 2023-05-17 02:39:00
+last_modified_at: 2025-05-13 00:33:19
 tags:
     - astronomy
     - tres
@@ -70,9 +70,9 @@ which provides weather monitoring for the observatory.
 
 ## Sherlock Specifications
 
-- Meade LX200GPS 10'' f/6.3 Schmidt-Cassegrain Telescope
-- Apogee 1024 x 1024 pixel back-illuminated CCD camera
-- Filter wheel containing custom RGB and clear filters
-- SBIG STV Autoguider
-- Automated operation controlled by Linux workstation
-- Cloud cover monitored by Snoop, the Palomar All-Sky Camera
+-   Meade LX200GPS 10'' f/6.3 Schmidt-Cassegrain Telescope
+-   Apogee 1024 x 1024 pixel back-illuminated CCD camera
+-   Filter wheel containing custom RGB and clear filters
+-   SBIG STV Autoguider
+-   Automated operation controlled by Linux workstation
+-   Cloud cover monitored by Snoop, the Palomar All-Sky Camera

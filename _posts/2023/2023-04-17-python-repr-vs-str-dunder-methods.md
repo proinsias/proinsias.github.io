@@ -3,7 +3,7 @@ layout: single
 title: "Python: repr vs str dunder methods"
 excerpt: Use __repr__() for Programmers vs __str__() for Users
 date: 2023-04-17
-last_modified_at: 2023-04-25 02:20:40
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:
@@ -20,8 +20,8 @@ tags:
 >
 > The reason there are two methods to display an object is that they have different purposes:
 >
-> - `.__repr__()` provides the official string representation of an object, aimed at the programmer.
-> - `.__str__()` provides the informal string representation of an object, aimed at the user.
+> -   `.__repr__()` provides the official string representation of an object, aimed at the programmer.
+> -   `.__str__()` provides the informal string representation of an object, aimed at the user.
 >
 > In general, \[`.__repr__()`\] provides detailed and unambiguous information about the object.
 > Another important property of the official string representation is

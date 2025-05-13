@@ -3,7 +3,7 @@ layout: single
 title: "Machine Learning for Product Managers"
 excerpt: And those who communicate with them
 date: 2020-10-02
-last_modified_at: 2024-10-21 01:41:33
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - tips
 tags:
@@ -31,11 +31,11 @@ for Product Managers to learn for success:
 
 Some highlights of the advice:
 
-- "Remain user-centric and keep the focus on customer needs".
-  Don't "fall into the trap of trying to solve all data problems with ML".
-  "Make the product clear, coherent and understandable to less technical stakeholders."
-- "Machine learning product managers must provide ML-literate specifications, ask the right questions about data,
-  and understand what is and isn't feasible with the available data."
-- "The only reliable way to determine if an ML system is working well
-  is to define rigorous acceptance criteria for the outputs.
-  This involves defining quality control for the data process and results."
+-   "Remain user-centric and keep the focus on customer needs".
+    Don't "fall into the trap of trying to solve all data problems with ML".
+    "Make the product clear, coherent and understandable to less technical stakeholders."
+-   "Machine learning product managers must provide ML-literate specifications, ask the right questions about data,
+    and understand what is and isn't feasible with the available data."
+-   "The only reliable way to determine if an ML system is working well
+    is to define rigorous acceptance criteria for the outputs.
+    This involves defining quality control for the data process and results."

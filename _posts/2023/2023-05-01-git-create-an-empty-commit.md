@@ -3,7 +3,7 @@ layout: single
 title: "Git: Create an empty commit"
 excerpt: Using the allow-empty flag
 date: 2023-05-01
-last_modified_at: 2023-05-01 23:07:02
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

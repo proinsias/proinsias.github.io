@@ -2,7 +2,7 @@
 layout: single
 title: "Python: The divmod() function"
 date: 2021-10-25
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Get the quotient and remainder for a fraction
 categories:
     - til

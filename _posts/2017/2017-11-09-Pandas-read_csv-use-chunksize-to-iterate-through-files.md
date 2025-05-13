@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Use chunksize to iterate through files with read_csv"
 excerpt: Handle files too large for memory
 date: 2017-11-09 12:35
-last_modified_at: 2023-04-28 12:52:18
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

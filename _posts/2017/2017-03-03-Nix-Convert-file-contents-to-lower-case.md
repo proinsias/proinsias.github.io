@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Convert file contents to lower case with tr"
 excerpt: tr is short for translate characters
 date: 2017-03-03
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

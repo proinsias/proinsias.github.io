@@ -3,7 +3,7 @@ layout: single
 title: "PSQL: Change The Current Directory"
 excerpt: The cd meta-command
 date: 2017-02-02
-last_modified_at: 2023-05-01 18:05:18
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

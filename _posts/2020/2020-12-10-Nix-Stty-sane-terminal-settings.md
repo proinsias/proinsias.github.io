@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Stty - sane terminal settings"
 excerpt: Fix garbled shell session
 date: 2020-12-10
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

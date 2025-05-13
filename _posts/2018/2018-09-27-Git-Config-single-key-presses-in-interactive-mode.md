@@ -3,7 +3,7 @@ layout: single
 title: "Git: Configure to Use Single Key Presses in Interactive Mode"
 excerpt: The interactive.singlekey option
 date: 2018-09-27 10:14
-last_modified_at: 2023-05-01 17:55:15
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

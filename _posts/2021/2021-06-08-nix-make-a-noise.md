@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Make a noise!"
 excerpt: Get a notification from your script
 date: 2021-06-08
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

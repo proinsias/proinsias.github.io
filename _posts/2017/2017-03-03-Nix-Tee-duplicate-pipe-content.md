@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Duplicate pipe content"
 excerpt: Write to multiple files at the same time
 date: 2017-03-03
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

@@ -3,7 +3,7 @@ layout: single
 title: "GitHub: Link to headers in READMEs"
 excerpt: Quick way to generate a table of contents
 date: 2017-02-02
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:
@@ -21,7 +21,7 @@ headers further down the document:
 ```markdown
 ### Table of Contents
 
-- [Cucumber](#cucumber)
+-   [Cucumber](#cucumber)
 ```
 
 This will link to a header containing 'Cucumber'.

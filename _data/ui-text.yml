@@ -218,9 +218,7 @@ tr: &DEFAULT_TR
   comment_btn_submit: "Yorum Yap"
   comment_btn_submitted: "Gönderildi"
   comment_success_msg: "Yorumunuz için teşekkürler! Yorumunuz onaylandıktan sonra sitede gösterilecektir."
-  comment_error_msg:
-    "Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar
-    deneyin."
+  comment_error_msg: "Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin."
   loading_label: "Yükleniyor..."
   search_label_text:
   search_algolia_no_results:

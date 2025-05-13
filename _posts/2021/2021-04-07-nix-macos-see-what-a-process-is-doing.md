@@ -3,7 +3,7 @@ layout: single
 title: "Nix/Macos: See what a process is doing"
 excerpt: Understand why that process is taking so long
 date: 2021-04-07
-last_modified_at: 2024-10-21 01:41:33
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:

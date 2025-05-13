@@ -10,7 +10,7 @@ permalink: /portfolio/tres/tres3.html
 categories:
     - tres
 date: 2022-11-19
-last_modified_at: 2023-05-17 02:39:00
+last_modified_at: 2025-05-13 00:33:19
 tags:
     - astronomy
     - tres
@@ -27,24 +27,24 @@ We were pleased to [announce](https://www.doi.org/10.1086/519793) the discovery 
 
 ## Details of TrES-3, the Star
 
-- Position: 17h 52m 07.03s +37d 32m 46.1s (J2000)
-- V Magnitude: 12.4 magnitudes
-- Mass: 0.90 solar masses
-- Radius: 0.80 solas masses
+-   Position: 17h 52m 07.03s +37d 32m 46.1s (J2000)
+-   V Magnitude: 12.4 magnitudes
+-   Mass: 0.90 solar masses
+-   Radius: 0.80 solas masses
 
 ## Details of TrES-3, the Planet
 
-- Orbital Period: 1.30619 days
-- Semi-Major Axis: 0.0226 AU
-- Orbital Inclination: 82.15 degrees
-- Mass: 1.92 Jupiter masses
-- Radius: 1.30 Jupiter radii
+-   Orbital Period: 1.30619 days
+-   Semi-Major Axis: 0.0226 AU
+-   Orbital Inclination: 82.15 degrees
+-   Mass: 1.92 Jupiter masses
+-   Radius: 1.30 Jupiter radii
 
 ## TrES-3 Press and Links
 
-- Wikipedia [entry](https://en.wikipedia.org/wiki/GSC_03089-00929).
-- Greg Laughlin, of UC Santa Cruz and [transitsearch.org](https://transitsearch.org),
-  [blogs](https://oklo.org/2007/05/16/a-year-in-a-day/) about TrES-3 in "A Year in a Day".
-- [Universe Today](https://www.universetoday.com/1632/newly-discovered-planet-orbits-in-just-31-hours/),
-  "Newly Discovered Planet Orbits in Just 31 Hours".
-- Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).
+-   Wikipedia [entry](https://en.wikipedia.org/wiki/GSC_03089-00929).
+-   Greg Laughlin, of UC Santa Cruz and [transitsearch.org](https://transitsearch.org),
+    [blogs](https://oklo.org/2007/05/16/a-year-in-a-day/) about TrES-3 in "A Year in a Day".
+-   [Universe Today](https://www.universetoday.com/1632/newly-discovered-planet-orbits-in-just-31-hours/),
+    "Newly Discovered Planet Orbits in Just 31 Hours".
+-   Faulkes Telescope [article](https://web.archive.org/web/20151017042856/http://www.faulkes-telescope.com/news/1596).

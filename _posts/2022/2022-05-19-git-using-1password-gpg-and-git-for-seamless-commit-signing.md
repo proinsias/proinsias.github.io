@@ -2,7 +2,7 @@
 layout: single
 title: "Git: Using 1password, gpg and git for seamless commit signing on linux"
 date: 2022-05-19
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2025-05-13 00:33:19
 excerpt: Make your tools work for you!
 categories:
     - til

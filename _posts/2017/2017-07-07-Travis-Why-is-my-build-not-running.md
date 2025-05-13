@@ -3,7 +3,7 @@ layout: single
 title: "Travis: Why is my build not running?"
 excerpt: Using travis requests
 date: 2017-07-07 10:00
-last_modified_at: 2024-06-29 01:18:26
+last_modified_at: 2025-05-13 00:33:19
 categories:
     - til
 tags:
@@ -17,8 +17,8 @@ tags:
 
 You can get logs useful for debugging your Travis builds using either:
 
-- The [`travis requests`](https://github.com/travis-ci/travis.rb#requests) command, or
-- The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
-  on the upper right.
+-   The [`travis requests`](https://github.com/travis-ci/travis.rb#requests) command, or
+-   The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
+    on the upper right.
 
 Via [travis-ci.com](https://blog.travis-ci.com/).

@@ -6,7 +6,7 @@ permalink: /portfolio/tres/snoop.html
 categories:
     - tres
 date: 2022-11-19
-last_modified_at: 2023-05-17 02:39:00
+last_modified_at: 2025-05-13 00:33:19
 tags:
     - astronomy
     - tres
@@ -49,7 +49,7 @@ We hope you enjoyed the view, and keep watching the skies!
 
 Some sample images from Snoop:
 
-- Meteors [visible](/assets/images/meteor.gif) during the 2004 Perseid Meteor Shower!
-- Snoop obtains [evidence](/assets/images/invasion.gif) of an invasion of giant killer bugs!!!
-- The Laser Guide Star (LGS) for the Adaptive Optics (AO) system on the Palomar 200-inch telescope,
-  [visible](/assets/images/lgs.gif) in the Palomar sky.
+-   Meteors [visible](/assets/images/meteor.gif) during the 2004 Perseid Meteor Shower!
+-   Snoop obtains [evidence](/assets/images/invasion.gif) of an invasion of giant killer bugs!!!
+-   The Laser Guide Star (LGS) for the Adaptive Optics (AO) system on the Palomar 200-inch telescope,
+    [visible](/assets/images/lgs.gif) in the Palomar sky.
