@@ -218,7 +218,9 @@ tr: &DEFAULT_TR
   comment_btn_submit: "Yorum Yap"
   comment_btn_submitted: "Gönderildi"
   comment_success_msg: "Yorumunuz için teşekkürler! Yorumunuz onaylandıktan sonra sitede gösterilecektir."
-  comment_error_msg: "Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin."
+  comment_error_msg: >
+    Maalesef bir hata oluştu.
+    Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin.
   loading_label: "Yükleniyor..."
   search_label_text:
   search_algolia_no_results:
@@ -317,7 +319,9 @@ pt-BR:
   comment_btn_submit: "Enviar comentário"
   comment_btn_submitted: "Enviado"
   comment_success_msg: "Obrigado pelo seu comentário! Ele aparecerá no site assim que for aprovado."
-  comment_error_msg: "Desculpe, ocorreu um erro no envio. Verifique se todos os campos obrigatórios foram preenchidos e tente novamente."
+  comment_error_msg: >
+    Desculpe, ocorreu um erro no envio.
+    Verifique se todos os campos obrigatórios foram preenchidos e tente novamente.
   loading_label: "Carregando..."
   search_label_text: "Digite seu termo de busca..."
   search_placeholder_text: "Digite seu termo de busca..."
@@ -367,7 +371,9 @@ it: &DEFAULT_IT
   comment_btn_submit: "Invia commento"
   comment_btn_submitted: "Inviato"
   comment_success_msg: "Grazie per il tuo commento! Verrà visualizzato nel sito una volta che sarà approvato."
-  comment_error_msg: "C'è stato un errore con il tuo invio. Assicurati che tutti i campi richiesti siano stati completati e riprova."
+  comment_error_msg: >
+    C'è stato un errore con il tuo invio.
+    Assicurati che tutti i campi richiesti siano stati completati e riprova.
   loading_label: "Caricamento..."
   search_label_text:
   search_placeholder_text: "Inserisci termini di ricerca..."
@@ -524,7 +530,9 @@ de: &DEFAULT_DE
   comment_btn_submit: "Kommentar absenden"
   comment_btn_submitted: "Versendet"
   comment_success_msg: "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
-  comment_error_msg: "Entschuldigung, es gab einen Fehler. Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut."
+  comment_error_msg: >
+    Entschuldigung, es gab einen Fehler.
+    Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut.
   loading_label: "Lade..."
   search_label_text:
   search_placeholder_text: "Suchbegriff eingeben..."
@@ -688,9 +696,8 @@ ru: &DEFAULT_RU
   comment_btn_submit: "Оставить комментарий"
   comment_btn_submitted: "Отправлено"
   comment_success_msg: "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
-  comment_error_msg:
-    "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и
-    попытайтесь снова."
+  comment_error_msg: К сожалению, произошла ошибка с отправкой комментария.
+    Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова.
   loading_label: "Отправка..."
   search_label_text:
   search_placeholder_text: "Введите поисковый запрос..."
@@ -845,7 +852,9 @@ sv: &DEFAULT_SV
   comment_btn_submit: "Skicka en kommentar"
   comment_btn_submitted: "Kommentaren har tagits emot"
   comment_success_msg: "Tack för din kommentar! Den kommer att visas på sidan så fort den har godkännts."
-  comment_error_msg: "Tyvärr det har blivit något fel i ett av fälten, se till att du fyllt i alla obligatoriska fält och försök igen."
+  comment_error_msg: >
+    Tyvärr det har blivit något fel i ett av fälten,
+    se till att du fyllt i alla obligatoriska fält och försök igen.
   loading_label: "Laddar..."
   search_label_text:
   search_placeholder_text: "Fyll i sökterm..."
@@ -1007,7 +1016,9 @@ vi: &DEFAULT_VI
   comment_btn_submit: "Gửi bình luận"
   comment_btn_submitted: "Đã được gửi"
   comment_success_msg: "Cảm ơn bạn đã bình luận! Bình luận sẽ xuất hiện sau khi được duyệt."
-  comment_error_msg: "Rất tiếc, có lỗi trong việc gửi bình luận. Hãy đảm bảo toàn bộ các phần bắt buộc đã được điền đầy đủ và thử lại."
+  comment_error_msg: >
+    "Rất tiếc, có lỗi trong việc gửi bình luận.
+    Hãy đảm bảo toàn bộ các phần bắt buộc đã được điền đầy đủ và thử lại."
   loading_label: "Đang tải..."
   search_label_text: "Nhập từ khóa cần tìm..."
   search_placeholder_text: "Nhập từ khóa cần tìm..."
@@ -1059,7 +1070,9 @@ da: &DEFAULT_DA
   comment_btn_submit: "Send kommentar"
   comment_btn_submitted: "Sendt"
   comment_success_msg: "Tak for din kommentar! Den bliver vist på siden, så snart den er godkendt."
-  comment_error_msg: "Desværre skete der en fejl. Prøv igen, mens du sørger for at alle obligatoriske felter er udfyldt."
+  comment_error_msg: >
+    "Desværre skete der en fejl.
+    Prøv igen, mens du sørger for at alle obligatoriske felter er udfyldt."
   loading_label: "Indlæser..."
   search_label_text: "Hvad leder du efter..."
   search_placeholder_text: "Hvad leder du efter..."
@@ -1111,7 +1124,9 @@ pl: &DEFAULT_PL
   comment_btn_submit: "Skomentuj"
   comment_btn_submitted: "Komentarz dodany"
   comment_success_msg: "Dziękuję za Twój komentarz! Zostanie dodany po akceptacji."
-  comment_error_msg: "Niestety wystąpił błąd. Proszę upewnij się, że wszystkie wymagane pola zostały wypełnione i spróbuj ponownie."
+  comment_error_msg: >
+    "Niestety wystąpił błąd.
+    Proszę upewnij się, że wszystkie wymagane pola zostały wypełnione i spróbuj ponownie."
   loading_label: "Trwa ładowanie strony..."
   search_label_text:
   search_algolia_no_results: "Brak wyników"
@@ -1211,7 +1226,9 @@ sk: &DEFAULT_SK
   comment_btn_submit: "Vlož komentár"
   comment_btn_submitted: "Vložený"
   comment_success_msg: "Ďakujem za tvoj komentár! Po schválení bude zobrazený na stránke."
-  comment_error_msg: "Prepáč, pri ukladaní nastala chyba. Ubezpeč sa prosím, že si vyplnil všetky požadované polia a skús znova."
+  comment_error_msg: >
+    "Prepáč, pri ukladaní nastala chyba.
+    Ubezpeč sa prosím, že si vyplnil všetky požadované polia a skús znova."
   loading_label: "Načítava sa..."
   search_label_text:
   search_placeholder_text: "Zadaj hľadaný výraz..."
@@ -1263,7 +1280,9 @@ hu: &DEFAULT_HU
   comment_btn_submit: "Hozzászólás elküldése"
   comment_btn_submitted: "Hozzászólás elküldve"
   comment_success_msg: "Köszönjük a Hozzászólást! A Hozzászólások csak előzetes moderáció után lesznek publikusak."
-  comment_error_msg: "Hoppá, hiba történt a beküldés közben. Kérlek ellenőrizd hogy minden kötelező mező ki van-e töltve."
+  comment_error_msg: >
+    "Hoppá, hiba történt a beküldés közben.
+    Kérlek ellenőrizd hogy minden kötelező mező ki van-e töltve."
   loading_label: "Betöltés..."
   search_label_text:
   search_placeholder_text: "Keresendő szöveg..."
@@ -1422,7 +1441,9 @@ fa: &DEFAULT_FA
   comment_btn_submit: "ارسال نظر"
   comment_btn_submitted: "ارسال شد"
   comment_success_msg: ".باتشکر از ارسال دیدگاه! پس از تأیید، این دیدگاه در سایت نشان داده خواهد شد"
-  comment_error_msg: ".متاسفانه در ارسال شما خطایی بود. لطفا مطمئن شوید تمام فیلدهای مورد نیاز تکمیل شده و دوباره امتحان کنید"
+  comment_error_msg: >
+    ".متاسفانه در ارسال شما خطایی بود. لطفا مطمئن شوید تما
+    فیلدهای مورد نیاز تکمیل شده و دوباره امتحان کنید"
   loading_label: "...بارگذاری"
   search_label_text:
   search_placeholder_text: "...عبارت جستجوی خود را وارد کنید"
@@ -1633,7 +1654,9 @@ ca: &DEFAULT_CA
   comment_btn_submit: "Envia"
   comment_btn_submitted: "Enviat"
   comment_success_msg: "Gràcies pel teu comentari! Apareixerà un cop sigui aprovat."
-  comment_error_msg: "Hi ha hagut un error enviat el comentari. Comprova que els camps obligatirs estiguin omplerts i torna-ho a provar."
+  comment_error_msg: >
+    "Hi ha hagut un error enviat el comentari.
+    Comprova que els camps obligatirs estiguin omplerts i torna-ho a provar."
   loading_label: "Carregant..."
   search_label_text: "Introdueix termes per cercar..."
   search_placeholder_text: "Introdueix termes per cercar..."
@@ -1772,7 +1795,9 @@ my: &DEFAULT_MY
   email_label: "အီးမေးလ်"
   recent_posts: "လတ်တလောရေးသားချက်များ"
   undefined_wpm: "_config.yml မှာ words_per_minute ကိုမသတ်မှတ်ထားပါ။"
-  comment_form_info: "သင့်အီးမေးလ်လိပ်စာကို​ဖော်ပြသွားမည်မဟုတ်ပါ။ လိုအပ်သောဖြည့်စွက်ရန်​နေရာများကို အမှတ်အသားပြထားပါသည်။"
+  comment_form_info: >
+    "သင့်အီးမေးလ်လိပ်စာကို​ဖော်ပြသွားမည်မဟုတ်ပါ။
+    လိုအပ်သောဖြည့်စွက်ရန်​နေရာများကို အမှတ်အသားပြထားပါသည်။"
   comment_form_comment_label: "မှတ်ချက်"
   comment_form_md_info: "Markdown ကိုထောက်ပံ့သည်။"
   comment_form_name_label: "နာမည်"
@@ -1793,7 +1818,7 @@ my-MM:
   !!merge <<: *DEFAULT_MY
 # Norwegian
 # -------
-no: &DEFAULT_NO
+false: &DEFAULT_NO
   skip_links: "Hopp over lenker"
   skip_primary_nav: "Gå til primærnavigasjon"
   skip_content: "Gå til innhold"
@@ -1998,7 +2023,9 @@ sw: &DEFAULT_SW
   comment_btn_submit: "Tuma maoni"
   comment_btn_submitted: "Umetuma"
   comment_success_msg: "Asante kwa maoni yako! Itaonekana ikiridhiwa."
-  comment_error_msg: "Pole, kuna makosa kwa ingizo yako. Tafadhali angalia umeandika kwa ingizo zote zinahitaji, na jaribu tena."
+  comment_error_msg: >
+    "Pole, kuna makosa kwa ingizo yako.
+    Tafadhali angalia umeandika kwa ingizo zote zinahitaji, na jaribu tena."
   loading_label: "Inapakiwa..."
   search_label_text: "Ingiza neno unatafuta..."
   search_placeholder_text: "Ingiza neno unatafuta..."

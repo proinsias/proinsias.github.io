@@ -1,3 +1,4 @@
+---
 queue_rules:
   - name: duplicated default from automatic merge on CI success and review
     queue_conditions:
@@ -39,7 +40,7 @@ pull_request_rules:
       label:
         add:
           - conflict
-  - name: automatic merge for Dependabot pull requests + automatic merge for me + automatic merge on CI success and review
+  - name: automatic merge for Dependabot pull requests / me / CI success and review
     conditions: []
     actions:
       queue:
