@@ -34,7 +34,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: lychee-v0.18.1
+      rev: nightly
       hooks:
           - id: lychee
             args: ["--cache", "--suggest"]
@@ -91,7 +91,7 @@ repos:
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.25.1
+      rev: v8.27.0
       hooks:
           - id: gitleaks
 
