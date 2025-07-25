@@ -3,14 +3,14 @@ layout: single
 title: "Making machine learning models interpretable"
 excerpt: From the 20th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
 date: 2016-12-15
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2025-07-25 00:48:55
 categories:
     - posts
 tags:
     - datascience
     - explainability
     - interpretability
-    - machinelearning
+    - machine-learning
     - posts
 ---
 

@@ -2,7 +2,7 @@
 layout: single
 title: "Data problems"
 date: 2020-09-11
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2025-07-25 00:48:55
 excerpt: 9 things to check with a new data set.
 categories:
     - tips
@@ -10,7 +10,7 @@ tags:
     - data
     - errors
     - ml
-    - machine learning
+    - machine-learning
     - random
 ---
 

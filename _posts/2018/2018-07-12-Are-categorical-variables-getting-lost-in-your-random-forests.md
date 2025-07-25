@@ -3,12 +3,12 @@ layout: single
 title: "Are categorical variables getting lost in your random forests?"
 excerpt: Comparing two approaches
 date: 2018-07-12 15:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2025-07-25 00:48:55
 categories:
     - posts
 tags:
     - datascience
-    - machinelearning
+    - machine-learning
 ---
 
 I've been one-hot encoding categorical variables for as long as I have been using
