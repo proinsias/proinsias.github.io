@@ -60,7 +60,7 @@ repos:
           - id: cesar
 
     - repo: https://github.com/sirosen/texthooks
-      rev: 0.6.8
+      rev: 0.7.1
       hooks:
           - id: fix-smartquotes
           - id: fix-ligatures
@@ -71,7 +71,7 @@ repos:
           - id: git-check # Configure in .gitattributes
 
     - repo: https://github.com/koalaman/shellcheck-precommit
-      rev: v0.10.0
+      rev: v0.11.0
       hooks:
           - id: shellcheck
             args: [--external-sources, --format=gcc, --shell=bash]
@@ -91,7 +91,7 @@ repos:
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.27.2
+      rev: v8.28.0
       hooks:
           - id: gitleaks
 
