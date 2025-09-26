@@ -11,7 +11,7 @@ ci: # https://pre-commit.ci
 
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v5.0.0
+      rev: v6.0.0
       hooks:
           - id: check-added-large-files
           - id: check-case-conflict
@@ -37,7 +37,7 @@ repos:
       rev: nightly
       hooks:
           - id: lychee
-            args: ["--cache", "--suggest"]
+            args: ['--cache', '--suggest']
 
     # YAML
 
@@ -60,7 +60,7 @@ repos:
           - id: cesar
 
     - repo: https://github.com/sirosen/texthooks
-      rev: 0.6.8
+      rev: 0.7.1
       hooks:
           - id: fix-smartquotes
           - id: fix-ligatures
@@ -71,7 +71,7 @@ repos:
           - id: git-check # Configure in .gitattributes
 
     - repo: https://github.com/koalaman/shellcheck-precommit
-      rev: v0.10.0
+      rev: v0.11.0
       hooks:
           - id: shellcheck
             args: [--external-sources, --format=gcc, --shell=bash]
@@ -84,14 +84,14 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.33.2
+      rev: 0.34.0
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
           - id: check-readthedocs
 
     - repo: https://github.com/zricethezav/gitleaks
-      rev: v8.27.2
+      rev: v8.28.0
       hooks:
           - id: gitleaks
 
