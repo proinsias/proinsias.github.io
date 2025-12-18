@@ -40,15 +40,21 @@ High readability, refined sketch style, editorial quality, not cartoonish.
 Aspect ratio: wide blog banner.
 -->
 
-
+Given my first name,
+it's probably not surprising that I am quite familiar with the Serenity Prayer:
 
 > Grant me the strength to accept the things I cannot change,
 > the courage to change the things I can,
 > and the wisdom to know the difference.
 > 
-> ― <cite>Saint Francis of Assisi</cite>, Serenity Prayer.
+> ― <cite>Saint Francis of Assisi</cite>.
 
-For many years, I have been a pracitioner of
+Although I have appreciated the sentiment of this prayer for many years,
+it does not come with a lot of practical advice on how to apply it in daily stressful life.
+Nevertheless, I have found different sources of wisdom that echo this message and do provide the guidance I desire.
+
+The first was at the start of my graduate studies in astrophysics,
+when I became a pracitioner of
 [David Allen's Getting Things Done (GTD)](https://gettingthingsdone.com/)
 methodology,
 which emphasizes clarity of mind and effective action. 
