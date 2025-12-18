@@ -16,6 +16,9 @@ tags:
     - productivity
 ---
 
+* during some recent career turbulence, stocisim has provided me with a framework for continuous growth.
+* I applied stoicism to the effect of having no job for multiple months and how I needed to consider it as not an obstacle to overcome but they are using it as the way where I could teach myself new skills and use it as a time to reflect on what I really wanted to do
+
 * Application of stoic concepts:
     * focusing on what is and is not within our control.
     * events don't disturb us, but our judgements about them do.
@@ -24,10 +27,10 @@ tags:
     * long-term thinking
     * indiffierence to external validation.
     * virtue is the only true good.
-* during some recent career turbulence, stocisim has provided me with a framework for continuous growth.
 * data science as a profession of uncertainty, delayed feedback, and external dependency.
     * working in a field where you're often wrong, and where success is often out of your hands.
 * effort
+    * "errors are a sign not a failure but of effort" from the book make it stick
 * other's judgement
 * preparation vs promotion
 * recognition
