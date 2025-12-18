@@ -49,9 +49,8 @@ it's probably not surprising that I am familiar with the Serenity Prayer:
 > 
 > ― <cite>Saint Francis of Assisi</cite>.
 
-Although I have appreciated the sentiment of this prayer for many years,
-it does not come with a lot of practical advice on
-how to apply it in daily stressful life.
+I’ve always appreciated the sentiment of this prayer,
+but I struggled to find practical ways to apply it during stressful times.
 Nevertheless, I have found different sources of wisdom
 that echo this message and do provide the guidance I desire.
 
@@ -71,7 +70,7 @@ through *focusing* on what is actionable.
 > ― <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
 
 More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s 
-writings on applying the timeless principles of
+accessible writings on applying the timeless principles of
 [Stoicism](https://dailystoic.com/what-is-stoicism/)
 to modern life.
 What drew me to Stoicism was its emphasis on *focusing* on what we can control 
@@ -89,5 +88,25 @@ My plan is to discuss its use in such domains as:
 - Navigating the politically divisive climate of today.
 
 My hope is that this plan will help me
-to process and internalize the lessons I have come across so far,
+to internalize the lessons I have come across so far,
 and to share them with others who may find them useful.
+
+In my next post, I’ll share how Stoicism has guided me
+as an individual contributor and Data Scientist.
+
+<!--
+
+While the blog introduces Stoicism, it provides limited depth on *how* Stoicism has informed your thoughts or actions. Moving beyond theoretical introductions to concrete, specific examples would deepen the reader's engagement. For instance:
+     - Share a specific work or personal challenge in which Stoicism helped you "accept the unavoidable" or "focus on the controllable."
+     - Tie the "Things You Can Control" principle more explicitly to practical actions or outcomes from your life.
+   - Consider referencing key Stoic texts or philosophers (e.g., Marcus Aurelius, Epictetus) to give richer historical and philosophical grounding.
+
+The bullet list at the end is promising but lacks detail. Provide at least one practical insight or lesson from each listed domain (e.g., "Stoicism taught me to navigate the divisive political climate by..."
+
+Add quote from Ryan Holiday on acceptance and control to reinforce the Stoic theme.
+
+Potential readers often ask, "What’s in this for me?" Make the value of adopting Stoic principles clearer:
+     - How has this philosophy tangibly improved your well-being, career satisfaction, or relationships?
+     - Why should someone invest time in exploring Stoicism?
+
+-->
