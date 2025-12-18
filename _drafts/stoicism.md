@@ -77,15 +77,27 @@ What drew me to Stoicism was its emphasis on *focusing* on what we can control
 and accepting what we cannot,
 echoing the wisdom found in the Serenity prayer. 
 
+> The only guarantee, ever, is that things will go wrong.
+> The only thing we can use to mitigate this is anticipation.
+> Because the only variable we control completely is ourselves.
+> - <cite>Ryan Holiday</cite>, The Obstacle Is The Way.
+
 I decide to explore the application of this philosophy
 to various aspects of my life,
 and to share my experiences in this blog.
 My plan is to discuss its use in such domains as:
 
-- Working as an individual contributor.
-- Managing others at work.
-- My personal life.
-- Navigating the politically divisive climate of today.
+- My personal life: amidst the chaos of parenting young children,
+  it has helped me identify what is truly important
+  and accept the imperfections of a hectic household.
+- Working as an individual contributor: during some recent career turbulence,
+  it has provided me with a framework for continuous growth.
+- Managing others at work: it has guided me
+  through some difficult conversations while avoiding emotional escalation.
+- Navigating the politically divisive climate of today:
+  the history of the Stoics includes many examples of leaders
+  with principled behavior in the face of adversity
+  and who strove to change their societies for the better.
 
 My hope is that this plan will help me
 to internalize the lessons I have come across so far,
@@ -93,20 +105,3 @@ and to share them with others who may find them useful.
 
 In my next post, I’ll share how Stoicism has guided me
 as an individual contributor and Data Scientist.
-
-<!--
-
-While the blog introduces Stoicism, it provides limited depth on *how* Stoicism has informed your thoughts or actions. Moving beyond theoretical introductions to concrete, specific examples would deepen the reader's engagement. For instance:
-     - Share a specific work or personal challenge in which Stoicism helped you "accept the unavoidable" or "focus on the controllable."
-     - Tie the "Things You Can Control" principle more explicitly to practical actions or outcomes from your life.
-   - Consider referencing key Stoic texts or philosophers (e.g., Marcus Aurelius, Epictetus) to give richer historical and philosophical grounding.
-
-The bullet list at the end is promising but lacks detail. Provide at least one practical insight or lesson from each listed domain (e.g., "Stoicism taught me to navigate the divisive political climate by..."
-
-Add quote from Ryan Holiday on acceptance and control to reinforce the Stoic theme.
-
-Potential readers often ask, "What’s in this for me?" Make the value of adopting Stoic principles clearer:
-     - How has this philosophy tangibly improved your well-being, career satisfaction, or relationships?
-     - Why should someone invest time in exploring Stoicism?
-
--->
