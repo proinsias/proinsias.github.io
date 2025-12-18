@@ -41,7 +41,7 @@ Aspect ratio: wide blog banner.
 -->
 
 Given my first name,
-it's probably not surprising that I am quite familiar with the Serenity Prayer:
+it's probably not surprising that I am familiar with the Serenity Prayer:
 
 > Grant me the strength to accept the things I cannot change,
 > the courage to change the things I can,
@@ -50,14 +50,18 @@ it's probably not surprising that I am quite familiar with the Serenity Prayer:
 > ― <cite>Saint Francis of Assisi</cite>.
 
 Although I have appreciated the sentiment of this prayer for many years,
-it does not come with a lot of practical advice on how to apply it in daily stressful life.
-Nevertheless, I have found different sources of wisdom that echo this message and do provide the guidance I desire.
+it does not come with a lot of practical advice on
+how to apply it in daily stressful life.
+Nevertheless, I have found different sources of wisdom
+that echo this message and do provide the guidance I desire.
 
-The first was at the start of my graduate studies in astrophysics,
+The first was at the start of my
+[graduate studies in astrophysics](portfolio/tres.html),
 when I became a pracitioner of
 [David Allen's Getting Things Done (GTD)](https://gettingthingsdone.com/)
 methodology,
-which emphasizes clarity of mind and effective action. 
+which emphasizes clarity of mind and effective action
+through *focusing* on what is actionable.
 
 > Suffice it to say that something automatic
 > and extraordinary happens in your mind
@@ -66,14 +70,24 @@ which emphasizes clarity of mind and effective action.
 >
 > ― <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
 
+More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s 
+writings on applying the timeless principles of
+[Stoicism](https://dailystoic.com/what-is-stoicism/)
+to modern life.
+What drew me to Stoicism was its emphasis on *focusing* on what we can control 
+and accepting what we cannot,
+echoing the wisdom found in the Serenity prayer. 
 
+I decide to explore the application of this philosophy
+to various aspects of my life,
+and to share my experiences in this blog.
+My plan is to discuss its use in such domains as:
 
-What drew me to Stoicism was its emphasis on focusing on what we can control and accepting what we cannot, a principle that echoes the wisdom found in the Serenity prayer. I appreciate how Stoicism abstracts these ideas away from any religious context, making them accessible and applicable to anyone seeking a good life.
+- Working as an individual contributor.
+- Managing others at work.
+- My personal life.
+- Navigating the politically divisive climate of today.
 
-
-I want to create an introductory log post to the topic of applying stoicism in my life. Have an introductory paragraph that discusses how I came to stoicism. I find its principles are common in many other philosophies of life, but what appeals to me is their abstraction away from any religious background. I find it freeing to identify how to live according to Saint Francis prayer of identifying what I can control what I cannot, and having the courage to change what I can the patience to deal with what I cannot on the wisdom to know the difference then I should list the various ways in which I will discuss applying this in my blog, such as at work as an individual contributor at work as a manager in my personal life, and to motivate how I deal with the politically divisive climate that I find myself in at this time. Include links to the books and maybe podcast that I have found useful as an introduction to stoicism, but mention that I will not be going into the details of the philosophy in any great detail, except for some reference references to the principles as I incorporate them into the post.
-
-<!--
-FIXMEs:
-
--->
+My hope is that this plan will help me
+to process and internalize the lessons I have come across so far,
+and to share them with others who may find them useful.
