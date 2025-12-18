@@ -1,0 +1,35 @@
+# Don't put credentials or other secrets into this shared file!
+[hooks]
+enter = "mise i -q"
+
+[settings]
+env_file = ".env"
+idiomatic_version_file_enable_tools = ["python"]
+python.uv_venv_auto = true  # Use uv venv.
+status.missing_tools = "always"
+status.show_env = true
+
+# FIXME: Move from Gemfile, build.sh to here!
+# "gitlint@latest",
+# "gitleaks@latest",
+# "markdown-link-check@latest",
+# "nodePackages.prettier@latest",
+# pre-commit = "latest"  # FIXME: Install pre-commit-uv instead.
+# "shellcheck@latest",
+# "yamllint@latest",
+# "hub@latest",
+# "markdownlint-cli@latest",
+# "mdl@latest",
+# "ruby@3.2",
+# "bundler@latest",
+# "coreutils@latest",
+# "imagemagick@latest",
+# "vhs@latest",
+# "image_optim@latest",
+# "html-proofer@latest",
+# "rubyPackages_3_2.webrick@latest",
+# "pngcrush@latest",
+# "jpegoptim@latest",
+# "python@3.12",
+# "yamlfmt@latest",
+# "lychee@latest"
