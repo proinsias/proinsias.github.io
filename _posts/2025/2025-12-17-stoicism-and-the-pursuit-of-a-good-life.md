@@ -34,7 +34,7 @@ that echo this message and do provide the guidance I desire.
 
 The first was at the start of my
 [graduate studies in astrophysics](/portfolio/tres.html),
-when I became a pracitioner of
+when I became a practitioner of
 [David Allen's Getting Things Done (GTD)](https://gettingthingsdone.com/)
 methodology,
 which emphasizes clarity of mind and effective action
