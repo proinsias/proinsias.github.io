@@ -18,28 +18,6 @@ tags:
     - productivity
 ---
 
-<!--
-Prompt for image.
-
-Professional minimalist hand-drawn banner illustration for a Stoicism blog post.
-Clean white background.
-Two large overlapping hand-drawn circles like a Venn diagram, drawn with black ink marker lines.
-
-Left circle text: "Things That Matter"
-Right circle text: "Things You Can Control"
-
-The overlapping center area is subtly shaded and emphasized as the focal point.
-
-Below the circles, handwritten text reads:
-"What You Should Focus On"
-with a simple underline.
-
-Neat, intentional handwritten typography, balanced spacing, calm Stoic aesthetic.
-High readability, refined sketch style, editorial quality, not cartoonish.
-
-Aspect ratio: wide blog banner.
--->
-
 Given my first name,
 it's probably not surprising that I am familiar with the Serenity Prayer:
 
@@ -47,7 +25,7 @@ it's probably not surprising that I am familiar with the Serenity Prayer:
 > the courage to change the things I can,
 > and the wisdom to know the difference.
 > 
-> ― <cite>Saint Francis of Assisi</cite>.
+> <cite>Saint Francis of Assisi</cite>.
 
 I’ve always appreciated the sentiment of this prayer,
 but I struggled to find practical ways to apply it during stressful times.
@@ -55,7 +33,7 @@ Nevertheless, I have found different sources of wisdom
 that echo this message and do provide the guidance I desire.
 
 The first was at the start of my
-[graduate studies in astrophysics](portfolio/tres.html),
+[graduate studies in astrophysics](/portfolio/tres.html),
 when I became a pracitioner of
 [David Allen's Getting Things Done (GTD)](https://gettingthingsdone.com/)
 methodology,
@@ -64,10 +42,10 @@ through *focusing* on what is actionable.
 
 > Suffice it to say that something automatic
 > and extraordinary happens in your mind
-> when you create and *focus* \[emphasis mine\]
+> when you create and focus
 > on a clear picture of what you want.
 >
-> ― <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
+> <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
 
 More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s 
 accessible writings on applying the timeless principles of
@@ -80,9 +58,10 @@ echoing the wisdom found in the Serenity prayer.
 > The only guarantee, ever, is that things will go wrong.
 > The only thing we can use to mitigate this is anticipation.
 > Because the only variable we control completely is ourselves.
-> - <cite>Ryan Holiday</cite>, The Obstacle Is The Way.
+>
+> <cite>Ryan Holiday</cite>, The Obstacle Is The Way.
 
-I decide to explore the application of this philosophy
+I decided to explore the application of this philosophy
 to various aspects of my life,
 and to share my experiences in this blog.
 My plan is to discuss its use in such domains as:
@@ -105,3 +84,25 @@ and to share them with others who may find them useful.
 
 In my next post, I’ll share how Stoicism has guided me
 as an individual contributor and Data Scientist.
+
+<!--
+Prompt for image.
+
+Professional minimalist hand-drawn banner illustration for a Stoicism blog post.
+Clean white background.
+Two large overlapping hand-drawn circles like a Venn diagram, drawn with black ink marker lines.
+
+Left circle text: "Things That Matter"
+Right circle text: "Things You Can Control"
+
+The overlapping center area is subtly shaded and emphasized as the focal point.
+
+Below the circles, handwritten text reads:
+"What You Should Focus On"
+with a simple underline.
+
+Neat, intentional handwritten typography, balanced spacing, calm Stoic aesthetic.
+High readability, refined sketch style, editorial quality, not cartoonish.
+
+Aspect ratio: wide blog banner.
+-->
