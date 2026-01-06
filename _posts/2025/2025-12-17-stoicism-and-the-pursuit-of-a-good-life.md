@@ -24,10 +24,10 @@ it's probably not surprising that I am familiar with the Serenity Prayer:
 > Grant me the strength to accept the things I cannot change,
 > the courage to change the things I can,
 > and the wisdom to know the difference.
-> 
+>
 > <cite>Saint Francis of Assisi</cite>.
 
-I’ve always appreciated the sentiment of this prayer,
+I've always appreciated the sentiment of this prayer,
 but I struggled to find practical ways to apply it during stressful times.
 Nevertheless, I have found different sources of wisdom
 that echo this message and do provide the guidance I desire.
@@ -47,13 +47,13 @@ through *focusing* on what is actionable.
 >
 > <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
 
-More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s 
+More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s
 accessible writings on applying the timeless principles of
 [Stoicism](https://dailystoic.com/what-is-stoicism/)
 to modern life.
-What drew me to Stoicism was its emphasis on *focusing* on what we can control 
+What drew me to Stoicism was its emphasis on *focusing* on what we can control
 and accepting what we cannot,
-echoing the wisdom found in the Serenity prayer. 
+echoing the wisdom found in the Serenity prayer.
 
 > The only guarantee, ever, is that things will go wrong.
 > The only thing we can use to mitigate this is anticipation.
@@ -82,7 +82,7 @@ My hope is that this plan will help me
 to internalize the lessons I have come across so far,
 and to share them with others who may find them useful.
 
-In my next post, I’ll share how Stoicism has guided me
+In my next post, I'll share how Stoicism has guided me
 as an individual contributor and Data Scientist.
 
 <!--
