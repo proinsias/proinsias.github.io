@@ -1,7 +1,7 @@
 ---
 title: "About Francis O'Donovan"
 layout: single
-excerpt: "Data Science Manager at LeanTaaS – Planet discoverer, researcher, developer, geek."
+excerpt: "Data Scientist – Planet discoverer, researcher, developer, geek."
 sitemap: false
 permalink: /about/
 author_profile: false
@@ -19,11 +19,10 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
 
 ## 😄 About Me
 
-- I'm a Principal Data Scientist at
-  <a href="https://www.trinet.com">
-  <img src="/assets/images/trinet.png" alt="TriNet" width="75"/></a>,
-  who provide full-service HR solutions, so you get time back to focus on your business,
-  your employees get HR support, and your business gains the HR guidance it needs.
+- I'm a Senior Staff Data Scientist at
+  <a href="https://www.pearlhealth.com">
+  Pearl Health</a>,
+  where we help providers deliver proactive, high-quality care, and get rewarded for keeping patients healthy.
 
 <!-- textlint-disable alex -->
 
