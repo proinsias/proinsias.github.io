@@ -163,9 +163,6 @@ author:
     - label: StackOverflow
       icon: fab fa-fw fa-stack-overflow
       url: https://stackoverflow.com/users/1257318/proinsias/
-    - label: Twitter
-      icon: fab fa-fw fa-twitter-square
-      url: https://twitter.com/francisodonovan/
     - label: Mastodon
       icon: fab fa-fw fa-square
       url: https://twit.social/@francis
