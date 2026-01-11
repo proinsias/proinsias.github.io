@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "How uv got so fast"
+title: "Python: How uv got so fast"
 date: 2026-01-09 15:34:57
-last_modified_at: 2026-01-09 15:34:57
+last_modified_at: 2026-01-11 20:12:10
 categories:
     - til
 tags:
@@ -24,11 +24,11 @@ and being written in Rust is just one of them.
 > The usual explanation is “it’s written in Rust.”
 > That’s true, but it doesn’t explain much.
 > Plenty of tools are written in Rust without being notably fast.
-> The interesting question is what design decisions made the difference ...
+> The interesting question is what design decisions made the difference: ...
 > standards that enable fast paths, things uv drops that pip supports, and optimizations that don’t require Rust at all.
 
 > Speed comes from elimination. Every code path you don’t have is a code path you don’t wait for.
 > uv’s compatibility documentation is a list of things it doesn’t do.
 
 > [And] several key optimizations could be implemented in pip today.
-> It doesn’t, largely because backwards compatibility with fifteen years of edge cases takes precedence. 
+> It doesn’t, largely because backwards compatibility with fifteen years of edge cases takes precedence.

@@ -9,7 +9,7 @@ shopt -s failglob # Cause globs that don't get expanded to cause errors.
 shopt -s globstar # 2> /dev/null  # Match all files and zero or more sub-directories.
 set -o xtrace     # Echo commands as they are executed.
 
-bundle exec jekyll build
+bundle exec jekyll build  # --watch --incremental
 
 # Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
 bundle exec htmlproofer ./_site \

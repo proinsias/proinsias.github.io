@@ -9,6 +9,12 @@ python.uv_venv_auto = true  # Use uv venv.
 status.missing_tools = "always"
 status.show_env = true
 
+[tools]
+ruby = "3.3.5"
+
+[env]
+JEKYLL_GITHUB_TOKEN = { age = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAvemdSaTdEUUZUZXZpNjZxU2RRQVVMQnhtUTF0U3drQ0hCbk9oWjYvYmpJCitKeDV1alpxMTM5eXVwQU9Dd1JRaFF0SDN4Q3g0RzJUSWxQcC9HMDVsNWsKLT4gTnZBI2xfbGAtZ3JlYXNlIGdPO100MyB6Si4gMVtibCdGQwoKLS0tIEFqSjJVbTFrQmVsWkJYbUJvbDREVC9SaE4xVnBWOG1jN3krQUVkc3pneWcKx2tTvvKRTknPWa96jJlzVEIug/6xyaICRv8DVyvvxPE4z46q3lf9RESfg9k3US4wQLL5xrRLucxUfOdFqah1msC8NBwiNSfG" }
+
 # FIXME: Move from Gemfile, build.sh to here!
 # "gitlint@latest",
 # "gitleaks@latest",
