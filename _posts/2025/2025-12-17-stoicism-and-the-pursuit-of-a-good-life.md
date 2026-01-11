@@ -82,7 +82,11 @@ My hope is that this plan will help me
 to internalize the lessons I have come across so far,
 and to share them with others who may find them useful.
 
-In my next post, I'll share how Stoicism has guided me
+In my
+[next post](https://proinsias.github.io/stoicism/stoic-ic-ds/)
+in this
+[series](https://proinsias.github.io/categories/#stoicism)
+, I'll share how Stoicism has guided me
 as an individual contributor and Data Scientist.
 
 <!--
