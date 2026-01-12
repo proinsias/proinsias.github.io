@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Using Stoicism's dichotomy of control to thrive as an IC Data Scientist"
+title: "Using Stoicism to thrive as an IC Data Scientist"
 date: 2026-01-10 23:02:00
 last_modified_at: 2026-01-11 20:12:10
 categories:
@@ -14,13 +14,15 @@ tags:
     - stoicism
     - career
     - productivity
+toc: true
 ---
 
 As I mentioned in my introductory post to
 [Stoicism and the pursuit of a good life](https://proinsias.github.io/stoicism/stoicism-and-the-pursuit-of-a-good-life/),
 Stoic principles provide an essential toolkit with which to endure the struggles of modern knowledge work.
-No matter how diligent or competent you are as an individual contributor,
-you cannot guarante a significant impact at your company.
+As an "individual contributor" knowledge worker,
+you cannot guarantee a significant impact at your company
+no matter how diligent or competent you are.
 And you must also weather macroeconomic shifts and technology cycles
 in a job market shaped by layoffs and AI automation.
 
@@ -35,13 +37,17 @@ Even when a data scientist is able to craft a useful insight from noisy data,
 they cannot mandate the adoption of data-driven decisions,
 given shifting business priorities and organizational politics.
 
+# The Dichotomy of Control
+
 ![What happens if you stop focusing on outcomes](/assets/images/if_you_stop_focusing_on.png)
 <sup>_What happens if you stop focusing on outcomes? \[Image credit: Gemini\]_
 
 So what is a Data Scientist to do? How can we thrive in a field defined by uncertainty?
-Applying the Stoic philoscopy of the dichotomy of control provides a practical strategy
+Applying the Stoic philosophy of the "Dichotomy of Control" provides a practical strategy
 for sustaining focus, integrity, and long-term effectiveness.
-We first accept that we cannot control these things.
+This concept states we should focus our effort and concern only on what we can control,
+and that we should accept external outcomes with equanimity.
+So we first accept that we cannot control macroeconomic trends or how our company employ data and data science.
 Instead, we re-anchor our professional identity to focus on those things we can control:
 
 -   The quality of our work (rigorous analysis, reproducible code, clear communication, etc.),
@@ -50,6 +56,9 @@ Instead, we re-anchor our professional identity to focus on those things we can 
 
 Then, even in times of career turbulence, we can continue in our professional development,
 and be prepared for whatever new opportunities present themselves.
+
+
+
 
 
 
@@ -74,15 +83,15 @@ To Dos
 <!--
 # Prompt for header image
 
-Create an image of a Data Scientist to the left of a shield (in the middle of the image)
-with the words "Indifference to external validation".
-Add three arrows coming from the right towards the data scientist
+Create a realistic image of a Data Scientist to the left of a shield (in the middle of the image)
+with the words "Dichotomy of control".
+Add three realistic-looking arrows coming from the right embedded in the shield
 with labels "Organizational politics", "Data drift", and "Ill-defined priorities".
-Add three arrows going away from the shield with no labels.
 The data scientist should be sifting through dirty water labeled "Noisy Data"
 to find gems labeled "Business insights" and "Actionable predictions".
 
 The output format of the image should be a wide image designed to be the banner for a blog post.
+The labels should *not* be in all-caps.
 
 Double check that the labels are exactly as specified.
 
