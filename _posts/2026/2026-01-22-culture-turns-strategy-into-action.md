@@ -2,7 +2,7 @@
 layout: single
 title: "Culture turns strategy into action"
 date: 2026-01-22 13:55:03
-last_modified_at: 2026-01-22 13:55:03
+last_modified_at: 2026-01-26 00:15:21
 categories:
     - healthcare
 tags:
@@ -23,15 +23,15 @@ It is easy to feel engaged and motivated when this small group of people are ali
 But as companies grow, this culture can be diluted by layers of bureaucracy unless it is actively nurtured. In
 [How a pregnancy test on a male patient revealed health care flaws](https://kevinmd.com/2026/01/how-a-pregnancy-test-on-a-male-patient-revealed-health-care-flaws.html),
 Eric Goldfarb uses an absurd billing error to expose something far more serious:
-a healthcare system where automation, billing complexity, and fragmented communication overrode common sense. 
+a healthcare system where automation, billing complexity, and fragmented communication overrode common sense.
 
-> My father’s last medical bill suggested he might be expecting a child.
-> ... Somewhere in the hospital’s system, common sense had vanished.
+> My father's last medical bill suggested he might be expecting a child.
+> ... Somewhere in the hospital's system, common sense had vanished.
 > We found the pregnancy test charge only after paying the bill in full.
 > ...
 > The scariest part was how certain everyone sounded.
 > The first person promised a refund. The second declared the charge correct.
-> The third told us to use a portal we couldn’t access. Each spoke with the confidence of a script box at the bottom of the screen.
+> The third told us to use a portal we couldn't access. Each spoke with the confidence of a script box at the bottom of the screen.
 > Meanwhile, my mother and I kept repeating a small sentence that contained the universe: Men cannot get pregnant.
 
 It doesn't need to be this way.
@@ -42,11 +42,11 @@ his personal experience with receiving care with empathy,
 and how small, human moments expanded clinical excellence into true healing.
 
 > The person at the front desk did not simply point me toward a waiting area.
-> She looked me in the eye and said, “We’re glad you’re here. If you need anything, just let me know.”
+> She looked me in the eye and said, "We're glad you're here. If you need anything, just let me know."
 
 He goes on to explain how this clinic differs from Eric's hospital:
 
-> \[At that clinic\], every person, from environmental services to senior clinicians, shares a clear sense of mission. 
+> \[At that clinic\], every person, from environmental services to senior clinicians, shares a clear sense of mission.
 > They understand that they are not just treating disease;
 > they are caring for people at the most vulnerable moment in their lives.
 > ...
