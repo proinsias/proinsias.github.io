@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Using Stoicism to thrive as an IC Data Scientist"
-date: 2026-01-10 23:02:00
+date: 2026-01-25 23:02:00
 last_modified_at: 2026-01-26 00:08:29
 categories:
     - stoicism
@@ -60,20 +60,20 @@ in a job market shaped by layoffs and AI automation.
 <sup>_IC Data Scientists often feel they are trying to make a silk purse out of pig's ear. \[Image credit: Gemini\]_
 
 This lack of control is especially apparent in the domain of Data Science.
-For example, practioners are rarely in full control of the data they require for their models.
+For example, practitioners are rarely in full control of the data they require for their models.
 They typically have much higher quality standards than other data consumers within their company.
 And so they can face trying to "make a silk purse out of a pig's ear".
 Even when a data scientist is able to craft a useful insight from noisy data,
 they cannot mandate the adoption of data-driven decisions,
 given shifting business priorities and organizational politics.
 
-I myself struggled with some job changes of the last year,
+I myself struggled with some job changes last year,
 and faced burnout and a lack of motivation to struggle through a limited job market.
 
 ## The solution: refocus on what we can control
 
 Instead of obsessing over what I could not control,
-I tried to apply the Stoic philisophy I had recently learned:
+I tried to apply the Stoic philosophy I had recently learned:
 accept that I cannot control these external factors,
 and instead focus on what I can control.
 This is known as the **Dichotomy of Control**,
