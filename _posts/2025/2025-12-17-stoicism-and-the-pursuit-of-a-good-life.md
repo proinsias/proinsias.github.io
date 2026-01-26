@@ -2,7 +2,7 @@
 layout: single
 title: "Stoicism and the pursuit of a good life"
 date: 2025-12-17 18:32:00
-last_modified_at: 2025-12-17 23:34:04
+last_modified_at: 2026-01-26 00:08:29
 categories:
     - stoicism
 header:
@@ -10,6 +10,9 @@ header:
     image_description: "What you should focus on"
     caption: "The secret to a good life: focus"
     teaser: /assets/images/what-you-should-focus-on-thumbnail.png
+excerpt: >-
+    Stoicism emphasizes focusing on the controllable aspects of our lives and accepting the uncontrollable.
+    Applying this philosophy can help us in our pursuit of a good life.
 tags:
     - stoicism
     - health
@@ -17,6 +20,9 @@ tags:
     - politics
     - productivity
 ---
+
+<small>**tl;dr** Stoicism emphasizes focusing on the controllable aspects of our lives and accepting the uncontrollable.
+Applying this philosophy can help us in our pursuit of a good life.</small>
 
 Given my first name,
 it's probably not surprising that I am familiar with the Serenity Prayer:
@@ -38,20 +44,13 @@ when I became a practitioner of
 [David Allen's Getting Things Done (GTD)](https://gettingthingsdone.com/)
 methodology,
 which emphasizes clarity of mind and effective action
-through *focusing* on what is actionable.
-
-> Suffice it to say that something automatic
-> and extraordinary happens in your mind
-> when you create and focus
-> on a clear picture of what you want.
->
-> <cite>David Allen</cite>, Getting Things Done: The Art of Stress-Free Productivity.
+through _focusing_ on what is actionable.
 
 More recently, I came across [Ryan Holiday](https://ryanholiday.net/)'s
 accessible writings on applying the timeless principles of
 [Stoicism](https://dailystoic.com/what-is-stoicism/)
 to modern life.
-What drew me to Stoicism was its emphasis on *focusing* on what we can control
+What drew me to Stoicism was its emphasis on _focusing_ on what we can control
 and accepting what we cannot,
 echoing the wisdom found in the Serenity prayer.
 
@@ -63,31 +62,31 @@ echoing the wisdom found in the Serenity prayer.
 
 I decided to explore the application of this philosophy
 to various aspects of my life,
-and to share my experiences in this blog.
+and to share my experiences in this blog over the next few months.
 My plan is to discuss its use in such domains as:
 
-- My personal life: amidst the chaos of parenting young children,
-  it has helped me identify what is truly important
-  and accept the imperfections of a hectic household.
-- Working as an individual contributor: during some recent career turbulence,
-  it has provided me with a framework for continuous growth.
-- Managing others at work: it has guided me
-  through some difficult conversations while avoiding emotional escalation.
-- Navigating the politically divisive climate of today:
-  the history of the Stoics includes many examples of leaders
-  with principled behavior in the face of adversity
-  and who strove to change their societies for the better.
+-   My personal life: amidst the chaos of parenting young children,
+    it has helped me identify what is truly important
+    and accept the imperfections of a hectic household.
+-   Working as an individual contributor: during some recent career turbulence,
+    it has provided me with a framework for continuous growth.
+-   Managing others at work: it has guided me
+    through some difficult conversations while avoiding emotional escalation.
+-   Navigating the politically divisive climate of today:
+    the history of the Stoics includes many examples of leaders
+    with principled behavior in the face of adversity
+    and who strove to change their societies for the better.
 
-My hope is that this plan will help me
-to internalize the lessons I have come across so far,
-and to share them with others who may find them useful.
+My hope is that as I am writing about and internalizing the learnings from Stoicism
+that others may be inspired by these posts and find ways to stay calm amidst the storm of life.
 
 In my
 [next post](https://proinsias.github.io/stoicism/stoic-ic-ds/)
 in this
 [series](https://proinsias.github.io/categories/#stoicism)
 , I'll share how Stoicism has guided me
-as an individual contributor and Data Scientist.
+as an individual contributor and Data Scientist
+to continuously improve despite major setbacks.
 
 <!--
 Prompt for image.

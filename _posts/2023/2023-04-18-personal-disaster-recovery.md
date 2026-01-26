@@ -3,7 +3,7 @@ layout: single
 title: "Pets v Cattle: Making a personal disaster recovery plan"
 excerpt: "When disaster strikes, how quickly will you recover?"
 date: 2023-04-18
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-01-26 00:08:29
 categories:
     - posts
 published: true
@@ -12,6 +12,10 @@ header:
     image_description: "Disaster Recovery Plan"
     caption: "Disaster Recovery Plan (Photo credit: Jernej Furman on flickr)"
     teaser: /assets/images/disaster_recovery_plan_thumbnail.gif
+excerpt: >-
+  To recover quickly from personal computer disasters, automate your computer setup.
+  Use tools like cloud syncing for documents, Homebrew/Ansible for applications, Git for dotfiles,
+  and Docker for development environments, all managed as "infrastructure as code".
 tags:
     - ansible
     - backup
@@ -23,9 +27,14 @@ tags:
 toc: true
 ---
 
-<sup>_Banner photo by [Jernej Furman](https://web.archive.org/web/20240214200815/https://www.flickr.com/people/91261194@N06/)
-shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
-.
+<small>**tl;dr** To recover quickly from personal computer disasters, automate your computer setup.
+Use tools like cloud syncing for documents, Homebrew/Ansible for applications, Git for dotfiles,
+and Docker for development environments, all managed as "infrastructure as code".</small>
+
+## How easy is it to replace your computers?
+
+![Cattle versus Pets](/assets/images/cattle-v-pets.jpg)
+<sup>_When dealing with computers, you should rely on cattle, not on pets. \[Photo in CC0 Public Domain.\]_
 
 > "When dealing with computers, you should rely on cattle, not on pets."
 
@@ -43,9 +52,6 @@ that can be automatically created, configured, deleted and replaced.
 These machines are "cattle", with a bunch of machines in your "herd".
 If something happens to one of them, you can easily replace that machine.
 
-![Cattle versus Pets](/assets/images/cattle-v-pets.jpg)
-<sup>_When dealing with computers, you should rely on cattle, not on pets. \[Photo in CC0 Public Domain.\]_
-
 This DevOps strategy has become an important part of corporate disaster recovery plans,
 because it allows for rapid recovery of entire systems that form the backbone of a business
 and tests that recovery process regularly as individual machines fail.
@@ -61,11 +67,6 @@ I ended up having to recreate my work environment multiple times
 to have access to the applications, documents, and system configuration
 that I required to get my job done.
 
-![Broken laptop](/assets/images/broken-laptop.jpg)
-<sup>_When you drop your laptop, how soon before you can be working again?
-\[Photo by [Santeri Viinamäki](https://commons.wikimedia.org/wiki/User:Zunter)
-shared under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).\]_
-
 As a result of this experience, I became interested in how to do this as efficiently as possible –
 how could I best treat my personal machines as cattle, not as pets?
 How could I develop a personal disaster recovery plan
@@ -76,15 +77,11 @@ that would:
    after they suffer damage, theft or other disaster, and
 3. Test that recovery process regularly.
 
-![Thinker](/assets/images/thinker.jpg)
-<sup>_\[Photo by CrisNYCa
-shared under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).\]_
-
 Here I'll discuss first the issues I've found with the backup/restore process,
 and then what I've come up with so far as an alternative.
 I hope you find it useful, and please let me know if you have your own tips via the comments!
 
-# Typical backup systems
+## Typical backup systems
 
 > Entire-system backups are essential and comprehensive but slow.
 
@@ -108,11 +105,7 @@ Unfortunately I have found that using backups alone as a recovery plan has sever
    Who among us has actually taken the time to restore a backup for the sole purpose of verifying it?
    And I've had numerous issues when a recovery was necessary, though thankfully none that proved fatal.
 
-![Backup disaster](/assets/images/backup-disaster.jpg)
-<sup>_\[Photo by [John Boston](https://web.archive.org/web/20161014064145/https://www.flickr.com/people/60026579@N00)
-shared under a [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) license.\]_
-
-# My disaster recovery plan
+## My disaster recovery plan
 
 > For rapid recovery, backup and restore system components separately and automatically.
 
@@ -120,7 +113,7 @@ As part of my plan to rapidly and automatically configure a new machine,
 I identified the following different system components that I would want to recover independently, at different times,
 and without hogging the machine.
 
-## Documents
+### Documents
 
 Your documents are often the most valuable and irreplaceable data on your machine.
 Thankfully they are also the easiest to protect – use any document-syncing service,
@@ -132,7 +125,7 @@ Then on a new machine, log into the service, and your documents will start loadi
 ![Documents syncing](/assets/images/google-drive.png)
 <sup>_Hey presto! \[Photo by [Google](https://google.com/).\]_
 
-### Special case for documents: software code
+#### Special case for documents: software code
 
 These document-syncing services aren't the best solution for all types of documents.
 Most software developers are familiar with version-control software like git
@@ -148,7 +141,7 @@ I use the [uncommitted](https://github.com/brandon-rhodes/uncommitted) tool to f
 <sup>_Demo of uncommitted showing local un-synced changes.
 \[Generated using [vhs](https://github.com/charmbracelet/vhs).\]_
 
-## GUI and CLI Applications
+### GUI and CLI Applications
 
 <!-- textlint-disable terminology -->
 
@@ -178,7 +171,7 @@ Nowadays I use Homebrew in combination with [Ansible](https://www.ansible.com/) 
 
 <!-- textlint-enable terminology -->
 
-### Special case for applications: software code
+#### Special case for applications: software code
 
 Another special mention here for software developers.
 I highly recommend [Docker](https://www.docker.com/) to share a development environment for software projects.
@@ -192,7 +185,7 @@ as easy as running the same Docker command you've been using all along.
 ![Demo of docker](/assets/images/docker.gif)
 <sup>_Demo of docker running application in shared environments._
 
-## Dotfiles
+### Dotfiles
 
 Many applications (both the GUI and CLI type, and terminal shells in particular) use
 [dotfiles](https://missing.csail.mit.edu/2019/dotfiles/)
@@ -212,7 +205,7 @@ to setup the files in the right locations.
 ![Demo of stow](/assets/images/stow.gif)
 <sup>_Demo of stow setting up my dotfiles._
 
-## System Configuration
+### System Configuration
 
 A common characteristic of most of the above solutions is the reliance upon text files
 to represent the list of requirements you want to install upon your machine,
@@ -235,7 +228,7 @@ that I can use in future to setup a new macOS or Linux laptop as follows:
 4. Globally install a list of [nodejs](https://nodejs.org/) packages.
 5. Set various macOS system configurations.
 
-# Testing
+## Testing
 
 > Make sure to test your disaster recovery plan.
 
@@ -249,3 +242,7 @@ I also test the Ansible playbook via a GitHub Actions
 So there you have it. My personal disaster recovery plan.
 I hope it helps you recover faster the next time gremlins strike.
 Please let me know if you have your own tips via the comments!
+
+<sup>_Banner photo by [Jernej Furman](https://web.archive.org/web/20240214200815/https://www.flickr.com/people/91261194@N06/)
+shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)_
+.

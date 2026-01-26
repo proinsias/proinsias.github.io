@@ -11,16 +11,12 @@ set -o xtrace     # Echo commands as they are executed.
 
 bundle install
 
-bundle exec jekyll build
-
-# Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
-bundle exec htmlproofer ./_site \
-    --no-enforce-https \
-    --ignore-empty-alt `# Unsure how to enable alt tags for teaser images` \
-    --ignore-status-codes 401,403,429 \
-    --only-4xx \
-    --typhoeus '{ "connecttimeout": 30, "timeout": 30 }' \
-    --ignore-urls "#,/4kib.com/,/archive.org/,/askubuntu.com/,/doi.org/,/enki.com/,/enkipro.com/,/help.github.com/,/mademistakes.com/,/medium.com/,/proinsias.github.io/,/serverfault.com/,/stackexchange.com/,/stackoverflow.com/,/towardsdatascience.com/,/twitter.com/"
+bundle exec jekyll serve \
+    --drafts \
+    --future \
+    --incremental \
+    --unpublished \
+    --watch
 
 echo ""
 echo "To fix a warning about 'No GitHub API authentication',"
