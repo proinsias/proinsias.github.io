@@ -37,12 +37,12 @@ repos:
       rev: nightly
       hooks:
           - id: lychee
-            args: ['--cache', '--suggest']
+            args: ["--cache", "--suggest"]
 
     # YAML
 
     - repo: https://github.com/adrienverge/yamllint
-      rev: v1.37.1
+      rev: v1.38.0
       hooks:
           - id: yamllint
             args: [-c=.yamllint.yml]
@@ -77,14 +77,14 @@ repos:
             args: [--external-sources, --format=gcc, --shell=bash]
 
     - repo: https://github.com/Lucas-C/pre-commit-hooks
-      rev: v1.5.5
+      rev: v1.5.6
       hooks:
           - id: remove-crlf
           - id: remove-tabs
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.36.0
+      rev: 0.36.2
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
@@ -96,6 +96,6 @@ repos:
           - id: gitleaks
 
     - repo: https://github.com/rhysd/actionlint
-      rev: v1.7.10
+      rev: v1.7.11
       hooks:
           - id: actionlint
