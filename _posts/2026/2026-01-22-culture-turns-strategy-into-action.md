@@ -2,7 +2,7 @@
 layout: single
 title: "Culture turns strategy into action"
 date: 2026-01-22 13:55:03
-last_modified_at: 2026-01-26 00:15:21
+last_modified_at: 2026-02-21 05:05:11
 categories:
     - healthcare
 tags:
