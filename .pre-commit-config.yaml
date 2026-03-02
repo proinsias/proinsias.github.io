@@ -90,7 +90,7 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.36.2
+      rev: 0.37.0
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
