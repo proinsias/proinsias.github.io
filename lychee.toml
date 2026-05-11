@@ -5,5 +5,10 @@ accept = ["100..=103", "200..=299", "403"]
 # Exclude URLs and mail addresses from checking (supports regex).
 # exclude = ['^https://www.linkedin.com']
 
+exclude_path = [
+    "assets/js/**/*.js",
+    "_sass/**/*.scss",
+]
+
 # Suggest link replacements for broken links, using a web archive.
 suggest = true

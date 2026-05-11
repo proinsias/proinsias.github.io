@@ -16,4 +16,4 @@ tags:
 - `Command-Shift-Q` will log off.
 - `Shift-Control-Power/Eject` will go to sleep instantly.
 
-Via [maccast.com](http://www.maccast.com/podcast/shownotes_20170312/).
+Via [maccast.com](https://web.archive.org/web/20240615053921/https://maccast.com/podcast/shownotes_20170312/).

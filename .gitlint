@@ -32,13 +32,11 @@ ignore=body-is-missing
 # debug=true
 
 # Enable community contributed rules
-# See http://jorisroovers.github.io/gitlint/contrib_rules for details
 # You HAVE to add contributed rules here to enable it.
 # Only configuring (such as below) does NOT enable it.
 # contrib=contrib-title-conventional-commits,CC1
 
 # Set the extra-path where gitlint will search for user defined rules
-# See http://jorisroovers.github.io/gitlint/user_defined_rules for details
 # extra-path=examples/
 
 [title-max-length]

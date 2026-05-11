@@ -19,7 +19,7 @@ tags:
 I just watched the very informative webinar above from
 [Data Science Central](https://www.datasciencecentral.com/) called
 [100 Years of Data Visualization – It's Time to Stop Making the Same Mistakes](https://vimeo.com/141091383).
-In it, [Andy Cotgreave](https://www.linkedin.com/in/acotgreave/) reviews some
+In it, [Andy Cotgreave](https://www.linkedin.com/in/acotgreave) reviews some
 data visualization tips from a 1914 book
 [Graphic methods for presenting facts](https://archive.org/details/graphicmethodsfo00brinrich/mode/2up)
 by Willard Brinton that many data visualizers can still learn from. For example:

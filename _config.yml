@@ -27,7 +27,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
   My home on the web.
-# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io/minimal-mistakes"
 url: https://proinsias.github.io # Leave off trailing forward slashes when setting url.
 # baseurl: '/blog' # the subpath of your site, e.g. "/blog"  # Don't need this if there's no subpath.
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -133,9 +133,6 @@ author:
     - label: Email
       icon: fas fa-fw fa-envelope-square
       url: https://mailhide.io/e/fTv414zF/
-    - label: Bitbucket
-      icon: fab fa-fw fa-bitbucket
-      url: https://bitbucket.org/francis_odonovan/
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/proinsias/
@@ -150,7 +147,7 @@ author:
       url: https://keybase.io/proinsias/
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin
-      url: https://www.linkedin.com/in/francistodonovan/
+      url: https://www.linkedin.com/in/francistodonovan
     - label: Medium
       icon: fab fa-fw fa-medium
       url: https://medium.com/@proinsias

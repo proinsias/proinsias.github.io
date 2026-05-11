@@ -33,4 +33,4 @@ flags = 0b_0011_1111_0100_1110
 flags = int('0b_1111_0000', 2)
 ```
 
-Via [Dan Maftei](https://www.linkedin.com/in/dan-maftei-8b36572a/).
+Via [Dan Maftei](https://www.linkedin.com/in/dan-maftei-8b36572a).

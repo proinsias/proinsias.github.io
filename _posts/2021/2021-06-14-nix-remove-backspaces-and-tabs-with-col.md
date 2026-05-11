@@ -23,4 +23,4 @@ Say you want to save the contents of the `cp` `man` page to a file.
 >
 > `man cp | col -bx > ~/Desktop/man_cp.txt`
 
-Via the [maccast](https://www.maccast.com/podcast/shownotes_20210613/).
+Via the [maccast](https://web.archive.org/web/20240918091017/https://www.maccast.com/podcast/shownotes_20210613/).
