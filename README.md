@@ -13,9 +13,9 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/proinsias/proinsias.github.io)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-The source code for the personal site of Francis T. O'Donovan,
-hosted by [GitHub Pages](https://pages.github.com/).
-You can find it at [proinsias.github.io](https://proinsias.github.io).
+The source code for the personal site of Francis T. O'Donovan, hosted by
+[GitHub Pages](https://pages.github.com/). You can find it at
+[proinsias.github.io](https://proinsias.github.io).
 
 It is based on the
 [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes).

@@ -11,13 +11,14 @@ tags:
     - tips
 ---
 
-In my previous life as an astronomer,
-I spent a lot of time reading relevant scientific articles on [arXiv.org](https://arXiv.org),
-which in those days meant downloading (and printing! 😱) lots of pdfs.
+In my previous life as an astronomer, I spent a lot of time reading relevant
+scientific articles on [arXiv.org](https://arXiv.org), which in those days meant
+downloading (and printing! 😱) lots of pdfs.
 
 So it was nice to see an evolution of this service – now you can:
 
-> Change the "X" in any arXiv article link to the "5" in ar5iv to get a modern HTML5 document.
+> Change the "X" in any arXiv article link to the "5" in ar5iv to get a modern
+> HTML5 document.
 
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">

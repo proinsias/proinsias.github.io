@@ -12,8 +12,9 @@ tags:
     - til
 ---
 
-> I wanted to have a GitHub Action step run that might fail,
-> but if it failed the rest of the steps should still execute and the overall run should be treated as a success.
+> I wanted to have a GitHub Action step run that might fail, but if it failed
+> the rest of the steps should still execute and the overall run should be
+> treated as a success.
 >
 > `continue-on-error: true` does exactly that:
 
@@ -27,8 +28,10 @@ tags:
 
 > [From this workflow](https://github.com/simonw/til/blob/7d799a24921f66e585b8a6b8756b7f8040c899df/.github/workflows/build.yml#L32-L36)
 >
-> I'm using `curl --fail` here which returns an error code if the file download files
-> (without `--fail` it was writing out a two line error message to a file called `tils.db` which is not what I wanted).
-> Then `continue-on-error: true` to keep on going even if the download failed.
+> I'm using `curl --fail` here which returns an error code if the file download
+> files (without `--fail` it was writing out a two line error message to a file
+> called `tils.db` which is not what I wanted). Then `continue-on-error: true`
+> to keep on going even if the download failed.
 
-Via [til.simonwillison.net](https://github.com/simonw/til/blob/main/github-actions/continue-on-error.md).
+Via
+[til.simonwillison.net](https://github.com/simonw/til/blob/main/github-actions/continue-on-error.md).

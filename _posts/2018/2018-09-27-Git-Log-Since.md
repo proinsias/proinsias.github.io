@@ -18,11 +18,11 @@ next morning's standup. This is a helpful aid:
 git log --since="24 hours ago"
 ```
 
-I SSH into my work machine and run this in my project's root directory.
-Combined with an alias from the Hashrocket Dotmatrix,
-`glg` (`git log --graph --oneline --decorate --color --all`),
-I get a terse summary of the day's work,
-ready to be pasted into your note-taking or project management tool of choice:
+I SSH into my work machine and run this in my project's root directory. Combined
+with an alias from the Hashrocket Dotmatrix, `glg`
+(`git log --graph --oneline --decorate --color --all`), I get a terse summary of
+the day's work, ready to be pasted into your note-taking or project management
+tool of choice:
 
 ```bash
 $ glg --since="24 hours ago"

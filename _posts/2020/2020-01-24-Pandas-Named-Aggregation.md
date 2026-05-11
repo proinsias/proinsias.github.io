@@ -11,11 +11,10 @@ tags:
     - til
 ---
 
-`pandas>=0.25` supports named aggregation,
-allowing you to specify the output column names when you aggregate a groupby,
-instead of renaming.
-This will be especially useful for doing multiple aggregations on the same column.
-Here's a simple example from the
+`pandas>=0.25` supports named aggregation, allowing you to specify the output
+column names when you aggregate a groupby, instead of renaming. This will be
+especially useful for doing multiple aggregations on the same column. Here's a
+simple example from the
 [Docs](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#aggregation):
 
 ```python
@@ -40,8 +39,8 @@ cat          9.1         9.5            8.90
 dog          6.0        34.0          102.75
 ```
 
-Note that `pandas.NamedAgg` is just a namedtuple.
-Plain tuples are allowed as well:
+Note that `pandas.NamedAgg` is just a namedtuple. Plain tuples are allowed as
+well:
 
 ```python
 animals.groupby("kind").agg(
@@ -51,8 +50,8 @@ animals.groupby("kind").agg(
 )
 ```
 
-If your desired output column names are not valid python keywords,
-construct a dictionary and unpack the keyword arguments:
+If your desired output column names are not valid python keywords, construct a
+dictionary and unpack the keyword arguments:
 
 ```python
 animals.groupby("kind").agg(**{
@@ -60,12 +59,13 @@ animals.groupby("kind").agg(**{
 })
 ```
 
-Additional keyword arguments are not passed through to the aggregation functions.
-Only pairs of `(column, aggfunc)` should be passed as `**kwargs`.
-If your aggregation functions requires additional arguments, partially apply them with `functools.partial()`.
+Additional keyword arguments are not passed through to the aggregation
+functions. Only pairs of `(column, aggfunc)` should be passed as `**kwargs`. If
+your aggregation functions requires additional arguments, partially apply them
+with `functools.partial()`.
 
-Named aggregation is also valid for `Series` `groupby` aggregations.
-In this case there's no column selection, so the values are just the functions:
+Named aggregation is also valid for `Series` `groupby` aggregations. In this
+case there's no column selection, so the values are just the functions:
 
 ```python
 animals.groupby("kind").height.agg(

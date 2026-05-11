@@ -12,9 +12,11 @@ tags:
     - til
 ---
 
-I use [`pd.Series.str.split()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.split.html#pandas-series-str-split)
-a lot for feature engineering, but I recently learned of a useful option `expand` for this function.
-This option if set to the non-default value of `True` will split strings into separate columns.
+I use
+[`pd.Series.str.split()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.split.html#pandas-series-str-split)
+a lot for feature engineering, but I recently learned of a useful option
+`expand` for this function. This option if set to the non-default value of
+`True` will split strings into separate columns.
 
 ```python
 >>> import pandas as pd

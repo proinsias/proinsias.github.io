@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-> The Scikit-learn pipeline has a function called ColumnTransformer
-> which allows you to easily specify which columns to apply the most appropriate preprocessing
-> to either via indexing or by specifying the column names.
+> The Scikit-learn pipeline has a function called ColumnTransformer which allows
+> you to easily specify which columns to apply the most appropriate
+> preprocessing to either via indexing or by specifying the column names.
 
 Example from post:
 
@@ -59,4 +59,5 @@ lr.fit(X_train, y_train)
 print("model score: %.3f" % lr.score(X_test, y_test))
 ```
 
-Via [towards data science](https://towardsdatascience.com/10-things-you-didnt-know-about-scikit-learn-cccc94c50e4f).
+Via
+[towards data science](https://towardsdatascience.com/10-things-you-didnt-know-about-scikit-learn-cccc94c50e4f).

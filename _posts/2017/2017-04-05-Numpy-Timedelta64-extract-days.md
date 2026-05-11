@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-To extract the integer value of days from a `numpy.timedelta64`, you divide it with a
-`timedelta64` of one day:
+To extract the integer value of days from a `numpy.timedelta64`, you divide it
+with a `timedelta64` of one day:
 
 ```python
 >>> x = np.timedelta64(2069211000000000, 'ns')
@@ -21,4 +21,5 @@ To extract the integer value of days from a `numpy.timedelta64`, you divide it w
 23
 ```
 
-Via [StackOverflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).
+Via
+[StackOverflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).

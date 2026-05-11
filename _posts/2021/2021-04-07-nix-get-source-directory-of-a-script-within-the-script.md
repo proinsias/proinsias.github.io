@@ -18,10 +18,12 @@ tags:
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 ```
 
-> is a useful one-liner which will give you the full directory name of the script no matter where it is being called from.
+> is a useful one-liner which will give you the full directory name of the
+> script no matter where it is being called from.
 >
-> It will work as long as the last component of the path used to find the script is not a symlink (directory links are OK).
-> If you also want to resolve any links to the script itself, you need a multi-line solution:
+> It will work as long as the last component of the path used to find the script
+> is not a symlink (directory links are OK). If you also want to resolve any
+> links to the script itself, you need a multi-line solution:
 
 ```bash
 #!/bin/bash
@@ -36,4 +38,5 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 ```
 
-Via [SO](https://web.archive.org/web/20220818174206/https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script/246128).
+Via
+[SO](https://web.archive.org/web/20220818174206/https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script/246128).

@@ -12,8 +12,8 @@ tags:
 ---
 
 The `dig` (domain information grouper) command can be used to get more
-information about a domain name. To discover the IP address for a given
-domain, invoke `dig` with the domain as an argument.
+information about a domain name. To discover the IP address for a given domain,
+invoke `dig` with the domain as an argument.
 
 ```bash
 $ dig joshbranchaud.com

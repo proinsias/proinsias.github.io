@@ -18,6 +18,5 @@ Some
 [advice](https://web.archive.org/web/20210302133339/https://www.fatherly.com/news/this-grieving-dad-wrote-a-letter-about-the-true-meaning-of-work-life-balance/)
 from a parent dealing with the death of his young son:
 
-> "Hug your kids. Don't work too late. A lot of the things you are
-> likely spending your time on you'll regret once you no longer have
-> the time."
+> "Hug your kids. Don't work too late. A lot of the things you are likely
+> spending your time on you'll regret once you no longer have the time."

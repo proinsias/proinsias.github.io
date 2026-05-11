@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-The other day I tried to run a `rm` command on the contents of a directory
-with a **LOT** of files.
+The other day I tried to run a `rm` command on the contents of a directory with
+a **LOT** of files.
 
 ```bash
 rm images/*
@@ -25,8 +25,8 @@ displayed:
 /bin/rm: cannot execute [Argument list too long]
 ```
 
-Bash wanted to expand the entire command before executing it. It was too
-long. But what is too long?
+Bash wanted to expand the entire command before executing it. It was too long.
+But what is too long?
 
 It turns out that we can figure out the max length of commands with the
 following command:

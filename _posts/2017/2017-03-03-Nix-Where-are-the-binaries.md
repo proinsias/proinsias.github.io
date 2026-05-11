@@ -21,9 +21,8 @@ $ which rails
 That is the rails binary on my path that will be used if I enter a rails
 command.
 
-However, with something like rails, there may be multiple versions on your
-path. If you want to know where all of them are, you can use `where`, like
-so:
+However, with something like rails, there may be multiple versions on your path.
+If you want to know where all of them are, you can use `where`, like so:
 
 ```bash
 $ where rails

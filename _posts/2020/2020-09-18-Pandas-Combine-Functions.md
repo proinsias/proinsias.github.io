@@ -57,8 +57,8 @@ tags:
 
 - The
   [`combine_first`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.combine_first.html)
-  function combines the two DataFrames by filling null values in one
-  DataFrame with non-null values from the other:
+  function combines the two DataFrames by filling null values in one DataFrame
+  with non-null values from the other:
 
 ```python
 >>> df1 = pd.DataFrame({'A': [None, 0], 'B': [4, None]})

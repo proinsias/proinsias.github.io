@@ -11,14 +11,15 @@ tags:
     - til
 ---
 
-To print a string without appending the usual newline, use the `end` parameter of the
-`print` function:
+To print a string without appending the usual newline, use the `end` parameter
+of the `print` function:
 
 ```python
 print('This is a string...', end='')
 ```
 
-If you are having trouble with buffering, you can flush the output by adding `flush=True`:
+If you are having trouble with buffering, you can flush the output by adding
+`flush=True`:
 
 ```python
 print('This is a string...', end='', flush=True)

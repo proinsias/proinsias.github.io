@@ -44,4 +44,5 @@ comment='a table comment'
 +------+--------------+--------+-------+---------+-------------+------------+-------+------------+------------------+
 ```
 
-Via [snowflake.net](https://docs.snowflake.net/manuals/sql-reference/sql/create-table.html).
+Via
+[snowflake.net](https://docs.snowflake.net/manuals/sql-reference/sql/create-table.html).

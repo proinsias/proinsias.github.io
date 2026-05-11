@@ -11,6 +11,7 @@ tags:
     - til
 ---
 
-You can use [mathb.in](http://mathb.in) to send someone a link to a bit of LaTeX.
+You can use [mathb.in](http://mathb.in) to send someone a link to a bit of
+LaTeX.
 
 Via [@TeXtip](https://twitter.com/TeXtip/status/707955703147851776).

@@ -15,4 +15,5 @@ Carl Sagan debunks Flat Earthers using nothing more than a piece of cardboard:
 
 {% include video id="G8cbIWMv0rI" provider="youtube" %}
 
-Via [reddit.com/r/videos](https://www.reddit.com/r/videos/comments/ht2n6u/carl_sagan_debunks_flat_earthers_using_nothing/).
+Via
+[reddit.com/r/videos](https://www.reddit.com/r/videos/comments/ht2n6u/carl_sagan_debunks_flat_earthers_using_nothing/).

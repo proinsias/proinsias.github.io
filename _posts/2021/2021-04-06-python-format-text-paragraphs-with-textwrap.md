@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-> Python's `textwrap` module is useful for rearranging text, e.g. wrapping and filling lines.
+> Python's `textwrap` module is useful for rearranging text, e.g. wrapping and
+> filling lines.
 
 ```python
 # Wrap the text in the string "parallel", so that all lines are a maximum of x characters long:
@@ -58,5 +59,6 @@ print(textwrap.shorten
 # Other useful methods like indent and dedent are available in this module.
 ```
 
-Via [enkipro.com](https://app.enkipro.com/public/insight/56c75b1edc39f90600d79c53).
+Via
+[enkipro.com](https://app.enkipro.com/public/insight/56c75b1edc39f90600d79c53).
 See also [PyMOTV-3](https://pymotw.com/3/textwrap/index.html).

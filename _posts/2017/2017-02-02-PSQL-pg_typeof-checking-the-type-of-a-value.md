@@ -12,8 +12,8 @@ tags:
     - til
 ---
 
-The `pg_typeof()` function allows you to determine the data type of anything
-in Postgres.
+The `pg_typeof()` function allows you to determine the data type of anything in
+Postgres.
 
 ```sql
 > select pg_typeof(1);
@@ -29,8 +29,8 @@ in Postgres.
 (1 row)
 ```
 
-If you try it on an arbitrary string, it is unable to disambiguate which
-string type (e.g. `text` vs `varchar`).
+If you try it on an arbitrary string, it is unable to disambiguate which string
+type (e.g. `text` vs `varchar`).
 
 ```sql
 > select pg_typeof('hello');

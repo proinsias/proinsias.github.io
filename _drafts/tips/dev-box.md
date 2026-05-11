@@ -2,8 +2,10 @@
 layout: single
 title: "Dev box"
 excerpt: >-
-    If companies want to get value from their data, they need to focus on accelerating human understanding of data,
-    scaling the number of modeling questions they can ask of that data in a short amount of time, and assessing their implications.
+    If companies want to get value from their data, they need to focus on
+    accelerating human understanding of data, scaling the number of modeling
+    questions they can ask of that data in a short amount of time, and assessing
+    their implications.
 date: 2024-10-30 21:27
 last_modified_at: 2025-05-13 00:33:19
 categories:

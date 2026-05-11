@@ -30,7 +30,8 @@ Let's consider the following DataFrame:
 9  0.085395  0.715533 -0.731354  5
 ```
 
-By default, `groupby` will set the group of the `groupby` as the index of the DataFrame:
+By default, `groupby` will set the group of the `groupby` as the index of the
+DataFrame:
 
 ```python
 >>> df.groupby('D').max()

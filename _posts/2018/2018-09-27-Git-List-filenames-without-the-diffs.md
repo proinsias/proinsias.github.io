@@ -11,10 +11,10 @@ tags:
     - til
 ---
 
-The `git show` command will list all changes for a given reference
-including the diffs. With diffs included, this can get rather verbose at
-times. If you just want to see the list of files involved (excluding the
-diffs), you can use the `--name-only` flag. For instance,
+The `git show` command will list all changes for a given reference including the
+diffs. With diffs included, this can get rather verbose at times. If you just
+want to see the list of files involved (excluding the diffs), you can use the
+`--name-only` flag. For instance,
 
 ```bash
 $ git show HEAD --name-only

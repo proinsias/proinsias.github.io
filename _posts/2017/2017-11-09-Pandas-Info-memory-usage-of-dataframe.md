@@ -11,9 +11,10 @@ tags:
     - til
 ---
 
-The memory usage of a DataFrame (including the index) is shown when accessing the `info`
-method of a DataFrame. A configuration option, `display.memory_usage`, specifies if the
-DataFrame's memory usage will be displayed when invoking the `df.info()` method.
+The memory usage of a DataFrame (including the index) is shown when accessing
+the `info` method of a DataFrame. A configuration option,
+`display.memory_usage`, specifies if the DataFrame's memory usage will be
+displayed when invoking the `df.info()` method.
 
 ```python
 >>> df = pd.DataFrame(np.random.randn(10,3),columns=list('ABC'))

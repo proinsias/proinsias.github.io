@@ -12,7 +12,8 @@ tags:
     - nix
 ---
 
-As we get closer to the big day, here's how to get a Christmas tree in your terminal:
+As we get closer to the big day, here's how to get a Christmas tree in your
+terminal:
 
 ```shell
 # Install ctree via homebrew.
@@ -23,4 +24,5 @@ ctree --no-refresh
 
 ![Demo of ctree displaying a Christmas tree in your terminal](https://raw.githubusercontent.com/gleich/ctree/master/images/demo.gif)
 
-Via [linuxlinks.com](https://www.linuxlinks.com/linux-candy-ctree-christmas-tree-terminal/).
+Via
+[linuxlinks.com](https://www.linuxlinks.com/linux-candy-ctree-christmas-tree-terminal/).

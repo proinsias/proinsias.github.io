@@ -12,9 +12,9 @@ tags:
     - til
 ---
 
-If you can connect to your database with `psql`, then you can easily find
-the location of your Postgres config files. After connecting, I can ask
-Postgres to show me where the main config file is:
+If you can connect to your database with `psql`, then you can easily find the
+location of your Postgres config files. After connecting, I can ask Postgres to
+show me where the main config file is:
 
 ```sql
 > show config_file;

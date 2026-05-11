@@ -34,7 +34,7 @@ You can even create multiple columns of values.
        2 | b       | f
 ```
 
-This is most often used with an insert command, but can be used on its own,
-as a subquery, within a CTE, etc.
+This is most often used with an insert command, but can be used on its own, as a
+subquery, within a CTE, etc.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

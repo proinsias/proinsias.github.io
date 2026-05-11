@@ -40,7 +40,7 @@ such as:
 - `us` time spent in user code, or
 - `sy` time spent in kernel code.
 
-As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of measurement
-for memory.
+As current Linux blocks are 1024 bytes, `vmstat` uses the same unit of
+measurement for memory.
 
 Via [enki.com](https://app.enkipro.com/#/insight/55c93d553d25fc2e0079a8b4).

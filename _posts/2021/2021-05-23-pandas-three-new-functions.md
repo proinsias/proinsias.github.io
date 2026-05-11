@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-Towards Data Science on Medium has been a great source of tips so far,
-and [this article](https://towardsdatascience.com/top-3-pandas-functions-i-wish-i-knew-earlier-6711030bf48a)
+Towards Data Science on Medium has been a great source of tips so far, and
+[this article](https://towardsdatascience.com/top-3-pandas-functions-i-wish-i-knew-earlier-6711030bf48a)
 is a great example that highlights the following functions new to me.
 
 ```python

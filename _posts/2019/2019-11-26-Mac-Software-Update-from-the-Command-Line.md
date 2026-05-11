@@ -11,9 +11,10 @@ tags:
     - til
 ---
 
-There are [lots of Terminal commands](https://web.archive.org/web/20200916141733/https://github.com/jamf/erase-install-webinar/wiki)
-that you can use to change or update your Mac's OS.
-My favorite is this quick tip to download macOS updates and installation files:
+There are
+[lots of Terminal commands](https://web.archive.org/web/20200916141733/https://github.com/jamf/erase-install-webinar/wiki)
+that you can use to change or update your Mac's OS. My favorite is this quick
+tip to download macOS updates and installation files:
 
 ```bash
 # To download the latest macOS update.
@@ -22,4 +23,5 @@ softwareupdate —fetch-full-installer
 softwareupdate —fetch-full-installer --full-installer-version 10.14.5
 ```
 
-Via [lifehacker.com](https://lifehacker.com/how-to-download-and-install-older-macos-versions-with-t-1839671161).
+Via
+[lifehacker.com](https://lifehacker.com/how-to-download-and-install-older-macos-versions-with-t-1839671161).

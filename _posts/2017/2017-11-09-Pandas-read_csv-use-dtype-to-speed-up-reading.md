@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-By default, `pandas` will infer the data types of the columns when reading in a csv file.
-To speed up this read, you can specify the data types using the `dtype` argument of
-`read_csv()`.
+By default, `pandas` will infer the data types of the columns when reading in a
+csv file. To speed up this read, you can specify the data types using the
+`dtype` argument of `read_csv()`.
 
 For example:
 

@@ -17,9 +17,9 @@ Let's say we just executed the following command:
 grep 'foo' foo.md
 ```
 
-It gave us the information we were looking for and now we want to execute
-a similar command to find the occurrences of `bar` in `bar.md`. The `^`
-trick won't quite work here.
+It gave us the information we were looking for and now we want to execute a
+similar command to find the occurrences of `bar` in `bar.md`. The `^` trick
+won't quite work here.
 
 ```bash
 $ ^foo^bar<tab>
@@ -35,7 +35,7 @@ grep 'bar' bar.md
 ```
 
 For a short command like this, we haven't gained much. However, for large
-commands that span the length of the terminal, this can definitely save us
-a little trouble.
+commands that span the length of the terminal, this can definitely save us a
+little trouble.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

@@ -14,10 +14,10 @@ redirect_from:
     - /pages/proinsias/til/formatting-text-paragraphs-in-python
 ---
 
-> The textwrap module can be used to format text for output in situations
-> where pretty-printing is desired.
-> It offers programmatic functionality similar to the paragraph wrapping
-> or filling features found in many text editors and word processors.
+> The textwrap module can be used to format text for output in situations where
+> pretty-printing is desired. It offers programmatic functionality similar to
+> the paragraph wrapping or filling features found in many text editors and word
+> processors.
 
 Given a sample text:
 
@@ -55,4 +55,5 @@ wrapping or filling features found in many
 text editors.'''
 ```
 
-Via [The Python 3 Module of the Week](https://pymotw.com/3/textwrap/index.html) and [enki.com](https://app.enki.com/public/insight/56c75b1edc39f90600d79c53).
+Via [The Python 3 Module of the Week](https://pymotw.com/3/textwrap/index.html)
+and [enki.com](https://app.enki.com/public/insight/56c75b1edc39f90600d79c53).

@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-You can determine the current user of a psql session by selecting on the `current_user`
+You can determine the current user of a psql session by selecting on the
+`current_user`
 
 ```sql
 > select current_user;

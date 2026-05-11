@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-You can check for class inheritance relationships with the `issubclass()` built-in:
+You can check for class inheritance relationships with the `issubclass()`
+built-in:
 
 ```python
 >>> class BaseClass: pass

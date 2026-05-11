@@ -12,12 +12,11 @@ tags:
     - til
 ---
 
-I'll often times use `\d` or `\dt` to check out the tables in my database.
-This shows the schema, object name, object type (e.g. `table`), and owner
-for each.
+I'll often times use `\d` or `\dt` to check out the tables in my database. This
+shows the schema, object name, object type (e.g. `table`), and owner for each.
 
-By adding the `+` to that meta-command, I can also see the disk usage for
-each database object.
+By adding the `+` to that meta-command, I can also see the disk usage for each
+database object.
 
 Here is an example of look at all tables in a database with the additional
 `Size` (or disk usage) information:

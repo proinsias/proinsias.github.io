@@ -13,5 +13,5 @@ redirect_from:
     - /tips/crontab-schedule-editor
 ---
 
-Do you always forget how to read/write cronjobs?
-Check out [crontab.guru](http://crontab.guru/) - the cron schedule expression editor.
+Do you always forget how to read/write cronjobs? Check out
+[crontab.guru](http://crontab.guru/) - the cron schedule expression editor.

@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-To count the number of duplicate rows in a pyspark DataFrame,
-you want to `groupBy()` all the columns and `count()`,
-then select the sum of the counts for the rows where the count is greater than 1:
+To count the number of duplicate rows in a pyspark DataFrame, you want to
+`groupBy()` all the columns and `count()`, then select the sum of the counts for
+the rows where the count is greater than 1:
 
 ```python
 import pyspark.sql.functions as funcs
@@ -24,4 +24,5 @@ df.groupBy(df.columns)\
     .show()
 ```
 
-Via [SO](https://web.archive.org/web/20220818191209/https://stackoverflow.com/questions/48554619/count-number-of-duplicate-rows-in-sparksql/48554666).
+Via
+[SO](https://web.archive.org/web/20220818191209/https://stackoverflow.com/questions/48554619/count-number-of-duplicate-rows-in-sparksql/48554666).

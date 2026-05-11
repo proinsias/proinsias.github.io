@@ -13,8 +13,8 @@ tags:
 
 I often generate UUIDs (
 [Universally Unique Identifiers](https://en.wikipedia.org/wiki/Universally_unique_identifier)
-), but when I use these in testing, I want to do so reproducibly.
-Turns out you can do this using a seed from the `random` module:
+), but when I use these in testing, I want to do so reproducibly. Turns out you
+can do this using a seed from the `random` module:
 
 ```python
 import uuid

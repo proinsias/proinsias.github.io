@@ -14,9 +14,12 @@ redirect_from:
     - /pages/proinsias/til/show-all-docker-build-output
 ---
 
-You may have noticed with newer versions of Docker that the output of each layer's commands is shown only while that layer is being built, and is then hidden.
+You may have noticed with newer versions of Docker that the output of each
+layer's commands is shown only while that layer is being built, and is then
+hidden.
 
-You can control this behavior the `--progress` output of the `docker build` command:
+You can control this behavior the `--progress` output of the `docker build`
+command:
 
 ```bash
 docker build --help

@@ -13,9 +13,9 @@ tags:
 ---
 
 The `pg_stat_activity` table can be used to determine what connections there
-currently are to the PostgreSQL server and to a particular database. To see
-the process ids and usernames of all connection to your PostgreSQL server,
-run the following query:
+currently are to the PostgreSQL server and to a particular database. To see the
+process ids and usernames of all connection to your PostgreSQL server, run the
+following query:
 
 ```sql
 > select pid, usename from pg_stat_activity;
@@ -25,8 +25,8 @@ run the following query:
  83420 | jbranchaud
 ```
 
-Include `datname` in the requested columns to figure out the database of
-each connection.
+Include `datname` in the requested columns to figure out the database of each
+connection.
 
 ```sql
 > select pid, usename, datname from pg_stat_activity;

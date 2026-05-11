@@ -16,10 +16,15 @@ redirect_from:
 
 When using the `sudo` command:
 
-> you may depend on environment-variables ... being set, and these might not survive the switch to root with sudo, which resets environment by default.
+> you may depend on environment-variables ... being set, and these might not
+> survive the switch to root with sudo, which resets environment by default.
 >
-> To get around this, you can run sudo with the `-E` switch, `sudo -E` ..., which retains environment variables.
+> To get around this, you can run sudo with the `-E` switch, `sudo -E` ...,
+> which retains environment variables.
 
-The long name for this option is `--preserve-env` – I prefer to use long names in scripts to make these easier to understand next week, next month, and especially next year...!
+The long name for this option is `--preserve-env` – I prefer to use long names
+in scripts to make these easier to understand next week, next month, and
+especially next year...!
 
-Via [github.com/git-lfs](https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md).
+Via
+[github.com/git-lfs](https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md).

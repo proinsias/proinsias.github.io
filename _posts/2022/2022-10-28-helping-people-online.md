@@ -5,8 +5,8 @@ layout: single
 published: true
 title: Helping people online
 excerpt: >-
-    How to overcome the communication limitations of the internet and actually help
-    people
+    How to overcome the communication limitations of the internet and actually
+    help people
 categories:
     - posts
 tags:
@@ -16,16 +16,15 @@ redirect_from:
     - /pages/proinsias/posts/helping-people-online
 ---
 
-A helpful [post](https://web.archive.org/web/20220826234811/https://nedbatchelder.com/blog/202009/how_to_be_helpful_online.html)
-by [Ned Batchelder](https://nedbatchelder.com/) on how to overcome the communication limitations of the internet
-and actually help people:
+A helpful
+[post](https://web.archive.org/web/20220826234811/https://nedbatchelder.com/blog/202009/how_to_be_helpful_online.html)
+by [Ned Batchelder](https://nedbatchelder.com/) on how to overcome the
+communication limitations of the internet and actually help people:
 
-> Helping people online is difficult.
-> We expect technical questions and discussions,
-> but everyone involved are just people,
-> so it doesn't always go smoothly.
-> There's no way to guarantee a good outcome,
-> but there are things we as helpers can do to improve the interactions.
+> Helping people online is difficult. We expect technical questions and
+> discussions, but everyone involved are just people, so it doesn't always go
+> smoothly. There's no way to guarantee a good outcome, but there are things we
+> as helpers can do to improve the interactions.
 
 The highlights:
 

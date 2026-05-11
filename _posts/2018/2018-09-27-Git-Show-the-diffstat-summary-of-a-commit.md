@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-Use the `--stat` flag when running `git show` on a commit to see the
-`diffstat` summary of that commit. For instance, this is what I get for a
-recent commit to [delve](https://github.com/derekparker/delve):
+Use the `--stat` flag when running `git show` on a commit to see the `diffstat`
+summary of that commit. For instance, this is what I get for a recent commit to
+[delve](https://github.com/derekparker/delve):
 
 ```bash
 $ git show 8a1f36a1ce --stat

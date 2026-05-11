@@ -21,7 +21,9 @@ To count the number of fields in a delimiter-separated text file, use `awk`:
 5
 ```
 
-`NF` is a variable with the number of fields in the current record.
-The `-F` option is used to specify the file delimiter, and the default delimiter is a space.
+`NF` is a variable with the number of fields in the current record. The `-F`
+option is used to specify the file delimiter, and the default delimiter is a
+space.
 
-Via [unix.com](https://www.unix.com/shell-programming-and-scripting/48535-how-count-number-fields-record.html).
+Via
+[unix.com](https://www.unix.com/shell-programming-and-scripting/48535-how-count-number-fields-record.html).

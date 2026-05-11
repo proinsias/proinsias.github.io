@@ -13,14 +13,14 @@ tags:
     - til
 ---
 
-I mostly clone GitHub and Bitbucket repositories using SSH URLs,
-so that I can protect this access with an SSH private/public key pair.
-Unfortunately, some firewalls refuse to allow SSH connections.
-Thankfully both [GitHub](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
+I mostly clone GitHub and Bitbucket repositories using SSH URLs, so that I can
+protect this access with an SSH private/public key pair. Unfortunately, some
+firewalls refuse to allow SSH connections. Thankfully both
+[GitHub](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
 and
 [Bitbucket](https://confluence.atlassian.com/bitbucket/troubleshoot-ssh-issues-271943403.html#TroubleshootSSHissues-Ifport22isblocked)
-support using an SSH connection made over the HTTPS port.
-Most firewall rules should allow this – though proxy servers may still interfere.
+support using an SSH connection made over the HTTPS port. Most firewall rules
+should allow this – though proxy servers may still interfere.
 
 To enable this, edit `~/.ssh/config`, and add the following section:
 

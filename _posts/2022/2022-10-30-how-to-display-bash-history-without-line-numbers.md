@@ -14,7 +14,8 @@ redirect_from:
     - /pages/proinsias/til/how-to-display-bash-history-without-line-numbers
 ---
 
-A standard use of the `history` command will output line numbers as well as the commands in your history:
+A standard use of the `history` command will output line numbers as well as the
+commands in your history:
 
 ```shell
 > history
@@ -23,14 +24,16 @@ A standard use of the `history` command will output line numbers as well as the 
   3  rm my_file.txt
 ```
 
-The line numbers are useful for when you want to repeat a command – you can refer to it by the line number as follows:
+The line numbers are useful for when you want to repeat a command – you can
+refer to it by the line number as follows:
 
 ```shell
 > !1
 my_file.txt
 ```
 
-But if you want to save a lot of commands from your history and not have to edit out the line numbers, you can simply use:
+But if you want to save a lot of commands from your history and not have to edit
+out the line numbers, you can simply use:
 
 ```shell
 > history -w /dev/stdout
@@ -41,6 +44,8 @@ history
 ls
 ```
 
-The `-w` option tells `history` to write the current history to a file. In the above version we redirect to the standard output instead of a file.
+The `-w` option tells `history` to write the current history to a file. In the
+above version we redirect to the standard output instead of a file.
 
-Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/27907/how-to-display-bash-history-without-line-numbers).
+Via
+[commandlinefu.com](https://www.commandlinefu.com/commands/view/27907/how-to-display-bash-history-without-line-numbers).

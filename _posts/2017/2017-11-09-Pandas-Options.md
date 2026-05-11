@@ -41,4 +41,5 @@ pd.describe_option("rows")  # Print description for 'rows' registered option.
 pd.describe_option()  # Get a listing for all registered options.
 ```
 
-Via [How do I change display options in pandas?](https://www.youtube.com/watch?v=yiO43TQ4xvc).
+Via
+[How do I change display options in pandas?](https://www.youtube.com/watch?v=yiO43TQ4xvc).

@@ -11,10 +11,12 @@ tags:
     - til
 ---
 
-I'm a big fan of using `git stash` to shelve some changes in my repository so that I can move on to some other task.
-Here are some advanced `git stash` commands to optimize your use of this tool:
+I'm a big fan of using `git stash` to shelve some changes in my repository so
+that I can move on to some other task. Here are some advanced `git stash`
+commands to optimize your use of this tool:
 
-> To provide a bit more context, it's good practice to annotate your stashes with a description, using:
+> To provide a bit more context, it's good practice to annotate your stashes
+> with a description, using:
 
 ```bash
 git stash save "message"
@@ -50,15 +52,16 @@ index 9daeafb..ebdcbd2 100644
 +<link rel="stylesheet" href="style.css"/>
 ```
 
-> You can choose which stash to re-apply by passing its identifier as the last argument:
+> You can choose which stash to re-apply by passing its identifier as the last
+> argument:
 
 ```bash
 git stash pop stash@{2}
 ```
 
-> If the changes on your branch diverge from the changes in your stash,
-> you may run into conflicts when popping or applying your stash.
-> Instead, you can use the following to create a new branch to apply your stashed changes to:
+> If the changes on your branch diverge from the changes in your stash, you may
+> run into conflicts when popping or applying your stash. Instead, you can use
+> the following to create a new branch to apply your stashed changes to:
 
 ```bash
 git stash branch
@@ -70,4 +73,5 @@ git stash branch
 git stash clear
 ```
 
-Via [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/saving-changes/git-stash).
+Via
+[Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/saving-changes/git-stash).

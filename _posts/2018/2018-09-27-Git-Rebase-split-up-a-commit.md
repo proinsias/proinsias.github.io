@@ -11,13 +11,13 @@ tags:
     - til
 ---
 
-When working on a branch with multiple commits,
-you can "go back in time" and revise previous commits any way you please.
+When working on a branch with multiple commits, you can "go back in time" and
+revise previous commits any way you please.
 
     git rebase -i origin/master
 
-This command will prompt you inside of your `$VISUAL` with a series of commit SHAs
-and commit titles:
+This command will prompt you inside of your `$VISUAL` with a series of commit
+SHAs and commit titles:
 
     # ...
     pick ed1ff41 Move templates
@@ -31,13 +31,13 @@ To split up `274ac0e`, replace `pick` with `edit` and save the buffer.
     edit 274ac0e Move components & views
     # ...
 
-You are now detached from the `HEAD` of your branch and "back in time".
-To split up the current commit (`274ac0e`):
+You are now detached from the `HEAD` of your branch and "back in time". To split
+up the current commit (`274ac0e`):
 
     git reset HEAD~
 
-This will unstage all files within the commit.
-Next, split up the commit any way you'd like.
+This will unstage all files within the commit. Next, split up the commit any way
+you'd like.
 
     git add app/views
     git commit -m "Move views"
@@ -48,8 +48,8 @@ When you're finished, continue the rebase.
 
     git rebase --continue
 
-If you introduced merge conflicts down the line, you'll have to resolve them.
-If all went well, your branch's history will be re-written.
+If you introduced merge conflicts down the line, you'll have to resolve them. If
+all went well, your branch's history will be re-written.
 
     git log origin/master..
 

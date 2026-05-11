@@ -12,22 +12,22 @@ tags:
     - til
 ---
 
-If you check out the docs for the [`uuid-ossp`
-extension](https://www.postgresql.org/docs/current/static/uuid-ossp.html),
+If you check out the docs for the
+[`uuid-ossp` extension](https://www.postgresql.org/docs/current/static/uuid-ossp.html),
 you'll come across the following message.
 
-> The OSSP UUID library... is not well maintained, and is becoming
-> increasingly difficult to port to newer platforms.
+> The OSSP UUID library... is not well maintained, and is becoming increasingly
+> difficult to port to newer platforms.
 
 A little bit later, it says:
 
 > If you only need randomly-generated (version 4) UUIDs, consider using the
 > gen_random_uuid() function from the pgcrypto module instead.
 
-So, if we are using the UUID data type and only need to generate random
-UUIDs, we can rely on the [`pgcrypto`
-extension](https://www.postgresql.org/docs/current/static/pgcrypto.html). It
-comes with the `gen_random_uuid()` function which generates random v4 UUIDs.
+So, if we are using the UUID data type and only need to generate random UUIDs,
+we can rely on the
+[`pgcrypto` extension](https://www.postgresql.org/docs/current/static/pgcrypto.html).
+It comes with the `gen_random_uuid()` function which generates random v4 UUIDs.
 
 ```sql
 > create extension "pgcrypto";

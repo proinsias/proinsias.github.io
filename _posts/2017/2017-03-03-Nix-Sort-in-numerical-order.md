@@ -15,8 +15,8 @@ By default, the `sort` command will sort things alphabetically. If you have
 numerical input though, you may want a numerical sort. This is what the `-n`
 flag is for.
 
-If I have a directory of files with numbered names, sort doesn't quite do
-the job by itself.
+If I have a directory of files with numbered names, sort doesn't quite do the
+job by itself.
 
 ```bash
 $ ls | sort

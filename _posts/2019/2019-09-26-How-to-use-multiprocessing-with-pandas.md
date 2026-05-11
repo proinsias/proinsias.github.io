@@ -13,10 +13,11 @@ tags:
     - tips
 ---
 
-`pandas` doesn't support parallel processing out of the box,
-but you can wrap support for using all of your expensive CPUs around calls to `apply()`.
+`pandas` doesn't support parallel processing out of the box, but you can wrap
+support for using all of your expensive CPUs around calls to `apply()`.
 
-Say you have a large `Series` or `DataFrame`, and a function you want to `apply` to it:
+Say you have a large `Series` or `DataFrame`, and a function you want to `apply`
+to it:
 
 ```python
 s = pd.Series(np.arange(10))  # Pretend this is a large Series!
@@ -43,7 +44,8 @@ Normally you would `apply` the function as follows:
 dtype: int64
 ```
 
-You can speed up `apply`-ing the function using the following `parallel_apply()` function:
+You can speed up `apply`-ing the function using the following `parallel_apply()`
+function:
 
 ```python
 import multiprocessing as mp

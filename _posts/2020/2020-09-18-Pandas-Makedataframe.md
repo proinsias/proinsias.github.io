@@ -12,10 +12,10 @@ tags:
     - til
 ---
 
-`pandas` has a built-in function `makeDataFrame()` to return a
-DataFrame containing random floats. Note that this is using the
-private API, and the exact details has been changing over time. For
-`pandas` version 1.1.2, the following should work:
+`pandas` has a built-in function `makeDataFrame()` to return a DataFrame
+containing random floats. Note that this is using the private API, and the exact
+details has been changing over time. For `pandas` version 1.1.2, the following
+should work:
 
 ```python
 >>> import pandas as pd

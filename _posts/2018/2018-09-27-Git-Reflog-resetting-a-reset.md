@@ -11,12 +11,12 @@ tags:
     - til
 ---
 
-Sometimes we run commands like `git reset --hard HEAD~` when we shouldn't
-have. We wish we could undo what we've done, but the commit we've _reset_ is
-gone forever. Or is it?
+Sometimes we run commands like `git reset --hard HEAD~` when we shouldn't have.
+We wish we could undo what we've done, but the commit we've _reset_ is gone
+forever. Or is it?
 
-When bad things happen, `git-reflog` can often lend a hand. Using
-`git-reflog`, we can find our way back to were we've been; to better times.
+When bad things happen, `git-reflog` can often lend a hand. Using `git-reflog`,
+we can find our way back to were we've been; to better times.
 
 ```bash
 $ git reflog
@@ -25,8 +25,8 @@ $ git reflog
 ...
 ```
 
-We can see that `HEAD@{1}` references a time and place before we destroyed
-our last commit. Let's fix things by resetting to that.
+We can see that `HEAD@{1}` references a time and place before we destroyed our
+last commit. Let's fix things by resetting to that.
 
 ```bash
 git reset HEAD@{1}
@@ -34,7 +34,7 @@ git reset HEAD@{1}
 
 Our lost commit is found.
 
-Unfortunately, we cannot undo all the bad in the world. Any changes to
-tracked files will be irreparably lost.
+Unfortunately, we cannot undo all the bad in the world. Any changes to tracked
+files will be irreparably lost.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

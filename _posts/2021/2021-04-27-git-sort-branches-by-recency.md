@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-> When you type git branch, your branch list is sorted alphabetically by default.
-> This isn't super helpful. To sort your branches by their last commit date,
-> with the most recent at the top, add this to your `.gitconfig`:
+> When you type git branch, your branch list is sorted alphabetically by
+> default. This isn't super helpful. To sort your branches by their last commit
+> date, with the most recent at the top, add this to your `.gitconfig`:
 
 ```git
 [branch]

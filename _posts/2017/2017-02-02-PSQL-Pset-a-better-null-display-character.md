@@ -13,8 +13,8 @@ tags:
 ---
 
 By default, `psql` will display null values with whitespace. This makes it
-difficult to quickly identify null values when they appear amongst a bunch
-of other data. You can pick a better display value for null characters with
+difficult to quickly identify null values when they appear amongst a bunch of
+other data. You can pick a better display value for null characters with
 `\pset null`. My preference is the following:
 
 ```psql

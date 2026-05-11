@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-The `pd.Series.str.contains` method assumes that it is passed a regular expression for the `pat` input:
+The `pd.Series.str.contains` method assumes that it is passed a regular
+expression for the `pat` input:
 
 ```python
 >>> import re
@@ -46,4 +47,5 @@ You can also pass regex flags:
 
 Set `regex=False` to treat `pat` as a plain character sequence.
 
-Via [pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.contains.html).
+Via
+[pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.contains.html).

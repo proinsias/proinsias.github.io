@@ -11,14 +11,14 @@ tags:
     - til
 ---
 
-One of the benefits of piping is that you can use it over networks and it does wonders for
-data transfer. Note that half of the command is executed locally, while the other half is
-executed remotely.
+One of the benefits of piping is that you can use it over networks and it does
+wonders for data transfer. Note that half of the command is executed locally,
+while the other half is executed remotely.
 
 ## Compressed file transfer
 
-You can copy files over the network in an instant. This archives the files into a
-`tar` file, compresses it, copies it to the server, and decompresses it there:
+You can copy files over the network in an instant. This archives the files into
+a `tar` file, compresses it, copies it to the server, and decompresses it there:
 
 ```bash
 tar cfz - folder | ssh user@enki 'tar xfz destdir'

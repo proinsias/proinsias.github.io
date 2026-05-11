@@ -13,8 +13,8 @@ tags:
 ---
 
 [climagic](https://twitter.com/climagic) posted a great
-[example](https://twitter.com/climagic/status/846714728235892737)
-of multiple commands:
+[example](https://twitter.com/climagic/status/846714728235892737) of multiple
+commands:
 
 ```bash
 ping -c100 4.2.2.2 | sponge | pee head tail
@@ -25,12 +25,12 @@ Let's split this command up – see this
 for some additional detail:
 
 1. `ping -c100 4.2.2.2` pings the
-   [DNS server 4.2.2.2](https://4kib.com/4-2-2-2-story-behind-dns-legend/)
-   100 times.
+   [DNS server 4.2.2.2](https://4kib.com/4-2-2-2-story-behind-dns-legend/) 100
+   times.
 2. `sponge` 'soaks' up all the data from `ping`.
-3. `pee` (`tee` for pipes) runs each command provided – in this case `head` and `tail`,
-   and feeds each command a copy of the standard input.
-   The output of all commands is sent to stdout.
+3. `pee` (`tee` for pipes) runs each command provided – in this case `head` and
+   `tail`, and feeds each command a copy of the standard input. The output of
+   all commands is sent to stdout.
 
 Here's an example output of the full pipeline:
 

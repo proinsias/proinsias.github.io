@@ -25,12 +25,11 @@ $ dd if=/dev/zero bs=1M count=1024 | md5sum
 cd573cfaace07e7949bc0c46028904ff  -
 ```
 
-In this case the `md5sum` program was used,
-which calculates the MD5 hash of data that is fed to it.
+In this case the `md5sum` program was used, which calculates the MD5 hash of
+data that is fed to it.
 
-In effect, `dd` here fetches 1 GB of zeroes from the Linux kernel,
-feeds that to `md5sum`,
-and then prints how fast in MB/sec that was processed.
-This was executed on a modern 3.6 GHz AMD Phenom II CPU.
+In effect, `dd` here fetches 1 GB of zeroes from the Linux kernel, feeds that to
+`md5sum`, and then prints how fast in MB/sec that was processed. This was
+executed on a modern 3.6 GHz AMD Phenom II CPU.
 
 Via [enki.com](https://app.enkipro.com/#/insight/5586093a5c637c4b29b92748).

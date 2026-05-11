@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-If you have both staged and unstaged changes in your project, you can
-perform a stash on just the unstaged ones by using the `-k` flag. The
-staged changes will be left intact ready for a commit.
+If you have both staged and unstaged changes in your project, you can perform a
+stash on just the unstaged ones by using the `-k` flag. The staged changes will
+be left intact ready for a commit.
 
 ```bash
 $ git status

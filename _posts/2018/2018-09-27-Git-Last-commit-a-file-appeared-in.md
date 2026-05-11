@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-In my project, I have a `README.md` file that I haven't modified in a while.
-I'd like to take a look at the last commit that modified it. The `git log`
-command can be used here with few arguments to narrow it down.
+In my project, I have a `README.md` file that I haven't modified in a while. I'd
+like to take a look at the last commit that modified it. The `git log` command
+can be used here with few arguments to narrow it down.
 
 ```bash
 $ git log -1 -- README.md
@@ -24,9 +24,9 @@ Date:   Sun May 17 12:08:02 2015 -0500
     Add some documentation on configuring basic auth.
 ```
 
-This same command will even work for files that have been deleted if you
-know the path and name of the file in question. For instance, I used to have
-an `ideas.md` file and I'd like to find the commit that removed it.
+This same command will even work for files that have been deleted if you know
+the path and name of the file in question. For instance, I used to have an
+`ideas.md` file and I'd like to find the commit that removed it.
 
 ```bash
 $ git log -1 -- docs/ideas.md

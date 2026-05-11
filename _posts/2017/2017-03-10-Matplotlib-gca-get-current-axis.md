@@ -13,8 +13,8 @@ tags:
     - visualization
 ---
 
-`matplotlib.pyplot.gca(**kwargs)` gets the current `Axes` instance on the current
-figure matching the given keyword args, or create one.
+`matplotlib.pyplot.gca(**kwargs)` gets the current `Axes` instance on the
+current figure matching the given keyword args, or create one.
 
 ```python
 import matplotlib.pyplot as plt

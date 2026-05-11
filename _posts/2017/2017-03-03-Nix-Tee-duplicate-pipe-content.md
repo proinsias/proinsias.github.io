@@ -11,17 +11,16 @@ tags:
     - til
 ---
 
-> To duplicate the content while piping you can use the tee utility.
-> One straightforward and useful example is that tee can be used to write to multiple files
-> at the same time.
-> The command to achieve this is:
+> To duplicate the content while piping you can use the tee utility. One
+> straightforward and useful example is that tee can be used to write to
+> multiple files at the same time. The command to achieve this is:
 
 ```bash
 ps | tee file_one file_two file_three
 ```
 
-> The output of the `ps` command is now inside three different files.
-> To append data to files, the `-a` flag must be used:
+> The output of the `ps` command is now inside three different files. To append
+> data to files, the `-a` flag must be used:
 
 ```bash
 ps | tee -a file_one file_two file_three

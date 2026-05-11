@@ -12,8 +12,8 @@ tags:
 ---
 
 In tmux, the size of window panes can be adjusted incrementally with the
-`resize-pane` command. For instance, to resize a pane in any direction
-(left, down, up, and right), use one of the following commands
+`resize-pane` command. For instance, to resize a pane in any direction (left,
+down, up, and right), use one of the following commands
 
 ```tmux
 resize-pane -L 10

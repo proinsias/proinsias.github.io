@@ -40,10 +40,12 @@ You can extract the values of the `text` field from the array using `jq`:
 "blabla3"
 ```
 
-Or you can select using the type of each array element using either `jq '.response[] | objects | .text' file.json`
-or `jq '.response[] | select(type=="object" and has("text")) | .text' file.json`
+Or you can select using the type of each array element using either
+`jq '.response[] | objects | .text' file.json` or
+`jq '.response[] | select(type=="object" and has("text")) | .text' file.json`
 
-Finally, you can include a placeholder value for array elements without the `text` field of interest:
+Finally, you can include a placeholder value for array elements without the
+`text` field of interest:
 
 ```shell
 > jq '.response[] | if type=="object" and has("text") then .text else null end' file.json
@@ -53,4 +55,5 @@ Finally, you can include a placeholder value for array elements without the `tex
 "blabla3"
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/questions/45523425/getting-all-the-values-of-an-array-with-jq).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/45523425/getting-all-the-values-of-an-array-with-jq).

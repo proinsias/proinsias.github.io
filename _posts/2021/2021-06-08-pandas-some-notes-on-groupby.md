@@ -11,11 +11,12 @@ tags:
     - til
 ---
 
-1. The `count()` aggregation function counts only non-null values.
-   To count all values, whether null or non-null, use `size`.
+1. The `count()` aggregation function counts only non-null values. To count all
+   values, whether null or non-null, use `size`.
 
-2. You can specify the names of aggregated columns as the arguments to the `agg` function.
-   Here I use a dictionary so that I can use string constants for colum names.
+2. You can specify the names of aggregated columns as the arguments to the `agg`
+   function. Here I use a dictionary so that I can use string constants for
+   colum names.
 
     ```python
     # Series level
@@ -37,5 +38,7 @@ tags:
     )
     ```
 
-Via [Christopher Tao](https://towardsdatascience.com/4-pandas-groupby-tricks-you-should-know-9e5b9870693e)
-and [Soner Yıldırım](https://towardsdatascience.com/3-python-pandas-tricks-for-efficient-data-analysis-6324d013ef39).
+Via
+[Christopher Tao](https://towardsdatascience.com/4-pandas-groupby-tricks-you-should-know-9e5b9870693e)
+and
+[Soner Yıldırım](https://towardsdatascience.com/3-python-pandas-tricks-for-efficient-data-analysis-6324d013ef39).

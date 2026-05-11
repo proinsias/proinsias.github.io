@@ -32,4 +32,5 @@ echo '#!/bin/sh
   /home/simon/team-storage' | sudo tee /root/tarsnap-backup.sh > /dev/null
 ```
 
-Via [@simonw](https://github.com/simonw/til/blob/main/linux/echo-pipe-to-file-su.md).
+Via
+[@simonw](https://github.com/simonw/til/blob/main/linux/echo-pipe-to-file-su.md).

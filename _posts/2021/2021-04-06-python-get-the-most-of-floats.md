@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-> Similar to the int data type, floats also have several additional methods useful in various scenarios:
+> Similar to the int data type, floats also have several additional methods
+> useful in various scenarios:
 
 ```python
 # Check if the float number is actually an integer:
@@ -53,4 +54,5 @@ True
 1.5
 ```
 
-Via [enkipro.com](https://app.enkipro.com/public/insight/56c49bcfb6162b08008eeb0b).
+Via
+[enkipro.com](https://app.enkipro.com/public/insight/56c49bcfb6162b08008eeb0b).

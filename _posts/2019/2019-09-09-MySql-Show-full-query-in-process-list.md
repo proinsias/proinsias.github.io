@@ -16,7 +16,8 @@ tags:
 SHOW PROCESSLIST
 ```
 
-only shows the first 100 characters of the running SQL query. To get the full SQL query, use:
+only shows the first 100 characters of the running SQL query. To get the full
+SQL query, use:
 
 ```sql
 SHOW FULL PROCESSLIST

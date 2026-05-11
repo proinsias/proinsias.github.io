@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-If you have a variable with a large memory footprint, you can force garbage collection
-using the `gc` Garbage Collector module:
+If you have a variable with a large memory footprint, you can force garbage
+collection using the `gc` Garbage Collector module:
 
 ```python
 big_variable = None

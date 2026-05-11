@@ -12,8 +12,9 @@ tags:
     - sudo
 ---
 
-On newer MacBook Pros, you can add Touch ID as an acceptable method of authenticating sudo commands.
-This is done by editing the `/etc/pam.d/sudo` file:
+On newer MacBook Pros, you can add Touch ID as an acceptable method of
+authenticating sudo commands. This is done by editing the `/etc/pam.d/sudo`
+file:
 
 ```bash
 $ cat /etc/pam.d/sudo
@@ -33,4 +34,5 @@ Update the file to include the following line after the `# sudo ...` line:
 auth       sufficient     pam_tid.so
 ```
 
-Via [maketecheasier.com](https://www.maketecheasier.com/use-touch-id-authenticate-sudo-commands-mac/).
+Via
+[maketecheasier.com](https://www.maketecheasier.com/use-touch-id-authenticate-sudo-commands-mac/).

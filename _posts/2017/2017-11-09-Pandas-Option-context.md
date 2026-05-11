@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-If you want to temporarily change pandas options,
-instead of doing so manually as follows:
+If you want to temporarily change pandas options, instead of doing so manually
+as follows:
 
 ```python
 max_columns = pd.get_option('display.max_columns')
@@ -33,6 +33,7 @@ with pd.option_context('display.max_rows', None, 'display.max_columns', None, ):
     print(df)
 ```
 
-This will automatically return the options to their default values after printing the dataframe.
+This will automatically return the options to their default values after
+printing the dataframe.
 
 Via [SO](https://stackoverflow.com/a/30691921/1257318).

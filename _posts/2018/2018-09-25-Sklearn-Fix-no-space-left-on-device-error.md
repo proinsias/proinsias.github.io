@@ -17,9 +17,9 @@ While fitting a sklearn model, I encountered the following error:
 IOError: No space left on device
 ```
 
-Apparently when you set `n_jobs > 1` and therefore use shared memory,
-you can run out of shared memory.
-The workaround is to set the following environment variable:
+Apparently when you set `n_jobs > 1` and therefore use shared memory, you can
+run out of shared memory. The workaround is to set the following environment
+variable:
 
 ```python
 %env JOBLIB_TEMP_FOLDER=/tmp

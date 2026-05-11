@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-To detach from a container, you hold `Ctrl` and press `P`, then `Q`.
-This only works if the container was started with both `-t` and `-i`.
+To detach from a container, you hold `Ctrl` and press `P`, then `Q`. This only
+works if the container was started with both `-t` and `-i`.
 
 If this doesn't work for some reason, try:
 

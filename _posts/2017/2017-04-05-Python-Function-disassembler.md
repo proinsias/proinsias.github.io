@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-You can use Python's built-in `dis` module to disassemble functions and
-inspect their CPython VM bytecode:
+You can use Python's built-in `dis` module to disassemble functions and inspect
+their CPython VM bytecode:
 
 ```python
 >>> def greet(name):

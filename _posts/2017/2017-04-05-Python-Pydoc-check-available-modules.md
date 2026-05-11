@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-Find a list of all python modules installed on a machine by running the following command
-in a terminal:
+Find a list of all python modules installed on a machine by running the
+following command in a terminal:
 
 ```python
 pydoc modules

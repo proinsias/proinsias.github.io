@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "Pandas: Speed up merges"
-excerpt: Specify the key column of the merge as the index of your dataframes, then join instead of merge
+excerpt:
+    Specify the key column of the merge as the index of your dataframes, then
+    join instead of merge
 date: 2017-11-09 12:35
 last_modified_at: 2025-05-13 00:33:19
 categories:
@@ -11,9 +13,8 @@ tags:
     - til
 ---
 
-You can improve the speed of a `merge` by first specifying the key column of the merge
-as the index of your dataframes,
-and then using `join` instead of `merge`:
+You can improve the speed of a `merge` by first specifying the key column of the
+merge as the index of your dataframes, and then using `join` instead of `merge`:
 
 The following example shows a improvement by a factor of about 10:
 

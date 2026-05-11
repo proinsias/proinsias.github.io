@@ -11,10 +11,10 @@ tags:
     - til
 ---
 
-Say we have two columns of data representing the same quantity;
-one column is from training data, the other is from validation data.
-How can we efficiently get a similar set of percentile rankings of the validation data column
-relative to the training data column?
+Say we have two columns of data representing the same quantity; one column is
+from training data, the other is from validation data. How can we efficiently
+get a similar set of percentile rankings of the validation data column relative
+to the training data column?
 
 The key to this is to sort the training data, and use
 [`searchsorted`](https://pandas.pydata.org/pandas-docs/version/0.18.1/generated/pandas.Series.searchsorted.html)

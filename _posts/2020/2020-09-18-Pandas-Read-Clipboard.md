@@ -12,9 +12,9 @@ tags:
     - til
 ---
 
-> The `pandas.read_clipboard()` method is as simple as it sounds:
-> it reads copy-pasted tabular data and parses it into a Data Frame.
-> For instance, try running the method after copying the following Data Frame:
+> The `pandas.read_clipboard()` method is as simple as it sounds: it reads
+> copy-pasted tabular data and parses it into a Data Frame. For instance, try
+> running the method after copying the following Data Frame:
 
 ```python
            0           1           2           3
@@ -24,4 +24,5 @@ tags:
 3    0.221309    0.916424    0.649175    0.803750
 ```
 
-Via [adrianperea.dev](http://web.archive.org/web/20210127214903/https://www.adrianperea.dev/pandas-hacks-reads-clipboard/).
+Via
+[adrianperea.dev](http://web.archive.org/web/20210127214903/https://www.adrianperea.dev/pandas-hacks-reads-clipboard/).

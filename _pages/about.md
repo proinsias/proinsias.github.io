@@ -13,24 +13,24 @@ header:
 ---
 
 Hey there
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="hand wave" width="25px">, I'm Francis!
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="hand wave" width="25px">,
+I'm Francis!
 
-Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 researcher, 💻 developer, 🕷️ geek.
+Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 researcher, 💻
+developer, 🕷️ geek.
 
 ## 😄 About Me
 
-- I'm a Senior Staff Data Scientist at
-  <a href="https://www.pearlhealth.com">
-  Pearl Health</a>,
-  where we help providers deliver proactive, high-quality care, and get rewarded for keeping patients healthy.
+- I'm a Senior Staff Data Scientist at <a href="https://www.pearlhealth.com">
+  Pearl Health</a>, where we help providers deliver proactive, high-quality
+  care, and get rewarded for keeping patients healthy.
 
 <!-- textlint-disable alex -->
 
 - Pronouns: He/Him
-    <!-- textlint-enable alex -->
+      <!-- textlint-enable alex -->
 
 - Skills:
-
     - Data Science, Machine Learning, and Big Data:
       <a href="https://pandas.pydata.org/"><img alt="pandas" src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=ShieldStyle"/></a>
       <a href="https://scikit-learn.org/stable/index.html"><img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=ShieldStyle"/></a>
@@ -66,12 +66,12 @@ Thanks for checking out the site of a 🔭 planet discoverer, 👨‍🔬 resear
       <a href="https://travis-ci.com/"><img alt="TravisCI" src="https://img.shields.io/badge/Travis%20CI-%232B2F33?logo=Travis%20CI&logoColor=white&style=ShieldStyle"/></a>
       <a href="https://github.com/features/actions/"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-%232671E5?logo=GitHub%20Actions&logoColor=white&style=ShieldStyle"/></a>
 
-                        <!-- textlint-disable en-capitalization -->
+                          <!-- textlint-disable en-capitalization -->
 
-    and others.
-      <!-- textlint-enable en-capitalization -->
+    and others. <!-- textlint-enable en-capitalization -->
 
-- 🧬 I support Ethical Software Licensing – [DoNoHarm.org](https://firstdonoharm.dev/).
+- 🧬 I support Ethical Software Licensing –
+  [DoNoHarm.org](https://firstdonoharm.dev/).
 
 ## 📫 Contact Info
 

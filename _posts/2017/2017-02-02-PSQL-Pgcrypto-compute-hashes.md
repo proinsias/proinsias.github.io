@@ -12,11 +12,11 @@ tags:
     - til
 ---
 
-The `pgcrypto` extension that comes with PostgreSQL adds access to some
-general hashing functions. Included are `md5`, `sha1`, `sha224`, `sha256`,
-`sha384` and `sha512`. Any of these hashing functions can be applied to an
-arbitrary string using the `digest` function. Here are example of the `md5`
-and `sha1` algorithms:
+The `pgcrypto` extension that comes with PostgreSQL adds access to some general
+hashing functions. Included are `md5`, `sha1`, `sha224`, `sha256`, `sha384` and
+`sha512`. Any of these hashing functions can be applied to an arbitrary string
+using the `digest` function. Here are example of the `md5` and `sha1`
+algorithms:
 
 ```sql
 > create extension pgcrypto;
@@ -34,7 +34,8 @@ CREATE EXTENSION
 0a9f2a6772942557ab5355d76af442f8f65e01
 ```
 
-See the [`pgcrypto` docs](http://www.postgresql.org/docs/current/static/pgcrypto.html) for more
-details.
+See the
+[`pgcrypto` docs](http://www.postgresql.org/docs/current/static/pgcrypto.html)
+for more details.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

@@ -22,8 +22,8 @@ function.
         1
 ```
 
-It returns the 1-based index of the first character of the first match of
-that substring.
+It returns the 1-based index of the first character of the first match of that
+substring.
 
 ```sql
 > select position('Four' in 'One Two Three');
@@ -34,7 +34,7 @@ that substring.
 
 If the substring doesn't appear within the string, then the result is 0.
 
-Thus, you can determine if a string _contains_ another string by checking if
-the value resulting from `position` is greater than 0.
+Thus, you can determine if a string _contains_ another string by checking if the
+value resulting from `position` is greater than 0.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

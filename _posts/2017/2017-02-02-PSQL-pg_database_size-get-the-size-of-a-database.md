@@ -22,10 +22,11 @@ If you have connect access to a PostgreSQL database, you can use the
           8249516
 ```
 
-Just give it the name of the database and it will tell you how much disk
-space that database is taking up.
+Just give it the name of the database and it will tell you how much disk space
+that database is taking up.
 
-Checkout [the Postgres docs](http://www.postgresql.org/docs/current/static/functions-admin.html)
+Checkout
+[the Postgres docs](http://www.postgresql.org/docs/current/static/functions-admin.html)
 for more details.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

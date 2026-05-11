@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-Sometimes when deleting a file, the error "File is already in use" is encountered,
-with further trouble locating the process using the file.
+Sometimes when deleting a file, the error "File is already in use" is
+encountered, with further trouble locating the process using the file.
 
 To find any processes using the file you can use `fuser` command :
 
@@ -20,7 +20,7 @@ To find any processes using the file you can use `fuser` command :
 fuser -k filename
 ```
 
-The command above will search for the file so you can kill whatever processes are using
-it.
+The command above will search for the file so you can kill whatever processes
+are using it.
 
 Via [enki.com](https://app.enkipro.com/#/insight/55e8d159cc63eb3a0074d1db).

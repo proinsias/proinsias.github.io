@@ -12,8 +12,7 @@ tags:
     - til
 ---
 
-Want to get an idea of how much disk space that additional index is taking
-up?
+Want to get an idea of how much disk space that additional index is taking up?
 
 For instance, if I have a table with a `users_key` index and a
 `users_unique_lower_email_idx` index, I can check the sizes like so:

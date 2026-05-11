@@ -12,12 +12,19 @@ tags:
     - til
 ---
 
-You really [should be using python's walrus operator](https://martinheinz.dev/blog/79) – see below for some examples of why from this excellent discussion.
+You really
+[should be using python's walrus operator](https://martinheinz.dev/blog/79) –
+see below for some examples of why from this excellent discussion.
 
-If you are interested in automatically rewriting your code to use this operator, check out the [pre-commit](http://pre-commit.com) hook [auto-walrus](https://github.com/MarcoGorelli/auto-walrus). Thanks to [pythonbytes.fm](https://pythonbytes.fm/episodes/show/305/decorators-need-love-too) for the tip!
+If you are interested in automatically rewriting your code to use this operator,
+check out the [pre-commit](http://pre-commit.com) hook
+[auto-walrus](https://github.com/MarcoGorelli/auto-walrus). Thanks to
+[pythonbytes.fm](https://pythonbytes.fm/episodes/show/305/decorators-need-love-too)
+for the tip!
 
-> Let's imagine a function called func() that performs some very expensive computations.
-> It takes a long time to compute results, so we don't want to call it many times:
+> Let's imagine a function called func() that performs some very expensive
+> computations. It takes a long time to compute results, so we don't want to
+> call it many times:
 >
 > ```python
 > # "func" called 3 times
@@ -27,10 +34,10 @@ If you are interested in automatically rewriting your code to use this operator,
 > result = [y := func(x), y2, y3]**
 > ```
 >
-> In the first list declaration above, the `func(x)` is called 3 times,
-> every time returning \[the\] same result, which wastes time and compute resources.
-> When rewritten using walrus operator, `func()` is invoked only once,
-> assigning its result to y and reusing it for \[the\] remaining 2 list values.
+> In the first list declaration above, the `func(x)` is called 3 times, every
+> time returning \[the\] same result, which wastes time and compute resources.
+> When rewritten using walrus operator, `func()` is invoked only once, assigning
+> its result to y and reusing it for \[the\] remaining 2 list values.
 >
 > Consider the following list comprehensions with the same expensive func():
 >
@@ -40,13 +47,13 @@ If you are interested in automatically rewriting your code to use this operator,
 > result = [y for x in data if (y := func(x))]
 > ```
 >
-> In the first line, `func(x)` is called twice in every loop. Instead - using walrus operator -
-> we compute it once in the if statement and then reuse it.
-> The code length is same, both lines are equally readable,
-> but the second one is twice as efficient.
+> In the first line, `func(x)` is called twice in every loop. Instead - using
+> walrus operator - we compute it once in the if statement and then reuse it.
+> The code length is same, both lines are equally readable, but the second one
+> is twice as efficient.
 >
-> One of the most common use cases for walrus operator is reducing nested conditionals,
-> such as when using RegEx matching:
+> One of the most common use cases for walrus operator is reducing nested
+> conditionals, such as when using RegEx matching:
 >
 > ```python
 > if m := (re.match(pattern1, test)):
@@ -55,10 +62,11 @@ If you are interested in automatically rewriting your code to use this operator,
 > print(f"Matched 2nd pattern: '{m.group(1)}'")
 > ```
 >
-> You can use Python's `any()` and `all()` functions to verify whether any or all values
-> in some iterable satisfy certain condition.
-> What if you however want to also capture the value that caused `any()` to return `True`
-> (so-called "witness") or the value that caused `all()` to fail (so-called "counterexample")?
+> You can use Python's `any()` and `all()` functions to verify whether any or
+> all values in some iterable satisfy certain condition. What if you however
+> want to also capture the value that caused `any()` to return `True` (so-called
+> "witness") or the value that caused `all()` to fail (so-called
+> "counterexample")?
 >
 > ```python
 > numbers = [1, 4, 6, 2, 12, 4, 15]
@@ -75,15 +83,15 @@ If you are interested in automatically rewriting your code to use this operator,
 > print(counter_example) # 12
 > ```
 >
-> Both `any()` and `all()` use short-circuiting to evaluate the expression.
-> This means that they stop the evaluation as soon as they find the first "witness"
-> or "counterexample" respectively.
-> Therefore, with this trick the variable created by walrus operator
-> will always give us the first "witness"/"counterexample".
+> Both `any()` and `all()` use short-circuiting to evaluate the expression. This
+> means that they stop the evaluation as soon as they find the first "witness"
+> or "counterexample" respectively. Therefore, with this trick the variable
+> created by walrus operator will always give us the first
+> "witness"/"counterexample".
 >
-> this really isn't a gotcha, but rather slight limitation.
-> You currently cannot use inline type hints with \[the\] walrus operator.
-> Therefore, if you want to specify type of the variable, then you need to split it into 2 lines:
+> this really isn't a gotcha, but rather slight limitation. You currently cannot
+> use inline type hints with \[the\] walrus operator. Therefore, if you want to
+> specify type of the variable, then you need to split it into 2 lines:
 >
 > ```python
 > from typing import Optional

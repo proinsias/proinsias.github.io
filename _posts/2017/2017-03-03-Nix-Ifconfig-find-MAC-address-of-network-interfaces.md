@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-To get the MAC addresses of all your interfaces, grep the `HWaddr` from the `ifconfig`
-command:
+To get the MAC addresses of all your interfaces, grep the `HWaddr` from the
+`ifconfig` command:
 
 ```bash
 #for linux

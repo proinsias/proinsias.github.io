@@ -17,4 +17,5 @@ tags:
 2.0
 ```
 
-Via [scipy.org](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmax.html#numpy.nanmax).
+Via
+[scipy.org](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmax.html#numpy.nanmax).

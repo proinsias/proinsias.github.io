@@ -12,11 +12,13 @@ tags:
     - til
 ---
 
-Jupyter uses a security model where you have to 'trust' a notebook before Jupyter will perform certain operations.
-While you can manually trust each notebook via the Jupyter UI, you can also do so in batch from the command line:
+Jupyter uses a security model where you have to 'trust' a notebook before
+Jupyter will perform certain operations. While you can manually trust each
+notebook via the Jupyter UI, you can also do so in batch from the command line:
 
 ```shell
 jupyter trust *.ipynb
 ```
 
-Via [towardsai.net](https://pub.towardsai.net/7-awesome-jupyter-utilities-that-you-should-be-aware-of-f3afdb75c2b).
+Via
+[towardsai.net](https://pub.towardsai.net/7-awesome-jupyter-utilities-that-you-should-be-aware-of-f3afdb75c2b).

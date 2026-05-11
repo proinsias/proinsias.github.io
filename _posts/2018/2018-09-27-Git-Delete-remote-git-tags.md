@@ -11,9 +11,8 @@ tags:
     - til
 ---
 
-Tagging releases with Git is a good idea.
-In case your tags get off track,
-here is how you delete a Git tag locally and on a remote:
+Tagging releases with Git is a good idea. In case your tags get off track, here
+is how you delete a Git tag locally and on a remote:
 
 ```bash
 $ git tag -d abc
@@ -22,9 +21,8 @@ To git@github.com:hashrocket/hr-til
  - [deleted]         abc
 ```
 
-It gets trickier if you're using Semantic Versioning,
-which includes dots in the tag name.
-The above won't work for `v16.0.0`. This will:
+It gets trickier if you're using Semantic Versioning, which includes dots in the
+tag name. The above won't work for `v16.0.0`. This will:
 
 ```bash
 $ git tag -d v16.0.0

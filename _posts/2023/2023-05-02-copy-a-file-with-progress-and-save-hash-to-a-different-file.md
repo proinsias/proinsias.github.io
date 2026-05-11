@@ -16,4 +16,5 @@ tags:
 pv file.txt | tee >(sha256sum > file.sha1) > file-copy.txt
 ```
 
-Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/28303/copy-a-file-with-progress-and-save-hash-to-a-different-file).
+Via
+[commandlinefu.com](https://www.commandlinefu.com/commands/view/28303/copy-a-file-with-progress-and-save-hash-to-a-different-file).

@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-This function will use AppleScript to present a password entry dialog
-to make your scripts a little more user friendly:
+This function will use AppleScript to present a password entry dialog to make
+your scripts a little more user friendly:
 
 ```bash
 function gui_password {

@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-> In Python 3.6, variables (in global, class or local scope) can now have type annotations
-> using either of the following two forms:
+> In Python 3.6, variables (in global, class or local scope) can now have type
+> annotations using either of the following two forms:
 
 ```python
 foo: Optional[int]
@@ -26,5 +26,4 @@ foo = None  # type: Optional[int]
 bar = []  # type: List[str]
 ```
 
-Via [MyPy](https://mypy.readthedocs.io/en/latest/)
-.
+Via [MyPy](https://mypy.readthedocs.io/en/latest/) .

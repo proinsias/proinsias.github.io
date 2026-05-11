@@ -39,4 +39,5 @@ tags:
 9  0.477718  0.909850 -0.835014  3
 ```
 
-Via [pandas.pydata.org](http://pandas.pydata.org/pandas-docs/stable/groupby.html#iterating-through-groups).
+Via
+[pandas.pydata.org](http://pandas.pydata.org/pandas-docs/stable/groupby.html#iterating-through-groups).

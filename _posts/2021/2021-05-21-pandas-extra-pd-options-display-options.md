@@ -34,5 +34,7 @@ pd.options.display.float_format = '{:.2f}%'.format
 pd.options.display.date_yearfirst = True
 ```
 
-Via [towards data science](https://towardsdatascience.com/6-pandas-display-options-you-should-memories-84adf8887bc3)
-and [pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html#available-options).
+Via
+[towards data science](https://towardsdatascience.com/6-pandas-display-options-you-should-memories-84adf8887bc3)
+and
+[pandas.pydata.org](https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html#available-options).

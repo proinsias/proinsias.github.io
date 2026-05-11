@@ -24,7 +24,8 @@ you can combine these commands:
 git clone --branch <branch-name> <remote-repo>
 ```
 
-If you **only** want a specific branch, you can use the `--single-branch` option:
+If you **only** want a specific branch, you can use the `--single-branch`
+option:
 
 ```shell
 git clone --single-branch --branch <branch-name> <remote-repo>

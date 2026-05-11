@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-Say you have a timestamp column `created_at`,
-and an integer column `number` that represents a number of weeks,
-how do you use the `date_add` function to calculate the resulting timestamps?
+Say you have a timestamp column `created_at`, and an integer column `number`
+that represents a number of weeks, how do you use the `date_add` function to
+calculate the resulting timestamps?
 
 You need to also use the `expr` function:
 

@@ -12,7 +12,8 @@ tags:
     - tree
 ---
 
-> The `plot_tree()` function allows you to create a diagram of steps present in a decision tree model:
+> The `plot_tree()` function allows you to create a diagram of steps present in
+> a decision tree model:
 
 ```python
 import matplotlib.pyplot as plt
@@ -32,4 +33,5 @@ plt.show()
 
 ![Decision tree diagram](https://miro.medium.com/max/1400/1*tOaFzz-i-9jNUVGY0QQ7eA.png)
 
-Via [towards data science](https://towardsdatascience.com/10-things-you-didnt-know-about-scikit-learn-cccc94c50e4f).
+Via
+[towards data science](https://towardsdatascience.com/10-things-you-didnt-know-about-scikit-learn-cccc94c50e4f).

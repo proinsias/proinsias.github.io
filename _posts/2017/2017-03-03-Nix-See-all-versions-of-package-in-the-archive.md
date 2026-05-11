@@ -33,4 +33,5 @@ nautilus:
         500 file:/media/Linux/apt-repo/wily  Packages
 ```
 
-Via [askubuntu](https://askubuntu.com/questions/447/how-can-i-see-all-versions-of-a-package-that-are-available-in-the-archive).
+Via
+[askubuntu](https://askubuntu.com/questions/447/how-can-i-see-all-versions-of-a-package-that-are-available-in-the-archive).

@@ -22,4 +22,5 @@ sudo -s <<< 'apt update -y && apt upgrade -y'
 sudo sh -c 'apt update -y && apt upgrade -y'
 ```
 
-Via [commandlinefu.com](https://www.commandlinefu.com/commands/view/24653/using-a-single-sudo-to-run-multiple-arguments).
+Via
+[commandlinefu.com](https://www.commandlinefu.com/commands/view/24653/using-a-single-sudo-to-run-multiple-arguments).

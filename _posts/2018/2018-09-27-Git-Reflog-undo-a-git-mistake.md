@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-`git reflog` is a record of your actions in Git. With this command,
-you can undo almost any Git mistake.
+`git reflog` is a record of your actions in Git. With this command, you can undo
+almost any Git mistake.
 
 ```bash
 $ git reflog

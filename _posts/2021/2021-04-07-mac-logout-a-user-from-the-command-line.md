@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-You don't have to use the macOS UI to logout a user. Instead, in the Terminal use:
+You don't have to use the macOS UI to logout a user. Instead, in the Terminal
+use:
 
 ```bash
 sudo launchctl bootout gui/$(id -u <username>)

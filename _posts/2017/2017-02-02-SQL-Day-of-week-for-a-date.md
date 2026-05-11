@@ -30,7 +30,6 @@ function
          6
 ```
 
-The days of week are `0` through `6`, `0` being Sunday and `6` being
-Saturday.
+The days of week are `0` through `6`, `0` being Sunday and `6` being Saturday.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

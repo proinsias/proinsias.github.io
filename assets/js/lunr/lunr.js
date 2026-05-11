@@ -885,7 +885,7 @@
       j = 0;
 
     while (i < aLen && j < bLen) {
-      (aVal = a[i]), (bVal = b[j]);
+      ((aVal = a[i]), (bVal = b[j]));
       if (aVal < bVal) {
         i += 2;
       } else if (aVal > bVal) {

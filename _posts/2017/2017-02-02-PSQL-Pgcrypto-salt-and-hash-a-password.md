@@ -12,13 +12,11 @@ tags:
     - til
 ---
 
-The
-[`pgcrypto`](http://www.postgresql.org/docs/current/static/pgcrypto.html)
-extension that ships with PostgreSQL can be used to do a number of
-interesting things. This includes functions for doing salted password
-hashing. Using the `crypt` and `gen_salt` functions, we can securely store a
-user password and later compare it to plain-text passwords for
-authentication purposes.
+The [`pgcrypto`](http://www.postgresql.org/docs/current/static/pgcrypto.html)
+extension that ships with PostgreSQL can be used to do a number of interesting
+things. This includes functions for doing salted password hashing. Using the
+`crypt` and `gen_salt` functions, we can securely store a user password and
+later compare it to plain-text passwords for authentication purposes.
 
 ```sql
 create extension pgcrypto;
@@ -51,8 +49,8 @@ select crypt('pa$$w0rd', gen_salt('bf'));
  f
 ```
 
-The salt value is generated using the blowfish encryption algorithm (hence,
-the `'bf'`). There is support for other algorithms such as `md5`.
+The salt value is generated using the blowfish encryption algorithm (hence, the
+`'bf'`). There is support for other algorithms such as `md5`.
 
 See the
 [`pgcrypto` documentation](http://www.postgresql.org/docs/current/static/pgcrypto.html)

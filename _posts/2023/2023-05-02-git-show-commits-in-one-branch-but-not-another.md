@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-> To see a list of which commits are on one branch but not another, use `git log`:
+> To see a list of which commits are on one branch but not another, use
+> `git log`:
 
 ```shell
 git log --no-merges oldbranch ^newbranch
@@ -25,13 +26,15 @@ git log  --no-merges oldbranch1 oldbranch2 ^newbranch1 ^newbranch2
 
 The `--no-merges` flag exclude commits that are merges.
 
-> \[You can show\] commits and commit contents from other-branch that are not in your current branch:
+> \[You can show\] commits and commit contents from other-branch that are not in
+> your current branch:
 
 ```shell
 git show @..other-branch
 ```
 
-> Additionally you can apply the commits from other-branch directly to your current branch:
+> Additionally you can apply the commits from other-branch directly to your
+> current branch:
 
 ```shell
 git cherry-pick @..other-branch
@@ -55,4 +58,5 @@ git diff newbranch...oldbranch
 git branch --contains branch-to-delete
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/questions/1710894/using-git-show-all-commits-that-are-in-one-branch-but-not-the-others).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/1710894/using-git-show-all-commits-that-are-in-one-branch-but-not-the-others).

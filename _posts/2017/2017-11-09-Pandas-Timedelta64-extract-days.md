@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-To extract the integer value of days from a `numpy.timedelta64` in `pandas`, use `dt.days`
-to obtain the days attribute as integers.
+To extract the integer value of days from a `numpy.timedelta64` in `pandas`, use
+`dt.days` to obtain the days attribute as integers.
 
 ```python
 In [14]: s = pd.Series(pd.timedelta_range(start='1 days', end='12 days', freq='3000T'))
@@ -38,7 +38,8 @@ Out[16]:
 dtype: int64
 ```
 
-You can use the `.components` property to access a reduced form of `timedelta64`.
+You can use the `.components` property to access a reduced form of
+`timedelta64`.
 
 ```python
 In [17]: s.dt.components
@@ -52,4 +53,5 @@ Out[17]:
 5    11     10        0        0             0             0            0
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/18215317/extracting-days-from-a-numpy-timedelta64-value).

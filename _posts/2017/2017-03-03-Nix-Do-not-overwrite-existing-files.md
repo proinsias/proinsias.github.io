@@ -11,7 +11,7 @@ tags:
     - til
 ---
 
-When using the `cp` command to copy files, you can use the `-n`/`--no-clobber` flag to make
-sure that you do not overwrite existing files.
+When using the `cp` command to copy files, you can use the `-n`/`--no-clobber`
+flag to make sure that you do not overwrite existing files.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

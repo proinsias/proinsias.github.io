@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-In Spark >= 1.5 you can use the `size` function to calculate the length of a column:
+In Spark >= 1.5 you can use the `size` function to calculate the length of a
+column:
 
 ```pyspark
 >>> from pyspark.sql.functions import col, size
@@ -33,5 +34,4 @@ In Spark >= 1.5 you can use the `size` function to calculate the length of a col
 +---------+
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/33695672/1257318)
-.
+Via [StackOverflow](http://stackoverflow.com/a/33695672/1257318) .

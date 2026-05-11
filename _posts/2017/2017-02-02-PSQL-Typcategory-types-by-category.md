@@ -12,11 +12,10 @@ tags:
     - til
 ---
 
-Postgres has many types, each of which fall into a particular category.
-These categories include Array, Boolean, String, Numeric, Composite, etc.
-Each of these categories has a corresponding code. For instance, numeric
-types have a code of `N`. Using `N` I can get a list of all the numeric
-types:
+Postgres has many types, each of which fall into a particular category. These
+categories include Array, Boolean, String, Numeric, Composite, etc. Each of
+these categories has a corresponding code. For instance, numeric types have a
+code of `N`. Using `N` I can get a list of all the numeric types:
 
 ```sql
 > select typname from pg_type where typcategory = 'N';

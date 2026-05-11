@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-Using the `unicodedata` Python module it's easy to normalize any unicode data strings
-(remove accents, etc):
+Using the `unicodedata` Python module it's easy to normalize any unicode data
+strings (remove accents, etc):
 
 ```python
 import unicodedata
@@ -30,8 +30,8 @@ The output will be:
 b'inventive'
 ```
 
-The `NFKD` stands for Normalization Form Compatibility Decomposition, and this is where
-characters are decomposed by compatibility, also multiple combining characters are
-arranged in a specific order.
+The `NFKD` stands for Normalization Form Compatibility Decomposition, and this
+is where characters are decomposed by compatibility, also multiple combining
+characters are arranged in a specific order.
 
 Via [enkipro.com](https://app.enkipro.com/#/insight/56cb06ed59fd7a080038f33f).

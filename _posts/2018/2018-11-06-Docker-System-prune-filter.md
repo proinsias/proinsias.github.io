@@ -17,14 +17,15 @@ Every now and then I run:
 docker system prune --all --volumes
 ```
 
-to remove all unused containers, networks, images (both dangling and unreferenced), and volumes.
+to remove all unused containers, networks, images (both dangling and
+unreferenced), and volumes.
 
-If you want to do this cleanup, but preserve images created within the last 24 hours,
-you can use the `--filter` option:
+If you want to do this cleanup, but preserve images created within the last 24
+hours, you can use the `--filter` option:
 
 ```bash
 docker system prune --all --volumes --filter "until=24h"
 ```
 
-Via [SO](https://stackoverflow.com/a/45143234/1257318)
-and [docker.com](https://docs.docker.com/engine/reference/commandline/system_prune/).
+Via [SO](https://stackoverflow.com/a/45143234/1257318) and
+[docker.com](https://docs.docker.com/engine/reference/commandline/system_prune/).

@@ -12,10 +12,10 @@ tags:
 ---
 
 Using `find` is a handy way to track down files that meet certain criteria.
-However, if there are directories full of irrelevant files, you may end up
-with a lot of noise. What you want to do is exclude or ignore such
-directories. For example, you probably don't want `find` to return results
-from the `.git` directory of your project.
+However, if there are directories full of irrelevant files, you may end up with
+a lot of noise. What you want to do is exclude or ignore such directories. For
+example, you probably don't want `find` to return results from the `.git`
+directory of your project.
 
 Specific directories can be excluded by combining the `-not` and `-path`
 arguments.

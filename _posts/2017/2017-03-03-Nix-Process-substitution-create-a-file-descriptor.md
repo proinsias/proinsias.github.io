@@ -11,9 +11,9 @@ tags:
     - til
 ---
 
-Process substitution can be used to create a file descriptor from the
-evaluation of a shell command. The syntax for process substitution is
-`<(LIST)` where `LIST` is one or more bash commands.
+Process substitution can be used to create a file descriptor from the evaluation
+of a shell command. The syntax for process substitution is `<(LIST)` where
+`LIST` is one or more bash commands.
 
 ```bash
 $ cat <(echo 'hello, world')

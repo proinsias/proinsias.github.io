@@ -1,6 +1,8 @@
 ---
 layout: single
-title: "Python: Specify requirements depending on python version using environment markers"
+title:
+    "Python: Specify requirements depending on python version using environment
+    markers"
 date: 2017-04-05
 last_modified_at: 2025-05-13 00:33:19
 excerpt: For example python_version and sys.platform
@@ -19,7 +21,8 @@ SomeProject==5.4; python_version < '2.7'
 SomeProject; sys.platform == 'win32'
 ```
 
-See also [requirement specifiers](https://pip.readthedocs.io/en/stable/reference/pip_install/#requirement-specifiers)
+See also
+[requirement specifiers](https://pip.readthedocs.io/en/stable/reference/pip_install/#requirement-specifiers)
 .
 
 Via [StackOverflow.com](http://stackoverflow.com/a/33451105/1257318).

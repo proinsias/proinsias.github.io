@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-Here's how to modify the size of the volume attached to an EC2 instance "my_ec2":
+Here's how to modify the size of the volume attached to an EC2 instance
+"my_ec2":
 
 - First identify the instance ID from the instance name:
 
@@ -38,5 +39,6 @@ aws ec2 modify-volume --volume-id vol-0abf653a810ee073b --size 256 --dry-run
 Via AWS
 [describe-instances](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-instances.html),
 [describe-volumes](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-volumes.html),
-and [modify-volume](https://docs.aws.amazon.com/cli/latest/reference/ec2/modify-volume.html)
+and
+[modify-volume](https://docs.aws.amazon.com/cli/latest/reference/ec2/modify-volume.html)
 docs.

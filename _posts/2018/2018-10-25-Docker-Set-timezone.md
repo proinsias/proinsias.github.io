@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-To set which timezone your docker container should use,
-add the following to your `Dockerfile`:
+To set which timezone your docker container should use, add the following to
+your `Dockerfile`:
 
 ```dockerfile
 ENV TZ=America/Los_Angeles

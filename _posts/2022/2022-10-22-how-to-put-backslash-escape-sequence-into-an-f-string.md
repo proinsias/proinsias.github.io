@@ -20,7 +20,8 @@ If you want to write something like:
 "{}MESSAGE{}".format("\t"*15, "\t"*15)
 ```
 
-but using f-strings, you hit the issue that you cannot have a backslash inside an f-string expression.
+but using f-strings, you hit the issue that you cannot have a backslash inside
+an f-string expression.
 
 Instead you should assign the tab character to a variable and then use that:
 

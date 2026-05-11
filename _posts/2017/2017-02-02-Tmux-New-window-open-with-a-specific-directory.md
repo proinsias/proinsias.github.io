@@ -11,12 +11,12 @@ tags:
     - tmux
 ---
 
-When you initially start a tmux session, the default directory is based off
-of whatever the current working directory was. Any subsequent windows opened
-within that tmux session will be opened with that as the base directory.
+When you initially start a tmux session, the default directory is based off of
+whatever the current working directory was. Any subsequent windows opened within
+that tmux session will be opened with that as the base directory.
 
-To open a window with a different default directory, use the `-c` flag with
-the `new-window` command. For example, hit `<prefix>:` and then
+To open a window with a different default directory, use the `-c` flag with the
+`new-window` command. For example, hit `<prefix>:` and then
 
 ```tmux
 :new-window -c ~/

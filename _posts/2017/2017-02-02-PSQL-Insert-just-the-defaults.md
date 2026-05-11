@@ -12,9 +12,9 @@ tags:
     - til
 ---
 
-If you are constructing an `INSERT` statement for a table whose required
-columns all have default values, you may just want to use the defaults. In
-this situation, you can break away from the standard:
+If you are constructing an `INSERT` statement for a table whose required columns
+all have default values, you may just want to use the defaults. In this
+situation, you can break away from the standard:
 
 ```sql
 > insert into table_name (column1, column2) values (value1, value2);

@@ -23,4 +23,5 @@ where:
 <scope> ::=  { ACCOUNT | [ DATABASE ] <db_name> | [ SCHEMA ] <schema_name> }
 ```
 
-Via [snowflake.net](https://docs.snowflake.net/manuals/sql-reference/sql/show-file-formats.html).
+Via
+[snowflake.net](https://docs.snowflake.net/manuals/sql-reference/sql/show-file-formats.html).

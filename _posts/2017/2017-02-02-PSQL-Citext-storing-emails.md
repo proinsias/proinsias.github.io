@@ -13,16 +13,14 @@ tags:
 ---
 
 Email addresses should be treated as case-insensitive because they are. If a
-user is trying to sign in with their email address, we shouldn't care if
-they type `user@example.com` or `User@example.com`. Both of those email
-addresses should be treated as equal and ultimately lead us to the same
-`User` record.
+user is trying to sign in with their email address, we shouldn't care if they
+type `user@example.com` or `User@example.com`. Both of those email addresses
+should be treated as equal and ultimately lead us to the same `User` record.
 
-With the
-[`citext`](http://www.postgresql.org/docs/current/static/citext.html)
-extension, we can create a column that acts as a case-insensitive text type.
-Any comparisons on a column of that type will internally have the `lower`
-function executed on the arguments.
+With the [`citext`](http://www.postgresql.org/docs/current/static/citext.html)
+extension, we can create a column that acts as a case-insensitive text type. Any
+comparisons on a column of that type will internally have the `lower` function
+executed on the arguments.
 
 The following example shows this in action:
 

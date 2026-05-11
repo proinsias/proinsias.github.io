@@ -12,10 +12,10 @@ tags:
     - til
 ---
 
-Generally you want your SQL statements to run against your database as
-quickly as possible. For those times when you are doing some sort of
-debugging or just want your queries to look very computationally expensive,
-PostgreSQL offers the `pg_sleep` function.
+Generally you want your SQL statements to run against your database as quickly
+as possible. For those times when you are doing some sort of debugging or just
+want your queries to look very computationally expensive, PostgreSQL offers the
+`pg_sleep` function.
 
 To sleep for 5 seconds, try the following:
 

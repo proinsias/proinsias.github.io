@@ -16,9 +16,8 @@ tags:
     - tips
 ---
 
-[explainshell.com](https://explainshell.com) is a great website tool
-where you enter a shell command line to see the help text that matches
-each argument.
+[explainshell.com](https://explainshell.com) is a great website tool where you
+enter a shell command line to see the help text that matches each argument.
 
-The related website [showthedocs.com](http://showthedocs.com) does the
-same for postgresql, mysql, nginx, and gitconfig.
+The related website [showthedocs.com](http://showthedocs.com) does the same for
+postgresql, mysql, nginx, and gitconfig.

@@ -13,13 +13,13 @@ tags:
 
 Q:
 
-How can you set parameters such as x- and y-labels?
-The `plot()` wrapper for `pandas` DataFrames does not take those parameters?
+How can you set parameters such as x- and y-labels? The `plot()` wrapper for
+`pandas` DataFrames does not take those parameters?
 
 A:
 
-The `df.plot()` function returns a `matplotlib.axes.AxesSubplot` object.
-You can set the labels on that object.
+The `df.plot()` function returns a `matplotlib.axes.AxesSubplot` object. You can
+set the labels on that object.
 
 ```python
 >>> ax = df2.plot()

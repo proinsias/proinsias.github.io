@@ -13,6 +13,6 @@ tags:
 ---
 
 Another nice
-[write-up](https://shiring.github.io/machine_learning/2017/04/23/lime)
-on the use of Local Interpretable Model-Agnostic Explanations (LIME) to
-explain complex machine learning models.
+[write-up](https://shiring.github.io/machine_learning/2017/04/23/lime) on the
+use of Local Interpretable Model-Agnostic Explanations (LIME) to explain complex
+machine learning models.

@@ -11,14 +11,15 @@ tags:
     - travis
 ---
 
-> Sometimes you push to Travis CI and there is no new build. What to do in such case? Has
-> Travis CI got your commits? Is the branch you were using disabled? Do you need to tweak
-> some settings? You no longer need to ask these questions!
+> Sometimes you push to Travis CI and there is no new build. What to do in such
+> case? Has Travis CI got your commits? Is the branch you were using disabled?
+> Do you need to tweak some settings? You no longer need to ask these questions!
 
 You can get logs useful for debugging your Travis builds using either:
 
-- The [`travis requests`](https://github.com/travis-ci/travis.rb#requests) command, or
-- The requests page on the Travis CI [web page](https://travis-ci.com/) via the 'cog menu'
-  on the upper right.
+- The [`travis requests`](https://github.com/travis-ci/travis.rb#requests)
+  command, or
+- The requests page on the Travis CI [web page](https://travis-ci.com/) via the
+  'cog menu' on the upper right.
 
 Via [travis-ci.com](https://blog.travis-ci.com/).

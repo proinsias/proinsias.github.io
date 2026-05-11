@@ -12,7 +12,9 @@ tags:
     - til
 ---
 
-Once you've edited your `docker-compose.yml` file, you can validate this file using the `docker-compose config` command
-that prints your resolved application config to the terminal.
+Once you've edited your `docker-compose.yml` file, you can validate this file
+using the `docker-compose config` command that prints your resolved application
+config to the terminal.
 
-Via [docs.docker.com](https://docs.docker.com/compose/environment-variables/#the-env-file).
+Via
+[docs.docker.com](https://docs.docker.com/compose/environment-variables/#the-env-file).

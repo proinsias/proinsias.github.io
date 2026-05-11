@@ -12,16 +12,16 @@ tags:
     - til
 ---
 
-When you start a `psql` session, your current directory is what `psql` will
-use as its current directory. This is important for meta-commands that use
-relative paths based on the current directory -- for instance, the `\i`
-meta-command for importing files.
+When you start a `psql` session, your current directory is what `psql` will use
+as its current directory. This is important for meta-commands that use relative
+paths based on the current directory -- for instance, the `\i` meta-command for
+importing files.
 
 You can change the current directory within a `psql` session using the `\cd`
 meta-command.
 
-If my current directory is `home` and there is a `sql` directory in `home,
-these commands will do the following:
+If my current directory is `home` and there is a `sql` directory in `home, these
+commands will do the following:
 
 ```sql
 \! pwd

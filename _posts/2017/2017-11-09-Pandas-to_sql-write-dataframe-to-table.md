@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-You can write DataFrames to a database table via a `sqlalchemy` connection as follows:
+You can write DataFrames to a database table via a `sqlalchemy` connection as
+follows:
 
 ```python
 from sqlalchemy import create_engine

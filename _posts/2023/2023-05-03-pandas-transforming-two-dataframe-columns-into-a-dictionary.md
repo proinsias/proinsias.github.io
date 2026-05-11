@@ -23,4 +23,5 @@ df_dictionary
 # Output is {'a': 1, 'b': 2, 'c': 3}
 ```
 
-Via [Lucas Soares](https://python.plainenglish.io/15-data-science-snippets-to-optimize-your-coding-pipeline-93a5625d48cd).
+Via
+[Lucas Soares](https://python.plainenglish.io/15-data-science-snippets-to-optimize-your-coding-pipeline-93a5625d48cd).

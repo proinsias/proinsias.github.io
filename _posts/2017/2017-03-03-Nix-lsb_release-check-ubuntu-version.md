@@ -11,8 +11,7 @@ tags:
     - til
 ---
 
-Are you on Ubuntu? Want to know what version (release) of Ubuntu you are
-using?
+Are you on Ubuntu? Want to know what version (release) of Ubuntu you are using?
 
 Run the following to find out:
 

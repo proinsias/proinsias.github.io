@@ -12,9 +12,10 @@ tags:
     - til
 ---
 
-You can limit the amount of time that postgres will execute a statement
-by setting a hard timeout. By default the timeout is 0 (see `show statement_timeout;`)
-which means statements will be given as much time as they need.
+You can limit the amount of time that postgres will execute a statement by
+setting a hard timeout. By default the timeout is 0 (see
+`show statement_timeout;`) which means statements will be given as much time as
+they need.
 
 If you do want to limit your statements, to say, 1 second, you can set the
 execution time like so

@@ -11,11 +11,11 @@ tags:
     - til
 ---
 
-Suppose you wish to iterate through a (potentially very large) file lazily rather than
-reading the entire file into memory.
+Suppose you wish to iterate through a (potentially very large) file lazily
+rather than reading the entire file into memory.
 
-By specifying a `chunksize` to `read_csv` or `read_table`, the return value will be an
-`iterable` object of type `TextFileReader`:
+By specifying a `chunksize` to `read_csv` or `read_table`, the return value will
+be an `iterable` object of type `TextFileReader`:
 
 ```python
 In [163]: reader = pd.read_table('tmp.sv', sep='|', chunksize=4)

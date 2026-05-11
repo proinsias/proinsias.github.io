@@ -11,14 +11,13 @@ tags:
     - til
 ---
 
-Normally when stashing changes, using `git stash`, git is only going to
-stash changes to _tracked_ files. If there are any new files in your project
-that aren't being tracked by git, they will just be left lying around.
+Normally when stashing changes, using `git stash`, git is only going to stash
+changes to _tracked_ files. If there are any new files in your project that
+aren't being tracked by git, they will just be left lying around.
 
-You might not want these _untracked_ files left behind, polluting your
-working copy. Perhaps these files change your projects functionality or
-affect the outcome of tests. You just want them out of the way, for the
-moment at least.
+You might not want these _untracked_ files left behind, polluting your working
+copy. Perhaps these files change your projects functionality or affect the
+outcome of tests. You just want them out of the way, for the moment at least.
 
 And so along comes the `-u` or `--untracked` flag.
 

@@ -22,17 +22,17 @@ $ dd if=/dev/zero of=/root/testfile bs=1G count=1 oflag=direct
 32.474 s, 33.1 MB/s
 ```
 
-Here the test took 32.474 seconds to run and 33.1 MB/s was the actual disk speed.
-Don't forget to delete the test file when finished.
+Here the test took 32.474 seconds to run and 33.1 MB/s was the actual disk
+speed. Don't forget to delete the test file when finished.
 
 Flags:
 
 - `if`: input file;
 - `of`: output file;
-- `bs`: sets the if and of sizes to bytes;
-  block size (base 10 integer, 1G=1024×1024×1024 bytes = 1.073 GB);
+- `bs`: sets the if and of sizes to bytes; block size (base 10 integer,
+  1G=1024×1024×1024 bytes = 1.073 GB);
 - `count`: number of blocks (1 means that 1 block of 1G is copied);
-- `oflag=direct`: uses direct I/O data, avoiding the buffer cache; and
-  it speeds up the process 1.
+- `oflag=direct`: uses direct I/O data, avoiding the buffer cache; and it speeds
+  up the process 1.
 
 Via [enki.com](https://app.enkipro.com/#/insight/55860b435c637c4b29b92749).

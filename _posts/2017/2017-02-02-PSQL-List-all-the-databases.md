@@ -12,8 +12,8 @@ tags:
     - til
 ---
 
-There are two ways to list all the available databases. The first is a
-`psql` only command:
+There are two ways to list all the available databases. The first is a `psql`
+only command:
 
 ```psql
 \list

@@ -35,7 +35,8 @@ en: &DEFAULT_EN
   email_label: "Email"
   recent_posts: "Recent posts"
   undefined_wpm: "Undefined parameter words_per_minute at _config.yml"
-  comment_form_info: "Your email address will not be published. Required fields are marked"
+  comment_form_info:
+    "Your email address will not be published. Required fields are marked"
   comment_form_comment_label: "Comment"
   comment_form_md_info: "Markdown is supported."
   comment_form_name_label: "Name"
@@ -43,10 +44,12 @@ en: &DEFAULT_EN
   comment_form_website_label: "Website (optional)"
   comment_btn_submit: "Submit comment"
   comment_btn_submitted: "Submitted"
-  comment_success_msg: "Thanks for your comment! It will show on the site once it has been approved."
+  comment_success_msg:
+    "Thanks for your comment! It will show on the site once it has been
+    approved."
   comment_error_msg:
-    "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try
-    again."
+    "Sorry, there was an error with your submission. Please make sure all
+    required fields have been completed and try again."
   loading_label: "Loading..."
   search_label_text: "Enter your search term..."
   search_placeholder_text: "Enter your search term..."
@@ -94,8 +97,12 @@ es: &DEFAULT_ES
   website_label: "Sitio web"
   email_label: "Correo electrónico"
   recent_posts: "Entradas recientes"
-  undefined_wpm: "El parámetro words_per_minute (palabras por minuto) no está definido en _config.yml"
-  comment_form_info: "Tu dirección de correo electrónico no se publicará. Los campos obligatorios están marcados"
+  undefined_wpm:
+    "El parámetro words_per_minute (palabras por minuto) no está definido en
+    _config.yml"
+  comment_form_info:
+    "Tu dirección de correo electrónico no se publicará. Los campos obligatorios
+    están marcados"
   comment_form_comment_label: "Comentario"
   comment_form_md_info: "Puedes utilizar Markdown"
   comment_form_name_label: "Nombre"
@@ -103,10 +110,11 @@ es: &DEFAULT_ES
   comment_form_website_label: "Sitio web (opcional)"
   comment_btn_submit: "Enviar comentario"
   comment_btn_submitted: "Enviado"
-  comment_success_msg: "¡Gracias por tu comentario! Se publicará una vez sea aprobado."
+  comment_success_msg:
+    "¡Gracias por tu comentario! Se publicará una vez sea aprobado."
   comment_error_msg:
-    "Ha ocurrido un error al enviar el comentario. Asegúrate de completar todos los campos obligatorios e inténtalo de
-    nuevo."
+    "Ha ocurrido un error al enviar el comentario. Asegúrate de completar todos
+    los campos obligatorios e inténtalo de nuevo."
   loading_label: "Cargando..."
   search_label_text: "Términos de búsqueda..."
   search_placeholder_text: "Términos de búsqueda..."
@@ -150,8 +158,11 @@ fr: &DEFAULT_FR
   website_label: "Site"
   email_label: "Email"
   recent_posts: "Posts récents"
-  undefined_wpm: "Le paramètre words_per_minute n'est pas défini dans _config.yml"
-  comment_form_info: "Votre adresse email ne sera pas visible. Les champs obligatoires sont marqués"
+  undefined_wpm:
+    "Le paramètre words_per_minute n'est pas défini dans _config.yml"
+  comment_form_info:
+    "Votre adresse email ne sera pas visible. Les champs obligatoires sont
+    marqués"
   comment_form_comment_label: "Commentaire"
   comment_form_md_info: "Markdown est supporté."
   comment_form_name_label: "Nom"
@@ -159,10 +170,12 @@ fr: &DEFAULT_FR
   comment_form_website_label: "Site web (optionnel)"
   comment_btn_submit: "Envoyer"
   comment_btn_submitted: "Envoyé"
-  comment_success_msg: "Merci pour votre commentaire, il sera visible sur le site une fois approuvé."
+  comment_success_msg:
+    "Merci pour votre commentaire, il sera visible sur le site une fois
+    approuvé."
   comment_error_msg:
-    "Désolé, une erreur est survenue lors de la soumission. Vérifiez que les champs obligatoires ont été remplis et
-    réessayez."
+    "Désolé, une erreur est survenue lors de la soumission. Vérifiez que les
+    champs obligatoires ont été remplis et réessayez."
   loading_label: "Chargement..."
   search_label_text:
   search_placeholder_text: "Entrez votre recherche..."
@@ -208,8 +221,10 @@ tr: &DEFAULT_TR
   website_label: "Web sayfası"
   email_label: "E-posta"
   recent_posts: "Son yazılar"
-  undefined_wpm: "_config.yml dosyasında tanımlanmamış words_per_minute parametresi"
-  comment_form_info: "Email adresiniz gösterilmeyecektir. Zorunlu alanlar işaretlenmiştir"
+  undefined_wpm:
+    "_config.yml dosyasında tanımlanmamış words_per_minute parametresi"
+  comment_form_info:
+    "Email adresiniz gösterilmeyecektir. Zorunlu alanlar işaretlenmiştir"
   comment_form_comment_label: "Yorumunuz"
   comment_form_md_info: "Markdown desteklenmektedir."
   comment_form_name_label: "Adınız"
@@ -217,10 +232,12 @@ tr: &DEFAULT_TR
   comment_form_website_label: "Websiteniz (opsiyonel)"
   comment_btn_submit: "Yorum Yap"
   comment_btn_submitted: "Gönderildi"
-  comment_success_msg: "Yorumunuz için teşekkürler! Yorumunuz onaylandıktan sonra sitede gösterilecektir."
+  comment_success_msg:
+    "Yorumunuz için teşekkürler! Yorumunuz onaylandıktan sonra sitede
+    gösterilecektir."
   comment_error_msg: >
-    Maalesef bir hata oluştu.
-    Lütfen zorunlu olan tüm alanları doldurduğunuzdan emin olun ve sonrasında tekrar deneyin.
+    Maalesef bir hata oluştu. Lütfen zorunlu olan tüm alanları doldurduğunuzdan
+    emin olun ve sonrasında tekrar deneyin.
   loading_label: "Yükleniyor..."
   search_label_text:
   search_algolia_no_results:
@@ -260,7 +277,9 @@ pt: &DEFAULT_PT
   email_label: "Email"
   recent_posts: "Artigos Recentes"
   undefined_wpm: "Parâmetro words_per_minute não definido em _config.yml"
-  comment_form_info: "O seu endereço email não será publicado. Os campos obrigatórios estão assinalados"
+  comment_form_info:
+    "O seu endereço email não será publicado. Os campos obrigatórios estão
+    assinalados"
   comment_form_comment_label: "Comentário"
   comment_form_md_info: "Markdown é suportado."
   comment_form_name_label: "Nome"
@@ -268,10 +287,11 @@ pt: &DEFAULT_PT
   comment_form_website_label: "Site (opcional)"
   comment_btn_submit: "Sumbeter Comentário"
   comment_btn_submitted: "Submetido"
-  comment_success_msg: "Obrigado pelo seu comentário! Será visível no site logo que aprovado."
+  comment_success_msg:
+    "Obrigado pelo seu comentário! Será visível no site logo que aprovado."
   comment_error_msg:
-    "Lamento, ocorreu um erro na sua submissão. Por favor verifique se todos os campos obrigatórios estão corretamente
-    preenchidos e tente novamente."
+    "Lamento, ocorreu um erro na sua submissão. Por favor verifique se todos os
+    campos obrigatórios estão corretamente preenchidos e tente novamente."
   loading_label: "A carregar..."
   search_label_text:
   search_algolia_no_results:
@@ -310,7 +330,8 @@ pt-BR:
   email_label: "E-mail"
   recent_posts: "Publicações recentes"
   undefined_wpm: "Parâmetro words_per_minute não definido em _config.yml"
-  comment_form_info: "Seu e-mail não será publicado. Os campos obrigatórios estão marcados"
+  comment_form_info:
+    "Seu e-mail não será publicado. Os campos obrigatórios estão marcados"
   comment_form_comment_label: "Comentário"
   comment_form_md_info: "Você pode usar Markdown."
   comment_form_name_label: "Nome"
@@ -318,10 +339,11 @@ pt-BR:
   comment_form_website_label: "Site (opcional)"
   comment_btn_submit: "Enviar comentário"
   comment_btn_submitted: "Enviado"
-  comment_success_msg: "Obrigado pelo seu comentário! Ele aparecerá no site assim que for aprovado."
+  comment_success_msg:
+    "Obrigado pelo seu comentário! Ele aparecerá no site assim que for aprovado."
   comment_error_msg: >
-    Desculpe, ocorreu um erro no envio.
-    Verifique se todos os campos obrigatórios foram preenchidos e tente novamente.
+    Desculpe, ocorreu um erro no envio. Verifique se todos os campos
+    obrigatórios foram preenchidos e tente novamente.
   loading_label: "Carregando..."
   search_label_text: "Digite seu termo de busca..."
   search_placeholder_text: "Digite seu termo de busca..."
@@ -362,7 +384,9 @@ it: &DEFAULT_IT
   email_label: "Email"
   recent_posts: "Articoli Recenti"
   undefined_wpm: "Parametro words_per_minute non definito in _config.yml"
-  comment_form_info: "Il tuo indirizzo email non sarà pubblicato. Sono segnati i campi obbligatori"
+  comment_form_info:
+    "Il tuo indirizzo email non sarà pubblicato. Sono segnati i campi
+    obbligatori"
   comment_form_comment_label: "Commenta"
   comment_form_md_info: "Il linguaggio Markdown è supportato"
   comment_form_name_label: "Nome"
@@ -370,10 +394,12 @@ it: &DEFAULT_IT
   comment_form_website_label: "Sito Web (opzionale)"
   comment_btn_submit: "Invia commento"
   comment_btn_submitted: "Inviato"
-  comment_success_msg: "Grazie per il tuo commento! Verrà visualizzato nel sito una volta che sarà approvato."
+  comment_success_msg:
+    "Grazie per il tuo commento! Verrà visualizzato nel sito una volta che sarà
+    approvato."
   comment_error_msg: >
-    C'è stato un errore con il tuo invio.
-    Assicurati che tutti i campi richiesti siano stati completati e riprova.
+    C'è stato un errore con il tuo invio. Assicurati che tutti i campi richiesti
+    siano stati completati e riprova.
   loading_label: "Caricamento..."
   search_label_text:
   search_placeholder_text: "Inserisci termini di ricerca..."
@@ -521,7 +547,9 @@ de: &DEFAULT_DE
   email_label: "E-Mail"
   recent_posts: "Aktuelle Beiträge"
   undefined_wpm: "Undefinierter Parameter words_per_minute in _config.yml"
-  comment_form_info: "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind markiert"
+  comment_form_info:
+    "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind
+    markiert"
   comment_form_comment_label: "Kommentar"
   comment_form_md_info: "Markdown wird unterstützt."
   comment_form_name_label: "Name"
@@ -529,10 +557,12 @@ de: &DEFAULT_DE
   comment_form_website_label: "Webseite (optional)"
   comment_btn_submit: "Kommentar absenden"
   comment_btn_submitted: "Versendet"
-  comment_success_msg: "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
+  comment_success_msg:
+    "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er
+    geprüft wurde."
   comment_error_msg: >
-    Entschuldigung, es gab einen Fehler.
-    Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut.
+    Entschuldigung, es gab einen Fehler. Bitte füllen Sie alle benötigten Felder
+    aus und versuchen Sie es erneut.
   loading_label: "Lade..."
   search_label_text:
   search_placeholder_text: "Suchbegriff eingeben..."
@@ -584,7 +614,8 @@ ne: &DEFAULT_NE
   email_label: "इमेल"
   recent_posts: "ताजा लेखहरु"
   undefined_wpm: "अपरिभाषित प्यारामिटर शब्दहरू_प्रति_मिनेट at _config.yml"
-  comment_form_info: "तपाइँको इमेल ठेगाना प्रकाशित गरिने छैन।आवश्यक जानकारीहरुमा चिन्ह लगाइको छ"
+  comment_form_info:
+    "तपाइँको इमेल ठेगाना प्रकाशित गरिने छैन।आवश्यक जानकारीहरुमा चिन्ह लगाइको छ"
   comment_form_comment_label: "टिप्पणी"
   comment_form_md_info: "मार्कडाउन  समर्थित छ।"
   comment_form_name_label: "नाम"
@@ -592,10 +623,12 @@ ne: &DEFAULT_NE
   comment_form_website_label: "वेबसाइट (वैकल्पिक)"
   comment_btn_submit: "टिप्पणी दिनुहोस् "
   comment_btn_submitted: "टिप्पणी भयो"
-  comment_success_msg: "तपाईंको टिप्पणीको लागि धन्यवाद! एक पटक यो अनुमोदन गरेपछी यो साइटमा देखाउनेछ।"
+  comment_success_msg:
+    "तपाईंको टिप्पणीको लागि धन्यवाद! एक पटक यो अनुमोदन गरेपछी यो साइटमा
+    देखाउनेछ।"
   comment_error_msg:
-    "माफ गर्नुहोस्, तपाईंको टिप्पणी त्रुटि थियो।सबै आवश्यक जानकारीहरु पूरा गरिएको छ भने निश्चित गर्नुहोस् र फेरि प्रयास
-    गर्नुहोस्।"
+    "माफ गर्नुहोस्, तपाईंको टिप्पणी त्रुटि थियो।सबै आवश्यक जानकारीहरु पूरा
+    गरिएको छ भने निश्चित गर्नुहोस् र फेरि प्रयास गर्नुहोस्।"
   loading_label: "लोड हुँदैछ ..."
   search_label_text:
   search_algolia_no_results:
@@ -644,7 +677,9 @@ ko: &DEFAULT_KO
   comment_btn_submit: "댓글 등록"
   comment_btn_submitted: "등록됨"
   comment_success_msg: "감사합니다! 댓글이 머지된 후 확인하실 수 있습니다."
-  comment_error_msg: "댓글 등록에 문제가 있습니다. 필요 필드를 작성했는지 확인하고 다시 시도하세요."
+  comment_error_msg:
+    "댓글 등록에 문제가 있습니다. 필요 필드를 작성했는지 확인하고 다시
+    시도하세요."
   loading_label: "로딩중..."
   search_label_text:
   search_placeholder_text: "검색어를 입력하세요..."
@@ -687,7 +722,9 @@ ru: &DEFAULT_RU
   email_label: "Электронная почта"
   recent_posts: "Свежие записи"
   undefined_wpm: "Не определён параметр words_per_minute в _config.yml"
-  comment_form_info: "Ваш адрес электронной почты не будет опубликован. Обязательные поля помечены"
+  comment_form_info:
+    "Ваш адрес электронной почты не будет опубликован. Обязательные поля
+    помечены"
   comment_form_comment_label: "Комментарий"
   comment_form_md_info: "Поддерживается синтаксис Markdown."
   comment_form_name_label: "Имя"
@@ -695,9 +732,11 @@ ru: &DEFAULT_RU
   comment_form_website_label: "Ссылка на сайт (необязательно)"
   comment_btn_submit: "Оставить комментарий"
   comment_btn_submitted: "Отправлено"
-  comment_success_msg: "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
-  comment_error_msg: К сожалению, произошла ошибка с отправкой комментария.
-    Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова.
+  comment_success_msg:
+    "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
+  comment_error_msg:
+    К сожалению, произошла ошибка с отправкой комментария. Пожалуйста,
+    убедитесь, что все обязательные поля заполнены и попытайтесь снова.
   loading_label: "Отправка..."
   search_label_text:
   search_placeholder_text: "Введите поисковый запрос..."
@@ -739,7 +778,8 @@ lt: &DEFAULT_LT
   email_label: "El. paštas"
   recent_posts: "Naujausi įrašai"
   undefined_wpm: "Nedeklaruotas parametras words_per_minute faile _config.yml"
-  comment_form_info: "El. pašto adresas nebus viešinamas. Būtini laukai pažymėti"
+  comment_form_info:
+    "El. pašto adresas nebus viešinamas. Būtini laukai pažymėti"
   comment_form_comment_label: "Komentaras"
   comment_form_md_info: "Markdown palaikomas."
   comment_form_name_label: "Vardas"
@@ -747,10 +787,11 @@ lt: &DEFAULT_LT
   comment_form_website_label: "Tinklapis (nebūtina)"
   comment_btn_submit: "Komentuoti"
   comment_btn_submitted: "Įrašytas"
-  comment_success_msg: "Ačiū už komentarą! Jis bus parodytas kai bus patvirtintas."
+  comment_success_msg:
+    "Ačiū už komentarą! Jis bus parodytas kai bus patvirtintas."
   comment_error_msg:
-    "Atleiskite, įvyko netikėta klaida įrašant komentarą. Pasitikrinkite ar užpildėte visus būtinus laukus ir
-    pamėginkite dar kartą."
+    "Atleiskite, įvyko netikėta klaida įrašant komentarą. Pasitikrinkite ar
+    užpildėte visus būtinus laukus ir pamėginkite dar kartą."
   loading_label: "Kraunama..."
   search_label_text:
   search_algolia_no_results:
@@ -789,8 +830,11 @@ gr: &DEFAULT_GR
   website_label: "Ιστοσελίδα"
   email_label: "Email"
   recent_posts: "Τελευταίες αναρτήσεις"
-  undefined_wpm: "Δεν έχει οριστεί η παράμετρος words_per_minute στο αρχείο _config.yml"
-  comment_form_info: "Η διεύθυνση email σας δεν θα δημοσιευθεί. Τα απαιτούμενα πεδία εμφανίζονται με αστερίσκο"
+  undefined_wpm:
+    "Δεν έχει οριστεί η παράμετρος words_per_minute στο αρχείο _config.yml"
+  comment_form_info:
+    "Η διεύθυνση email σας δεν θα δημοσιευθεί. Τα απαιτούμενα πεδία εμφανίζονται
+    με αστερίσκο"
   comment_form_comment_label: "Σχόλιο"
   comment_form_md_info: "Το πεδίο υποστηρίζει Markdown."
   comment_form_name_label: "Όνομα"
@@ -798,10 +842,13 @@ gr: &DEFAULT_GR
   comment_form_website_label: "Ιστοσελίδα (προαιρετικό)"
   comment_btn_submit: "Υπόβαλε ένα σχόλιο"
   comment_btn_submitted: "Έχει υποβληθεί"
-  comment_success_msg: "Ευχαριστούμε για το σχόλιό σας! Θα εμφανιστεί στην ιστοσελίδα αφού εγκριθεί."
+  comment_success_msg:
+    "Ευχαριστούμε για το σχόλιό σας! Θα εμφανιστεί στην ιστοσελίδα αφού
+    εγκριθεί."
   comment_error_msg:
-    "Λυπούμαστε, παρουσιάστηκε σφάλμα με την υποβολή σας. Παρακαλούμε βεβαιωθείτε ότι έχετε όλα τα απαιτούμενα πεδία
-    συμπληρωμένα και δοκιμάστε ξανά."
+    "Λυπούμαστε, παρουσιάστηκε σφάλμα με την υποβολή σας. Παρακαλούμε
+    βεβαιωθείτε ότι έχετε όλα τα απαιτούμενα πεδία συμπληρωμένα και δοκιμάστε
+    ξανά."
   loading_label: "Φόρτωση..."
   search_label_text:
   search_placeholder_text: "Εισάγετε όρο αναζήτησης..."
@@ -843,7 +890,9 @@ sv: &DEFAULT_SV
   email_label: "E-post"
   recent_posts: "Senaste inlägg"
   undefined_wpm: "Odefinerade parametrar words_per_minute i _config.yml"
-  comment_form_info: "Din e-post adress kommer inte att publiceras. Obligatoriska fält är markerade"
+  comment_form_info:
+    "Din e-post adress kommer inte att publiceras. Obligatoriska fält är
+    markerade"
   comment_form_comment_label: "Kommentar"
   comment_form_md_info: "Stöd för Markdown finns."
   comment_form_name_label: "Namn"
@@ -851,10 +900,12 @@ sv: &DEFAULT_SV
   comment_form_website_label: "Webdsida (valfritt)"
   comment_btn_submit: "Skicka en kommentar"
   comment_btn_submitted: "Kommentaren har tagits emot"
-  comment_success_msg: "Tack för din kommentar! Den kommer att visas på sidan så fort den har godkännts."
+  comment_success_msg:
+    "Tack för din kommentar! Den kommer att visas på sidan så fort den har
+    godkännts."
   comment_error_msg: >
-    Tyvärr det har blivit något fel i ett av fälten,
-    se till att du fyllt i alla obligatoriska fält och försök igen.
+    Tyvärr det har blivit något fel i ett av fälten, se till att du fyllt i alla
+    obligatoriska fält och försök igen.
   loading_label: "Laddar..."
   search_label_text:
   search_placeholder_text: "Fyll i sökterm..."
@@ -899,7 +950,8 @@ nl: &DEFAULT_NL
   email_label: "Email"
   recent_posts: "Recente berichten"
   undefined_wpm: "Niet gedefinieerde parameter words_per_minute bij _config.yml"
-  comment_form_info: "Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd"
+  comment_form_info:
+    "Uw e-mailadres wordt niet gepubliceerd. Verplichte velden zijn gemarkeerd"
   comment_form_comment_label: "Commentaar"
   comment_form_md_info: "Markdown wordt ondersteund."
   comment_form_name_label: "Naam"
@@ -907,10 +959,12 @@ nl: &DEFAULT_NL
   comment_form_website_label: "Website (optioneel)"
   comment_btn_submit: "Commentaar toevoegen"
   comment_btn_submitted: "Toegevoegd"
-  comment_success_msg: "Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd."
+  comment_success_msg:
+    "Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is
+    goedgekeurd."
   comment_error_msg:
-    "Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer
-    het opnieuw."
+    "Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle
+    vereiste velden zijn voltooid en probeer het opnieuw."
   loading_label: "Laden..."
   search_label_text: "Geef uw zoekterm in..."
   search_placeholder_text: "Geef uw zoekterm in..."
@@ -955,7 +1009,9 @@ id: &DEFAULT_ID
   email_label: "Email"
   recent_posts: "Post terbaru"
   undefined_wpm: "Parameter terdeskripsi words_per_minute di _config.yml"
-  comment_form_info: "Email Anda tidak akan dipublish. Kolom yang diperlukan ditandai dengan tanda "
+  comment_form_info:
+    "Email Anda tidak akan dipublish. Kolom yang diperlukan ditandai dengan
+    tanda "
   comment_form_comment_label: "Komentar"
   comment_form_md_info: "Markdown didukung."
   comment_form_name_label: "Nama"
@@ -963,8 +1019,11 @@ id: &DEFAULT_ID
   comment_form_website_label: "Website (opsional)"
   comment_btn_submit: "Kirim Komentar"
   comment_btn_submitted: "Telah dikirim"
-  comment_success_msg: "Terimakasih atas komentar Anda! Komentar akan tampil setelah disetujui."
-  comment_error_msg: "Maaf, ada kesalahan pada komentar Anda. Pastikan seluruh kolom sudah dilengkapi dan coba kembali."
+  comment_success_msg:
+    "Terimakasih atas komentar Anda! Komentar akan tampil setelah disetujui."
+  comment_error_msg:
+    "Maaf, ada kesalahan pada komentar Anda. Pastikan seluruh kolom sudah
+    dilengkapi dan coba kembali."
   loading_label: "Sedang memuat..."
   search_label_text: "Masukkan kata kunci pencarian..."
   search_placeholder_text: "Masukkan kata kunci pencarian..."
@@ -1007,7 +1066,8 @@ vi: &DEFAULT_VI
   email_label: "Email"
   recent_posts: "Bài viết mới"
   undefined_wpm: "Chưa định nghĩa thông số words_per_minute tại _config.yml"
-  comment_form_info: "Email của bạn sẽ được giữ bí mật. Các phần bắt buộc được đánh dấu"
+  comment_form_info:
+    "Email của bạn sẽ được giữ bí mật. Các phần bắt buộc được đánh dấu"
   comment_form_comment_label: "Bình luận"
   comment_form_md_info: "Hỗ trợ Markdown."
   comment_form_name_label: "Tên"
@@ -1015,10 +1075,11 @@ vi: &DEFAULT_VI
   comment_form_website_label: "Website (không bắt buộc)"
   comment_btn_submit: "Gửi bình luận"
   comment_btn_submitted: "Đã được gửi"
-  comment_success_msg: "Cảm ơn bạn đã bình luận! Bình luận sẽ xuất hiện sau khi được duyệt."
+  comment_success_msg:
+    "Cảm ơn bạn đã bình luận! Bình luận sẽ xuất hiện sau khi được duyệt."
   comment_error_msg: >
-    "Rất tiếc, có lỗi trong việc gửi bình luận.
-    Hãy đảm bảo toàn bộ các phần bắt buộc đã được điền đầy đủ và thử lại."
+    "Rất tiếc, có lỗi trong việc gửi bình luận. Hãy đảm bảo toàn bộ các phần bắt
+    buộc đã được điền đầy đủ và thử lại."
   loading_label: "Đang tải..."
   search_label_text: "Nhập từ khóa cần tìm..."
   search_placeholder_text: "Nhập từ khóa cần tìm..."
@@ -1061,7 +1122,8 @@ da: &DEFAULT_DA
   email_label: "E-mail"
   recent_posts: "Seneste indlæg"
   undefined_wpm: "Parameteren words_per_minute er ikke defineret i _config.yml"
-  comment_form_info: "Din e-mail bliver ikke offentliggjort. Obligatoriske felter er markeret"
+  comment_form_info:
+    "Din e-mail bliver ikke offentliggjort. Obligatoriske felter er markeret"
   comment_form_comment_label: "Kommentar"
   comment_form_md_info: "Markdown er understøttet."
   comment_form_name_label: "Navn"
@@ -1069,10 +1131,11 @@ da: &DEFAULT_DA
   comment_form_website_label: "Website (frivillig)"
   comment_btn_submit: "Send kommentar"
   comment_btn_submitted: "Sendt"
-  comment_success_msg: "Tak for din kommentar! Den bliver vist på siden, så snart den er godkendt."
+  comment_success_msg:
+    "Tak for din kommentar! Den bliver vist på siden, så snart den er godkendt."
   comment_error_msg: >
-    "Desværre skete der en fejl.
-    Prøv igen, mens du sørger for at alle obligatoriske felter er udfyldt."
+    "Desværre skete der en fejl. Prøv igen, mens du sørger for at alle
+    obligatoriske felter er udfyldt."
   loading_label: "Indlæser..."
   search_label_text: "Hvad leder du efter..."
   search_placeholder_text: "Hvad leder du efter..."
@@ -1114,8 +1177,10 @@ pl: &DEFAULT_PL
   website_label: "Strona"
   email_label: "Email"
   recent_posts: "Najnowsze wpisy"
-  undefined_wpm: "Parametr words_per_minute nie został zdefiniowany w _config.yml."
-  comment_form_info: "Twój adres email nie będzie udostępiony. Wymagane pola są oznaczone"
+  undefined_wpm:
+    "Parametr words_per_minute nie został zdefiniowany w _config.yml."
+  comment_form_info:
+    "Twój adres email nie będzie udostępiony. Wymagane pola są oznaczone"
   comment_form_comment_label: "Skomentuj"
   comment_form_md_info: "Markdown jest wspierany"
   comment_form_name_label: "Imię"
@@ -1123,10 +1188,11 @@ pl: &DEFAULT_PL
   comment_form_website_label: "Strona www (opcjonalna)"
   comment_btn_submit: "Skomentuj"
   comment_btn_submitted: "Komentarz dodany"
-  comment_success_msg: "Dziękuję za Twój komentarz! Zostanie dodany po akceptacji."
+  comment_success_msg:
+    "Dziękuję za Twój komentarz! Zostanie dodany po akceptacji."
   comment_error_msg: >
-    "Niestety wystąpił błąd.
-    Proszę upewnij się, że wszystkie wymagane pola zostały wypełnione i spróbuj ponownie."
+    "Niestety wystąpił błąd. Proszę upewnij się, że wszystkie wymagane pola
+    zostały wypełnione i spróbuj ponownie."
   loading_label: "Trwa ładowanie strony..."
   search_label_text:
   search_algolia_no_results: "Brak wyników"
@@ -1165,7 +1231,8 @@ ja: &DEFAULT_JA
   website_label:
   email_label:
   recent_posts: "最近の投稿"
-  undefined_wpm: "パラメータ words_per_minute が _config.yml で定義されていません"
+  undefined_wpm:
+    "パラメータ words_per_minute が _config.yml で定義されていません"
   comment_form_info: "メールアドレスが公開されることはありません。次の印のある項目は必ず入力してください:"
   comment_form_comment_label: "コメント"
   comment_form_md_info: "Markdown を使用できます"
@@ -1217,7 +1284,8 @@ sk: &DEFAULT_SK
   email_label: "Email"
   recent_posts: "Najnovšie príspevky"
   undefined_wpm: "Nedefinovaný parameter words_per_minute v _config.yml"
-  comment_form_info: "Tvoja emailová adresa nebude publikovaná. Požadované polia sú označené"
+  comment_form_info:
+    "Tvoja emailová adresa nebude publikovaná. Požadované polia sú označené"
   comment_form_comment_label: "Komentár"
   comment_form_md_info: "Markdown je podporovaný."
   comment_form_name_label: "Meno"
@@ -1225,10 +1293,11 @@ sk: &DEFAULT_SK
   comment_form_website_label: "Webstránka (voliteľné)"
   comment_btn_submit: "Vlož komentár"
   comment_btn_submitted: "Vložený"
-  comment_success_msg: "Ďakujem za tvoj komentár! Po schválení bude zobrazený na stránke."
+  comment_success_msg:
+    "Ďakujem za tvoj komentár! Po schválení bude zobrazený na stránke."
   comment_error_msg: >
-    "Prepáč, pri ukladaní nastala chyba.
-    Ubezpeč sa prosím, že si vyplnil všetky požadované polia a skús znova."
+    "Prepáč, pri ukladaní nastala chyba. Ubezpeč sa prosím, že si vyplnil všetky
+    požadované polia a skús znova."
   loading_label: "Načítava sa..."
   search_label_text:
   search_placeholder_text: "Zadaj hľadaný výraz..."
@@ -1271,7 +1340,8 @@ hu: &DEFAULT_HU
   email_label: "Email"
   recent_posts: "Friss cikkek"
   undefined_wpm: "Ismeretlen paraméter words_per_minute : _config.yml"
-  comment_form_info: "Az e-mail címed nem lesz publikus. A csillagozott mezők kitöltése kötelező"
+  comment_form_info:
+    "Az e-mail címed nem lesz publikus. A csillagozott mezők kitöltése kötelező"
   comment_form_comment_label: "Hozzászólás"
   comment_form_md_info: "Támogatott formázási mód: Markdown"
   comment_form_name_label: "Név"
@@ -1279,10 +1349,12 @@ hu: &DEFAULT_HU
   comment_form_website_label: "Honlap (nem kötelező):"
   comment_btn_submit: "Hozzászólás elküldése"
   comment_btn_submitted: "Hozzászólás elküldve"
-  comment_success_msg: "Köszönjük a Hozzászólást! A Hozzászólások csak előzetes moderáció után lesznek publikusak."
+  comment_success_msg:
+    "Köszönjük a Hozzászólást! A Hozzászólások csak előzetes moderáció után
+    lesznek publikusak."
   comment_error_msg: >
-    "Hoppá, hiba történt a beküldés közben.
-    Kérlek ellenőrizd hogy minden kötelező mező ki van-e töltve."
+    "Hoppá, hiba történt a beküldés közben. Kérlek ellenőrizd hogy minden
+    kötelező mező ki van-e töltve."
   loading_label: "Betöltés..."
   search_label_text:
   search_placeholder_text: "Keresendő szöveg..."
@@ -1325,7 +1397,9 @@ ro: &DEFAULT_RO
   email_label: "Email"
   recent_posts: "Articole recente"
   undefined_wpm: "Parametru words_per_minute nedefinit în _config.yml"
-  comment_form_info: "Adresa ta de email nu va fi făcută publică. Câmpurile marcate sunt obligatorii"
+  comment_form_info:
+    "Adresa ta de email nu va fi făcută publică. Câmpurile marcate sunt
+    obligatorii"
   comment_form_comment_label: "Comentariu"
   comment_form_md_info: "Markdown este suportat."
   comment_form_name_label: "Nume"
@@ -1333,10 +1407,12 @@ ro: &DEFAULT_RO
   comment_form_website_label: "Site (opțional)"
   comment_btn_submit: "Trimite comentariul"
   comment_btn_submitted: "Trimis"
-  comment_success_msg: "Mulțumesc pentru comentariu! Va apărea pe site în momentul în care va fi aprobat."
+  comment_success_msg:
+    "Mulțumesc pentru comentariu! Va apărea pe site în momentul în care va fi
+    aprobat."
   comment_error_msg:
-    "Scuze, este o problemă cu comentariul tău. Asigură-te că toate câmpurile obligatorii au fost completate și încearcă
-    din nou."
+    "Scuze, este o problemă cu comentariul tău. Asigură-te că toate câmpurile
+    obligatorii au fost completate și încearcă din nou."
   loading_label: "Se încarcă..."
   search_label_text:
   search_placeholder_text: "Caută ceva..."
@@ -1379,7 +1455,9 @@ pa: &DEFAULT_PA
   email_label: "ਈਮੇਲ"
   recent_posts: "ਹਾਲ ਹੀ ਦੇ ਪੋਸਟ"
   undefined_wpm: "_config.yml ਤੇ ਅਣ-ਪ੍ਰਭਾਸ਼ਿਤ ਪੈਰਾਮੀਟਰ words_per_minute"
-  comment_form_info: "ਤੁਹਾਡਾ ਈਮੇਲ ਪਤਾ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ। ਅਨੁਮਾਨਿਤ ਸਥਾਨਾਂ ਨੂੰ ਅੰਡਰਲਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ"
+  comment_form_info:
+    "ਤੁਹਾਡਾ ਈਮੇਲ ਪਤਾ ਪ੍ਰਕਾਸ਼ਿਤ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ। ਅਨੁਮਾਨਿਤ ਸਥਾਨਾਂ ਨੂੰ ਅੰਡਰਲਾਈਨ
+    ਕੀਤਾ ਗਿਆ ਹੈ"
   comment_form_comment_label: "ਟਿੱਪਣੀ"
   comment_form_md_info: "ਮਾਰਕਡਾਊਨ ਵਰਤ ਸਕਦੇ ਹੋ।"
   comment_form_name_label: "ਨਾਮ"
@@ -1387,10 +1465,12 @@ pa: &DEFAULT_PA
   comment_form_website_label: "ਵੈਬਸਾਈਟ (ਵਿਕਲਪਿਕ)"
   comment_btn_submit: "ਕੋਈ ਟਿੱਪਣੀ ਭੇਜੋ"
   comment_btn_submitted: "ਪੇਸ਼ ਕੀਤਾ"
-  comment_success_msg: "ਤੁਹਾਡੀਆਂ ਟਿੱਪਣੀਆਂ ਲਈ ਧੰਨਵਾਦ! ਇਹ ਮਨਜ਼ੂਰੀ ਮਿਲਣ ਦੇ ਬਾਅਦ ਸਾਈਟ 'ਤੇ ਦਿਖਾਇਆ ਜਾਵੇਗਾ।"
+  comment_success_msg:
+    "ਤੁਹਾਡੀਆਂ ਟਿੱਪਣੀਆਂ ਲਈ ਧੰਨਵਾਦ! ਇਹ ਮਨਜ਼ੂਰੀ ਮਿਲਣ ਦੇ ਬਾਅਦ ਸਾਈਟ 'ਤੇ ਦਿਖਾਇਆ
+    ਜਾਵੇਗਾ।"
   comment_error_msg:
-    "ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡੀ ਅਧੀਨਗੀ ਵਿੱਚ ਕੋਈ ਗਲਤੀ ਹੋਈ ਸੀ ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਾਰੇ ਲੋੜੀਂਦੇ ਖੇਤਰ ਪੂਰੇ ਹੋ ਗਏ ਹਨ ਅਤੇ ਦੁਬਾਰਾ
-    ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+    "ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡੀ ਅਧੀਨਗੀ ਵਿੱਚ ਕੋਈ ਗਲਤੀ ਹੋਈ ਸੀ ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਾਰੇ
+    ਲੋੜੀਂਦੇ ਖੇਤਰ ਪੂਰੇ ਹੋ ਗਏ ਹਨ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
   loading_label: "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ..."
   search_label_text: "ਖੋਜ"
   search_placeholder_text: "ਆਪਣੀ ਖੋਜ ਦੇ ਸ਼ਬਦ ਨੂੰ ਦਰਜ ਕਰੋ..."
@@ -1432,7 +1512,8 @@ fa: &DEFAULT_FA
   email_label: "پست الکترونیک"
   recent_posts: "آخرین مطالب"
   undefined_wpm: ".(words_per_minute) _config.yml متغیر اشتباه در"
-  comment_form_info: ".آدرس ایمیل شما منتشر نخواهد شد. فیلدهای اجباری مشخص شده اند"
+  comment_form_info:
+    ".آدرس ایمیل شما منتشر نخواهد شد. فیلدهای اجباری مشخص شده اند"
   comment_form_comment_label: "دیدگاه"
   comment_form_md_info: ".پشتیبانی می شود Markdown"
   comment_form_name_label: "نام"
@@ -1440,10 +1521,11 @@ fa: &DEFAULT_FA
   comment_form_website_label: "سایت اینترنتی (اختیاری)"
   comment_btn_submit: "ارسال نظر"
   comment_btn_submitted: "ارسال شد"
-  comment_success_msg: ".باتشکر از ارسال دیدگاه! پس از تأیید، این دیدگاه در سایت نشان داده خواهد شد"
+  comment_success_msg:
+    ".باتشکر از ارسال دیدگاه! پس از تأیید، این دیدگاه در سایت نشان داده خواهد شد"
   comment_error_msg: >
-    ".متاسفانه در ارسال شما خطایی بود. لطفا مطمئن شوید تما
-    فیلدهای مورد نیاز تکمیل شده و دوباره امتحان کنید"
+    ".متاسفانه در ارسال شما خطایی بود. لطفا مطمئن شوید تما فیلدهای مورد نیاز
+    تکمیل شده و دوباره امتحان کنید"
   loading_label: "...بارگذاری"
   search_label_text:
   search_placeholder_text: "...عبارت جستجوی خود را وارد کنید"
@@ -1486,7 +1568,9 @@ ml: &DEFAULT_ML
   email_label: "ഇ-മെയിൽ"
   recent_posts: "സമീപകാല പോസ്റ്റുകൾ"
   undefined_wpm: "Config.yml ലെ words_per_minute പരാമീറ്റർ നിർവചിച്ചിട്ടില്ല."
-  comment_form_info: "നിങ്ങളുടെ ഇമെയിൽ വിലാസം പ്രസിദ്ധീകരിക്കില്ല. ആവശ്യമായ ഫീൽഡുകൾ അടയാളപ്പെടുത്തി."
+  comment_form_info:
+    "നിങ്ങളുടെ ഇമെയിൽ വിലാസം പ്രസിദ്ധീകരിക്കില്ല. ആവശ്യമായ ഫീൽഡുകൾ
+    അടയാളപ്പെടുത്തി."
   comment_form_comment_label: "കമന്റ്"
   comment_form_md_info: "Markdown സപ്പോർട്ട് ചെയ്യുന്നതാണ്."
   comment_form_name_label: "പേര്"
@@ -1494,10 +1578,13 @@ ml: &DEFAULT_ML
   comment_form_website_label: "വെബ്സൈറ് (ഓപ്ഷണൽ)"
   comment_btn_submit: "അഭിപ്രായം രേഖപ്പെടുത്തുക"
   comment_btn_submitted: "രേഖപ്പെടുത്തി"
-  comment_success_msg: "നിങ്ങളുടെ അഭിപ്രായത്തിന് നന്ദി! ഇത് അംഗീകരിച്ചുകഴിഞ്ഞാൽ ഇത് സൈറ്റിൽ പ്രദർശിപ്പിക്കും."
+  comment_success_msg:
+    "നിങ്ങളുടെ അഭിപ്രായത്തിന് നന്ദി! ഇത് അംഗീകരിച്ചുകഴിഞ്ഞാൽ ഇത് സൈറ്റിൽ
+    പ്രദർശിപ്പിക്കും."
   comment_error_msg:
-    "ക്ഷമിക്കണം, നിങ്ങളുടെ സമർപ്പണവുമായി ബന്ധപ്പെട്ട് ഒരു പിശകുണ്ടായിരുന്നു. ആവശ്യമായ എല്ലാ ഫീൽഡുകളും
-    പൂർത്തിയായിട്ടുണ്ടെന്ന് ഉറപ്പുവരുത്തുക, വീണ്ടും ശ്രമിക്കുക."
+    "ക്ഷമിക്കണം, നിങ്ങളുടെ സമർപ്പണവുമായി ബന്ധപ്പെട്ട് ഒരു പിശകുണ്ടായിരുന്നു.
+    ആവശ്യമായ എല്ലാ ഫീൽഡുകളും പൂർത്തിയായിട്ടുണ്ടെന്ന് ഉറപ്പുവരുത്തുക, വീണ്ടും
+    ശ്രമിക്കുക."
   loading_label: "ലോഡിംഗ്..."
   search_label_text:
   search_placeholder_text: "നിങ്ങളുടെ തിരയൽ പദം നൽകുക..."
@@ -1540,7 +1627,9 @@ th: &DEFAULT_TH
   email_label: "อีเมล"
   recent_posts: "โพสล่าสุด"
   undefined_wpm: "ไม่สามารถระบุพารามิเตอร์ words_per_minute ได้ใน _config.yml"
-  comment_form_info: "อีเมลของคุณไม่สามารถโพสสาธารณะได้ กรุณากรอกช่องที่ระบุด้วยเครื่องหมายดอกจันไว้"
+  comment_form_info:
+    "อีเมลของคุณไม่สามารถโพสสาธารณะได้
+    กรุณากรอกช่องที่ระบุด้วยเครื่องหมายดอกจันไว้"
   comment_form_comment_label: "แสดงความคิดเห็น"
   comment_form_md_info: "มาร์กดาวน์ได้รับการสนับสนุน"
   comment_form_name_label: "ชื่อ"
@@ -1548,8 +1637,12 @@ th: &DEFAULT_TH
   comment_form_website_label: "เว็บไซต์ (ตัวเลือก)"
   comment_btn_submit: "ส่งความคิดเห็น"
   comment_btn_submitted: "ส่งเรียบร้อยแล้ว"
-  comment_success_msg: "ขอบคุณสำหรับการแสดงความคิดเห็น! ความคิดเห็นจะได้รับการแสดงหลังจากได้รับการยืนยัน"
-  comment_error_msg: "ขออภัย, มีบางอย่างผิดพลาดจากการส่งแบบฟอร์ม กรุณาตรวจทานทุกช่อง และลองส่งใหม่อีกครั้ง"
+  comment_success_msg:
+    "ขอบคุณสำหรับการแสดงความคิดเห็น!
+    ความคิดเห็นจะได้รับการแสดงหลังจากได้รับการยืนยัน"
+  comment_error_msg:
+    "ขออภัย, มีบางอย่างผิดพลาดจากการส่งแบบฟอร์ม กรุณาตรวจทานทุกช่อง
+    และลองส่งใหม่อีกครั้ง"
   loading_label: "กำลังโหลด..."
   search_label_text:
   search_placeholder_text: "ใส่คำค้นหาของคุณ..."
@@ -1591,7 +1684,9 @@ hi: &DEFAULT_HI
   email_label: "ईमेल"
   recent_posts: "हाल के पोस्ट"
   undefined_wpm: "_config.yml पर अपरिभाषित पैरामीटर words_per_minute"
-  comment_form_info: "आपका ईमेल पता प्रकाशित नहीं किया जाएगा। अपेक्षित स्थानों को रेखांकित कर दिया गया है"
+  comment_form_info:
+    "आपका ईमेल पता प्रकाशित नहीं किया जाएगा। अपेक्षित स्थानों को रेखांकित कर
+    दिया गया है"
   comment_form_comment_label: "टिप्पणी"
   comment_form_md_info: "मार्कडाउन की अनुमति है।"
   comment_form_name_label: "नाम"
@@ -1599,10 +1694,11 @@ hi: &DEFAULT_HI
   comment_form_website_label: "वेबसाइट (ऐच्छिक)"
   comment_btn_submit: "टिप्पणी भेजें"
   comment_btn_submitted: "प्रस्तुत"
-  comment_success_msg: "आपके कमेंट के लिए धन्यवाद! इसे स्वीकृति मिलने के बाद साइट पर दिखाया जाएगा।"
+  comment_success_msg:
+    "आपके कमेंट के लिए धन्यवाद! इसे स्वीकृति मिलने के बाद साइट पर दिखाया जाएगा।"
   comment_error_msg:
-    "क्षमा करें, आपके सबमिशन के साथ एक त्रुटि हुई थी। कृपया सुनिश्चित करें कि सभी आवश्यक फ़ील्ड पूरा हो गए हैं और पुनः
-    प्रयास करें।"
+    "क्षमा करें, आपके सबमिशन के साथ एक त्रुटि हुई थी। कृपया सुनिश्चित करें कि
+    सभी आवश्यक फ़ील्ड पूरा हो गए हैं और पुनः प्रयास करें।"
   loading_label: "लोड हो रहा है..."
   search_label_text: "खोज"
   search_placeholder_text: "अपना खोज शब्द दर्ज करें..."
@@ -1645,7 +1741,9 @@ ca: &DEFAULT_CA
   email_label: "Correu electrònic"
   recent_posts: "Entrades recents"
   undefined_wpm: "El paràmetre words_per_minute no està definit a _config.yml"
-  comment_form_info: "No es mostrarà el teu correu electrònic. Els camps obligatoris estan marcats"
+  comment_form_info:
+    "No es mostrarà el teu correu electrònic. Els camps obligatoris estan
+    marcats"
   comment_form_comment_label: "Comentari"
   comment_form_md_info: "Admet Markdown."
   comment_form_name_label: "Nom"
@@ -1653,10 +1751,11 @@ ca: &DEFAULT_CA
   comment_form_website_label: "Pàgina web (opcional)"
   comment_btn_submit: "Envia"
   comment_btn_submitted: "Enviat"
-  comment_success_msg: "Gràcies pel teu comentari! Apareixerà un cop sigui aprovat."
+  comment_success_msg:
+    "Gràcies pel teu comentari! Apareixerà un cop sigui aprovat."
   comment_error_msg: >
-    "Hi ha hagut un error enviat el comentari.
-    Comprova que els camps obligatirs estiguin omplerts i torna-ho a provar."
+    "Hi ha hagut un error enviat el comentari. Comprova que els camps obligatirs
+    estiguin omplerts i torna-ho a provar."
   loading_label: "Carregant..."
   search_label_text: "Introdueix termes per cercar..."
   search_placeholder_text: "Introdueix termes per cercar..."
@@ -1744,8 +1843,10 @@ fi: &DEFAULT_FI
   website_label: "Websivu"
   email_label: "Email"
   recent_posts: "Viimeisimmät postaukset"
-  undefined_wpm: "words_per_minute asetusta ei ole määritelty _config.yml tiedostossa"
-  comment_form_info: "Your email address will not be published. Required fields are marked"
+  undefined_wpm:
+    "words_per_minute asetusta ei ole määritelty _config.yml tiedostossa"
+  comment_form_info:
+    "Your email address will not be published. Required fields are marked"
   comment_form_comment_label: "Kommentti"
   comment_form_md_info: "Tukee markdown muotoilua."
   comment_form_name_label: "Nimi"
@@ -1753,8 +1854,10 @@ fi: &DEFAULT_FI
   comment_form_website_label: "Webbisivu (vapaaehtoinen)"
   comment_btn_submit: "Lähetä"
   comment_btn_submitted: "Lähetetty"
-  comment_success_msg: "Kiitos kommentista, se julkaistaan tällä sivulla moderoinnin jälkeen."
-  comment_error_msg: "Tarkista että olet täyttänyt kaikki kentät ja yritä uudelleen."
+  comment_success_msg:
+    "Kiitos kommentista, se julkaistaan tällä sivulla moderoinnin jälkeen."
+  comment_error_msg:
+    "Tarkista että olet täyttänyt kaikki kentät ja yritä uudelleen."
   loading_label: "Ladataan..."
   search_label_text: "Hakusana..."
   search_placeholder_text: "Hakusana..."
@@ -1805,8 +1908,11 @@ my: &DEFAULT_MY
   comment_form_website_label: "ဝဘ်ဆိုက် (မဖြည့်စွက်လည်းရသည်)"
   comment_btn_submit: "မှတ်ချက်တင်ပါ"
   comment_btn_submitted: "တင်သွင်းလိုက်သည်"
-  comment_success_msg: "မှတ်ချက်ပေးတဲ့အတွက်ကျေးဇူးတင်ပါတယ်။ ၎င်းကိုအတည်ပြုပြီးသည့်အခါ ဝဘ်ဆိုက်ပေါ်တွင်ပြလိမ့်မည်။"
-  comment_error_msg: "တောင်းပန်ပါတယ်။ သင့်တင်သွင်းမှုတွင်အမှားတစ်ခုရှိခဲ့သည်။
+  comment_success_msg:
+    "မှတ်ချက်ပေးတဲ့အတွက်ကျေးဇူးတင်ပါတယ်။ ၎င်းကိုအတည်ပြုပြီးသည့်အခါ
+    ဝဘ်ဆိုက်ပေါ်တွင်ပြလိမ့်မည်။"
+  comment_error_msg:
+    "တောင်းပန်ပါတယ်။ သင့်တင်သွင်းမှုတွင်အမှားတစ်ခုရှိခဲ့သည်။
     ကျေးဇူးပြုပြီးလိုအပ်သောဖြည့်စွက်ရန်​နေရာအားလုံးဖြည့်ပြီးပါကထပ်မံကြိုးစားပါ။"
   loading_label: "တင်နေသည်..."
   search_label_text: "သင့်ရှာဖွေရေးဝေါဟာရကိုရိုက်ထည့်ပါ..."
@@ -1850,7 +1956,8 @@ false: &DEFAULT_NO
   email_label: "E-post"
   recent_posts: "Nyeste innlegg"
   undefined_wpm: "Parameteret words_per_minute er ikke definert i _config.yml"
-  comment_form_info: "Din e-postadresse vil ikke bli publisert. Obligatoriske felt er markert"
+  comment_form_info:
+    "Din e-postadresse vil ikke bli publisert. Obligatoriske felt er markert"
   comment_form_comment_label: "Kommentar"
   comment_form_md_info: "Markdown er støttet"
   comment_form_name_label: "Navn"
@@ -1858,8 +1965,11 @@ false: &DEFAULT_NO
   comment_form_website_label: "Nettside (frivillig)"
   comment_btn_submit: "Send kommentar"
   comment_btn_submitted: "Sendt"
-  comment_success_msg: "Takk for din kommentar! Den blir vist på siden så fort den er godkjent"
-  comment_error_msg: "Beklager, noe gikk galt. Sjekk at alle obligatoriska felt er utfylt og prøv igjen"
+  comment_success_msg:
+    "Takk for din kommentar! Den blir vist på siden så fort den er godkjent"
+  comment_error_msg:
+    "Beklager, noe gikk galt. Sjekk at alle obligatoriska felt er utfylt og prøv
+    igjen"
   loading_label: "Laster..."
   search_label_text: "Skriv inn søkeord"
   search_placeholder_text: "Skriv inn søkeord"
@@ -1913,7 +2023,8 @@ he: &DEFAULT_HE
   comment_btn_submit: "שלחו הערה"
   comment_btn_submitted: "נשלח"
   comment_success_msg: "תודה על ההערה שלך! היא תופיע באתר ברגע שתאושר."
-  comment_error_msg: "סליחה, קרתה תקלה בשליחה. אנא וודאו שכל השדות מלאים ונסו שנית."
+  comment_error_msg:
+    "סליחה, קרתה תקלה בשליחה. אנא וודאו שכל השדות מלאים ונסו שנית."
   loading_label: "טוען..."
   search_label_text: "מילות חיפוש..."
   search_placeholder_text: "מילות חיפוש..."
@@ -1955,8 +2066,10 @@ ar: &DEFAULT_AR
   website_label: "موقع"
   email_label: "ايميل"
   recent_posts: "المشاركات الأخيرة"
-  undefined_wpm: "معامل غير معرف في words_per_minute (كلمة في الدقيقة) في ملف _config.yml"
-  comment_form_info: "لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة إلزامية"
+  undefined_wpm:
+    "معامل غير معرف في words_per_minute (كلمة في الدقيقة) في ملف _config.yml"
+  comment_form_info:
+    "لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة إلزامية"
   comment_form_comment_label: "تعليق"
   comment_form_md_info: "لغة ال Markdown مدعومة."
   comment_form_name_label: "الاسم"
@@ -1965,7 +2078,9 @@ ar: &DEFAULT_AR
   comment_btn_submit: "أضف تعليق"
   comment_btn_submitted: "تم الإرسال"
   comment_success_msg: "شكراً على التعليق! سيتم اظهاره عندما يتم موافقة عليه."
-  comment_error_msg: "للأسف, هناك خطأ في المحاولة. الرجاء الحرص على تعبئة جميع الخانات و محاولة مجدداً."
+  comment_error_msg:
+    "للأسف, هناك خطأ في المحاولة. الرجاء الحرص على تعبئة جميع الخانات و محاولة
+    مجدداً."
   loading_label: "جاري التحميل..."
   search_label_text: "اكتب مصطلح للبحث..."
   search_placeholder_text: "اكتب مصطلح للبحث..."
@@ -2014,7 +2129,8 @@ sw: &DEFAULT_SW
   email_label: "Barua pepe"
   recent_posts: "Makala juzi"
   undefined_wpm: "Ingizo words_per_minute kwa _config.yml haijawekwa"
-  comment_form_info: "Barua pepe yako haitaonekana. Kuna alama kwa ingizo tunahitaji."
+  comment_form_info:
+    "Barua pepe yako haitaonekana. Kuna alama kwa ingizo tunahitaji."
   comment_form_comment_label: "Maoni"
   comment_form_md_info: "Unaweza kutumia `Markdown`."
   comment_form_name_label: "Jina"
@@ -2024,8 +2140,8 @@ sw: &DEFAULT_SW
   comment_btn_submitted: "Umetuma"
   comment_success_msg: "Asante kwa maoni yako! Itaonekana ikiridhiwa."
   comment_error_msg: >
-    "Pole, kuna makosa kwa ingizo yako.
-    Tafadhali angalia umeandika kwa ingizo zote zinahitaji, na jaribu tena."
+    "Pole, kuna makosa kwa ingizo yako. Tafadhali angalia umeandika kwa ingizo
+    zote zinahitaji, na jaribu tena."
   loading_label: "Inapakiwa..."
   search_label_text: "Ingiza neno unatafuta..."
   search_placeholder_text: "Ingiza neno unatafuta..."

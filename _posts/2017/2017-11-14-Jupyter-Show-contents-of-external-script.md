@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-`%pycat` shows you (in a popup) the syntax highlighted contents of an external file:
+`%pycat` shows you (in a popup) the syntax highlighted contents of an external
+file:
 
 ```python
 > %pycat python_code.py
@@ -28,4 +29,5 @@ def some_useless_slow_function():
         append_if_not_exists(arr, x)
 ```
 
-Via [dataquest.io](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).
+Via
+[dataquest.io](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).

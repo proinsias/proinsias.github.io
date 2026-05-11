@@ -13,8 +13,8 @@ tags:
 
 <!-- textlint-disable stop-words -->
 
-Dataframes have a new `sort_index` method to sort a dataframe by index.
-This is equivalent to the deprecated `sort` method with the `columns` argument set to
+Dataframes have a new `sort_index` method to sort a dataframe by index. This is
+equivalent to the deprecated `sort` method with the `columns` argument set to
 `None.
 
 <!-- textlint-enable stop-words -->

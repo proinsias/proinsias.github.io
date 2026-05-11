@@ -13,15 +13,16 @@ tags:
     - random
 ---
 
-When we train a machine-learning model, we almost always report some performance metric, such as accuracy, recall, or F1-score.
+When we train a machine-learning model, we almost always report some performance
+metric, such as accuracy, recall, or F1-score.
 
-But there is some inherent randomness to this machine learning,
-and different training runs will result in different output metric values.
+But there is some inherent randomness to this machine learning, and different
+training runs will result in different output metric values.
 
 [Benjamin Obi Tayo](https://medium.com/@benjaminobi)'s article
 ["Random Error Quantification in Machine Learning"](https://medium.com/towards-artificial-intelligence/random-error-quantification-in-machine-learning-846f6e78e519)
-has a nice summary for how to quantify and visualize the error associated with your metric
-from the output of your cross-validation steps:
+has a nice summary for how to quantify and visualize the error associated with
+your metric from the output of your cross-validation steps:
 
 ```python
 train_score = []
@@ -61,4 +62,5 @@ plt.show()
 
 ![Metric values](https://miro.medium.com/max/1370/1*-R4VlYwkyaEk3OzvOf24UQ.png)
 
-You can see the full details in the associated [Jupyter Notebook](https://github.com/bot13956/Random_error_quantification_in_ML/blob/master/Random_error_quantification_in_ML.ipynb).
+You can see the full details in the associated
+[Jupyter Notebook](https://github.com/bot13956/Random_error_quantification_in_ML/blob/master/Random_error_quantification_in_ML.ipynb).

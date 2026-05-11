@@ -27,4 +27,5 @@ sudo yum --enablerepo=epel install nagios
 sudo apt-get -t xenial-backports install lxd
 ```
 
-Via [ostechnix.com](https://www.ostechnix.com/install-packages-specific-repository-linux/).
+Via
+[ostechnix.com](https://www.ostechnix.com/install-packages-specific-repository-linux/).

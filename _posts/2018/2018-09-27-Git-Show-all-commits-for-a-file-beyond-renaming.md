@@ -27,12 +27,12 @@ README.md
 README.md
 ```
 
-What we may not realize, though, is that we are missing out on a commit in
-this file's history. At one point, this file was renamed. The command above
-wasn't able to capture that.
+What we may not realize, though, is that we are missing out on a commit in this
+file's history. At one point, this file was renamed. The command above wasn't
+able to capture that.
 
-Using the `--follow` flag with a file name, we can list all commits for a
-file beyond renaming.
+Using the `--follow` flag with a file name, we can list all commits for a file
+beyond renaming.
 
 ```bash
 > git log --name-only --pretty=format:%H --follow README.md
@@ -50,7 +50,7 @@ README.rdoc
 ```
 
 This command roped in a commit from when `README.md` used to be called
-`README.rdoc`. If you want to know about the _full_ history of a file, this
-is the way to go.
+`README.rdoc`. If you want to know about the _full_ history of a file, this is
+the way to go.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

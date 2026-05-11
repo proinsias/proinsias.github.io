@@ -33,4 +33,5 @@ display_side_by_side(df1.head(),df2.head(), titles=['Sales','Advertising'])
 ![Two DataFrames side by side](/assets/images/two-dfs-side-by-side.jpeg)
 <sup>_Two DataFrames side by side. \[Photo by Lucas Soares.\]_
 
-Via [Lucas Soares](https://python.plainenglish.io/15-data-science-snippets-to-optimize-your-coding-pipeline-93a5625d48cd).
+Via
+[Lucas Soares](https://python.plainenglish.io/15-data-science-snippets-to-optimize-your-coding-pipeline-93a5625d48cd).

@@ -12,9 +12,9 @@ tags:
     - til
 ---
 
-Postgres has a `generate_series` function that can be used to, well,
-generate a series of something. The simplest way to use it is by giving it
-`start` and `stop` arguments
+Postgres has a `generate_series` function that can be used to, well, generate a
+series of something. The simplest way to use it is by giving it `start` and
+`stop` arguments
 
 ```sql
 > select generate_series(1,5);
@@ -27,8 +27,8 @@ generate a series of something. The simplest way to use it is by giving it
                5
 ```
 
-The default step is 1, so if you want to count backwards, you need to
-specify a negative step:
+The default step is 1, so if you want to count backwards, you need to specify a
+negative step:
 
 ```sql
 > select generate_series(5,1,-1);

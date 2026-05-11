@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-> The [built-in] `divmod()` function returns a tuple containing the quotient and the remainder
-> when argument1 (dividend) is divided by argument2 (divisor).
+> The [built-in] `divmod()` function returns a tuple containing the quotient and
+> the remainder when argument1 (dividend) is divided by argument2 (divisor).
 
 For example:
 

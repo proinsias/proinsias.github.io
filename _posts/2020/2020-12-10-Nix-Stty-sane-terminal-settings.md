@@ -11,8 +11,8 @@ tags:
     - til
 ---
 
-Restore sane shell settings, in case your shell session went insane
-because some script or application turned it into a garbled mess:
+Restore sane shell settings, in case your shell session went insane because some
+script or application turned it into a garbled mess:
 
 ```bash
 stty sane

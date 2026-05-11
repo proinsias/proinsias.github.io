@@ -12,9 +12,9 @@ tags:
     - til
 ---
 
-Postgres has all the mathematical operators you might expect in any
-programming language (e.g. `+`,`-`,`*`,`/`,`%`). It also has a few extras
-that you might not be expecting.
+Postgres has all the mathematical operators you might expect in any programming
+language (e.g. `+`,`-`,`*`,`/`,`%`). It also has a few extras that you might not
+be expecting.
 
 Factorial Operator:
 

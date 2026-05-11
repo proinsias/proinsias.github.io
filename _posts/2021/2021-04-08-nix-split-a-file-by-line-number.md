@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-I've been using the `split` command for a while to split a file into multiple files with at most say 1000 lines per file:
+I've been using the `split` command for a while to split a file into multiple
+files with at most say 1000 lines per file:
 
 ```bash
 >>> wc --lines file.txt
@@ -24,8 +25,8 @@ I've been using the `split` command for a while to split a file into multiple fi
 2325 total
 ```
 
-What I didn't realize is that there are now options to use a numeric suffix rather than alphabetic,
-and also to specify the file extension to use:
+What I didn't realize is that there are now options to use a numeric suffix
+rather than alphabetic, and also to specify the file extension to use:
 
 ```bash
 >>> split --lines 500 --numeric-suffixes --additional-suffix=.txt file.txt file
@@ -36,4 +37,5 @@ and also to specify the file extension to use:
 2325 total
 ```
 
-Via [SO](https://web.archive.org/web/20220818174137/https://unix.stackexchange.com/questions/32626/split-a-file-by-line-and-have-control-over-resulting-files-extension/74166).
+Via
+[SO](https://web.archive.org/web/20220818174137/https://unix.stackexchange.com/questions/32626/split-a-file-by-line-and-have-control-over-resulting-files-extension/74166).

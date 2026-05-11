@@ -15,10 +15,9 @@ tags:
 ---
 
 If you're looking for a way to test your download speeds from the command line,
-look no further than the handy `wget` and `time` commands,
-together with some sample files of various sizes from
-[thinkbroadband.com](https://www.thinkbroadband.com/download)
-:
+look no further than the handy `wget` and `time` commands, together with some
+sample files of various sizes from
+[thinkbroadband.com](https://www.thinkbroadband.com/download) :
 
 ```bash
 time wget http://ipv4.download.thinkbroadband.com/100MB.zip

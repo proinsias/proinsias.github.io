@@ -11,6 +11,6 @@ tags:
     - visualization
 ---
 
-Looking for inspiration for your data viz project?
-Can't remember what a particular visualization is called?
-Check out [the Data Visualisation Catalogue](http://www.datavizcatalogue.com/).
+Looking for inspiration for your data viz project? Can't remember what a
+particular visualization is called? Check out
+[the Data Visualisation Catalogue](http://www.datavizcatalogue.com/).

@@ -11,6 +11,5 @@ tags:
     - tips
 ---
 
-You can use the command line tool
-[`jut`](https://github.com/kracekumar/jut) to view a Jupyter notebook
-in the terminal.
+You can use the command line tool [`jut`](https://github.com/kracekumar/jut) to
+view a Jupyter notebook in the terminal.

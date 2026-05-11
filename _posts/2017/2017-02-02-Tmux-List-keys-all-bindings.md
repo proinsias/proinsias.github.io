@@ -19,8 +19,8 @@ with
 tmux list-keys
 ```
 
-If you are currently in a tmux session, then you can take advantage of the
-tmux environment by either using
+If you are currently in a tmux session, then you can take advantage of the tmux
+environment by either using
 
 ```tmux
 <prefix>:list-keys
@@ -32,7 +32,7 @@ or
 <prefix>?
 ```
 
-Any of these will bring up a list of all key bindings available to you
-within a tmux session on your machine.
+Any of these will bring up a list of all key bindings available to you within a
+tmux session on your machine.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

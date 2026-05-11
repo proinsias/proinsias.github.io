@@ -12,8 +12,8 @@ tags:
     - til
 ---
 
-Adding `| pbcopy` to the end of any command will send the standard output
-to your clipboard.
+Adding `| pbcopy` to the end of any command will send the standard output to
+your clipboard.
 
 `ls -al | pbcopy` inside a rails project directory allowed me to paste this:
 

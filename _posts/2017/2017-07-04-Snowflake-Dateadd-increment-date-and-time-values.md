@@ -20,4 +20,5 @@ select dateadd(second, -2, current_timestamp());
 
 ```
 
-Via [Snowflake Docs](https://docs.snowflake.net/manuals/user-guide/date-time-examples.html#incrementing-date-and-time-values).
+Via
+[Snowflake Docs](https://docs.snowflake.net/manuals/user-guide/date-time-examples.html#incrementing-date-and-time-values).

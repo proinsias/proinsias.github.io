@@ -38,7 +38,8 @@ sudo dtruss -s -p <PID>
 sudo dtruss df -h  # Run and examine the `df -h` command.
 ```
 
-Via [til.simonwillison.net](https://github.com/simonw/til/blob/main/linux/basic-strace.md),
+Via
+[til.simonwillison.net](https://github.com/simonw/til/blob/main/linux/basic-strace.md),
 [SO](https://web.archive.org/web/20220818174407/https://stackoverflow.com/questions/1925978/equivalent-of-strace-feopen-command-on-mac-os-x/1926131),
 and
 [opensource.apple.com](https://web.archive.org/web/20240919043858/https://opensource.apple.com/source/dtrace/dtrace-147/DTTk/dtruss.auto.html).

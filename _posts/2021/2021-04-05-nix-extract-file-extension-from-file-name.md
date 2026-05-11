@@ -11,7 +11,8 @@ tags:
     - til
 ---
 
-If you need to know in a \*nix script the extension of a file, try the following:
+If you need to know in a \*nix script the extension of a file, try the
+following:
 
 ```bash
 $ filename="abc.txt"
@@ -20,4 +21,5 @@ $ echo "${file_ext}"
 txt
 ```
 
-Via [SO](https://web.archive.org/web/*/https://stackoverflow.com/questions/407184/how-to-check-the-extension-of-a-filename-in-a-bash-script/41879583#41879583).
+Via
+[SO](https://web.archive.org/web/*/https://stackoverflow.com/questions/407184/how-to-check-the-extension-of-a-filename-in-a-bash-script/41879583#41879583).
