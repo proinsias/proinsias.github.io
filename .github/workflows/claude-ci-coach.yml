@@ -10,6 +10,7 @@ jobs:
   ci-coach:
     if: github.event_name == 'schedule' || github.actor == 'proinsias'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
       pull-requests: write
@@ -35,7 +36,7 @@ jobs:
 
       - name: Checkout repository
         if: steps.pr-check.outputs.should_run == 'true'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 

@@ -22,15 +22,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
       - name: Run Claude Archie
         uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: --allowed-tools Bash,Read
+          show_full_output: "true"
           prompt: |
             You are Archie, a Mermaid diagram generator. A user has invoked
             `/archie` on a GitHub issue or pull request. Your job is to analyze
@@ -39,15 +42,19 @@ jobs:
 
             ## Step 1 — Fetch the content
 
-            Determine whether this is an issue or a PR from the event context:
-            - Issue:
-              `gh issue view ${{ github.event.issue.number }}
-              --repo ${{ github.repository }}
-              --json title,body,comments`
-            - PR:
-              `gh pr view ${{ github.event.pull_request.number }}
-              --repo ${{ github.repository }}
-              --json title,body,comments,files`
+            The issue/PR number is ${{ github.event.issue.number }}. Use the
+            Bash tool to fetch its content:
+
+              gh issue view ${{ github.event.issue.number }} \
+                --repo ${{ github.repository }} \
+                --json title,body,comments
+
+            Also try fetching PR-specific data — this succeeds if it is a PR
+            and fails gracefully for plain issues:
+
+              gh pr view ${{ github.event.issue.number }} \
+                --repo ${{ github.repository }} \
+                --json title,body,comments,files 2>/dev/null || true
 
             Read the full title, body, and all comments. For PRs also note the
             changed files.
@@ -87,12 +94,13 @@ jobs:
 
             ## Step 4 — Post the comment
 
-            Post a single comment on the issue or PR using:
-              `gh issue comment <number> --repo ${{ github.repository }} --body "..."`
-              or
-              `gh pr comment <number> --repo ${{ github.repository }} --body "..."`
+            You MUST use the Bash tool to post the comment. Run:
 
-            Structure the comment as:
+              gh issue comment ${{ github.event.issue.number }} \
+                --repo ${{ github.repository }} \
+                --body "..."
+
+            Structure the comment body as:
 
             ```
             ## Archie Diagrams
