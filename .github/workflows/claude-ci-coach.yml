@@ -46,11 +46,8 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           additional_permissions: |
             actions: read
-          claude_args: >-
-            --allowed-tools Bash(gh workflow list), Bash(gh run list *), Bash(gh
-            run view *), Bash(gh pr create *), Bash(git checkout *), Bash(git
-            add *), Bash(git commit *), Bash(git push *), Bash(find * -name
-            "*.yml"), Read, Edit
+          claude_args: --allowed-tools Bash,Read,Edit
+          show_full_output: "true"
           prompt: |
             You are a CI/CD optimization expert. Analyze the GitHub Actions
             workflows in this repository and propose concrete efficiency
