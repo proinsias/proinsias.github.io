@@ -1,0 +1,132 @@
+---
+name: Claude CI Doctor
+
+on:
+  workflow_run:
+    workflows:
+      - Claude Archie
+      - Claude CI Coach
+      - Claude PR Fix
+      - Claude Repo Assist
+      - test-dotfiles
+    types: [completed]
+
+jobs:
+  ci-doctor:
+    if: |
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.actor.login == 'proinsias'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      actions: read
+      id-token: write
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude CI Doctor
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          additional_permissions: |
+            actions: read
+          claude_args: --allowed-tools Bash,Read
+          show_full_output: "true"
+          prompt: |
+            A CI workflow has failed. Investigate the root cause, identify
+            whether it is a code bug, infrastructure flake, or configuration
+            issue, and create or update a GitHub issue with your findings.
+
+            ## Failed run details
+
+            - Workflow: ${{ github.event.workflow_run.name }}
+            - Run ID: ${{ github.event.workflow_run.id }}
+            - Run URL: ${{ github.event.workflow_run.html_url }}
+            - Branch: ${{ github.event.workflow_run.head_branch }}
+            - Commit: ${{ github.event.workflow_run.head_sha }}
+            - Triggered by: ${{ github.event.workflow_run.event }}
+
+            ## Step 1 — Collect logs
+
+            Fetch the failed job logs:
+              gh run view ${{ github.event.workflow_run.id }} \
+                --repo ${{ github.repository }} \
+                --json jobs,conclusion,createdAt,updatedAt
+
+              gh run view ${{ github.event.workflow_run.id }} \
+                --repo ${{ github.repository }} \
+                --log-failed
+
+            ## Step 2 — Check for recent patterns
+
+            Search for existing issues that match this failure:
+              gh issue list \
+                --repo ${{ github.repository }} \
+                --search "CI Doctor: ${{ github.event.workflow_run.name }} in:title" \
+                --state open \
+                --json number,title,body,updatedAt
+
+            Also check recent runs of the same workflow for a pattern:
+              gh run list \
+                --repo ${{ github.repository }} \
+                --workflow "${{ github.event.workflow_run.name }}" \
+                --limit 10 \
+                --json databaseId,conclusion,createdAt
+
+            ## Step 3 — Classify the failure
+
+            Determine which category applies:
+
+            - **Code bug**: a test assertion failed, compilation error,
+              linting error, or type error traceable to a source file change.
+            - **Flaky test / infrastructure**: failure unrelated to any recent
+              code change; intermittent network error, rate limit, or
+              non-deterministic test.
+            - **Configuration issue**: missing secret, changed action version,
+              incorrect workflow syntax, or environment mismatch.
+            - **Needs human review**: root cause unclear after log analysis.
+
+            ## Step 4 — Create or update a GitHub issue
+
+            Check if an open issue titled
+            `CI Doctor: ${{ github.event.workflow_run.name }}` already exists.
+
+            - If it does: add a comment with this run's findings using
+              `gh issue comment <number> --repo ${{ github.repository }} --body "..."`
+            - If it does not: create a new issue:
+              `gh issue create --repo ${{ github.repository }} \
+                --title "CI Doctor: ${{ github.event.workflow_run.name }}" \
+                --label "bug" \
+                --body "..."`
+
+            Structure the issue body / comment as:
+
+            ```
+            <!-- ci-doctor -->
+            ## Failure: <workflow name> — <date>
+
+            **Run**: <url>
+            **Branch**: <branch>
+            **Category**: <Code bug | Flaky | Configuration | Needs review>
+
+            ### Root cause
+            <1-3 sentences>
+
+            ### Relevant log excerpt
+            <the key error lines, fenced as a code block>
+
+            ### Recommendation
+            <what should be done to fix or investigate further>
+
+            ### Pattern
+            <"First occurrence" or "N failures in the last X runs">
+            ```
+
+            If the failure is a known flake with no code change context,
+            keep the issue body brief and label it `flake`.

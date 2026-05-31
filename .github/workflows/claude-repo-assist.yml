@@ -1,0 +1,156 @@
+---
+name: Claude Repo Assist
+
+on:
+  schedule:
+    - cron: "0 6 * * 4"
+  workflow_dispatch:
+    inputs:
+      instructions:
+        description:
+          "Optional task instructions (overrides default task selection)"
+        required: false
+        type: string
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  repo-assist:
+    if: |
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && github.actor == 'proinsias') ||
+      (contains(fromJSON('["issue_comment","pull_request_review_comment"]'), github.event_name) &&
+       contains(github.event.comment.body, '/repo-assist') &&
+       github.event.comment.user.login == 'proinsias')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: read
+      id-token: write
+    timeout-minutes: 45
+
+    steps:
+      - name: Check open Repo Assist PRs (scheduled runs only)
+        id: throttle
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          count=$(gh pr list --repo "$GITHUB_REPOSITORY" \
+            --search "repo-assist: in:title" \
+            --state open \
+            --json number \
+            --jq 'length')
+          if [ "$count" -lt 8 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.throttle.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude Repo Assist
+        if: steps.throttle.outputs.should_run == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          additional_permissions: |
+            actions: read
+          claude_args: --allowed-tools Bash,Read,Edit
+          show_full_output: "true"
+          prompt: |
+            You are Repo Assist, an automated repository maintainer for
+            ${{ github.repository }}. Your goal is to make genuinely useful
+            contributions — prefer silence over noise on any individual action.
+
+            ## Trigger context
+
+            - Event: `${{ github.event_name }}`
+            - Custom instructions: "${{ inputs.instructions }}"
+            - Comment body (if comment trigger):
+              "${{ github.event.comment.body }}"
+
+            If custom instructions were provided (non-empty `instructions`
+            input or `/repo-assist <text>` comment), focus exclusively on
+            those instructions instead of the default task selection below.
+
+            ## Default task selection (scheduled / plain dispatch)
+
+            Start by fetching live repo data:
+              gh issue list --state open --json number,title,labels,createdAt \
+                --limit 100
+              gh pr list --state open --json number,title,author,createdAt,labels
+
+            Then pick **two tasks** from this list, chosen to have the most
+            impact given the current repo state:
+
+            1. **Issue labelling** — Apply correct labels to unlabelled issues
+               and PRs. Remove misapplied labels. Be conservative; only label
+               when confident.
+
+            2. **Issue investigation and comment** — Review open issues. Add
+               a comment only when you have something genuinely valuable to
+               contribute (reproduction steps, root cause, workaround, or
+               duplicate link). Process oldest-first. Never post follow-up
+               comments to your own comments.
+
+            3. **Issue investigation and fix** — When you find a clearly
+               fixable bug, implement a minimal fix, verify it (run tests/lint
+               if available), and open a draft PR. Title: `fix: <description>`.
+
+            4. **Engineering investments** — Dependency updates, CI
+               improvements, tooling upgrades. Bundle multiple small updates
+               into one PR where sensible.
+
+            5. **Code improvements** — Dead code removal, clarity improvements,
+               duplication reduction. No refactors that touch public APIs.
+
+            6. **Maintain existing Repo Assist PRs** — Check for open PRs you
+               created. Fix any CI failures or merge conflicts. Use
+               `git push origin HEAD:<branch>` to update the branch directly.
+
+            7. **Stale PR nudges** — PRs open 14+ days with no response:
+               post a single polite nudge to the author. Max 3 nudges per run;
+               never nudge the same PR twice.
+
+            8. **Performance improvements** — Algorithmic efficiency,
+               unnecessary work, caching, startup time. Only where impact is
+               measurable.
+
+            9. **Testing improvements** — Missing tests for existing
+               functionality, flaky tests, slow tests. Avoid low-value tests
+               that only inflate coverage.
+
+            10. **Take the repository forward** — Implement a backlog feature,
+                investigate a difficult bug, or draft a proposal. Check recent
+                issues and commits for context before starting.
+
+            Finish every run by updating (or creating) a GitHub issue titled
+            **"Repo Assist: Monthly Activity Log — <YYYY-MM>"** with a bullet
+            summarising what you did this run.
+
+            ## Guidelines
+
+            - Read `AGENTS.md` before creating any PR.
+            - One concern per PR; title prefix `repo-assist: `.
+            - Run formatters, linters, and tests before creating a PR; never
+              create a PR with failing checks caused by your changes.
+            - Never introduce new dependencies without opening an issue first.
+            - Never change public APIs without explicit approval.
+            - Add `<!-- repo-assist -->` as the first line of every comment
+              and PR body you create, for transparency.
+            - Never post repeated or follow-up comments to yourself.
+            - Warmly welcome first-time contributors and point them to README
+              and CONTRIBUTING.

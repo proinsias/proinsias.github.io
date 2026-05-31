@@ -95,18 +95,30 @@ jobs:
 
             ## 5. Implement and open a PR
 
-            - Create a new branch: `ci-coach/<date>` where `<date>` is today
-              in YYYY-MM-DD format.
+            **Important constraint**: the GitHub App token used here does NOT
+            have the `workflows` permission and cannot push changes to files
+            under `.github/workflows/`. If your highest-value improvement is
+            in a workflow file:
+            - Do NOT attempt to edit or commit the file.
+            - Instead, open a PR with an empty commit (or no commit) and put
+              the full proposed diff in the PR body as a fenced `diff` code
+              block so a human can apply it.
+
+            For improvements to files outside `.github/workflows/` (e.g.
+            `chezmoi/`, `tests/`, `bin/`):
+            - Create a new branch: `ci-coach/<date>` (YYYY-MM-DD).
             - Apply only **minimal, focused, low-risk** changes. Do not
               restructure workflows wholesale.
             - Never change a step in a way that could break test integrity or
               correctness.
             - Commit with message: `chore(ci): CI Coach - <short description>`
-            - Open a PR with:
+
+            Open a PR with:
               - Title: `chore(ci): CI Coach - <short description>`
               - Body: structured markdown with sections:
                 - **Summary** — one paragraph
-                - **Changes** — bullet list of exact edits
+                - **Changes** — bullet list of exact edits (or proposed diff
+                  if workflow files are involved)
                 - **Expected impact** — estimated time saved or failure rate
                   reduction based on collected metrics
                 - **Metrics baseline** — the p50/p95 numbers you measured

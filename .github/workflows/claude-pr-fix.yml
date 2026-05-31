@@ -1,0 +1,119 @@
+---
+name: Claude PR Fix
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  pr-fix:
+    if: |
+      contains(github.event.comment.body, '/pr-fix') &&
+      github.event.comment.user.login == 'proinsias' &&
+      (github.event_name == 'pull_request_review_comment' ||
+       github.event.issue.pull_request.url != '')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      actions: read
+      id-token: write
+    timeout-minutes: 60
+
+    steps:
+      - name: Resolve PR number
+        id: pr
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          if [ "$EVENT_NAME" = "issue_comment" ]; then
+            echo "number=${ISSUE_NUMBER}" >> "$GITHUB_OUTPUT"
+          else
+            echo "number=${PR_NUMBER}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude PR Fix
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          additional_permissions: |
+            actions: read
+          claude_args: --allowed-tools Bash,Read,Edit
+          show_full_output: "true"
+          prompt: |
+            A user has triggered `/pr-fix` on PR #${{ steps.pr.outputs.number }}
+            in this repository. Your job is to investigate any failing CI checks,
+            implement fixes, push them to the PR branch, and comment with a
+            summary of what you did.
+
+            ## Step 1 — Switch to the PR branch
+
+            Run:
+              gh pr checkout ${{ steps.pr.outputs.number }}
+
+            ## Step 2 — Identify failing checks
+
+            Run:
+              gh pr checks ${{ steps.pr.outputs.number }} --repo ${{ github.repository }}
+
+            For each failing check, get the run ID and fetch logs:
+              gh run list --commit $(git rev-parse HEAD) \
+                --json databaseId,name,conclusion,status
+              gh run view <id> --log-failed
+
+            ## Step 3 — Read the triggering comment
+
+            Run:
+              gh pr view ${{ steps.pr.outputs.number }} \
+                --repo ${{ github.repository }} \
+                --json comments,body,title,headRefName
+
+            If the `/pr-fix` comment contained additional instructions after
+            the command, follow them.
+
+            ## Step 4 — Diagnose and fix
+
+            - Read the relevant source files to understand the failure.
+            - Implement a minimal, targeted fix. Do not refactor or clean up
+              unrelated code.
+            - Run any available linters or tests locally to confirm the fix:
+              check for Makefiles, `pyproject.toml`, `package.json`, or bats
+              test files and use the appropriate command.
+            - If the failure is environmental (flaky test, infra issue) rather
+              than a code bug, document that conclusion instead of fabricating
+              a fix.
+            - If the problem is too complex to fix safely in one pass, create
+              a GitHub issue describing the root cause and link it from a PR
+              comment, then stop.
+
+            ## Step 5 — Commit and push
+
+            Stage only the files you changed:
+              git add <files>
+              git commit -m "fix: <short description of what was fixed>"
+              git push
+
+            ## Step 6 — Comment on the PR
+
+            Post a comment explaining:
+            - Which checks were failing and why
+            - What you changed and why the fix works
+            - Any caveats or follow-up actions needed
+
+              gh pr comment ${{ steps.pr.outputs.number }} \
+                --repo ${{ github.repository }} \
+                --body "..."
+
+            If you pushed no changes (environmental failure or complex issue
+            requiring human review), still post a comment explaining your
+            findings.
