@@ -1,0 +1,120 @@
+---
+name: Claude CI Coach
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+
+jobs:
+  ci-coach:
+    if: github.event_name == 'schedule' || github.actor == 'proinsias'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read
+      id-token: write
+
+    steps:
+      - name: Check for existing CI Coach PRs
+        id: pr-check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          count=$(gh pr list --repo "$GITHUB_REPOSITORY" \
+            --search "chore(ci): CI Coach in:title" \
+            --state open \
+            --json number \
+            --jq 'length')
+          if [ "$count" -lt 8 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.pr-check.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude CI Coach
+        if: steps.pr-check.outputs.should_run == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          additional_permissions: |
+            actions: read
+          claude_args: >-
+            --allowed-tools Bash(gh workflow list), Bash(gh run list *), Bash(gh
+            run view *), Bash(gh pr create *), Bash(git checkout *), Bash(git
+            add *), Bash(git commit *), Bash(git push *), Bash(find * -name
+            "*.yml"), Read, Edit
+          prompt: |
+            You are a CI/CD optimization expert. Analyze the GitHub Actions
+            workflows in this repository and propose concrete efficiency
+            improvements. Follow these steps:
+
+            ## 1. Discover workflows
+
+            List all workflow files under `.github/workflows/`.
+
+            ## 2. Collect metrics
+
+            For each workflow, run:
+              gh run list --workflow=<file> --limit=20 --json databaseId,conclusion,createdAt,updatedAt
+
+            Use the run IDs to fetch job-level timing:
+              gh run view <id> --json jobs
+
+            Build a summary: p50/p95 duration, failure rate, most expensive
+            jobs.
+
+            ## 3. Analyze for optimizations
+
+            Check each workflow against these categories and note findings only
+            where the data supports them:
+
+            - **Parallelization**: sequential jobs that could run in parallel
+            - **Caching**: missing or suboptimal `actions/cache` / `setup-*`
+              cache keys
+            - **Redundant steps**: identical steps across jobs/workflows that
+              could be shared or deduplicated
+            - **Resource sizing**: jobs running on large runners for trivial
+              work
+            - **Artifact bloat**: artifacts uploaded but never downloaded, or
+              no retention limit set
+            - **Conditional execution**: jobs/steps that always run but could
+              be skipped on non-relevant changes via `paths` filters or `if`
+              conditions
+
+            ## 4. Decide
+
+            If you find **no actionable improvements**, output a brief summary
+            of what you checked and exit without creating a PR.
+
+            If you find improvements, continue to step 5.
+
+            ## 5. Implement and open a PR
+
+            - Create a new branch: `ci-coach/<date>` where `<date>` is today
+              in YYYY-MM-DD format.
+            - Apply only **minimal, focused, low-risk** changes. Do not
+              restructure workflows wholesale.
+            - Never change a step in a way that could break test integrity or
+              correctness.
+            - Commit with message: `chore(ci): CI Coach - <short description>`
+            - Open a PR with:
+              - Title: `chore(ci): CI Coach - <short description>`
+              - Body: structured markdown with sections:
+                - **Summary** — one paragraph
+                - **Changes** — bullet list of exact edits
+                - **Expected impact** — estimated time saved or failure rate
+                  reduction based on collected metrics
+                - **Metrics baseline** — the p50/p95 numbers you measured
+
+            Keep the PR focused: one logical improvement per PR. If you found
+            multiple independent improvements, open only the highest-value one
+            now; list the others in a "Future opportunities" section of the PR
+            body.
