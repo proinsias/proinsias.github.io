@@ -2,17 +2,15 @@
 # https://github.com/actions/labeler
 
 Build 🔨:
-  - ".travis.yml"
   - "bin/build.sh"
   - "Gemfile"
   - "Gemfile.lock"
   - "_config.yml"
+  - "mise.toml"
 
 Code Quality 🔎:
-  - ".mdl.rb"
-  - ".mdlrc"
-  - ".overcommit.yml"
-  - ".varci.yml"
+  - ".pre-commit-config.yaml"
+  - "lychee.toml"
 
 Source 🗂:
   - "assets/**/*"
