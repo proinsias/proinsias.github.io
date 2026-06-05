@@ -6,6 +6,7 @@ on:
     workflows:
       - Claude Archie
       - Claude CI Coach
+      - Claude Code Review
       - Claude PR Fix
       - Claude Repo Assist
       - test-dotfiles
