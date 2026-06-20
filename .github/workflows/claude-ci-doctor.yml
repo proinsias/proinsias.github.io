@@ -9,7 +9,6 @@ on:
       - Claude Code Review
       - Claude PR Fix
       - Claude Repo Assist
-      - test-dotfiles
     types: [completed]
 
 jobs:
