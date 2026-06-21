@@ -29,6 +29,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.run_id }}
+          restore-keys: cache-lychee-
+
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2
