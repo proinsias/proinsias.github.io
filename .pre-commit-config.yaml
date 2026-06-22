@@ -45,7 +45,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: nightly
+      rev: v0.15.1
       hooks:
           - id: lychee
             args: ["--cache", "--suggest"]
