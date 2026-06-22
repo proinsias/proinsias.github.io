@@ -38,7 +38,7 @@ jobs:
         if: steps.pr-check.outputs.should_run == 'true'
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Run Claude CI Coach
         if: steps.pr-check.outputs.should_run == 'true'
