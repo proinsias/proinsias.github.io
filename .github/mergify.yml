@@ -1,32 +1,14 @@
 ---
 queue_rules:
-  - name: duplicated default from automatic merge on CI success and review
-    queue_conditions:
-      - base=master
-      - author~=proinsias
-      - check-success-or-neutral=Deadpendency Check
-      - base=master
-      - author~=github-actions
-      - check-success-or-neutral=Deadpendency Check
-    merge_conditions: []
-    merge_method: merge
-  - name: duplicated default from automatic merge for Dependabot pull requests
-    queue_conditions:
-      - base=master
-      - author~=proinsias
-      - check-success-or-neutral=Deadpendency Check
-      - base=master
-      - author~=dependabot
-      - check-success-or-neutral=Deadpendency Check
-    merge_conditions: []
-    merge_method: merge
   - name: default
     queue_conditions:
       - base=master
-      - author~=proinsias
+      - or:
+          - author~=proinsias
+          - author~=github-actions
+          - author~=dependabot
       - check-success-or-neutral=Deadpendency Check
     merge_conditions:
-      # Conditions to get out of the queue (= merged)
       - check-success-or-neutral=Deadpendency Check
     merge_method: merge
 
@@ -40,22 +22,25 @@ pull_request_rules:
       label:
         add:
           - conflict
-  - name:
-      automatic merge for Dependabot pull requests / me / CI success and review
-    conditions: []
+  - name: automatic merge on CI success
+    conditions:
+      - base=master
+      - or:
+          - author~=proinsias
+          - author~=github-actions
+          - author~=dependabot
+      - check-success-or-neutral=Deadpendency Check
     actions:
       queue:
+        name: default
+
 priority_rules:
-  - name:
-      priority for queue `duplicated default from automatic merge on CI success
-      and review`
+  - name: priority for github-actions bot PRs
     conditions:
       - author~=github-actions
     priority: 2500
     allow_checks_interruption: true
-  - name:
-      priority for queue `duplicated default from automatic merge for Dependabot
-      pull requests`
+  - name: priority for Dependabot PRs
     conditions:
       - author~=dependabot
     priority: 2250
