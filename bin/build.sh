@@ -13,7 +13,7 @@ bundle install
 
 bundle exec jekyll build
 
-# Keep in sync with .github/workflows/cronjobs.yml and .github/workflows/pull-requests-and-pushes.yml
+# Local-only HTML validation step (not mirrored in CI workflows).
 bundle exec htmlproofer ./_site \
     --no-enforce-https \
     --ignore-empty-alt `# Unsure how to enable alt tags for teaser images` \
