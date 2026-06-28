@@ -12,7 +12,7 @@ name: Cron Jobs
 # yamllint disable-line rule:truthy
 on:
   schedule:
-    - cron: 0 0 1 * * # every month on the first day of the month at midnight
+    - cron: "0 0 * * 1" # every Monday at midnight
   # Run workflow manually (without waiting for the cron to be called),
   # through the Github Actions Workflow page directly.
   workflow_dispatch:
