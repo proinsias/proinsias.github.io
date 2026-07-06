@@ -45,7 +45,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: v0.15.1
+      rev: nightly
       hooks:
           - id: lychee
             args: ["--cache", "--suggest"]
@@ -90,7 +90,7 @@ repos:
             exclude: .git/COMMIT_EDITMSG
 
     - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.37.2
+      rev: 0.37.4
       hooks:
           - id: check-github-actions
           - id: check-github-workflows
