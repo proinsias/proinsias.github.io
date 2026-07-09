@@ -4,10 +4,7 @@
 
 <!-- textlint-enable en-capitalization -->
 
-<!-- FIXME: Update github action badges
-[![Change Quality](https://github.com/proinsias/proinsias.github.io/workflows/Change%20Quality/badge.svg)](https://github.com/proinsias/proinsias.github.io/actions/workflows/change-quality.yml)
--->
-
+[![Build](https://github.com/proinsias/proinsias.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/proinsias/proinsias.github.io/actions/workflows/build.yml)
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/proinsias/proinsias.github.io&style=flat)](https://mergify.com/)
 [![License](https://img.shields.io/github/license/proinsias/proinsias.github.io.svg)](https://github.com/proinsias/proinsias.github.io/blob/master/LICENSE)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/proinsias/proinsias.github.io)
