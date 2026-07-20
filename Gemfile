@@ -14,6 +14,8 @@ source 'https://rubygems.org'
 # To upgrade, run `bundle update`.
 
 gem "github-pages", ">= 232", group: :jekyll_plugins
+gem "html-proofer"
+gem "ostruct"
 gem "tzinfo-data"
 gem "uri", ">= 1.0.4"
 
