@@ -15,8 +15,8 @@ bundle exec jekyll build
 
 # Local-only HTML validation step (not mirrored in CI workflows).
 bundle exec htmlproofer ./_site \
-    --no-enforce-https \
-    --ignore-empty-alt `# Unsure how to enable alt tags for teaser images` \
+    --enforce-https=false \
+    --ignore-empty-alt=true `# Unsure how to enable alt tags for teaser images` \
     --ignore-status-codes 401,403,429 \
     --only-4xx \
     --typhoeus '{ "connecttimeout": 30, "timeout": 30 }' \
