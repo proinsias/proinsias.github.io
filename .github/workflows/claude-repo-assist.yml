@@ -16,6 +16,10 @@ on:
   pull_request_review_comment:
     types: [created]
 
+concurrency:
+  group: repo-assist
+  cancel-in-progress: false
+
 jobs:
   repo-assist:
     if: |
