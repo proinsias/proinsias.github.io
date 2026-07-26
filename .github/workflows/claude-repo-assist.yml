@@ -137,6 +137,16 @@ jobs:
                 investigate a difficult bug, or draft a proposal. Check recent
                 issues and commits for context before starting.
 
+            11. **Documentation freshness** — Spot-check older posts (not link
+                liveness, which `lychee` already covers) for stale code
+                samples, deprecated APIs/versions, or claims that no longer
+                hold. Open an issue per finding rather than editing post
+                content directly.
+
+            Before picking a task, check the last 1-2 "Repo Assist: Monthly
+            Activity Log" issues and avoid repeating the same task category
+            two runs in a row where a reasonable alternative exists.
+
             Finish every run by updating (or creating) a GitHub issue titled
             **"Repo Assist: Monthly Activity Log — <YYYY-MM>"** with a bullet
             summarising what you did this run.
@@ -154,3 +164,5 @@ jobs:
             - Never post repeated or follow-up comments to yourself.
             - Warmly welcome first-time contributors and point them to README
               and CONTRIBUTING.
+            - Before opening a new issue or PR, search open issues/PRs for one
+              already covering the same topic; skip creating a duplicate.
