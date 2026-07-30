@@ -2,8 +2,8 @@
 layout: single
 title: "Bitbucket/GitHub: Create pull request from command line"
 date: 2019-09-19 09.59
-last_modified_at: 2025-05-13 00:33:19
-excerpt: Via hub command or handy url
+last_modified_at: 2026-07-30 16:52:22
+excerpt: Via gh command or handy url
 categories:
     - til
 tags:
@@ -40,12 +40,25 @@ You can of course visit the URL from the command line:
 open https://github.com/proinsias/proinsias.github.io/pull/new/test
 ```
 
-## Create a GitHub pull request using hub
+## Create a GitHub pull request using gh
 
 If you want more control over this process from the command line, check out
-GitHub's wonderful [`hub`](https://github.com/github/hub) tool "that makes git
-easier to use with GitHub". For example, `hub` enables you to create a pull
-request with a pre-populated title and description:
+GitHub's official [`gh`](https://cli.github.com/) CLI. For example, `gh` enables
+you to create a pull request with a pre-populated title and description:
+
+```bash
+gh pr create \
+    --assignee proinsias \
+    --web \
+    --label work-in-progress \
+    --title "My title" \
+    --body "My description."
+```
+
+**Update:** this post originally recommended GitHub's
+[`hub`](https://github.com/github/hub) tool for this workflow. `hub` has since
+been superseded by GitHub's own official CLI, `gh` (first released in 2020),
+which is now the recommended tool. The old `hub` invocation was:
 
 ```bash
 hub pull-request \

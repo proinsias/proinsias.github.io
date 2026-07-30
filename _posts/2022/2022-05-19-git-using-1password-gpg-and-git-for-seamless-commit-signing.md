@@ -2,7 +2,7 @@
 layout: single
 title: "Git: Using 1password, gpg and git for seamless commit signing on linux"
 date: 2022-05-19
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-07-30 16:52:22
 excerpt: Make your tools work for you!
 categories:
     - til
@@ -54,7 +54,7 @@ I will assume you have a 1Password entry storing your GPG key passphrase, with
 the name "GPG passphrase":
 
 ```bash
-> op get item "GPG passphrase" | jq ".uuid"
+> op item get "GPG passphrase" --format json | jq ".id"
 "vmgevmdnbbuui3evhksdftjhju"
 ```
 
@@ -79,10 +79,21 @@ Tell 1Password to retrieve the password and pass it directly to
 
 ```bash
 # On linux
-op get item vmgevmdnbbuui3evhksdftjhju --fields password | gpg-preset-passphrase --preset 80160C5055DA07978E939C0575A4E8DA0B1ECF27
+op item get vmgevmdnbbuui3evhksdftjhju --fields password | gpg-preset-passphrase --preset 80160C5055DA07978E939C0575A4E8DA0B1ECF27
 ```
 
 If you weren't logged in 1Password, you will be asked to input your password.
+
+**Update:** the commands above use the 1Password CLI v2 noun-verb syntax
+(`op item get ...`). The CLI was restructured from `op get item ...` to
+`op item get ...` in v2 (released September 2022); if you're still on v1 you'll
+need the old syntax instead. Separately, 1Password has since added native
+commit-signing support (SSH-key-based, and later GPG-based) directly into its
+desktop app and git integration, which may cover this use case without the
+manual `gpg-agent` + `gpg-preset-passphrase` workaround described here — worth
+checking the current
+[1Password documentation](https://developer.1password.com/docs/ssh/git-commit-signing/)
+before setting this up from scratch.
 
 Via
 [bmaingret.github.io](https://bmaingret.github.io/blog/2022-02-15-1Password-gpg-git-seamless-commits-signing).
