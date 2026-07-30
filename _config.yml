@@ -191,6 +191,7 @@ exclude:
   - /bin
   - Capfile
   - CHANGELOG
+  - CLAUDE.md
   - config
   - /docs # Ignore Minimal Mistakes /docs.
   - Gemfile
