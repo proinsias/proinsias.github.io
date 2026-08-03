@@ -3,7 +3,7 @@ title: "My Portfolio"
 layout: single
 permalink: /portfolio/
 date: 2019-09-17
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 ---
 
 Here's a list of some of the projects I've been involved in over the years:
@@ -24,18 +24,18 @@ Here's a list of some of the projects I've been involved in over the years:
   [Operating Room reservation blocks](https://web.archive.org/web/20220902151438/https://www.hospiq.com/solutions/perioperative/)
   are most likely to go unused.
 
-- The
-  [OM1 Medical Burden Index (OMBI®)](https://www.om1.com/aipredictivemedicine/ombi/)
-  that measures the combined medical burden of an individual or a patient
-  population. It is a 1-1000 score of patient level comorbidity that is highly
-  predictive of future resource usage and mortality.
+- The OM1 Medical Burden Index (OMBI®) that measures the combined medical burden
+  of an individual or a patient population. It is a 1-1000 score of patient
+  level comorbidity that is highly predictive of future resource usage and
+  mortality.
 
 - [AI Sales Forecasting](https://www.insightsquared.com/revenue-intelligence-platform/sales-forecasting/).
 
 <!-- markdownlint-disable line-length -->
 
 - [Characterizing user behavior and information propagation on a social multimedia network](https://doi.org/10.1109/ICMEW.2013.6618395).
-      <!-- markdownlint-enable line-length -->
+
+<!-- markdownlint-enable line-length -->
 
 - Establishing up-to-date, accurate, and comprehensive Space Situation Awareness
   in the
@@ -55,7 +55,7 @@ Here's a list of some of the projects I've been involved in over the years:
 
 - Developing tools to help identify misinformation or deception campaigns as
   part of the Defense Advanced Research Projects Agency (DARPA)
-  [Social Media In Strategic Communication](https://www.darpa.mil/program/social-media-in-strategic-communication).
+  [Social Media In Strategic Communication](http://web.archive.org/web/20241101190148/https://www.darpa.mil/program/social-media-in-strategic-communication).
   (SMISC) program.
 
 <!-- textlint-enable stop-words -->

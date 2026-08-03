@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Calculate percentile ranking relative to another column"
 excerpt: Via the searchsorted command
 date: 2017-11-09 12:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -17,7 +17,7 @@ get a similar set of percentile rankings of the validation data column relative
 to the training data column?
 
 The key to this is to sort the training data, and use
-[`searchsorted`](https://pandas.pydata.org/pandas-docs/version/0.18.1/generated/pandas.Series.searchsorted.html)
+[`searchsorted`](http://web.archive.org/web/20251010221431/http://pandas.pydata.org/pandas-docs/version/0.18.1/generated/pandas.Series.searchsorted.html)
 .
 
 ```python

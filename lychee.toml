@@ -1,14 +1,50 @@
+# See https://github.com/lycheeverse/lychee/blob/master/lychee.example.toml .
+
 # Comma-separated list of accepted status codes for valid links.
 # default: 100..=103,200..=299
 accept = ["100..=103", "200..=299", "403"]
 
-# Exclude URLs and mail addresses from checking (supports regex).
-exclude = ['^https://www.linkedin.com']
+cache = true
 
-exclude_path = [
-    "assets/js/**/*.js",
-    "_sass/**/*.scss",
+# Exclude URLs and mail addresses from checking (supports regex).
+exclude = [
+    '^https://app.enkipro.com',  # Confirmed pages still exists for now.
+    '^https://t.co/LjEA1OlNK4',  # Resolves to the tarpitted www.gnu.org.
+    '^https://towardsdatascience.com',
+    '^https://(www\.)?doi.org',  # Lots of redirections.
+    '^https?://www.gnu.org',  # Rate-limits/tarpits lychee regardless of pacing or UA.
+    '^https://www.linkedin.com',
+    '/portfolio/tres\.html$',  # Custom Jekyll permalink; only resolves post-build.
 ]
+
+# NOTE: patterns are regexes, not globs (despite the lychee.example.toml
+# comment above implying globs) - `dir/**/*.ext` silently matches nothing.
+# Verify any new entry with `lychee --dump-inputs .` before relying on it.
+exclude_path = [
+    'assets/images/.*\.xml',
+    'assets/js/.*\.js',
+    '_includes/',
+    '_layouts/',
+    '_sass/.*\.scss',
+]
+
+# exclude_loopback = true
+
+github_token = "${LYCHEE_GITHUB_TOKEN}"
+
+# # Show host statistics
+# host_stats = true
+
+# Enable the checking of fragments in links, both anchor fragments and text fragments.
+# See <https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Fragment/Text_fragments>
+# include_fragments = "full"
+
+# Discard all cached requests older than this duration.
+# Default: "1d"
+max_cache_age = "30d"
+
+# Root path to use when checking absolute local links, must be an absolute path
+root_dir = "./"
 
 # Suggest link replacements for broken links, using a web archive.
 suggest = true

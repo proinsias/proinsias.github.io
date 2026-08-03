@@ -3,7 +3,7 @@ layout: single
 title: "Pets v Cattle: Making a personal disaster recovery plan"
 excerpt: "When disaster strikes, how quickly will you recover?"
 date: 2023-04-18
-last_modified_at: 2026-01-26 00:08:29
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - posts
 published: true
@@ -13,9 +13,10 @@ header:
     caption: "Disaster Recovery Plan (Photo credit: Jernej Furman on flickr)"
     teaser: /assets/images/disaster_recovery_plan_thumbnail.gif
 excerpt: >-
-  To recover quickly from personal computer disasters, automate your computer setup.
-  Use tools like cloud syncing for documents, Homebrew/Ansible for applications, Git for dotfiles,
-  and Docker for development environments, all managed as "infrastructure as code".
+    To recover quickly from personal computer disasters, automate your computer
+    setup. Use tools like cloud syncing for documents, Homebrew/Ansible for
+    applications, Git for dotfiles, and Docker for development environments, all
+    managed as "infrastructure as code".
 tags:
     - ansible
     - backup
@@ -215,9 +216,9 @@ directory `~/`, but are often now found under `~/.config/`.
 One of the quickest ways to feel in a foreign land on a new laptop is missing
 these configurations. Thankfully, an easy solution is to store and update these
 files in a GitHub repo, such as
-[proinsias/dotfiles](https://github.com/proinsias/dotfiles). Then to make any
-new environment more like your existing environment, you clone that dotfiles
-repo and run a command like
+[proinsias/dotfiles](http://web.archive.org/web/20260218005647/https://github.com/proinsias/dotfiles).
+Then to make any new environment more like your existing environment, you clone
+that dotfiles repo and run a command like
 [stow](https://www.gnu.org/software/stow/manual/stow.html) to setup the files in
 the right locations.
 

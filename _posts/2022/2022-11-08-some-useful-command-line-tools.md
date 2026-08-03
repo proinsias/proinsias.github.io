@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2026-08-03 14:04:37
 date: 2022-11-08
 layout: single
 published: true
@@ -25,7 +25,7 @@ Let's split this command up – see this
 for some additional detail:
 
 1. `ping -c100 4.2.2.2` pings the
-   [DNS server 4.2.2.2](https://4kib.com/4-2-2-2-story-behind-dns-legend/) 100
+   [DNS server 4.2.2.2](https://tummy.com/articles/famous-dns-server/) 100
    times.
 2. `sponge` 'soaks' up all the data from `ping`.
 3. `pee` (`tee` for pipes) runs each command provided – in this case `head` and

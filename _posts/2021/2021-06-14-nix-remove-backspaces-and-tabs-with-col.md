@@ -3,7 +3,7 @@ layout: single
 title: "Nix: Remove backspaces and tabs with col"
 excerpt: Tidy up text output of various commands
 date: 2021-06-14
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -23,4 +23,5 @@ Say you want to save the contents of the `cp` `man` page to a file.
 >
 > `man cp | col -bx > ~/Desktop/man_cp.txt`
 
-Via the [maccast](https://web.archive.org/web/20240918091017/https://www.maccast.com/podcast/shownotes_20210613/).
+Via the
+[maccast](https://web.archive.org/web/20240918091017/https://www.maccast.com/podcast/shownotes_20210613/).

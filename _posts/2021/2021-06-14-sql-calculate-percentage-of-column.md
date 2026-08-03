@@ -3,7 +3,7 @@ layout: single
 title: "SQL: Calculate percentage of column"
 excerpt: Using a cross join or a subselect query
 date: 2021-06-14
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -39,4 +39,5 @@ tags:
 
 ```
 
-Via [ubiq.co](https://ubiq.co/database-blog/calculate-percentage-column-mysql/).
+Via
+[ubiq.co](http://web.archive.org/web/20250419024633/https://ubiq.co/database-blog/calculate-percentage-column-mysql/).

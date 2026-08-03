@@ -2,7 +2,7 @@
 layout: single
 title: "Match arguments to help text"
 date: 2021-10-25
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 excerpt: Better understand your shell commands
 categories:
     - tips
@@ -19,5 +19,7 @@ tags:
 [explainshell.com](https://explainshell.com) is a great website tool where you
 enter a shell command line to see the help text that matches each argument.
 
-The related website [showthedocs.com](http://showthedocs.com) does the same for
-postgresql, mysql, nginx, and gitconfig.
+The related website
+[showthedocs.com](http://web.archive.org/web/20260509231929/http://showthedocs.com/)
+did the same for postgresql, mysql, nginx, and gitconfig (site no longer online;
+linked via archive.org).

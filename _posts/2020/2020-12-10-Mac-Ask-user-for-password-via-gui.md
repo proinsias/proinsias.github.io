@@ -3,7 +3,7 @@ layout: single
 title: "Mac: Ask user for password via GUI"
 excerpt: Using Applescript
 date: 2020-12-10
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -34,4 +34,4 @@ EOF
 ```
 
 Via
-[awesome-macos-command-line](https://git.herrbischoff.com/awesome-macos-command-line/about/functions.md#ask-user-for-password).
+[awesome-macos-command-line](https://herrbischoff.com/code/me/awesome-macos-command-line).

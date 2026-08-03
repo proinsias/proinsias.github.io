@@ -3,7 +3,7 @@ layout: single
 title: "Python: Get a notification via knockknock"
 excerpt: Add notifications to your scripts or python code
 date: 2021-06-08
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -47,4 +47,4 @@ tags:
 > ```
 
 Via
-[Khuyen Tran](https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f).
+[Khuyen Tran](http://web.archive.org/web/20220725023120/https://towardsdatascience.com/how-to-get-a-notification-when-your-training-is-complete-with-python-2d39679d5f0f).

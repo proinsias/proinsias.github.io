@@ -3,7 +3,7 @@ layout: single
 title: "Git: Delete All Untracked Files"
 excerpt: Via git clean
 date: 2018-09-27 10:14
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -55,5 +55,4 @@ git clean -f -x
 
 Note the case difference on the X for the two latter commands.
 
-Via
-[koukia.ca](https://koukia.ca/how-to-remove-local-untracked-files-from-the-current-git-branch-571c6ce9b6b1).
+Via koukia.ca (site no longer online; not archived).

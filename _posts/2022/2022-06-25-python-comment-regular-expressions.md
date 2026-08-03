@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Comment regular expressions"
 date: 2022-06-25
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 excerpt: Use re.VERBOSE to your advantage
 categories:
     - til
@@ -12,7 +12,8 @@ tags:
     - til
 ---
 
-> The book ["Dive Into Python"](https://diveintopython3.problemsolving.io/)
+> The book
+> ["Dive Into Python"](http://web.archive.org/web/20260630213837/http://diveintopython3.problemsolving.io/)
 > suggests implementing comments using _Verbose Regular Expressions_:
 >
 > > Python allows you to do this with something called verbose regular
@@ -47,7 +48,7 @@ tags:
 > ```
 >
 > Source and further details
-> [here](https://diveintopython3.problemsolving.io/regular-expressions.html#verbosere).
+> [here](http://web.archive.org/web/20240915084017/https://diveintopython3.problemsolving.io/regular-expressions.html).
 >
 > This method has a slight disadvantage that the caller must know that the
 > pattern is written in a verbose format and call it accordingly.

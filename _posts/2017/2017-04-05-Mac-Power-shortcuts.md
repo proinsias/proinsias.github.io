@@ -2,7 +2,7 @@
 layout: single
 title: "Mac: Power shortcuts"
 date: 2017-04-05
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 excerpt: How to turn Mac on or off quickly
 categories:
     - til
@@ -16,4 +16,5 @@ tags:
 - `Command-Shift-Q` will log off.
 - `Shift-Control-Power/Eject` will go to sleep instantly.
 
-Via [maccast.com](https://web.archive.org/web/20240615053921/https://maccast.com/podcast/shownotes_20170312/).
+Via
+[maccast.com](https://web.archive.org/web/20240615053921/https://maccast.com/podcast/shownotes_20170312/).

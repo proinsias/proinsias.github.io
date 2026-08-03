@@ -21,6 +21,17 @@ default_install_hook_types:
     - post-rewrite
 
 repos:
+    - repo: local
+      hooks:
+          # Keep hook `rev`s in this file up to date
+          - id: prek-autoupdate
+            name: prek autoupdate
+            entry: prek autoupdate
+            language: system
+            pass_filenames: false
+            always_run: true
+            stages: [pre-push]
+
     - repo: https://github.com/pre-commit/pre-commit-hooks
       rev: v6.0.0
       hooks:
@@ -45,10 +56,13 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: lychee-v0.24.2
+      rev: v0.15.1
       hooks:
           - id: lychee
-            args: ["--cache", "--suggest"]
+            args: ["--config", "lychee.toml"]
+            # exclude_path in lychee.toml only applies to lychee's own
+            # directory walk, not to files pre-commit passes explicitly.
+            exclude: ^(assets/js/.*\.js|_sass/.*\.scss)$
 
     # YAML
 

@@ -8,3 +8,8 @@ report/
 
 _includes/
 _layouts/
+
+# Vendored/generated - not ours to reformat
+assets/js/vendor/
+assets/js/lunr/
+_sass/**/vendor/

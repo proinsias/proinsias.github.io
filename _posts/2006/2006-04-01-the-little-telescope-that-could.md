@@ -6,7 +6,7 @@ excerpt:
 categories:
     - tres
 date: 2006-04-01
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 tags:
     - astronomy
     - caltech
@@ -74,7 +74,7 @@ that used to discover HD 290458 b. Its 10-cm camera lens has a large square
 field of view on the night sky, about six degrees to a side. (The diameter of
 the moon on the sky is about half a degree.) The construction of the telescope
 by
-[Professor David Charbonneau](https://www.cfa.harvard.edu/~dcharbon/Site/Welcome.html)
+[Professor David Charbonneau](http://web.archive.org/web/20210227090122/https://www.cfa.harvard.edu/~dcharbon/Site/Welcome.html)
 (at the [Center for Astronomy](https://www.cfa.harvard.edu/) at Harvard
 University) was completed in 2003. Since then, Sleuth has observed a new patch
 of sky throughout each night every two to three

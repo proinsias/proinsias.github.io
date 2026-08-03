@@ -7,7 +7,7 @@ found hundreds of planets outside our solar system."
 categories:
     - tres
 date: 2007-03-01
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2026-08-03 14:04:37
 tags:
   - astronomy
   - caltech
@@ -40,8 +40,8 @@ drop in the brightness of its home star of about one and a half percent. This
 slight dimming of the star's light was noticed and measured by the TrES
 researchers, who used the parameters of the transit to determine the planet's
 mass, size and other properties. Credit:
-[Jeffrey Hall](https://lowell.edu/staff-member/jeffrey-hall/) (Lowell
-Observatory)_ </small>
+[Jeffrey Hall](http://web.archive.org/web/20210513162433/https://lowell.edu/staff-member/jeffrey-hall/)
+(Lowell Observatory)_ </small>
 
 In this age of billion-dollar telescopes that dwarf houses, it would be
 reasonable to assume that each of these discoveries was made using the latest

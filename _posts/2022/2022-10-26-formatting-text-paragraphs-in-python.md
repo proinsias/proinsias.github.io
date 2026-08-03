@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2026-08-03 14:04:37
 date: 2022-10-26
 layout: single
 published: true
@@ -56,4 +56,4 @@ text editors.'''
 ```
 
 Via [The Python 3 Module of the Week](https://pymotw.com/3/textwrap/index.html)
-and [enki.com](https://app.enki.com/public/insight/56c75b1edc39f90600d79c53).
+and [enki.com](https://app.enkipro.com/public/insight/56c75b1edc39f90600d79c53).

@@ -3,7 +3,7 @@ layout: single
 title: "GitHub: Exclude Whitespace Changes From GitHub Diffs"
 excerpt: Just add w=1 to the diff URL
 date: 2017-02-02
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 categories:
     - til
 tags:
@@ -24,9 +24,7 @@ perhaps hard, to read.
 You can cut to the chase by excluding whitespace changes from GitHub's diff view
 by adding `w=1` to the diff URL.
 
-Check out
-[this view of the diff](https://github.com/jbranchaud/dotfiles/commit/fad58dfda91e61972b3c28e7e967bb631140e71e)
-and then
-[this view of the diff that excludes whitespace](https://github.com/jbranchaud/dotfiles/commit/fad58dfda91e61972b3c28e7e967bb631140e71e?w=1).
+The example commit originally linked here has since been removed from its
+repository's history, and archive.org has no snapshot of it either.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).

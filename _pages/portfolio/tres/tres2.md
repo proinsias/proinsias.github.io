@@ -11,7 +11,7 @@ permalink: /portfolio/tres/tres2.html
 categories:
     - tres
 date: 2022-11-19
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 tags:
     - astronomy
     - sleuth
@@ -90,12 +90,11 @@ future observations with Kepler that include searching for moons around TrES-2.
   "New Planets Discovered".
 - [SpaceFlight Now](https://web.archive.org/web/20080623114304/http://www.spaceflightnow.com/news/n0609/19planet/),
   "Jupiter-size planet found by telescope network".
-- [Contra Costa Times](https://web.archive.org/web/20080623114304/http://www.contracostatimes.com/mld/cctimes/news/nation/15547033.htm),
-  "Astronomers find planet using amateur telescopes".
+- Contra Costa Times, "Astronomers find planet using amateur telescopes" (no
+  longer available; not archived).
 - [Tucson Citizen](https://web.archive.org/web/20080623114304/http://www.tucsoncitizen.com/daily/local/26250.php),
   "Small 'scope used in discovery of new planet".
-- [Kentucky.com](https://web.archive.org/web/20080623114304/http://www.kentucky.com/mld/kentucky/news/science/15514304.htm),
-  "Distant planet found".
+- Kentucky.com, "Distant planet found" (no longer available; not archived).
 - [Space.com](https://web.archive.org/web/20080623114304/http://www.space.com/scienceastronomy/060908_draco_planet.html),
   "Modified Backyard Telescopes Find Extrasolar Planet".
 - [International Reporter](https://web.archive.org/web/20080623114304/http://internationalreporter.com/news/read.php?id=2237),
@@ -137,7 +136,7 @@ future observations with Kepler that include searching for moons around TrES-2.
   [entry](https://web.archive.org/web/20080623114304/http://en.wikipedia.org/wiki/TrES-2).
 - Extrasolar Planets Encyclopaedia
   [entry](https://web.archive.org/web/20080623114304/http://exoplanet.eu/star.php?st=TrES-2).
-- [Lowell Observatory](https://web.archive.org/web/20080623114304/http://www.lowell.edu/press_room/releases/recent_releases/TrES2.html)
+- [Lowell Observatory](https://web.archive.org/web/20070305054349/http://www.lowell.edu/press_room/releases/recent_releases/TrES2.html)
   Press Release.
 - [Harvard-Smithsonian Center for Astrophysics](https://web.archive.org/web/20080623114304/http://www.cfa.harvard.edu/press/pr0623.html)
   Press Release.

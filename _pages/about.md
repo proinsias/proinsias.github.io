@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:04:37
 header:
     image: /assets/images/banner.png
     teaser: /assets/images/banner.png
@@ -27,8 +27,7 @@ developer, 🕷️ geek.
 
 <!-- textlint-disable alex -->
 
-- Pronouns: He/Him
-      <!-- textlint-enable alex -->
+- Pronouns: He/Him <!-- textlint-enable alex -->
 
 - Skills:
     - Data Science, Machine Learning, and Big Data:
