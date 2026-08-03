@@ -27,4 +27,4 @@ set the labels on that object.
 >>> ax.set_ylabel("y label")
 ```
 
-Via [Stack Overflow](http://stackoverflow.com/a/21487560/1257318).
+Via [Stack Overflow](https://stackoverflow.com/a/21487560/1257318).

@@ -30,4 +30,4 @@ reproducible_seed = uuid.UUID(int=rd.getrandbits(128))
 
 Now `reproducible_seed` should be the same for each run of this script.
 
-Via [StackOverflow](http://stackoverflow.com/q/41186818/1257318).
+Via [StackOverflow](https://stackoverflow.com/q/41186818/1257318).

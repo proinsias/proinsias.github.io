@@ -15,6 +15,7 @@ exclude = [
     '^https?://www.gnu.org',  # Rate-limits/tarpits lychee regardless of pacing or UA.
     '^https://www.linkedin.com',
     '/portfolio/tres\.html$',  # Custom Jekyll permalink; only resolves post-build.
+    '^https?://yourteam\.slack\.com',  # Illustrative placeholder domain in a quoted excerpt, not a real link.
 ]
 
 # NOTE: patterns are regexes, not globs (despite the lychee.example.toml

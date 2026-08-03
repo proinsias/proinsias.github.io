@@ -28,4 +28,4 @@ plt.clf()
 plt.close()
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/8228808/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/8228808/1257318).

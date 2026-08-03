@@ -17,4 +17,4 @@ To set the default editor for `git` to be say Textwrangler, use:
 git config --global core.editor "edit -w"
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/13258538/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/13258538/1257318).

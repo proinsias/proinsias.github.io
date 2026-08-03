@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Get current axis"
 date: 2017-03-10
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:16:51
 excerpt: Using the gca command
 categories:
     - til
@@ -24,4 +24,4 @@ ax = plt.gca()
 ax.scatter(x, y)
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/18774741/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/18774741/1257318).

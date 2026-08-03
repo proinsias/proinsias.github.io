@@ -21,4 +21,4 @@ engine = create_engine('postgresql://scott:tiger@localhost:5432/database')
 df.to_sql('table_name', engine)
 ```
 
-Via [Stack Overflow](http://stackoverflow.com/a/23104436/1257318).
+Via [Stack Overflow](https://stackoverflow.com/a/23104436/1257318).

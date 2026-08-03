@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Plot error as shaded region"
 date: 2017-03-10
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:16:51
 excerpt: Using the fill_between command
 categories:
     - til
@@ -31,4 +31,4 @@ plt.fill_between(
 plt.show()
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/12958534/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/12958534/1257318).

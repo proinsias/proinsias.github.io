@@ -31,5 +31,5 @@ Using `natsorted` is simple:
 ['1 ft 5 in', '2 ft 7 in', '2 ft 11 in', '7 ft 6 in', '10 ft 2 in']
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/18415320) and
+Via [StackOverflow](https://stackoverflow.com/a/18415320) and
 [natsort](https://github.com/SethMMorton/natsort).

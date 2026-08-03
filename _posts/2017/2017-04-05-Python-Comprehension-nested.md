@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Nested Comprehensions"
 date: 2017-04-05
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:16:51
 excerpt: Using two fors within a comprehension
 categories:
     - til
@@ -40,4 +40,4 @@ Here you go:
 lst = [(j, k) for j in s1 for k in s2]
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/3633145/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/3633145/1257318).

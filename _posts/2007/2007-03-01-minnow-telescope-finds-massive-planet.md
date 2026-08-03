@@ -111,7 +111,7 @@ candidate planetary system, and thereby determine whether it was a planet or a
 star, we had to scale up our equipment. We observed our target star with one of
 the 10-m telescopes at the
 [W.M. Keck Observatory](https://www.keckobservatory.org/) on the summit of
-[Mauna Kea, Hawaii](https://w3w.co/fiesta.registration.repeat) (see
+[Mauna Kea, Hawaii](https://what3words.com/fiesta.registration.repeat) (see
 [Figure 3](#fig3)). We measured the wobble of this star, and concluded that the
 companion was a Jupiter-mass planet. The past few months have truly been an
 exciting time for astronomers looking for new exoplanets. TrES-2 is the most

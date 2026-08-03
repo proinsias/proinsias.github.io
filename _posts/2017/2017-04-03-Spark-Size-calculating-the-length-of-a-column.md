@@ -2,7 +2,7 @@
 layout: single
 title: "Spark: Calculating the length of a column with size"
 date: 2017-04-03
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-03 14:16:51
 excerpt: Using the size command
 categories:
     - til
@@ -34,4 +34,4 @@ column:
 +---------+
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/33695672/1257318) .
+Via [StackOverflow](https://stackoverflow.com/a/33695672/1257318) .

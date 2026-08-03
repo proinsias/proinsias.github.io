@@ -23,4 +23,4 @@ ax.set_yscale('log')
 ax.set_xscale('log')
 ```
 
-Via [StackOverflow](http://stackoverflow.com/a/18774741/1257318).
+Via [StackOverflow](https://stackoverflow.com/a/18774741/1257318).

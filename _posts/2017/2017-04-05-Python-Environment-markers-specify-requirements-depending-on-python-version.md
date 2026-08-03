@@ -25,4 +25,4 @@ See also
 [requirement specifiers](https://pip.readthedocs.io/en/stable/reference/pip_install/#requirement-specifiers)
 .
 
-Via [StackOverflow.com](http://stackoverflow.com/a/33451105/1257318).
+Via [StackOverflow.com](https://stackoverflow.com/a/33451105/1257318).
