@@ -16,6 +16,7 @@ exclude = [
     '^https://www.linkedin.com',
     '/portfolio/tres\.html$',  # Custom Jekyll permalink; only resolves post-build.
     '^https?://yourteam\.slack\.com',  # Illustrative placeholder domain in a quoted excerpt, not a real link.
+    '^https://github.com/proinsias/dotfiles/$',  # Repo is now private; used as a literal `git clone` command in vhs_tapes/stow.tape, not a public link.
 ]
 
 # NOTE: patterns are regexes, not globs (despite the lychee.example.toml
@@ -27,6 +28,7 @@ exclude_path = [
     '_includes/',
     '_layouts/',
     '_sass/.*\.scss',
+    'lychee.toml',
 ]
 
 # exclude_loopback = true
