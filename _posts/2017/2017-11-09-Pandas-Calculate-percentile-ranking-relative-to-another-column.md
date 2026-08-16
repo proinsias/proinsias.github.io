@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Calculate percentile ranking relative to another column"
 excerpt: Via the searchsorted command
 date: 2017-11-09 12:35
-last_modified_at: 2026-08-03 14:04:37
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -74,4 +74,5 @@ The key to this is to sort the training data, and use
 4    999.709496    0.999841
 ```
 
-Via [SO](https://stackoverflow.com/a/43147486/1257318).
+Via
+[SO](https://stackoverflow.com/questions/43145715/how-to-calculate-a-percentile-ranking-of-a-column-of-data-relative-to-another-co/43147486).

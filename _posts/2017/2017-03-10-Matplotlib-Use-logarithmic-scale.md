@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Use logarithmic scale"
 date: 2017-03-10
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: Using the set_xscale and set_yscale commands
 categories:
     - til
@@ -23,4 +23,5 @@ ax.set_yscale('log')
 ax.set_xscale('log')
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/18774741/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/18773662/scatter-plot-logarithmic-scale/18774741).

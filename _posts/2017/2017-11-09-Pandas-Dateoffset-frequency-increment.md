@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: DateOffset as a Frequency Increment"
 excerpt: How to apply pandas.tseries.offsets.DateOffset
 date: 2017-11-09 12:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -21,4 +21,5 @@ tags:
 Timestamp('2008-12-23 09:00:00')
 ```
 
-Via [SO](https://stackoverflow.com/a/31170136/1257318).
+Via
+[SO](https://stackoverflow.com/questions/31169774/subtract-a-year-from-a-datetime-column-in-pandas/31170136).

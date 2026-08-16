@@ -3,7 +3,7 @@ layout: single
 title: "MySql: Show full query in process list"
 excerpt: Using the show full processlist command
 date: 2019-09-09 16.28
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -23,4 +23,5 @@ SQL query, use:
 SHOW FULL PROCESSLIST
 ```
 
-Via [SO](https://stackoverflow.com/a/3638697/1257318).
+Via
+[SO](https://stackoverflow.com/questions/3638689/how-to-see-full-query-from-show-processlist/3638697).

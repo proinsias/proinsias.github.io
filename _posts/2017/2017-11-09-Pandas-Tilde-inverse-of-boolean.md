@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Inverse of boolean"
 excerpt: Using the tilde operator
 date: 2017-11-09 12:35
-last_modified_at: 2026-08-03 14:16:51
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -25,4 +25,5 @@ In `pandas`, you can use the tilde (`~`) to flip `bool` values:
 3  apple
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/a/21055176/1257318).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/21055068/reversal-of-string-contains-in-python-pandas/21055176).

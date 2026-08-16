@@ -4,7 +4,7 @@ title:
     "Python: Specify requirements depending on python version using environment
     markers"
 date: 2017-04-05
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: For example python_version and sys.platform
 categories:
     - til
@@ -25,4 +25,5 @@ See also
 [requirement specifiers](https://pip.readthedocs.io/en/stable/reference/pip_install/#requirement-specifiers)
 .
 
-Via [StackOverflow.com](https://stackoverflow.com/a/33451105/1257318).
+Via
+[StackOverflow.com](https://stackoverflow.com/questions/19559247/requirements-txt-depending-on-python-version/33451105).

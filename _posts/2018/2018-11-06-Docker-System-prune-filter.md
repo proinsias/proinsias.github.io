@@ -3,7 +3,7 @@ layout: single
 title: "Docker: Filtered system prune"
 excerpt: The filter option
 date: 2018-11-06 10:20
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -27,5 +27,7 @@ hours, you can use the `--filter` option:
 docker system prune --all --volumes --filter "until=24h"
 ```
 
-Via [SO](https://stackoverflow.com/a/45143234/1257318) and
+Via
+[SO](https://stackoverflow.com/questions/45142528/what-is-a-dangling-image-and-what-is-an-unused-image/45143234)
+and
 [docker.com](https://docs.docker.com/engine/reference/commandline/system_prune/).

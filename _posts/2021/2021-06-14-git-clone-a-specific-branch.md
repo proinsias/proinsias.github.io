@@ -3,7 +3,7 @@ layout: single
 title: "Git: Clone a specific branch"
 excerpt: Speed up your git clones
 date: 2021-06-14
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -31,4 +31,5 @@ option:
 git clone --single-branch --branch <branch-name> <remote-repo>
 ```
 
-Via [SO](https://stackoverflow.com/a/1911126/1257318).
+Via
+[SO](https://stackoverflow.com/questions/1911109/how-do-i-clone-a-specific-git-branch/1911126).

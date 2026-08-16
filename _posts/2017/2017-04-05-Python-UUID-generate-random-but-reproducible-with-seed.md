@@ -3,7 +3,7 @@ layout: single
 title: "Python: Generate random but reproducible UUID with seed"
 excerpt: Using the random module
 date: 2017-04-05 05:23
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -30,4 +30,5 @@ reproducible_seed = uuid.UUID(int=rd.getrandbits(128))
 
 Now `reproducible_seed` should be the same for each run of this script.
 
-Via [StackOverflow](https://stackoverflow.com/q/41186818/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/41186818/how-to-generate-a-random-uuid-which-is-reproducible-with-a-seed-in-python).

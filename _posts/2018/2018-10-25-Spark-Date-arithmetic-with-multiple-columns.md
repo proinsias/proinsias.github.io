@@ -3,7 +3,7 @@ layout: single
 title: "Spark: Date Arithmetic with Multiple Columns"
 excerpt: Using the expr function
 date: 2018-10-25 12:54
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -22,4 +22,5 @@ from pyspark.sql.functions import expr, date_add
 new_df = my_df.withColumn('test', expr('date_add(created_at, number*7)'))
 ```
 
-Via [SO](https://stackoverflow.com/q/36561435/1257318).
+Via
+[SO](https://stackoverflow.com/questions/36561435/date-arithmetic-with-multiple-columns-in-pyspark).

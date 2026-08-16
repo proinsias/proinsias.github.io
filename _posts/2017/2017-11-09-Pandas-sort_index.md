@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: sort_index"
 excerpt: Sort a dataframe by index
 date: 2017-11-09 12:35
-last_modified_at: 2026-08-03 14:16:51
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -32,4 +32,5 @@ print(df.to_string())
 234  3
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/a/22211821/1257318).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/22211737/how-to-sort-a-pandas-dataframe-by-index/22211821).

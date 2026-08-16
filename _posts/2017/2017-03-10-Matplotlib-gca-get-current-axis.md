@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Get current axis"
 date: 2017-03-10
-last_modified_at: 2026-08-03 14:16:51
+last_modified_at: 2026-08-16 02:17:31
 excerpt: Using the gca command
 categories:
     - til
@@ -24,4 +24,5 @@ ax = plt.gca()
 ax.scatter(x, y)
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/18774741/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/18773662/scatter-plot-logarithmic-scale/18774741).

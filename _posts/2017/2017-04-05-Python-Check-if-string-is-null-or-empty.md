@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Check if string is null or empty"
 date: 2017-04-05
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: Using strip
 categories:
     - til
@@ -18,4 +18,5 @@ else:
     print("null or empty string")
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/28433369/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/2405292/check-if-string-contains-only-whitespace/28433369).

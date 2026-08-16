@@ -3,7 +3,7 @@ layout: single
 title: "Matplotlib: Save plot to file"
 excerpt: Using the savefig function
 date: 2018-09-26 16:16
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -23,4 +23,5 @@ import matplotlib.pyplot as plt
 plt.savefig('path/to/figure.ext')
 ```
 
-Via [SO](https://stackoverflow.com/a/18992172).
+Via
+[SO](https://stackoverflow.com/questions/18992086/save-a-pandas-series-histogram-plot-to-file/18992172).

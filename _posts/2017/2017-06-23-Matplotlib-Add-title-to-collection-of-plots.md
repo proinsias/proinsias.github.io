@@ -3,7 +3,7 @@ layout: single
 title: "Matplotlib: Add title to collection of plots"
 excerpt: Via the matplotlib.pyplot.suptitle command
 date: 2017-06-23 16:07
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -25,4 +25,5 @@ axes = data.hist(sharey=True, sharex=True)
 plt.suptitle("This is Figure title")
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/19625612/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/19614400/add-title-to-collection-of-pandas-hist-plots/19625612).

@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-07-30 16:52:22
+last_modified_at: 2026-08-16 02:17:31
 date: 2022-10-22
 layout: single
 published: true
@@ -37,4 +37,5 @@ braces. On Python 3.12+ you can write `f"{'\t' * 15}MESSAGE{'\t' * 15}"`
 directly. The workaround above is still needed if you're on Python 3.11 or
 earlier.
 
-Via [SO](https://stackoverflow.com/q/66173070/1257318).
+Via
+[SO](https://stackoverflow.com/questions/66173070/how-to-put-backslash-escape-sequence-into-f-string).

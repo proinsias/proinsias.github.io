@@ -3,7 +3,7 @@ layout: single
 title: "Sklearn: Fix No Space Left on Device Error"
 excerpt: Via the JOBLIB_TEMP_FOLDER environment variable
 date: 2018-09-25 10:14
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -25,4 +25,5 @@ variable:
 %env JOBLIB_TEMP_FOLDER=/tmp
 ```
 
-Via [SO](https://stackoverflow.com/a/49154587/1257318).
+Via
+[SO](https://stackoverflow.com/questions/40115043/no-space-left-on-device-error-while-fitting-sklearn-model/49154587).

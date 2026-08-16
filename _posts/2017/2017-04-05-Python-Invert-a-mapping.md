@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Invert a mapping"
 date: 2017-04-05
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: Using items()
 categories:
     - til
@@ -30,4 +30,5 @@ $ inv_map
 { 1: 'a', 2: 'b' }
 ```
 
-Via [StackOverflow.com](https://stackoverflow.com/q/483666/1257318).
+Via
+[StackOverflow.com](https://stackoverflow.com/questions/483666/reverse-invert-a-dictionary-mapping).

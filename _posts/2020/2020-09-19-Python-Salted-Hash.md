@@ -2,7 +2,7 @@
 layout: single
 title: "Python: Salted Hash"
 date: 2020-09-19
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: The hashlib module
 categories:
     - til
@@ -24,4 +24,5 @@ import hashlib
 hashlib.sha512(s + d).hexdigest()
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/2898780/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/2898685/hashing-in-sha512-using-a-salt-python/2898780).

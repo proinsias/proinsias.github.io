@@ -3,7 +3,7 @@ layout: single
 title: "Python: Print without newline"
 excerpt: Using the end parameter of the print function
 date: 2017-04-05 05:23
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -25,4 +25,5 @@ If you are having trouble with buffering, you can flush the output by adding
 print('This is a string...', end='', flush=True)
 ```
 
-Via [StackOverflow.com](https://stackoverflow.com/a/493399/1257318).
+Via
+[StackOverflow.com](https://stackoverflow.com/questions/493386/how-to-print-without-a-newline-or-space/493399).

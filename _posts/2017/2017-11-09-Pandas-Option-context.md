@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Option Context"
 excerpt: Temporarily change pandas options
 date: 2017-11-09 12:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -36,4 +36,5 @@ with pd.option_context('display.max_rows', None, 'display.max_columns', None, ):
 This will automatically return the options to their default values after
 printing the dataframe.
 
-Via [SO](https://stackoverflow.com/a/30691921/1257318).
+Via
+[SO](https://stackoverflow.com/questions/19124601/pretty-print-an-entire-pandas-series-dataframe/30691921).

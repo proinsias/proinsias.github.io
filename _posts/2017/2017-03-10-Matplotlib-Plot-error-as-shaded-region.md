@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Plot error as shaded region"
 date: 2017-03-10
-last_modified_at: 2026-08-03 14:16:51
+last_modified_at: 2026-08-16 02:17:31
 excerpt: Using the fill_between command
 categories:
     - til
@@ -31,4 +31,5 @@ plt.fill_between(
 plt.show()
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/12958534/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/12957582/plot-yerr-xerr-as-shaded-region-rather-than-error-bars/12958534).

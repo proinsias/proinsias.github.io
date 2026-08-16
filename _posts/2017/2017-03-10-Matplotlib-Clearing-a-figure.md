@@ -2,7 +2,7 @@
 layout: single
 title: "Matplotlib: Clearing a figure"
 date: 2017-03-10
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 excerpt: cla v clf v close
 categories:
     - til
@@ -28,4 +28,5 @@ plt.clf()
 plt.close()
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/8228808/1257318).
+Via
+[StackOverflow](https://stackoverflow.com/questions/8213522/when-to-use-cla-clf-or-close-for-clearing-a-plot/8228808).

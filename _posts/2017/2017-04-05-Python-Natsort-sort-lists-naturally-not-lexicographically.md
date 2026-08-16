@@ -3,7 +3,7 @@ layout: single
 title: "Python: Sort lists naturally not lexicographically with natsort"
 excerpt: Using the natsorted function
 date: 2017-04-05 05:23
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -31,5 +31,6 @@ Using `natsorted` is simple:
 ['1 ft 5 in', '2 ft 7 in', '2 ft 11 in', '7 ft 6 in', '10 ft 2 in']
 ```
 
-Via [StackOverflow](https://stackoverflow.com/a/18415320) and
-[natsort](https://github.com/SethMMorton/natsort).
+Via
+[StackOverflow](https://stackoverflow.com/questions/4836710/is-there-a-built-in-function-for-string-natural-sort/18415320)
+and [natsort](https://github.com/SethMMorton/natsort).

@@ -3,7 +3,7 @@ layout: single
 title: "Pandas: Accessing additional parameters for a plot"
 excerpt: Via the plot axes.
 date: 2017-11-09 12:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -27,4 +27,5 @@ set the labels on that object.
 >>> ax.set_ylabel("y label")
 ```
 
-Via [Stack Overflow](https://stackoverflow.com/a/21487560/1257318).
+Via
+[Stack Overflow](https://stackoverflow.com/questions/21487329/add-x-and-y-labels-to-a-pandas-plot/21487560).

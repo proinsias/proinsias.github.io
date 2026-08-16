@@ -3,7 +3,7 @@ layout: single
 title: "Docker: Attach/Detach"
 excerpt: Interacting with containers
 date: 2018-03-02 19:40
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-08-16 02:17:31
 categories:
     - til
 tags:
@@ -26,4 +26,5 @@ To attach to a running container you use:
 docker container attach "container_name"
 ```
 
-Via [SO](https://stackoverflow.com/q/19688314/1257318).
+Via
+[SO](https://stackoverflow.com/questions/19688314/how-do-you-attach-and-detach-from-dockers-process).
