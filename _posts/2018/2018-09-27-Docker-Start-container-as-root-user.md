@@ -17,5 +17,10 @@ as `root` user using one of these commands:
 ```bash
 docker exec -u root -t -i container_id /bin/bash
 
-docker-compose run -u root --service-ports service_name exec bash
+docker compose run -u root --service-ports service_name exec bash
 ```
+
+Note: the standalone `docker-compose` (hyphenated) binary is Docker Compose V1,
+which reached end-of-life in June 2023 and has been removed from current Docker
+Desktop/Engine installs. Use the `docker compose` CLI plugin (no hyphen)
+instead.
