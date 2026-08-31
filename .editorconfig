@@ -31,8 +31,8 @@ indent_size = 4
 [{*.rb,*.gemspec,Gemfile{,.lock},Rakefile,Vagrantfile}]
 indent_size = 2
 
-# Front End Languages (HTML, JS, CSS etc)
-[*.{js, css, html}]
+# Front End Languages (HTML,JS,CSS etc)
+[*.{js,css,html}]
 indent_style = space
 indent_size = 2
 charset = utf-8
@@ -42,7 +42,7 @@ trim_trailing_whitespace = true
 quote_type = double
 
 # YAML Based files - 2 space indent
-[*.{yml, yaml, sls}]
+[*.{yml,yaml,sls}]
 indent_size = 2
 indent_style = space
 
