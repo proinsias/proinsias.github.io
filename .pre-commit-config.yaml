@@ -56,7 +56,7 @@ repos:
             stages: [pre-commit]
 
     - repo: https://github.com/lycheeverse/lychee.git
-      rev: v0.15.1
+      rev: nightly
       hooks:
           - id: lychee
             args: ["--config", "lychee.toml"]
