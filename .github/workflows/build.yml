@@ -10,7 +10,9 @@ permissions:
 
 jobs:
   build:
-    if: github.event.pull_request.user.login == 'proinsias'
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.actor == 'proinsias') ||
+      github.event.pull_request.user.login == 'proinsias'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

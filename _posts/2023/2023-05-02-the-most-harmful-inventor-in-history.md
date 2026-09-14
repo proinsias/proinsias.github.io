@@ -5,7 +5,7 @@ excerpt:
     It is difficult to surpass the magnitude of the damage caused by two
     particular inventions, and both were created by the same man
 date: 2023-05-02 13:51
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-09-14 23:32:57
 categories:
     - posts
 tags:
@@ -16,7 +16,7 @@ tags:
 
 I'm a big fan of [Tim Harford](https://timharford.com/), economic journalist,
 and author of
-[The Data Detective: Ten Easy Rules to Make Sense of Statistics](https://www.goodreads.com/book/show/53733086-the-data-detective)
+[The Data Detective: Ten Easy Rules to Make Sense of Statistics](http://web.archive.org/web/20250111020228/https://www.goodreads.com/book/show/53733086-the-data-detective)
 among other great books. I first came across his work through his podcast
 [Cautionary Tales](https://www.pushkin.fm/podcasts/cautionary-tales): "stories
 of awful human error, tragic catastrophes, daring heists and hilarious fiascos".
