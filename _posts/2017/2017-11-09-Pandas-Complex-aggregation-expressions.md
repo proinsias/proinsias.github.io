@@ -11,6 +11,14 @@ tags:
     - til
 ---
 
+**Note:** the nested-dict form of `.agg()` shown below (a dict of dicts, used
+to rename aggregated columns per source column) was deprecated in
+`pandas` 0.20 and removed in `pandas` 0.25, so it now raises
+`SpecificationError: nested renamer is not supported` on any current
+version of `pandas`. See
+[Pandas: Named Aggregation]({% post_url 2020/2020-01-24-Pandas-Named-Aggregation %})
+for the modern replacement.
+
 ```python
 >>> df = pd.DataFrame(np.random.randn(10,3),columns=list('ABC'))
 
