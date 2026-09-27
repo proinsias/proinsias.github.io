@@ -12,18 +12,18 @@ tags:
     - til
 ---
 
-`pandas` has a built-in function `makeDataFrame()` to return a DataFrame
-containing random floats. Note that this is using the private API, and the exact
-details has been changing over time. For `pandas` version 1.1.2, the following
-should work:
+`pandas` used to have a private `pd._testing.makeDataFrame()` function to
+return a DataFrame containing random floats, but this and similar helpers in
+`pandas._testing` were removed entirely in later `pandas` 2.x releases. The
+public API equivalent is straightforward:
+
 
 ```python
+>>> import numpy as np
 >>> import pandas as pd
->>> pd._testing._K = 5  # Number of columns.
->>> pd._testing._N = 10  # Number of rows.
->>> pd._testing.makeDataFrame()
+>>> pd.DataFrame(np.random.randn(10, 5), columns=list("ABCDE"))
                    A         B         C         D         E
-Hmtini8OOO -0.568102 -0.997378 -0.353896  1.226457  0.534372
+         O -0.568102 -0.997378 -0.353896  1.226457  0.534372
 P1SLNai7if -0.364987  0.147441 -1.306832 -1.908136 -1.334303
 5a28TajzXt  0.232304 -0.998671  0.301885 -0.267748 -1.230216
 KMinehwLM4  0.428396  1.126800 -0.266579  1.783406  0.937720
