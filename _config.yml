@@ -251,7 +251,6 @@ timezone: "America/New_York" # https://en.wikipedia.org/wiki/List_of_tz_database
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-algolia
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem.
   - jekyll-github-metadata
   - jekyll-include-cache
@@ -264,7 +263,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-algolia
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-include-cache
