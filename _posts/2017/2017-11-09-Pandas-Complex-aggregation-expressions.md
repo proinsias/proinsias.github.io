@@ -3,13 +3,21 @@ layout: single
 title: "Pandas: Complex aggregation expressions"
 excerpt: Using a dictionary of aggreations
 date: 2017-11-09 12:35
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-10-08 21:49:40
 categories:
     - til
 tags:
     - pandas
     - til
 ---
+
+**Note:** the nested-dict form of `.agg()` shown below (a dict of dicts, used to
+rename aggregated columns per source column) was deprecated in `pandas` 0.20 and
+removed in `pandas` 0.25, so it now raises
+`SpecificationError: nested renamer is not supported` on any current version of
+`pandas`. See [Pandas: Named
+Aggregation]({% post_url 2020/2020-01-24-Pandas-Named-Aggregation %}) for the
+modern replacement.
 
 ```python
 >>> df = pd.DataFrame(np.random.randn(10,3),columns=list('ABC'))

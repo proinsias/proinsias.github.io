@@ -18,12 +18,6 @@ GEM
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     afm (1.0.0)
-    algolia_html_extractor (2.6.4)
-      json (~> 2.0)
-      nokogiri (~> 1.10)
-    algoliasearch (1.27.5)
-      httpclient (~> 2.8, >= 2.8.3)
-      json (>= 1.5.1)
     async (2.44.0)
       console (~> 1.29)
       fiber-annotation
@@ -37,7 +31,7 @@ GEM
     coffee-script-source (1.12.2)
     colorator (1.1.0)
     commonmarker (0.23.12)
-    concurrent-ruby (1.3.7)
+    concurrent-ruby (1.3.8)
     connection_pool (3.0.2)
     console (1.37.0)
       fiber-annotation
@@ -75,7 +69,6 @@ GEM
     fiber-local (1.1.0)
       fiber-storage
     fiber-storage (1.0.1)
-    filesize (0.2.0)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -145,8 +138,6 @@ GEM
       yell (~> 2.0)
       zeitwerk (~> 2.5)
     http_parser.rb (0.8.1)
-    httpclient (2.9.0)
-      mutex_m
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-event (1.19.4)
@@ -165,15 +156,6 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
       webrick (>= 1.0)
-    jekyll-algolia (1.7.1)
-      algolia_html_extractor (~> 2.6)
-      algoliasearch (~> 1.26)
-      filesize (~> 0.1)
-      jekyll (>= 3.6, < 5.0)
-      json (~> 2.0)
-      nokogiri (~> 1.6)
-      progressbar (~> 1.9)
-      verbal_expressions (~> 0.1.5)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.2.2)
@@ -287,7 +269,6 @@ GEM
     minitest (6.0.2)
       drb (~> 2.0)
       prism (~> 1.5)
-    mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
     nokogiri (1.19.4-aarch64-linux-gnu)
@@ -319,7 +300,6 @@ GEM
       ruby-rc4
       ttfunk
     prism (1.9.0)
-    progressbar (1.13.0)
     public_suffix (5.1.1)
     racc (1.8.1)
     rainbow (3.1.1)
@@ -348,11 +328,10 @@ GEM
       ethon (>= 0.18.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2026.3)
+    tzinfo-data (1.2026.4)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (1.1.1)
-    verbal_expressions (0.1.5)
     webrick (1.9.2)
     yell (2.2.2)
     zeitwerk (2.8.3)
@@ -370,9 +349,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (>= 232)
   html-proofer
-  jekyll-algolia
   jekyll-feed
-  jekyll-gist
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
@@ -386,8 +363,6 @@ CHECKSUMS
   activesupport (8.1.2.1) sha256=beec20ced12ad569194554399449a6372fdab03061b8f48a9ed6ef9b7dc251b2
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   afm (1.0.0) sha256=5bd4d6f6241e7014ef090985ec6f4c3e9745f6de0828ddd58bc1efdd138f4545
-  algolia_html_extractor (2.6.4) sha256=b284a396ea95852e1fcf68b248db178c2d1e2e4d426b49b728596961266f9121
-  algoliasearch (1.27.5) sha256=26c1cddf3c2ec4bd60c148389e42702c98fdac862881dc6b07a4c0b89ffec853
   async (2.44.0) sha256=888e0edda9643fac7bbdfd3073fee1713d62a586dbebaefbcc579e505c166a5a
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
@@ -396,7 +371,7 @@ CHECKSUMS
   coffee-script-source (1.12.2) sha256=e12b16fd8927fbbf8b87cb2e9a85a6cf457c6881cc7ff8b1af15b31f70da07a4
   colorator (1.1.0) sha256=e2f85daf57af47d740db2a32191d1bdfb0f6503a0dfbc8327d0c9154d5ddfc38
   commonmarker (0.23.12) sha256=da2d2f89c7c7b51c42c6e69ace3ab5df39497683f86e83aca7087c671d523ccd
-  concurrent-ruby (1.3.7) sha256=4412caec3a5ea2e5fdc52076724c071a81f2c0593d83b2ac8cbb8ca63b3151b0
+  concurrent-ruby (1.3.8) sha256=b2f1be836e968ccc78ccfce277ea79c72a88633f22306782c16ff23fb415d1e1
   connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
   console (1.37.0) sha256=8093b286c2595a063849c098594fee5155ecc7967d36f3aa8cbe7569c8f3efd7
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
@@ -419,7 +394,6 @@ CHECKSUMS
   fiber-annotation (0.2.0) sha256=7abfadf1d119f508867d4103bf231c0354d019cc39a5738945dec2edadaf6c03
   fiber-local (1.1.0) sha256=c885f94f210fb9b05737de65d511136ea602e00c5105953748aa0f8793489f06
   fiber-storage (1.0.1) sha256=f48e5b6d8b0be96dac486332b55cee82240057065dc761c1ea692b2e719240e1
-  filesize (0.2.0) sha256=0f5db8629d628b60857dd8e7b8d52f427e6b7b9dc49265bfda71c0d383cbe79e
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   gemoji (4.1.0) sha256=734434020cbe964ea9d19086798797a47d23a170892de0ce55b74aa65d2ddc1a
   github-pages (232) sha256=2b40493d7327627e4ce45c47f4a9d4394e5eaa151f9d29bb924ff424c3132287
@@ -428,11 +402,9 @@ CHECKSUMS
   html-pipeline (2.14.3) sha256=8a1d4d7128b2141913387cac0f8ba898bb6812557001acc0c2b46910f59413a0
   html-proofer (5.2.2) sha256=6e5e63c89ef9413246eeffaeba8dd03db62546992d7a2b85d166ac2a5903a241
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
-  httpclient (2.9.0) sha256=4b645958e494b2f86c2f8a2f304c959baa273a310e77a2931ddb986d83e498c8
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   io-event (1.19.4) sha256=c291146e2e70849b9d6b64078f8e98f0154bfd3bc4f9759861ff13e9895e0cce
   jekyll (3.10.0) sha256=c4213b761dc7dfe7d499eb742d0476a02d8503e440c2610e19774ee7f0db8d90
-  jekyll-algolia (1.7.1) sha256=0f1501d2ec1d6550261c34f4ff4d46c72b1352823c4c5b8c67632bc92719fb49
   jekyll-avatar (0.8.0) sha256=ea736277c2de54a21300122096700517972a722d5c68ca83f8723b4999abfd4b
   jekyll-coffeescript (1.2.2) sha256=894e71c2071a834e76eb7e8044944440a0c81c2c7092532fed1503b13d331110
   jekyll-commonmark (1.4.0) sha256=1731e658fe09ce040271e6878f83ad45bbf8d17b10ad03bf343546cca30f4844
@@ -478,7 +450,6 @@ CHECKSUMS
   mercenary (0.3.6) sha256=2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82
   minima (2.5.1) sha256=520e52bc631fb16cbb8100660f6caa44f97859e2fa7e397d508deb18739567be
   minitest (6.0.2) sha256=db6e57956f6ecc6134683b4c87467d6dd792323c7f0eea7b93f66bd284adbc3d
-  mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
   net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
   nokogiri (1.19.4-aarch64-linux-gnu) sha256=1269fb644a6de405057a53dd5c762b1209b43ca7424f839454d3dbc677c31a8f
   nokogiri (1.19.4-aarch64-linux-musl) sha256=35c65b9ce72b3bb03207bdbe7067915019dc18c1b9b59139684bd6690fdd01af
@@ -493,7 +464,6 @@ CHECKSUMS
   pathutil (0.16.2) sha256=e43b74365631cab4f6d5e4228f812927efc9cb2c71e62976edcb252ee948d589
   pdf-reader (2.15.1) sha256=18c6a986a84a3117fa49f4279fc2de51f5d2399b71833df5d2bccd595c7068ce
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
-  progressbar (1.13.0) sha256=18c921d1c527dbe7eba3c5a07a1e3bcdd5e42fc18276f5711187a7489448be78
   public_suffix (5.1.1) sha256=250ec74630d735194c797491c85e3c6a141d7b5d9bd0b66a3fa6268cf67066ed
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
@@ -513,10 +483,9 @@ CHECKSUMS
   ttfunk (1.7.0) sha256=2370ba484b1891c70bdcafd3448cfd82a32dd794802d81d720a64c15d3ef2a96
   typhoeus (1.6.0) sha256=bacc41c23e379547e29801dc235cd1699b70b955a1ba3d32b2b877aa844c331d
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
-  tzinfo-data (1.2026.3) sha256=478fbc5356f13c1004cf8372b1336f3dad4055c96340fc4c881a3738da8cf7f9
+  tzinfo-data (1.2026.4) sha256=22f5f02608f14938ab8b78513a70a22f0b0277614a07273d3bedb3ea45ece104
   unicode-display_width (1.8.0) sha256=0292132d364d59fcdd83f144910c48b3c8332b28a14c5c04bb093dd165600488
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
-  verbal_expressions (0.1.5) sha256=f67774ce6e23a192bd304cadaeba2b01b78bc77e3bde07b4dcd1f53418794f1b
   webrick (1.9.2) sha256=beb4a15fc474defed24a3bda4ffd88a490d517c9e4e6118c3edce59e45864131
   yell (2.2.2) sha256=1d166f3cc3b6dc49a59778ea7156ed6d8de794c15106d48ffd6cbb061b9b26bc
   zeitwerk (2.8.3) sha256=2c85125a8467ce069e20123d1e709a08955c9d29c118c25b46b7b7fafdbb92e5

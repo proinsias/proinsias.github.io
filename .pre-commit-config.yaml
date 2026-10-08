@@ -1,125 +1,125 @@
 ---
 ci: # https://pre-commit.ci
-    autofix_prs: true
-    autoupdate_schedule: monthly
-    skip:
-        - lychee
-        - prettier
-        - shellcheck
-    submodules: false
+  autofix_prs: true
+  autoupdate_schedule: monthly
+  skip:
+    - lychee
+    - prettier
+    - shellcheck
+  submodules: false
 
 default_install_hook_types:
-    - commit-msg
-    - prepare-commit-msg
-    - pre-commit
-    - pre-merge-commit
-    - pre-push
-    - pre-rebase
-    - post-checkout
-    - post-commit
-    - post-merge
-    - post-rewrite
+  - commit-msg
+  - prepare-commit-msg
+  - pre-commit
+  - pre-merge-commit
+  - pre-push
+  - pre-rebase
+  - post-checkout
+  - post-commit
+  - post-merge
+  - post-rewrite
 
 repos:
-    - repo: local
-      hooks:
-          # Keep hook `rev`s in this file up to date
-          - id: prek-autoupdate
-            name: prek autoupdate
-            entry: prek autoupdate
-            language: system
-            pass_filenames: false
-            always_run: true
-            stages: [pre-push]
+  - repo: local
+    hooks:
+      # Keep hook `rev`s in this file up to date
+      - id: prek-autoupdate
+        name: prek autoupdate
+        entry: prek autoupdate
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]
 
-    - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v6.0.0
-      hooks:
-          - id: check-added-large-files
-          - id: check-case-conflict
-          - id: check-docstring-first
-          - id: check-executables-have-shebangs
-          - id: check-merge-conflict
-          - id: check-symlinks
-          - id: check-toml
-          - id: check-xml
-          - id: check-yaml
-          - id: detect-private-key
-          - id: double-quote-string-fixer
-          - id: mixed-line-ending # Replaces or checks mixed line ending.
-          - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-executables-have-shebangs
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: double-quote-string-fixer
+      - id: mixed-line-ending # Replaces or checks mixed line ending.
+      - id: trailing-whitespace
 
-    - repo: https://github.com/pre-commit/mirrors-prettier
-      rev: v4.0.0-alpha.8
-      hooks:
-          - id: prettier
-            stages: [pre-commit]
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        stages: [pre-commit]
 
-    - repo: https://github.com/lycheeverse/lychee.git
-      rev: v0.15.1
-      hooks:
-          - id: lychee
-            args: ["--config", "lychee.toml"]
-            # exclude_path in lychee.toml only applies to lychee's own
-            # directory walk, not to files pre-commit passes explicitly.
-            exclude: ^(assets/js/.*\.js|_sass/.*\.scss)$
+  - repo: https://github.com/lycheeverse/lychee.git
+    rev: v0.15.1
+    hooks:
+      - id: lychee
+        args: ["--config", "lychee.toml"]
+        # exclude_path in lychee.toml only applies to lychee's own
+        # directory walk, not to files pre-commit passes explicitly.
+        exclude: ^(assets/js/.*\.js|_sass/.*\.scss)$
 
-    # YAML
+  # YAML
 
-    - repo: https://github.com/adrienverge/yamllint
-      rev: v1.38.0
-      hooks:
-          - id: yamllint
-            args: [-c=.yamllint.yml]
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+        args: [-c=.yamllint.yml]
 
-    - repo: https://github.com/proinsias/yaml-update-last-modified-date
-      rev: v1.1.2
-      hooks:
-          - id: yaml-update-last-modified-date
+  - repo: https://github.com/proinsias/yaml-update-last-modified-date
+    rev: v1.1.2
+    hooks:
+      - id: yaml-update-last-modified-date
 
-    # Mixed
+  # Mixed
 
-    - repo: https://github.com/sirosen/texthooks
-      rev: 0.7.1
-      hooks:
-          - id: fix-smartquotes
-          - id: fix-ligatures
+  - repo: https://github.com/sirosen/texthooks
+    rev: 0.7.1
+    hooks:
+      - id: fix-smartquotes
+      - id: fix-ligatures
 
-    - repo: https://github.com/jumanjihouse/pre-commit-hooks
-      rev: 3.0.0
-      hooks:
-          - id: git-check # Configure in .gitattributes
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 3.0.0
+    hooks:
+      - id: git-check # Configure in .gitattributes
 
-    - repo: https://github.com/koalaman/shellcheck-precommit
-      rev: v0.11.0
-      hooks:
-          - id: shellcheck
-            args: [--external-sources, --format=gcc, --shell=bash]
+  - repo: https://github.com/koalaman/shellcheck-precommit
+    rev: v0.11.0
+    hooks:
+      - id: shellcheck
+        args: [--external-sources, --format=gcc, --shell=bash]
 
-    - repo: https://github.com/Lucas-C/pre-commit-hooks
-      rev: v1.5.6
-      hooks:
-          - id: remove-crlf
-          - id: remove-tabs
-            exclude: .git/COMMIT_EDITMSG
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.6
+    hooks:
+      - id: remove-crlf
+      - id: remove-tabs
+        exclude: .git/COMMIT_EDITMSG
 
-    - repo: https://github.com/sirosen/check-jsonschema
-      rev: 0.38.0
-      hooks:
-          - id: check-github-actions
-          - id: check-github-workflows
-          - id: check-readthedocs
+  - repo: https://github.com/sirosen/check-jsonschema
+    rev: 0.38.2
+    hooks:
+      - id: check-github-actions
+      - id: check-github-workflows
+      - id: check-readthedocs
 
-    - repo: https://github.com/sirwart/ripsecrets
-      rev: v0.1.11 # Use latest tag on GitHub
-      hooks:
-          - id: ripsecrets
-          # uncomment to check additional patterns
-          # args:
-          # - --additional-pattern 'mytoken*'
-          # - --additional-pattern 'mykey*'
+  - repo: https://github.com/sirwart/ripsecrets
+    rev: v0.1.11 # Use latest tag on GitHub
+    hooks:
+      - id: ripsecrets
+      # uncomment to check additional patterns
+      # args:
+      # - --additional-pattern 'mytoken*'
+      # - --additional-pattern 'mykey*'
 
-    - repo: https://github.com/rhysd/actionlint
-      rev: v1.7.12
-      hooks:
-          - id: actionlint
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
