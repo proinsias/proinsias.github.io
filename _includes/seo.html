@@ -125,28 +125,41 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    {% if og_type == "article" %}
+    {% if page.url == "/about/" %}
+      "@type": "ProfilePage",
+      "url": {{ canonical_url | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "mainEntity": {% include seo-person.html %}
+    {% elsif og_type == "article" %}
       "@type": "BlogPosting",
       "mainEntityOfPage": {{ canonical_url | jsonify }},
       "headline": {{ page.title | jsonify }},
       "description": {{ seo_description | jsonify }},
       "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
       "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "inLanguage": {{ site.locale | default: "en-US" | jsonify }},
       {% if schema_image != "" %}"image": {{ schema_image | jsonify }},{% endif %}
-      "author": {
-        "@type": "Person",
-        "name": {{ site.social.name | default: site.name | jsonify }},
-        "url": {{ '/' | absolute_url | jsonify }}
-      }
+      {% if page.tags.size > 0 %}"keywords": {{ page.tags | join: ", " | jsonify }},{% endif %}
+      {% if page.categories.size > 0 %}"articleSection": {{ page.categories | first | jsonify }},{% endif %}
+      "author": {% include seo-person.html %},
+      "isPartOf": { "@type": "WebSite", "url": {{ '/' | absolute_url | jsonify }}, "name": {{ site.title | jsonify }} }
     {% elsif site.social.type == "Organization" %}
       "@type": "Organization",
       "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
       "logo": {{ site_og_image | jsonify }}{% endif %}
     {% else %}
-      "@type": "Person",
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "url": {{ '/' | absolute_url |jsonify }}{% if site.social.links %},
-      "sameAs": {{ site.social.links | jsonify }}{% endif %}
+      "@graph": [
+        {% include seo-person.html %},
+        {
+          "@type": "WebSite",
+          "@id": {{ '/#website' | absolute_url | jsonify }},
+          "url": {{ '/' | absolute_url | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "description": {{ site.description | strip_newlines | strip | jsonify }},
+          "inLanguage": {{ site.locale | default: "en-US" | jsonify }},
+          "publisher": { "@id": {{ '/#person' | absolute_url | jsonify }} }
+        }
+      ]
     {% endif %}
   }
 </script>

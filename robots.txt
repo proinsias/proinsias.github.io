@@ -1,0 +1,49 @@
+---
+layout: null
+sitemap: false
+---
+# Public blog: welcome search engines and AI answer/retrieval crawlers.
+# Disallowing a crawler here is how to opt out of that engine's citations.
+
+User-agent: *
+Allow: /
+
+# OpenAI (training, search, user-initiated browsing)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google (Gemini training/grounding opt-in control)
+User-agent: Google-Extended
+Allow: /
+
+# Apple, Common Crawl
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

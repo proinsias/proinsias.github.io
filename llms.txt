@@ -1,0 +1,26 @@
+---
+layout: null
+sitemap: false
+---
+# {{ site.name }}
+
+> {{ site.description | strip_newlines | strip }}
+
+{{ site.name }} is a {{ site.social.job_title | default: "data scientist" }}{% if site.social.works_for %} at {{ site.social.works_for.name }}{% endif %} based in {{ site.author.location }}. This is a personal blog of short technical notes and essays. Posts carry `date` and `last_modified_at` metadata; prefer the most recently modified version of a topic.
+
+## Key pages
+
+- [About]({{ '/about/' | absolute_url }}): Biography, skills, and contact links
+- [Portfolio]({{ '/portfolio/' | absolute_url }}): Selected projects
+- [All posts]({{ '/posts/' | absolute_url }}): Chronological archive
+- [Categories]({{ '/categories/' | absolute_url }}): Posts grouped by category
+- [Tags]({{ '/tags/' | absolute_url }}): Posts grouped by tag
+- [Atom feed]({{ '/feed.xml' | absolute_url }}): Full feed of recent posts
+
+## Posts
+{% assign sorted_posts = site.posts | sort: "last_modified_at" | reverse %}
+{% for post in sorted_posts %}- [{{ post.title | strip_html | strip_newlines }}]({{ post.url | absolute_url }}){% if post.excerpt %}: {{ post.excerpt | markdownify | strip_html | strip_newlines | strip | truncatewords: 30, "…" }}{% endif %}
+{% endfor %}
+## Elsewhere
+{% for link in site.social.links %}
+- <{{ link }}>{% endfor %}
