@@ -2,7 +2,6 @@
 title: "About Francis O'Donovan"
 layout: single
 excerpt: "Data Scientist – Planet discoverer, researcher, developer, geek."
-sitemap: false
 permalink: /about/
 author_profile: false
 date: 2016-06-20

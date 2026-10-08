@@ -26,7 +26,8 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: Francis T. O'Donovan
 description: >-
-  My home on the web.
+  Francis O'Donovan's home on the web: notes on data science, Python,
+  healthcare, and stoicism.
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io/minimal-mistakes"
 url: https://proinsias.github.io # Leave off trailing forward slashes when setting url.
 # baseurl: '/blog' # the subpath of your site, e.g. "/blog"  # Don't need this if there's no subpath.
@@ -97,20 +98,30 @@ naver_site_verification:
 yandex_site_verification:
 baidu_site_verification:
 
-# Social Sharing  # FIXME:
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: # Open Graph/Twitter default site image
+# Social Sharing
+# Leave twitter/facebook unset until there is a real handle: empty keys make
+# jekyll-seo-tag emit a bare "@" for twitter:site.
+# twitter:
+#   username:
+# facebook:
+#   username:
+#   app_id:
+#   publisher:
+og_image: /assets/images/bio-photo.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
+  type: Person # Person or Organization (defaults to Person)
+  name: Francis T. O'Donovan # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://github.com/proinsias/
+    - https://scholar.google.com/citations?user=iWEMh04AAAAJ&hl=en
+    - https://www.linkedin.com/in/francistodonovan
+    - https://medium.com/@proinsias
+    - https://orcid.org/0000-0002-4858-6106
+    - https://www.researchgate.net/profile/Francis-Odonovan-2
+    - https://stackoverflow.com/users/1257318/proinsias/
+    - https://twit.social/@francis
 
 # Analytics
 analytics:
