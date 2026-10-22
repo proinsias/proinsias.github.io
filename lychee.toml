@@ -24,6 +24,9 @@ exclude = [
     '^https?://ui\.adsabs\.harvard\.edu',  # Rejects lychee's request method with 405 regardless of pacing or UA; abstracts load fine in a browser.
     '^https?://(www\.)?astro\.caltech\.edu/palomar',  # Times out for lychee regardless of pacing or UA; pages load fine in a browser.
     '^http://www\.kalyanv\.org',  # Times out for lychee regardless of pacing or UA; page loads fine in a browser.
+    '^https?://proinsias\.github\.io',  # Own site, absolute via site.url; GitHub Pages returns intermittent 503s to lychee's burst of self-requests, and local pages/assets are validated by the build.
+    '^https?://(www\.)?datavizcatalogue\.com',  # Returns 503 to lychee regardless of pacing or UA; site loads fine in a browser.
+    '^https://simbad\.harvard\.edu',  # Times out for lychee regardless of pacing or UA; queries load fine in a browser.
 ]
 
 # NOTE: patterns are regexes, not globs (despite the lychee.example.toml
