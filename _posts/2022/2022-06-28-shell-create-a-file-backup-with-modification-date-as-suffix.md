@@ -2,7 +2,7 @@
 layout: single
 title: "Shell: Create a file backup with modification date as suffix"
 date: 2022-06-28
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-11-11 17:29:36
 excerpt: Useful prior to changing a configuration file
 categories:
     - til
@@ -39,4 +39,4 @@ cp file{,.$(date -d @$(stat -c '%Y' file) "+%Y%m%d")}
 ```
 
 Via
-[commandlinefu.com](https://www.commandlinefu.com/commands/view/24686/create-backup-copy-of-file-adding-suffix-of-the-date-of-the-file-modification-not-todays-date).
+[commandlinefu.com](https://web.archive.org/web/20260212040659/https://www.commandlinefu.com/commands/view/24686/create-backup-copy-of-file-adding-suffix-of-the-date-of-the-file-modification-not-todays-date).

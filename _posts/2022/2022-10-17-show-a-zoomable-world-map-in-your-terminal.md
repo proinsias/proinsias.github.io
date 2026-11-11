@@ -2,7 +2,7 @@
 layout: single
 title: "Show a zoomable world map in your terminal"
 date: 2022-10-17
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-11-11 17:29:36
 categories:
     - tips
 excerpt: Browse the world from your command line
@@ -23,4 +23,4 @@ telnet mapscii.me
 ```
 
 Via
-[commandlinefu.com](https://www.commandlinefu.com/commands/view/27686/show-a-zoomable-world-map).
+[commandlinefu.com](https://web.archive.org/web/20260616154021/https://www.commandlinefu.com/commands/view/27686/show-a-zoomable-world-map).

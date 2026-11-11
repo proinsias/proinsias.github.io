@@ -3,7 +3,7 @@ layout: single
 title: "Using a single sudo to run multiple && arguments"
 excerpt: There's more than one way to skin a cat
 date: 2023-05-02 21:00
-last_modified_at: 2025-05-13 00:33:19
+last_modified_at: 2026-11-11 17:29:36
 categories:
     - til
 tags:
@@ -23,4 +23,4 @@ sudo sh -c 'apt update -y && apt upgrade -y'
 ```
 
 Via
-[commandlinefu.com](https://www.commandlinefu.com/commands/view/24653/using-a-single-sudo-to-run-multiple-arguments).
+[commandlinefu.com](https://web.archive.org/web/20260308204423/https://www.commandlinefu.com/commands/view/24653/using-a-single-sudo-to-run-multiple-arguments).

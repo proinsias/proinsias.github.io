@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2026-11-11 17:29:36
 date: 2022-10-30
 layout: single
 published: true
@@ -48,4 +48,4 @@ The `-w` option tells `history` to write the current history to a file. In the
 above version we redirect to the standard output instead of a file.
 
 Via
-[commandlinefu.com](https://www.commandlinefu.com/commands/view/27907/how-to-display-bash-history-without-line-numbers).
+[commandlinefu.com](https://web.archive.org/web/20260219164753/https://www.commandlinefu.com/commands/view/27907/how-to-display-bash-history-without-line-numbers).
