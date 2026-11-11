@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2023-04-26 13:22:37
+last_modified_at: 2026-11-11 17:29:36
 date: 2022-11-03
 layout: single
 published: true
@@ -20,4 +20,4 @@ convert picture-1.jpg picture-2.jpg picture-3.jpg -append merged_picture.jpg
 ```
 
 Via
-[commandlinefu.com](https://www.commandlinefu.com/commands/view/27838/merge-multiple-jpgs-to-one-picture-vertikal).
+[commandlinefu.com](https://web.archive.org/web/20260513185158/https://www.commandlinefu.com/commands/view/27838/merge-multiple-jpgs-to-one-picture-vertikal).
