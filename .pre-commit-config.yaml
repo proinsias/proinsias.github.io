@@ -26,7 +26,9 @@ repos:
       # Keep hook `rev`s in this file up to date
       - id: prek-autoupdate
         name: prek autoupdate
-        entry: prek autoupdate
+        entry:
+          prek autoupdate --repo-exclude-tag
+          'https://github.com/lycheeverse/lychee=nightly'
         language: system
         pass_filenames: false
         always_run: true
@@ -55,8 +57,8 @@ repos:
       - id: prettier
         stages: [pre-commit]
 
-  - repo: https://github.com/lycheeverse/lychee.git
-    rev: v0.15.1
+  - repo: https://github.com/lycheeverse/lychee
+    rev: lychee-v0.24.2
     hooks:
       - id: lychee
         args: ["--config", "lychee.toml"]
@@ -80,7 +82,7 @@ repos:
   # Mixed
 
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.7.1
+    rev: 1.0.0
     hooks:
       - id: fix-smartquotes
       - id: fix-ligatures
@@ -104,7 +106,7 @@ repos:
         exclude: .git/COMMIT_EDITMSG
 
   - repo: https://github.com/sirosen/check-jsonschema
-    rev: 0.38.2
+    rev: 0.39.0
     hooks:
       - id: check-github-actions
       - id: check-github-workflows
