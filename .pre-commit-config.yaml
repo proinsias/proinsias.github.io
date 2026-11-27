@@ -5,6 +5,9 @@ ci: # https://pre-commit.ci
   skip:
     - lychee
     - prettier
+    # Builds from Rust source; pre-commit.ci's rustc (1.89) is too old for
+    # the latest grep-* crates (need 1.96). Still runs locally.
+    - ripsecrets
     - shellcheck
   submodules: false
 
