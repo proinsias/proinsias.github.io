@@ -30,7 +30,7 @@ it will show up like so:
 ![memo-emoji](http://i.imgur.com/yxRwmkW.png)
 
 Check out this
-[Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) for the
+[Emoji Cheat Sheet](https://web.archive.org/web/20261120190220/https://www.webfx.com/tools/emoji-cheat-sheet/) for the
 names of all recognized emojis.
 
 Via [jbranchaud/til](https://github.com/jbranchaud/til).
