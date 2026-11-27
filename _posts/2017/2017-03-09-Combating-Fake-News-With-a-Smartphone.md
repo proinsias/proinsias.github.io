@@ -16,4 +16,4 @@ tags:
 Pretty cool!
 
 (via the
-[Guardian Project](https://guardianproject.info/2017/02/24/combating-fake-news-with-a-smartphone-proof-mode/))
+[Guardian Project](https://web.archive.org/web/20250927115554/https://guardianproject.info/2017/02/24/combating-fake-news-with-a-smartphone-proof-mode/))
